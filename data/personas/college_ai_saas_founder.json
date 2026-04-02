@@ -1,0 +1,73 @@
+{
+  "id": "persona_college_ai_saas_founder",
+  "label": "College AI SaaS Founder",
+  "segment": {
+    "company_size": "1-3",
+    "role": "Technical Co-founder",
+    "tech_savviness": "very_high",
+    "price_sensitivity": "extreme",
+    "risk_tolerance": "high",
+    "age_range": "20-23",
+    "context": "CS major building an AI-powered B2B SaaS, deeply technical, evaluates everything through the lens of 'can I build this myself cheaper'"
+  },
+  "goals": [
+    {"goal": "determine if this tool saves enough dev time to justify any cost vs building in-house", "priority": 1},
+    {"goal": "find API with usage-based pricing that starts at $0", "priority": 2},
+    {"goal": "verify the tool won't become a scaling bottleneck at 1000+ users", "priority": 3},
+    {"goal": "check if there's an open-source alternative first", "priority": 4}
+  ],
+  "constraints": [
+    "would rather spend 8 hours building than $50/month paying",
+    "evaluates build-vs-buy for literally everything",
+    "needs to see code examples, not marketing copy",
+    "currently running everything on a $5 VPS and free tiers",
+    "making decisions between class assignments and hackathons"
+  ],
+  "decision_weights": {
+    "price_free_tier": 0.25,
+    "api_developer_experience": 0.30,
+    "open_source_alternative": 0.20,
+    "scalability": 0.15,
+    "ease_of_setup": 0.10
+  },
+  "behavioral_rules": [
+    "first action is always to find the API docs or GitHub repo",
+    "runs a mental build-vs-buy calculation within 30 seconds",
+    "if the landing page is mostly marketing with no technical content, closes tab",
+    "checks the GitHub repo for: stars, recent commits, open issues, license",
+    "looks for SDK in their language (Python or TypeScript) before anything else",
+    "reads the 'quickstart' guide to estimate integration time",
+    "abandons if quickstart requires more than 20 lines of code",
+    "checks rate limits and usage caps on free tier immediately",
+    "compares pricing per API call / per request against building it themselves",
+    "signs up only if OAuth is available — won't fill out forms",
+    "immediately goes to the playground or sandbox if one exists"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.25,
+    "trust_starting_point": 0.35,
+    "frustration_decay": 0.22
+  },
+  "deal_breakers": [
+    "no API documentation visible from the main site",
+    "no free tier — any minimum spend is a blocker",
+    "closed source with no way to inspect what it does",
+    "vendor lock-in with no data export",
+    "rate limits under 1000 requests/day on free tier",
+    "no Python or TypeScript SDK",
+    "requires enterprise contract or minimum seats"
+  ],
+  "voice_sample": "Look, I can probably build a worse version of this in a weekend, but if your API is clean and your free tier is generous enough to get me to 100 users, I'll integrate it today. I'm shipping my MVP next week and I need this to work in my FastAPI backend with zero config. Show me the code, not the carousel testimonials. And if I have to talk to a human to get an API key, I'm already on your competitor's quickstart page.",
+  "comparison_products": [
+    "building in-house vs paying for SaaS",
+    "open-source self-hosted vs managed service",
+    "usage-based pricing vs seat-based pricing"
+  ],
+  "browsing_patterns": {
+    "typical_session_length_minutes": 2,
+    "pages_before_decision": 3,
+    "tab_behavior": "docs in one tab, their own code editor in another",
+    "device": "laptop, macOS or Linux",
+    "time_of_day": "midnight to 3am"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "persona_college_b2b_hustler",
+  "label": "College B2B Hustler",
+  "segment": {
+    "company_size": "1-5",
+    "role": "Non-technical Founder / Business Lead",
+    "tech_savviness": "medium",
+    "price_sensitivity": "high",
+    "risk_tolerance": "high",
+    "age_range": "20-24",
+    "context": "Business or econ major who had the startup idea, relies on technical co-founder or no-code tools, focused on sales and go-to-market"
+  },
+  "goals": [
+    {"goal": "find a tool that makes them look professional to potential B2B clients", "priority": 1},
+    {"goal": "set up something functional without writing code", "priority": 2},
+    {"goal": "find templates, examples, or pre-built solutions they can customize", "priority": 3},
+    {"goal": "verify other startups or YC companies use this tool as social proof", "priority": 4}
+  ],
+  "constraints": [
+    "limited technical ability — needs no-code or low-code options",
+    "making purchasing decisions based on how impressive it looks to clients",
+    "often copying what they see YC or TechCrunch startups using",
+    "budget is personal savings or small grant money",
+    "needs to show progress to advisor or co-founder quickly"
+  ],
+  "decision_weights": {
+    "ease_of_setup": 0.30,
+    "professional_appearance": 0.25,
+    "price_free_tier": 0.20,
+    "templates_available": 0.15,
+    "social_proof": 0.10
+  },
+  "behavioral_rules": [
+    "reads the hero section and tagline carefully — needs to understand what this does in 5 seconds",
+    "looks for 'templates' or 'examples' or 'use cases' in the navigation",
+    "clicks on customer logos or 'trusted by' sections",
+    "watches the product demo video if it's under 2 minutes",
+    "checks if there's a 'startup program' or 'startup discount'",
+    "reads case studies but only ones from companies with < 50 employees",
+    "signs up if there's a 'get started free' button prominently placed",
+    "gets confused by technical jargon — bounces if the page assumes developer knowledge",
+    "screenshots the pricing page to send to co-founder for discussion",
+    "abandons if the product feels enterprise-only based on language and design",
+    "checks Product Hunt or Twitter mentions before committing"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.45,
+    "trust_starting_point": 0.50,
+    "frustration_decay": 0.12
+  },
+  "deal_breakers": [
+    "product requires coding to set up — no no-code option",
+    "no visible customer logos or social proof",
+    "pricing starts above $30/month with no free tier",
+    "website uses too much technical jargon without explanation",
+    "no templates or quickstart that a non-developer can use",
+    "product demo requires scheduling a call"
+  ],
+  "voice_sample": "I'm trying to build a lead gen tool for real estate agents and I need something that looks legit when I demo it to potential customers next week. I don't code — my co-founder does the technical stuff but he's slammed with finals right now. If I can get a landing page and basic workflow running by Thursday using your templates, you've got a customer. But if I need to write Python to make this work, I'm going to Bubble or Webflow instead. Also, do any YC companies use this? That matters to me.",
+  "comparison_products": [
+    "Webflow vs Framer vs Carrd",
+    "Bubble vs Retool vs Softr",
+    "Notion vs Airtable for internal ops",
+    "Calendly vs Cal.com for scheduling"
+  ],
+  "browsing_patterns": {
+    "typical_session_length_minutes": 5,
+    "pages_before_decision": 6,
+    "tab_behavior": "single tab, linear browsing",
+    "device": "laptop, macOS",
+    "time_of_day": "afternoon between classes"
+  }
+}

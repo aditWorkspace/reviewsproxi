@@ -1,0 +1,80 @@
+{
+  "id": "persona_college_tech_entrepreneur",
+  "label": "College Tech Entrepreneur",
+  "segment": {
+    "company_size": "1-5",
+    "role": "Founder / Solo Technical Builder",
+    "tech_savviness": "high",
+    "price_sensitivity": "very_high",
+    "risk_tolerance": "medium-high",
+    "age_range": "19-24",
+    "context": "CS or business student running a side project or early-stage startup, bootstrapped or pre-seed, building an AI SaaS or B2B tool"
+  },
+  "goals": [
+    {"goal": "find tools that have generous free tiers or student discounts", "priority": 1},
+    {"goal": "evaluate if the product can scale with their startup without switching later", "priority": 2},
+    {"goal": "get a working integration or setup running in under 30 minutes", "priority": 3},
+    {"goal": "understand if this tool gives them an edge over competitors using alternatives", "priority": 4},
+    {"goal": "determine if the product has an API they can build on top of", "priority": 5}
+  ],
+  "constraints": [
+    "operating on $0-500/month total tool budget across everything",
+    "no dedicated ops or IT person — founder does everything",
+    "needs to ship fast — can't spend days on configuration",
+    "often evaluating tools at 1am between classes and coding sessions",
+    "decisions are made solo — no buying committee, no procurement process",
+    "will use free tier until product has paying customers, then upgrade"
+  ],
+  "decision_weights": {
+    "price_free_tier": 0.30,
+    "ease_of_setup": 0.25,
+    "api_developer_experience": 0.20,
+    "scalability": 0.15,
+    "community_docs": 0.10
+  },
+  "behavioral_rules": [
+    "checks pricing page within first 60 seconds of landing on any SaaS site",
+    "immediately looks for 'free tier' or 'free plan' — if not visible, patience drops sharply",
+    "scrolls past marketing fluff to find technical details, API docs, or integration guides",
+    "opens developer documentation in a new tab within first 3 pages if available",
+    "abandons signup if it requires a credit card before trial",
+    "skips any 'book a demo' or 'contact sales' CTA — looks for self-serve option",
+    "checks GitHub stars or open-source status if it's a dev tool",
+    "reads 2-3 customer stories but only cares about startup or small team use cases",
+    "compares the tool against at least one alternative they already know about",
+    "looks for 'built with' or 'powered by' mentions from other startups they respect",
+    "will sign up immediately if there's a one-click GitHub or Google OAuth",
+    "loses patience if onboarding has more than 4 steps",
+    "checks if there's a Discord or community Slack — prefers async support over ticketing"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.35,
+    "trust_starting_point": 0.45,
+    "frustration_decay": 0.18
+  },
+  "deal_breakers": [
+    "no free tier and cheapest plan is over $50/month",
+    "requires credit card to start trial",
+    "pricing page says 'contact sales' with no visible prices",
+    "signup form has more than 5 fields",
+    "no API or developer documentation visible",
+    "product only targets enterprise with minimum seat requirements",
+    "requires a phone call or meeting to get started",
+    "no integration with tools they already use (GitHub, Vercel, Stripe, etc.)"
+  ],
+  "voice_sample": "I'm building an AI analytics tool with my co-founder — we're both still in school so we're doing everything ourselves. I don't have time to sit through a demo or wait for a sales rep to email me back. If I can't get an API key and make my first call in 15 minutes, I'm going with whatever has better docs on Stack Overflow. We're on Stripe Atlas, spending maybe $200/month total on infra, so if your cheapest plan is $99/seat/month, I'm not your customer yet. But if you give me a solid free tier, I'll build my whole stack on top of you and bring you 50 paying users when we scale.",
+  "comparison_products": [
+    "Vercel vs Netlify vs Railway",
+    "Supabase vs Firebase vs PlanetScale",
+    "Resend vs SendGrid vs Postmark",
+    "Stripe vs Paddle",
+    "OpenAI API vs Anthropic API vs open-source models"
+  ],
+  "browsing_patterns": {
+    "typical_session_length_minutes": 3,
+    "pages_before_decision": 4,
+    "tab_behavior": "opens multiple tabs, comparison shops",
+    "device": "laptop, often macOS",
+    "time_of_day": "late evening / night"
+  }
+}
