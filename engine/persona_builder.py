@@ -10,8 +10,6 @@ import json
 import uuid
 from typing import Any
 
-import anthropic
-
 from engine.cluster import build_reviewer_profiles, cluster_reviewers
 
 # ---------------------------------------------------------------------------
@@ -95,7 +93,7 @@ def synthesize_persona(
     cluster_reviews: list[dict],
     cluster_signals: dict,
     segment_label: str,
-    client: anthropic.Anthropic,
+    client,
 ) -> dict:
     """Use Claude to generate a structured persona from cluster data.
 
@@ -119,14 +117,16 @@ def synthesize_persona(
     """
     user_content = _build_user_prompt(cluster_reviews, cluster_signals, segment_label)
 
-    message = client.messages.create(
-        model="claude-sonnet-4-20250514",
+    from engine.llm import MODEL
+    response = client.chat.completions.create(
+        model=MODEL,
         max_tokens=2048,
-        system=_SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": user_content}],
+        messages=[
+            {"role": "system", "content": _SYSTEM_PROMPT},
+            {"role": "user", "content": user_content},
+        ],
     )
-
-    raw_text = message.content[0].text.strip()
+    raw_text = response.choices[0].message.content.strip()
 
     # Tolerate markdown fences just in case.
     if raw_text.startswith("```"):
@@ -145,7 +145,7 @@ def build_personas_from_signals(
     reviews: list[dict],
     signals: dict,
     n_personas: int = 5,
-    client: anthropic.Anthropic | None = None,
+    client=None,
 ) -> list[dict]:
     """Full pipeline: reviews -> clusters -> LLM-synthesised personas.
 
@@ -169,7 +169,8 @@ def build_personas_from_signals(
         One structured persona dict per cluster.
     """
     if client is None:
-        client = anthropic.Anthropic()
+        from engine.llm import get_client
+        client = get_client()
 
     # 1. Group reviews by reviewer.
     reviews_by_reviewer: dict[str, list[dict]] = {}

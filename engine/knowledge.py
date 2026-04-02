@@ -20,8 +20,6 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-import anthropic
-
 from engine.extract import extract_all_signals
 from engine.aggregate import aggregate_signals
 
@@ -199,7 +197,7 @@ def train_persona_on_reviews(
     persona_id: str,
     reviews: list[dict],
     source_name: str = "uploaded_csv",
-    client: anthropic.Anthropic | None = None,
+    client=None,
     progress_callback: Any = None,
 ) -> dict:
     """
@@ -214,7 +212,8 @@ def train_persona_on_reviews(
     Returns the updated trained knowledge dict.
     """
     if client is None:
-        client = anthropic.Anthropic()
+        from engine.llm import get_client
+        client = get_client()
 
     persona_config = load_persona_config(persona_id)
     existing_knowledge = load_trained_knowledge(persona_id)
@@ -247,13 +246,14 @@ def train_persona_on_reviews(
         n_reviews=len(reviews),
     )
 
-    response = client.messages.create(
-        model="claude-sonnet-4-6",
+    from engine.llm import MODEL
+    response = client.chat.completions.create(
+        model=MODEL,
         max_tokens=8000,
         messages=[{"role": "user", "content": prompt}],
     )
 
-    response_text = response.content[0].text
+    response_text = response.choices[0].message.content
 
     # Parse JSON from response
     import re

@@ -186,7 +186,7 @@ def extract_all_signals(
     reviews: list[dict],
     category: str,
     batch_size: int = 30,
-    client: anthropic.Anthropic | None = None,
+    client=None,
 ) -> list[dict]:
     """Batch all reviews and run signal extraction on each batch.
 
@@ -199,8 +199,8 @@ def extract_all_signals(
     batch_size:
         Number of reviews per LLM call (default 30).
     client:
-        Optional pre-built Anthropic client.  A default client will be
-        created from the ``ANTHROPIC_API_KEY`` environment variable when
+        Optional pre-built OpenAI-compatible client.  A default client will be
+        created from the ``OPENROUTER_API_KEY`` environment variable when
         *None*.
 
     Returns
@@ -209,7 +209,8 @@ def extract_all_signals(
         One signal dict per batch.
     """
     if client is None:
-        client = anthropic.Anthropic()
+        from engine.llm import get_client
+        client = get_client()
 
     batches: list[list[dict]] = [
         reviews[i : i + batch_size]
@@ -266,12 +267,13 @@ if __name__ == "__main__":
 
     print(f"Running extraction on {len(sample_reviews)} sample reviews …")
     try:
-        client = anthropic.Anthropic()
+        from engine.llm import get_client
+        client = get_client()
         batch_result = extract_signals_batch(sample_reviews, category, client)
         print(json.dumps(batch_result, indent=2))
-    except anthropic.AuthenticationError:
+    except Exception as exc:
         print(
-            "Set ANTHROPIC_API_KEY to run the smoke-test.",
+            f"Smoke-test failed: {exc}",
             file=sys.stderr,
         )
         sys.exit(1)
