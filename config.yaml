@@ -1,0 +1,68 @@
+openrouter:
+  model: "deepseek/deepseek-v3.2"
+
+scraper:
+  target_queries:
+    - "college backpack"
+    - "student ID wallet"
+    - "laptop stand desk"
+    - "college dorm supplies"
+    - "noise cancelling headphones student"
+  max_reviews_per_query: 200
+  headless: true
+
+clustering:
+  sweep_range: [3, 10]
+  scoring_weights:
+    silhouette: 0.5
+    intra_similarity: 0.3
+    inter_distance: 0.2
+
+# Phase 2 — uncomment to activate
+# active_persona: college_tech_entrepreneur
+# scraper:
+#   target_queries:
+#     - "vercel review developer"
+#     - "supabase postgres developer"
+#     - "stripe payments startup"
+#   g2_targets:
+#     - "vercel"
+#     - "supabase"
+#     - "linear"
+
+anthropic:
+  model_extraction: claude-haiku-4-5-20251001
+  model_persona: claude-sonnet-4-6
+  model_agent: claude-sonnet-4-6
+  model_insight: claude-sonnet-4-6
+
+data:
+  amazon_categories:
+    - "raw_review_Electronics"
+    - "raw_review_Software"
+    - "raw_review_Office_Products"
+    - "raw_review_Computers"
+    - "raw_review_Clothing_Shoes_and_Jewelry"
+    - "raw_review_Sports_and_Outdoors"
+  max_reviews_per_category: 5000
+  min_review_length: 50
+  verified_only: true
+
+extraction:
+  batch_size: 30
+  embedding_model: "all-MiniLM-L6-v2"
+  similarity_threshold: 0.85
+
+personas:
+  n_clusters: 5
+  target_segment: "college_tech_entrepreneur"
+
+agent:
+  max_steps: 25
+  human_delay_seconds: 1.5
+  screenshot: true
+  video: true
+
+storage:
+  db_path: "proxi_runs.db"
+  runs_dir: "runs"
