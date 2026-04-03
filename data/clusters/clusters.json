@@ -1,0 +1,3382 @@
+{
+  "chosen_n_clusters": 5,
+  "sweep_winner": {
+    "silhouette": 0.1865304708480835,
+    "intra_similarity": 0.7357778310775757,
+    "inter_distance": 0.5675377249717712,
+    "combined_score": 0.4275061297416687
+  },
+  "cluster_0": {
+    "label_hint": null,
+    "member_count": 38,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Poor durability/failure upon first use",
+            "frequency": 4,
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Poor fit or sizing issues",
+            "frequency": 3,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Product arrives in poor condition (wrinkled, cheaply made)",
+            "frequency": 3,
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Inconsistent or inaccurate performance",
+            "frequency": 2,
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Inadequate comfort or material quality",
+            "frequency": 1,
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "High quality / durability for a reasonable price",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Ease of use and convenience (folding, storage, assembly)",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Product enables or enhances fun, recreational activity",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Effective performance for fitness/health goals",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Product is portable and suitable for travel/outdoor events",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Product serves as a reliable safety/emergency aid",
+            "priority": 0.65
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for a portable solution for outdoor/group activities",
+            "context": "Camping, beach trips, community events, visiting family with a pool"
+          },
+          {
+            "trigger": "Seeking to improve personal fitness regimen",
+            "context": "Unable to go to gym, looking to up daily exercise"
+          },
+          {
+            "trigger": "Buying gifts for children or grandchildren",
+            "context": "Holidays, birthdays, learning activities (skiing, swimming, skating)"
+          },
+          {
+            "trigger": "Requirement for specific functionality (e.g., measurement, safety)",
+            "context": "Learning golf, needing first aid kit, requiring accurate display for elderly user"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product is too cheaply made and will not last",
+            "severity": 0.9
+          },
+          {
+            "objection": "Product may be inaccurate or inconsistent",
+            "severity": 0.8
+          },
+          {
+            "objection": "Product is not comfortable or fits poorly",
+            "severity": 0.75
+          },
+          {
+            "objection": "Product is difficult to fit or risks damage during use",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Generic/unknown brand or cheap product",
+            "reason": "Poor durability or performance",
+            "threshold": "Failure upon first use or obvious low quality"
+          },
+          {
+            "from_product": "Local retail store purchase",
+            "reason": "Higher price for same product",
+            "threshold": "Finding a significantly better deal online"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Quality/Durability",
+          "Price/Value for Money",
+          "Ease of Use/Convenience",
+          "Specific Functionality/Performance",
+          "Fit/Sizing",
+          "Portability/Storage",
+          "Visual Appeal/Design"
+        ],
+        "deal_breakers": [
+          "Product breaks immediately or is unusable upon arrival",
+          "Extreme sizing issues that make product impractical",
+          "Critical performance failure (e.g., inaccurate medical device)"
+        ],
+        "friction_tolerance": "medium"
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Sizing is inaccurate or inconsistent",
+            "frequency": 4,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Product is uncomfortable (scratchy, stiff, tight)",
+            "frequency": 4,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Lack of specific features (e.g., belt loops, longer length)",
+            "frequency": 2,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Poor quality control (misprinted logo, defective item)",
+            "frequency": 2,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Product is too difficult for their skill/strength level",
+            "frequency": 1,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Product not matching description/advertised use case",
+            "frequency": 2,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Poor performance in specific conditions (rain without fly)",
+            "frequency": 1,
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Comfort (fit, fabric feel, no irritation)",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Durability and long-term performance",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Functional performance for specific use (warmth, grip, stability, commuting)",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Easy care and maintenance",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Accurate sizing and good fit",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Stylish appearance",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Value for money",
+            "priority": 0.75
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Recommendation from review or personal experience",
+            "context": "Strong positive reviews or previous success with brand/product line"
+          },
+          {
+            "trigger": "Need for a specific functional solution",
+            "context": "Replacing a broken item, solving a problem (e.g., short girth, cold feet, stable leg)"
+          },
+          {
+            "trigger": "Positive word-of-mouth or trainer/friend recommendation",
+            "context": "Noticed by trainer, received compliments, gifted and liked"
+          },
+          {
+            "trigger": "Replacing an inadequate product",
+            "context": "Previous product failed or was unsatisfactory (e.g., uncomfortable socks, poor quality blouse)"
+          },
+          {
+            "trigger": "Lifestyle change or commuting need",
+            "context": "Seeking to avoid traffic, improve commute"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product is uncomfortable or causes irritation",
+            "severity": 0.9
+          },
+          {
+            "objection": "Sizing is wrong, leading to poor fit",
+            "severity": 0.85
+          },
+          {
+            "objection": "Quality is lower than expected for the brand/price",
+            "severity": 0.8
+          },
+          {
+            "objection": "Product is misrepresented (e.g., gender-specific, fabric type)",
+            "severity": 0.7
+          },
+          {
+            "objection": "Missing crucial information (e.g., need for rain fly not stressed)",
+            "severity": 0.6
+          },
+          {
+            "objection": "Product is too difficult to use for their ability level",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Other jeggings or jeans",
+            "reason": "Better fit and flattering effect",
+            "threshold": "Magical flattening and comfort"
+          },
+          {
+            "from_product": "Other socks (e.g., Darn Tough)",
+            "reason": "Better comfort, fit, and value",
+            "threshold": "More comfortable, perfect fit, much cheaper"
+          },
+          {
+            "from_product": "Car commute",
+            "reason": "Avoid traffic and have fun",
+            "threshold": "Same commute time, more enjoyable"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Comfort/Fit",
+          "Quality/Durability",
+          "Performance/Function",
+          "Value for Money",
+          "Accurate Representation",
+          "Ease of Care",
+          "Style/Aesthetics"
+        ],
+        "deal_breakers": [
+          "Extreme discomfort or irritation",
+          "Severely inaccurate sizing",
+          "Critical quality defect or failure",
+          "Product being unusably difficult"
+        ],
+        "friction_tolerance": "low"
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Poor durability - items break, tarnish, or wear out quickly",
+            "frequency": 5,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Sizing issues - items run small, large, or fit inconsistently",
+            "frequency": 10,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Low quality materials - fabric feels cheap, thin, stiff, or scratchy",
+            "frequency": 8,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Poor construction - seams off, straps break, items arrive damaged",
+            "frequency": 4,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Design flaws - items slip off, are hard to put on, or have uncomfortable features",
+            "frequency": 3,
+            "emotional_intensity": 0.75
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Items that fit well and are true to size",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Durable items that last through regular use",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Comfortable and functional clothing/accessories",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Good quality materials that feel substantial and hold up",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Flattering and attractive appearance",
+            "priority": 0.75
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for specific occasion or outfit coordination",
+            "context": "Looking for items to match existing wardrobe pieces or for specific events"
+          },
+          {
+            "trigger": "Price point perceived as good value",
+            "context": "Attracted by affordable pricing for the perceived quality"
+          },
+          {
+            "trigger": "Positive aesthetic appeal from product images",
+            "context": "Drawn to colors, styles, or designs shown in listings"
+          },
+          {
+            "trigger": "Need for specialized fit (e.g., for busty figures)",
+            "context": "Seeking items that accommodate specific body types not well-served by mainstream options"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Inconsistent sizing that doesn't match size charts",
+            "severity": 0.9
+          },
+          {
+            "objection": "Items look different in person vs. product photos",
+            "severity": 0.7
+          },
+          {
+            "objection": "Poor customer service and difficult returns",
+            "severity": 0.6
+          },
+          {
+            "objection": "Materials feel cheap or uncomfortable",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Other budget brands",
+            "reason": "Finding better quality alternatives at similar price points",
+            "threshold": "Multiple disappointing experiences with durability or fit"
+          },
+          {
+            "from_product": "Higher-end brands",
+            "reason": "Seeking affordable alternatives for casual or riskier situations",
+            "threshold": "When expensive items would be at risk of damage or theft"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Fit and sizing accuracy",
+          "Material quality and durability",
+          "Comfort and wearability",
+          "Appearance and style",
+          "Price and perceived value",
+          "Customer service and return policy"
+        ],
+        "deal_breakers": [
+          "Items that are completely unwearable due to fit issues",
+          "Products that break or fail immediately after purchase",
+          "Materials that are uncomfortably scratchy or stiff",
+          "Significant mismatch between product description and reality"
+        ],
+        "friction_tolerance": "medium"
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "fit issues (runs large, small, odd cut)",
+            "frequency": 10,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "size chart discrepancies or sizing confusion",
+            "frequency": 4,
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "product durability/longevity issues",
+            "frequency": 6,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "material quality problems (thin, holes, snags)",
+            "frequency": 5,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "poor product construction/design flaws",
+            "frequency": 4,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "product not matching description/image",
+            "frequency": 3,
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "functional limitations (fogging, smell, usability)",
+            "frequency": 3,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "price/value dissatisfaction",
+            "frequency": 2,
+            "emotional_intensity": 0.4
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "accurate fit/consistent sizing",
+            "priority": 0.9
+          },
+          {
+            "outcome": "comfortable and soft materials",
+            "priority": 0.85
+          },
+          {
+            "outcome": "durability and long-lasting wear",
+            "priority": 0.8
+          },
+          {
+            "outcome": "functional performance (warmth, dryness, support)",
+            "priority": 0.75
+          },
+          {
+            "outcome": "good value for price",
+            "priority": 0.7
+          },
+          {
+            "outcome": "cute/style/aesthetic appeal",
+            "priority": 0.6
+          },
+          {
+            "outcome": "specific functional features (pockets, adjustability)",
+            "priority": 0.55
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "functional need (cold weather, support, costume)",
+            "context": "specific situational need"
+          },
+          {
+            "trigger": "positive fit and comfort experience",
+            "context": "repeat purchase after successful trial"
+          },
+          {
+            "trigger": "good quality/durability perception",
+            "context": "initial purchase based on reviews or expectations"
+          },
+          {
+            "trigger": "style/aesthetic appeal",
+            "context": "desire for fashionable or cute items"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "product not meeting functional expectations (e.g., waterproofing)",
+            "severity": 0.8
+          },
+          {
+            "objection": "significant fit mismatch causing unusability",
+            "severity": 0.9
+          },
+          {
+            "objection": "poor material quality making product unusable (e.g., see-through)",
+            "severity": 0.85
+          },
+          {
+            "objection": "durability failure during regular use",
+            "severity": 0.8
+          },
+          {
+            "objection": "design flaws limiting usability",
+            "severity": 0.7
+          },
+          {
+            "objection": "price perceived as too high for value",
+            "severity": 0.6
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "other support pouch underwear",
+            "reason": "better design/comfort",
+            "threshold": "previous product didn't provide expected support"
+          },
+          {
+            "from_product": "men's jeans",
+            "reason": "better fit",
+            "threshold": "women's jeans had odd cut"
+          },
+          {
+            "from_product": "Hanes brand socks",
+            "reason": "wears out faster",
+            "threshold": "shorter lifespan"
+          }
+        ],
+        "decision_factors_ranked": [
+          "fit/comfort",
+          "durability",
+          "material quality",
+          "functional performance",
+          "value for price",
+          "style/aesthetics",
+          "features/pockets"
+        ],
+        "deal_breakers": [
+          "unwearable due to fit issues",
+          "unwearable due to material (e.g., see-through)",
+          "failure to perform core function",
+          "significant durability failure"
+        ],
+        "friction_tolerance": "medium"
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Poor fit/incorrect sizing",
+            "frequency": 6,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Low quality/material issues (thin, flimsy, misprinted)",
+            "frequency": 6,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Lack of comfort/support",
+            "frequency": 4,
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Product mismatch with description/expectations",
+            "frequency": 4,
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Product fits well and is comfortable",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Product is high quality and durable",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Product meets a specific event/costume need",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Product is visually appealing/stylish",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Good value for the price",
+            "priority": 0.65
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Specific event or occasion (concert, party, Halloween)",
+            "context": "Need for matching, costume, or formalwear"
+          },
+          {
+            "trigger": "Replacement for worn-out item",
+            "context": "Seeking an upgrade or identical function"
+          },
+          {
+            "trigger": "Positive recommendations or descriptions",
+            "context": "Trust in product claims or reviews"
+          },
+          {
+            "trigger": "Gift-giving for others (children, family)",
+            "context": "Desire to please or solve a problem for recipient"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Size/fit is inaccurate or uncomfortable",
+            "severity": 0.9
+          },
+          {
+            "objection": "Material quality is poor (thin, see-through, rigid)",
+            "severity": 0.8
+          },
+          {
+            "objection": "Product lacks promised features/support",
+            "severity": 0.75
+          },
+          {
+            "objection": "Design flaws causing functional issues (e.g., gape, bad heel cup)",
+            "severity": 0.85
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Old/worn-out items (jeans, boots)",
+            "reason": "Seeking better quality or style",
+            "threshold": "Item is no longer functional or desirable"
+          },
+          {
+            "from_product": "Ill-fitting or uncomfortable alternatives (socks, shoes)",
+            "reason": "Solving fit, comfort, or loss problems",
+            "threshold": "Persistent discomfort or inconvenience"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Fit/Comfort",
+          "Quality/Durability",
+          "Style/Appearance",
+          "Price/Value",
+          "Occasion/Suitability",
+          "Customer Service"
+        ],
+        "deal_breakers": [
+          "Severe fit issues causing pain",
+          "Material is see-through or non-functional",
+          "Critical design flaws (e.g., missing heel cup)",
+          "Product drastically differs from description"
+        ],
+        "friction_tolerance": "low"
+      }
+    ],
+    "aggregate_signals": {
+      "top_pain_points": [
+        "bulkiness leading to discomfort",
+        "difficulty with installation or fit",
+        "poor protection or performance",
+        "defective or flawed manufacturing",
+        "misleading product description",
+        "inadequate sizing or fit issues",
+        "annoying design flaws",
+        "Poor fit: items too large, too small, or narrow in specific areas (toes, feet, head circumference)",
+        "Low quality or cheap-feeling material compared to expectations or other brands",
+        "Sizing inconsistency within same brand or compared to standard sizing"
+      ],
+      "top_desired_outcomes": [
+        "effective protection against drops",
+        "comfortable and non-bulky fit",
+        "durable and long-lasting product",
+        "easy installation and use",
+        "accurate sizing and fit",
+        "good value for price",
+        "stylish and attractive appearance",
+        "Comfort and fit for specific body types (curvy, petite, swollen feet)",
+        "High-quality, durable materials that last through washing and wear",
+        "Versatile items suitable for layering, different weather, or multiple occasions"
+      ],
+      "top_deal_breakers": [
+        "defective manufacturing",
+        "misleading product claims",
+        "complete failure of core function",
+        "severe discomfort",
+        "Poor fit that cannot be adjusted or broken in",
+        "Material quality feels cheap or will not last",
+        "Sizing inconsistency within the same brand",
+        "Physical discomfort or injury caused by the product",
+        "Color significantly mismatched from photos",
+        "Severe sizing inconsistency"
+      ],
+      "dominant_friction_tolerance": "medium"
+    }
+  },
+  "cluster_1": {
+    "label_hint": null,
+    "member_count": 2,
+    "representative_batches": [
+      {
+        "signals": [
+          {
+            "signal_name": "signal_name_here",
+            "evidence": [
+              "exact quote 1",
+              "exact quote 2"
+            ],
+            "review_ids": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "pain_points": [],
+        "desired_outcomes": [],
+        "purchase_triggers": [],
+        "objections": [],
+        "switching_triggers": [],
+        "decision_factors_ranked": [],
+        "deal_breakers": [],
+        "friction_tolerance": "medium"
+      }
+    ],
+    "aggregate_signals": {
+      "top_pain_points": [],
+      "top_desired_outcomes": [],
+      "top_deal_breakers": [],
+      "dominant_friction_tolerance": "medium"
+    }
+  },
+  "cluster_2": {
+    "label_hint": null,
+    "member_count": 17,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Chargers/cables fail prematurely",
+            "frequency": 2,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Bands stretch out easily and lose fit",
+            "frequency": 2,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Product damages device (scratches, rust)",
+            "frequency": 2,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Charging is slow",
+            "frequency": 1,
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Product breaks easily (plastic, from a drop)",
+            "frequency": 2,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Product color/scratches easily",
+            "frequency": 2,
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Adhesive fails (popsocket/attachment won't stick)",
+            "frequency": 2,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Product incompatible with phone/case",
+            "frequency": 3,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Incorrect product for phone (charger mismatch)",
+            "frequency": 1,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Blocks fingerprint sensor",
+            "frequency": 1,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Poor placement aids for screen protector",
+            "frequency": 1,
+            "emotional_intensity": 0.3
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Long-lasting durability (doesn't break/stretch/fail quickly)",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Device protection (from drops, scratches)",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Fast, reliable charging",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Aesthetics (color shows, looks good)",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Comfort and good fit",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Easy, frustration-free installation/application",
+            "priority": 0.65
+          },
+          {
+            "outcome": "Full device functionality (ports, sensors, case compatibility)",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Good value for price",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Reliable adhesive/attachment",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Lifetime guarantee/easy warranty process",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "New phone acquisition",
+            "context": "Buying accessory for new phone or gift"
+          },
+          {
+            "trigger": "Need for durability/reliability",
+            "context": "Previous cheap products failed repeatedly"
+          },
+          {
+            "trigger": "Positive word-of-mouth/reviews",
+            "context": "Seeing recommendations or guarantees"
+          },
+          {
+            "trigger": "Specific feature need",
+            "context": "Fast charging, color match, grip, kickstand"
+          },
+          {
+            "trigger": "Price sensitivity",
+            "context": "Choosing affordable alternative to expensive brand"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product will fail shortly after purchase",
+            "severity": 0.95
+          },
+          {
+            "objection": "Product will damage my expensive device",
+            "severity": 0.9
+          },
+          {
+            "objection": "Product won't work with my phone/case",
+            "severity": 0.85
+          },
+          {
+            "objection": "Adhesive/attachment is unreliable",
+            "severity": 0.8
+          },
+          {
+            "objection": "Installation is difficult or imprecise",
+            "severity": 0.4
+          },
+          {
+            "objection": "Product is incorrect for my device",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Cheap accessories",
+            "reason": "Premature failure or poor quality",
+            "threshold": "A few weeks to a few months of use"
+          },
+          {
+            "from_product": "Expensive brands",
+            "reason": "Found cheaper alternative with good quality",
+            "threshold": "Price difference perceived as unjustified"
+          },
+          {
+            "from_product": "Generic/unknown brands",
+            "reason": "Seeking reliability and good reviews",
+            "threshold": "Repeated bad experiences"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Durability/Longevity",
+          "Device Protection",
+          "Compatibility with Device/Case",
+          "Price/Value",
+          "Ease of Use/Installation",
+          "Aesthetics/Design",
+          "Specific Features (e.g., fast charge, grip)"
+        ],
+        "deal_breakers": [
+          "Incompatibility with phone or case",
+          "Product damages device",
+          "Complete failure within days/weeks"
+        ],
+        "friction_tolerance": "low"
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Product physically degrades quickly (e.g., coating chips, falls apart)",
+            "frequency": 5,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Product fails to perform core protective function (screen cracks, doesn't protect)",
+            "frequency": 4,
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Poor or non-functional design (tricky to seal, stand limited, hard to assemble, bulky)",
+            "frequency": 5,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Included accessories are worthless (e.g., stylus)",
+            "frequency": 1,
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Software/user experience issues (unwanted ads, update letdown, dark screen during calls, profile name errors)",
+            "frequency": 4,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Device/battery malfunction (won't charge, speaker tapers off)",
+            "frequency": 2,
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Product is overpriced for the value/quality",
+            "frequency": 1,
+            "emotional_intensity": 0.65
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable device/case protection from drops",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Durable, long-lasting physical product",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Convenience and time-saving (grab-and-go, no purse/wallet needed)",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Aesthetic appeal that shows off device or adds personal style",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Good value for money",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Ease of use and intuitive design",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Functional multi-purpose features (stand, card holder, night light)",
+            "priority": 0.65
+          },
+          {
+            "outcome": "Reliable battery life/charging",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for protection for a new device",
+            "context": "After acquiring new phone/tablet"
+          },
+          {
+            "trigger": "Replacement of failing/unsatisfactory current product",
+            "context": "Dissatisfaction with stock cover or previous case"
+          },
+          {
+            "trigger": "Attractive aesthetic/style features",
+            "context": "Desire to personalize device"
+          },
+          {
+            "trigger": "Specific functional need (e.g., stand, card holder, water resistance)",
+            "context": "Identified gap in current setup"
+          },
+          {
+            "trigger": "Positive ratings/reviews",
+            "context": "Pre-purchase research"
+          },
+          {
+            "trigger": "Recommendation from family/friend",
+            "context": "Social proof"
+          },
+          {
+            "trigger": "Good value proposition/low price point",
+            "context": "Budget-conscious shopping"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product lacks durability and degrades quickly",
+            "severity": 0.95
+          },
+          {
+            "objection": "Product fails its core protection claim",
+            "severity": 1.0
+          },
+          {
+            "objection": "Product is overpriced relative to competitors/quality",
+            "severity": 0.8
+          },
+          {
+            "objection": "Poor/unreliable software or update experience",
+            "severity": 0.85
+          },
+          {
+            "objection": "Design is bulky, tricky, or inconvenient to use",
+            "severity": 0.7
+          },
+          {
+            "objection": "Includes unwanted software (ads/bloatware)",
+            "severity": 0.75
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Stock/default cover",
+            "reason": "Desire for better protection, style, or added features",
+            "threshold": "Boredom or perceived risk"
+          },
+          {
+            "from_product": "Previous case/cover",
+            "reason": "Physical failure (chipping, breaking) or functional failure (didn't protect)",
+            "threshold": "First failure or rapid degradation"
+          },
+          {
+            "from_product": "Competitor phone/brand",
+            "reason": "Better value, specific feature (fingerprint sensor, battery), or dissatisfaction with update/software policy",
+            "threshold": "Price/value mismatch or repeated software frustration"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Protection/Durability",
+          "Price/Value",
+          "Design/Aesthetics",
+          "Convenience/Functionality",
+          "User Reviews",
+          "Brand/Software Experience"
+        ],
+        "deal_breakers": [
+          "Fails to protect device from damage",
+          "Physically breaks/degrades almost immediately",
+          "Contains intrusive/unremovable ads/bloatware"
+        ],
+        "friction_tolerance": "low"
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Product breaks easily or is fragile",
+            "frequency": 5,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poor fit or sizing issues",
+            "frequency": 4,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Difficult to remove or install",
+            "frequency": 3,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Interferes with device functionality (touch screen)",
+            "frequency": 3,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Poor customer service or warranty support",
+            "frequency": 2,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Cheap or low-quality materials/construction",
+            "frequency": 3,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Product does not adhere properly",
+            "frequency": 2,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Air bubbles in screen protector installation",
+            "frequency": 1,
+            "emotional_intensity": 0.3
+          },
+          {
+            "signal": "Compatibility issues (remote not working with phone)",
+            "frequency": 1,
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Device protection from damage",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Product durability and longevity",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Good fit and proper sizing",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Aesthetic appeal and personal expression",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Ease of installation and removal",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Maintains full device functionality",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Convenience (multi-function, reduces clutter)",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Easy returns/customer service",
+            "priority": 0.4
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "New phone or device purchase",
+            "context": "Getting a new phone slightly bigger than previous one"
+          },
+          {
+            "trigger": "Replacement for broken/worn accessory",
+            "context": "Original watch bands broke after a year"
+          },
+          {
+            "trigger": "Need for organization/convenience",
+            "context": "Husband likes to carry all cards and money instead of wallet"
+          },
+          {
+            "trigger": "Desire for aesthetic upgrade",
+            "context": "Wanted a nice-looking case, love the color and little hearts"
+          },
+          {
+            "trigger": "Travel or multi-device charging solution",
+            "context": "Cuts down on chargers for house, work, or travel"
+          },
+          {
+            "trigger": "Price value compared to original brand",
+            "context": "Much cheaper price than buying original replacement bands"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product breaks too easily/fragile",
+            "severity": 0.9
+          },
+          {
+            "objection": "Poor fit or sizing issues",
+            "severity": 0.8
+          },
+          {
+            "objection": "Difficult installation/removal",
+            "severity": 0.7
+          },
+          {
+            "objection": "Interferes with device function (touch screen)",
+            "severity": 0.8
+          },
+          {
+            "objection": "Cheap look/feel or poor materials",
+            "severity": 0.6
+          },
+          {
+            "objection": "Bad customer service/warranty experience",
+            "severity": 0.9
+          },
+          {
+            "objection": "Compatibility problems",
+            "severity": 0.7
+          },
+          {
+            "objection": "Adhesion failure",
+            "severity": 0.6
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Previous case model for older phone",
+            "reason": "New phone size different, case looked/ felt cheap on new model",
+            "threshold": "Perceived quality mismatch with new device"
+          },
+          {
+            "from_product": "Basic charger",
+            "reason": "USB port broke loose, cheaply built",
+            "threshold": "Physical failure on 3rd use"
+          },
+          {
+            "from_product": "Other case brands/models",
+            "reason": "Tried several others, this one became favorite",
+            "threshold": "Found preferred option after experimentation"
+          },
+          {
+            "from_product": "Original manufacturer accessories",
+            "reason": "High price, broke after only a year",
+            "threshold": "Cost and durability dissatisfaction"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Durability/Protection",
+          "Fit/Compatibility",
+          "Aesthetics/Design",
+          "Ease of Use",
+          "Price/Value",
+          "Functionality (touchscreen/charging)",
+          "Brand reputation"
+        ],
+        "deal_breakers": [
+          "Breaks easily / not durable",
+          "Does not fit properly",
+          "Blocks touch screen functionality",
+          "Extremely difficult to install/remove",
+          "Terrible customer service"
+        ],
+        "friction_tolerance": "medium"
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Product does not fit phone model correctly (covers ports/flash, wrong size)",
+            "frequency": 5,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Inadequate product protection (fragile, flimsy, screen not covered, edge exposure)",
+            "frequency": 6,
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Difficulty installing/removing the product (hard to apply case, causes damage)",
+            "frequency": 3,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Missing accessories/components (screen protector, cleaning cloth)",
+            "frequency": 2,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Product malfunction/defective (doesn't charge, breaks quickly)",
+            "frequency": 3,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Case interferes with belt clip/latch functionality",
+            "frequency": 1,
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Inconvenient design (long flap, cover gets in the way)",
+            "frequency": 2,
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Misleading product description/materials",
+            "frequency": 2,
+            "emotional_intensity": 0.85
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Effective protection against drops and damage",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Perfect fit for specific phone model (all ports accessible)",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Durable, long-lasting material",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Easy installation and removal",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Minimal bulk/lightweight design",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Good grip/prevention of slipping",
+            "priority": 0.65
+          },
+          {
+            "outcome": "Hands-free functionality (e.g., for driving)",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Style/appearance (looks cool, shows phone color)",
+            "priority": 0.55
+          },
+          {
+            "outcome": "Additional functionality (card holder, stand)",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Value for money",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "New legal requirement (e.g., hands-free law)",
+            "context": "Needed for driving"
+          },
+          {
+            "trigger": "Need to protect phone from children/drops",
+            "context": "Family/kids use"
+          },
+          {
+            "trigger": "Dissatisfaction with previous case (poor fit, interferes with screen protector)",
+            "context": "Replacing inferior product"
+          },
+          {
+            "trigger": "Seeking specific feature (wallet, stand, clip)",
+            "context": "Functionality upgrade"
+          },
+          {
+            "trigger": "Desire for aesthetic customization (color, clear case)",
+            "context": "Personal style"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Case does not provide adequate front/screen protection",
+            "severity": 0.8
+          },
+          {
+            "objection": "Risk of damaging phone during case installation/removal",
+            "severity": 0.7
+          },
+          {
+            "objection": "Bulkiness or interference with phone functions/accessories",
+            "severity": 0.6
+          },
+          {
+            "objection": "Product may not be genuine/authentic",
+            "severity": 0.5
+          },
+          {
+            "objection": "Price vs. protection level mismatch",
+            "severity": 0.4
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Cases that interfere with screen protectors",
+            "reason": "Needs case compatible with glass screen protector",
+            "threshold": "Case lifts protector off glass"
+          },
+          {
+            "from_product": "Bulky/wallet-style cases with covers",
+            "reason": "Desire for easier phone access, less hassle",
+            "threshold": "Cover gets in the way during use"
+          },
+          {
+            "from_product": "Local store alternatives",
+            "reason": "Better availability of major brands for specific phone model",
+            "threshold": "Local stores don't carry preferred brand"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Protection level (drop/scratch resistance)",
+          "Fit for specific phone model",
+          "Durability of materials",
+          "Ease of use/installation",
+          "Price/value",
+          "Design/aesthetics (color, bulk)",
+          "Additional features (stand, card holder)"
+        ],
+        "deal_breakers": [
+          "Product does not fit phone correctly (covers essential ports/flash)",
+          "Product fails immediately or is defective (breaks, won't charge)",
+          "Material feels cheap/flimsy, misleading description"
+        ],
+        "friction_tolerance": "low"
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Products do not fit as expected",
+            "frequency": 8,
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Products break or wear out quickly",
+            "frequency": 5,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Bulky or unwieldy design",
+            "frequency": 4,
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Charging inefficiency or failure",
+            "frequency": 3,
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Lack of functionality for intended use",
+            "frequency": 3,
+            "emotional_intensity": 0.55
+          },
+          {
+            "signal": "Difficulty using the product",
+            "frequency": 3,
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Inadequate storage or slots",
+            "frequency": 2,
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Magnetic or adhesive weakness",
+            "frequency": 2,
+            "emotional_intensity": 0.45
+          },
+          {
+            "signal": "Poor aesthetic durability",
+            "frequency": 1,
+            "emotional_intensity": 0.3
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Product stays secure and doesn't fall off/broken",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Product fits phone/device perfectly",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Reliable charging capability",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Slim, non-bulky design",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Sufficient protection against drops/damage",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Convenience and ease of use",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Aesthetic appeal and style",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Good value for money",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Works with thick cases",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Necessity when phone lacks secure holder/charger",
+            "context": "Car use or daily convenience"
+          },
+          {
+            "trigger": "Replacement for overpriced alternatives",
+            "context": "Seeking value for protective cases"
+          },
+          {
+            "trigger": "Need to manage multiple device charging",
+            "context": "Family travel or car use"
+          },
+          {
+            "trigger": "Desire for phone accessories for multimedia use",
+            "context": "Hands-free viewing or gaming"
+          },
+          {
+            "trigger": "Recommendation from social circles",
+            "context": "Movies or pop culture influence"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product does not fit the specified device model",
+            "severity": 0.9
+          },
+          {
+            "objection": "Material breaks easily under normal use",
+            "severity": 0.7
+          },
+          {
+            "objection": "Design is too bulky/clumsy",
+            "severity": 0.6
+          },
+          {
+            "objection": "Charging does not work or is slow",
+            "severity": 0.8
+          },
+          {
+            "objection": "Insufficient storage or card slots",
+            "severity": 0.5
+          },
+          {
+            "objection": "Weak magnetic/adhesive grip",
+            "severity": 0.55
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Other phone holders",
+            "reason": "Incompatibility with bulky phone cases",
+            "threshold": "Phone becomes loose and bounces in car"
+          },
+          {
+            "from_product": "Otterbox or expensive cases",
+            "reason": "Seeking comparable quality at lower cost",
+            "threshold": "High price feels unjustified"
+          },
+          {
+            "from_product": "Alternative products",
+            "reason": "Poor durability of current product",
+            "threshold": "Key component breaks with normal use"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Fit and compatibility",
+          "Durability",
+          "Price/value",
+          "Protection level",
+          "Ease of use",
+          "Aesthetics",
+          "Charging reliability",
+          "Design bulkiness",
+          "Magnetic/adhesive strength",
+          "Included accessories"
+        ],
+        "deal_breakers": [
+          "Product does not fit device as advertised",
+          "Product fails to charge or function",
+          "Breaks or degrades quickly with normal use",
+          "Excessively bulky or awkward design"
+        ],
+        "friction_tolerance": "low"
+      }
+    ],
+    "aggregate_signals": {
+      "top_pain_points": [
+        "product appearance misrepresented in listing",
+        "parts/components missing or broken upon arrival",
+        "difficult installation/application process",
+        "poor durability (breaks/wears quickly)",
+        "design flaws causing functional issues",
+        "charging issues with phone/case combination",
+        "losing expensive accessories",
+        "Product fails prematurely or breaks quickly",
+        "Product does not function as intended (e.g., not protective, doesn't hold phone)",
+        "Poor reliability or inconsistent performance"
+      ],
+      "top_desired_outcomes": [
+        "product works as advertised/expected",
+        "good protection for devices",
+        "easy installation/application",
+        "durable/long-lasting product",
+        "compatibility with other accessories/cases",
+        "aesthetic appeal/style",
+        "good value for price",
+        "Durability and long-lasting performance",
+        "Reliable and consistent functionality",
+        "Effective protection for devices"
+      ],
+      "top_deal_breakers": [
+        "product not as described",
+        "defective/missing parts",
+        "completely non-functional",
+        "damages device during use",
+        "Frequent malfunctions or failures",
+        "Poor protection leading to device damage",
+        "Incorrect sizing or compatibility issues",
+        "Unreliable performance in critical functions",
+        "Breaks easily / not durable",
+        "Does not fit properly"
+      ],
+      "dominant_friction_tolerance": "low"
+    }
+  },
+  "cluster_3": {
+    "label_hint": null,
+    "member_count": 17,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Annoying/expensive in-app purchases or pay-to-progress mechanics",
+            "frequency": 5,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Technical issues: crashes, freezes, installation/loading problems, virus scares",
+            "frequency": 6,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Forced to engage with unwanted game modes/story elements (e.g., city-building in a hidden object game)",
+            "frequency": 2,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Requires constant internet connection/Wi-Fi to function",
+            "frequency": 1,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Product does not match description (used copy, missing components)",
+            "frequency": 1,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Inability to get help from customer service",
+            "frequency": 1,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Software lacks necessary features (e.g., no state tax module, not teaching new words)",
+            "frequency": 3,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Excessive ads or upselling to paid version on launch",
+            "frequency": 1,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Repetitive or boring core gameplay (e.g., only finding numbers)",
+            "frequency": 1,
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Faulty/misleading free trials (e.g., can't watch full episodes)",
+            "frequency": 1,
+            "emotional_intensity": 0.8
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Fun, engaging, challenging core gameplay without mandatory extra tasks",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Seamless, reliable performance across devices with no technical glitches",
+            "priority": 1.0
+          },
+          {
+            "outcome": "Effective learning tool (for languages, speech, programming, taxes) that is user-friendly",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Product that works as advertised, with clear features and no hidden costs",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Ability to use product offline or on-the-go",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Good value for money without feeling forced to make in-app purchases",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Educational enrichment through interactive, detailed, immersive content",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Recommended or needed for a specific, practical purpose (tax filing, document conversion, art creation)",
+            "context": "Problem-solving for work, study, or personal tasks"
+          },
+          {
+            "trigger": "Encouragement from a positive, trusted source (teacher, class, personal interest)",
+            "context": "Enhancing educational or hobby pursuits (e.g., studying Anne Frank, languages)"
+          },
+          {
+            "trigger": "Desire for a fun, time-filling game with good reviews",
+            "context": "Leisure and entertainment"
+          },
+          {
+            "trigger": "Seeking a better, faster, or more convenient way to do something (e.g., selling on eBay, voice typing)",
+            "context": "Improving efficiency in daily activities"
+          },
+          {
+            "trigger": "Looking for a specific type of entertainment (e.g., bingo, hidden object games)",
+            "context": "Targeted leisure interest"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Software is too basic/lacks essential features (e.g., no state tax support)",
+            "severity": 0.8
+          },
+          {
+            "objection": "High risk of technical failure or compatibility issues",
+            "severity": 0.9
+          },
+          {
+            "objection": "In-app purchases are required for reasonable progress",
+            "severity": 0.7
+          },
+          {
+            "objection": "Product quality is poor or misrepresented (used, missing items)",
+            "severity": 0.85
+          },
+          {
+            "objection": "Software won't function without a constant internet connection",
+            "severity": 0.6
+          },
+          {
+            "objection": "Customer service is unresponsive or unhelpful",
+            "severity": 0.75
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "A similar game or app",
+            "reason": "Boring, repetitive, or lacking variety in core gameplay",
+            "threshold": "After trying it and finding it doesn't match preferences"
+          },
+          {
+            "from_product": "Turbo Tax Basic",
+            "reason": "Realizing it doesn't include state tax software, making it more expensive/less useful",
+            "threshold": "At point of discovering the need for state filing"
+          },
+          {
+            "from_product": "Free or alternative learning software",
+            "reason": "Doesn't teach effectively, feels more like a quiz without instruction",
+            "threshold": "Immediately upon use"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability & Technical Performance",
+          "Ease of Use / User-Friendliness",
+          "Value for Money (feature set vs. cost)",
+          "Fun/Engagement Factor",
+          "Educational Effectiveness",
+          "Features Meeting Specific Needs",
+          "Portability/Offline Use"
+        ],
+        "deal_breakers": [
+          "Doesn't work/install on my device",
+          "Requires constant in-app purchases to progress",
+          "Misrepresented product (used, missing parts, not as advertised)",
+          "Lacks a critical, promised feature (e.g., state taxes)"
+        ],
+        "friction_tolerance": "low"
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "App is too complex or confusing for the target age group (e.g., small children)",
+            "frequency": 2,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Intrusive or excessive advertisements interrupting gameplay",
+            "frequency": 3,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "App or game freezes or crashes",
+            "frequency": 2,
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Difficulty in managing accounts across platforms (e.g., Hulu via Fire TV)",
+            "frequency": 1,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Unexpected or unclear payment requirements, content locked behind paywalls",
+            "frequency": 4,
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Software has installation or activation difficulties",
+            "frequency": 4,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Software has a steep learning curve or is overwhelming to learn",
+            "frequency": 3,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Product has severe UI/display issues making it unusable (e.g., oversized GUI)",
+            "frequency": 1,
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Limited or poor content selection (e.g., old shows, missing features like search)",
+            "frequency": 1,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Security software conflicts with other programs or lacks features",
+            "frequency": 2,
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Software is resource-heavy and slows down the system",
+            "frequency": 3,
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Entertainment and fun for children or during waiting times",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Mental challenge and stimulation from puzzles/games",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Reliable and stable app performance",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Easy installation and setup process",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Comprehensive protection without slowing the system",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Ability to learn new skills or games",
+            "priority": 0.65
+          },
+          {
+            "outcome": "Customizable features (e.g., difficulty levels, appearance)",
+            "priority": 0.6
+          },
+          {
+            "outcome": "High-quality conversion/editing capabilities (e.g., OCR, drawing)",
+            "priority": 0.55
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Seeking entertainment for a child or teenager",
+            "context": "Reviewer looking for something to entertain son at doctor's office"
+          },
+          {
+            "trigger": "Desire to learn a new game or skill",
+            "context": "Reviewer never knew about the game and is learning to play"
+          },
+          {
+            "trigger": "Need to replace a security product with a better-rated alternative",
+            "context": "Reviewer's subscription was ending, tried a highly-rated product"
+          },
+          {
+            "trigger": "Need for a specific utility (e.g., OCR, partitioning, drawing)",
+            "context": "Reviewer wanted a full-featured drawing program or partition tool"
+          },
+          {
+            "trigger": "Looking for a nostalgic or similar game experience",
+            "context": "Reviewer compared game to old Tetris"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Apps/games require unexpected payments or are not free",
+            "severity": 0.95
+          },
+          {
+            "objection": "Content is locked behind paywalls or subscriptions",
+            "severity": 0.9
+          },
+          {
+            "objection": "Product is too difficult or complex for intended users",
+            "severity": 0.8
+          },
+          {
+            "objection": "Poor user interface or technical bugs make the product unusable",
+            "severity": 0.85
+          },
+          {
+            "objection": "Account management is cumbersome across different platforms",
+            "severity": 0.7
+          },
+          {
+            "objection": "Installation or activation process is problematic",
+            "severity": 0.6
+          },
+          {
+            "objection": "Intrusive advertisements disrupt the user experience",
+            "severity": 0.75
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Previous antivirus/security software",
+            "reason": "Product slipped in ratings or subscription ended",
+            "threshold": "When renewal time came and a better-rated option was available"
+          },
+          {
+            "from_product": "Other drawing programs",
+            "reason": "Desire for a more full-featured, comprehensive tool",
+            "threshold": "Feeling limited by simpler programs"
+          },
+          {
+            "from_product": "Other streaming services",
+            "reason": "Dissatisfaction with content selection and missing features (search, favorites)",
+            "threshold": "Found a clearly superior alternative (YouTube TV)"
+          },
+          {
+            "from_product": "Webroot/other security software",
+            "reason": "Software was too resource-intensive and slowed the system",
+            "threshold": "Performance impact became unacceptable"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Ease of use / age-appropriateness",
+          "Reliability / stability",
+          "Cost / value (free vs. paid)",
+          "Entertainment / fun factor",
+          "Learning curve",
+          "Feature set / comprehensiveness",
+          "Performance / system impact",
+          "Installation / setup ease"
+        ],
+        "deal_breakers": [
+          "Game/app freezing or crashing",
+          "Unclear or forced payment requirements",
+          "UI/display bugs making product unusable",
+          "Intrusive advertisements that break immersion",
+          "Extremely steep learning curve for casual use"
+        ],
+        "friction_tolerance": "low"
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Installation issues and errors",
+            "frequency": 5,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Lack of comprehensive user guide or manual",
+            "frequency": 3,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Software bugs/crashes corrupting system or deleting work",
+            "frequency": 2,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Aggressive in-app purchases/monetization",
+            "frequency": 2,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Poor customer support or unresolved issues",
+            "frequency": 2,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Inconsistent or non-functional features (e.g., burning, viewing)",
+            "frequency": 2,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Steep learning curve for new users",
+            "frequency": 2,
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "High system resource usage",
+            "frequency": 1,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Unexpected format or UI changes degrading experience",
+            "frequency": 1,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Missing expected features (e.g., allergy/air quality reports)",
+            "frequency": 1,
+            "emotional_intensity": 0.3
+          },
+          {
+            "signal": "Sound/visual quality not meeting expectations",
+            "frequency": 1,
+            "emotional_intensity": 0.4
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Easy and intuitive installation/use",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Effective learning/educational tool",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Free or affordable access to content/tools",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Fun, engaging, and family-friendly entertainment",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Reliable and bug-free performance",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Good value for money",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Provides nostalgia or access to classic content",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Accurate and helpful features",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Complements existing learning methods",
+            "priority": 0.5
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Recommendation or positive existing experience with brand/product line",
+            "context": "Having the Mandarin package led to buying the Spanish one."
+          },
+          {
+            "trigger": "Need for a specific, affordable alternative to expensive services",
+            "context": "Seeking free access to local news instead of paying more."
+          },
+          {
+            "trigger": "Desire for educational or self-improvement tools",
+            "context": "Learning piano on own and seeking a tool to check tempo and progress."
+          },
+          {
+            "trigger": "Nostalgia or personal attachment to content",
+            "context": "Being a fan of Peanuts or Wizard of Oz drove the purchase."
+          },
+          {
+            "trigger": "Seeking family bonding activities",
+            "context": "Wanting to play a game with a grandchild to spend time together."
+          },
+          {
+            "trigger": "Need to complete a practical task (e.g., create a will)",
+            "context": "Looking for a cheaper alternative to hiring a lawyer for basic estate planning."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "High cost for additional features/trusts",
+            "severity": 0.6
+          },
+          {
+            "objection": "Software is resource-intensive and can crash systems",
+            "severity": 0.9
+          },
+          {
+            "objection": "Requires constant internet connection or specific hardware (e.g., MIDI cable)",
+            "severity": 0.4
+          },
+          {
+            "objection": "Lacks critical features present in competitors",
+            "severity": 0.7
+          },
+          {
+            "objection": "Poor UI changes that hinder usability",
+            "severity": 0.8
+          },
+          {
+            "objection": "Installation is problematic and time-consuming",
+            "severity": 0.8
+          },
+          {
+            "objection": "In-app purchases are overly aggressive",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "TurboTax (from Amazon)",
+            "reason": "Download purchased from Amazon would not work",
+            "threshold": "Immediate; had to purchase elsewhere to complete task"
+          },
+          {
+            "from_product": "IMDb TV/Freevee",
+            "reason": "UI format change removed key features (My List, search)",
+            "threshold": "Frustration led to steering away from app altogether and considering cancellation of Prime"
+          },
+          {
+            "from_product": "Phone's built-in navigation voice feature",
+            "reason": "Wanted free alternative to paid feature",
+            "threshold": "Found a free app that provided the desired functionality"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Ease of use/installation",
+          "Reliability and performance",
+          "Cost and value",
+          "Feature set and functionality",
+          "Educational effectiveness",
+          "Entertainment value",
+          "Family/social aspects",
+          "Nostalgia/personal interest",
+          "Customer support"
+        ],
+        "deal_breakers": [
+          "Software that crashes or corrupts the system",
+          "Critical installation failures that prevent use",
+          "Aggressive monetization that ruins the experience",
+          "UI changes that make the product unusable",
+          "Lack of basic functionality as advertised"
+        ],
+        "friction_tolerance": "medium"
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Inconvenient user interface with excessive scrolling and poor navigation",
+            "frequency": 3,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Frequent ads interrupting gameplay",
+            "frequency": 4,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "App crashes, freezes, or performance issues",
+            "frequency": 3,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "In-app purchases required to progress or improve experience",
+            "frequency": 5,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Lack of content or variety",
+            "frequency": 2,
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Poor sound quality or repetitive looping",
+            "frequency": 1,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Requires internet/Wi-Fi connection to play",
+            "frequency": 2,
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Difficulty accessing purchased content or account setup issues",
+            "frequency": 2,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Loss of progress or purchases when apps end",
+            "frequency": 1,
+            "emotional_intensity": 1.0
+          },
+          {
+            "signal": "Complicated setup or usability for older users",
+            "frequency": 2,
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Easy-to-use, intuitive interface with efficient navigation",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Ad-free or minimal ad experience",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Stable performance without crashes or freezes",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Fun and engaging time-waster or distraction",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Varied content, levels, or challenges",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Ability to play offline",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Good value for money",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Mental exercise or cognitive stimulation",
+            "priority": 0.4
+          },
+          {
+            "outcome": "Family-friendly or multi-generational appeal",
+            "priority": 0.3
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Free or discounted offering (e.g., app of the day)",
+            "context": "Immediate download without initial cost"
+          },
+          {
+            "trigger": "Access to exclusive or integrated content (e.g., streaming with existing subscriptions)",
+            "context": "Enhancing existing services"
+          },
+          {
+            "trigger": "Positive recommendations or reviews",
+            "context": "Trust in app quality"
+          },
+          {
+            "trigger": "Travel or specific use-case anticipation (e.g., Vegas trip)",
+            "context": "Preparatory engagement"
+          },
+          {
+            "trigger": "Family member recommendation (e.g., for children or elderly)",
+            "context": "Shared usage"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Excessive in-app purchases or paywalls",
+            "severity": 0.9
+          },
+          {
+            "objection": "Poor app stability (crashes/freezes)",
+            "severity": 0.8
+          },
+          {
+            "objection": "Intrusive or frequent advertisements",
+            "severity": 0.7
+          },
+          {
+            "objection": "Unfair payout mechanics (tight games)",
+            "severity": 0.6
+          },
+          {
+            "objection": "Privacy concerns (e.g., requiring Facebook login)",
+            "severity": 0.8
+          },
+          {
+            "objection": "Limited content or repetitive gameplay",
+            "severity": 0.5
+          },
+          {
+            "objection": "High cost for perceived value",
+            "severity": 0.4
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Paid streaming service",
+            "reason": "Insufficient content or high cost",
+            "threshold": "Trial period ends with no compelling shows"
+          },
+          {
+            "from_product": "Zynga games",
+            "reason": "Loss of purchases when game ends",
+            "threshold": "Discontinuation of game erasing investments"
+          },
+          {
+            "from_product": "Apple services",
+            "reason": "High price compared to alternatives",
+            "threshold": "Cost-saving opportunity with Amazon"
+          },
+          {
+            "from_product": "Pandora",
+            "reason": "Better free features with Prime",
+            "threshold": "Superior song skipping and selection"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Cost/value",
+          "Ease of use/setup",
+          "Performance/stability",
+          "Content quality/variety",
+          "Ad experience",
+          "Offline capability",
+          "Family suitability",
+          "Privacy/security"
+        ],
+        "deal_breakers": [
+          "Frequent app crashes",
+          "Loss of purchased content",
+          "Mandatory intrusive data sharing",
+          "Unplayable due to technical issues"
+        ],
+        "friction_tolerance": "medium"
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Technical issues (crashes, freezes, installation problems)",
+            "frequency": 6,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Intrusive ads or desire for ad-free version",
+            "frequency": 2,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Hidden or unexpected costs/fees",
+            "frequency": 2,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "High learning curve or complex interface",
+            "frequency": 4,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Poor usability (slow, frustrating controls, difficult to exit)",
+            "frequency": 4,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Lack of features (e.g., missing volume control)",
+            "frequency": 1,
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Compatibility or streaming failures",
+            "frequency": 3,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Repetitive or tiring content",
+            "frequency": 1,
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Relaxation, stress relief, or calming experience",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Easy and intuitive use (quick to learn, simple controls)",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Cost-effectiveness and clear pricing",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Effective learning or skill improvement",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Entertainment and engagement (fun, challenging, varied content)",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Reliable performance without technical issues",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Ad-free or premium experience",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Convenience and time-saving",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Free or discounted trial opportunity",
+            "context": "Reviewer received free copy or promotional offer"
+          },
+          {
+            "trigger": "Dissatisfaction with current product (hidden costs, limitations)",
+            "context": "Switching from competitor due to frustration"
+          },
+          {
+            "trigger": "Recommendation or high ratings from others",
+            "context": "Positive reviews or word-of-mouth"
+          },
+          {
+            "trigger": "Specific need (tax filing, photo editing, language learning)",
+            "context": "Seasonal or project-based requirement"
+          },
+          {
+            "trigger": "Desire for convenience or remote access",
+            "context": "Replacing lost remote, accessing content anywhere"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Too expensive due to hidden/unexpected fees",
+            "severity": 0.8
+          },
+          {
+            "objection": "Too difficult or technical for average user",
+            "severity": 0.7
+          },
+          {
+            "objection": "Does not work as advertised (streaming fails, compatibility issues)",
+            "severity": 0.9
+          },
+          {
+            "objection": "Intrusive ads or lack of ad-free option",
+            "severity": 0.6
+          },
+          {
+            "objection": "Poor customer support or update problems",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "H&R Block",
+            "reason": "Hidden costs increasing each year",
+            "threshold": "Frustration with lack of transparency"
+          },
+          {
+            "from_product": "iMovie/iDVD/iPhoto",
+            "reason": "More powerful features needed",
+            "threshold": "Outgrown basic functionality"
+          },
+          {
+            "from_product": "Duolingo",
+            "reason": "Desire for different vocabulary or teaching approach",
+            "threshold": "Seeking supplemental or advanced learning"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Ease of use / intuitiveness",
+          "Reliability / lack of technical issues",
+          "Cost-effectiveness / clear pricing",
+          "Feature set / capabilities",
+          "Entertainment or engagement value",
+          "Learning effectiveness",
+          "Convenience / time-saving"
+        ],
+        "deal_breakers": [
+          "Frequent crashes or technical failures",
+          "Hidden or excessive costs",
+          "Does not work as advertised (e.g., won't stream)",
+          "Too complex for average user"
+        ],
+        "friction_tolerance": "medium"
+      }
+    ],
+    "aggregate_signals": {
+      "top_pain_points": [
+        "Inconvenient user interface with excessive scrolling and poor navigation",
+        "Frequent ads interrupting gameplay",
+        "App crashes, freezes, or performance issues",
+        "In-app purchases required to progress or improve experience",
+        "Lack of content or variety",
+        "Poor sound quality or repetitive looping",
+        "Requires internet/Wi-Fi connection to play",
+        "Difficulty accessing purchased content or account setup issues",
+        "Loss of progress or purchases when apps end",
+        "Complicated setup or usability for older users"
+      ],
+      "top_desired_outcomes": [
+        "Easy-to-use, intuitive interface with efficient navigation",
+        "Ad-free or minimal ad experience",
+        "Stable performance without crashes or freezes",
+        "Fun and engaging time-waster or distraction",
+        "Varied content, levels, or challenges",
+        "Ability to play offline",
+        "Good value for money",
+        "Mental exercise or cognitive stimulation",
+        "Family-friendly or multi-generational appeal",
+        "Reliable, crash-free performance on specific device (Samsung Galaxy5)"
+      ],
+      "top_deal_breakers": [
+        "Frequent app crashes",
+        "Loss of purchased content",
+        "Mandatory intrusive data sharing",
+        "Unplayable due to technical issues",
+        "Mandatory intrusive payments after free start",
+        "Incompatibility with user's device",
+        "Game/app freezing or crashing",
+        "Unclear or forced payment requirements",
+        "UI/display bugs making product unusable",
+        "Intrusive advertisements that break immersion"
+      ],
+      "dominant_friction_tolerance": "low"
+    }
+  },
+  "cluster_4": {
+    "label_hint": null,
+    "member_count": 10,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Difficulty getting product to lay flat due to rolling and lumps",
+            "frequency": 1,
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Poor eraser quality on mechanical pencils",
+            "frequency": 1,
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Print too small on reference book",
+            "frequency": 1,
+            "emotional_intensity": 0.3
+          },
+          {
+            "signal": "Mouse pad too thin and flimsy, print colors off",
+            "frequency": 1,
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Accordion file labels not visible externally, less convenient",
+            "frequency": 1,
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Pens feel too lightweight and cheap",
+            "frequency": 1,
+            "emotional_intensity": 0.3
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "High quality, thick card stock for cards",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Reliable, non-bleeding writing instruments",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Products that are practical and useful for specific tasks (e.g., moving, organization, gifting)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Items that serve as both a functional product and a gift",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Easy-to-clean and durable surfaces",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Comfortable grip on pens",
+            "priority": 0.4
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Gifting for specific occasions (moving, holiday, friend's interest)",
+            "context": "Gifting"
+          },
+          {
+            "trigger": "Restocking a frequently used, trusted item",
+            "context": "Replenishment"
+          },
+          {
+            "trigger": "Item unavailable locally, especially for holidays",
+            "context": "Scarcity"
+          },
+          {
+            "trigger": "Complementing a previous purchase (e.g., easel for magnets)",
+            "context": "Accessory"
+          },
+          {
+            "trigger": "Need for a specific task (e.g., project management, organization)",
+            "context": "Task-specific"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Printing quality on cards appears lower than expected",
+            "severity": 0.3
+          },
+          {
+            "objection": "Product does not lay flat easily, requiring extra effort",
+            "severity": 0.6
+          },
+          {
+            "objection": "Design elements disliked (e.g., moustache on pens)",
+            "severity": 0.2
+          },
+          {
+            "objection": "Product not sturdy enough for intended use",
+            "severity": 0.4
+          },
+          {
+            "objection": "Misleading marketing (product labeled for 'women' but perceived as unisex)",
+            "severity": 0.1
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Other mouse pads",
+            "reason": "Too thin and flimsy, poor color print",
+            "threshold": "When product fails comfort/quality expectations for primary use"
+          },
+          {
+            "from_product": "Other pens",
+            "reason": "Too lightweight, feels cheap",
+            "threshold": "When tactile quality is unsatisfactory"
+          },
+          {
+            "from_product": "Other mechanical pencils",
+            "reason": "Eraser doesn't work well",
+            "threshold": "When core functionality (erasing) is inadequate"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Quality/card stock thickness",
+          "Reliability/performance",
+          "Suitability for gifting",
+          "Brand reputation",
+          "Price/value",
+          "Specific feature (e.g., retractable, pop-up)",
+          "Aesthetics/design"
+        ],
+        "deal_breakers": [
+          "Poor quality that fails basic function (e.g., doesn't write, breaks easily)",
+          "Misleading product description or features",
+          "Extremely difficult to use or set up"
+        ],
+        "friction_tolerance": "medium"
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Product breaks or fails prematurely",
+            "frequency": 2,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Ink flow problems with pens (stops flowing, gathers at end, runs out quickly)",
+            "frequency": 5,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Ink messiness (gets on hands, stays wet)",
+            "frequency": 2,
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Scratchy or poor writing experience",
+            "frequency": 2,
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Poor construction or assembly difficulty (parts don't fit)",
+            "frequency": 2,
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Lack of security/closure (pencil case not secure, envelope won't seal)",
+            "frequency": 2,
+            "emotional_intensity": 0.3
+          },
+          {
+            "signal": "Unattractive or overly plain design",
+            "frequency": 3,
+            "emotional_intensity": 0.3
+          },
+          {
+            "signal": "Ink cartridges run out too quickly",
+            "frequency": 1,
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable, long-lasting performance without premature failure",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Smooth, consistent, non-messy writing experience",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Secure, functional design that works as intended",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Visually appealing or gift-worthy appearance",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Easy assembly and good fit of parts",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Product serves as a thoughtful, personalized gift",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Gift-giving for holidays/special occasions",
+            "context": "Christmas, birthdays, general gift-giving"
+          },
+          {
+            "trigger": "Need for a specific, personalized item",
+            "context": "Asked for a calendar with trees, guitar lovers in family"
+          },
+          {
+            "trigger": "Routine/annual repurchase",
+            "context": "Buying calendars every year, ordering pens regularly"
+          },
+          {
+            "trigger": "Practical need for organization or daily use",
+            "context": "School ID holder, password organizer, notepads for cards"
+          },
+          {
+            "trigger": "Replacement or upgrade of existing item",
+            "context": "Replacing chair wheels, buying new shredder"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product breaks or fails after short use",
+            "severity": 1.0
+          },
+          {
+            "objection": "Poor value due to high cost and quick depletion (ink cartridges)",
+            "severity": 0.8
+          },
+          {
+            "objection": "Design is functional but unattractive",
+            "severity": 0.4
+          },
+          {
+            "objection": "Product is adjustable but doesn't function correctly",
+            "severity": 0.7
+          },
+          {
+            "objection": "Product is too plain or depressing without customization",
+            "severity": 0.3
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Unknown chair",
+            "reason": "Chair broke after only 3 months",
+            "threshold": "Catastrophic failure"
+          },
+          {
+            "from_product": "Other pens",
+            "reason": "Ink flow stops easily, runs out quickly, or is scratchy",
+            "threshold": "Frustration with performance"
+          },
+          {
+            "from_product": "Other pencil cases/rollers",
+            "reason": "Does not securely hold contents",
+            "threshold": "Functional failure"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability/Durability",
+          "Gift suitability",
+          "Price/value",
+          "Ease of use",
+          "Aesthetic design"
+        ],
+        "deal_breakers": [
+          "Product breaks prematurely",
+          "Core function fails (e.g., pen won't write, chair breaks)"
+        ],
+        "friction_tolerance": "medium"
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Difficulty finding preferred products in local stores due to supply issues",
+            "frequency": 2,
+            "emotional_intensity": 0.3
+          },
+          {
+            "signal": "Products looking cheap, plastic, or low quality",
+            "frequency": 3,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Product features being misleading or incomplete (e.g., printer cartridges missing required components)",
+            "frequency": 1,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Pens bleeding through paper",
+            "frequency": 2,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Products being too shiny or not matte when desired",
+            "frequency": 2,
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Assembling furniture/products requiring tools and time",
+            "frequency": 2,
+            "emotional_intensity": 0.2
+          },
+          {
+            "signal": "Concern about items rolling off shelves with no lip",
+            "frequency": 1,
+            "emotional_intensity": 0.3
+          },
+          {
+            "signal": "Packaging materials not being suitable for heavy-duty shipping",
+            "frequency": 1,
+            "emotional_intensity": 0.1
+          },
+          {
+            "signal": "Necklace-style reader holders causing dangling glasses or bib-like effect",
+            "frequency": 1,
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Easy sliding/access to items on shelves (no lip)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Strong, secure magnets for glasses holders",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Products that work exactly as hoped/described",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Convenient, safe home delivery (avoiding in-store shopping)",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Dust protection for stored items",
+            "priority": 0.3
+          },
+          {
+            "outcome": "Easy assembly with clear instructions",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Tools/carts for transport and mobility",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Non-bleeding pens",
+            "priority": 0.85
+          },
+          {
+            "outcome": "High-quality, rich-looking paper/cards",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Products that save time (e.g., pre-strung tags)",
+            "priority": 0.4
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for organization and storage (moving, packing, kitchen appliances)",
+            "context": "Home organization, moving, kitchen management"
+          },
+          {
+            "trigger": "Replacing unsatisfactory older versions of products (reader holders, pens)",
+            "context": "Product improvement, upgrading from past failures"
+          },
+          {
+            "trigger": "Gifting or holiday preparations (cards, wrap, bubble wrap)",
+            "context": "Social occasions, holidays, gift-giving"
+          },
+          {
+            "trigger": "Supporting elderly family members (calendar, cushion)",
+            "context": "Care for older relatives, accessibility"
+          },
+          {
+            "trigger": "Teaching tools for children (sand timer for brushing)",
+            "context": "Childcare, education, habit formation"
+          },
+          {
+            "trigger": "Backup insurance for essential items (magnet replacements)",
+            "context": "Risk mitigation, preparedness"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product looking cheap or low-quality",
+            "severity": 0.7
+          },
+          {
+            "objection": "Misleading compatibility information",
+            "severity": 0.8
+          },
+          {
+            "objection": "Unacceptable performance (bleeding through paper)",
+            "severity": 0.9
+          },
+          {
+            "objection": "Excessive shininess vs desired matte finish",
+            "severity": 0.5
+          },
+          {
+            "objection": "Incomplete product sets missing necessary components",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Leash-type reader holders",
+            "reason": "Dislike of string around neck and dangling glasses",
+            "threshold": "Stronger magnets and better placement available"
+          },
+          {
+            "from_product": "Off-brand tapes",
+            "reason": "Consistent disappointment with performance",
+            "threshold": "Scotch tape proven reliable"
+          },
+          {
+            "from_product": "Old-style bookends/supports",
+            "reason": "Insufficient strength or functionality",
+            "threshold": "Updated designs with better support"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Performance/Functionality",
+          "Quality and Durability",
+          "Ease of Use/Assembly",
+          "Price and Value",
+          "Safety/Health Considerations",
+          "Design and Appearance"
+        ],
+        "deal_breakers": [
+          "Misleading product information",
+          "Critical performance failure (e.g., bleeding pens)",
+          "Poor quality/cheap appearance"
+        ],
+        "friction_tolerance": "medium"
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Inconsistent ink flow (skipping, stopping, drying out)",
+            "frequency": 9,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poor build quality (defective, damaged, missing parts)",
+            "frequency": 11,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Damaged products upon arrival (dents, bends, tears, dirt)",
+            "frequency": 7,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Disappointing paper quality (too thin, see-through, uneven texture)",
+            "frequency": 5,
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Difficult returns process (costs, scheduling, drop-offs)",
+            "frequency": 4,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Strong chemical odor causing allergic reactions",
+            "frequency": 2,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Leaking pens (ink on fingers, messy)",
+            "frequency": 3,
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Consistent ink flow across pens/inks (no skipping, smooth writing)",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Durable products that survive shipping and daily use",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Fountain pen-friendly paper (no feathering, handles ink well)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Easy returns for defective/damaged items (free pickup, accessible)",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Lightweight pens for reduced hand strain during long writing",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Aesthetically pleasing products (colors, designs, finishes)",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Positive reviews from other users",
+            "context": "Pre-purchase research"
+          },
+          {
+            "trigger": "Beautiful color options",
+            "context": "Choosing inks/pens"
+          },
+          {
+            "trigger": "Need for specialized paper for fountain pens",
+            "context": "Journal/notebook purchase"
+          },
+          {
+            "trigger": "Company donates a product for each purchase",
+            "context": "Socially conscious buying"
+          },
+          {
+            "trigger": "Personalization/customization potential",
+            "context": "Gift-giving or personal use"
+          },
+          {
+            "trigger": "Replacement for worn-out/broken items",
+            "context": "Replenishment"
+          },
+          {
+            "trigger": "Collecting pens in favorite colors",
+            "context": "Hobby/collection building"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Price too high for perceived value (overpriced plastic)",
+            "severity": 0.6
+          },
+          {
+            "objection": "Unreliable quality control (bad batches, manufacturing flaws)",
+            "severity": 0.8
+          },
+          {
+            "objection": "Packaging fails to protect products during shipping",
+            "severity": 0.7
+          },
+          {
+            "objection": "Poor seller/supplier communication",
+            "severity": 0.5
+          },
+          {
+            "objection": "Health/safety concerns (allergens, chemical smells, cancer warnings)",
+            "severity": 0.9
+          },
+          {
+            "objection": "Incorrect items shipped (wrong colors, wrong products)",
+            "severity": 0.7
+          },
+          {
+            "objection": "Design features causing discomfort (scratchy nibs, uncomfortable grips)",
+            "severity": 0.6
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Specific ink brand (e.g., blue ink from brand)",
+            "reason": "Extremely dry, keeps drying in pen",
+            "threshold": "Multiple refill attempts with no improvement"
+          },
+          {
+            "from_product": "Low-quality fountain pens",
+            "reason": "Skipping, inconsistent flow, scratchy nibs",
+            "threshold": "Pens unusable for fast note-taking"
+          },
+          {
+            "from_product": "Heavy bed trays",
+            "reason": "Too heavy to lift due to disability",
+            "threshold": "Causes physical strain"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Writing performance/ink flow",
+          "Build quality/durability",
+          "Price vs. value",
+          "Aesthetics/color options",
+          "Paper quality",
+          "Return policy/ease",
+          "Brand reputation/reviews"
+        ],
+        "deal_breakers": [
+          "Defective items that don't work at all",
+          "Health hazards (allergens, toxic materials)",
+          "Unacceptable return costs for damaged goods",
+          "Consistently poor quality control",
+          "False advertising (product differs significantly from images)"
+        ],
+        "friction_tolerance": "low"
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Electronic components failing immediately upon first use",
+            "frequency": 1,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Difficulty accessing battery compartments requiring special tools (tiny screwdriver)",
+            "frequency": 1,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Product not fitting the intended use (stamp too large for small envelopes)",
+            "frequency": 1,
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Items arriving disorganized/open, spilling contents in packaging",
+            "frequency": 1,
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Product material is too thin or flimsy (mousepad, paper)",
+            "frequency": 2,
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Adhesive stickers not sticking on certain surfaces (oily/greasy)",
+            "frequency": 2,
+            "emotional_intensity": 0.3
+          },
+          {
+            "signal": "Stickers being too small to write useful information",
+            "frequency": 1,
+            "emotional_intensity": 0.3
+          },
+          {
+            "signal": "Receiving a fundamentally defective or low-quality primary product (printer)",
+            "frequency": 1,
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Accurately count and track savings (coins) without manual effort",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Aid a child's learning/development with easier-to-use tools (grip, writing)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Efficiently organize and price items for a garage sale",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Permanently label or mark items for easy identification",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Organize physical items and information (business cards, recipes, tools)",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Easily move heavy or bulky items without strain",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Have reliable, high-quality writing instruments for professional use",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Achieve sentimental value or humor through product design",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to replace a tedious manual process (counting coins manually)",
+            "context": "Personal finance tracking"
+          },
+          {
+            "trigger": "Preparing for a specific, recurring event (neighborhood garage sale)",
+            "context": "Event preparation"
+          },
+          {
+            "trigger": "Supporting a child's educational activity",
+            "context": "Childcare/education"
+          },
+          {
+            "trigger": "Needing a specific tool/supply immediately for a remote job or project",
+            "context": "Professional/work urgency"
+          },
+          {
+            "trigger": "Replenishing a consumable that is frequently used/gifted",
+            "context": "Restocking favored item"
+          },
+          {
+            "trigger": "Organizing after a major life event (moving into a new house)",
+            "context": "Life event organization"
+          },
+          {
+            "trigger": "Seeking a more convenient version of a common tool (retractable vs. capped pen)",
+            "context": "Daily convenience upgrade"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Initial product failure requiring troubleshooting/reset",
+            "severity": 0.7
+          },
+          {
+            "objection": "Poor design making the product awkward to use (jar too heavy for side handles, coin opening too small)",
+            "severity": 0.5
+          },
+          {
+            "objection": "Product finish/quality differs from expectation (shiny vs. matte, thin paper)",
+            "severity": 0.4
+          },
+          {
+            "objection": "Packaging fails, causing product disarray upon delivery",
+            "severity": 0.5
+          },
+          {
+            "objection": "Product size is impractical for the intended task (stamp too large, stickers too small)",
+            "severity": 0.6
+          },
+          {
+            "objection": "Product is perceived as lightweight/low-durability for its function",
+            "severity": 0.4
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Manual coin counting/rolling",
+            "reason": "Banks no longer accept rolled coins; desire for automated counting",
+            "threshold": "Process becomes too tedious or unsupported by institutions"
+          },
+          {
+            "from_product": "Digital contact storage (phone)",
+            "reason": "Fear of data loss/crashes; desire for physical reliability",
+            "threshold": "Concern over digital reliability outweighs convenience"
+          },
+          {
+            "from_product": "Cap-style markers/pens",
+            "reason": "Desire for one-handed, convenient operation",
+            "threshold": "Frustration with losing caps or two-handed operation"
+          },
+          {
+            "from_product": "Smaller adhesive dots",
+            "reason": "Need more writing space for pricing/info",
+            "threshold": "Size limitation impedes core task"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Functionality for specific use case",
+          "Durability/sturdiness",
+          "Ease of use/convenience",
+          "Price/value for money",
+          "Product reliability (works as promised)",
+          "Sentimental/personal appeal",
+          "Seller responsiveness (post-purchase support)"
+        ],
+        "deal_breakers": [
+          "Complete product failure upon first use with no fix",
+          "Design flaw preventing core functionality (e.g., can't access contents)",
+          "Product arrives damaged or unusable due to poor packaging",
+          "Critical component is fundamentally defective (e.g., printer is 'total junk')"
+        ],
+        "friction_tolerance": "medium"
+      }
+    ],
+    "aggregate_signals": {
+      "top_pain_points": [
+        "Inconsistent ink flow (skipping, stopping, drying out)",
+        "Poor build quality (defective, damaged, missing parts)",
+        "Damaged products upon arrival (dents, bends, tears, dirt)",
+        "Disappointing paper quality (too thin, see-through, uneven texture)",
+        "Difficult returns process (costs, scheduling, drop-offs)",
+        "Strong chemical odor causing allergic reactions",
+        "Leaking pens (ink on fingers, messy)",
+        "Previous product falling apart or not durable",
+        "Tools (sharpeners) that waste material (eats pencils)",
+        "Pockets overflowing/needing to carry many items"
+      ],
+      "top_desired_outcomes": [
+        "Consistent ink flow across pens/inks (no skipping, smooth writing)",
+        "Durable products that survive shipping and daily use",
+        "Fountain pen-friendly paper (no feathering, handles ink well)",
+        "Easy returns for defective/damaged items (free pickup, accessible)",
+        "Lightweight pens for reduced hand strain during long writing",
+        "Aesthetically pleasing products (colors, designs, finishes)",
+        "Ample storage and organization capacity",
+        "Product durability and long-term use",
+        "Precise, fine-point sharpening for detail work",
+        "Conserving art/writing materials"
+      ],
+      "top_deal_breakers": [
+        "Defective items that don't work at all",
+        "Health hazards (allergens, toxic materials)",
+        "Unacceptable return costs for damaged goods",
+        "Consistently poor quality control",
+        "False advertising (product differs significantly from images)",
+        "Extremely poor durability",
+        "Critical design flaw making product unusable",
+        "Material waste (e.g., sharpener eating pencils)",
+        "Severely misrepresented quality (e.g., faded print)",
+        "Product breaks prematurely"
+      ],
+      "dominant_friction_tolerance": "medium"
+    }
+  }
+}

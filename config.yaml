@@ -38,15 +38,14 @@ anthropic:
 
 data:
   amazon_categories:
-    - "raw_review_Electronics"
-    - "raw_review_Software"
-    - "raw_review_Office_Products"
-    - "raw_review_Computers"
+    - "raw_review_Cell_Phones_and_Accessories"
     - "raw_review_Clothing_Shoes_and_Jewelry"
     - "raw_review_Sports_and_Outdoors"
-  max_reviews_per_category: 5000
+    - "raw_review_Office_Products"
+    - "raw_review_Software"
+  max_reviews_per_category: 500
   min_review_length: 50
-  verified_only: true
+  verified_only: false
 
 extraction:
   batch_size: 30

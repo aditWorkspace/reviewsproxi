@@ -1,0 +1,58 @@
+[
+  {
+    "n_clusters": 3,
+    "silhouette": 0.14392344653606415,
+    "intra_similarity": 0.6002258658409119,
+    "inter_distance": 0.32881689071655273,
+    "combined_score": 0.31779286116361616
+  },
+  {
+    "n_clusters": 4,
+    "silhouette": 0.15695533156394958,
+    "intra_similarity": 0.6459070295095444,
+    "inter_distance": 0.343059241771698,
+    "combined_score": 0.3408616229891777
+  },
+  {
+    "n_clusters": 5,
+    "silhouette": 0.1865304708480835,
+    "intra_similarity": 0.7357778310775757,
+    "inter_distance": 0.5675377249717712,
+    "combined_score": 0.4275061297416687
+  },
+  {
+    "n_clusters": 6,
+    "silhouette": 0.171023428440094,
+    "intra_similarity": 0.7388617098331451,
+    "inter_distance": 0.5232539176940918,
+    "combined_score": 0.4118210107088089
+  },
+  {
+    "n_clusters": 7,
+    "silhouette": 0.1606990545988083,
+    "intra_similarity": 0.734089732170105,
+    "inter_distance": 0.4803807735443115,
+    "combined_score": 0.39665260165929794
+  },
+  {
+    "n_clusters": 8,
+    "silhouette": 0.13778208196163177,
+    "intra_similarity": 0.7315120548009872,
+    "inter_distance": 0.4461842179298401,
+    "combined_score": 0.37758150100708004
+  },
+  {
+    "n_clusters": 9,
+    "silhouette": 0.130559504032135,
+    "intra_similarity": 0.7142312592930264,
+    "inter_distance": 0.47820740938186646,
+    "combined_score": 0.3751906116803487
+  },
+  {
+    "n_clusters": 10,
+    "silhouette": 0.1264091283082962,
+    "intra_similarity": 0.7253028631210328,
+    "inter_distance": 0.47256505489349365,
+    "combined_score": 0.37530843406915665
+  }
+]

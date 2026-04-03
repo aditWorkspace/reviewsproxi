@@ -62,6 +62,7 @@ def collect_huggingface(config: dict, existing_hashes: set[str]) -> int:
                 category,
                 split="full",
                 trust_remote_code=True,
+                streaming=True,
             )
             written = 0
             for row in ds:
