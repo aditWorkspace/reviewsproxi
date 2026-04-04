@@ -1,0 +1,483 @@
+{
+  "products": [
+    {
+      "name": "Texas Instruments TI-84 Plus Graphing Calculator",
+      "category": "raw_review_Office_Products",
+      "accuracy": 0.99,
+      "review_keywords": [
+        "math class",
+        "required for school",
+        "easy to use",
+        "graphing"
+      ],
+      "context_keywords": [
+        "homework",
+        "student",
+        "exam"
+      ],
+      "exclusion_keywords": [
+        "retired",
+        "office"
+      ],
+      "why": "Almost exclusively used by students for math and science classes."
+    },
+    {
+      "name": "Pampers Swaddlers Newborn Diapers",
+      "category": "raw_review_Baby_Products",
+      "accuracy": 0.98,
+      "review_keywords": [
+        "soft",
+        "newborn",
+        "leak-proof",
+        "comfortable"
+      ],
+      "context_keywords": [
+        "baby",
+        "mom",
+        "dad"
+      ],
+      "exclusion_keywords": [
+        "grandma",
+        "elderly"
+      ],
+      "why": "Specifically designed for newborns, primarily purchased by new parents."
+    },
+    {
+      "name": "Baby Brezza Formula Pro Advanced",
+      "category": "raw_review_Baby_Products",
+      "accuracy": 0.97,
+      "review_keywords": [
+        "formula",
+        "convenient",
+        "easy to clean",
+        "baby"
+      ],
+      "context_keywords": [
+        "parenting",
+        "newborn",
+        "feeding"
+      ],
+      "exclusion_keywords": [
+        "pet",
+        "single"
+      ],
+      "why": "Used exclusively by parents for formula-feeding their infants."
+    },
+    {
+      "name": "Ortho GroundClear Year Long Vegetation Killer",
+      "category": "raw_review_Patio_Lawn_and_Garden",
+      "accuracy": 0.96,
+      "review_keywords": [
+        "weeds",
+        "long-lasting",
+        "effective",
+        "yard"
+      ],
+      "context_keywords": [
+        "homeowner",
+        "garden",
+        "landscaping"
+      ],
+      "exclusion_keywords": [
+        "apartment",
+        "renter"
+      ],
+      "why": "Mostly purchased by homeowners maintaining their lawns and gardens."
+    },
+    {
+      "name": "Zwilling J.A. Henckels Pro 8-Inch Chef's Knife",
+      "category": "raw_review_Home_and_Kitchen",
+      "accuracy": 0.95,
+      "review_keywords": [
+        "sharp",
+        "durable",
+        "professional",
+        "cooking"
+      ],
+      "context_keywords": [
+        "chef",
+        "kitchen",
+        "home cook"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "dorm"
+      ],
+      "why": "Primarily bought by cooking enthusiasts and professional chefs."
+    },
+    {
+      "name": "Ratchet & Clank: Rift Apart - PlayStation 5",
+      "category": "raw_review_Video_Games",
+      "accuracy": 0.94,
+      "review_keywords": [
+        "graphics",
+        "fun",
+        "PS5",
+        "exclusive"
+      ],
+      "context_keywords": [
+        "gamer",
+        "console",
+        "playstation"
+      ],
+      "exclusion_keywords": [
+        "retired",
+        "kids"
+      ],
+      "why": "Targeted at PS5 owners, predominantly younger and adult gamers."
+    },
+    {
+      "name": "LEGO Star Wars Millennium Falcon Building Kit",
+      "category": "raw_review_Toys_and_Games",
+      "accuracy": 0.93,
+      "review_keywords": [
+        "detailed",
+        "fun",
+        "build",
+        "Star Wars"
+      ],
+      "context_keywords": [
+        "collector",
+        "fan",
+        "hobby"
+      ],
+      "exclusion_keywords": [
+        "baby",
+        "elderly"
+      ],
+      "why": "Popular among Star Wars fans and LEGO enthusiasts, mostly teens and adults."
+    },
+    {
+      "name": "Breville BES870BSXL Barista Express Espresso Machine",
+      "category": "raw_review_Appliances",
+      "accuracy": 0.92,
+      "review_keywords": [
+        "espresso",
+        "quality",
+        "grinder",
+        "latte"
+      ],
+      "context_keywords": [
+        "coffee enthusiast",
+        "home barista",
+        "cafe"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "apartment"
+      ],
+      "why": "Purchased by coffee enthusiasts who want barista-level quality at home."
+    },
+    {
+      "name": "YETI Rambler 20 oz Tumbler",
+      "category": "raw_review_Home_and_Kitchen",
+      "accuracy": 0.91,
+      "review_keywords": [
+        "durable",
+        "keeps cold",
+        "hot drinks",
+        "quality"
+      ],
+      "context_keywords": [
+        "outdoors",
+        "camping",
+        "work"
+      ],
+      "exclusion_keywords": [
+        "kids",
+        "elderly"
+      ],
+      "why": "Popular among outdoor enthusiasts and professionals who value durability."
+    },
+    {
+      "name": "Apple AirTag 4 Pack",
+      "category": "raw_review_Electronics",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "tracking",
+        "find",
+        "iPhone",
+        "keys"
+      ],
+      "context_keywords": [
+        "tech-savvy",
+        "Apple user",
+        "convenient"
+      ],
+      "exclusion_keywords": [
+        "senior",
+        "cat"
+      ],
+      "why": "Used by tech-savvy Apple users who want to keep track of their belongings."
+    },
+    {
+      "name": "Instant Pot Duo 7-in-1 Electric Pressure Cooker",
+      "category": "raw_review_Appliances",
+      "accuracy": 0.89,
+      "review_keywords": [
+        "fast",
+        "convenient",
+        "multi-cooker",
+        "easy"
+      ],
+      "context_keywords": [
+        "busy mom",
+        "family",
+        "recipes"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "single"
+      ],
+      "why": "Popular among busy families who need quick and versatile cooking solutions."
+    },
+    {
+      "name": "Crayola Inspiration Art Case",
+      "category": "raw_review_Arts_Crafts_and_Sewing",
+      "accuracy": 0.88,
+      "review_keywords": [
+        "colors",
+        "kids",
+        "crafts",
+        "arts"
+      ],
+      "context_keywords": [
+        "children",
+        "school",
+        "creativity"
+      ],
+      "exclusion_keywords": [
+        "adult",
+        "office"
+      ],
+      "why": "Primarily bought by parents for their kids' school and art projects."
+    },
+    {
+      "name": "Fisher-Price Rock 'n Play Sleeper",
+      "category": "raw_review_Baby_Products",
+      "accuracy": 0.87,
+      "review_keywords": [
+        "newborn",
+        "sleep",
+        "portable",
+        "comfortable"
+      ],
+      "context_keywords": [
+        "mom",
+        "baby",
+        "nursery"
+      ],
+      "exclusion_keywords": [
+        "elderly",
+        "pet"
+      ],
+      "why": "Used by parents for newborns to help with sleeping and soothing."
+    },
+    {
+      "name": "Sony WH-1000XM4 Wireless Noise-Canceling Headphones",
+      "category": "raw_review_Electronics",
+      "accuracy": 0.86,
+      "review_keywords": [
+        "noise-canceling",
+        "sound quality",
+        "comfortable",
+        "wireless"
+      ],
+      "context_keywords": [
+        "travel",
+        "music",
+        "work"
+      ],
+      "exclusion_keywords": [
+        "kids",
+        "elderly"
+      ],
+      "why": "Popular among professionals and travelers who appreciate high-quality audio."
+    },
+    {
+      "name": "Vitamix 5200 Blender",
+      "category": "raw_review_Appliances",
+      "accuracy": 0.85,
+      "review_keywords": [
+        "powerful",
+        "smoothies",
+        "durable",
+        "blending"
+      ],
+      "context_keywords": [
+        "kitchen",
+        "healthy",
+        "recipes"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "single"
+      ],
+      "why": "Purchased by health-conscious individuals and home cooks who value performance."
+    },
+    {
+      "name": "Nintendo Switch OLED Model",
+      "category": "raw_review_Electronics",
+      "accuracy": 0.84,
+      "review_keywords": [
+        "OLED screen",
+        "gaming",
+        "portable",
+        "family"
+      ],
+      "context_keywords": [
+        "gamer",
+        "kids",
+        "entertainment"
+      ],
+      "exclusion_keywords": [
+        "office",
+        "senior"
+      ],
+      "why": "Popular among families and gamers who enjoy versatile gaming experiences."
+    },
+    {
+      "name": "Elmers Glue Slime Kit",
+      "category": "raw_review_Arts_Crafts_and_Sewing",
+      "accuracy": 0.83,
+      "review_keywords": [
+        "slime",
+        "fun",
+        "kids",
+        "crafts"
+      ],
+      "context_keywords": [
+        "children",
+        "school",
+        "creativity"
+      ],
+      "exclusion_keywords": [
+        "adult",
+        "office"
+      ],
+      "why": "Primarily bought by parents for their kids' crafts and creative play."
+    },
+    {
+      "name": "MyProtein Impact Whey Protein",
+      "category": "raw_review_Grocery_and_Gourmet_Food",
+      "accuracy": 0.82,
+      "review_keywords": [
+        "protein",
+        "muscle",
+        "gym",
+        "healthy"
+      ],
+      "context_keywords": [
+        "fitness",
+        "bodybuilding",
+        "workout"
+      ],
+      "exclusion_keywords": [
+        "kids",
+        "elderly"
+      ],
+      "why": "Used by fitness enthusiasts and bodybuilders for muscle recovery and growth."
+    }
+  ],
+  "subreddits": [
+    {
+      "name": "personal finance",
+      "relevance": 0.95,
+      "member_type": "70% young professionals",
+      "data_value": "Insights on budgeting, investing, and financial decisions.",
+      "why": "Young professionals seek advice on managing their finances and planning for the future."
+    },
+    {
+      "name": "fitness",
+      "relevance": 0.94,
+      "member_type": "80% fitness enthusiasts",
+      "data_value": "Insights on workout routines, nutrition, and health goals.",
+      "why": "Fitness enthusiasts share tips, progress, and motivation for staying healthy."
+    },
+    {
+      "name": "technology",
+      "relevance": 0.93,
+      "member_type": "75% tech-savvy individuals",
+      "data_value": "Insights on latest gadgets, software, and tech trends.",
+      "why": "Tech-savvy individuals discuss and review new technologies and innovations."
+    },
+    {
+      "name": "travel",
+      "relevance": 0.92,
+      "member_type": "65% adventurous travelers",
+      "data_value": "Insights on destinations, itineraries, and travel tips.",
+      "why": "Adventure seekers share experiences and recommendations for traveling."
+    },
+    {
+      "name": "cooking",
+      "relevance": 0.91,
+      "member_type": "70% home cooks",
+      "data_value": "Insights on recipes, techniques, and kitchen tools.",
+      "why": "Home cooking enthusiasts exchange recipes and cooking tips."
+    },
+    {
+      "name": "parenting",
+      "relevance": 0.9,
+      "member_type": "85% parents",
+      "data_value": "Insights on child-rearing, family dynamics, and childcare products.",
+      "why": "Parents discuss various aspects of raising children and managing family life."
+    },
+    {
+      "name": "books",
+      "relevance": 0.89,
+      "member_type": "75% avid readers",
+      "data_value": "Insights on literature, genres, and reading habits.",
+      "why": "Literature lovers share book recommendations and discuss literary works."
+    },
+    {
+      "name": "gaming",
+      "relevance": 0.88,
+      "member_type": "80% gamers",
+      "data_value": "Insights on games, gaming cultures, and gaming hardware.",
+      "why": "Gamers discuss gaming strategies, latest releases, and gaming technologies."
+    },
+    {
+      "name": "relationships",
+      "relevance": 0.87,
+      "member_type": "70% young adults",
+      "data_value": "Insights on dating, relationships, and social interactions.",
+      "why": "Young adults seek advice and share experiences about their personal relationships."
+    },
+    {
+      "name": "cars",
+      "relevance": 0.86,
+      "member_type": "75% car enthusiasts",
+      "data_value": "Insights on vehicles, maintenance, and automotive news.",
+      "why": "Automotive lovers discuss cars, driving experiences, and car maintenance tips."
+    }
+  ],
+  "demographic_profile": {
+    "core_keywords": [
+      "education",
+      "young professionals",
+      "health",
+      "technology",
+      "family",
+      "fitness",
+      "travel",
+      "innovation",
+      "students",
+      "entrepreneurs"
+    ],
+    "exclusion_keywords": [
+      "retired",
+      "senior",
+      "elderly",
+      "kids",
+      "toddlers"
+    ],
+    "age_range": "18-40",
+    "primary_motivations": [
+      "career advancement",
+      "health and fitness",
+      "financial security",
+      "work-life balance"
+    ],
+    "summary": "This demographic consists of young professionals and students aged 18-40 who are driven by career advancement, health, and financial security. They value innovation and seek a balance between work and personal life. Frustrations often stem from economic pressures and the challenge of managing time effectively."
+  }
+}

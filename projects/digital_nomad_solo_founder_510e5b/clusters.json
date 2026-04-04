@@ -1,0 +1,2205 @@
+{
+  "chosen_n_clusters": 3,
+  "sweep_results": [
+    {
+      "k": 3,
+      "silhouette": 0.1536228060722351,
+      "intra_similarity": 0.6963209410508474,
+      "inter_distance": 0.6931546330451965,
+      "combined_score": 0.4243386119604111
+    },
+    {
+      "k": 4,
+      "silhouette": 0.09279052168130875,
+      "intra_similarity": 0.6791602596640587,
+      "inter_distance": 0.6079229116439819,
+      "combined_score": 0.3717279210686683
+    },
+    {
+      "k": 5,
+      "silhouette": 0.08697907626628876,
+      "intra_similarity": 0.6706437349319458,
+      "inter_distance": 0.5109919309616089,
+      "combined_score": 0.3468810448050499
+    },
+    {
+      "k": 6,
+      "silhouette": 0.09500455111265182,
+      "intra_similarity": 0.6676743676265081,
+      "inter_distance": 0.4686850309371948,
+      "combined_score": 0.3415415920317173
+    },
+    {
+      "k": 7,
+      "silhouette": 0.09002497047185898,
+      "intra_similarity": 0.6663968988827297,
+      "inter_distance": 0.45283252000808716,
+      "combined_score": 0.33549805890236584
+    },
+    {
+      "k": 8,
+      "silhouette": 0.08187408000230789,
+      "intra_similarity": 0.6773354783654213,
+      "inter_distance": 0.4500919580459595,
+      "combined_score": 0.33415607511997225
+    },
+    {
+      "k": 9,
+      "silhouette": 0.08550766110420227,
+      "intra_similarity": 0.6637006004651388,
+      "inter_distance": 0.43665051460266113,
+      "combined_score": 0.329194113612175
+    },
+    {
+      "k": 10,
+      "silhouette": 0.08126147091388702,
+      "intra_similarity": 0.6786280870437622,
+      "inter_distance": 0.4226284623146057,
+      "combined_score": 0.3287448540329933
+    }
+  ],
+  "quality_metrics": {
+    "silhouette": 0.1536228060722351,
+    "intra_similarity": 0.6963209410508474,
+    "inter_distance": 0.6931546330451965,
+    "combined_score": 0.4243386119604111,
+    "stability_ari": 0.5351,
+    "stability_label": "moderate"
+  },
+  "cluster_0": {
+    "member_count": 102,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Product failure or short lifespan with no recourse (protection plan)",
+            "frequency": 4,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Difficulty setting up or programming devices",
+            "frequency": 6,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Struggling to attract signups/customers after launch",
+            "frequency": 3,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Device unreliability (buttons, skip function, connectivity)",
+            "frequency": 5,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Cluttered workspace with too many cords",
+            "frequency": 2,
+            "emotional_intensity": 0.3
+          },
+          {
+            "signal": "Poor ergonomics (small buttons hard to read)",
+            "frequency": 2,
+            "emotional_intensity": 0.4
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Simple, plug-and-play setup",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Reliable, long-lasting hardware",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Clean, organized workspace with minimal cords",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Easy customer acquisition and conversion",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Universal compatibility and seamless replacement",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Productivity through multi-device/monitor support",
+            "priority": 0.75
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to replace a disappointing or failed product",
+            "context": "Previous product didn't work as universal remote, buttons noisy, or broke"
+          },
+          {
+            "trigger": "Desire for enhanced mobile work setup (dual monitors)",
+            "context": "Working remotely and wanting to stop working directly on laptop"
+          },
+          {
+            "trigger": "Seeking organization for multiple small tech items",
+            "context": "Need to store and organize multiple flash drives"
+          },
+          {
+            "trigger": "Finding a product identical to a trusted original",
+            "context": "Seeking a direct replacement with same characteristics"
+          },
+          {
+            "trigger": "Positive word-of-mouth or social proof of effectiveness",
+            "context": "Seeing others achieve results (e.g., $500 MRR) inspires purchase of tools"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Lack of protection plan or warranty for product failure",
+            "severity": 0.9
+          },
+          {
+            "objection": "Requires credit card upfront without a demo or free trial",
+            "severity": 0.7
+          },
+          {
+            "objection": "Product feels cheaply made compared to original",
+            "severity": 0.8
+          },
+          {
+            "objection": "Setup is confusing or technical support is ineffective",
+            "severity": 0.75
+          },
+          {
+            "objection": "Price too low may indicate low quality",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Disappointing universal remote",
+            "reason": "Did not work as truly universal",
+            "threshold": "First use demonstrates failure"
+          },
+          {
+            "from_product": "Failing earphones/headphones",
+            "reason": "Short lifespan (6 months) with no repair option",
+            "threshold": "Product dies completely"
+          },
+          {
+            "from_product": "Inconvenient single-monitor laptop setup",
+            "reason": "Desire for dual monitors and reduced cord clutter",
+            "threshold": "Frustration with limited workspace"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability & Longevity",
+          "Ease of Setup & Use",
+          "Price vs. Value",
+          "Compatibility / Works as Advertised",
+          "Simplicity & Time Savings",
+          "Customer Support & Protection",
+          "Portability & Organization"
+        ],
+        "deal_breakers": [
+          "Product fails quickly with no warranty or protection plan",
+          "Cannot set up or get the product to work despite effort",
+          "Product is fundamentally incompatible (e.g., can't control key device)"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Exhaustion from handling all business tasks solo",
+            "frequency": 6,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Time wasted on administrative tasks (accounting, payroll)",
+            "frequency": 3,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Difficulty managing product setup/compatibility across different regions or platforms",
+            "frequency": 7,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Limited resources to hire help despite need",
+            "frequency": 4,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Poor documentation or unclear instructions for technical products",
+            "frequency": 3,
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Frustration with small, hard-to-use interfaces on portable devices",
+            "frequency": 3,
+            "emotional_intensity": 0.4
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Free up time to focus on high-value activities (like estimating, project management)",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Achieve reliable, portable connectivity and productivity while traveling",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Grow business revenue/profit significantly",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Simplify tech setup and ensure compatibility across devices/locations",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Capture high-quality content (photos, video) for business/personal use",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Protect expensive equipment (camera, laptop) during travel",
+            "priority": 0.65
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Product enables easier travel/work mobility",
+            "context": "Planning trips or remote work periods"
+          },
+          {
+            "trigger": "Reaches a breaking point with current solution's limitations (e.g., outgrowing a camera bag)",
+            "context": "Daily operational frustration"
+          },
+          {
+            "trigger": "Need for emergency readiness or backup solutions",
+            "context": "General preparedness or specific travel concerns"
+          },
+          {
+            "trigger": "Requirement to improve business operations efficiency",
+            "context": "Scaling business or feeling overwhelmed"
+          },
+          {
+            "trigger": "Desire to upgrade tech for better compatibility/performance",
+            "context": "Integrating new tools or platforms"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Concern about product durability or build quality",
+            "severity": 0.4
+          },
+          {
+            "objection": "Fear of high cost relative to perceived value",
+            "severity": 0.5
+          },
+          {
+            "objection": "Worry about complexity of installation or setup",
+            "severity": 0.6
+          },
+          {
+            "objection": "Uncertainty about platform compatibility (e.g., iOS vs Android)",
+            "severity": 0.5
+          },
+          {
+            "objection": "Hesitation to hire due to cost, management overhead, or business revenue constraints",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Messenger-style camera bag",
+            "reason": "Insufficient capacity for additional lenses and accessories",
+            "threshold": "Outgrowing current storage needs"
+          },
+          {
+            "from_product": "Basic car stereo/AUX-only systems",
+            "reason": "Need for Bluetooth/FM connectivity without AUX port",
+            "threshold": "Vehicle lacks compatible input"
+          },
+          {
+            "from_product": "Current tech bag/sleeve",
+            "reason": "Lacks waterproofing or adequate padding",
+            "threshold": "Risk to expensive equipment"
+          },
+          {
+            "from_product": "Manual business operations",
+            "reason": "Exhaustion and lost growth opportunity",
+            "threshold": "Revenue can support hire or process change"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Portability/size",
+          "Price/value",
+          "Ease of use/setup",
+          "Compatibility with existing tech",
+          "Build quality/durability",
+          "Specific feature set (e.g., battery-powered, connectivity)",
+          "Ability to free up time/mental energy"
+        ],
+        "deal_breakers": [
+          "Product fails to work as advertised in critical scenarios",
+          "Setup requires excessive technical expertise or time",
+          "Cost vastly exceeds perceived utility or business margin",
+          "Incompatible with core devices/operating systems"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 9,
+          "amazon_med_acc": 6,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Unreliable or slow performance causing productivity loss",
+            "frequency": 3,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Products not meeting expectations or failing after limited use",
+            "frequency": 3,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poor ergonomics or comfort during extended use",
+            "frequency": 3,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Complexity or fragility of required integrations/systems (e.g., QuickBooks)",
+            "frequency": 2,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Time scarcity for outbound sales/effort",
+            "frequency": 1,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Unclear product purpose or value proposition",
+            "frequency": 2,
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "High performance and reliability for critical work tools",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Portability and compactness for global travel",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Ease of setup and intuitive use",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Efficient inbound customer acquisition (self-serve, low-time-cost)",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Protection/encapsulation of gear while traveling",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Strong connectivity (Wi-Fi) for multiple devices",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for a tool that can 'keep up with travels' and support a location-independent lifestyle",
+            "context": "Preparing for an extended work/travel period abroad"
+          },
+          {
+            "trigger": "Opportunity to acquire powerful, high-value technology at an accessible price point",
+            "context": "Finding a deal on a previous-generation model"
+          },
+          {
+            "trigger": "Replacement of a failing or outdated core work device (e.g., laptop)",
+            "context": "Existing device is too slow or unreliable"
+          },
+          {
+            "trigger": "Need to solve a specific, complex technical integration problem (e.g., QuickBooks)",
+            "context": "Building a product requiring a difficult backend integration"
+          },
+          {
+            "trigger": "Seeking low-effort, inbound exposure opportunities (e.g., press, podcasts)",
+            "context": "Looking to grow product/brand visibility without outbound time investment"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Technological obsolescence risk, especially from rapid AI advancement",
+            "severity": 0.7
+          },
+          {
+            "objection": "Questionable long-term durability or build quality",
+            "severity": 0.6
+          },
+          {
+            "objection": "Poor compatibility with existing ecosystem (e.g., router brand mismatch)",
+            "severity": 0.5
+          },
+          {
+            "objection": "Unclear ROI or valuation for business tools/acquisitions",
+            "severity": 0.65
+          },
+          {
+            "objection": "Lack of ergonomic design for all-day comfort",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Windows PC / Older Mac",
+            "reason": "Perceived slowness, unreliability, or frustration ('acts like windows')",
+            "threshold": "Persistent performance issues (spinning wheel, wifi drops) that hinder work"
+          },
+          {
+            "from_product": "Dual-band router",
+            "reason": "Insufficient connection strength for multiple devices",
+            "threshold": "Need for stronger, more reliable multi-device connectivity"
+          },
+          {
+            "from_product": "Bulky or non-travel-friendly chargers/adapters",
+            "reason": "Requirement for size reduction and portability",
+            "threshold": "Need to optimize packing and reduce gear bulk"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Performance & Reliability",
+          "Portability/Size",
+          "Ease of Use/Setup",
+          "Durability/Build Quality",
+          "Price/Value",
+          "Connectivity Features",
+          "Comfort for Extended Use",
+          "Ecosystem Compatibility"
+        ],
+        "deal_breakers": [
+          "Chronic unreliability or crashes",
+          "Severe performance degradation vs. expectations",
+          "Complete lack of portability for core travel items",
+          "Exorbitant time cost for setup/maintenance",
+          "Critical discomfort preventing extended use"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 14,
+          "amazon_med_acc": 1,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Fatigue and burnout from managing all business functions alone",
+            "frequency": 5,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Feeling overwhelmed by operational/administrative tasks (payroll, board decks, investor relations)",
+            "frequency": 7,
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Lack of dedicated, comfortable tools for mobile work and travel",
+            "frequency": 3,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Poor performance of tools in specific conditions (e.g., low-light video, unreliable connectivity)",
+            "frequency": 4,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Frustration with products that lack essential features (e.g., low storage, poor battery life, awkward design)",
+            "frequency": 6,
+            "emotional_intensity": 0.75
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Free up time and mental energy to focus on product/business strategy instead of operations",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Maintain location independence with reliable, high-performance tech tools",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Achieve deep focus in noisy or distracting environments",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Simplify setup and reduce friction in tech stacks (easy install, fast setup, plug-and-play)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Ensure tools are durable, portable, and adaptable to varying work conditions",
+            "priority": 0.75
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Reaching a breaking point with current tools' limitations (e.g., storage, speed, compatibility)",
+            "context": "When existing gear fails during critical work or travel"
+          },
+          {
+            "trigger": "Specific need arising from new work style or location (e.g., need for noise cancellation in loud cafes)",
+            "context": "Transition to new workspace or travel destination"
+          },
+          {
+            "trigger": "Discovery of a tool that solves multiple pain points simultaneously (e.g., all-in-one charging, extended WiFi)",
+            "context": "Researching efficiency upgrades for solo operation"
+          },
+          {
+            "trigger": "Recommendation from trusted network or detailed comparative review",
+            "context": "Seeking validated solutions from other entrepreneurs"
+          },
+          {
+            "trigger": "Price-to-performance ratio that justifies an upgrade from existing setup",
+            "context": "Budget-conscious but willing to invest in long-term efficiency"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "High cost for premium features that may not be fully utilized",
+            "severity": 0.6
+          },
+          {
+            "objection": "Concerns about product reliability or hidden flaws (e.g., defective units, poor battery life)",
+            "severity": 0.7
+          },
+          {
+            "objection": "Learning curve or compatibility issues with existing workflow/tools",
+            "severity": 0.5
+          },
+          {
+            "objection": "Physical design flaws that impact usability (e.g., awkward port placement, fragile components)",
+            "severity": 0.65
+          },
+          {
+            "objection": "Dependency on proprietary software or ecosystems that limit flexibility",
+            "severity": 0.55
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "General-purpose consumer electronics",
+            "reason": "Need for specialized performance (e.g., active noise cancellation, professional-grade tablets)",
+            "threshold": "When standard tools hinder productivity or comfort"
+          },
+          {
+            "from_product": "Older or limited tech (e.g., basic routers, entry-level cameras)",
+            "reason": "Require advanced features for solo business operations (e.g., network storage, high zoom, ruggedness)",
+            "threshold": "Business growth creates demands beyond consumer-grade capabilities"
+          },
+          {
+            "from_product": "Bulky or non-portable alternatives",
+            "reason": "Prioritizing minimalism and mobility for location-independent work",
+            "threshold": "When size/weight becomes a burden during travel or remote work"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and performance in varied conditions",
+          "Ease of setup and minimal ongoing maintenance",
+          "Portability and durability for travel",
+          "Price-to-value ratio (justifiable business expense)",
+          "Integration with existing workflow/tools",
+          "Quality of customer support and warranty"
+        ],
+        "deal_breakers": [
+          "Products that require constant troubleshooting or interfere with focus",
+          "Lack of durability or poor build quality for frequent travel",
+          "Proprietary lock-in that reduces flexibility or future options",
+          "Critical design flaws that impede core functionality (e.g., inadequate storage, poor battery)"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 8,
+          "amazon_med_acc": 7,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "tools or accessories that break easily and don't last",
+            "frequency": 2,
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "grind of 'spray and pray' marketing strategies that are not effective",
+            "frequency": 9,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "lack of repeatable, systematic growth processes",
+            "frequency": 10,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "unclear customer dropoff points or churn reasons",
+            "frequency": 7,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "poor onboarding experiences leading to low activation",
+            "frequency": 5,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "incompatibility issues with existing tech ecosystems",
+            "frequency": 3,
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "products missing essential accessories (e.g., batteries, chargers, cables)",
+            "frequency": 4,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "short battery life on portable devices",
+            "frequency": 2,
+            "emotional_intensity": 0.3
+          },
+          {
+            "signal": "slow internet speeds affecting streaming and work",
+            "frequency": 3,
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "cumbersome setups with too many cords and components",
+            "frequency": 2,
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "difficulty finding reliable, real-time traffic and routing information",
+            "frequency": 1,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "chasing viral growth 'hacks' instead of sustainable systems",
+            "frequency": 6,
+            "emotional_intensity": 0.8
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "durability and long-lasting products",
+            "priority": 0.8
+          },
+          {
+            "outcome": "boringly repeatable, systematic growth processes",
+            "priority": 1.0
+          },
+          {
+            "outcome": "clear visibility into customer dropoff and churn reasons",
+            "priority": 0.9
+          },
+          {
+            "outcome": "seamless compatibility with existing tech setups",
+            "priority": 0.7
+          },
+          {
+            "outcome": "portable, compact, and travel-friendly devices",
+            "priority": 0.8
+          },
+          {
+            "outcome": "simple, all-in-one solutions that reduce clutter and complexity",
+            "priority": 0.8
+          },
+          {
+            "outcome": "reliable, fast, and consistent internet connectivity",
+            "priority": 0.9
+          },
+          {
+            "outcome": "tools that enable efficient, time-saving navigation",
+            "priority": 0.7
+          },
+          {
+            "outcome": "high-quality audio/video output for work and entertainment",
+            "priority": 0.6
+          },
+          {
+            "outcome": "hand-held, personal customer onboarding for trust-building",
+            "priority": 0.9
+          },
+          {
+            "outcome": "compounding, sustainable MRR growth",
+            "priority": 1.0
+          },
+          {
+            "outcome": "actionable feedback loops to refine products and funnels",
+            "priority": 0.9
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "old or existing product breaks or underperforms",
+            "context": "replacing a broken or outdated accessory (e.g., case, power cord, modem)"
+          },
+          {
+            "trigger": "need for compatibility with a specific service or device",
+            "context": "upgrading to work with a new service provider (e.g., Comcast Xfinity)"
+          },
+          {
+            "trigger": "desire to simplify and reduce clutter",
+            "context": "consolidating devices and cords into a single, integrated unit"
+          },
+          {
+            "trigger": "seeking significant performance improvement",
+            "context": "boosting internet speeds for streaming and mobile connectivity"
+          },
+          {
+            "trigger": "looking for a travel-friendly, portable solution",
+            "context": "finding compact tech that fits a nomadic or mobile workspace"
+          },
+          {
+            "trigger": "need for a reliable, time-saving tool",
+            "context": "purchasing a GPS to avoid traffic and save hours on the road"
+          },
+          {
+            "trigger": "finding a repeatable, systematic growth methodology",
+            "context": "investing in a product or service that promises sustainable, 'anti-hack' business growth"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "product does not include essential accessories (e.g., batteries, chargers, cables)",
+            "severity": 0.7
+          },
+          {
+            "objection": "battery life is shorter than desired",
+            "severity": 0.4
+          },
+          {
+            "objection": "initial cost is high relative to missing components",
+            "severity": 0.6
+          },
+          {
+            "objection": "growth strategies lack clear tracking for dropoffs and churn",
+            "severity": 0.8
+          },
+          {
+            "objection": "onboarding process isn't systematized or scalable",
+            "severity": 0.7
+          },
+          {
+            "objection": "product may be too bulky or not compact enough",
+            "severity": 0.3
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "other cases",
+            "reason": "poor durability, breaks easily",
+            "threshold": "after product failure"
+          },
+          {
+            "from_product": "older generation tech",
+            "reason": "inferior performance, shorter battery life",
+            "threshold": "when upgrade offers significant improvements"
+          },
+          {
+            "from_product": "'spray and pray' marketing tools",
+            "reason": "ineffective, non-repeatable, lacks compounding returns",
+            "threshold": "when seeking sustainable, systematic growth"
+          },
+          {
+            "from_product": "complicated multi-unit setups",
+            "reason": "desire for integrated, simple solutions with fewer cords",
+            "threshold": "when clutter becomes a productivity pain point"
+          }
+        ],
+        "decision_factors_ranked": [
+          "durability / longevity",
+          "systematic & repeatable growth methodology",
+          "compatibility with existing setup",
+          "portability / compactness",
+          "ease of use / setup",
+          "performance improvement",
+          "cost-effectiveness",
+          "quality of customer onboarding / support",
+          "access to actionable feedback loops"
+        ],
+        "deal_breakers": [
+          "lack of essential accessories included",
+          "non-durable, breaks easily",
+          "no clear system for repeatable growth",
+          "poor or non-existent customer onboarding",
+          "incompatibility with core tech ecosystem"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 13,
+          "amazon_med_acc": 2,
+          "reddit": 15,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.504,
+      "reddit": 0.496,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Accessory malfunction: phone adapter not fitting properly or being useless",
+          "count": 1,
+          "frequency": 0.0013,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.004
+        },
+        {
+          "signal": "Poor build quality or defects in the main product (e.g., loose lenses, cracked plastic, missing film coating)",
+          "count": 1,
+          "frequency": 0.0013,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0053
+        },
+        {
+          "signal": "Challenging work-life logistics due to time zone differences while traveling",
+          "count": 1,
+          "frequency": 0.0013,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.004
+        },
+        {
+          "signal": "Difficulty finding truly remote jobs on platforms like LinkedIn due to misleading filters",
+          "count": 1,
+          "frequency": 0.0013,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.004
+        },
+        {
+          "signal": "Needing to navigate complex tax residency rules and legal requirements for location independence",
+          "count": 1,
+          "frequency": 0.0013,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.004
+        },
+        {
+          "signal": "Products interfering with network performance (e.g., WiFi range extender slowing down bandwidth)",
+          "count": 1,
+          "frequency": 0.0013,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.004
+        },
+        {
+          "signal": "Physical meeting requirements conflicting with location independence",
+          "count": 1,
+          "frequency": 0.0013,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.004
+        },
+        {
+          "signal": "Travel exhaustion or reluctance to move frequently",
+          "count": 1,
+          "frequency": 0.0013,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0053
+        },
+        {
+          "signal": "Need for consistent, reliable income while traveling",
+          "count": 1,
+          "frequency": 0.0013,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0053
+        },
+        {
+          "signal": "Stress from unpredictable income streams",
+          "count": 1,
+          "frequency": 0.0013,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.004
+        },
+        {
+          "signal": "Social stigma or misassociation with 'crypto tiktok party hostel bruhs'",
+          "count": 1,
+          "frequency": 0.0013,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.004
+        },
+        {
+          "signal": "Lack of glamour versus marketed digital nomad lifestyle",
+          "count": 1,
+          "frequency": 0.0013,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.004
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Portability and compact size for travel",
+          "count": 2,
+          "frequency": 0.0028,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0069
+        },
+        {
+          "signal": "Effective noise cancellation for focus in varied environments",
+          "count": 2,
+          "frequency": 0.0028,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0069
+        },
+        {
+          "signal": "Reliable, durable products that withstand travel and frequent use",
+          "count": 2,
+          "frequency": 0.0028,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0069
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Complex setup requiring technical expertise",
+          "count": 3,
+          "frequency": 0.0068,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0136
+        },
+        {
+          "signal": "Extremely poor battery life",
+          "count": 2,
+          "frequency": 0.0045,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0113
+        },
+        {
+          "signal": "Overly complex setup",
+          "count": 2,
+          "frequency": 0.0045,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0113
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Need to replace a broken or defective product from a previous purchase",
+          "count": 1,
+          "frequency": 0.0019,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0057
+        },
+        {
+          "signal": "Desire to consolidate gear and improve travel efficiency",
+          "count": 1,
+          "frequency": 0.0019,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0057
+        },
+        {
+          "signal": "Seeking solutions to specific technical problems (e.g., weak WiFi signal)",
+          "count": 1,
+          "frequency": 0.0019,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0058
+        },
+        {
+          "signal": "Need for hardware compatibility (e.g., laptop cooling, iPad case fit)",
+          "count": 1,
+          "frequency": 0.0019,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0057
+        },
+        {
+          "signal": "Replacement or upgrade of existing tech components (e.g., drives in RAID)",
+          "count": 1,
+          "frequency": 0.0019,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0057
+        },
+        {
+          "signal": "Solving specific physical problems (e.g., screws falling into power supply)",
+          "count": 1,
+          "frequency": 0.0019,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0057
+        },
+        {
+          "signal": "Seeking reliable performance for remote work tools (e.g., internet routers, hubs)",
+          "count": 1,
+          "frequency": 0.0019,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0057
+        },
+        {
+          "signal": "Desire for portable, multi-functional accessories (e.g., photo backdrop)",
+          "count": 1,
+          "frequency": 0.0019,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0057
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "low": 0.667,
+        "medium": 0.333
+      }
+    }
+  },
+  "cluster_1": {
+    "member_count": 4,
+    "representative_batches": [
+      {
+        "signals": {
+          "pain_points": [
+            {
+              "description": "Product durability issues (breaks/loses items frequently)",
+              "evidence": "Husband runs through these like candy - breaks them, loses them.. etc...."
+            },
+            {
+              "description": "Lack of aesthetic options (color choices)",
+              "evidence": "Wish they would develop these in a white color (not just the \"inside\" version)"
+            },
+            {
+              "description": "High cost barriers for developers (Apple's $99/year fee)",
+              "evidence": "Apple's $99/year fee + strict review process is a bit of a hurdle for a bootstrapped dev right now."
+            },
+            {
+              "description": "Poor build quality/cheap materials",
+              "evidence": "But it's kinda cheapy feeling plastic and the phone grip is very hard to use/clip."
+            },
+            {
+              "description": "Awkward/unreliable physical design",
+              "evidence": "The fold to open is VERY awkward and doesn't work all of the time. It is also VERY heavy and cheap looking."
+            },
+            {
+              "description": "Limited system capacity (10 camera limit per system)",
+              "evidence": "I will say - keep in mind - each of your systems is limited to 10 cameras total."
+            },
+            {
+              "description": "Device compatibility limitations",
+              "evidence": "it does NOT turn off the tab when you close it.... but it turns out this tablet doesn't have this capability"
+            }
+          ],
+          "desired_outcomes": [
+            {
+              "description": "Long-lasting products that survive frequent use",
+              "evidence": "So I am hoping this one lasts a bit longer than the others."
+            },
+            {
+              "description": "No monthly fees for essential services",
+              "evidence": "as long as you have wifi connection, they work well - no monthly fees."
+            },
+            {
+              "description": "Portable and compact gear for on-the-go use",
+              "evidence": "I purchased these because I wanted a wired set that would fit into a small bag/box to put in my purse."
+            },
+            {
+              "description": "Privacy and consideration for others in shared spaces",
+              "evidence": "I wanted them to use for privacy and consideration of those around me while playing games or viewing videos, etc."
+            },
+            {
+              "description": "Easy storage and organization of gear",
+              "evidence": "Comes with a very nice, small holder - perfect for your purse."
+            },
+            {
+              "description": "Reliable connectivity (wifi, Bluetooth, etc.)",
+              "evidence": "as long as you have wifi connection, they work well"
+            },
+            {
+              "description": "Lightweight and portable equipment",
+              "evidence": "I am looking for a lighter, less cheap looking one."
+            }
+          ],
+          "behavioral_insights": [
+            {
+              "description": "Prioritize function over form, but still care about aesthetics",
+              "evidence": "To be honest - I purchased these because they are gold colored cords that matched my phone and car... they work great!"
+            },
+            {
+              "description": "Value bootstrapped, transparent communication from creators",
+              "evidence": "Bro simply said what it is, why he built it and gave us links, no 7 paragraphs about why we should use it."
+            },
+            {
+              "description": "Willing to repurchase from trusted brands despite issues",
+              "evidence": "we are firm Blink supporters. We have 2 full systems"
+            },
+            {
+              "description": "Appreciate minimalism and directness in product pitches",
+              "evidence": "thanks man! I figured people are tired of sales pitches. Just wanted to share the milestone and keep it real."
+            },
+            {
+              "description": "Actively research alternatives when products have flaws",
+              "evidence": "I am going to look as some other options."
+            },
+            {
+              "description": "Seek community validation and shared experiences",
+              "evidence": "how did you get the first users? ads or word of mouth"
+            },
+            {
+              "description": "Value no-cost or low-cost acquisition strategies",
+              "evidence": "Zero ads. Just cold outreach to founders (giving them free profiles) and programmatic SEO starting to kick in."
+            }
+          ]
+        },
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [],
+        "desired_outcomes": [],
+        "purchase_triggers": [],
+        "objections": [],
+        "switching_triggers": [],
+        "decision_factors_ranked": [],
+        "deal_breakers": [],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 14,
+          "amazon_med_acc": 1,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [],
+        "desired_outcomes": [],
+        "purchase_triggers": [],
+        "objections": [],
+        "switching_triggers": [],
+        "decision_factors_ranked": [],
+        "deal_breakers": [],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 10,
+          "amazon_med_acc": 5,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "signals": [
+          {
+            "signal_name": "signal name",
+            "evidence": [
+              "exact quote 1",
+              "exact quote 2"
+            ],
+            "confidence": 0.95
+          }
+        ],
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 15,
+          "reddit": 15,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.5,
+      "reddit": 0.5,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [],
+      "top_desired_outcomes": [],
+      "top_deal_breakers": [],
+      "top_purchase_triggers": [],
+      "dominant_friction_tolerance": "medium",
+      "friction_tolerance_distribution": {
+        "medium": 1.0
+      }
+    }
+  },
+  "cluster_2": {
+    "member_count": 36,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Burnout from managing everything alone",
+            "frequency": 6,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Difficulty focusing on strategic vision due to day-to-day operational load",
+            "frequency": 4,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "High cognitive load from juggling multiple roles (CEO, devops, support)",
+            "frequency": 2,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Lack of peer support or mentorship for business decisions",
+            "frequency": 3,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Feeling isolated with no one to turn to for guidance",
+            "frequency": 2,
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Fatigue and desire to sell the business",
+            "frequency": 2,
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Product reliability issues requiring replacements",
+            "frequency": 2,
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Product design flaws causing frequent inconvenience (e.g., latching mechanisms)",
+            "frequency": 2,
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Complex setup or configuration for tech products",
+            "frequency": 2,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Poor ergonomics or adjustability in carry products",
+            "frequency": 2,
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Delegate operational tasks to focus on growth",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Achieve work-life balance and reduce burnout",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Simplify tech stack to reduce cognitive load",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Organize and protect mobile tech gear efficiently",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Maintain productivity while traveling or in noisy environments",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Ensure reliable and fast connectivity anywhere",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Professional appearance with functional carry solutions",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Transitioning to a new work environment (corporate, travel)",
+            "context": "Switching from a backpack to a professional briefcase"
+          },
+          {
+            "trigger": "Need to eliminate clutter and organize many small tech accessories",
+            "context": "Moving from a roll-up organizer to a book-style case"
+          },
+          {
+            "trigger": "Desire to reduce wires and streamline workspace",
+            "context": "Replacing a wired mouse with a wireless one"
+          },
+          {
+            "trigger": "Upgrading to faster/more reliable tech (e.g., Thunderbolt 4, mesh Wi-Fi)",
+            "context": "Seeking better performance for work demands"
+          },
+          {
+            "trigger": "Experiencing burnout and seeking tools to simplify operations",
+            "context": "Adopting tools with fewer moving parts to reduce debugging"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product lacks durability or fails after limited use",
+            "severity": 0.7
+          },
+          {
+            "objection": "Design is not user-friendly for frequent access",
+            "severity": 0.5
+          },
+          {
+            "objection": "Setup is overly complex compared to alternatives",
+            "severity": 0.6
+          },
+          {
+            "objection": "Limited compatibility or functionality (e.g., adapters only work with specific cables)",
+            "severity": 0.5
+          },
+          {
+            "objection": "Ergonomic flaws make daily use uncomfortable",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Wired mouse",
+            "reason": "Desire for workspace tidiness and mobility",
+            "threshold": "Annoyance with cable management"
+          },
+          {
+            "from_product": "Roll-up cable organizer",
+            "reason": "Inefficient organization and stress on cables",
+            "threshold": "Frustration with accessibility and protection"
+          },
+          {
+            "from_product": "Standard router",
+            "reason": "Poor signal coverage in challenging environments",
+            "threshold": "Spotty connectivity impacting work"
+          },
+          {
+            "from_product": "Complex, multi-part tools",
+            "reason": "High cognitive load and maintenance burden",
+            "threshold": "Burnout from constant debugging and management"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and durability",
+          "Simplicity and ease of use",
+          "Portability and travel-friendliness",
+          "Professional appearance",
+          "Cost-effectiveness",
+          "Customer support quality"
+        ],
+        "deal_breakers": [
+          "Frequent product failures requiring replacements",
+          "Overly complex setup that wastes time",
+          "Poor ergonomics causing daily discomfort",
+          "Lack of customer support responsiveness"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 15,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Burnout and isolation from being the sole responsible party",
+            "frequency": 6,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Product unreliability or premature failure",
+            "frequency": 5,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Feeling burdened by the responsibility of others (employees)",
+            "frequency": 4,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Inadequate product performance (e.g., slow speed, poor quality)",
+            "frequency": 3,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Unhelpful or generic advice from outsiders",
+            "frequency": 2,
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Challenges of delegation and finding reliable, dedicated people",
+            "frequency": 2,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Difficulty disconnecting from work or taking a break",
+            "frequency": 2,
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Missing critical shots/moments due to product slowness",
+            "frequency": 1,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Need for investor-quality pitch deck tools for fundraising",
+            "frequency": 1,
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable, durable products that withstand travel",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Ease of use and quick setup",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Lightweight, portable gear for mobility",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Ability to delegate or restructure to reduce personal workload",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Maintaining high productivity while traveling",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Finding meaning and avoiding founder resentment",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Tools that function as promised without hassle",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Professional presentation tools (e.g., for investor pitches)",
+            "priority": 0.5
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Travel needs",
+            "context": "Seeking lightweight, compact gear specifically for work while traveling"
+          },
+          {
+            "trigger": "Replacement/upgrade",
+            "context": "Dissatisfaction with current product's performance or reliability"
+          },
+          {
+            "trigger": "Backup solution",
+            "context": "Buying a secondary device for redundancy or travel"
+          },
+          {
+            "trigger": "Specific functional need",
+            "context": "Need for portability, fast data transfer, or multi-screen setup"
+          },
+          {
+            "trigger": "Gift for others",
+            "context": "Purchasing for someone else with similar nomadic/work needs"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Poor durability/longevity",
+            "severity": 0.9
+          },
+          {
+            "objection": "Inferior performance compared to alternatives",
+            "severity": 0.8
+          },
+          {
+            "objection": "Product doesn't deliver on key features (e.g., sound, speed)",
+            "severity": 0.7
+          },
+          {
+            "objection": "High cost for perceived low value",
+            "severity": 0.6
+          },
+          {
+            "objection": "Complexity or difficulty of delegation/hiring",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Previous speaker/audio gear",
+            "reason": "Poor sound quality and unreliability",
+            "threshold": "Speaker failure and awful sound"
+          },
+          {
+            "from_product": "Previous camera",
+            "reason": "Slow performance causing missed shots",
+            "threshold": "Persistent frustration with delay and inconsistent results"
+          },
+          {
+            "from_product": "Existing accessory (e.g., keypad)",
+            "reason": "Breakage/failure despite limited use",
+            "threshold": "Physical failure of a critical component"
+          },
+          {
+            "from_product": "Current operational role",
+            "reason": "Burnout and desire for freedom from daily grind",
+            "threshold": "Feeling drained and resenting the business structure"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Portability/weight",
+          "Durability/reliability",
+          "Ease of use/setup",
+          "Performance/speed",
+          "Cost/value",
+          "Aesthetics/design"
+        ],
+        "deal_breakers": [
+          "Frequent product failure",
+          "Severely underperforming core function (e.g., slow speed, bad sound)",
+          "Not durable enough for travel",
+          "Excessive complexity or setup time"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 15,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Inability to walk away from business due to lack of systems/processes",
+            "frequency": 5,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Feeling like the business is a job rather than an asset",
+            "frequency": 3,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Burnout and loss of motivation",
+            "frequency": 4,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Difficulty with delegation and being the bottleneck",
+            "frequency": 3,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Struggling with identity and purpose as a founder",
+            "frequency": 2,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Technical/product issues that hinder reliability (e.g., fit, connectivity, quality)",
+            "frequency": 8,
+            "emotional_intensity": 0.4
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Build systems that allow the business to run independently",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Achieve location independence and freedom from daily operations",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Regain passion and mental health while running the business",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Improve efficiency and reliability of tools for solo operation",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Delegate effectively to focus on core strengths",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for portability and compactness to support travel",
+            "context": "Digital nomad lifestyle"
+          },
+          {
+            "trigger": "Replacing outdated or unreliable tools causing friction",
+            "context": "Upgrading to more efficient systems"
+          },
+          {
+            "trigger": "Desire for multi-functional devices that save space",
+            "context": "Minimalist travel setup"
+          },
+          {
+            "trigger": "Recommendation from trusted source or community",
+            "context": "Seeking validated solutions"
+          },
+          {
+            "trigger": "Requirement to solve a specific pain point (e.g., cable management, power access)",
+            "context": "Immediate productivity need"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "High cost without clear value addition (e.g., paying for features not needed)",
+            "severity": 0.6
+          },
+          {
+            "objection": "Concerns about product durability and long-term reliability",
+            "severity": 0.5
+          },
+          {
+            "objection": "Complex setup or learning curve that consumes time",
+            "severity": 0.4
+          },
+          {
+            "objection": "Fear that the product won't integrate well with existing systems",
+            "severity": 0.3
+          },
+          {
+            "objection": "Worries about security or privacy with tech tools",
+            "severity": 0.2
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Traditional desktop setups",
+            "reason": "Need for mobility and compactness",
+            "threshold": "When travel frequency increases"
+          },
+          {
+            "from_product": "High-end premium devices",
+            "reason": "Cost-effectiveness and sufficient functionality",
+            "threshold": "When budget constraints or value assessment prioritizes essentials"
+          },
+          {
+            "from_product": "Manual or inefficient processes",
+            "reason": "Desire for automation and systemization",
+            "threshold": "When time loss becomes critical"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability",
+          "Portability",
+          "Cost-effectiveness",
+          "Ease of use",
+          "Integration with existing tools",
+          "Community reviews/recommendations"
+        ],
+        "deal_breakers": [
+          "Lack of durability",
+          "Complex setup that wastes time",
+          "Poor customer support",
+          "Incompatibility with essential software/tools"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 15,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Frustration with products not meeting specific skill level needs (e.g., too basic for experienced users)",
+            "frequency": 4,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Disappointment due to mismatch between product description/content and actual content",
+            "frequency": 6,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Feeling overwhelmed by complex, lengthy, or overly detailed materials",
+            "frequency": 3,
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Anger or regret after purchasing based on misleading positive reviews",
+            "frequency": 2,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Difficulty finding actionable, practical advice instead of generic or overly simplistic information",
+            "frequency": 4,
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Gain practical, actionable knowledge or skills applicable to professional work",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Achieve improved efficiency, organization, or systematic operation in business/personal systems",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Attain deep, expert-level understanding of a complex subject area",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Find inspirational stories and lessons from successful entrepreneurs/historical figures",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Access reliable, well-structured reference material or comprehensive guides",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Obtain tools for effective decision-making, process improvement, or strategic planning",
+            "priority": 0.85
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Recommendation based on author/reviewer credibility or prior positive experience with author's other works",
+            "context": "Seeking advanced, reliable professional knowledge"
+          },
+          {
+            "trigger": "Need to solve a specific, complex professional problem (e.g., software estimating, process change)",
+            "context": "Professional project or role requirement"
+          },
+          {
+            "trigger": "Desire for structured, systematic approaches (methodologies, frameworks) to replace ad-hoc methods",
+            "context": "Scaling or improving solo business operations"
+          },
+          {
+            "trigger": "Seeking inspiration or practical lessons from entrepreneurial/business biographies",
+            "context": "Motivation and learning from others' experiences"
+          },
+          {
+            "trigger": "Requirement for durable, high-quality physical tools (e.g., organizers, notebooks)",
+            "context": "Building a reliable, long-lasting productivity system"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Content is too basic or aimed at absolute beginners, not valuable for experienced practitioners",
+            "severity": 0.8
+          },
+          {
+            "objection": "Product is overly long, tedious, or contains excessive, unnecessary detail",
+            "severity": 0.6
+          },
+          {
+            "objection": "Information is not practically applicable or lacks actionable steps",
+            "severity": 0.7
+          },
+          {
+            "objection": "Strong ideological/political bias that conflicts with personal values",
+            "severity": 0.5
+          },
+          {
+            "objection": "Poor or misleading product description leading to incorrect purchase",
+            "severity": 0.75
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Generic/basic organizational guides",
+            "reason": "Need more advanced, systematic methodologies",
+            "threshold": "When scaling operations or facing complex organizational challenges"
+          },
+          {
+            "from_product": "Theoretical or non-actionable business books",
+            "reason": "Require practical, step-by-step implementation guides",
+            "threshold": "When immediate, practical application is needed for a project"
+          },
+          {
+            "from_product": "Ad-hoc or outdated technical/professional references",
+            "reason": "Seek current, comprehensive, and authoritative frameworks",
+            "threshold": "When professional credibility or accuracy is critical"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Actionable content and practical applicability",
+          "Depth and comprehensiveness of subject coverage",
+          "Author credibility and expertise",
+          "Structural clarity and methodological rigor",
+          "Product quality and durability (for physical items)",
+          "Alignment with specific skill level (not too basic)"
+        ],
+        "deal_breakers": [
+          "Content is overly simplistic with no value for experienced users",
+          "Information is ideologically biased in a disagreeable way",
+          "Product is misrepresented or misleading in its description"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 11,
+          "amazon_med_acc": 19,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Lack of confidence in high-stakes business negotiations",
+            "frequency": 2,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Feeling disconnected from deeper purpose or meaning in life",
+            "frequency": 2,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Difficulty mastering complex technical systems alone",
+            "frequency": 2,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Struggle to acquire new practical skills quickly and efficiently",
+            "frequency": 2,
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Feeling a lack of inspiration or creative fuel for their own projects",
+            "frequency": 2,
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Information overload or inability to find trustworthy knowledge on niche topics",
+            "frequency": 4,
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Acquire practical, immediately applicable business skills",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Achieve personal confidence and mental clarity",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Find inspiration and creativity from others' journeys",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Gain self-sufficiency and mastery over tools/systems",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Obtain condensed, fast-track knowledge on complex topics",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Connect with deeper meaning or spiritual grounding",
+            "priority": 0.65
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Recommendation from trusted community/fan base",
+            "context": "For inspiring autobiographies (e.g., Alex Morgan, Nile Rodgers)."
+          },
+          {
+            "trigger": "Need to solve a specific, immediate practical problem",
+            "context": "Learning a skill like metal fabrication or OS X."
+          },
+          {
+            "trigger": "Desire for personal or professional development",
+            "context": "Seeking negotiation skills or deeper self-exploration."
+          },
+          {
+            "trigger": "Intense curiosity about a niche topic",
+            "context": "Researching secretive organizations or historical lore."
+          },
+          {
+            "trigger": "Seeking a gift that imparts knowledge or inspiration",
+            "context": "Buying for a child, colleague, or team member."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Content is too basic and not advanced enough",
+            "severity": 0.6
+          },
+          {
+            "objection": "Lack of detailed, in-depth exploration of topics",
+            "severity": 0.5
+          },
+          {
+            "objection": "Material feels dated or not current",
+            "severity": 0.4
+          },
+          {
+            "objection": "Product lacks visual appeal or high-quality presentation",
+            "severity": 0.3
+          },
+          {
+            "objection": "Questionable practical value or unrealistic advice",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Official tutorials/documentation",
+            "reason": "Author's presentation is easier to learn from",
+            "threshold": "When official sources are too difficult or poorly structured."
+          },
+          {
+            "from_product": "Generic or unfocused information sources",
+            "reason": "Need for targeted, concise 'cliff notes'",
+            "threshold": "When time is limited and need to get up to speed quickly."
+          },
+          {
+            "from_product": "Similar inspirational narratives",
+            "reason": "Preference for authentic, humble, and practical stories",
+            "threshold": "When other stories feel boastful or lack practical lessons."
+          }
+        ],
+        "decision_factors_ranked": [
+          "Practical Utility & Immediate Applicability",
+          "Author Credibility & Real-World Experience",
+          "Clarity & Ease of Understanding",
+          "Inspiration & Emotional Connection",
+          "Portability & Format (e.g., pocket size)",
+          "Visual Presentation & Design"
+        ],
+        "deal_breakers": [
+          "Completely impractical or unrealistic advice",
+          "Poorly structured or confusing content",
+          "Lack of author authenticity or expertise",
+          "Extremely outdated information with no modern relevance"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 18,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.747,
+      "reddit": 0.253,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Income instability and reliance on temporary gigs or savings",
+          "count": 1,
+          "frequency": 0.0039,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0118
+        },
+        {
+          "signal": "Difficulty finding reliable, well-paying remote work",
+          "count": 1,
+          "frequency": 0.0039,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0118
+        },
+        {
+          "signal": "Complexity or initial confusion with product setup/use",
+          "count": 1,
+          "frequency": 0.0039,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0118
+        },
+        {
+          "signal": "Concern about AI automation reducing job security",
+          "count": 1,
+          "frequency": 0.0039,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0118
+        },
+        {
+          "signal": "Lack of community validation for specific product use cases",
+          "count": 1,
+          "frequency": 0.0039,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0118
+        },
+        {
+          "signal": "Balancing work demands with travel/sightseeing enjoyment",
+          "count": 1,
+          "frequency": 0.0039,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0118
+        },
+        {
+          "signal": "Anxiety about forgetting tasks or responsibilities despite having a system",
+          "count": 1,
+          "frequency": 0.0039,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0118
+        },
+        {
+          "signal": "Difficulty with product distribution and gaining visibility after building",
+          "count": 1,
+          "frequency": 0.0039,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0118
+        },
+        {
+          "signal": "Struggle to market product without feeling forced or inauthentic",
+          "count": 1,
+          "frequency": 0.0039,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0118
+        },
+        {
+          "signal": "Chasing the 'perfect idea' leading to procrastination or indecision",
+          "count": 1,
+          "frequency": 0.0039,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0119
+        },
+        {
+          "signal": "Fear of idea theft during validation phase",
+          "count": 1,
+          "frequency": 0.0039,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0118
+        },
+        {
+          "signal": "Building for too long in isolation without early user feedback",
+          "count": 1,
+          "frequency": 0.0039,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0118
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Reliable, high-quality performance for remote work tools",
+          "count": 1,
+          "frequency": 0.0041,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0124
+        },
+        {
+          "signal": "Cost savings and value for money",
+          "count": 1,
+          "frequency": 0.0041,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0124
+        },
+        {
+          "signal": "Portability and ease of use while traveling",
+          "count": 1,
+          "frequency": 0.0041,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0124
+        },
+        {
+          "signal": "Steady, location-independent income",
+          "count": 1,
+          "frequency": 0.0041,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0124
+        },
+        {
+          "signal": "Skill adaptation and learning for career resilience",
+          "count": 1,
+          "frequency": 0.0041,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0124
+        },
+        {
+          "signal": "Effective work-life balance while nomading",
+          "count": 1,
+          "frequency": 0.0041,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0124
+        },
+        {
+          "signal": "Peace of mind and reduced background anxiety about forgotten tasks",
+          "count": 1,
+          "frequency": 0.0041,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0124
+        },
+        {
+          "signal": "Achieve consistent monthly revenue ($10-30K) through reliability",
+          "count": 1,
+          "frequency": 0.0041,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0124
+        },
+        {
+          "signal": "Build a product that scales without trading hours for dollars",
+          "count": 1,
+          "frequency": 0.0041,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0124
+        },
+        {
+          "signal": "Validate ideas quickly and authentically before building",
+          "count": 1,
+          "frequency": 0.0041,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0124
+        },
+        {
+          "signal": "Earn attention and distribution by leading with problem insights",
+          "count": 1,
+          "frequency": 0.0041,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0124
+        },
+        {
+          "signal": "Find a painful problem handed by users venting about broken workflows",
+          "count": 1,
+          "frequency": 0.0041,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0124
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Lack of practical, actionable advice",
+          "count": 2,
+          "frequency": 0.0132,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0329
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Recommendation from trusted source or community",
+          "count": 2,
+          "frequency": 0.0111,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0278
+        },
+        {
+          "signal": "Desire for personal or professional development",
+          "count": 2,
+          "frequency": 0.0111,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0278
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "medium": 0.389,
+        "low": 0.611
+      }
+    }
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "id": "college_student",
+  "label": "College Student",
+  "segment": {
+    "role": "budget-constrained student balancing academics and social life",
+    "tech_savviness": "high",
+    "price_sensitivity": "high",
+    "risk_tolerance": "low",
+    "context": "Living on limited funds while needing reliable products for school and daily life. Prioritizes value but won't compromise on core functionality."
+  },
+  "goals": [
+    {
+      "goal": "Find affordable but durable products that won't break before semester ends",
+      "priority": 5
+    },
+    {
+      "goal": "Avoid products with compatibility issues with existing devices",
+      "priority": 4
+    },
+    {
+      "goal": "Verify product quality matches description before purchasing",
+      "priority": 4
+    },
+    {
+      "goal": "Quickly identify if product has known defects or common failure points",
+      "priority": 3
+    },
+    {
+      "goal": "Compare alternatives when primary choice has quality concerns",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Limited budget for replacement products",
+    "No time for complicated returns/refunds process",
+    "Small living space - can't accommodate bulky items",
+    "Need products that work immediately without extensive setup"
+  ],
+  "decision_weights": {
+    "price": 0.35,
+    "reliability": 0.3,
+    "ease_of_use": 0.2,
+    "brand_trust": 0.1,
+    "aesthetics": 0.05
+  },
+  "behavioral_rules": [
+    "Immediately checks '1-star' reviews for consistent failure patterns",
+    "Abandons page if product description lacks specific durability claims",
+    "Compares prices across 3 tabs before considering purchase",
+    "Spends extra time verifying compatibility with existing devices",
+    "Searches for '[product name] broke' before final decision",
+    "Prefers products with clear warranty/return policy near add-to-cart button",
+    "Skips products requiring account creation to see pricing",
+    "Prioritizes products with video demonstrations of actual use",
+    "Returns to comparison page 2-3 times before finalizing choice",
+    "Immediately exits if checkout process has more than 3 steps"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.6,
+    "trust_starting_point": 0.4,
+    "frustration_decay": 0.3
+  },
+  "deal_breakers": [
+    "Multiple reviews mentioning 'product breaks quickly'",
+    "No clear warranty information",
+    "Requires proprietary accessories not included",
+    "More than 15% 1-star reviews",
+    "Shipping costs exceed 10% of product price"
+  ],
+  "voice_sample": "I just need this graphing calculator to last through finals without glitching. The TI-84 has better reviews than the off-brand ones, but why does it cost so much? Three reviews said the buttons stop working after a month - that's exactly what happened to my last one. If I'm spending this much, it better not have the same cheap parts. Maybe I should check the refurbished options... but what if those are just returns from people who got defective units? Ugh, why is everything either crazy expensive or breaks immediately?",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 12,
+    "pages_before_decision": 7,
+    "tab_behavior": "Keeps 3-5 comparison tabs open simultaneously",
+    "primary_device": "Laptop during daytime, phone at night",
+    "time_of_day": "Evenings (7-11pm) after classes"
+  },
+  "purchase_journey": {
+    "discovery": "Starts with Amazon search or direct Google search for specific product needs",
+    "evaluation": "Checks price first, then immediately sorts reviews by lowest rating to identify failure patterns",
+    "decision_moment": "When finding a product with <10% 1-star reviews mentioning durability issues",
+    "post_purchase_expectation": "Immediate email confirmation with clear return policy details"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Sees 'Amazon's Choice' badge on affordable option",
+      "Finds detailed negative review with manufacturer response",
+      "Product video shows actual college student using item",
+      "Price is at least 15% below campus bookstore"
+    ],
+    "abandons_when": [
+      "Sees 'product arrives defective' in multiple recent reviews",
+      "Checkout requires account creation",
+      "Shipping timeline exceeds 5 days",
+      "Compatibility disclaimer in small print"
+    ],
+    "trusts_when": [
+      "Reviews mention 'lasted 2+ semesters'",
+      "Brand offers student discount",
+      "Clear warranty terms in product description",
+      "Multiple photos of actual product (not renders)"
+    ],
+    "becomes_suspicious_when": [
+      "Only 5-star reviews with generic praise",
+      "Price seems too good to be true",
+      "Product photos look stock/edited",
+      "No reviews mentioning long-term use"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "breaks too easily",
+      "not worth the money",
+      "poor quality construction",
+      "didn't last a semester",
+      "cheap materials"
+    ],
+    "resonates_with": [
+      "Dorm-room tested",
+      "Student budget friendly",
+      "Semester-proof guarantee",
+      "Works with your existing [device]"
+    ],
+    "turned_off_by": [
+      "Premium luxury framing",
+      "Overly technical specifications",
+      "Corporate jargon about 'synergy'",
+      "Patronizing tone about budgets"
+    ]
+  },
+  "inner_monologue_samples": [
+    "<Thought at pricing page: '$129? That's half my textbook budget for the month... but if it lasts 4 years maybe it's worth it'>",
+    "<Thought when they see social proof: 'These 5-star reviews all sound like they were written the same day... fake?'>",
+    "<Thought when navigation is confusing: 'Why can't I just see all the graphing calculators at once? I don't want to click through 5 categories'>",
+    "<Thought at signup form: 'They want my student ID just to see the price? Yeah right'>",
+    "<Thought when they find what they're looking for: 'Finally - one with actual photos from students and a review that says it survived being dropped'>"
+  ],
+  "anti_patterns": [
+    "Assuming they'll pay premium for 'student-oriented' branding",
+    "Hiding shipping costs until final checkout step",
+    "Overemphasizing aesthetic features over durability",
+    "Requiring account creation to compare products"
+  ],
+  "traits": [
+    {
+      "label": "Product Reliability & Quality Concern",
+      "description": "A focus on the failure of products to meet basic expectations for durability, proper functionality upon arrival, and ease of assembly, leading to frustration over wasted money and time.",
+      "key_phrases": [
+        "product breaks quickly",
+        "Products that are cheaply made, poor quality, or non-functional upon arrival",
+        "product arrives defective or missing parts"
+      ],
+      "frequency": 0.338,
+      "tone": "frustrated",
+      "cluster_id": "cluster_4"
+    },
+    {
+      "label": "Reliability & Fit Frustration",
+      "description": "Users are primarily frustrated when replacement parts or accessories fail to work reliably, break quickly, or do not fit properly with their existing appliances, causing inconvenience and additional expense.",
+      "key_phrases": [
+        "Products breaking or wearing out quickly (lack of durability)",
+        "Products not fitting correctly (size/compatibility issues)",
+        "Poor quality compared to original part"
+      ],
+      "frequency": 0.125,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Practical Usability Concern",
+      "description": "Reviews emphasize frustration when essential baby products fail at their core functional tasks, causing inconvenience, mess, or discomfort. Parents have low tolerance for logistical difficulties, physical discomfort for their child, or safety worries, prioritizing reliable performance that simplifies caregiving.",
+      "key_phrases": [
+        "Difficulty with product setup/assembly",
+        "Child discomfort due to hard or uncomfortable materials",
+        "Products that are bulky, heavy, or not portable",
+        "Leaks and blowouts causing mess and inconvenience",
+        "Skin irritation, rashes, or allergic reactions from products"
+      ],
+      "frequency": 0.113,
+      "tone": "frustrated",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Gameplay Quality",
+      "description": "Focuses on the technical execution, narrative engagement, and design balance of gameplay, specifically how issues like bugs, poor story, or repetitive tasks detract from an immersive and rewarding experience.",
+      "key_phrases": [
+        "Repetitive or tedious gameplay puzzles",
+        "Unengaging or weak storylines",
+        "Poor technical performance (bugs, crashes, lag)"
+      ],
+      "frequency": 0.1,
+      "tone": "frustrated",
+      "cluster_id": "cluster_5"
+    },
+    {
+      "label": "Technical Frustration",
+      "description": "Frustration with tech products that are difficult to set up, incompatible with other devices, unreliable, or poorly documented. Users want seamless integration and intuitive operation without constant troubleshooting.",
+      "key_phrases": [
+        "Frustration with complex setup/configuration",
+        "Incompatibility issues between devices/platforms",
+        "Products lacking clear instructions/setup guidance"
+      ],
+      "frequency": 0.075,
+      "tone": "frustrated",
+      "cluster_id": "cluster_3"
+    },
+    {
+      "label": "Reliable & Effortless Outdoor Solutions",
+      "description": "Users seek products that are consistently effective, durable, and easy to use for garden and outdoor tasks, minimizing physical strain and ensuring safety.",
+      "key_phrases": [
+        "Difficulty with kneeling due to physical limitations",
+        "Frustration with ineffective or harmful products",
+        "Effective pest control without harming pets/environment"
+      ],
+      "frequency": 0.075,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_7"
+    },
+    {
+      "label": "Quality Control & Material Sufficiency",
+      "description": "Reviews in this cluster center on frustration with materials that are defective, insufficient, or visually misrepresented, preventing the successful and satisfying completion of craft projects. Crafters feel misled by poor quality and shortages that ruin their creative experience.",
+      "key_phrases": [
+        "Poor product quality (grainy pigments, cheap appearance, light weight)",
+        "Running out of materials (drills, beads, yarn) before project completion",
+        "Inaccurate color representation online vs. in person"
+      ],
+      "frequency": 0.075,
+      "tone": "frustrated",
+      "cluster_id": "cluster_8"
+    },
+    {
+      "label": "Reliability and Quality Assurance",
+      "description": "This trait represents a strong consumer focus on receiving products that work correctly and consistently from the start, with durable construction that matches advertised expectations. Users are frustrated by defects, premature failures, and performance inconsistencies that disrupt their core tasks.",
+      "key_phrases": [
+        "Defective or damaged items upon arrival",
+        "Products that do not perform core functions",
+        "Poor product quality or defects upon arrival",
+        "Inconsistent ink flow or pen performance",
+        "Breaks or fails quickly"
+      ],
+      "frequency": 0.05,
+      "tone": "frustrated",
+      "cluster_id": "cluster_9"
+    },
+    {
+      "label": "Quality Disappointment",
+      "description": "Customers are deeply frustrated when products fail to meet advertised quality standards, feeling cheated by mismatched descriptions and subpar construction that undermines trust in the brand.",
+      "key_phrases": [
+        "Low-quality materials that feel cheap or flimsy",
+        "Product doesn't match description (e.g., font style, performance claims)",
+        "Poor quality construction (e.g., seams, glue, weak materials)"
+      ],
+      "frequency": 0.025,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Balanced Evaluator",
+      "description": "Customers who weigh both positive and negative aspects of a product carefully before deciding to purchase, showing neither immediate enthusiasm nor outright rejection.",
+      "key_phrases": [],
+      "frequency": 0.025,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_6"
+    }
+  ],
+  "data_quality": {
+    "score": "good",
+    "score_pts": 5,
+    "total": 2400,
+    "avg_rating": 4.41,
+    "avg_length": 553,
+    "rating_distribution": {
+      "4": 439,
+      "1": 103,
+      "3": 162,
+      "5": 1616,
+      "2": 80
+    },
+    "source_breakdown": {
+      "amazon": 2400
+    },
+    "n_products": 12,
+    "top_products": {
+      "Texas Instruments TI-84 Plus Graphing Calculator": 200,
+      "Pampers Swaddlers Newborn Diapers": 200,
+      "Baby Brezza Formula Pro Advanced": 200,
+      "Ortho GroundClear Year Long Vegetation Killer": 200,
+      "YETI Rambler 20 oz Tumbler": 200
+    },
+    "low_rating_pct": 0.076,
+    "high_rating_pct": 0.856,
+    "n_sources": 1,
+    "issues": [
+      "Very few negative reviews \u2014 pain points may be underrepresented",
+      "Single source \u2014 add Reddit or CSV for richer behavioral signal"
+    ],
+    "batches_estimate": 80
+  },
+  "demographic_description": "",
+  "generated_at": "2026-04-03T08:21:29.653177"
+}

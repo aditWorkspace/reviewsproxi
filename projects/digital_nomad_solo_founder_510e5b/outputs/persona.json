@@ -1,0 +1,225 @@
+{
+  "id": "digital_nomad_solo_founder",
+  "label": "Digital Nomad Solo-Founder",
+  "segment": {
+    "role": "High-agency tech entrepreneur juggling multiple roles",
+    "tech_savviness": "high",
+    "price_sensitivity": "low",
+    "risk_tolerance": "medium",
+    "context": "Solo founders managing complex workflows while traveling, prioritizing location independence and rapid product iteration. They rely on portable, reliable tech and AI tools to automate manual tasks."
+  },
+  "goals": [
+    {
+      "goal": "Achieve reliable, portable connectivity and productivity while traveling",
+      "priority": 5
+    },
+    {
+      "goal": "Achieve improved efficiency, organization, or systematic operation in business/personal systems",
+      "priority": 4
+    },
+    {
+      "goal": "Delegate operational tasks to focus on growth",
+      "priority": 4
+    },
+    {
+      "goal": "Achieve work-life balance and reduce burnout",
+      "priority": 3
+    },
+    {
+      "goal": "Find inspiration and creativity from others' journeys",
+      "priority": 2
+    }
+  ],
+  "constraints": [
+    "Burnout from managing everything alone (Cluster 2)",
+    "Difficulty focusing on strategic vision due to day-to-day operational load (Cluster 2)",
+    "Complex setup or configuration for tech products (Cluster 0)",
+    "Travel exhaustion or reluctance to move frequently (pre-computed metrics)"
+  ],
+  "decision_weights": {
+    "accessory_malfunction": 0.125,
+    "poor_build_quality": 0.125,
+    "time_zone_challenges": 0.125,
+    "misleading_remote_job_filters": 0.125,
+    "complex_tax_rules": 0.125,
+    "network_interference": 0.125,
+    "physical_meeting_conflicts": 0.125,
+    "travel_exhaustion": 0.125
+  },
+  "behavioral_rules": [
+    "Immediately exits if pricing page requires signup before showing prices (from pain point: hidden pricing)",
+    "Prefers products with plug-and-play setup and minimizes configuration steps (from Cluster 0)",
+    "Abandons sites with complex navigation or unclear call-to-action buttons (from Cluster 0)",
+    "Focuses on long-lasting hardware reviews over aesthetics (from Cluster 0)",
+    "Prioritizes products with detailed API or Zapier integration documentation (from Cluster 0)",
+    "Searches for reviews mentioning burnout reduction or delegation systems (from Cluster 2)",
+    "Spends extra time verifying tax residency compatibility for location-independent tools (pre-computed metrics)",
+    "Skips products with frequent mentions of network interference issues (pre-computed metrics)",
+    "Prefers compact, portable devices verified by multiple digital nomad reviews (from Cluster 0)",
+    "Waits for products offering return guarantees due to high risk of incompatibility (pre-computed metrics)"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.31,
+    "trust_starting_point": 0.629,
+    "frustration_decay": 0.32
+  },
+  "deal_breakers": [
+    "Product interferes with network performance (pre-computed metrics)",
+    "Physical meeting requirements conflict with location independence (pre-computed metrics)",
+    "Accessory fails to fit or function as described (pre-computed metrics)",
+    "Complex tax residency rules make product unusable (pre-computed metrics)",
+    "Product lacks detailed API or Zapier integration documentation (Cluster 0)"
+  ],
+  "voice_sample": "I\u2019m juggling so many roles\u2014CEO, developer, and support\u2014that it\u2019s hard to focus on the strategic vision. I need tools that can automate repetitive tasks and help me delegate effectively. The last thing I want is a cluttered workspace with too many cords; simplicity is key. Burnout is creeping in, and I need reliable, portable solutions that can adapt to my nomadic lifestyle. Finding actionable, practical advice instead of generic tips would make a world of difference.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 20,
+    "pages_before_decision": 5,
+    "tab_behavior": "Opens multiple tabs for comparison but closes them quickly if not relevant",
+    "primary_device": "MacBook Pro, often used in co-working spaces or airports",
+    "time_of_day": "Late afternoon or evening after intensive work sessions"
+  },
+  "purchase_journey": {
+    "discovery": "Finds products through Reddit threads or niche digital nomad forums",
+    "evaluation": "Starts with portability and setup ease reviews, then checks API integration details",
+    "decision_moment": "Purchases when multiple reviews confirm reliability and minimal setup friction",
+    "post_purchase_expectation": "Expects seamless integration and automation of at least 10+ manual hours weekly"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Portability and compact size for travel (Cluster 0)",
+      "Ease of setup and intuitive use (Cluster 0)",
+      "Positive reviews mentioning burnout reduction (Cluster 2)",
+      "Detailed API or Zapier integration documentation (Cluster 0)"
+    ],
+    "abandons_when": [
+      "Complex setup or configuration for tech products (Cluster 0)",
+      "Burnout from managing everything alone (Cluster 2)",
+      "Product interferes with network performance (pre-computed metrics)",
+      "Physical meeting requirements conflict with location independence (pre-computed metrics)"
+    ],
+    "trusts_when": [
+      "Multiple reviews confirm reliability (Cluster 0)",
+      "Clear API or Zapier integration details (Cluster 0)",
+      "Positive mentions of portability (Cluster 0)",
+      "Burnout reduction confirmed by users (Cluster 2)"
+    ],
+    "becomes_suspicious_when": [
+      "Misleading product descriptions (Cluster 0)",
+      "Lack of API documentation (Cluster 0)",
+      "Negative reviews on network interference (pre-computed metrics)",
+      "Hidden pricing or fees (pain point: hidden pricing)"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Achieve reliable, portable connectivity and productivity while traveling",
+      "Delegate operational tasks to focus on growth",
+      "Burnout from managing everything alone",
+      "Ease of setup and intuitive use",
+      "Complex setup or configuration for tech products"
+    ],
+    "resonates_with": [
+      "Portable and reliable solutions for nomads",
+      "Automate your workload and focus on growth",
+      "Reduce burnout with seamless delegation systems",
+      "Plug-and-play setup for effortless integration"
+    ],
+    "turned_off_by": [
+      "Cluttered workspace with too many cords",
+      "Complex setup or configuration for tech products",
+      "Burnout and isolation from being the sole responsible party",
+      "Difficulty focusing on strategic vision due to day-to-day operational load"
+    ]
+  },
+  "inner_monologue_samples": [
+    "Thought at pricing page: If I have to sign up just to see the prices, I\u2019m out. Transparency is non-negotiable.",
+    "Thought when they see social proof: These reviews mentioning portability and setup ease are exactly what I need.",
+    "Thought when navigation is confusing: This site is a mess. I don\u2019t have time to figure out where things are.",
+    "Thought at signup form: If this requires too much personal info upfront, I\u2019m abandoning the process.",
+    "Thought when they find what they're looking for: This product could automate 10+ hours of my week\u2014worth every penny."
+  ],
+  "anti_patterns": [
+    "Assuming all digital nomads prioritize aesthetics over functionality (contradicts Cluster 0)",
+    "Focusing solely on price rather than automation potential (contradicts Cluster 2)",
+    "Ignoring burnout as a critical pain point (contradicts Cluster 2)",
+    "Overlooking portability and setup ease in product design (contradicts Cluster 0)",
+    "Promoting generic advice instead of actionable tips (contradicts vocabulary_from_data)"
+  ],
+  "traits": [
+    {
+      "label": "Digital Nomad Practicality",
+      "description": "Digital nomads and remote workers seeking reliable, portable tech solutions that minimize complexity and withstand frequent travel, while navigating the logistical realities of location-independent work.",
+      "key_phrases": [
+        "Portability and compact size for travel",
+        "Simple, plug-and-play setup",
+        "Reliable, long-lasting hardware"
+      ],
+      "frequency": 0.718,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Founder Burnout & Solopreneur Strain",
+      "description": "Users, often solopreneurs or founders, are experiencing burnout and isolation due to the high cognitive load of juggling all roles (CEO, developer, support, operations) without reliable systems or support, leading to difficulty focusing on strategic growth.",
+      "key_phrases": [
+        "Burnout from managing everything alone",
+        "Difficulty focusing on strategic vision due to day-to-day operational load",
+        "High cognitive load from juggling multiple roles (CEO, devops, support)"
+      ],
+      "frequency": 0.254,
+      "tone": "frustrated",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Balanced Evaluator",
+      "description": "A pragmatic consumer who is willing to accept moderate friction or compromises in the product experience, as long as the overall value proposition remains sound. They do not exhibit strong extremes in their purchase criteria.",
+      "key_phrases": [],
+      "frequency": 0.028,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_1"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 7,
+    "total": 4248,
+    "avg_rating": 3.76,
+    "avg_length": 801,
+    "rating_distribution": {
+      "3": 2039,
+      "1": 98,
+      "5": 1489,
+      "4": 543,
+      "2": 79
+    },
+    "source_breakdown": {
+      "amazon": 2400,
+      "reddit": 1848
+    },
+    "n_products": 13,
+    "top_products": {
+      "unknown": 1848,
+      "Blue Yeti USB Microphone for Content Creation": 200,
+      "Portable USB-C Hub with HDMI and Multiple Ports for MacBook": 200,
+      "Noise-Cancelling Bluetooth Headphones for Travel and Remote Work": 200,
+      "International Travel Power Adapter with USB Ports": 200
+    },
+    "low_rating_pct": 0.042,
+    "high_rating_pct": 0.478,
+    "n_sources": 2,
+    "issues": [
+      "Very few negative reviews \u2014 pain points may be underrepresented"
+    ],
+    "batches_estimate": 142
+  },
+  "demographic_description": "Digital Nomad Solo-Founder: High-agency tech entrepreneurs aged 24\u201335 who prioritize location independence and rapid product iteration.\nThis demographic consists of lean \"build-in-public\" creators who manage complex workflows solo, value tools that integrate via API or Zapier, and are willing to pay a premium for AI that automates 10+ hours of manual research or community engagement per week.",
+  "generated_at": "2026-04-03T19:29:01.820316",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "0% grounded in cluster data",
+    "cluster_stability": "moderate"
+  }
+}

@@ -1,0 +1,545 @@
+{
+  "products": [
+    {
+      "name": "HubSpot Marketing Software Professional Plan",
+      "category": "Software",
+      "accuracy": 0.95,
+      "review_keywords": [
+        "automation",
+        "lead generation",
+        "CRM integration",
+        "workflow",
+        "organic reach"
+      ],
+      "context_keywords": [
+        "B2B",
+        "solopreneur",
+        "scale",
+        "ROI"
+      ],
+      "exclusion_keywords": [
+        "enterprise",
+        "large team"
+      ],
+      "why": "High-intent B2B marketers specifically buy marketing automation software to scale their operations"
+    },
+    {
+      "name": "Hootsuite Social Media Management Platform",
+      "category": "Software",
+      "accuracy": 0.92,
+      "review_keywords": [
+        "social scheduling",
+        "analytics",
+        "multi-platform",
+        "engagement",
+        "content calendar"
+      ],
+      "context_keywords": [
+        "organic reach",
+        "community",
+        "efficiency"
+      ],
+      "exclusion_keywords": [
+        "personal use",
+        "hobby"
+      ],
+      "why": "B2B professionals and solopreneurs buy social media management tools to efficiently scale organic reach"
+    },
+    {
+      "name": "Buffer Social Media Scheduler",
+      "category": "Software",
+      "accuracy": 0.91,
+      "review_keywords": [
+        "scheduling",
+        "Twitter",
+        "Reddit",
+        "analytics",
+        "automation"
+      ],
+      "context_keywords": [
+        "solopreneur",
+        "organic",
+        "efficiency"
+      ],
+      "exclusion_keywords": [
+        "influencer",
+        "personal"
+      ],
+      "why": "Small business owners and solopreneurs specifically purchase scheduling tools for organic social media growth"
+    },
+    {
+      "name": "SEMrush Digital Marketing Toolkit",
+      "category": "Software",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "keyword research",
+        "competitor analysis",
+        "organic traffic",
+        "SEO",
+        "content marketing"
+      ],
+      "context_keywords": [
+        "B2B",
+        "lead discovery",
+        "organic"
+      ],
+      "exclusion_keywords": [
+        "agency",
+        "enterprise"
+      ],
+      "why": "Content marketers and B2B professionals buy SEO tools to improve organic reach and lead generation"
+    },
+    {
+      "name": "Canva Pro Design Software",
+      "category": "Software",
+      "accuracy": 0.88,
+      "review_keywords": [
+        "design templates",
+        "social media",
+        "branding",
+        "content creation",
+        "professional"
+      ],
+      "context_keywords": [
+        "B2B",
+        "marketing",
+        "efficiency"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "personal"
+      ],
+      "why": "B2B marketers purchase design software to create professional content for organic marketing campaigns"
+    },
+    {
+      "name": "Mailchimp Email Marketing Platform",
+      "category": "Software",
+      "accuracy": 0.87,
+      "review_keywords": [
+        "email automation",
+        "lead nurturing",
+        "analytics",
+        "campaigns",
+        "integration"
+      ],
+      "context_keywords": [
+        "solopreneur",
+        "B2B",
+        "conversion"
+      ],
+      "exclusion_keywords": [
+        "nonprofit",
+        "personal"
+      ],
+      "why": "Small business owners and content marketers buy email platforms to nurture leads discovered organically"
+    },
+    {
+      "name": "Ahrefs SEO Toolset",
+      "category": "Software",
+      "accuracy": 0.86,
+      "review_keywords": [
+        "backlink analysis",
+        "keyword research",
+        "content gap",
+        "organic search",
+        "competitor"
+      ],
+      "context_keywords": [
+        "organic reach",
+        "lead discovery",
+        "B2B"
+      ],
+      "exclusion_keywords": [
+        "beginner",
+        "hobby"
+      ],
+      "why": "Professional content marketers purchase advanced SEO tools for competitive organic growth strategies"
+    },
+    {
+      "name": "Social Media Marketing All-in-One For Dummies",
+      "category": "Books",
+      "accuracy": 0.85,
+      "review_keywords": [
+        "organic growth",
+        "community building",
+        "platform strategies",
+        "engagement",
+        "automation"
+      ],
+      "context_keywords": [
+        "solopreneur",
+        "efficiency",
+        "scaling"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "beginner"
+      ],
+      "why": "B2B professionals buy advanced social media books to improve organic reach and community engagement"
+    },
+    {
+      "name": "ConvertKit Email Marketing Software",
+      "category": "Software",
+      "accuracy": 0.84,
+      "review_keywords": [
+        "creator economy",
+        "automation",
+        "lead magnets",
+        "segmentation",
+        "landing pages"
+      ],
+      "context_keywords": [
+        "content marketing",
+        "organic",
+        "solopreneur"
+      ],
+      "exclusion_keywords": [
+        "e-commerce",
+        "retail"
+      ],
+      "why": "Content marketers and solopreneurs buy creator-focused email tools for organic lead nurturing"
+    },
+    {
+      "name": "BuzzSumo Content Research Platform",
+      "category": "Software",
+      "accuracy": 0.83,
+      "review_keywords": [
+        "content analysis",
+        "viral content",
+        "influencer discovery",
+        "trending topics",
+        "engagement"
+      ],
+      "context_keywords": [
+        "organic reach",
+        "community",
+        "B2B"
+      ],
+      "exclusion_keywords": [
+        "agency",
+        "enterprise"
+      ],
+      "why": "Content marketers purchase content research tools to identify high-engagement topics for organic growth"
+    },
+    {
+      "name": "Reddit Marketing Strategy Guide",
+      "category": "Kindle_Store",
+      "accuracy": 0.82,
+      "review_keywords": [
+        "Reddit marketing",
+        "community engagement",
+        "organic leads",
+        "platform strategy",
+        "authenticity"
+      ],
+      "context_keywords": [
+        "lead discovery",
+        "organic",
+        "community"
+      ],
+      "exclusion_keywords": [
+        "general marketing",
+        "advertising"
+      ],
+      "why": "B2B professionals specifically buy Reddit marketing guides for authentic organic lead discovery strategies"
+    },
+    {
+      "name": "Loom Screen Recording Software",
+      "category": "Software",
+      "accuracy": 0.81,
+      "review_keywords": [
+        "screen recording",
+        "video messages",
+        "client communication",
+        "tutorials",
+        "engagement"
+      ],
+      "context_keywords": [
+        "B2B",
+        "efficiency",
+        "professional"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "education"
+      ],
+      "why": "B2B professionals and solopreneurs buy screen recording tools for efficient client communication and content creation"
+    },
+    {
+      "name": "Content Inc.: Start a Content-First Business",
+      "category": "Books",
+      "accuracy": 0.8,
+      "review_keywords": [
+        "content marketing",
+        "audience building",
+        "organic growth",
+        "monetization",
+        "strategy"
+      ],
+      "context_keywords": [
+        "solopreneur",
+        "scaling",
+        "organic"
+      ],
+      "exclusion_keywords": [
+        "corporate",
+        "traditional"
+      ],
+      "why": "Solopreneurs and content marketers buy content-first business books to scale through organic reach"
+    },
+    {
+      "name": "Later Social Media Scheduling Tool",
+      "category": "Software",
+      "accuracy": 0.79,
+      "review_keywords": [
+        "visual content",
+        "Instagram",
+        "scheduling",
+        "hashtag research",
+        "analytics"
+      ],
+      "context_keywords": [
+        "organic reach",
+        "efficiency",
+        "B2B"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "lifestyle"
+      ],
+      "why": "B2B marketers purchase visual scheduling tools to maintain consistent organic presence across platforms"
+    },
+    {
+      "name": "Grammarly Business Writing Assistant",
+      "category": "Software",
+      "accuracy": 0.78,
+      "review_keywords": [
+        "professional writing",
+        "content quality",
+        "brand voice",
+        "editing",
+        "consistency"
+      ],
+      "context_keywords": [
+        "B2B",
+        "content marketing",
+        "professional"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "personal"
+      ],
+      "why": "B2B content marketers buy writing tools to maintain professional quality in organic content creation"
+    },
+    {
+      "name": "Blue Yeti USB Microphone",
+      "category": "Electronics",
+      "accuracy": 0.77,
+      "review_keywords": [
+        "podcast recording",
+        "content creation",
+        "professional audio",
+        "streaming",
+        "interviews"
+      ],
+      "context_keywords": [
+        "content marketing",
+        "B2B",
+        "professional"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "music"
+      ],
+      "why": "B2B professionals and content marketers buy professional microphones for podcast and video content creation"
+    },
+    {
+      "name": "MeetEdgar Social Media Automation",
+      "category": "Software",
+      "accuracy": 0.76,
+      "review_keywords": [
+        "content recycling",
+        "automation",
+        "evergreen content",
+        "scheduling",
+        "efficiency"
+      ],
+      "context_keywords": [
+        "solopreneur",
+        "efficiency",
+        "organic"
+      ],
+      "exclusion_keywords": [
+        "agency",
+        "large team"
+      ],
+      "why": "Solopreneurs buy content recycling tools to maximize efficiency in organic social media marketing"
+    },
+    {
+      "name": "Ring Light for Video Calls",
+      "category": "Electronics",
+      "accuracy": 0.75,
+      "review_keywords": [
+        "video quality",
+        "professional lighting",
+        "client calls",
+        "content creation",
+        "streaming"
+      ],
+      "context_keywords": [
+        "B2B",
+        "professional",
+        "video content"
+      ],
+      "exclusion_keywords": [
+        "makeup",
+        "selfie"
+      ],
+      "why": "B2B professionals buy ring lights for professional appearance in client video calls and content creation"
+    }
+  ],
+  "subreddits": [
+    {
+      "name": "entrepreneur",
+      "relevance": 0.9,
+      "member_type": "80% solopreneurs and small business owners actively growing businesses",
+      "data_value": "Pain points around scaling, lead generation struggles, organic growth strategies",
+      "why": "Active community of business owners sharing growth challenges and marketing wins"
+    },
+    {
+      "name": "marketing",
+      "relevance": 0.88,
+      "member_type": "75% working marketers and marketing consultants",
+      "data_value": "Latest strategies, tool recommendations, campaign performance insights",
+      "why": "Professional marketers discussing current tactics and industry trends"
+    },
+    {
+      "name": "socialmediamarketing",
+      "relevance": 0.87,
+      "member_type": "85% B2B marketers and social media professionals",
+      "data_value": "Platform-specific strategies, organic reach tactics, engagement optimization",
+      "why": "Dedicated community focused on professional social media growth strategies"
+    },
+    {
+      "name": "content_marketing",
+      "relevance": 0.86,
+      "member_type": "90% content marketers and content strategists",
+      "data_value": "Content strategy insights, performance metrics, audience building tactics",
+      "why": "Specialized community of content marketing professionals sharing strategies"
+    },
+    {
+      "name": "SEO",
+      "relevance": 0.85,
+      "member_type": "80% SEO professionals and content marketers",
+      "data_value": "Organic search strategies, algorithm updates, technical optimization",
+      "why": "Community focused on organic traffic growth and search optimization"
+    },
+    {
+      "name": "smallbusiness",
+      "relevance": 0.84,
+      "member_type": "70% small business owners and solopreneurs",
+      "data_value": "Budget-conscious marketing approaches, efficiency tips, growth hacks",
+      "why": "Small business owners sharing cost-effective marketing strategies"
+    },
+    {
+      "name": "digitalnomad",
+      "relevance": 0.82,
+      "member_type": "75% freelancers and solopreneurs running location-independent businesses",
+      "data_value": "Remote business strategies, client acquisition, efficiency tools",
+      "why": "Many members run online marketing and consulting businesses"
+    },
+    {
+      "name": "freelance",
+      "relevance": 0.81,
+      "member_type": "80% freelancers including many marketing professionals",
+      "data_value": "Client acquisition strategies, pricing discussions, service delivery",
+      "why": "Freelance marketers and consultants sharing business development tactics"
+    },
+    {
+      "name": "startups",
+      "relevance": 0.8,
+      "member_type": "70% startup founders and early employees",
+      "data_value": "Growth hacking strategies, lean marketing approaches, bootstrap tactics",
+      "why": "Startup community focused on rapid growth with limited budgets"
+    },
+    {
+      "name": "B2B_Sales",
+      "relevance": 0.78,
+      "member_type": "85% B2B sales and marketing professionals",
+      "data_value": "Lead generation tactics, sales funnel optimization, relationship building",
+      "why": "B2B professionals sharing lead generation and relationship building strategies"
+    },
+    {
+      "name": "growthmarketing",
+      "relevance": 0.77,
+      "member_type": "90% growth marketers and performance marketers",
+      "data_value": "Data-driven growth tactics, conversion optimization, scaling strategies",
+      "why": "Community focused on measurable marketing growth and optimization"
+    },
+    {
+      "name": "SaaS",
+      "relevance": 0.76,
+      "member_type": "70% SaaS marketers and founders",
+      "data_value": "SaaS marketing strategies, customer acquisition, retention tactics",
+      "why": "SaaS professionals sharing industry-specific marketing approaches"
+    },
+    {
+      "name": "emailmarketing",
+      "relevance": 0.75,
+      "member_type": "85% email marketers and automation specialists",
+      "data_value": "Email strategy insights, automation workflows, deliverability tips",
+      "why": "Specialized community of email marketing professionals"
+    },
+    {
+      "name": "copywriting",
+      "relevance": 0.74,
+      "member_type": "80% copywriters and content marketers",
+      "data_value": "Conversion copywriting tactics, messaging strategies, performance insights",
+      "why": "Professional copywriters sharing persuasion and conversion tactics"
+    },
+    {
+      "name": "indiehackers",
+      "relevance": 0.73,
+      "member_type": "75% indie entrepreneurs and solo founders",
+      "data_value": "Bootstrap marketing strategies, organic growth tactics, community building",
+      "why": "Independent entrepreneurs sharing lean marketing and growth strategies"
+    }
+  ],
+  "demographic_profile": {
+    "core_keywords": [
+      "organic reach",
+      "lead generation",
+      "automation",
+      "efficiency",
+      "B2B",
+      "solopreneur",
+      "scaling",
+      "community engagement",
+      "authentic",
+      "ROI",
+      "budget-conscious",
+      "tech-savvy",
+      "growth hacking",
+      "conversion",
+      "performance"
+    ],
+    "exclusion_keywords": [
+      "enterprise",
+      "traditional advertising",
+      "large team",
+      "corporate",
+      "personal use",
+      "hobby",
+      "student",
+      "beginner"
+    ],
+    "age_range": "28-45",
+    "primary_motivations": [
+      "Maximize ROI without high ad spend",
+      "Scale operations efficiently",
+      "Build authentic community relationships",
+      "Automate lead discovery and nurturing"
+    ],
+    "summary": "Tech-savvy B2B marketing professionals and solopreneurs who prioritize organic growth strategies over traditional paid advertising. They are efficiency-focused, budget-conscious, and seek to scale their businesses through authentic community engagement and marketing automation. Their primary frustration is the high cost and decreasing effectiveness of traditional advertising, driving them to seek innovative, relationship-based marketing approaches on platforms like Reddit and Twitter."
+  }
+}

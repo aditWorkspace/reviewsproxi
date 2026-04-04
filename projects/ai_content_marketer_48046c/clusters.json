@@ -1,0 +1,2818 @@
+{
+  "chosen_n_clusters": 4,
+  "sweep_results": [
+    {
+      "k": 3,
+      "silhouette": 0.2056734412908554,
+      "intra_similarity": 0.5784561336040497,
+      "inter_distance": 0.4354315400123596,
+      "combined_score": 0.3634598687291145
+    },
+    {
+      "k": 4,
+      "silhouette": 0.2112988829612732,
+      "intra_similarity": 0.6892332881689072,
+      "inter_distance": 0.6297476291656494,
+      "combined_score": 0.43836895376443863
+    },
+    {
+      "k": 5,
+      "silhouette": 0.12321221083402634,
+      "intra_similarity": 0.6967701554298401,
+      "inter_distance": 0.5717991590499878,
+      "combined_score": 0.3849969838559627
+    },
+    {
+      "k": 6,
+      "silhouette": 0.11948508769273758,
+      "intra_similarity": 0.6793934553861618,
+      "inter_distance": 0.5388042330741882,
+      "combined_score": 0.37132142707705496
+    },
+    {
+      "k": 7,
+      "silhouette": 0.10924766957759857,
+      "intra_similarity": 0.7108180778367179,
+      "inter_distance": 0.5433081388473511,
+      "combined_score": 0.37653088590928485
+    },
+    {
+      "k": 8,
+      "silhouette": 0.1064177006483078,
+      "intra_similarity": 0.6858949735760689,
+      "inter_distance": 0.5037590265274048,
+      "combined_score": 0.3597291477024555
+    },
+    {
+      "k": 9,
+      "silhouette": 0.08830060809850693,
+      "intra_similarity": 0.7025083700815836,
+      "inter_distance": 0.5075609683990479,
+      "combined_score": 0.35641500875353815
+    },
+    {
+      "k": 10,
+      "silhouette": 0.11522972583770752,
+      "intra_similarity": 0.6964024901390076,
+      "inter_distance": 0.4646998643875122,
+      "combined_score": 0.35947558283805847
+    }
+  ],
+  "quality_metrics": {
+    "silhouette": 0.2112988829612732,
+    "intra_similarity": 0.6892332881689072,
+    "inter_distance": 0.6297476291656494,
+    "combined_score": 0.43836895376443863
+  },
+  "cluster_0": {
+    "member_count": 65,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Unreliable performance (crashes, freezes, instability)",
+            "frequency": 12,
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Poor or non-existent customer support",
+            "frequency": 8,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Hidden or unclear pricing/misleading advertising",
+            "frequency": 6,
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Difficulty canceling subscriptions or managing accounts",
+            "frequency": 5,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Lack of integration or poor compatibility with other tools/platforms",
+            "frequency": 5,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Product fails at its core function (e.g., security software misses viruses)",
+            "frequency": 4,
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Inconvenient or time-consuming workarounds required",
+            "frequency": 4,
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Poor user interface/navigation",
+            "frequency": 4,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Content or product quality concerns",
+            "frequency": 3,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Installation/activation issues (missing serials, download problems)",
+            "frequency": 3,
+            "emotional_intensity": 0.8
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Cost-effective solution compared to professional services",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Time-saving automation and efficiency",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Reliable, stable performance with no crashes/freezes",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Clear pricing and straightforward billing",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Easy integration with existing tools/platforms",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Intuitive, user-friendly interface",
+            "priority": 0.65
+          },
+          {
+            "outcome": "Effective customer support when needed",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Transparent communication about features/limitations",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Access to valuable, high-quality content/tools",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Flexibility and control over subscriptions/cancellations",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Simplified life situation reduces need for expensive professional services",
+            "context": "Review 3: 'Now that the kids are out on their own, we only earn money in one state... TT is the best and most cost effective way to do taxes.'"
+          },
+          {
+            "trigger": "Finding a free tool that fulfills a specific need effectively",
+            "context": "Review 43: 'I downloaded this app because I have received several phone calls (spam) that sounded like Chinese... like magic, it transcribed it to English.'"
+          },
+          {
+            "trigger": "Desire to replace a recurring subscription with a one-time purchase",
+            "context": "Review 19: 'If you plan to use it as a way to keep the on-line platforms from sucking on you wallet every month this app or others in the category can do that for you.'"
+          },
+          {
+            "trigger": "Attractive deal or discount on a known product",
+            "context": "Review 33: 'I use this software every year and I couldn't pass up this deal from Amazon.'"
+          },
+          {
+            "trigger": "Need for a specific functionality not available elsewhere",
+            "context": "Review 52: 'I'm a researcher so being able to cut and paste material in Word to be quoted in my document is a time-saver and helpful.'"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product fails to perform its core function",
+            "severity": 0.95
+          },
+          {
+            "objection": "Unacceptable customer support experience",
+            "severity": 0.9
+          },
+          {
+            "objection": "Misleading advertising or hidden fees",
+            "severity": 0.85
+          },
+          {
+            "objection": "Compatibility issues with platform/device",
+            "severity": 0.8
+          },
+          {
+            "objection": "Product is unstable/crashes frequently",
+            "severity": 0.9
+          },
+          {
+            "objection": "Difficulty canceling or managing subscription",
+            "severity": 0.8
+          },
+          {
+            "objection": "Inadequate free trial terms",
+            "severity": 0.7
+          },
+          {
+            "objection": "Poor integration with other essential tools",
+            "severity": 0.75
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Professional tax accountant",
+            "reason": "Tax situation simplified, cost savings",
+            "threshold": "Cost of professional service ($500+) outweighs benefit for simpler returns"
+          },
+          {
+            "from_product": "Competitor security software (McAfee, Norton)",
+            "reason": "Taking a risk on a potentially cheaper/better alternative",
+            "threshold": "Failure to detect/block a virus, leading to system compromise"
+          },
+          {
+            "from_product": "Paid subscription platforms (e.g., ancestry.com)",
+            "reason": "Avoid recurring monthly fees",
+            "threshold": "Cost accumulation and desire for one-time purchase"
+          },
+          {
+            "from_product": "Cable TV provider",
+            "reason": "High cost for limited channel use",
+            "threshold": "$100/month bill for only wanting a few specific shows"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Cost-effectiveness / Value for money",
+          "Reliability and Performance",
+          "Ease of Use / User Experience",
+          "Transparency (Pricing, Features)",
+          "Quality of Customer Support",
+          "Integration Capabilities",
+          "Content/Feature Quality",
+          "Flexibility (Cancellation, Trial Terms)"
+        ],
+        "deal_breakers": [
+          "Product fails core function (e.g., security software misses threats)",
+          "Unresponsive or rude customer support",
+          "Hidden fees or deceptive advertising",
+          "Unstable software causing data loss or crashes",
+          "Extreme difficulty canceling subscriptions",
+          "Major compatibility issues with required platforms"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 17,
+          "amazon_med_acc": 13,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Difficult installation and technical setup",
+            "frequency": 5,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poor or unhelpful customer support",
+            "frequency": 7,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Software crashes or glitches",
+            "frequency": 6,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Misleading or unclear pricing/offers",
+            "frequency": 4,
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Slow performance or loading times",
+            "frequency": 3,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Lack of needed features (e.g., inventory control, search functionality)",
+            "frequency": 5,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Compatibility issues with specific browsers or devices",
+            "frequency": 3,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Excessive spam or promotional emails after purchase",
+            "frequency": 2,
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "High learning curve without adequate tutorials",
+            "frequency": 4,
+            "emotional_intensity": 0.65
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Efficient and easy installation/setup",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Reliable performance without crashes",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Clear, upfront pricing with no hidden costs",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Comprehensive functionality that matches marketing claims",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Accessible and helpful customer support",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Intuitive user interface with minimal learning curve",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Good value for money (budget-conscious)",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Time-saving automation or efficiency features",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Low cost or discounted price (e.g., used copy for $17)",
+            "context": "Budget-conscious upgrade decision"
+          },
+          {
+            "trigger": "Specific feature needed (e.g., e-commerce capability, content generation)",
+            "context": "Targeted use case like building a sales website"
+          },
+          {
+            "trigger": "Upgrade from older version for compatibility (e.g., Windows 7 support)",
+            "context": "System update forces software change"
+          },
+          {
+            "trigger": "Recommendation or positive reviews for reliability",
+            "context": "Long-term user satisfaction (e.g., 20+ years with TurboTax)"
+          },
+          {
+            "trigger": "Free or bundled content (e.g., library access, bonus features)",
+            "context": "Seeking added value at low cost"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Software fails to deliver on advertised promises (e.g., e-commerce lacking inventory control)",
+            "severity": 0.9
+          },
+          {
+            "objection": "Poor customer support and difficulty resolving issues",
+            "severity": 0.95
+          },
+          {
+            "objection": "Hidden costs or misleading upgrade paths",
+            "severity": 0.85
+          },
+          {
+            "objection": "Complex installation or technical hurdles requiring expertise",
+            "severity": 0.8
+          },
+          {
+            "objection": "Software is bloated with unnecessary features",
+            "severity": 0.6
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Paperport",
+            "reason": "Installation failures and poor support",
+            "threshold": "Six failed reinstall attempts"
+          },
+          {
+            "from_product": "TurboTax",
+            "reason": "Increasing glitches and errors over time",
+            "threshold": "State tax form errors and loss of helpful features"
+          },
+          {
+            "from_product": "Lifetime channel",
+            "reason": "Content mismatch (too many thrillers vs. feel-good movies)",
+            "threshold": "Post-holiday disappointment leads to switch"
+          },
+          {
+            "from_product": "WebPlus X4",
+            "reason": "Inadequate e-commerce features for limited inventory",
+            "threshold": "Discovery of free alternative (zencart) with better functionality"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and crash-free performance",
+          "Ease of installation and setup",
+          "Cost-effectiveness and clear pricing",
+          "Feature set matching specific needs",
+          "Quality of customer support",
+          "User interface and learning curve",
+          "Compatibility with existing systems/devices"
+        ],
+        "deal_breakers": [
+          "Software that fails to install or activate",
+          "Persistent crashes or critical bugs",
+          "Misleading advertising or hidden fees",
+          "Unresponsive or unhelpful customer service",
+          "Lack of key features required for core tasks"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 13,
+          "amazon_med_acc": 17,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Software is clunky, outdated, and lacks meaningful improvements over many years",
+            "frequency": 8,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Hidden or unexpected costs for additional features/collections",
+            "frequency": 4,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Poor or unreliable performance (crashes, slow speed, blurry streams, outages)",
+            "frequency": 10,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Complex or tedious data entry processes",
+            "frequency": 6,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Inadequate customer support",
+            "frequency": 5,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Software bugs or errors that cause data loss or incorrect calculations",
+            "frequency": 7,
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Monopoly pricing or feeling forced to pay high prices for essential services",
+            "frequency": 3,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Difficult installation or conversion processes",
+            "frequency": 5,
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Efficient, hassle-free completion of complex tasks (taxes, video editing)",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Professional-quality results on a budget",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Reliable, stable performance without crashes or outages",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Intuitive user interface and easy learning curve",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Good value for money",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Ability to scale and handle more advanced needs over time",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Accurate calculations and trustworthy outputs",
+            "priority": 0.95
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to complete an annual, mandatory task (e.g., taxes)",
+            "context": "Tax season or end-of-year financial planning"
+          },
+          {
+            "trigger": "Discovery of a cost-effective alternative to a more expensive competitor",
+            "context": "Budget-conscious decision-making"
+          },
+          {
+            "trigger": "Need to upgrade due to software/OS obsolescence or to access new features",
+            "context": "Maintaining workflow compatibility"
+          },
+          {
+            "trigger": "Desire to learn a new professional skill (e.g., animation, video editing) affordably",
+            "context": "Skill development and content creation"
+          },
+          {
+            "trigger": "Finding a tool that simplifies a previously complex or tedious process",
+            "context": "Seeking efficiency gains"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product is overpriced for the value or features provided",
+            "severity": 0.7
+          },
+          {
+            "objection": "Software is buggy, unstable, or prone to crashes",
+            "severity": 0.9
+          },
+          {
+            "objection": "Lack of significant improvements or innovation in new versions",
+            "severity": 0.6
+          },
+          {
+            "objection": "Poor user experience (clunky UI, slow performance, difficult to use)",
+            "severity": 0.8
+          },
+          {
+            "objection": "Unreliable customer support when issues arise",
+            "severity": 0.75
+          },
+          {
+            "objection": "Fear of hidden costs or aggressive upselling",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Competitor tax/video/streaming service",
+            "reason": "Found a better value, more features, or superior performance",
+            "threshold": "Clear advantage in price, usability, or reliability"
+          },
+          {
+            "from_product": "Older version of same software",
+            "reason": "Forced upgrade due to lack of support or compatibility",
+            "threshold": "Software no longer functions with current systems"
+          },
+          {
+            "from_product": "Current unsatisfactory product",
+            "reason": "Persistent bugs, poor performance, or bad customer service",
+            "threshold": "Frustration outweighs the cost/effort of switching"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability/Stability",
+          "Value for Money/Cost",
+          "Ease of Use/User Interface",
+          "Features/Capabilities",
+          "Accuracy/Trustworthiness",
+          "Customer Support",
+          "Learning Curve"
+        ],
+        "deal_breakers": [
+          "Frequent crashes or critical bugs",
+          "Exorbitant or monopoly pricing",
+          "Data loss or calculation errors",
+          "Completely unusable interface",
+          "Abysmal customer support"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 12,
+          "amazon_med_acc": 18,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Limited or poor quality content library",
+            "frequency": 8,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Misleading or hidden pricing/fees",
+            "frequency": 5,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Complex, non-intuitive, or frustrating user interface",
+            "frequency": 6,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Software incompatibility or lack of needed features",
+            "frequency": 4,
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Lack of value for money or not meeting expectations",
+            "frequency": 6,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poor customer service or support",
+            "frequency": 2,
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Excessive advertising or ads in paid services",
+            "frequency": 3,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Inability to access content on desired devices",
+            "frequency": 2,
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Access to a wide variety of high-quality content",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Ease of use and intuitive interface",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Cost-effectiveness and transparent pricing",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Reliable, seamless streaming/playback",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Ability to work offline or save content locally",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Software that is comprehensive and handles complex tasks (e.g., taxes, web design)",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Time-saving and efficiency in completing tasks",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Good value for money and meeting specific needs",
+            "priority": 0.85
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Recommendation or positive word-of-mouth",
+            "context": "Converted many people into Pluto tv fans."
+          },
+          {
+            "trigger": "Promotional pricing or deal",
+            "context": "The program was promo priced for $26."
+          },
+          {
+            "trigger": "Dissatisfaction with current/competing product",
+            "context": "Frustrated with TurboTax and high price, tried H&R Block."
+          },
+          {
+            "trigger": "Specific feature need (e.g., business forms, offline access)",
+            "context": "Needed complete Home & Business tax package with specific forms."
+          },
+          {
+            "trigger": "Free or low-cost trial availability",
+            "context": "App is free, downloaded as FAOTD (Free App of the Day)."
+          },
+          {
+            "trigger": "Desire to consolidate services or content",
+            "context": "Consolidates free content from all over the web into one place."
+          },
+          {
+            "trigger": "Superior user experience compared to alternatives",
+            "context": "Amazon video app superior to Showtime and HBO apps."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Not enough content or poor content quality",
+            "severity": 0.9
+          },
+          {
+            "objection": "High cost or hidden fees",
+            "severity": 0.85
+          },
+          {
+            "objection": "Difficult to use or steep learning curve",
+            "severity": 0.7
+          },
+          {
+            "objection": "Incompatibility with needed programs or devices",
+            "severity": 0.8
+          },
+          {
+            "objection": "Lacks specific features or functionality",
+            "severity": 0.75
+          },
+          {
+            "objection": "Not ad-free despite being paid",
+            "severity": 0.8
+          },
+          {
+            "objection": "Misleading marketing or descriptions",
+            "severity": 0.85
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "TurboTax",
+            "reason": "High price, complexity, and hidden fees",
+            "threshold": "Cost and frustration outweighed brand loyalty"
+          },
+          {
+            "from_product": "Showtime/HBO apps",
+            "reason": "Poor user experience and technical issues",
+            "threshold": "Amazon app offered superior, seamless streaming"
+          },
+          {
+            "from_product": "Cable TV",
+            "reason": "High cost and set-top box rentals",
+            "threshold": "YouTubeTV provided live TV replacement at lower cost"
+          },
+          {
+            "from_product": "Quicken 2006",
+            "reason": "Forced upgrade to a worse version",
+            "threshold": "New version removed key features and made reconciliation difficult"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Content quality/variety",
+          "Cost and value for money",
+          "Ease of use/interface",
+          "Reliability and performance",
+          "Feature completeness",
+          "Compatibility",
+          "Customer service/support"
+        ],
+        "deal_breakers": [
+          "Misleading pricing/hidden fees",
+          "Extremely limited or poor content",
+          "Critical features missing or broken",
+          "Unusable interface/steep learning curve",
+          "Incompatibility with essential devices/programs"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 30,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Poor or non-existent customer support with slow/automated responses",
+            "frequency": 6,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Unexpected/unclear pricing and subscription models with hidden charges",
+            "frequency": 4,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Critical bugs or glitches that cause data loss (e.g., progress reset) or crashes",
+            "frequency": 6,
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Software/app lacks key features compared to computer or competing versions",
+            "frequency": 4,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Poor user interface (UI) that is confusing, slow, or not intuitive",
+            "frequency": 6,
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Platform compatibility issues (e.g., old OS, Kindle-specific problems)",
+            "frequency": 8,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Unrealistic feature expectations vs. reality; product not matching marketing",
+            "frequency": 4,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Product quality issues (e.g., physical discomfort, unreliable functionality)",
+            "frequency": 3,
+            "emotional_intensity": 0.65
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Efficient, reliable tool that saves time and simplifies complex tasks",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Professional-quality results from an affordable, budget-friendly solution",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Seamless multi-platform compatibility and syncing",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Transparent, predictable pricing with no hidden fees or aggressive upselling",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Stable, bug-free performance with data integrity and backup features",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Intuitive, easy-to-use interface with clear navigation",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Access to a rich set of advanced features for complex professional work",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Responsive, helpful customer service for troubleshooting",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Identified clear superiority over free/competing options during trial",
+            "context": "After evaluating multiple tools, finding the one that best meets specific needs"
+          },
+          {
+            "trigger": "Critical need for a portable or mobile solution to replace expensive hardware",
+            "context": "Seeking affordable, professional-grade functionality on a budget device"
+          },
+          {
+            "trigger": "Loyalty to a trusted brand with a history of positive past experiences",
+            "context": "Upgrading within a known product family after previous versions succeeded"
+          },
+          {
+            "trigger": "Availability on a preferred or newly-supported platform (e.g., Fire TV, Android)",
+            "context": "Platform expansion allowing access to a previously unavailable service"
+          },
+          {
+            "trigger": "Complex personal/business circumstances requiring advanced feature sets",
+            "context": "Facing intricate tasks (e.g., taxes, design) where basic tools are insufficient"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Pricing is not transparent or feels misleading, with surprise extra costs",
+            "severity": 0.9
+          },
+          {
+            "objection": "Product lacks reliability, with bugs that disrupt work or cause data loss",
+            "severity": 0.85
+          },
+          {
+            "objection": "Inadequate customer support when problems arise",
+            "severity": 0.8
+          },
+          {
+            "objection": "Software is not compatible with my device or operating system",
+            "severity": 0.75
+          },
+          {
+            "objection": "Key advertised or expected features are missing or hard to access",
+            "severity": 0.7
+          },
+          {
+            "objection": "Poor user experience compared to competitors",
+            "severity": 0.65
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Free or competitor product",
+            "reason": "Current solution lacks essential features, stability, or platform support",
+            "threshold": "When a direct, affordable alternative proves significantly more capable"
+          },
+          {
+            "from_product": "Higher-end professional hardware/software",
+            "reason": "Seeking a cost-effective solution that delivers comparable core functionality",
+            "threshold": "When budget constraints conflict with high-end tool costs"
+          },
+          {
+            "from_product": "Legacy software versions",
+            "reason": "New version introduces a broken UI, removed features, or compatibility loss",
+            "threshold": "When updates degrade usability to the point of preferring a free alternative"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Value for money (cost vs. capabilities)",
+          "Reliability and stability (no bugs/data loss)",
+          "Feature set and depth for professional work",
+          "Ease of use and intuitive interface",
+          "Cross-platform compatibility and performance",
+          "Quality of customer support",
+          "Transparent and fair pricing model",
+          "Brand trust and past experience"
+        ],
+        "deal_breakers": [
+          "Unreliable software that crashes or loses data",
+          "Deceptive or unpredictable subscription/pricing practices",
+          "Complete lack of customer support responsiveness",
+          "Critical incompatibility with primary device/OS"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 16,
+          "amazon_med_acc": 14,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "aggregate_signals": {
+      "top_pain_points": [
+        "Software is buggy, unreliable, or crashes frequently",
+        "User interface is unintuitive, difficult to navigate, or poorly designed",
+        "Software/hardware consumes too many system resources, slowing down your computer",
+        "Steep learning curve; software is overly complex and difficult to master",
+        "Forced integration with specific platforms (e.g., requiring Facebook for account setup)",
+        "Software install process is problematic, buggy, or fails",
+        "Poor or non-existent customer support and bug documentation",
+        "Product's value doesn't justify its cost; insufficient content or features",
+        "Software is missing critical, expected features (e.g., search, favorites list)",
+        "Installation issues (failed or lengthy installation)",
+        "Software crashes or performance issues (hogging resources)",
+        "Poor user interface or navigation (difficult to search/find content)"
+      ],
+      "top_desired_outcomes": [
+        "Efficiently convert complex documents (like PDFs) into editable text to save time",
+        "Find a comprehensive, reliable anti-virus/security suite that protects without slowing the system",
+        "Have access to a deep, rich, and interactive exploration of a subject (educational/entertainment)",
+        "Find a value-for-money solution that is cheaper than major competitors",
+        "Use a tool that is easy to install and works reliably from the start",
+        "Master a full-featured, powerful software for creative or professional work",
+        "Enjoy an immersive, engaging, and seamless entertainment or gaming experience",
+        "Software that works reliably without crashes or errors",
+        "Software that is easy to install and set up",
+        "Software that performs tasks efficiently without hogging resources",
+        "Software that offers a user-friendly interface with intuitive controls",
+        "Software that delivers promised functionality without hidden limitations"
+      ],
+      "top_deal_breakers": [
+        "Software is consistently buggy or non-functional",
+        "User interface is fundamentally broken or unusable",
+        "Missing critical, must-have features (e.g., search)",
+        "Complete lack of customer support for major issues",
+        "Software crashes or fails to install",
+        "Software causes system instability or crashes",
+        "Software is buggy with frequent errors",
+        "Software lacks promised core functionality",
+        "Software has hidden costs or misleading claims",
+        "Frequent crashes or data loss"
+      ],
+      "top_purchase_triggers": [
+        "Need to solve a specific, immediate problem (e.g., convert a file)",
+        "Frustration with existing alternatives or lack of free options",
+        "Recommendation from positive reviews or trusted sources",
+        "Desire to learn or improve skills (e.g., language, music, photography)",
+        "Need for a tool that works across multiple devices or systems",
+        "Seeking a 'set-and-forget' solution that is unobtrusive",
+        "Availability of a version that works with new hardware without extra purchase",
+        "Need to upgrade from older version for new features"
+      ],
+      "dominant_friction_tolerance": "low"
+    }
+  },
+  "cluster_1": {
+    "member_count": 19,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Ineffective content marketing tools waste time without delivering results",
+            "frequency": 7,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Complex tools with steep learning curves disrupt workflow efficiency",
+            "frequency": 9,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Hidden costs or unexpected paywalls after initial investment",
+            "frequency": 5,
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Poor integration with existing marketing tech stack",
+            "frequency": 6,
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Unreliable performance or frequent technical issues",
+            "frequency": 8,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Limited functionality that doesn't scale with business growth",
+            "frequency": 4,
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Generate high-quality, organic traffic consistently",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Scale content production without proportional increase in time/cost",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Achieve measurable ROI from content marketing efforts",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Maintain brand voice and quality across all AI-generated content",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Streamline content workflow from ideation to publication",
+            "priority": 0.75
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Clear demonstration of time-saving capabilities",
+            "context": "When evaluating productivity tools"
+          },
+          {
+            "trigger": "Proven ROI case studies from similar B2B companies",
+            "context": "During budget justification"
+          },
+          {
+            "trigger": "Free trial that shows immediate value",
+            "context": "Initial exploration phase"
+          },
+          {
+            "trigger": "Integration capabilities with current tech stack",
+            "context": "When building marketing automation"
+          },
+          {
+            "trigger": "Recommendation from trusted industry peers",
+            "context": "Peer network discussions"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "AI content lacks authentic brand voice and nuance",
+            "severity": 0.8
+          },
+          {
+            "objection": "Long-term dependency could weaken internal skills",
+            "severity": 0.6
+          },
+          {
+            "objection": "SEO algorithms may penalize AI-generated content",
+            "severity": 0.7
+          },
+          {
+            "objection": "Subscription costs outweigh manual content creation",
+            "severity": 0.75
+          },
+          {
+            "objection": "Data privacy concerns with proprietary information",
+            "severity": 0.65
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Manual content creation",
+            "reason": "Scaling limitations become business-critical",
+            "threshold": "When content demand exceeds 2x current capacity"
+          },
+          {
+            "from_product": "Basic AI writing tools",
+            "reason": "Need for advanced features like SEO optimization",
+            "threshold": "When ranking goals require sophisticated optimization"
+          },
+          {
+            "from_product": "Competitor AI tools",
+            "reason": "Better integration or cost efficiency",
+            "threshold": "When workflow friction becomes noticeable"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Time-to-value ratio",
+          "Integration capabilities",
+          "Cost efficiency",
+          "Output quality and brand alignment",
+          "Scalability",
+          "Ease of use",
+          "Customer support quality",
+          "Data security"
+        ],
+        "deal_breakers": [
+          "No clear ROI demonstration",
+          "Proprietary data privacy concerns",
+          "Poor integration with existing tools",
+          "Unpredictable pricing model",
+          "No free trial or money-back guarantee"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 14,
+          "amazon_med_acc": 16,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Products that don't deliver practical, actionable value for busy professionals",
+            "frequency": 22,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Wasting time on products with steep learning curves or poor usability",
+            "frequency": 18,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Overpaying for features that don't directly contribute to organic growth",
+            "frequency": 16,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Marketing tools that require constant maintenance instead of running autonomously",
+            "frequency": 12,
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Difficulty scaling content production without sacrificing quality",
+            "frequency": 10,
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Tools that fail to integrate seamlessly with existing workflows",
+            "frequency": 8,
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Generate high-quality, engaging content consistently with minimal effort",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Scale organic reach and engagement without increasing time investment",
+            "priority": 0.92
+          },
+          {
+            "outcome": "Achieve measurable ROI from marketing efforts within reasonable timeframe",
+            "priority": 0.88
+          },
+          {
+            "outcome": "Maintain authentic brand voice while automating content creation",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Streamline entire content marketing workflow from ideation to distribution",
+            "priority": 0.82
+          },
+          {
+            "outcome": "Get clear, data-driven insights into what content performs best",
+            "priority": 0.78
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Clear demonstration of time-saving capabilities in product demos",
+            "context": "When evaluating efficiency claims"
+          },
+          {
+            "trigger": "Specific evidence of ROI from case studies or testimonials",
+            "context": "Budget justification phase"
+          },
+          {
+            "trigger": "Product explicitly addresses a current bottleneck in workflow",
+            "context": "When experiencing growing pains"
+          },
+          {
+            "trigger": "Competitive advantage gained over others not using the tool",
+            "context": "Market analysis reveals gap"
+          },
+          {
+            "trigger": "Free trial shows immediate value without heavy setup",
+            "context": "Proof-of-concept testing"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Concern about AI-generated content lacking authentic human touch",
+            "severity": 0.85
+          },
+          {
+            "objection": "Worry about long-term costs outweighing short-term benefits",
+            "severity": 0.8
+          },
+          {
+            "objection": "Fear of platform dependency and vendor lock-in",
+            "severity": 0.75
+          },
+          {
+            "objection": "Skepticism about quality compared to human-created content",
+            "severity": 0.7
+          },
+          {
+            "objection": "Concern about learning curve disrupting current operations",
+            "severity": 0.65
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Manual content creation processes",
+            "reason": "Cannot scale efficiently with growing demands",
+            "threshold": "When content volume increases 50%+"
+          },
+          {
+            "from_product": "Basic scheduling tools",
+            "reason": "Need intelligent content optimization, not just posting",
+            "threshold": "When engagement metrics plateau"
+          },
+          {
+            "from_product": "Multiple disconnected tools",
+            "reason": "Time lost in switching between platforms exceeds value",
+            "threshold": "When integration overhead exceeds 2+ hours weekly"
+          },
+          {
+            "from_product": "General AI writing assistants",
+            "reason": "Need industry-specific, B2B-focused capabilities",
+            "threshold": "When content relevance scores drop below target"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Time-to-value",
+          "Measurable ROI",
+          "Ease of integration",
+          "Quality of output",
+          "Customer support",
+          "Pricing transparency",
+          "Feature depth"
+        ],
+        "deal_breakers": [
+          "No free trial or money-back guarantee",
+          "Requires extensive technical setup",
+          "Output requires heavy editing to be usable",
+          "Poor data security practices",
+          "Hidden fees or unexpected price increases"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 30,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Time-consuming manual content creation",
+            "frequency": 8,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "High cost of paid advertising and ineffective ROI",
+            "frequency": 6,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Difficulty scaling content output while maintaining quality",
+            "frequency": 7,
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Lack of intuitive and easy-to-use marketing tools",
+            "frequency": 5,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Inefficient workflows that waste time",
+            "frequency": 6,
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Increase organic traffic and lead generation",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Automate content creation to save time",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Maintain consistent brand voice and quality",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Achieve measurable ROI without large ad spend",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Scale marketing efforts efficiently as a solopreneur or small team",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to reduce time spent on content creation",
+            "context": "Feeling overwhelmed by manual tasks"
+          },
+          {
+            "trigger": "Desire to cut advertising costs",
+            "context": "Dissatisfaction with paid ad performance"
+          },
+          {
+            "trigger": "Goal to increase organic reach",
+            "context": "Shifting strategy towards SEO and content marketing"
+          },
+          {
+            "trigger": "Seeking tools that integrate with existing tech stack",
+            "context": "Frustration with disjointed workflows"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Concern about AI-generated content sounding generic or unnatural",
+            "severity": 0.8
+          },
+          {
+            "objection": "Worry about high upfront cost or subscription fees",
+            "severity": 0.7
+          },
+          {
+            "objection": "Skepticism about tool's ability to deliver real ROI",
+            "severity": 0.75
+          },
+          {
+            "objection": "Fear of steep learning curve or complex setup",
+            "severity": 0.6
+          },
+          {
+            "objection": "Doubt about integration with current platforms",
+            "severity": 0.65
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Manual content creation methods",
+            "reason": "Inefficiency and inability to scale",
+            "threshold": "Over 10 hours per week spent on content"
+          },
+          {
+            "from_product": "Paid advertising platforms",
+            "reason": "High costs and declining returns",
+            "threshold": "ROI drops below acceptable level"
+          },
+          {
+            "from_product": "Other AI tools",
+            "reason": "Poor output quality or lack of features",
+            "threshold": "Dissatisfaction with content results"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Cost-effectiveness",
+          "Time savings and efficiency",
+          "Quality of AI-generated content",
+          "Ease of use and integration",
+          "ROI measurability",
+          "Customer support and updates"
+        ],
+        "deal_breakers": [
+          "No clear ROI evidence",
+          "Poor content quality or brand mismatch",
+          "High price with limited features",
+          "Lack of integration capabilities",
+          "Complex setup requiring technical skills"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 6,
+          "amazon_med_acc": 24,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Time-consuming content creation process",
+            "frequency": 18,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Difficulty scaling content output efficiently",
+            "frequency": 12,
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Inconsistent or unreliable content quality",
+            "frequency": 10,
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "High cost of traditional paid advertising",
+            "frequency": 22,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Budget constraints limiting marketing activities",
+            "frequency": 20,
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Difficulty measuring marketing ROI",
+            "frequency": 8,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Complexity of marketing tools and platforms",
+            "frequency": 6,
+            "emotional_intensity": 0.55
+          },
+          {
+            "signal": "Difficulty identifying effective growth strategies",
+            "frequency": 14,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Maintaining consistent brand voice across content",
+            "frequency": 9,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Keeping up with algorithm changes and trends",
+            "frequency": 11,
+            "emotional_intensity": 0.65
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Increased organic traffic and visibility",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Improved content quality and consistency",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Reduced time spent on content creation",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Scalable content production system",
+            "priority": 0.88
+          },
+          {
+            "outcome": "Better marketing ROI measurement",
+            "priority": 0.82
+          },
+          {
+            "outcome": "Cost-effective growth strategies",
+            "priority": 0.92
+          },
+          {
+            "outcome": "Streamlined marketing workflows",
+            "priority": 0.78
+          },
+          {
+            "outcome": "Competitive advantage in content marketing",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Recognition of content creation bottleneck",
+            "context": "When current manual processes can't keep up with demand"
+          },
+          {
+            "trigger": "Failed marketing campaign due to poor content",
+            "context": "After experiencing disappointing results from existing methods"
+          },
+          {
+            "trigger": "Business scaling requires more efficient marketing",
+            "context": "When expanding operations or entering new markets"
+          },
+          {
+            "trigger": "Competitor adoption of AI tools",
+            "context": "When competitors show improved results using similar technology"
+          },
+          {
+            "trigger": "Time-saving demonstration",
+            "context": "After seeing tangible efficiency improvements in demos or trials"
+          },
+          {
+            "trigger": "Budget allocation for efficiency tools",
+            "context": "When quarterly/annual planning includes technology investments"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Concerns about AI content sounding generic or unnatural",
+            "severity": 0.75
+          },
+          {
+            "objection": "Uncertainty about content quality compared to human writers",
+            "severity": 0.7
+          },
+          {
+            "objection": "Learning curve for new technology",
+            "severity": 0.6
+          },
+          {
+            "objection": "Integration complexity with existing tools",
+            "severity": 0.65
+          },
+          {
+            "objection": "Cost justification for another marketing tool",
+            "severity": 0.8
+          },
+          {
+            "objection": "Data privacy and security concerns",
+            "severity": 0.55
+          },
+          {
+            "objection": "Reliability and consistency of AI output",
+            "severity": 0.7
+          },
+          {
+            "objection": "Lack of industry-specific expertise in AI",
+            "severity": 0.65
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Manual content creation",
+            "reason": "Time inefficiency and inability to scale",
+            "threshold": "When content demands exceed 10 hours per week"
+          },
+          {
+            "from_product": "Traditional marketing agencies",
+            "reason": "High costs and lack of control",
+            "threshold": "When monthly agency fees exceed $2,000"
+          },
+          {
+            "from_product": "Basic content tools",
+            "reason": "Limited features and poor integration",
+            "threshold": "When needing more than 3 integrations"
+          },
+          {
+            "from_product": "Competitor AI tools",
+            "reason": "Better features, pricing, or support",
+            "threshold": "When finding 20% better value elsewhere"
+          },
+          {
+            "from_product": "DIY marketing systems",
+            "reason": "Inconsistent results and high time investment",
+            "threshold": "When spending more than 15 hours weekly on maintenance"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Cost-effectiveness and ROI",
+          "Time savings and efficiency gains",
+          "Content quality and customization",
+          "Ease of use and learning curve",
+          "Integration capabilities with existing tools",
+          "Scalability for business growth",
+          "Customer support and training",
+          "Data security and privacy",
+          "Trial availability and money-back guarantee",
+          "Company reputation and reviews"
+        ],
+        "deal_breakers": [
+          "No clear ROI demonstration",
+          "Poor content quality in demos",
+          "Complex integration requirements",
+          "Lack of customization options",
+          "Unreliable customer support",
+          "Hidden fees or unclear pricing",
+          "Data security concerns",
+          "No trial period available"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 30,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Feeling like I'm wasting time on inefficient processes",
+            "frequency": 2,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Struggling to create content consistently at scale",
+            "frequency": 1,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Difficulty measuring ROI or proving the value of marketing efforts",
+            "frequency": 1,
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Budget constraints limiting access to premium tools",
+            "frequency": 1,
+            "emotional_intensity": 0.8
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Generate high-quality, consistent content quickly to feed organic channels",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Achieve scalable growth without proportional increase in time or manual effort",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Understand and optimize content performance to improve ROI",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Automate repetitive marketing tasks to focus on strategy and creative",
+            "priority": 0.85
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Realizing a current manual process is unsustainable for scaling goals",
+            "context": "When planning to increase content output"
+          },
+          {
+            "trigger": "Seeing a successful case study or proof of ROI from a trusted source",
+            "context": "Social proof in B2B marketing communities"
+          },
+          {
+            "trigger": "Reaching a breaking point with time-consuming, repetitive tasks",
+            "context": "Feeling overwhelmed by workload"
+          },
+          {
+            "trigger": "Allocating new budget for efficiency tools at start of quarter/year",
+            "context": "Budget planning cycle"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Concern about output quality sounding generic or lacking human touch",
+            "severity": 0.7
+          },
+          {
+            "objection": "Worry about the tool becoming obsolete quickly as AI evolves",
+            "severity": 0.5
+          },
+          {
+            "objection": "Fear of high cost not justifying the perceived efficiency gains",
+            "severity": 0.8
+          },
+          {
+            "objection": "Security/data privacy concerns with proprietary or client information",
+            "severity": 0.6
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Manual content creation/outsourcing",
+            "reason": "Inability to scale output efficiently with growing demand",
+            "threshold": "Content volume exceeds 2x current capacity"
+          },
+          {
+            "from_product": "General-purpose AI writer",
+            "reason": "Output lacks industry-specific nuance and strategic depth for B2B",
+            "threshold": "More than 30% of output requires heavy editing"
+          },
+          {
+            "from_product": "Competitor tool",
+            "reason": "Better integration with existing martech stack and workflow",
+            "threshold": "Saves >5 hours/week in manual processes"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Time-to-value/ROI proof",
+          "Ease of integration into current workflow",
+          "Output quality and customization depth",
+          "Cost relative to budget",
+          "Security and data privacy features",
+          "Scalability of output volume",
+          "Quality of customer support"
+        ],
+        "deal_breakers": [
+          "No clear ROI or performance tracking",
+          "Output requires extensive manual editing (>50%)",
+          "Lacks essential integrations (e.g., CMS, analytics)",
+          "Unclear or restrictive data usage policies"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 30,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "aggregate_signals": {
+      "top_pain_points": [
+        "Complex content creation process requiring excessive manual effort",
+        "Difficulty scaling content production while maintaining quality",
+        "Time-consuming research and planning for content strategy",
+        "Budget constraints limiting access to premium marketing tools",
+        "Inconsistent content performance and difficulty measuring ROI",
+        "Struggling to keep up with algorithm changes and SEO requirements",
+        "Difficulty repurposing content across multiple platforms",
+        "Lack of time for strategic planning due to tactical execution",
+        "Fragmented tools requiring multiple subscriptions and integrations",
+        "Difficulty maintaining consistent brand voice across content",
+        "Time-consuming content creation process",
+        "Difficulty scaling content output efficiently"
+      ],
+      "top_desired_outcomes": [
+        "Generate high-quality, SEO-optimized content faster",
+        "Scale content production without compromising quality",
+        "Improve organic reach and engagement metrics",
+        "Streamline content planning and strategy development",
+        "Reduce time spent on content creation tasks",
+        "Achieve consistent brand voice across all content",
+        "Better measure content performance and ROI",
+        "Easily repurpose content across platforms",
+        "Stay ahead of algorithm changes and SEO trends",
+        "Consolidate multiple marketing tools into one platform",
+        "Increased organic traffic and visibility",
+        "Improved content quality and consistency"
+      ],
+      "top_deal_breakers": [
+        "No clear ROI within 3 months",
+        "Poor content quality requiring extensive editing",
+        "SEO penalties risk",
+        "Unreliable uptime or performance issues",
+        "Lack of essential integrations",
+        "Unresponsive customer support",
+        "Hidden costs or pricing changes",
+        "Data ownership concerns",
+        "No trial or demo available",
+        "Inflexible contract terms"
+      ],
+      "top_purchase_triggers": [
+        "Free trial demonstrates clear time savings",
+        "Competitor analysis shows product outperforms current solution",
+        "Positive case studies from similar B2B companies",
+        "Clear ROI calculation showing cost/time savings",
+        "Urgent need to scale content for upcoming campaign",
+        "Frustration with current tool's limitations becomes unbearable",
+        "Seasonal content demands exceeding capacity",
+        "Team expansion requiring scalable solutions"
+      ],
+      "dominant_friction_tolerance": "low"
+    }
+  },
+  "cluster_2": {
+    "member_count": 15,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Product fails to meet genre expectations",
+            "frequency": 8,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Excessive or boring descriptive content",
+            "frequency": 6,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Unsatisfying or confusing endings",
+            "frequency": 7,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Poorly developed or unlikable characters",
+            "frequency": 5,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Slow pacing or lack of action",
+            "frequency": 4,
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Inaccurate or unconvincing setting/details",
+            "frequency": 3,
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Bloated narrative with unnecessary speculation",
+            "frequency": 2,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Difficulty following story structure",
+            "frequency": 2,
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Product not working well as standalone",
+            "frequency": 2,
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Unhealthy or unbelievable character habits",
+            "frequency": 1,
+            "emotional_intensity": 0.3
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Well-written, engaging narrative",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Fast-paced, page-turning plot",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Complex but satisfying plot twists",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Memorable, well-developed characters",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Accurate, well-researched background",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Seamless integration of information into story",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Entertaining, edge-of-seat reading",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Satisfying resolution of all plot threads",
+            "priority": 0.65
+          },
+          {
+            "outcome": "Strong series continuity while working as standalone",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Educational or informative content woven into narrative",
+            "priority": 0.55
+          },
+          {
+            "outcome": "Authentic character relationships and interactions",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Exotic or well-described settings",
+            "priority": 0.45
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Strong reputation of author",
+            "context": "Previous positive experiences with author's work"
+          },
+          {
+            "trigger": "Positive reviews or recommendations",
+            "context": "Seeing high ratings or trusted recommendations"
+          },
+          {
+            "trigger": "Genre alignment with personal preferences",
+            "context": "Book fits preferred mystery/thriller/cozy genres"
+          },
+          {
+            "trigger": "Series continuation",
+            "context": "Previous enjoyment of series characters"
+          },
+          {
+            "trigger": "Exotic or interesting setting",
+            "context": "Location (Japan, Guadeloupe, WWII Germany) adds appeal"
+          },
+          {
+            "trigger": "Educational or informative content",
+            "context": "Business insights, historical accuracy, cultural details"
+          },
+          {
+            "trigger": "Unique premise or innovative concept",
+            "context": "Fresh take on familiar formula (Da Vinci Code style)"
+          },
+          {
+            "trigger": "Strong character development",
+            "context": "Complex, multifaceted protagonists"
+          },
+          {
+            "trigger": "Well-researched background",
+            "context": "Author expertise in subject matter"
+          },
+          {
+            "trigger": "Fast-paced, page-turning quality",
+            "context": "Promise of engaging entertainment"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Poor writing quality or style",
+            "severity": 0.9
+          },
+          {
+            "objection": "Plot doesn't match genre expectations",
+            "severity": 0.85
+          },
+          {
+            "objection": "Excessive descriptive padding",
+            "severity": 0.8
+          },
+          {
+            "objection": "Unsatisfying or confusing ending",
+            "severity": 0.75
+          },
+          {
+            "objection": "Unlikable or poorly developed characters",
+            "severity": 0.7
+          },
+          {
+            "objection": "Slow pacing lacking action",
+            "severity": 0.65
+          },
+          {
+            "objection": "Story doesn't work as standalone",
+            "severity": 0.6
+          },
+          {
+            "objection": "Inaccurate or unconvincing details",
+            "severity": 0.55
+          },
+          {
+            "objection": "Bloated narrative with unnecessary content",
+            "severity": 0.5
+          },
+          {
+            "objection": "Unhealthy character habits interfering with enjoyment",
+            "severity": 0.3
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Traditional mystery/thrillers",
+            "reason": "Desire for more literary or character-driven content",
+            "threshold": "When plot feels too formulaic"
+          },
+          {
+            "from_product": "Literary fiction",
+            "reason": "Need for faster pacing and more action",
+            "threshold": "When writing becomes too descriptive or slow"
+          },
+          {
+            "from_product": "Series books",
+            "reason": "Poor standalone experience",
+            "threshold": "When new entry fails to work independently"
+          },
+          {
+            "from_product": "Authors with inconsistent quality",
+            "reason": "Varying satisfaction across works",
+            "threshold": "When latest book disappoints compared to previous"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Writing quality and style",
+          "Plot engagement and pacing",
+          "Character development and likability",
+          "Genre alignment and expectations",
+          "Ending satisfaction and resolution",
+          "Series continuity vs standalone functionality",
+          "Setting and background authenticity",
+          "Educational or informative value",
+          "Author reputation and consistency",
+          "Recommendations and reviews"
+        ],
+        "deal_breakers": [
+          "Atrocious writing quality",
+          "Complete genre mismatch",
+          "Extremely slow pacing with excessive description",
+          "Thoroughly unlikable main characters",
+          "Deeply unsatisfying or confusing ending",
+          "Inaccurate or poorly researched content",
+          "Story that absolutely requires series knowledge"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 30,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Lack of practical, actionable advice/strategies",
+            "frequency": 2,
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Content is too generic/predictable/basic",
+            "frequency": 3,
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Inconsistent tone, setting, or excessive slang breaks immersion",
+            "frequency": 2,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Poor pacing or slow plot",
+            "frequency": 2,
+            "emotional_intensity": 0.3
+          },
+          {
+            "signal": "Underdeveloped or unsympathetic characters",
+            "frequency": 2,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Content is morally offensive/unsuitable for audience",
+            "frequency": 1,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Need for authentic/credible expertise",
+            "frequency": 1,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Difficulty learning/understanding due to lack of guidance",
+            "frequency": 1,
+            "emotional_intensity": 0.4
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Gain practical skills/actionable strategies",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Learn efficiently (concise, time-saving)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Achieve emotional engagement (make me laugh, cry, feel)",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Experience unique/original content",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Find credible/authentic expertise",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Escape/entertainment (engaging plot, characters)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Gain historical/societal insights",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Receive encouragement/inspiration",
+            "priority": 0.5
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Recommendation from trusted author/series",
+            "context": "Series reader enjoying previous work"
+          },
+          {
+            "trigger": "Positive word-of-mouth/reviews",
+            "context": "Seeing many positive reviews"
+          },
+          {
+            "trigger": "Free or low-cost trial",
+            "context": "Book was free or dirt cheap"
+          },
+          {
+            "trigger": "Need to solve a specific problem (e.g., salary negotiation)",
+            "context": "Seeking skill improvement"
+          },
+          {
+            "trigger": "Genre affinity (e.g., romance, thriller)",
+            "context": "Enjoys specific genre elements"
+          },
+          {
+            "trigger": "Author reputation/expertise",
+            "context": "Author is recognized as expert (e.g., teacher, physician)"
+          },
+          {
+            "trigger": "ARC (Advance Reader Copy) offer",
+            "context": "Received for honest review"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Content is offensive/morally unacceptable",
+            "severity": 1.0
+          },
+          {
+            "objection": "Lacks practical application/strategy",
+            "severity": 0.8
+          },
+          {
+            "objection": "Inconsistent tone/world-building",
+            "severity": 0.7
+          },
+          {
+            "objection": "Poor character development/unsympathetic characters",
+            "severity": 0.6
+          },
+          {
+            "objection": "Too slow/predictable",
+            "severity": 0.5
+          },
+          {
+            "objection": "Excessive slang or jargon disrupts flow",
+            "severity": 0.5
+          },
+          {
+            "objection": "Not suitable for intended audience (e.g., too mature)",
+            "severity": 0.4
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Generic strategy/guide books",
+            "reason": "Lack of actionable, specific advice",
+            "threshold": "After first few chapters fail to deliver practical tips"
+          },
+          {
+            "from_product": "Genre fiction with poor execution",
+            "reason": "Inconsistent tone, weak characters, slow pace",
+            "threshold": "When immersion breaks or boredom sets in"
+          },
+          {
+            "from_product": "Books with offensive content",
+            "reason": "Moral/ethical discomfort",
+            "threshold": "Immediate upon encountering unacceptable material"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Engagement/Enjoyment (plot, characters, emotional impact)",
+          "Practicality/Applicability (actionable advice, learning value)",
+          "Authenticity/Credibility (author expertise, realistic details)",
+          "Originality/Uniqueness (fresh perspective, not formulaic)",
+          "Efficiency/Conciseness (time-saving, direct)",
+          "Moral/Content Alignment (suitability, no offensive material)",
+          "Cost/Value (free/low-cost, worth price)"
+        ],
+        "deal_breakers": [
+          "Morally offensive or inappropriate content",
+          "Complete lack of practical value/actionable insight",
+          "Severely inconsistent or immersion-breaking execution",
+          "Extremely poor character development"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 30,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Lack of depth/exploration in content",
+            "frequency": 2,
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Exhausting emotional rollercoasters in narratives",
+            "frequency": 1,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Stilted dialogue or uneven pacing",
+            "frequency": 1,
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Unresolved plotlines or disappointing endings",
+            "frequency": 1,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Deceptive cover art misrepresenting content",
+            "frequency": 1,
+            "emotional_intensity": 0.3
+          },
+          {
+            "signal": "Difficulty connecting with main characters",
+            "frequency": 1,
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Thorough exploration of worlds/ideas",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Realistic and resolved character relationships",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Engaging, well-paced narratives",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Feel-good, uplifting stories",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Historical depth and authenticity",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Emotional resonance and connection",
+            "priority": 0.9
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Recommendation from trusted series/author",
+            "context": "Addicted to author's other series, thrilled to try new one."
+          },
+          {
+            "trigger": "Discovery of free/inexpensive offer",
+            "context": "Happened on this book as a Kindle free for a day and it turned out a win win."
+          },
+          {
+            "trigger": "Personal relevance to life experience",
+            "context": "I have so much in common with the author. I have also been through a harrowing experience with the medical community."
+          },
+          {
+            "trigger": "Nostalgia or prior positive experience",
+            "context": "Totally addicted to this series back in the 70's watching it on Masterpiece Theatre."
+          },
+          {
+            "trigger": "Strong, positive synopsis",
+            "context": "I really wanted to read this book after scanning the synopsis."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Content too dark or emotionally draining",
+            "severity": 0.7
+          },
+          {
+            "objection": "Plot lacks follow-through on interesting ideas",
+            "severity": 0.8
+          },
+          {
+            "objection": "Unrealistic character behavior or excessive conflict",
+            "severity": 0.6
+          },
+          {
+            "objection": "Deceptive or unappealing packaging (cover)",
+            "severity": 0.3
+          },
+          {
+            "objection": "Ending is a cop-out or unsatisfying",
+            "severity": 0.75
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Series by same author",
+            "reason": "Series became too dark and unenjoyable",
+            "threshold": "When novels had gotten so dark that I wasn't enjoying where the author was taking the characters."
+          }
+        ],
+        "decision_factors_ranked": [
+          "Author/series reputation",
+          "Emotional resonance/connection",
+          "Plot depth and resolution",
+          "Character relatability",
+          "Historical/educational value",
+          "Pacing and writing quality",
+          "Price/value"
+        ],
+        "deal_breakers": [
+          "Unresolved, cop-out endings",
+          "Excessively dark/emotionally draining content",
+          "Poor character development/connection"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 30,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Expectation mismatch: product does not match advertised genre (e.g., expecting mystery/thriller but getting literary fiction or police procedural)",
+            "frequency": 6,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poor or excessive 'literary' writing that bores or annoys the reader",
+            "frequency": 6,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Slow pacing or bloated narrative with too much description",
+            "frequency": 8,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Unsatisfying or confusing endings with too many loose threads",
+            "frequency": 6,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Unlikable or unbelievable characters that are hard to connect with",
+            "frequency": 5,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Series books that don't work well as standalones, making them inaccessible",
+            "frequency": 4,
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Feeling 'suckered in' by misleading claims or reviews",
+            "frequency": 2,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Difficulty seeing detail in book illustrations (e.g., dark printing in knitting patterns)",
+            "frequency": 1,
+            "emotional_intensity": 0.3
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "A well-written, fast-paced, engaging story that keeps the reader entertained",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Clear, satisfying ending with all loose ends tied up",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Believable, well-developed, and likable characters",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Educational or informative content woven seamlessly into the narrative",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Exotic or well-described settings that bring locations to life",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Authentic, accurate background details (e.g., historical, legal, financial)",
+            "priority": 0.65
+          },
+          {
+            "outcome": "A book that works as a standalone, even if part of a series",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Memorable, innovative designs or patterns (in craft books)",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Characters who exhibit growth, redemption, or positive change",
+            "priority": 0.4
+          },
+          {
+            "outcome": "A 'breath of fresh air' with characters who avoid typical negative teen behaviors (e.g., drinking, drugs, excessive cursing)",
+            "priority": 0.4
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Positive reputation of author or series (e.g., loyal fan, previous enjoyment)",
+            "context": "Established series or author with proven track record"
+          },
+          {
+            "trigger": "Promising book description matching preferred genre (e.g., mystery/thriller, page-turner)",
+            "context": "Browsing or searching for specific genre"
+          },
+          {
+            "trigger": "Recommendation or claim of being 'the new standard' or 'summer read' from trusted source",
+            "context": "Influenced by reviews, blurbs, or media claims"
+          },
+          {
+            "trigger": "Desire for educational or historical content presented in an engaging narrative",
+            "context": "Seeking informative fiction or non-fiction"
+          },
+          {
+            "trigger": "Need for specific skill-building (e.g., learning Spanish, knitting patterns)",
+            "context": "Purposeful purchase for self-improvement or hobby"
+          },
+          {
+            "trigger": "Emotional connection to themes (e.g., grief, redemption, community projects)",
+            "context": "Personal resonance with book's subject matter"
+          },
+          {
+            "trigger": "Availability on Kindle Unlimited or at a discounted price",
+            "context": "Cost-conscious or subscription-based acquisition"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Atrocious, overly descriptive, or boring writing style",
+            "severity": 0.9
+          },
+          {
+            "objection": "Predictable plot or lack of suspense",
+            "severity": 0.7
+          },
+          {
+            "objection": "Unsatisfying or confusing ending",
+            "severity": 0.8
+          },
+          {
+            "objection": "Unlikable or poorly developed characters",
+            "severity": 0.7
+          },
+          {
+            "objection": "Book doesn't work as a standalone (requires series knowledge)",
+            "severity": 0.6
+          },
+          {
+            "objection": "Misleading advertising or genre mismatch",
+            "severity": 0.85
+          },
+          {
+            "objection": "Excessive, bloated narrative with unnecessary detail",
+            "severity": 0.75
+          },
+          {
+            "objection": "Unbelievable character actions or unrealistic elements (e.g., unhealthy diets, instant love)",
+            "severity": 0.5
+          },
+          {
+            "objection": "Poor production quality (e.g., dark illustrations in craft books)",
+            "severity": 0.3
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Rosetta Stone or similar immersive language software",
+            "reason": "Preference for reading over listening to learn",
+            "threshold": "When supplemental material is needed to enhance learning style"
+          },
+          {
+            "from_product": "One author's series",
+            "reason": "Disappointment with recent installment (e.g., weaker plot, unlikable protagonist)",
+            "threshold": "When quality drops or character becomes unengaging"
+          },
+          {
+            "from_product": "Typical YA books with negative teen behaviors",
+            "reason": "Desire for cleaner, more positive content",
+            "threshold": "When seeking a 'breath of fresh air' in the genre"
+          },
+          {
+            "from_product": "Dense historical or non-fiction narratives",
+            "reason": "Preference for anecdotal, readable memoirs",
+            "threshold": "When content feels too dry or academic"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Writing quality and style",
+          "Engaging, fast-paced plot",
+          "Satisfying ending",
+          "Believable and likable characters",
+          "Genre alignment (mystery/thriller expected)",
+          "Author reputation or series consistency",
+          "Standalone readability (if part of series)",
+          "Educational or authentic background details",
+          "Setting and descriptive richness",
+          "Value for money or cost (discounts/Kindle Unlimited)"
+        ],
+        "deal_breakers": [
+          "Boring, overly 'literary' writing that puts reader to sleep",
+          "Misleading genre claims (e.g., expecting mystery but getting literary fiction)",
+          "Extremely unlikable or unbelievable protagonist",
+          "Ending with too many loose threads or unsatisfying resolution",
+          "Excessive, unnecessary description that slows pace"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 30,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Character development feels shallow or stereotypical",
+            "frequency": 3,
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Story pacing is slow or plods in places",
+            "frequency": 2,
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Unnecessary or overly graphic scenes that feel gratuitous",
+            "frequency": 2,
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Frustration with weak, immature, or poorly written female leads",
+            "frequency": 2,
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Predictable, safe, or superficial plotlines, especially in minority-focused stories",
+            "frequency": 2,
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Romantic storylines or character relationships that feel flat, annoying, or unbelievable",
+            "frequency": 2,
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Books being excessively long with filler content",
+            "frequency": 2,
+            "emotional_intensity": 0.55
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Deeply developed, distinctive, and memorable characters",
+            "priority": 0.95
+          },
+          {
+            "outcome": "A well-plotted, engaging mystery or story that holds attention",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Emotional connection and investment in the story and characters",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Rich, immersive world-building and setting",
+            "priority": 0.8
+          },
+          {
+            "outcome": "A satisfying, heartwarming, or feel-good ending (HEA - Happily Ever After)",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Escapism and entertainment",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Learning about historical, social, or cultural issues",
+            "priority": 0.65
+          },
+          {
+            "outcome": "Humor, witty banter, and lighthearted fun",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Author is a known favorite",
+            "context": "Reviewer explicitly mentions being a fan of the author"
+          },
+          {
+            "trigger": "Book is part of a beloved series",
+            "context": "Reviewer follows a series and seeks the next installment"
+          },
+          {
+            "trigger": "Positive buzz or recommendation",
+            "context": "Book is described as important, a major debut, or highly recommended"
+          },
+          {
+            "trigger": "Genre-specific appeal (e.g., Christmas story, romance tropes)",
+            "context": "Reviewer seeks specific themes like holiday romances or fake-dating plots"
+          },
+          {
+            "trigger": "Strong character chemistry and connection",
+            "context": "Reviewer is drawn by descriptions of compelling character dynamics"
+          },
+          {
+            "trigger": "Unique or captivating premise",
+            "context": "Concept (e.g., externalized unconsciousness, historical angle) grabs attention"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Graphic, excessive, or offensive violence/sexual assault scenes",
+            "severity": 0.9
+          },
+          {
+            "objection": "Poorly executed romantic subplots or character relationships",
+            "severity": 0.7
+          },
+          {
+            "objection": "Predictable, formulaic, or superficial storytelling",
+            "severity": 0.65
+          },
+          {
+            "objection": "Inauthentic or clumsy handling of sensitive topics",
+            "severity": 0.75
+          },
+          {
+            "objection": "Excessive length with unnecessary filler scenes",
+            "severity": 0.6
+          },
+          {
+            "objection": "Frenetic, silly, or pointless dialogue/narrative style",
+            "severity": 0.55
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Books with weak female leads",
+            "reason": "Despise when female leads are written as weak and immature",
+            "threshold": "Immediate stop in reading if character is perceived as too passive"
+          },
+          {
+            "from_product": "Books with excessive/gratuitous trauma",
+            "reason": "Scenes feel over-the-top and offensive, breaking suspension of disbelief",
+            "threshold": "Multiple instances of graphic content that feels unnecessary to the plot"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Character depth and likability",
+          "Plot quality and engagement",
+          "Writing quality and style",
+          "Emotional payoff and ending",
+          "Pacing and length",
+          "Authenticity of subject matter",
+          "Entertainment and escapism value",
+          "Unique premise or concept",
+          "Author reputation and series continuity"
+        ],
+        "deal_breakers": [
+          "Gratuitous, offensive, or excessively graphic violence/sexual assault",
+          "Extremely weak, stereotypical, or poorly written protagonists",
+          "Clumsy, inauthentic handling of serious cultural or social issues",
+          "Romantic relationships that feel flat, annoying, or unbelievable"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 30,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "aggregate_signals": {
+      "top_pain_points": [
+        "Lack of time for cooking during weekdays",
+        "Difficulty finding specialty ingredients locally",
+        "Recipes not catering to dietary preferences (vegetarian/gluten-free)",
+        "Overly complex recipes with many steps/stages",
+        "Disappointment when cookbooks lack expected depth or coverage",
+        "High time and effort required to manage complexity and inefficiency",
+        "Lack of clarity and actionable guidance",
+        "Concern over unhealthy or non-organic ingredients",
+        "Difficulty finding suitable, practical solutions (e.g., gardening pests, cooking substitutions)",
+        "Budget constraints and desire for cost-effective, high-value solutions",
+        "Difficulty finding time for comprehensive preparation due to demanding schedules",
+        "Overwhelmed by complex concepts that require simplified, actionable guidance"
+      ],
+      "top_desired_outcomes": [
+        "Efficient, time-saving cooking solutions",
+        "Access to authentic, well-tested recipes with clear instructions",
+        "Recipes that accommodate dietary needs (vegetarian, gluten-free, etc.)",
+        "Learning new cooking techniques and cultural insights",
+        "High-quality results that impress or comfort",
+        "Ability to make ahead and freeze meals",
+        "Achieve clarity, actionable insights, and simplified strategies",
+        "Implement healthy, organic, and sustainable practices",
+        "Gain practical, time-efficient solutions",
+        "Find cost-effective and high-value products",
+        "Improve long-term well-being (health, financial, environmental)",
+        "Achieve high scores on critical exams (e.g., LSAT)"
+      ],
+      "top_deal_breakers": [
+        "Recipes predominantly meat-based with few vegetarian options",
+        "Instructions that are confusing or lack step-by-step guidance",
+        "Key content omissions or superficial coverage",
+        "Uses unhealthy, non-organic, or inflammatory ingredients (e.g., agave, vegetable oil)",
+        "Lacks clear, actionable, step-by-step guidance",
+        "Overly complex, confusing, or theoretical without practical application",
+        "High cost without corresponding high value or proven results",
+        "Fails to address specific pain points (e.g., gophers, healthy substitutions)",
+        "Lack of step-by-step guidance",
+        "Insufficient depth for advanced users"
+      ],
+      "top_purchase_triggers": [
+        "Recommendation from trusted sources (blogs, authors, awards)",
+        "Focus on specific dietary or lifestyle needs (vegetarian, gluten-free)",
+        "Clear, practical organization and helpful extras (metric conversions, tips)",
+        "Nostalgia or connection to cultural/heritage foods",
+        "Positive previous experience with author or series",
+        "Evidence of comprehensive, actionable content",
+        "Strong visual appeal and practical examples",
+        "Credible author background and proven expertise"
+      ],
+      "dominant_friction_tolerance": "medium"
+    }
+  },
+  "cluster_3": {
+    "member_count": 2,
+    "representative_batches": [
+      {
+        "pain_points": [],
+        "desired_outcomes": [],
+        "purchase_triggers": [],
+        "objections": [],
+        "switching_triggers": [],
+        "decision_factors_ranked": [],
+        "deal_breakers": [],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [],
+        "desired_outcomes": [],
+        "purchase_triggers": [],
+        "objections": [],
+        "switching_triggers": [],
+        "decision_factors_ranked": [],
+        "deal_breakers": [],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 30,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "aggregate_signals": {
+      "top_pain_points": [],
+      "top_desired_outcomes": [],
+      "top_deal_breakers": [],
+      "top_purchase_triggers": [],
+      "dominant_friction_tolerance": "low"
+    }
+  }
+}

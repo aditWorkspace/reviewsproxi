@@ -76,8 +76,16 @@ def extract_trait(cluster_id: str, cluster_data: dict, client) -> dict:
     signals_text = json.dumps(cluster_data["aggregate_signals"], indent=2)
     sample_phrases: list[str] = []
     for batch in cluster_data.get("representative_batches", [])[:2]:
-        sample_phrases.extend(pp["signal"] for pp in batch.get("pain_points", [])[:3])
-        sample_phrases.extend(do["outcome"] for do in batch.get("desired_outcomes", [])[:2])
+        for pp in batch.get("pain_points", [])[:3]:
+            if isinstance(pp, dict) and "signal" in pp:
+                sample_phrases.append(pp["signal"])
+            elif isinstance(pp, str):
+                sample_phrases.append(pp)
+        for do in batch.get("desired_outcomes", [])[:2]:
+            if isinstance(do, dict) and "outcome" in do:
+                sample_phrases.append(do["outcome"])
+            elif isinstance(do, str):
+                sample_phrases.append(do)
 
     user_content = (
         f"Cluster ID: {cluster_id}\n\n"
@@ -126,17 +134,19 @@ def build_rag_index(traits: list[dict], clusters: dict) -> list[dict]:
         cluster_data = clusters.get(cid, {})
         for b_idx, batch in enumerate(cluster_data.get("representative_batches", [])):
             for pp_idx, pp in enumerate(batch.get("pain_points", [])[:3]):
+                text = pp["signal"] if isinstance(pp, dict) and "signal" in pp else (pp if isinstance(pp, str) else str(pp))
                 entries.append({
                     "review_id": f"{cid}_b{b_idx}_pp{pp_idx}",
                     "trait_label": trait["label"],
-                    "text": pp["signal"],
+                    "text": text,
                     "tone": trait.get("tone", "unknown"),
                 })
             for do_idx, do in enumerate(batch.get("desired_outcomes", [])[:2]):
+                text = do["outcome"] if isinstance(do, dict) and "outcome" in do else (do if isinstance(do, str) else str(do))
                 entries.append({
                     "review_id": f"{cid}_b{b_idx}_do{do_idx}",
                     "trait_label": trait["label"],
-                    "text": do["outcome"],
+                    "text": text,
                     "tone": trait.get("tone", "unknown"),
                 })
     return entries

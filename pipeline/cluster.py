@@ -146,8 +146,14 @@ def run_cluster(config: dict, n_clusters_override: int | None = None, force: boo
 
         for idx in indices:
             s = signals_list[idx]
-            all_pain.extend(pp["signal"] for pp in s.get("pain_points", []))
-            all_outcomes.extend(do["outcome"] for do in s.get("desired_outcomes", []))
+            all_pain.extend(
+                pp["signal"] for pp in s.get("pain_points", [])
+                if isinstance(pp, dict) and "signal" in pp
+            )
+            all_outcomes.extend(
+                do["outcome"] for do in s.get("desired_outcomes", [])
+                if isinstance(do, dict) and "outcome" in do
+            )
             all_deal_breakers.extend(
                 db for db in s.get("deal_breakers", []) if isinstance(db, str)
             )

@@ -1,0 +1,564 @@
+{
+  "products": [
+    {
+      "name": "Portable USB-C Hub with HDMI and Multiple Ports for MacBook",
+      "category": "Electronics",
+      "accuracy": 0.95,
+      "review_keywords": [
+        "nomad",
+        "travel",
+        "coworking",
+        "coffee shop",
+        "portable",
+        "lightweight",
+        "remote work"
+      ],
+      "context_keywords": [
+        "nomad",
+        "remote",
+        "coworking",
+        "travel"
+      ],
+      "exclusion_keywords": [
+        "office",
+        "permanent desk"
+      ],
+      "why": "Digital nomads need portable connectivity solutions for working from various locations with minimal setup"
+    },
+    {
+      "name": "Noise-Cancelling Bluetooth Headphones for Travel and Remote Work",
+      "category": "Electronics",
+      "accuracy": 0.92,
+      "review_keywords": [
+        "coworking",
+        "cafe",
+        "calls",
+        "focus",
+        "travel",
+        "noise cancelling",
+        "remote"
+      ],
+      "context_keywords": [
+        "nomad",
+        "calls",
+        "coworking",
+        "travel"
+      ],
+      "exclusion_keywords": [
+        "commute",
+        "office"
+      ],
+      "why": "Essential for nomads working in noisy environments like cafes, coworking spaces, and during travel"
+    },
+    {
+      "name": "International Travel Power Adapter with USB Ports",
+      "category": "Electronics",
+      "accuracy": 0.94,
+      "review_keywords": [
+        "nomad",
+        "countries",
+        "voltage",
+        "travel",
+        "international",
+        "multiple devices"
+      ],
+      "context_keywords": [
+        "nomad",
+        "travel",
+        "international"
+      ],
+      "exclusion_keywords": [
+        "vacation",
+        "tourist"
+      ],
+      "why": "Digital nomads frequently change countries and need reliable power solutions for their devices"
+    },
+    {
+      "name": "Compact Standing Desk Converter for Laptops",
+      "category": "Office_Products",
+      "accuracy": 0.89,
+      "review_keywords": [
+        "portable",
+        "ergonomic",
+        "laptop",
+        "standing",
+        "compact",
+        "travel",
+        "coworking"
+      ],
+      "context_keywords": [
+        "nomad",
+        "portable",
+        "ergonomic"
+      ],
+      "exclusion_keywords": [
+        "permanent",
+        "office"
+      ],
+      "why": "Nomads need portable ergonomic solutions since they can't control their workspace setup"
+    },
+    {
+      "name": "VPN Router for Secure Remote Work",
+      "category": "Electronics",
+      "accuracy": 0.91,
+      "review_keywords": [
+        "security",
+        "remote",
+        "vpn",
+        "privacy",
+        "travel",
+        "public wifi"
+      ],
+      "context_keywords": [
+        "nomad",
+        "security",
+        "remote"
+      ],
+      "exclusion_keywords": [
+        "home office",
+        "permanent"
+      ],
+      "why": "Essential for nomads who need secure internet access on untrusted networks while working remotely"
+    },
+    {
+      "name": "The $100 Startup Book by Chris Guillebeau",
+      "category": "Books",
+      "accuracy": 0.88,
+      "review_keywords": [
+        "entrepreneur",
+        "startup",
+        "solo founder",
+        "bootstrap",
+        "location independent"
+      ],
+      "context_keywords": [
+        "founder",
+        "bootstrap",
+        "startup"
+      ],
+      "exclusion_keywords": [
+        "corporate",
+        "employee"
+      ],
+      "why": "Targets solo entrepreneurs seeking location independence and lean startup methodologies"
+    },
+    {
+      "name": "Logitech MX Master 3S Wireless Mouse for Productivity",
+      "category": "Electronics",
+      "accuracy": 0.87,
+      "review_keywords": [
+        "productivity",
+        "workflow",
+        "multiple devices",
+        "travel",
+        "portable",
+        "programming"
+      ],
+      "context_keywords": [
+        "productivity",
+        "workflow",
+        "nomad"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "office desk"
+      ],
+      "why": "High-end productivity mouse favored by tech professionals who work across multiple devices and locations"
+    },
+    {
+      "name": "Anker PowerCore Portable Charger 26800mAh",
+      "category": "Electronics",
+      "accuracy": 0.93,
+      "review_keywords": [
+        "travel",
+        "multiple devices",
+        "long flights",
+        "backup power",
+        "nomad",
+        "remote"
+      ],
+      "context_keywords": [
+        "nomad",
+        "travel",
+        "remote"
+      ],
+      "exclusion_keywords": [
+        "home use",
+        "emergency only"
+      ],
+      "why": "Essential for nomads who rely on devices throughout long travel days and unreliable power access"
+    },
+    {
+      "name": "Zapier Automation Guide and Workflow Templates Book",
+      "category": "Books",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "automation",
+        "zapier",
+        "workflow",
+        "productivity",
+        "solo founder",
+        "efficiency"
+      ],
+      "context_keywords": [
+        "automation",
+        "workflow",
+        "founder"
+      ],
+      "exclusion_keywords": [
+        "team",
+        "corporate"
+      ],
+      "why": "Solo founders specifically seek automation tools to handle tasks they can't delegate to employees"
+    },
+    {
+      "name": "Blue Yeti USB Microphone for Content Creation",
+      "category": "Electronics",
+      "accuracy": 0.85,
+      "review_keywords": [
+        "podcast",
+        "content",
+        "build in public",
+        "streaming",
+        "calls",
+        "quality"
+      ],
+      "context_keywords": [
+        "content",
+        "podcast",
+        "build in public"
+      ],
+      "exclusion_keywords": [
+        "studio",
+        "professional recording"
+      ],
+      "why": "Build-in-public founders need quality audio for podcasts, video content, and professional calls"
+    },
+    {
+      "name": "Travel-Sized Mechanical Keyboard 60% Layout",
+      "category": "Electronics",
+      "accuracy": 0.86,
+      "review_keywords": [
+        "portable",
+        "programming",
+        "travel",
+        "compact",
+        "mechanical",
+        "productivity"
+      ],
+      "context_keywords": [
+        "programming",
+        "portable",
+        "nomad"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "desk setup"
+      ],
+      "why": "Tech entrepreneurs who code need portable mechanical keyboards for comfortable typing while traveling"
+    },
+    {
+      "name": "Notion Productivity System Templates and Guide",
+      "category": "Books",
+      "accuracy": 0.87,
+      "review_keywords": [
+        "notion",
+        "productivity",
+        "solo founder",
+        "organization",
+        "workflow",
+        "templates"
+      ],
+      "context_keywords": [
+        "notion",
+        "productivity",
+        "founder"
+      ],
+      "exclusion_keywords": [
+        "team management",
+        "corporate"
+      ],
+      "why": "Solo founders gravitate toward Notion for managing complex workflows without dedicated team tools"
+    },
+    {
+      "name": "Airtable and API Integration Course",
+      "category": "Software",
+      "accuracy": 0.89,
+      "review_keywords": [
+        "airtable",
+        "api",
+        "automation",
+        "integration",
+        "no code",
+        "founder"
+      ],
+      "context_keywords": [
+        "api",
+        "automation",
+        "founder"
+      ],
+      "exclusion_keywords": [
+        "corporate",
+        "IT department"
+      ],
+      "why": "Solo tech founders need to integrate tools via APIs without hiring developers"
+    },
+    {
+      "name": "Portable Monitor 15.6 Inch USB-C for Laptops",
+      "category": "Electronics",
+      "accuracy": 0.84,
+      "review_keywords": [
+        "productivity",
+        "dual monitor",
+        "portable",
+        "travel",
+        "workspace",
+        "nomad"
+      ],
+      "context_keywords": [
+        "productivity",
+        "portable",
+        "nomad"
+      ],
+      "exclusion_keywords": [
+        "permanent desk",
+        "office"
+      ],
+      "why": "Nomads need portable dual-screen setups for productivity in temporary workspaces"
+    },
+    {
+      "name": "Peak Design Travel Backpack for Tech Nomads",
+      "category": "Sports_and_Outdoors",
+      "accuracy": 0.88,
+      "review_keywords": [
+        "nomad",
+        "tech",
+        "organized",
+        "travel",
+        "laptop compartment",
+        "modular"
+      ],
+      "context_keywords": [
+        "nomad",
+        "tech",
+        "travel"
+      ],
+      "exclusion_keywords": [
+        "vacation",
+        "hiking"
+      ],
+      "why": "Specifically designed for digital nomads who need organized tech storage while traveling"
+    },
+    {
+      "name": "Time Tracking and Productivity Apps Comparison Guide",
+      "category": "Books",
+      "accuracy": 0.83,
+      "review_keywords": [
+        "time tracking",
+        "productivity",
+        "solo founder",
+        "efficiency",
+        "apps",
+        "comparison"
+      ],
+      "context_keywords": [
+        "productivity",
+        "founder",
+        "efficiency"
+      ],
+      "exclusion_keywords": [
+        "employee",
+        "corporate"
+      ],
+      "why": "Solo founders need to optimize their time without traditional employee oversight systems"
+    },
+    {
+      "name": "Webflow and No-Code Development Course",
+      "category": "Software",
+      "accuracy": 0.86,
+      "review_keywords": [
+        "webflow",
+        "no code",
+        "founder",
+        "rapid prototyping",
+        "mvp",
+        "solo"
+      ],
+      "context_keywords": [
+        "no code",
+        "founder",
+        "mvp"
+      ],
+      "exclusion_keywords": [
+        "developer",
+        "team"
+      ],
+      "why": "Solo founders use no-code tools for rapid product iteration without hiring developers"
+    },
+    {
+      "name": "Portable WiFi Hotspot Device for International Travel",
+      "category": "Electronics",
+      "accuracy": 0.92,
+      "review_keywords": [
+        "nomad",
+        "international",
+        "reliable internet",
+        "backup connection",
+        "travel"
+      ],
+      "context_keywords": [
+        "nomad",
+        "international",
+        "backup"
+      ],
+      "exclusion_keywords": [
+        "vacation",
+        "tourist"
+      ],
+      "why": "Digital nomads need reliable backup internet for work while traveling internationally"
+    }
+  ],
+  "subreddits": [
+    {
+      "name": "digitalnomad",
+      "relevance": 0.95,
+      "member_type": "80% location-independent remote workers and entrepreneurs",
+      "data_value": "Location strategies, visa requirements, coworking spaces, cost of living comparisons",
+      "why": "Core community for people living the digital nomad lifestyle"
+    },
+    {
+      "name": "entrepreneur",
+      "relevance": 0.85,
+      "member_type": "60% early-stage founders and solo entrepreneurs",
+      "data_value": "Business validation, growth strategies, funding discussions, founder challenges",
+      "why": "Primary community for startup founders sharing experiences and seeking advice"
+    },
+    {
+      "name": "solopreneur",
+      "relevance": 0.92,
+      "member_type": "90% solo founders and single-person businesses",
+      "data_value": "Solo-specific challenges, automation tools, time management, scaling without employees",
+      "why": "Specifically focused on single-person business operations and challenges"
+    },
+    {
+      "name": "buildinpublic",
+      "relevance": 0.88,
+      "member_type": "75% indie makers and transparent founders",
+      "data_value": "Product development progress, revenue sharing, transparent growth metrics",
+      "why": "Community of founders sharing their journey openly for accountability and feedback"
+    },
+    {
+      "name": "indiehackers",
+      "relevance": 0.87,
+      "member_type": "70% bootstrapped founders and indie makers",
+      "data_value": "Revenue milestones, product launches, growth tactics, tool recommendations",
+      "why": "Platform for independent entrepreneurs building profitable businesses without VC funding"
+    },
+    {
+      "name": "nocode",
+      "relevance": 0.83,
+      "member_type": "65% solo founders using no-code tools",
+      "data_value": "Tool comparisons, workflow automation, rapid prototyping techniques",
+      "why": "Solo founders leverage no-code tools for rapid iteration and cost-effective development"
+    },
+    {
+      "name": "remotework",
+      "relevance": 0.78,
+      "member_type": "50% location-independent workers and founders",
+      "data_value": "Remote work best practices, productivity tools, workspace optimization",
+      "why": "Broader remote work community with significant nomad founder overlap"
+    },
+    {
+      "name": "productivity",
+      "relevance": 0.75,
+      "member_type": "45% high-agency individuals optimizing workflows",
+      "data_value": "Tool reviews, workflow optimization, time management systems",
+      "why": "Solo founders constantly optimize productivity since they can't delegate tasks"
+    },
+    {
+      "name": "startups",
+      "relevance": 0.72,
+      "member_type": "40% early-stage founders and solo entrepreneurs",
+      "data_value": "Funding discussions, growth strategies, market validation techniques",
+      "why": "General startup community with significant solo founder participation"
+    },
+    {
+      "name": "Notion",
+      "relevance": 0.79,
+      "member_type": "55% productivity-focused solo workers and founders",
+      "data_value": "Template sharing, workflow automation, organization systems",
+      "why": "Popular tool among solo founders for managing complex workflows independently"
+    },
+    {
+      "name": "SaaS",
+      "relevance": 0.81,
+      "member_type": "60% SaaS founders and solo developers",
+      "data_value": "Product strategy, pricing models, customer acquisition, technical discussions",
+      "why": "Many nomad founders build SaaS products for location independence and scalability"
+    },
+    {
+      "name": "webdev",
+      "relevance": 0.76,
+      "member_type": "45% developer-entrepreneurs and technical founders",
+      "data_value": "Technical implementation, tool recommendations, development workflows",
+      "why": "Technical founders seek development advice for building their products"
+    },
+    {
+      "name": "freelance",
+      "relevance": 0.74,
+      "member_type": "40% location-independent service providers transitioning to products",
+      "data_value": "Client management, pricing strategies, business development",
+      "why": "Many nomad founders start as freelancers before building products"
+    },
+    {
+      "name": "automation",
+      "relevance": 0.77,
+      "member_type": "50% efficiency-focused solo operators",
+      "data_value": "Tool integrations, workflow automation, time-saving techniques",
+      "why": "Solo founders heavily invest in automation to scale without hiring"
+    },
+    {
+      "name": "IMadeThis",
+      "relevance": 0.8,
+      "member_type": "55% makers and solo creators showcasing products",
+      "data_value": "Product launches, creation process, feedback collection, maker stories",
+      "why": "Platform for indie makers to showcase and get feedback on their creations"
+    }
+  ],
+  "demographic_profile": {
+    "core_keywords": [
+      "nomad",
+      "founder",
+      "bootstrap",
+      "automation",
+      "api",
+      "remote",
+      "solo",
+      "mvp",
+      "iteration",
+      "productivity",
+      "location-independent",
+      "build-in-public",
+      "no-code",
+      "workflow"
+    ],
+    "exclusion_keywords": [
+      "corporate",
+      "employee",
+      "office",
+      "permanent",
+      "team",
+      "vacation",
+      "tourist",
+      "student"
+    ],
+    "age_range": "24-35",
+    "primary_motivations": [
+      "Location independence and travel freedom",
+      "Rapid product development and iteration",
+      "Workflow automation to scale solo operations",
+      "Premium tools that save significant time"
+    ],
+    "summary": "High-agency tech entrepreneurs who've chosen location independence over traditional career paths, building products while traveling globally. They prioritize tools and systems that enable solo operation at scale, willing to pay premium prices for automation that replaces hiring employees. Their biggest frustrations are unreliable internet, time zone coordination challenges, and finding tools that integrate seamlessly into their lean, fast-moving workflows."
+  }
+}

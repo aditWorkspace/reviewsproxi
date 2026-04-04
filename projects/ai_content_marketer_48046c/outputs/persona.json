@@ -1,0 +1,221 @@
+{
+  "id": "ai_content_marketer",
+  "label": "AI content marketer",
+  "segment": {
+    "role": "high-intent B2B professionals and solopreneurs",
+    "tech_savviness": "high",
+    "price_sensitivity": "medium",
+    "risk_tolerance": "low",
+    "context": "Tech-savvy marketers prioritizing efficiency, seeking to scale organic reach without high ad spend. They value authentic community engagement and need automated lead discovery tools for platforms like Reddit or Twitter."
+  },
+  "goals": [
+    {
+      "goal": "Find software that reliably automates lead discovery",
+      "priority": 5
+    },
+    {
+      "goal": "Reduce time spent on manual content creation",
+      "priority": 4
+    },
+    {
+      "goal": "Learn about ROI-driven solutions for scaling content production",
+      "priority": 3
+    },
+    {
+      "goal": "Ensure software integrates seamlessly with existing tools",
+      "priority": 2
+    },
+    {
+      "goal": "Find clear, actionable guidance for complex concepts",
+      "priority": 1
+    }
+  ],
+  "constraints": [
+    "Software must be reliable and easy to install",
+    "Cannot afford steep learning curves",
+    "Session durations must fit into busy schedules",
+    "Solutions must be affordable and ROI-driven"
+  ],
+  "decision_weights": {
+    "software_reliability": 0.64,
+    "efficiency": 0.19,
+    "complexity": 0.15,
+    "customer_support": 0.02
+  },
+  "behavioral_rules": [
+    "Immediately exits if pricing page requires signup before showing prices",
+    "Skips lengthy tutorials if there's no quick-start guide available",
+    "Preferentially reads reviews mentioning reliability and ease of use",
+    "Closes tabs if website loads slowly",
+    "Prioritizes products with clear ROI case studies",
+    "Avoids software requiring complex setups",
+    "Spends extra time verifying testimonials for authenticity",
+    "Exits if too many features mislead towards complexity",
+    "Quickly abandons pages needing account creation for free trials",
+    "Prefers products offering live demos or interactive tours"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.3,
+    "trust_starting_point": 0.4,
+    "frustration_decay": 0.7
+  },
+  "deal_breakers": [
+    "Software crashes frequently",
+    "Non-existent customer support",
+    "Requires specialized knowledge to use",
+    "Steep learning curve",
+    "Frequent bugs in installation"
+  ],
+  "voice_sample": "I'm so tired of wasting time on products with steep learning curves or poor usability. Every time I try to scale content production, I hit barriers\u2014inefficient tools, fragmented processes, and software that crashes frequently. My schedule is packed, and I can't afford to spend hours on overly complex recipes or buggy installations. What I need is an all-in-one solution that\u2019s reliable, easy to set up, and just works without errors. Something straightforward that accommodates my busy schedule and delivers ROI-driven results.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 15,
+    "pages_before_decision": 3,
+    "tab_behavior": "Keeps multiple tabs open for comparison",
+    "primary_device": "MacBook Pro during work hours",
+    "time_of_day": "Evenings after core work hours"
+  },
+  "purchase_journey": {
+    "discovery": "Begins with targeted searches on forums like Reddit or Twitter",
+    "evaluation": "Checks product reviews, specifically mentions of reliability, ease of use, and ROI",
+    "decision_moment": "Closes the deal when seeing a clear ROI case study and seamless integration capabilities",
+    "post_purchase_expectation": "Immediate access to intuitive software that requires minimal setup"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Software demonstrates reliability",
+      "ROI case study is clear",
+      "Live demo is available",
+      "Clear user-friendly documentation"
+    ],
+    "abandons_when": [
+      "Pricing page requires account creation",
+      "Website loads slowly",
+      "Setup instructions are too complex",
+      "Free trial requires credit card upfront"
+    ],
+    "trusts_when": [
+      "Multiple genuine testimonials",
+      "Transparent pricing",
+      "Quick-start guides",
+      "Responsive customer support"
+    ],
+    "becomes_suspicious_when": [
+      "Lack of reviews mentioning reliability",
+      "Overly complex feature listings",
+      "Hidden costs in pricing details",
+      "Demand for upfront payment for trials"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Time-consuming content creation process",
+      "Scale content production without proportional increase in time/cost",
+      "Software is buggy, unreliable, or crashes frequently",
+      "Poor or non-existent customer support and bug documentation",
+      "Overwhelmed by complex concepts that require simplified, actionable guidance"
+    ],
+    "resonates_with": [
+      "Efficiency-driven",
+      "ROI-focused",
+      "All-in-one solution",
+      "Clear, actionable guidance"
+    ],
+    "turned_off_by": [
+      "Overly complex features",
+      "Hidden costs",
+      "Steep learning curve"
+    ]
+  },
+  "inner_monologue_samples": [
+    "<Thought at pricing page: 'Why hide prices behind a signup? I'm leaving.'>",
+    "<Thought when they see social proof: 'These reviews better not be fake\u2014no mention of crashes yet.'>",
+    "<Thought when navigation is confusing: 'Why is something so simple made so complicated?'>",
+    "<Thought at signup form: 'Not giving my card for a free trial. Nope.'>",
+    "<Thought when they find what they're looking for: 'Finally, something straightforward with real ROI.'>"
+  ],
+  "anti_patterns": [
+    "Designing lengthy setup processes assuming users have abundant time",
+    "Focusing on feature richness over ease of use"
+  ],
+  "traits": [
+    {
+      "label": "Software Reliability Concern",
+      "description": "This cluster centers on users frustrated by software instability, crashes, poor support, and difficult installation, demanding a product that is reliable, easy to set up, and works without errors.",
+      "key_phrases": [
+        "Software is buggy, unreliable, or crashes frequently",
+        "Poor or non-existent customer support and bug documentation",
+        "Software install process is problematic, buggy, or fails"
+      ],
+      "frequency": 0.644,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Efficiency-Seeking Professional",
+      "description": "Users are overwhelmed by the manual effort, fragmented tools, and time-consuming processes of content marketing. They are frustrated by inefficiency and urgently seek an all-in-one, ROI-driven solution to scale production and improve organic results without proportionally increasing time or cost.",
+      "key_phrases": [
+        "Time-consuming content creation process",
+        "Scale content production without proportional increase in time/cost",
+        "Wasting time on products with steep learning curves or poor usability"
+      ],
+      "frequency": 0.188,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Complexity Overload",
+      "description": "Users feel overwhelmed by recipes and solutions that require excessive time, effort, or specialized knowledge, seeking instead clear, simplified guidance that accommodates dietary needs and fits into busy schedules.",
+      "key_phrases": [
+        "Overly complex recipes with many steps/stages",
+        "Difficulty finding time for comprehensive preparation due to demanding schedules",
+        "Overwhelmed by complex concepts that require simplified, actionable guidance"
+      ],
+      "frequency": 0.149,
+      "tone": "frustrated",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Friction Intolerance",
+      "description": "Customers are highly sensitive to any obstacles or frustrations in the purchase or usage process, making them likely to abandon a product or service at the first sign of difficulty.",
+      "key_phrases": [
+        "dominant_friction_tolerance: low"
+      ],
+      "frequency": 0.02,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_3"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 8,
+    "total": 3005,
+    "avg_rating": 3.69,
+    "avg_length": 1072,
+    "rating_distribution": {
+      "5": 1244,
+      "4": 604,
+      "3": 535,
+      "2": 231,
+      "1": 391
+    },
+    "source_breakdown": {
+      "amazon": 2800,
+      "reddit": 205
+    },
+    "n_products": 13,
+    "top_products": {
+      "Social Media Marketing All-in-One For Dummies": 400,
+      "Reddit Marketing Strategy Guide": 400,
+      "unknown": 205,
+      "ConvertKit Email Marketing Software": 200,
+      "Ahrefs SEO Toolset": 200
+    },
+    "low_rating_pct": 0.207,
+    "high_rating_pct": 0.615,
+    "n_sources": 2,
+    "issues": [],
+    "batches_estimate": 101
+  },
+  "demographic_description": "\nGemini said\nAI Content Marketer: High-intent B2B professionals and solopreneurs seeking to scale organic reach without high ad spend.\nThis persona targets tech-savvy marketers who value efficiency, prioritize authentic community engagement over traditional ads, and specifically need to automate lead discovery on platforms like Reddit or Twitter.",
+  "generated_at": "2026-04-03T09:18:36.153148"
+}

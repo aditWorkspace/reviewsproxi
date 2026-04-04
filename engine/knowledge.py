@@ -121,11 +121,19 @@ def get_persona_dir(persona_id: str) -> Path:
 
     if old_file.exists() and not persona_dir.exists():
         persona_dir.mkdir(parents=True, exist_ok=True)
-        # Move config to new location
         old_file.rename(persona_dir / "config.json")
 
     persona_dir.mkdir(parents=True, exist_ok=True)
     return persona_dir
+
+
+def _find_config_path(persona_dir: Path) -> Path | None:
+    """Return the config file inside a persona directory (config.json or persona.json)."""
+    for name in ("config.json", "persona.json"):
+        p = persona_dir / name
+        if p.exists():
+            return p
+    return None
 
 
 def load_persona_config(persona_id: str) -> dict:
@@ -134,6 +142,11 @@ def load_persona_config(persona_id: str) -> dict:
     config_path = persona_dir / "config.json"
 
     if not config_path.exists():
+        # Try persona.json (pipeline output format)
+        alt = persona_dir / "persona.json"
+        if alt.exists():
+            with open(alt) as f:
+                return json.load(f)
         # Check old-style flat files
         for f in PERSONAS_DIR.glob("*.json"):
             with open(f) as fh:
@@ -413,8 +426,9 @@ def list_all_personas() -> list[dict]:
 
     # Check directory-style personas
     for d in PERSONAS_DIR.iterdir():
-        if d.is_dir() and (d / "config.json").exists():
-            with open(d / "config.json") as f:
+        cfg_path = _find_config_path(d) if d.is_dir() else None
+        if d.is_dir() and cfg_path:
+            with open(cfg_path) as f:
                 config = json.load(f)
             knowledge = load_trained_knowledge(config["id"])
             log = load_training_log(config["id"])
