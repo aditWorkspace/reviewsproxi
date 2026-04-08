@@ -25,109 +25,293 @@ load_dotenv(Path(__file__).parent / ".env")
 
 import numpy as np
 import streamlit as st
+import functools
+
+# ---------------------------------------------------------------------------
+# Worker-mode guard
+# ---------------------------------------------------------------------------
+# When PROXI_WORKER_MODE=1, this module is imported by worker.py to access
+# pipeline functions.  All Streamlit calls are skipped so the import doesn't
+# crash outside a Streamlit context.
+
+_WORKER_MODE = bool(os.getenv("PROXI_WORKER_MODE"))
+
+# st.cache_resource is a Streamlit-only construct.  In worker mode, replace it
+# with a plain lru_cache so cached functions still work correctly.
+_cache_resource = (lambda *a, **k: (a[0] if a and callable(a[0]) else lambda f: f)) if _WORKER_MODE else st.cache_resource
 
 # ---------------------------------------------------------------------------
 # Page config + CSS
 # ---------------------------------------------------------------------------
 
-st.set_page_config(
-    page_title="Proxi — Persona Training",
-    page_icon="🧠",
-    layout="wide",
-    initial_sidebar_state="collapsed",
-)
-
-st.markdown("""
+if not _WORKER_MODE:
+    st.set_page_config(
+        page_title="Proxi — Persona Training",
+        page_icon="🧠",
+        layout="wide",
+        initial_sidebar_state="collapsed",
+    )
+    st.markdown("""
 <style>
-/* Global */
-[data-testid="stAppViewContainer"] { background: #0f1117; }
-[data-testid="stMainBlockContainer"] { max-width: 960px; padding-top: 2rem; }
+/* ── Base ──────────────────────────────────────────────────── */
+[data-testid="stAppViewContainer"] { background: #0b0d14; }
+[data-testid="stMainBlockContainer"] { max-width: 980px; padding-top: 1.5rem; }
+[data-testid="stSidebar"] { display: none; }
 
-/* Cards */
+/* ── Typography ────────────────────────────────────────────── */
+h1, h2, h3 { letter-spacing: -0.02em; }
+
+/* ── Cards ──────────────────────────────────────────────────── */
 .card {
-    background: #1a1d27;
-    border: 1px solid #2a2d3a;
-    border-radius: 12px;
-    padding: 1.5rem;
-    margin-bottom: 1rem;
+    background: #13151f;
+    border: 1px solid #22253a;
+    border-radius: 10px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 0.75rem;
+    transition: border-color 0.15s;
 }
-.card-accent {
-    border-left: 3px solid #7c6af7;
+.card-accent { border-left: 3px solid #6d5ff7; }
+
+/* ── Queue cards ────────────────────────────────────────────── */
+.qcard {
+    background: #13151f;
+    border: 1px solid #22253a;
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 0.6rem;
+    transition: border-color 0.15s, box-shadow 0.15s;
+}
+.qcard:hover { border-color: #3a3d5a; box-shadow: 0 2px 12px rgba(0,0,0,0.3); }
+.qcard-running { border-left: 3px solid #facc15; background: #14130b; }
+.qcard-done    { border-left: 3px solid #4ade80; background: #0d1410; }
+.qcard-failed  { border-left: 3px solid #f87171; background: #140d0d; }
+.qcard-pending { border-left: 3px solid #475569; }
+
+.qcard-title {
+    font-weight: 700;
+    font-size: 0.92rem;
+    color: #e2e8f0;
+    line-height: 1.3;
+}
+.qcard-meta {
+    font-size: 0.76rem;
+    color: #64748b;
+    margin-top: 3px;
 }
 
-/* Step indicator */
-.step-row { display: flex; gap: 0.5rem; margin-bottom: 2rem; align-items: center; }
-.step { display: flex; align-items: center; gap: 0.4rem; font-size: 0.8rem;
-        padding: 0.3rem 0.8rem; border-radius: 20px; font-weight: 600; }
-.step-done { background: #1a3a2a; color: #4ade80; border: 1px solid #16a34a; }
-.step-active { background: #2a2060; color: #a78bfa; border: 1px solid #7c3aed; }
-.step-pending { background: #1a1d27; color: #4a4d5a; border: 1px solid #2a2d3a; }
-.step-arrow { color: #3a3d4a; font-size: 0.7rem; }
+/* ── Status badges ──────────────────────────────────────────── */
+.status-badge {
+    display: inline-block;
+    padding: 0.15rem 0.55rem;
+    border-radius: 20px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.s-running { background: #2d2400; color: #facc15; border: 1px solid #854d0e; }
+.s-done    { background: #0d2016; color: #4ade80; border: 1px solid #166534; }
+.s-failed  { background: #200d0d; color: #f87171; border: 1px solid #7f1d1d; }
+.s-pending { background: #1a1d27; color: #94a3b8; border: 1px solid #334155; }
 
-/* Product cards */
-.product-card {
-    background: #1a1d27;
-    border: 1px solid #2a2d3a;
-    border-radius: 8px;
-    padding: 0.75rem 1rem;
+/* ── Queue stats bar ────────────────────────────────────────── */
+.queue-stats {
+    display: flex;
+    gap: 1.5rem;
+    padding: 0.75rem 0;
     margin-bottom: 0.5rem;
-    transition: border-color 0.2s;
+}
+.qstat { text-align: center; }
+.qstat-num  { font-size: 1.4rem; font-weight: 800; line-height: 1; }
+.qstat-lbl  { font-size: 0.7rem; color: #64748b; margin-top: 2px; text-transform: uppercase; letter-spacing: 0.06em; }
+
+/* ── Animated pulse for running ─────────────────────────────── */
+@keyframes pulse-glow {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
+}
+.pulse { animation: pulse-glow 2s ease-in-out infinite; }
+
+/* ── Step indicator ─────────────────────────────────────────── */
+.step-row {
+    display: flex;
+    gap: 0.35rem;
+    margin-bottom: 1.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.step {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.72rem;
+    padding: 0.25rem 0.65rem;
+    border-radius: 20px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+.step-done    { background: #0d2016; color: #4ade80; border: 1px solid #166534; }
+.step-active  { background: #1e1650; color: #a78bfa; border: 1px solid #6d28d9; }
+.step-pending { background: #13151f; color: #374151; border: 1px solid #1e2130; }
+.step-arrow   { color: #2a2d3a; font-size: 0.65rem; }
+
+/* ── Product cards ──────────────────────────────────────────── */
+.product-card {
+    background: #13151f;
+    border: 1px solid #22253a;
+    border-radius: 8px;
+    padding: 0.65rem 1rem;
+    margin-bottom: 0.4rem;
+    transition: border-color 0.15s;
 }
 .confidence-high { border-left: 3px solid #4ade80; }
 .confidence-med  { border-left: 3px solid #fbbf24; }
 .confidence-low  { border-left: 3px solid #f87171; }
 
-/* Live log */
+/* ── Live log ───────────────────────────────────────────────── */
 .log-box {
-    background: #0a0c14;
-    border: 1px solid #2a2d3a;
+    background: #07090f;
+    border: 1px solid #1a1d2a;
     border-radius: 8px;
-    padding: 1rem;
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 0.78rem;
-    max-height: 300px;
+    padding: 0.85rem 1rem;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-size: 0.77rem;
+    max-height: 260px;
     overflow-y: auto;
-    line-height: 1.6;
+    line-height: 1.65;
 }
-.log-info  { color: #60a5fa; }
-.log-ok    { color: #4ade80; }
-.log-warn  { color: #fbbf24; }
-.log-data  { color: #a78bfa; }
 
-/* Quality badges */
-.badge { display: inline-block; padding: 0.2rem 0.6rem; border-radius: 4px;
-         font-size: 0.75rem; font-weight: 700; letter-spacing: 0.05em; }
-.badge-strong   { background: #1a3a2a; color: #4ade80; }
-.badge-good     { background: #1a2a1a; color: #86efac; }
-.badge-adequate { background: #2a2010; color: #fbbf24; }
-.badge-weak     { background: #2a1010; color: #f87171; }
+/* ── Quality badges ─────────────────────────────────────────── */
+.badge { display: inline-block; padding: 0.2rem 0.55rem; border-radius: 4px;
+         font-size: 0.72rem; font-weight: 700; letter-spacing: 0.05em; }
+.badge-strong   { background: #0d2016; color: #4ade80; }
+.badge-good     { background: #0d1a0d; color: #86efac; }
+.badge-adequate { background: #1f1600; color: #fbbf24; }
+.badge-weak     { background: #1f0d0d; color: #f87171; }
 
-/* Subreddit chips */
+/* ── Subreddit chips ────────────────────────────────────────── */
 .sub-chip {
     display: inline-block;
-    background: #1e1b3a;
-    border: 1px solid #4c1d95;
+    background: #16133a;
+    border: 1px solid #3b1f7c;
     border-radius: 20px;
-    padding: 0.2rem 0.7rem;
-    font-size: 0.8rem;
+    padding: 0.18rem 0.65rem;
+    font-size: 0.78rem;
     color: #c4b5fd;
-    margin: 0.2rem;
+    margin: 0.18rem;
 }
 
-hr { border-color: #2a2d3a !important; }
+/* ── Dividers ───────────────────────────────────────────────── */
+hr { border-color: #1e2130 !important; margin: 1.25rem 0 !important; }
+
+/* ── Streamlit overrides ────────────────────────────────────── */
+[data-testid="stExpander"] > div:first-child {
+    border-radius: 8px !important;
+    border-color: #22253a !important;
+}
+button[kind="primary"] { transition: opacity 0.15s !important; }
 </style>
 """, unsafe_allow_html=True)
 
 # ---------------------------------------------------------------------------
-# Constants
+# Constants  (accessible in both UI and worker mode)
 # ---------------------------------------------------------------------------
 
 PROJECTS_DIR = Path("projects")
 PROJECTS_DIR.mkdir(exist_ok=True)
 
-MODEL = "deepseek/deepseek-chat"
-MODEL_INTELLIGENCE = "anthropic/claude-sonnet-4"
-MODEL_FILTER = "qwen/qwen-plus"
+# Cost tiers — designed to stay under ~$0.50 per demographic run
+#
+#   CHEAP  (high-volume repeated calls): deepseek/deepseek-chat
+#          ~$0.14/M in, $0.28/M out — used for bulk extraction batches
+#
+#   MID    (thread filter, many small calls): qwen/qwen-plus
+#          ~$0.40/M — fast, cheap, good enough for relevance scoring
+#
+#   SMART  (one-shot intelligence + synthesis): claude-sonnet-4
+#          ~$3/M in, $15/M out — reserved for the two calls where
+#          reasoning quality directly shapes all downstream output
+#
+MODEL           = "deepseek/deepseek-chat"          # bulk extraction (high volume)
+MODEL_FILTER    = "qwen/qwen-plus"                   # thread relevance filter
+MODEL_SMART     = "anthropic/claude-sonnet-4"        # intelligence + synthesis
+MODEL_INTELLIGENCE = MODEL_SMART                     # keep existing references working
+
+# ---------------------------------------------------------------------------
+# Sentiment helpers for implied-rating inference (unrated sources)
+# ---------------------------------------------------------------------------
+
+_SENT_POS: set[str] = {
+    "love","great","excellent","amazing","awesome","fantastic","wonderful",
+    "best","happy","pleased","impressed","recommend","intuitive","easy",
+    "seamless","delight","perfect","superb","fast","reliable","smooth",
+}
+_SENT_NEG: set[str] = {
+    "hate","terrible","awful","worst","horrible","frustrating","disappointed",
+    "annoying","useless","broken","poor","bad","confusing","clunky","ugly",
+    "painful","nightmare","regret","slow","buggy","crash","crashes","laggy",
+}
+_NEGATION: set[str] = {
+    "not","no","never","barely","hardly",
+    "isn't","wasn't","doesn't","don't","won't","can't","couldn't","didn't",
+}
+
+
+def _infer_rating(text: str) -> float:
+    """Infer a 1–5 star equivalent from comment sentiment.
+
+    Used for Reddit / HN comments that have no explicit star rating so the
+    quality checker can correctly report the negative/positive review balance.
+    """
+    tokens = re.findall(r"[a-z']+", text.lower())
+    pos = neg = 0
+    for i, t in enumerate(tokens):
+        negated = i > 0 and tokens[i - 1] in _NEGATION
+        if t in _SENT_POS:
+            if negated: neg += 1
+            else:        pos += 1
+        elif t in _SENT_NEG:
+            if negated: pos += 1
+            else:        neg += 1
+    total = pos + neg
+    valence = (pos - neg) / total if total else 0.0
+    if valence <= -0.5: return 1.0
+    if valence <= -0.1: return 2.0
+    if valence <=  0.1: return 3.0
+    if valence <=  0.5: return 4.0
+    return 5.0
+
+
+# ---------------------------------------------------------------------------
+# Semantic scoring helpers (reuses sentence-transformers already installed)
+# ---------------------------------------------------------------------------
+
+@_cache_resource(show_spinner=False)
+def _load_embed_model():
+    from sentence_transformers import SentenceTransformer
+    return SentenceTransformer("all-MiniLM-L6-v2")
+
+
+def _persona_embedding(demographic_desc: str):
+    """Return a normalised embedding for the demographic description (cached)."""
+    model = _load_embed_model()
+    import numpy as np
+    emb = model.encode([demographic_desc], normalize_embeddings=True)
+    return emb[0]
+
+
+def _batch_semantic_scores(texts: list[str], persona_emb) -> list[float]:
+    """Cosine similarity of each text against the persona embedding.
+
+    Both embeddings are L2-normalised so dot product == cosine similarity.
+    Runs in a single batch — no per-comment LLM calls.
+    """
+    if not texts:
+        return []
+    import numpy as np
+    model = _load_embed_model()
+    embs = model.encode(texts, normalize_embeddings=True, show_progress_bar=False)
+    return (embs @ persona_emb).tolist()
 
 HF_CATEGORIES: dict[str, str] = {
     "All_Beauty": "All Beauty",
@@ -183,6 +367,18 @@ def intelligence_path(pid: str) -> Path:
 def outputs_dir(pid: str) -> Path:
     return project_dir(pid) / "outputs"
 
+def _output_stem(pid: str) -> str:
+    """Return a filename stem like 'disgo_consumer_app_user_hospitality_food_discovery_context'."""
+    p = load_project(pid)
+    if p:
+        company_slug = re.sub(r"[^a-z0-9]+", "_", (p["name"] or "").lower()).strip("_")
+        label_slug   = re.sub(r"[^a-z0-9]+", "_", (p.get("demographic_label") or "").lower()).strip("_")
+        if company_slug and label_slug:
+            return f"{company_slug}_{label_slug}"
+        if company_slug:
+            return f"{company_slug}_{pid}"
+    return pid
+
 def list_projects() -> list[dict]:
     out = []
     for d in sorted(PROJECTS_DIR.iterdir()):
@@ -200,8 +396,9 @@ def save_project(p: dict) -> None:
     d.mkdir(parents=True, exist_ok=True)
     (d / "meta.json").write_text(json.dumps(p, indent=2))
 
-def new_project(name: str, label: str, description: str) -> dict:
-    pid = f"{label.lower().replace(' ','_').replace('-','_')}_{uuid.uuid4().hex[:6]}"
+def new_project(name: str, label: str, description: str, pid: str | None = None) -> dict:
+    if pid is None:
+        pid = f"{label.lower().replace(' ','_').replace('-','_')}_{uuid.uuid4().hex[:6]}"
     p = {
         "id": pid, "name": name,
         "demographic_label": label,
@@ -233,15 +430,43 @@ def load_all_reviews(pid: str) -> list[dict]:
     return [json.loads(l) for l in rp.read_text().splitlines() if l.strip()]
 
 def append_reviews(pid: str, reviews: list[dict], source_label: str) -> int:
+    """Append reviews, skipping exact text duplicates already in the corpus."""
+    import hashlib
     rp = reviews_path(pid)
-    with open(rp, "a") as f:
-        for r in reviews:
-            f.write(json.dumps(r) + "\n")
+
+    # Build set of already-stored text hashes to prevent duplicates on rerun
+    existing_hashes: set[str] = set()
+    if rp.exists():
+        for line in rp.read_text().splitlines():
+            if line.strip():
+                try:
+                    text = json.loads(line).get("text", "")
+                    existing_hashes.add(hashlib.md5(text.encode()).hexdigest())
+                except Exception:
+                    pass
+
+    new_reviews = []
+    for r in reviews:
+        h = hashlib.md5((r.get("text") or "").encode()).hexdigest()
+        if h not in existing_hashes:
+            new_reviews.append(r)
+            existing_hashes.add(h)
+
+    if new_reviews:
+        with open(rp, "a") as f:
+            for r in new_reviews:
+                f.write(json.dumps(r) + "\n")
+
     total = count_reviews(pid)
     p = load_project(pid)
     p["review_count"] = total
     p["stages"]["reviews"] = "ready"
-    p["review_sources"].append({"label": source_label, "count": len(reviews), "at": datetime.utcnow().isoformat()[:10]})
+    p["review_sources"].append({
+        "label": source_label,
+        "count": len(new_reviews),
+        "skipped_dupes": len(reviews) - len(new_reviews),
+        "at": datetime.utcnow().isoformat()[:10],
+    })
     save_project(p)
     return total
 
@@ -280,6 +505,57 @@ def strip_fences(text: str) -> str:
     text = re.sub(r"^```(?:json)?\s*\n?", "", text)
     text = re.sub(r"\n?```\s*$", "", text)
     return text.strip()
+
+
+def _extract_first_json_object(text: str) -> str | None:
+    """Extract the first complete, balanced JSON object from arbitrary text.
+
+    Unlike a greedy regex this walks forward counting braces so it stops
+    exactly where the object ends, even if the LLM appended trailing prose
+    or a second JSON block after the main response.
+    """
+    start = text.find("{")
+    if start == -1:
+        return None
+    depth = 0
+    in_str = False
+    escape = False
+    for i, ch in enumerate(text[start:], start):
+        if escape:
+            escape = False
+            continue
+        if ch == "\\" and in_str:
+            escape = True
+            continue
+        if ch == '"' and not escape:
+            in_str = not in_str
+            continue
+        if in_str:
+            continue
+        if ch == "{":
+            depth += 1
+        elif ch == "}":
+            depth -= 1
+            if depth == 0:
+                return text[start : i + 1]
+    return None
+
+
+def _parse_llm_json(raw: str) -> dict:
+    """Parse JSON from an LLM response, handling fences and trailing content."""
+    # 1. Try clean parse after stripping code fences
+    try:
+        return json.loads(strip_fences(raw))
+    except (json.JSONDecodeError, ValueError):
+        pass
+    # 2. Extract the first balanced JSON object (handles trailing LLM prose)
+    candidate = _extract_first_json_object(raw) or _extract_first_json_object(strip_fences(raw))
+    if candidate:
+        try:
+            return json.loads(candidate)
+        except (json.JSONDecodeError, ValueError):
+            pass
+    return {}
 
 # ---------------------------------------------------------------------------
 # Step 0 — Generate demographic intelligence
@@ -364,11 +640,7 @@ def generate_intelligence(pid: str, description: str, log_fn=None) -> dict:
     prompt = _INTELLIGENCE_PROMPT.format(description=description, categories=category_list)
     raw = llm([{"role": "user", "content": prompt}], max_tokens=5000, model=MODEL_INTELLIGENCE)
 
-    try:
-        data = json.loads(strip_fences(raw))
-    except json.JSONDecodeError:
-        m = re.search(r"\{[\s\S]*\}", raw)
-        data = json.loads(m.group(0)) if m else {}
+    data = _parse_llm_json(raw)
 
     # Save
     intelligence_path(pid).write_text(json.dumps(data, indent=2))
@@ -407,6 +679,7 @@ def pull_amazon_reviews(
     intelligence: dict,
     selected_products: list[str],
     max_per_product: int,
+    target_total: int = 5_000,
     log_fn=None,
 ) -> int:
     from datasets import load_dataset
@@ -433,8 +706,17 @@ def pull_amazon_reviews(
         cat_label = HF_CATEGORIES[cat]
         if log_fn: log_fn("info", f"Streaming {cat_label} from HuggingFace...")
 
+        # Enforce source budget — Amazon capped at 40% of target_total
+        from data.budget import source_remaining
+        amazon_remaining = source_remaining("amazon", load_all_reviews(pid), target_total)
+        if amazon_remaining <= 0:
+            if log_fn: log_fn("warn", "Amazon budget full — skipping remaining categories")
+            break
+        # Don't pull more per-product than the budget allows across all products
+        effective_max = min(max_per_product, max(1, amazon_remaining // max(1, len(cat_products))))
+
         # Build keyword sets per product
-        product_quota: dict[str, int] = {p["name"]: max_per_product for p in cat_products}
+        product_quota: dict[str, int] = {p["name"]: effective_max for p in cat_products}
         product_keywords: dict[str, tuple[set, set, set]] = {}
         for prod in cat_products:
             rk = set(w.lower() for kw in prod.get("review_keywords", []) for w in kw.split())
@@ -707,30 +989,44 @@ def scrape_thread_comments(
 
 
 _THREAD_FILTER_PROMPT = """\
-You are filtering Reddit threads for demographic relevance.
+Score Reddit threads for relevance to a specific target demographic.
 
 TARGET DEMOGRAPHIC: {demographic}
-
 SUBREDDIT: r/{subreddit}
 
-Below are thread titles from this subreddit. For each thread, estimate what percentage of
-commenters would actually BE the target demographic (not just interested in the topic).
+Score each thread on FOUR criteria (0–3 each, max 12 per thread):
 
-Think carefully:
-- A "Gym Story Saturday" thread in r/Fitness has ALL demographics posting — not specific
-- A "College dorm room setup" thread is highly specific to 18-22 year olds
-- A "First time home buyer tips" thread skews 28-40, not college students
-- A "Best budget protein powder" thread could be anyone but skews younger
-- Weekly megathreads (Rant Wednesday, etc.) are generic — score them honestly
+CRITERION 1 — DEMOGRAPHIC FIT: What fraction of active commenters ARE the target demographic?
+  0 = General audience (any age/background posts here)
+  1 = Overlapping (meaningful overlap but not dominant)
+  2 = Primarily this demographic
+  3 = Almost exclusively this demographic
 
-Return a JSON array with one object per thread:
+CRITERION 2 — PRODUCT/EXPERIENCE CONTEXT: Does the thread discuss buying, evaluating, or using relevant product types?
+  0 = No product/service context
+  1 = Tangential mention
+  2 = Direct product category discussion
+  3 = Active purchase evaluation or detailed usage comparison
+
+CRITERION 3 — PROBLEM/DESIRE SPECIFICITY: Does it surface specific frustrations, needs, or behavioral signals?
+  0 = Generic opinions or venting
+  1 = Some specific details
+  2 = Clear pain points or desires stated
+  3 = Rich, specific behavioral signals with context
+
+CRITERION 4 — FIRST-PERSON EXPERIENCE: Are commenters sharing personal experience vs. giving generic advice?
+  0 = Theoretical or advice-giving only
+  1 = Mix of personal and generic
+  2 = Mostly personal accounts
+  3 = Almost entirely first-person product/service experiences
+
+Compute: relevance = (c1 + c2 + c3 + c4) / 12   (rounds to 2 decimal places)
+
+Return a JSON array — ONE object per thread, omit threads where relevance < 0.40:
 [
-  {{"index": 0, "relevance": 0.7, "reason": "10 words max"}},
+  {{"index": 0, "c1": 2, "c2": 3, "c3": 2, "c4": 1, "relevance": 0.67, "reason": "max 10 words"}},
   ...
 ]
-
-relevance: 0.0 = nobody from this demographic, 1.0 = almost exclusively this demographic
-Only include threads with relevance >= 0.3
 
 THREADS:
 {threads_json}
@@ -771,50 +1067,72 @@ def filter_threads_for_demographic(
             t["demographic_relevance"] = 0.5
         return threads
 
-    # Map relevance scores back to threads
-    relevance_map = {item["index"]: item.get("relevance", 0.0) for item in scored if isinstance(item, dict)}
+    # Map relevance scores back to threads.  The new rubric returns c1–c4 +
+    # a pre-computed relevance, so we validate and recompute for safety.
+    relevance_map: dict[int, float] = {}
+    for item in scored:
+        if not isinstance(item, dict):
+            continue
+        idx = item.get("index")
+        if idx is None:
+            continue
+        # Prefer pre-computed relevance; fall back to recomputing from criteria.
+        if "relevance" in item:
+            rel = float(item["relevance"])
+        else:
+            c_sum = sum(item.get(f"c{k}", 0) for k in range(1, 5))
+            rel = round(c_sum / 12, 3)
+        relevance_map[idx] = rel
 
     filtered = []
     for i, thread in enumerate(threads):
         rel = relevance_map.get(i, 0.0)
         thread["demographic_relevance"] = rel
-        if rel >= 0.6:
+        thread["rubric_scores"] = next(
+            (item for item in scored if isinstance(item, dict) and item.get("index") == i),
+            {},
+        )
+        if rel >= 0.40:   # lowered from 0.6 — rubric is more conservative
             filtered.append(thread)
 
     if log_fn:
         dropped = len(threads) - len(filtered)
         if dropped:
-            log_fn("info", f"  Filtered: kept {len(filtered)}/{len(threads)} threads (dropped {dropped} low-relevance)")
+            log_fn("info", f"  Kept {len(filtered)}/{len(threads)} threads (dropped {dropped} with relevance < 0.40)")
 
-    # Sort by relevance * comment count (best signal first)
+    # Sort by relevance × comment count (highest signal density first)
     filtered.sort(key=lambda t: -(t["demographic_relevance"] * t["num_comments"]))
     return filtered
 
 
-def score_comment_demographic(
-    text: str,
-    core_keywords: set[str],
+def score_comments_semantic_batch(
+    comments: list[dict],
+    persona_emb,
     exclusion_keywords: set[str],
-) -> float:
-    """Fast keyword-based demographic relevance score for a single comment.
+) -> list[float]:
+    """Batch-score comments by semantic similarity to the persona embedding.
 
-    Returns 0.0-1.0. Uses inclusion/exclusion keywords from the demographic profile.
-    No LLM calls — this runs per-comment so it must be fast.
+    Replaces the old keyword heuristic (score = 0.5 + hits×0.1) which
+    produced nearly identical scores for very different comments.
+
+    Uses cosine similarity between L2-normalised embeddings:
+      - All embeddings computed in one batch (fast, no per-comment LLM calls)
+      - Hard exclusion filter: 2+ exclusion keyword hits → score capped at 0.15
+      - Final score in [0.0, 1.0]
     """
-    text_lower = text.lower()
-    words = set(text_lower.split())
+    texts = [c.get("text", "") for c in comments]
+    sims = _batch_semantic_scores(texts, persona_emb)
 
-    # Exclusion check — strong signal the commenter is NOT the demographic
-    exclusion_hits = sum(1 for kw in exclusion_keywords if kw in text_lower)
-    if exclusion_hits >= 2:
-        return 0.1
-
-    # Inclusion check — how many demographic keywords appear
-    inclusion_hits = sum(1 for kw in core_keywords if kw in text_lower)
-
-    # Score: base 0.5 (neutral), boosted by inclusions, penalized by exclusions
-    score = 0.5 + (inclusion_hits * 0.1) - (exclusion_hits * 0.15)
-    return max(0.1, min(1.0, score))
+    scores = []
+    for text, sim in zip(texts, sims):
+        text_lower = text.lower()
+        excl_hits = sum(1 for kw in exclusion_keywords if kw in text_lower)
+        if excl_hits >= 2:
+            scores.append(0.15)
+        else:
+            # Cosine similarity is already in [-1, 1]; shift to [0, 1]
+            scores.append(max(0.0, min(1.0, (sim + 1) / 2)))
+    return scores
 
 
 def scrape_reddit_for_project(
@@ -822,9 +1140,12 @@ def scrape_reddit_for_project(
     subreddits: list[str],
     max_threads_per_sub: int = 10,
     max_comments_per_thread: int = 200,
+    target_total: int = 5_000,
     log_fn=None,
 ) -> int:
-    """Scrape Reddit with demographic filtering at thread and comment level."""
+    """Scrape Reddit with rubric-based thread filtering and semantic comment scoring."""
+    from data.budget import source_remaining
+
     total_added = 0
 
     # Load demographic profile for filtering
@@ -835,72 +1156,265 @@ def scrape_reddit_for_project(
         p = load_project(pid)
         demographic_desc = p.get("demographic_description", "general consumer")
 
-    core_keywords = set(w.lower() for w in demo_profile.get("core_keywords", []))
     exclusion_keywords = set(w.lower() for w in demo_profile.get("exclusion_keywords", []))
 
-    for sub in subreddits:
-        if log_fn: log_fn("info", f"Scraping r/{sub}...")
+    # Compute persona embedding once — reused for every comment in this session
+    persona_emb = _persona_embedding(demographic_desc)
 
-        # Step 1: Get candidate threads
+    for sub in subreddits:
+        # Check budget before doing any work for this subreddit
+        remaining = source_remaining("reddit", load_all_reviews(pid), target_total)
+        if remaining <= 0:
+            if log_fn: log_fn("warn", f"  Reddit budget full ({target_total * 0.4:.0f} cap reached) — stopping")
+            break
+
+        if log_fn: log_fn("info", f"Scraping r/{sub}… (budget remaining: {remaining})")
+
+        # Step 1: Candidate threads
         threads = scrape_subreddit_threads(sub, max_threads=max_threads_per_sub * 2, log_fn=log_fn)
 
-        # Step 2: Filter threads by demographic relevance (LLM)
+        # Step 2: Rubric-based thread filter (LLM)
         if threads and demographic_desc:
-            if log_fn: log_fn("info", f"  Filtering threads for demographic relevance...")
+            if log_fn: log_fn("info", f"  Scoring threads with 4-criterion rubric…")
             threads = filter_threads_for_demographic(threads, demographic_desc, sub, log_fn=log_fn)
-            threads = threads[:max_threads_per_sub]  # trim after filtering
+            threads = threads[:max_threads_per_sub]
 
         sub_comments = 0
         for i, thread in enumerate(threads):
+            remaining = source_remaining("reddit", load_all_reviews(pid), target_total)
+            if remaining <= 0:
+                break
+
             thread_rel = thread.get("demographic_relevance", 0.5)
-            if log_fn: log_fn("info", f"  Thread {i+1}/{len(threads)} [{thread_rel:.0%} relevant]: {thread['title'][:50]}...")
+            if log_fn: log_fn("info", f"  Thread {i+1}/{len(threads)} [relevance {thread_rel:.2f}]: {thread['title'][:55]}…")
 
             comments = scrape_thread_comments(
                 thread["permalink"],
                 max_comments=max_comments_per_thread,
                 log_fn=log_fn,
             )
-
             if not comments:
                 continue
 
-            # Step 3: Score each comment for demographic relevance
-            reviews = []
-            for c in comments:
-                comment_score = score_comment_demographic(c["text"], core_keywords, exclusion_keywords)
-                # Combined accuracy: thread relevance * comment relevance
-                combined = round(thread_rel * comment_score, 3)
+            # Step 3: Batch semantic scoring — one encoder pass per thread
+            comment_scores = score_comments_semantic_batch(comments, persona_emb, exclusion_keywords)
 
-                # Skip off-demographic comments (strict — only keep strong matches)
-                if combined < 0.4:
+            reviews = []
+            for c, sem_score in zip(comments, comment_scores):
+                # Weighted combination: thread relevance carries 60%, semantic 40%
+                combined = round(0.6 * thread_rel + 0.4 * sem_score, 3)
+                if combined < 0.35:
                     continue
+
+                # Infer implied rating from sentiment (replaces hardcoded 3.0)
+                implied = _infer_rating(c["text"])
 
                 reviews.append({
                     "text": c["text"],
-                    "rating": 3.0,
+                    "rating": implied,
                     "source_type": "reddit",
                     "source": f"r/{sub}",
                     "subreddit": sub,
                     "thread_title": thread["title"],
                     "upvotes": c.get("upvotes", 1),
-                    "product_accuracy": combined,  # feeds into extraction weighting
+                    "product_accuracy": combined,
                     "thread_relevance": thread_rel,
-                    "comment_demographic_score": comment_score,
+                    "semantic_score": sem_score,
                 })
+
+            # Trim to budget
+            reviews = reviews[:remaining]
 
             if reviews:
                 append_reviews(pid, reviews, f"Reddit/r/{sub}/{thread['title'][:30]}")
                 sub_comments += len(reviews)
                 total_added += len(reviews)
-
                 high_rel = sum(1 for r in reviews if r["product_accuracy"] >= 0.5)
-                if log_fn: log_fn("data", f"    → {len(reviews)} comments ({high_rel} high-relevance)")
+                if log_fn: log_fn("data", f"    → {len(reviews)} comments ({high_rel} high-relevance, avg rating {sum(r['rating'] for r in reviews)/len(reviews):.1f}★)")
 
             time.sleep(3.0)  # respect Reddit rate limits
 
-        if log_fn: log_fn("ok", f"  r/{sub}: {sub_comments} total comments from {len(threads)} threads")
+        if log_fn: log_fn("ok", f"  r/{sub}: {sub_comments} comments from {len(threads)} threads")
 
     return total_added
+
+# ---------------------------------------------------------------------------
+# Hacker News scraper
+# ---------------------------------------------------------------------------
+
+def scrape_hn_for_project(
+    pid: str,
+    queries: list[str],
+    max_per_query: int = 250,
+    target_total: int = 5_000,
+    log_fn=None,
+) -> int:
+    """Scrape HN comments and score them semantically against the persona."""
+    from data.sources.hackernews import scrape_hn_for_project as _hn_scrape
+    from data.budget import source_remaining
+
+    remaining = source_remaining("hackernews", load_all_reviews(pid), target_total)
+    if remaining <= 0:
+        if log_fn: log_fn("warn", "HN budget full — skipping")
+        return 0
+
+    # Load demographic description for semantic scoring
+    intel = load_intelligence(pid)
+    demo_profile = (intel or {}).get("demographic_profile", {})
+    demographic_desc = demo_profile.get("summary", "")
+    if not demographic_desc:
+        p = load_project(pid)
+        demographic_desc = p.get("demographic_description", "general consumer")
+
+    exclusion_keywords = set(w.lower() for w in demo_profile.get("exclusion_keywords", []))
+    persona_emb = _persona_embedding(demographic_desc)
+
+    raw_comments = _hn_scrape(queries, max_per_query=max_per_query, min_upvotes=2, log_fn=log_fn)
+    if not raw_comments:
+        return 0
+
+    # Batch semantic scoring
+    sem_scores = score_comments_semantic_batch(raw_comments, persona_emb, exclusion_keywords)
+
+    reviews = []
+    for c, sem in zip(raw_comments, sem_scores):
+        if sem < 0.35:
+            continue
+        reviews.append({
+            "text": c["text"],
+            "rating": _infer_rating(c["text"]),
+            "source_type": "hackernews",
+            "source": "hackernews",
+            "story_title": c.get("story_title", ""),
+            "upvotes": c.get("upvotes", 0),
+            "product_accuracy": round(sem, 3),
+            "semantic_score": round(sem, 3),
+            "hn_id": c.get("hn_id", ""),
+        })
+
+    reviews = reviews[:remaining]
+    if reviews:
+        append_reviews(pid, reviews, "HackerNews")
+        if log_fn: log_fn("ok", f"HN: {len(reviews)} comments added (avg sem score {sum(r['semantic_score'] for r in reviews)/len(reviews):.2f})")
+
+    return len(reviews)
+
+
+# ---------------------------------------------------------------------------
+# Step 2c — App Store (Apple)
+# ---------------------------------------------------------------------------
+
+def scrape_appstore_for_project(
+    pid: str,
+    queries: list[str],
+    max_per_app: int = 200,
+    target_total: int = 5_000,
+    log_fn=None,
+) -> int:
+    """Pull App Store reviews for apps matching the demographic's product list."""
+    from data.sources.appstore import scrape_appstore
+    from data.budget import source_remaining
+
+    remaining = source_remaining("appstore", load_all_reviews(pid), target_total)
+    if remaining <= 0:
+        if log_fn: log_fn("warn", "App Store budget full — skipping")
+        return 0
+
+    p = load_project(pid)
+    demographic_desc = p.get("demographic_description", "general consumer")
+    exclusion_keywords: set[str] = set()
+    intel = load_intelligence(pid)
+    if intel:
+        excl = intel.get("demographic_profile", {}).get("exclusion_keywords", [])
+        exclusion_keywords = set(w.lower() for w in excl)
+    persona_emb = _persona_embedding(demographic_desc)
+
+    raw = scrape_appstore(queries, max_per_app=min(max_per_app, remaining), log_fn=log_fn)
+    if not raw:
+        return 0
+
+    sem_scores = score_comments_semantic_batch(raw, persona_emb, exclusion_keywords)
+
+    reviews = []
+    for r, sem in zip(raw, sem_scores):
+        if sem < 0.30:
+            continue
+        reviews.append({
+            "text": r["text"],
+            "rating": r.get("rating") or _infer_rating(r["text"]),
+            "source_type": "appstore",
+            "source": "appstore",
+            "title": r.get("title", ""),
+            "app_name": r.get("app_name", ""),
+            "product_accuracy": round(sem, 3),
+            "semantic_score": round(sem, 3),
+        })
+
+    reviews = reviews[:remaining]
+    if reviews:
+        append_reviews(pid, reviews, "App Store")
+        if log_fn:
+            log_fn("ok", f"App Store: {len(reviews)} reviews added")
+    return len(reviews)
+
+
+# ---------------------------------------------------------------------------
+# Step 2d — Google Play Store
+# ---------------------------------------------------------------------------
+
+def scrape_playstore_for_project(
+    pid: str,
+    queries: list[str],
+    max_per_app: int = 200,
+    target_total: int = 5_000,
+    log_fn=None,
+) -> int:
+    """Pull Google Play reviews for apps matching the demographic's product list."""
+    from data.sources.playstore import scrape_playstore
+    from data.budget import source_remaining
+
+    remaining = source_remaining("playstore", load_all_reviews(pid), target_total)
+    if remaining <= 0:
+        if log_fn: log_fn("warn", "Play Store budget full — skipping")
+        return 0
+
+    p = load_project(pid)
+    demographic_desc = p.get("demographic_description", "general consumer")
+    exclusion_keywords: set[str] = set()
+    intel = load_intelligence(pid)
+    if intel:
+        excl = intel.get("demographic_profile", {}).get("exclusion_keywords", [])
+        exclusion_keywords = set(w.lower() for w in excl)
+    persona_emb = _persona_embedding(demographic_desc)
+
+    raw = scrape_playstore(queries, max_per_app=min(max_per_app, remaining), log_fn=log_fn)
+    if not raw:
+        return 0
+
+    sem_scores = score_comments_semantic_batch(raw, persona_emb, exclusion_keywords)
+
+    reviews = []
+    for r, sem in zip(raw, sem_scores):
+        if sem < 0.30:
+            continue
+        reviews.append({
+            "text": r["text"],
+            "rating": r.get("rating") or _infer_rating(r["text"]),
+            "source_type": "playstore",
+            "source": "playstore",
+            "app_name": r.get("app_name", ""),
+            "upvotes": r.get("upvotes", 0),
+            "product_accuracy": round(sem, 3),
+            "semantic_score": round(sem, 3),
+        })
+
+    reviews = reviews[:remaining]
+    if reviews:
+        append_reviews(pid, reviews, "Play Store")
+        if log_fn:
+            log_fn("ok", f"Play Store: {len(reviews)} reviews added")
+    return len(reviews)
+
 
 # ---------------------------------------------------------------------------
 # Step 3 — CSV / custom review parsing
@@ -960,7 +1474,21 @@ def analyze_quality(reviews: list[dict]) -> dict:
         }
 
     total = len(reviews)
-    ratings = [float(r.get("rating", 3) or 3) for r in reviews]
+
+    # For unrated sources (Reddit, HN) use the pre-computed implied rating stored
+    # during scraping.  This ensures the rating distribution reflects real sentiment
+    # instead of showing everything as 3★ (the old hardcoded default).
+    def _effective_rating(r: dict) -> float:
+        rt = r.get("rating")
+        if rt is not None and float(rt) != 3.0:
+            return float(rt)
+        # If rating is missing or still the old hardcoded 3.0, infer from text
+        src = r.get("source_type", "")
+        if src in ("reddit", "hackernews"):
+            return _infer_rating(r.get("text", ""))
+        return float(rt) if rt is not None else 3.0
+
+    ratings = [_effective_rating(r) for r in reviews]
     avg_rating = sum(ratings) / len(ratings)
     avg_len = sum(len(r.get("text", "")) for r in reviews) / total
 
@@ -984,8 +1512,8 @@ def analyze_quality(reviews: list[dict]) -> dict:
     if high_pct < 0.25: issues.append("Very few positive reviews — purchase triggers may be underrepresented")
     if n_sources < 2: issues.append("Single source — add Reddit or CSV for richer behavioral signal")
     if total > 0 and len(product_dist) < 3: issues.append("Narrow product coverage — diversify products for broader signal")
-    if max_source_pct > 0.80:
-        issues.append(f"Platform bias: {max_source_name} is {max_source_pct:.0%} of data — signals may reflect platform culture, not demographic behavior. Add other sources.")
+    if max_source_pct > 0.40:
+        issues.append(f"Platform bias: {max_source_name} is {max_source_pct:.0%} of data (cap is 40%) — signals may reflect platform culture, not demographic behavior. Add other sources.")
 
     # Quality score
     score_pts = 0
@@ -1389,8 +1917,16 @@ def run_clustering(pid: str, n_override: int | None, sweep_min: int, sweep_max: 
         cluster_sources = {"amazon": 0, "reddit": 0, "csv": 0}
         for idx in indices:
             s = signals_list[idx]
-            all_pain.extend(pp["signal"] for pp in s.get("pain_points", []) if isinstance(pp, dict))
-            all_outcomes.extend(do["outcome"] for do in s.get("desired_outcomes", []) if isinstance(do, dict))
+            all_pain.extend(
+                sig for pp in s.get("pain_points", [])
+                if isinstance(pp, dict)
+                and (sig := (pp.get("signal") or pp.get("pain_point") or pp.get("text") or "").strip())
+            )
+            all_outcomes.extend(
+                out for do in s.get("desired_outcomes", [])
+                if isinstance(do, dict)
+                and (out := (do.get("outcome") or do.get("desired_outcome") or do.get("text") or "").strip())
+            )
             all_breakers.extend(db for db in s.get("deal_breakers", []) if isinstance(db, str))
             trigger_list.extend(t.get("trigger", "") for t in s.get("purchase_triggers", []) if isinstance(t, dict))
             ft = s.get("friction_tolerance", "medium")
@@ -1761,12 +2297,8 @@ def run_persona_synthesis(pid: str, quality: dict, log_fn=None) -> None:
         precomputed_json=json.dumps(precomputed, indent=2),
     )
 
-    raw = llm([{"role": "user", "content": prompt_filled}], max_tokens=6000)
-    try:
-        persona = json.loads(strip_fences(raw))
-    except json.JSONDecodeError:
-        m = re.search(r"\{[\s\S]*\}", raw)
-        persona = json.loads(m.group(0)) if m else {}
+    raw = llm([{"role": "user", "content": prompt_filled}], max_tokens=6000, model=MODEL_SMART)
+    persona = _parse_llm_json(raw)
 
     persona["traits"] = [
         {
@@ -1843,16 +2375,17 @@ def run_persona_synthesis(pid: str, quality: dict, log_fn=None) -> None:
 
     od = outputs_dir(pid)
     od.mkdir(parents=True, exist_ok=True)
+    stem = _output_stem(pid)
 
     # Save persona.json
-    (od / "persona.json").write_text(json.dumps(persona, indent=2))
-    if log_fn: log_fn("ok", "persona.json written")
+    (od / f"{stem}_persona.json").write_text(json.dumps(persona, indent=2))
+    if log_fn: log_fn("ok", f"{stem}_persona.json written")
 
     # Generate rich persona.md
     if log_fn: log_fn("info", "Generating rich markdown context document...")
     md_content = _generate_rich_markdown(persona, traits, intel, quality, p)
-    (od / "persona.md").write_text(md_content)
-    if log_fn: log_fn("ok", "persona.md written")
+    (od / f"{stem}_persona.md").write_text(md_content)
+    if log_fn: log_fn("ok", f"{stem}_persona.md written")
 
     # Build RAG index
     rag_entries = build_rag_index(traits, clusters)
@@ -1864,10 +2397,10 @@ def run_persona_synthesis(pid: str, quality: dict, log_fn=None) -> None:
             "text": sample,
             "tone": "authentic_voice",
         })
-    with open(od / "rag_index.jsonl", "w") as f:
+    with open(od / f"{stem}_rag_index.jsonl", "w") as f:
         for entry in rag_entries:
             f.write(json.dumps(entry) + "\n")
-    if log_fn: log_fn("ok", f"rag_index.jsonl written ({len(rag_entries)} entries)")
+    if log_fn: log_fn("ok", f"{stem}_rag_index.jsonl written ({len(rag_entries)} entries)")
 
     p["stages"]["persona"] = "complete"
     save_project(p)
@@ -2081,574 +2614,1162 @@ def _generate_rich_markdown(persona: dict, traits: list[dict], intel: dict, qual
 
 # ===========================================================================
 # Streamlit UI — Clean Wizard Layout
+# (entire block skipped when PROXI_WORKER_MODE=1)
 # ===========================================================================
 
-# --- Top bar ---
-col_logo, col_proj, col_key = st.columns([2, 4, 2])
+if not _WORKER_MODE:
+    # ── everything below is UI-only ──────────────────────────────────────────
 
-with col_logo:
-    st.markdown("### 🧠 Proxi Training")
+    # --- Top bar ---
+    col_logo, col_proj, col_key = st.columns([2, 5, 2])
 
-with col_key:
-    _api_keys = _parse_keys()
-    has_key = len(_api_keys) > 0
-    if has_key:
-        key_label = f"{len(_api_keys)} key{'s' if len(_api_keys) > 1 else ''}"
-        st.markdown(f'<p style="text-align:right;color:#4ade80;font-size:0.8rem;margin-top:0.8rem">● {key_label} loaded</p>', unsafe_allow_html=True)
-    else:
-        st.markdown('<p style="text-align:right;color:#f87171;font-size:0.8rem;margin-top:0.8rem">● OPENROUTER_API_KEY missing</p>', unsafe_allow_html=True)
+    with col_logo:
+       st.markdown('<div style="padding-top:0.4rem"><span style="font-size:1.1rem;font-weight:800;color:#e2e8f0">🧠 Proxi</span><span style="font-size:0.75rem;color:#475569;margin-left:6px">Training</span></div>', unsafe_allow_html=True)
 
-# Project selector
-projects = list_projects()
+    with col_key:
+       _api_keys = _parse_keys()
+       has_key = len(_api_keys) > 0
+       if has_key:
+           key_label = f"{len(_api_keys)} key{'s' if len(_api_keys) > 1 else ''}"
+           st.markdown(f'<p style="text-align:right;color:#4ade80;font-size:0.78rem;margin-top:0.7rem;margin-bottom:0">● {key_label} loaded</p>', unsafe_allow_html=True)
+       else:
+           st.markdown('<p style="text-align:right;color:#f87171;font-size:0.78rem;margin-top:0.7rem;margin-bottom:0">● no API key</p>', unsafe_allow_html=True)
 
-with col_proj:
-    options = [""] + [p["id"] for p in projects]
-    labels = ["— create new project —"] + [f"{p['name']}  ({p.get('review_count', count_reviews(p['id']))} reviews)" for p in projects]
-    idx = st.selectbox("Project", options=range(len(options)), format_func=lambda i: labels[i], label_visibility="collapsed")
-    selected_pid = options[idx]
+    # Project selector
+    projects = list_projects()
 
-st.divider()
+    with col_proj:
+       options = [""] + [p["id"] for p in projects]
+       labels = ["— create new project —"] + [
+           f"{p['name']}  —  {p.get('demographic_label', '')}  ({p.get('review_count', count_reviews(p['id']))} reviews)"
+           for p in projects
+       ]
+       _default_idx = st.session_state.pop("_selected_idx", None)
+       idx = st.selectbox("Project", options=range(len(options)), format_func=lambda i: labels[i], label_visibility="collapsed", index=_default_idx if _default_idx is not None else 0)
+       selected_pid = options[idx]
 
-# ===========================================================================
-# NEW PROJECT — setup wizard
-# ===========================================================================
-if not selected_pid:
-    st.markdown("## Start: Define Your Demographic")
-    st.markdown("The more specific your description, the more accurately DeepSeek can identify targeted products and subreddits.")
+    st.divider()
 
-    with st.form("create_project"):
-        col1, col2 = st.columns([1, 2])
-        with col1:
-            pname = st.text_input("Project name", placeholder="College Students 2024")
-            plabel = st.text_input("Demographic label", placeholder="College Student",
-                                   help="Short label used as the persona ID")
-        with col2:
-            pdesc = st.text_area(
-                "Describe this demographic in detail",
-                height=120,
-                placeholder=(
-                    "US college students aged 18–24, living on or off campus. "
-                    "Extremely price-sensitive — most have under $200/month discretionary budget. "
-                    "Shop primarily on mobile late at night. Heavily influenced by peer recommendations "
-                    "and TikTok. Distrust corporate marketing. Value authenticity and transparency. "
-                    "Tech-savvy but impatient with slow or confusing UX."
-                ),
-                help="Include: age range, income/budget, shopping behavior, values, frustrations, tech habits"
-            )
-        submitted = st.form_submit_button("🚀 Create Project & Generate Intelligence", type="primary", use_container_width=True)
-
-    if submitted:
-        if not pname or not plabel or not pdesc:
-            st.error("Fill in all three fields.")
-        elif not has_key:
-            st.error("Set OPENROUTER_API_KEY first.")
-        else:
-            proj = new_project(pname, plabel, pdesc)
-            st.session_state["active_pid"] = proj["id"]
-            st.session_state["log"] = []
-
-            log_ph = st.empty()
-
-            def _log(kind, msg):
-                color = {"info": "#60a5fa", "ok": "#4ade80", "warn": "#fbbf24", "data": "#a78bfa"}.get(kind, "#ffffff")
-                st.session_state["log"].append(f'<span style="color:{color}">{msg}</span>')
-                log_ph.markdown(
-                    '<div class="log-box">' + "<br>".join(st.session_state["log"][-30:]) + "</div>",
-                    unsafe_allow_html=True,
-                )
-
-            with st.spinner("Asking DeepSeek to map your demographic to specific products and subreddits..."):
-                try:
-                    generate_intelligence(proj["id"], pdesc, log_fn=_log)
-                    st.success("Intelligence generated! Reloading...")
-                    time.sleep(1)
-                    st.rerun()
-                except Exception as e:
-                    st.error(f"Failed: {e}")
-                    st.exception(e)
-    st.stop()
-
-# ===========================================================================
-# EXISTING PROJECT — main workspace
-# ===========================================================================
-
-# Sync active project
-if "active_pid" in st.session_state and st.session_state["active_pid"] == selected_pid:
-    pass
-else:
-    st.session_state["active_pid"] = selected_pid
-    st.session_state["log"] = []
-
-proj = load_project(selected_pid)
-if not proj:
-    st.error("Project not found.")
-    st.stop()
-
-# Backfill missing keys from old project format
-if "review_count" not in proj:
-    proj["review_count"] = count_reviews(selected_pid)
-if "review_sources" not in proj:
-    proj["review_sources"] = []
-if "stages" not in proj:
-    proj["stages"] = {"intelligence":"pending","reviews":"empty","signals":"pending","clusters":"pending","persona":"pending"}
-# Backfill stage keys
-for stage_key in ("intelligence", "reviews", "signals", "clusters", "persona"):
-    if stage_key not in proj["stages"]:
-        proj["stages"][stage_key] = "pending"
-save_project(proj)
-
-intel = load_intelligence(selected_pid)
-stages = proj["stages"]
-
-# Step status bar
-def step_html(label, status):
-    cls = "step-done" if status == "complete" else "step-active" if status in ("ready","running") else "step-pending"
-    icon = "✓" if status == "complete" else "●" if status in ("ready","running") else "○"
-    return f'<div class="step {cls}">{icon} {label}</div>'
-
-st.markdown(
-    f'<div class="step-row">'
-    f'{step_html("1 Intelligence", stages["intelligence"])}'
-    f'<span class="step-arrow">›</span>'
-    f'{step_html("2 Amazon Reviews", "complete" if stages["reviews"]=="ready" and proj["review_count"]>0 else stages["reviews"])}'
-    f'<span class="step-arrow">›</span>'
-    f'{step_html("3 Reddit / CSV", "complete" if any(s["label"].startswith(("Reddit","CSV")) for s in proj.get("review_sources",[])) else "pending")}'
-    f'<span class="step-arrow">›</span>'
-    f'{step_html("4 Extract Signals", stages["signals"])}'
-    f'<span class="step-arrow">›</span>'
-    f'{step_html("5 Cluster", stages["clusters"])}'
-    f'<span class="step-arrow">›</span>'
-    f'{step_html("6 Build Persona", stages["persona"])}'
-    f'</div>',
-    unsafe_allow_html=True,
-)
-
-st.markdown(f"## {proj['name']}")
-st.caption(f"**{proj['demographic_label']}** — {proj['demographic_description'][:180]}{'...' if len(proj['demographic_description'])>180 else ''}")
-st.divider()
-
-# ===========================================================================
-# SECTION 1: Intelligence (products + subreddits)
-# ===========================================================================
-with st.expander("📡 Step 1: Demographic Intelligence", expanded=(stages["intelligence"] != "complete")):
-    if stages["intelligence"] != "complete" or not intel:
-        st.warning("Intelligence not yet generated.")
-        if st.button("Generate Intelligence", type="primary"):
-            log_ph = st.empty()
-            st.session_state["log"] = []
-            def _log(k,m):
-                c={"info":"#60a5fa","ok":"#4ade80","warn":"#fbbf24","data":"#a78bfa"}.get(k,"#fff")
-                st.session_state["log"].append(f'<span style="color:{c}">{m}</span>')
-                log_ph.markdown('<div class="log-box">'+"<br>".join(st.session_state["log"][-20:])+"</div>",unsafe_allow_html=True)
-            try:
-                intel = generate_intelligence(selected_pid, proj["demographic_description"], log_fn=_log)
-                st.rerun()
-            except Exception as e:
-                st.error(f"{e}")
-    else:
-        products = intel.get("products", [])
-        subreddits = intel.get("subreddits", [])
-        dp = intel.get("demographic_profile", {})
-
-        col1, col2 = st.columns([3, 2])
-        with col1:
-            st.markdown(f"**{len(products)} targeted products identified**")
-            for prod in sorted(products, key=lambda p: -p.get("accuracy", 0)):
-                acc = prod.get("accuracy", 0)
-                acc_cls = "confidence-high" if acc >= 0.85 else "confidence-med" if acc >= 0.7 else "confidence-low"
-                kw_preview = ", ".join(prod.get("review_keywords", [])[:4])
-                st.markdown(
-                    f'<div class="product-card {acc_cls}">'
-                    f'<strong>{prod["name"]}</strong> <span style="color:#888;font-size:0.8rem">({prod.get("category","?").replace("raw_review_","").replace("_"," ")})</span><br>'
-                    f'<span style="color:#4ade80;font-size:0.85rem">▲ {acc:.0%} demographic accuracy</span><br>'
-                    f'<span style="color:#6a6d7a;font-size:0.78rem">Keywords: {kw_preview}</span><br>'
-                    f'<span style="color:#5a5d6a;font-size:0.75rem">{prod.get("why","")}</span>'
-                    f'</div>',
-                    unsafe_allow_html=True,
-                )
-
-        with col2:
-            st.markdown(f"**{len(subreddits)} subreddits**")
-            for sub in sorted(subreddits, key=lambda s: -s.get("relevance", 0)):
-                rel = sub.get("relevance", 0)
-                color = "#4ade80" if rel >= 0.85 else "#fbbf24" if rel >= 0.7 else "#f87171"
-                st.markdown(
-                    f'<div class="product-card" style="border-left:3px solid {color}">'
-                    f'<strong>r/{sub["name"]}</strong> <span style="color:{color};font-size:0.8rem">{rel:.0%}</span><br>'
-                    f'<span style="color:#6a6d7a;font-size:0.78rem">{sub.get("data_value","")}</span>'
-                    f'</div>',
-                    unsafe_allow_html=True,
-                )
-
-            st.markdown("**Demographic Keywords**")
-            kw_html = " ".join(f'<span class="sub-chip">{k}</span>' for k in dp.get("core_keywords", []))
-            st.markdown(kw_html, unsafe_allow_html=True)
-
-# ===========================================================================
-# SECTION 2: Amazon Reviews
-# ===========================================================================
-with st.expander("🛒 Step 2: Pull Amazon Reviews", expanded=(stages["reviews"] == "empty" and stages["intelligence"] == "complete")):
-    if stages["intelligence"] != "complete":
-        st.warning("Complete Step 1 first.")
-    else:
-        products = intel.get("products", []) if intel else []
-        col1, col2 = st.columns([3, 1])
-
-        with col1:
-            all_prod_names = [p["name"] for p in sorted(products, key=lambda p: -p.get("accuracy", 0))]
-            # Default: select top products with accuracy >= 0.8
-            default_selected = [p["name"] for p in products if p.get("accuracy", 0) >= 0.80]
-            selected_products = st.multiselect(
-                "Select products to pull reviews for",
-                options=all_prod_names,
-                default=default_selected[:12],
-                help="Higher accuracy = more demographically targeted reviews",
-            )
-        with col2:
-            max_per_product = st.number_input("Max reviews/product", 50, 500, 200, 50)
-            st.caption(f"~{len(selected_products) * max_per_product:,} reviews estimated")
-
-        if proj["review_count"] > 0:
-            st.success(f"{proj['review_count']:,} Amazon reviews already loaded. You can pull more.")
-
-        if st.button("⬇️ Pull Amazon Reviews", type="primary", disabled=not selected_products):
-            st.session_state["log"] = []
-            log_ph = st.empty()
-
-            def _log(k, m):
-                c = {"info":"#60a5fa","ok":"#4ade80","warn":"#fbbf24","data":"#a78bfa"}.get(k,"#fff")
-                st.session_state["log"].append(f'<span style="color:{c}">{m}</span>')
-                log_ph.markdown('<div class="log-box">' + "<br>".join(st.session_state["log"][-30:]) + "</div>", unsafe_allow_html=True)
-
-            with st.status("Streaming from HuggingFace...", expanded=True) as status_box:
-                try:
-                    added = pull_amazon_reviews(selected_pid, intel, selected_products, int(max_per_product), log_fn=_log)
-                    proj = load_project(selected_pid)
-                    status_box.update(label=f"Done — {added:,} reviews added", state="complete")
-                    st.rerun()
-                except Exception as e:
-                    status_box.update(label="Failed", state="error")
-                    st.error(f"{e}")
-                    st.exception(e)
-
-# ===========================================================================
-# SECTION 3: Reddit + CSV
-# ===========================================================================
-with st.expander("📋 Step 3: Add Reddit & Custom Reviews (Recommended)", expanded=False):
-    st.markdown("Adding Reddit data significantly improves signal quality — it captures authentic unprompted opinions.")
-
-    # Reddit — automated scraper
-    st.markdown("### Reddit (Auto-Scraper)")
-    if intel:
-        subs = intel.get("subreddits", [])
-        top_subs = sorted(subs, key=lambda s: -s.get("relevance", 0))[:10]
-        sub_html = " ".join(f'<span class="sub-chip">r/{s["name"]} ({s.get("relevance",0):.0%})</span>' for s in top_subs)
-        st.markdown(f"**Suggested subreddits:** {sub_html}", unsafe_allow_html=True)
-    else:
-        top_subs = []
-
-    st.markdown(
-        "Automatically scrapes top threads from selected subreddits. "
-        "Deduplicates recurring weekly threads (keeps the best instance). "
-        "Extracts all substantive comments via Reddit's JSON API."
+    # ===========================================================================
+    # QUEUE — batch persona generation
+    # ===========================================================================
+    from data.queue_manager import (
+        add_job, read_queue, remove_job, clear_finished, requeue_failed, requeue_all,
+        is_worker_alive, start_worker, stop_worker, worker_pid,
+        read_log, update_job, STATUS_PENDING, STATUS_RUNNING, STATUS_DONE, STATUS_FAILED,
     )
 
-    # Subreddit selection
-    available_subs = [s["name"] for s in top_subs] if top_subs else []
-    custom_subs = st.text_input("Add subreddits (comma-separated)", placeholder="college, StudentLife, personalfinance", key="reddit_custom_subs")
-    if custom_subs:
-        for s in custom_subs.split(","):
-            s = s.strip().replace("r/", "")
-            if s and s not in available_subs:
-                available_subs.append(s)
+    def _archive_job_outputs(job: dict) -> str | None:
+        """Copy existing output files to an archive subfolder. Returns archive path or None."""
+        pid  = job.get("persona_id") or f"queue_{job['id']}"
+        od   = outputs_dir(pid)
+        stem = _output_stem(pid)
+        files_to_archive = [
+            od / f"{stem}_persona.json",
+            od / f"{stem}_persona.md",
+            od / f"{stem}_rag_index.jsonl",
+        ]
+        existing = [f for f in files_to_archive if f.exists()]
+        if not existing:
+            return None
+        import shutil
+        ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+        archive_dir = od / "archive" / ts
+        archive_dir.mkdir(parents=True, exist_ok=True)
+        for f in existing:
+            shutil.copy2(f, archive_dir / f.name)
+        return str(archive_dir)
 
-    selected_subs = st.multiselect("Select subreddits to scrape", available_subs, default=available_subs[:6], key="reddit_selected_subs")
+    # ── Queue header ──────────────────────────────────────────────────────────
+    _q_jobs_all = read_queue()
+    _q_pending  = sum(1 for j in _q_jobs_all if j["status"] == STATUS_PENDING)
+    _q_running  = sum(1 for j in _q_jobs_all if j["status"] == STATUS_RUNNING)
+    _q_done     = sum(1 for j in _q_jobs_all if j["status"] == STATUS_DONE)
+    _q_failed   = sum(1 for j in _q_jobs_all if j["status"] == STATUS_FAILED)
+    _q_total    = len(_q_jobs_all)
 
-    col_r1, col_r2 = st.columns(2)
-    max_threads = col_r1.slider("Threads per subreddit", 3, 20, 8, key="reddit_max_threads")
-    max_comments = col_r2.slider("Comments per thread", 50, 500, 150, key="reddit_max_comments")
+    _alive = is_worker_alive()
+    _wpid  = worker_pid()
 
-    if st.button("🔍 Scrape Reddit", type="primary", disabled=not selected_subs):
-        reddit_log = st.empty()
-        reddit_logs: list[str] = []
-
-        def _reddit_log(kind, msg):
-            color = {"info": "#60a5fa", "ok": "#4ade80", "warn": "#fbbf24", "data": "#a78bfa"}.get(kind, "#ffffff")
-            prefix = {"info": "→", "ok": "✓", "warn": "⚠", "data": "  "}.get(kind, " ")
-            reddit_logs.append(f'<span style="color:{color}">{prefix} {msg}</span>')
-            reddit_log.markdown(
-                '<div class="log-box">' + "<br>".join(reddit_logs[-30:]) + "</div>",
+    # Header row: title + worker status + controls
+    qh1, qh2, qh3, qh4 = st.columns([3, 2, 1, 1])
+    with qh1:
+        if _alive:
+            st.markdown(
+                f'<div style="padding-top:0.5rem">'
+                f'<span style="font-size:1rem;font-weight:700;color:#e2e8f0">⚡ Batch Queue</span>'
+                f'  <span class="pulse" style="color:#4ade80;font-size:0.8rem">● Worker running</span>'
+                f'  <span style="color:#475569;font-size:0.75rem">(PID {_wpid})</span></div>',
                 unsafe_allow_html=True,
             )
-
-        with st.status(f"Scraping {len(selected_subs)} subreddits...", expanded=True):
-            try:
-                added = scrape_reddit_for_project(
-                    selected_pid,
-                    selected_subs,
-                    max_threads_per_sub=max_threads,
-                    max_comments_per_thread=max_comments,
-                    log_fn=_reddit_log,
-                )
-                proj = load_project(selected_pid)
-                st.success(f"Done — {added:,} Reddit comments added. Total reviews: {proj['review_count']:,}")
-                st.rerun()
-            except Exception as e:
-                st.error(f"Scraping failed: {e}")
-                st.exception(e)
-
-    st.divider()
-
-    # CSV
-    st.markdown("### CSV Reviews (G2, Amazon, Trustpilot, custom)")
-    st.markdown("Supports any CSV with a text/review column. Flexible column naming.")
-    csv_files = st.file_uploader("Upload review CSVs", type=["csv"], accept_multiple_files=True, key="csv_upload")
-    if csv_files:
-        for cf in csv_files:
-            reviews = parse_csv_reviews(cf.read(), source_label=cf.name)
-            if not reviews:
-                st.warning(f"`{cf.name}` — no valid reviews found (need a text column, min 30 chars)")
-            else:
-                with st.expander(f"Preview `{cf.name}` — {len(reviews)} reviews"):
-                    for r in reviews[:3]:
-                        st.markdown(f"**{'⭐'*int(r.get('rating',3))} ({r.get('rating','?')})** — {r.get('product','')}")
-                        st.caption((r.get("text", ""))[:200])
-                col1, col2 = st.columns([4, 1])
-                col1.info(f"`{cf.name}` — {len(reviews)} valid reviews ready")
-                if col2.button("Add", key=f"add_csv_{cf.name}"):
-                    total = append_reviews(selected_pid, reviews, source_label=cf.name)
-                    st.success(f"Added {len(reviews)} reviews. Total: {total:,}")
-                    st.rerun()
-
-# ===========================================================================
-# SECTION 4: Data Quality Check
-# ===========================================================================
-reviews_all = load_all_reviews(selected_pid)
-quality = analyze_quality(reviews_all)
-
-with st.expander(f"📊 Data Quality — {quality['total']:,} reviews | {quality['score'].upper()}", expanded=True):
-    badge_cls = f"badge-{quality['score']}"
-    q_cols = st.columns(5)
-    q_cols[0].metric("Total Reviews", f"{quality['total']:,}")
-    q_cols[1].metric("Sources", quality["n_sources"])
-    q_cols[2].metric("Avg Length", f"{quality['avg_length']} chars")
-    q_cols[3].metric("Products", quality["n_products"])
-    q_cols[4].metric("Quality", quality["score"].upper())
-
-    if quality["issues"]:
-        for issue in quality["issues"]:
-            st.warning(issue)
-    else:
-        st.success("Data looks good! Sufficient volume, sources, and rating distribution.")
-
-    # Source breakdown
-    if quality["source_breakdown"]:
-        col1, col2 = st.columns(2)
-        with col1:
-            st.markdown("**Source breakdown:**")
-            for src, cnt in quality["source_breakdown"].items():
-                pct = cnt / quality["total"] if quality["total"] else 0
-                st.markdown(f"- `{src}`: {cnt:,} ({pct:.0%})")
-        with col2:
-            st.markdown("**Rating distribution:**")
-            for stars in range(5, 0, -1):
-                cnt = quality["rating_distribution"].get(stars, 0)
-                pct = cnt / quality["total"] if quality["total"] else 0
-                bar = "█" * int(pct * 20)
-                st.markdown(f"- {'⭐'*stars}: {cnt} `{bar}` {pct:.0%}")
-
-# ===========================================================================
-# SECTION 5+6: Run Pipeline
-# ===========================================================================
-st.divider()
-st.markdown("## Run Training Pipeline")
-
-if quality["total"] < 100:
-    st.error("Need at least 100 reviews to run the pipeline. Add more data above.")
-elif quality["total"] < 300:
-    st.warning(f"Only {quality['total']} reviews — results will be weak. Recommended: 300+. Continue anyway?")
-
-col1, col2, col3, col4 = st.columns(4)
-batch_size = col1.select_slider("Batch size", [15, 20, 30, 40, 50], value=30, help="Reviews per LLM extraction call")
-force_rerun = col2.checkbox("Re-run extraction from scratch", value=False)
-n_clusters_override = col3.number_input("Force cluster count (0 = auto)", 0, 20, 0)
-cluster_seed = col4.number_input("Cluster seed", 0, 999, 42, help="Change seed to test clustering stability")
-
-# Show pipeline stage status
-status_cols = st.columns(3)
-status_cols[0].markdown(f"**Extract:** {stages['signals']}")
-status_cols[1].markdown(f"**Cluster:** {stages['clusters']}")
-status_cols[2].markdown(f"**Persona:** {stages['persona']}")
-
-# Live log area
-log_ph = st.empty()
-
-if "log" not in st.session_state:
-    st.session_state["log"] = []
-
-def _log(kind, msg):
-    color = {"info": "#60a5fa", "ok": "#4ade80", "warn": "#fbbf24", "data": "#a78bfa"}.get(kind, "#ffffff")
-    prefix = {"info": "→", "ok": "✓", "warn": "⚠", "data": "  "}.get(kind, " ")
-    st.session_state["log"].append(f'<span style="color:{color}">{prefix} {msg}</span>')
-    log_ph.markdown(
-        '<div class="log-box">' + "<br>".join(st.session_state["log"][-40:]) + "</div>",
-        unsafe_allow_html=True,
-    )
-
-col_pipe1, col_pipe2 = st.columns([1, 1])
-
-with col_pipe1:
-    run_full = st.button("▶ Run Full Pipeline (Extract → Cluster → Build Persona)", type="primary", use_container_width=True, disabled=quality["total"] < 50)
-with col_pipe2:
-    run_everything = st.button("🚀 Run EVERYTHING (Pull Data → Extract → Cluster → Build)", use_container_width=True, disabled=(stages["intelligence"] != "complete"))
-
-if run_full or run_everything:
-    if not has_key:
-        st.error("Set OPENROUTER_API_KEY.")
-    else:
-        st.session_state["log"] = []
-
-        with st.status("Running pipeline...", expanded=True) as status_box:
-
-            # === AUTO-PULL DATA (only for "Run Everything") ===
-            if run_everything and intel:
-                # Pull Amazon reviews if none yet
-                if proj["review_count"] == 0:
-                    _log("info", "━━━ AUTO: Pulling Amazon Reviews ━━━")
-                    products = intel.get("products", [])
-                    default_products = [p["name"] for p in products if p.get("accuracy", 0) >= 0.75]
-                    if default_products:
-                        try:
-                            added = pull_amazon_reviews(selected_pid, intel, default_products, 200, log_fn=_log)
-                            _log("ok", f"Amazon: {added:,} reviews added")
-                            proj = load_project(selected_pid)
-                        except Exception as e:
-                            _log("warn", f"Amazon pull failed: {e} — continuing")
-
-                # Pull Reddit reviews if none yet
-                has_reddit = any(s.get("label", "").startswith("Reddit") for s in proj.get("review_sources", []))
-                if not has_reddit:
-                    _log("info", "━━━ AUTO: Scraping Reddit ━━━")
-                    subs_list = intel.get("subreddits", [])
-                    sub_names = [s["name"] for s in sorted(subs_list, key=lambda s: -s.get("relevance", 0))[:6]]
-                    if sub_names:
-                        try:
-                            added = scrape_reddit_for_project(
-                                selected_pid, sub_names,
-                                max_threads_per_sub=8, max_comments_per_thread=150,
-                                log_fn=_log,
-                            )
-                            _log("ok", f"Reddit: {added:,} comments added")
-                            proj = load_project(selected_pid)
-                        except Exception as e:
-                            _log("warn", f"Reddit scrape failed: {e} — continuing")
-
-                # Reload quality after data pull
-                reviews_all = load_all_reviews(selected_pid)
-                quality = analyze_quality(reviews_all)
-
-            _log("info", f"Starting pipeline on {quality['total']:,} reviews...")
-
-            # Stage 1: Extract
-            try:
-                _log("info", "━━━ STAGE 1: Signal Extraction ━━━")
-                new_b = run_extraction(selected_pid, int(batch_size), force_rerun, log_fn=_log)
-                _log("ok", f"Extraction complete — {new_b} new batches processed")
-                proj = load_project(selected_pid)
-            except Exception as e:
-                status_box.update(label="Extraction failed", state="error")
-                st.error(f"Extraction failed: {e}")
-                st.stop()
-
-            # Stage 2: Cluster
-            try:
-                _log("info", "━━━ STAGE 2: Clustering ━━━")
-                n_sig = sum(1 for _ in signals_path(selected_pid).read_text().splitlines() if _.strip())
-                sweep_max = min(10, max(3, n_sig // 5))
-                result = run_clustering(
-                    selected_pid,
-                    n_override=int(n_clusters_override) if n_clusters_override > 0 else None,
-                    sweep_min=3,
-                    sweep_max=sweep_max,
-                    log_fn=_log,
-                    random_state=int(cluster_seed),
-                )
-                _log("ok", f"Clustering complete — {result['chosen_n_clusters']} clusters")
-                proj = load_project(selected_pid)
-            except Exception as e:
-                status_box.update(label="Clustering failed", state="error")
-                st.error(f"Clustering failed: {e}")
-                st.stop()
-
-            # Stage 3: Persona synthesis
-            try:
-                _log("info", "━━━ STAGE 3: Persona Synthesis ━━━")
-                fresh_quality = analyze_quality(load_all_reviews(selected_pid))
-                run_persona_synthesis(selected_pid, fresh_quality, log_fn=_log)
-                _log("ok", "Persona synthesis complete!")
-                proj = load_project(selected_pid)
-            except Exception as e:
-                status_box.update(label="Persona synthesis failed", state="error")
-                st.error(f"Synthesis failed: {e}")
-                st.exception(e)
-                st.stop()
-
-            status_box.update(label="Pipeline complete! ✓", state="complete")
+        else:
+            st.markdown(
+                '<div style="padding-top:0.5rem">'
+                '<span style="font-size:1rem;font-weight:700;color:#e2e8f0">⚡ Batch Queue</span>'
+                '  <span style="color:#f87171;font-size:0.8rem">● Worker stopped</span></div>',
+                unsafe_allow_html=True,
+            )
+    with qh2:
+        st.markdown(
+            f'<div class="queue-stats">'
+            f'<div class="qstat"><div class="qstat-num" style="color:#94a3b8">{_q_pending}</div><div class="qstat-lbl">Pending</div></div>'
+            f'<div class="qstat"><div class="qstat-num" style="color:#facc15">{_q_running}</div><div class="qstat-lbl">Running</div></div>'
+            f'<div class="qstat"><div class="qstat-num" style="color:#4ade80">{_q_done}</div><div class="qstat-lbl">Done</div></div>'
+            f'<div class="qstat"><div class="qstat-num" style="color:#f87171">{_q_failed}</div><div class="qstat-lbl">Failed</div></div>'
+            f'</div>',
+            unsafe_allow_html=True,
+        )
+    with qh3:
+        if st.button("▶ Start" if not _alive else "▶ Running", disabled=_alive, use_container_width=True):
+            new_pid = start_worker()
+            st.success(f"Worker started (PID {new_pid})")
+            st.rerun()
+    with qh4:
+        if st.button("■ Stop", disabled=not _alive, use_container_width=True):
+            stop_worker()
+            st.warning("Worker stopped")
             st.rerun()
 
-# ===========================================================================
-# SECTION 7: Outputs
-# ===========================================================================
-od = outputs_dir(selected_pid)
-json_out = od / "persona.json"
+    st.caption("Tip: `caffeinate -i python worker.py` to prevent macOS sleep during overnight runs.")
 
-if json_out.exists():
     st.divider()
-    st.markdown("## Outputs")
 
-    persona = json.loads(json_out.read_text())
-    built = datetime.fromtimestamp(json_out.stat().st_mtime).strftime("%Y-%m-%d %H:%M")
-    st.success(f"Persona built: {built} | {quality['total']:,} reviews | Quality: **{quality['score'].upper()}**")
+    with st.expander("➕ Add Personas to Queue", expanded=False):
 
-    # Quick persona summary
-    seg = persona.get("segment", {})
-    ep = persona.get("emotional_profile", {})
-    c1, c2, c3 = st.columns(3)
-    c1.metric("Patience", f"{ep.get('baseline_patience',0.5):.0%}")
-    c2.metric("Starting Trust", f"{ep.get('trust_starting_point',0.5):.0%}")
-    c3.metric("Behavioral Rules", len(persona.get("behavioral_rules", [])))
+        if "queue_rows" not in st.session_state:
+            st.session_state.queue_rows = [{"project_name": "", "label": "", "description": ""}]
 
-    # Voice sample
-    st.markdown("**Voice:**")
-    st.info(persona.get("voice_sample", "")[:400] + ("..." if len(persona.get("voice_sample","")) > 400 else ""), icon="🗣️")
+        with st.form("queue_add_form", clear_on_submit=False):
+            col_add, col_cfg = st.columns([3, 1])
 
-    # File downloads
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        st.markdown("**persona.json**")
-        st.caption("Structured config for AI agents")
-        st.download_button("⬇️ Download", json_out.read_bytes(), "persona.json", "application/json", use_container_width=True)
-        with st.expander("Preview"):
-            st.json(persona)
+            with col_cfg:
+                q_target  = st.number_input("Target reviews", min_value=2000, max_value=10000, value=5000, step=500)
+                q_threads = st.number_input("Reddit threads/sub", min_value=1, max_value=20, value=8)
+                q_comments = st.number_input("Comments/thread", min_value=50, max_value=300, value=150)
 
-    with col2:
-        md_out = od / "persona.md"
-        st.markdown("**persona.md**")
-        st.caption("Rich narrative — use as system prompt context")
-        if md_out.exists():
-            st.download_button("⬇️ Download", md_out.read_bytes(), "persona.md", "text/markdown", use_container_width=True)
-            with st.expander("Preview"):
-                st.markdown(md_out.read_text())
+            with col_add:
+                for i, row in enumerate(st.session_state.queue_rows):
+                    rc1, rc2, rc3 = st.columns([1, 1, 2])
+                    with rc1:
+                        st.session_state.queue_rows[i]["project_name"] = st.text_input(
+                            "Company", value=row.get("project_name", ""),
+                            placeholder="Disgo",
+                            key=f"qpname_{i}", label_visibility="collapsed" if i > 0 else "visible"
+                        )
+                    with rc2:
+                        st.session_state.queue_rows[i]["label"] = st.text_input(
+                            "Demographic title", value=row["label"],
+                            placeholder="Consumer App User",
+                            key=f"qlabel_{i}", label_visibility="collapsed" if i > 0 else "visible"
+                        )
+                    with rc3:
+                        st.session_state.queue_rows[i]["description"] = st.text_area(
+                            "Description", value=row["description"],
+                            placeholder="A user of a consumer app focused on…",
+                            key=f"qdesc_{i}", height=68, label_visibility="collapsed" if i > 0 else "visible"
+                        )
 
-    with col3:
-        rag_out = od / "rag_index.jsonl"
-        st.markdown("**rag_index.jsonl**")
-        st.caption("Retrieval index for RAG-augmented agents")
-        if rag_out.exists():
-            lines = rag_out.read_text().strip().split("\n")
-            st.download_button("⬇️ Download", rag_out.read_bytes(), "rag_index.jsonl", "application/x-ndjson", use_container_width=True)
-            with st.expander(f"Preview ({len(lines)} entries)"):
-                for line in lines[:8]:
-                    e = json.loads(line)
-                    st.markdown(f"**[{e.get('trait_label','')}]** {e.get('text','')[:120]}")
-                    st.divider()
+            fc1, fc2, fc3 = st.columns([1, 1, 2])
+            with fc1:
+                add_row = st.form_submit_button("＋ Add Row")
+            with fc2:
+                submit_queue = st.form_submit_button("Add All to Queue ▶", type="primary")
+
+        if add_row:
+            st.session_state.queue_rows.append({"label": "", "description": ""})
+            st.rerun()
+
+        if submit_queue:
+            cfg = {"target_total": q_target, "max_threads": q_threads, "max_comments": q_comments}
+            added = 0
+            for row in st.session_state.queue_rows:
+                pname = row.get("project_name", "").strip()
+                lbl   = row["label"].strip()
+                desc  = row["description"].strip()
+                if lbl and desc:
+                    add_job(lbl, desc, project_name=pname or lbl, config=cfg)
+                    added += 1
+            if added:
+                st.session_state.queue_rows = [{"label": "", "description": ""}]
+                st.success(f"Added {added} job{'s' if added != 1 else ''} to queue")
+                st.rerun()
+            else:
+                st.error("Fill in at least one label + description")
+
+    # ── Queue status table (outside the form expander) ──────────────────────
+    _HEARTBEAT_FILE = Path("projects/worker_heartbeat.txt")
+
+    _STEP_META = {
+        "create_project": (5,  "Setting up project"),
+        "intelligence":   (13, "Generating intelligence"),
+        "amazon":         (25, "Pulling Amazon reviews"),
+        "reddit":         (38, "Scraping Reddit"),
+        "hackernews":     (48, "Scraping Hacker News"),
+        "appstore":       (55, "Scraping App Store"),
+        "playstore":      (62, "Scraping Google Play Store"),
+        "review_gate":    (66, "Validating review count"),
+        "extraction":     (78, "Extracting signals"),
+        "clustering":     (90, "Clustering"),
+        "synthesis":      (96, "Synthesising persona"),
+        "done":           (100, "Complete"),
+    }
+
+    def _get_heartbeat() -> dict:
+        try:
+            d = {}
+            for ln in _HEARTBEAT_FILE.read_text().splitlines():
+                if "=" in ln:
+                    k, v = ln.split("=", 1)
+                    d[k.strip()] = v.strip()
+            return d
+        except Exception:
+            return {}
+
+    jobs = read_queue()
+    if not jobs:
+        st.markdown('<div style="color:#475569;font-size:0.85rem;padding:0.5rem 0 1rem">Queue is empty — open "Add Personas to Queue" above to get started.</div>', unsafe_allow_html=True)
+    else:
+        # ── Bulk actions ──────────────────────────────────────────────────
+        ba1, ba2, ba3, _ = st.columns([1, 1, 1, 3])
+        with ba1:
+            if st.button("↺ Rerun All", use_container_width=True, help="Reset all done + failed jobs to pending with target=8,000 reviews. Existing reviews kept — only new data added."):
+                for j in [j for j in jobs if j["status"] == STATUS_DONE]:
+                    _archive_job_outputs(j)
+                n = requeue_all(target_total=8_000)
+                st.success(f"Queued {n} job(s) for rerun (target: 8,000 reviews). Old outputs archived.")
+                st.rerun()
+        with ba2:
+            if st.button("↻ Retry Failed", use_container_width=True):
+                n = requeue_failed()
+                st.info(f"Reset {n} failed job(s) to pending")
+                st.rerun()
+        with ba3:
+            if st.button("✕ Clear Done", use_container_width=True):
+                clear_finished()
+                st.rerun()
+
+        heartbeat = _get_heartbeat()
+        hb_job_id = heartbeat.get("job", "")
+        hb_step   = heartbeat.get("step", "")
+
+        # ── Job cards ─────────────────────────────────────────────────────
+        for job in jobs:
+            s     = job["status"]
+            pname = job.get("project_name", job["label"])
+            lbl   = job["label"]
+            dur   = f"{int(job['duration_s'])//60}m {int(job['duration_s'])%60}s" if job.get("duration_s") else ""
+
+            _badge_cls = {"pending":"s-pending","running":"s-running","done":"s-done","failed":"s-failed"}.get(s,"s-pending")
+            _card_cls  = {"pending":"qcard-pending","running":"qcard-running","done":"qcard-done","failed":"qcard-failed"}.get(s,"qcard-pending")
+
+            st.markdown(f'<div class="qcard {_card_cls}">', unsafe_allow_html=True)
+
+            jc1, jc2 = st.columns([7, 1])
+            with jc1:
+                st.markdown(
+                    f'<div class="qcard-title">{pname} <span style="color:#374151;font-weight:400">·</span> {lbl}</div>'
+                    f'<div class="qcard-meta">'
+                    f'<span class="status-badge {_badge_cls}">{s}</span>'
+                    + (f'  <span style="color:#475569">{dur}</span>' if dur else "")
+                    + f'</div>',
+                    unsafe_allow_html=True,
+                )
+            with jc2:
+                if s == STATUS_PENDING:
+                    if st.button("✕", key=f"rm_{job['id']}", use_container_width=True, help="Remove from queue"):
+                        remove_job(job["id"]); st.rerun()
+                elif s in (STATUS_DONE, STATUS_FAILED):
+                    if st.button("↺", key=f"rerun_{job['id']}", use_container_width=True, help="Rerun with target=8,000 reviews (existing reviews kept, old outputs archived)"):
+                        if s == STATUS_DONE:
+                            archived = _archive_job_outputs(job)
+                            if archived:
+                                st.toast(f"Archived to …/archive/{Path(archived).name}")
+                        _new_cfg = dict(job.get("config") or {})
+                        _new_cfg["target_total"] = 8_000
+                        update_job(job["id"], status=STATUS_PENDING, error=None, duration_s=None, config=_new_cfg)
+                        st.rerun()
+
+            # Running: live progress + log
+            if s == STATUS_RUNNING:
+                step_now = hb_step if hb_job_id == job["id"] else ""
+                pct, step_label = _STEP_META.get(step_now, (2, "Starting…"))
+                st.progress(pct / 100, text=f"{step_label}  —  {pct}%")
+                log_text = read_log(job["id"], tail=12)
+                if log_text:
+                    st.code(log_text, language=None)
+
+            # Done: compact output downloads
+            elif s == STATUS_DONE:
+                _pid  = job.get("persona_id") or f"queue_{job['id']}"
+                _od   = outputs_dir(_pid)
+                _stem = _output_stem(_pid)
+                fn_json = f"{_stem}_persona.json"
+                fn_md   = f"{_stem}_persona.md"
+                fn_rag  = f"{_stem}_rag_index.jsonl"
+                jp, mp, rp = _od / fn_json, _od / fn_md, _od / fn_rag
+                with st.expander("📄 Outputs", expanded=False):
+                    dc1, dc2, dc3 = st.columns(3)
+                    with dc1:
+                        if jp.exists():
+                            st.download_button("⬇ JSON", jp.read_bytes(), fn_json, "application/json", key=f"dl_j_{job['id']}", use_container_width=True)
+                        else:
+                            st.caption("json missing")
+                    with dc2:
+                        if mp.exists():
+                            st.download_button("⬇ Markdown", mp.read_bytes(), fn_md, "text/markdown", key=f"dl_m_{job['id']}", use_container_width=True)
+                        else:
+                            st.caption("md missing")
+                    with dc3:
+                        if rp.exists():
+                            st.download_button("⬇ RAG Index", rp.read_bytes(), fn_rag, "application/x-ndjson", key=f"dl_r_{job['id']}", use_container_width=True)
+                        else:
+                            st.caption("rag missing")
+
+            # Failed: error + log
+            elif s == STATUS_FAILED:
+                if job.get("error"):
+                    st.markdown(f'<div style="color:#f87171;font-size:0.8rem;margin-top:4px">{job["error"][:200]}</div>', unsafe_allow_html=True)
+                with st.expander("View log"):
+                    st.code(read_log(job["id"], tail=40) or "(empty)", language=None)
+
+            st.markdown("</div>", unsafe_allow_html=True)
+
+        # Auto-refresh every 3s while a job is running
+        if any(j["status"] == STATUS_RUNNING for j in jobs):
+            time.sleep(3)
+            st.rerun()
+
+    # ===========================================================================
+    # NEW PROJECT — setup wizard
+    # ===========================================================================
+    if not selected_pid:
+       st.markdown("## Start: Define Your Demographic")
+       st.markdown("The more specific your description, the more accurately DeepSeek can identify targeted products and subreddits.")
+
+       with st.form("create_project"):
+           col1, col2 = st.columns([1, 2])
+           with col1:
+               pname = st.text_input("Project name", placeholder="College Students 2024")
+               plabel = st.text_input("Demographic label", placeholder="College Student",
+                                      help="Short label used as the persona ID")
+           with col2:
+               pdesc = st.text_area(
+                   "Describe this demographic in detail",
+                   height=120,
+                   placeholder=(
+                       "US college students aged 18–24, living on or off campus. "
+                       "Extremely price-sensitive — most have under $200/month discretionary budget. "
+                       "Shop primarily on mobile late at night. Heavily influenced by peer recommendations "
+                       "and TikTok. Distrust corporate marketing. Value authenticity and transparency. "
+                       "Tech-savvy but impatient with slow or confusing UX."
+                   ),
+                   help="Include: age range, income/budget, shopping behavior, values, frustrations, tech habits"
+               )
+           submitted = st.form_submit_button("🚀 Create Project & Generate Intelligence", type="primary", use_container_width=True)
+
+       if submitted:
+           if not pname or not plabel or not pdesc:
+               st.error("Fill in all three fields.")
+           elif not has_key:
+               st.error("Set OPENROUTER_API_KEY first.")
+           else:
+               proj = new_project(pname, plabel, pdesc)
+               st.session_state["active_pid"] = proj["id"]
+               st.session_state["log"] = []
+
+               log_ph = st.empty()
+
+               def _log(kind, msg):
+                   color = {"info": "#60a5fa", "ok": "#4ade80", "warn": "#fbbf24", "data": "#a78bfa"}.get(kind, "#ffffff")
+                   st.session_state["log"].append(f'<span style="color:{color}">{msg}</span>')
+                   log_ph.markdown(
+                       '<div class="log-box">' + "<br>".join(st.session_state["log"][-30:]) + "</div>",
+                       unsafe_allow_html=True,
+                   )
+
+               with st.spinner("Asking DeepSeek to map your demographic to specific products and subreddits..."):
+                   try:
+                       generate_intelligence(proj["id"], pdesc, log_fn=_log)
+                       st.success("Intelligence generated! Reloading...")
+                       time.sleep(1)
+                       st.rerun()
+                   except Exception as e:
+                       st.error(f"Failed: {e}")
+                       st.exception(e)
+       st.stop()
+
+    # ===========================================================================
+    # EXISTING PROJECT — main workspace
+    # ===========================================================================
+
+    # Sync active project
+    if "active_pid" in st.session_state and st.session_state["active_pid"] == selected_pid:
+       pass
+    else:
+       st.session_state["active_pid"] = selected_pid
+       st.session_state["log"] = []
+
+    proj = load_project(selected_pid)
+    if not proj:
+       st.error("Project not found.")
+       st.stop()
+
+    # Backfill missing keys from old project format
+    if "review_count" not in proj:
+       proj["review_count"] = count_reviews(selected_pid)
+    if "review_sources" not in proj:
+       proj["review_sources"] = []
+    if "stages" not in proj:
+       proj["stages"] = {"intelligence":"pending","reviews":"empty","signals":"pending","clusters":"pending","persona":"pending"}
+    # Backfill stage keys
+    for stage_key in ("intelligence", "reviews", "signals", "clusters", "persona"):
+       if stage_key not in proj["stages"]:
+           proj["stages"][stage_key] = "pending"
+    save_project(proj)
+
+    intel = load_intelligence(selected_pid)
+    stages = proj["stages"]
+
+    # Step status bar
+    def step_html(label, status):
+       cls = "step-done" if status == "complete" else "step-active" if status in ("ready","running") else "step-pending"
+       icon = "✓" if status == "complete" else "●" if status in ("ready","running") else "○"
+       return f'<div class="step {cls}">{icon} {label}</div>'
+
+    _rsrcs = proj.get("review_sources", [])
+    _has_reddit  = any(s["label"].startswith("Reddit") for s in _rsrcs)
+    _has_hn      = any(s["label"].startswith(("HackerNews", "HN", "Hacker")) for s in _rsrcs)
+    _has_appstore  = any(s["label"].startswith("App Store") for s in _rsrcs)
+    _has_playstore = any(s["label"].startswith("Play Store") for s in _rsrcs)
+    st.markdown(
+       f'<div class="step-row">'
+       f'{step_html("1 Intel", stages["intelligence"])}'
+       f'<span class="step-arrow">›</span>'
+       f'{step_html("2 Amazon", "complete" if stages["reviews"]=="ready" and proj["review_count"]>0 else stages["reviews"])}'
+       f'<span class="step-arrow">›</span>'
+       f'{step_html("3 Reddit", "complete" if _has_reddit else "pending")}'
+       f'<span class="step-arrow">›</span>'
+       f'{step_html("4 HN", "complete" if _has_hn else "pending")}'
+       f'<span class="step-arrow">›</span>'
+       f'{step_html("5 App Store", "complete" if _has_appstore else "pending")}'
+       f'<span class="step-arrow">›</span>'
+       f'{step_html("6 Play Store", "complete" if _has_playstore else "pending")}'
+       f'<span class="step-arrow">›</span>'
+       f'{step_html("7 Extract", stages["signals"])}'
+       f'<span class="step-arrow">›</span>'
+       f'{step_html("8 Cluster", stages["clusters"])}'
+       f'<span class="step-arrow">›</span>'
+       f'{step_html("9 Persona", stages["persona"])}'
+       f'</div>',
+       unsafe_allow_html=True,
+    )
+
+    _back_col, _title_col = st.columns([1, 8])
+    with _back_col:
+        if st.button("← Home", use_container_width=True):
+            st.query_params.clear()
+            st.session_state["_selected_idx"] = 0
+            st.rerun()
+    with _title_col:
+        st.markdown(f"## {proj['name']}")
+        st.caption(f"**{proj['demographic_label']}** — {proj['demographic_description'][:180]}{'...' if len(proj['demographic_description'])>180 else ''}")
+    st.divider()
+
+    # ===========================================================================
+    # SECTION 1: Intelligence (products + subreddits)
+    # ===========================================================================
+    with st.expander("📡 Step 1: Demographic Intelligence", expanded=(stages["intelligence"] != "complete")):
+       if stages["intelligence"] != "complete" or not intel:
+           st.warning("Intelligence not yet generated.")
+           if st.button("Generate Intelligence", type="primary"):
+               log_ph = st.empty()
+               st.session_state["log"] = []
+               def _log(k,m):
+                   c={"info":"#60a5fa","ok":"#4ade80","warn":"#fbbf24","data":"#a78bfa"}.get(k,"#fff")
+                   st.session_state["log"].append(f'<span style="color:{c}">{m}</span>')
+                   log_ph.markdown('<div class="log-box">'+"<br>".join(st.session_state["log"][-20:])+"</div>",unsafe_allow_html=True)
+               try:
+                   intel = generate_intelligence(selected_pid, proj["demographic_description"], log_fn=_log)
+                   st.rerun()
+               except Exception as e:
+                   st.error(f"{e}")
+       else:
+           products = intel.get("products", [])
+           subreddits = intel.get("subreddits", [])
+           dp = intel.get("demographic_profile", {})
+
+           col1, col2 = st.columns([3, 2])
+           with col1:
+               st.markdown(f"**{len(products)} targeted products identified**")
+               for prod in sorted(products, key=lambda p: -p.get("accuracy", 0)):
+                   acc = prod.get("accuracy", 0)
+                   acc_cls = "confidence-high" if acc >= 0.85 else "confidence-med" if acc >= 0.7 else "confidence-low"
+                   kw_preview = ", ".join(prod.get("review_keywords", [])[:4])
+                   st.markdown(
+                       f'<div class="product-card {acc_cls}">'
+                       f'<strong>{prod["name"]}</strong> <span style="color:#888;font-size:0.8rem">({prod.get("category","?").replace("raw_review_","").replace("_"," ")})</span><br>'
+                       f'<span style="color:#4ade80;font-size:0.85rem">▲ {acc:.0%} demographic accuracy</span><br>'
+                       f'<span style="color:#6a6d7a;font-size:0.78rem">Keywords: {kw_preview}</span><br>'
+                       f'<span style="color:#5a5d6a;font-size:0.75rem">{prod.get("why","")}</span>'
+                       f'</div>',
+                       unsafe_allow_html=True,
+                   )
+
+           with col2:
+               st.markdown(f"**{len(subreddits)} subreddits**")
+               for sub in sorted(subreddits, key=lambda s: -s.get("relevance", 0)):
+                   rel = sub.get("relevance", 0)
+                   color = "#4ade80" if rel >= 0.85 else "#fbbf24" if rel >= 0.7 else "#f87171"
+                   st.markdown(
+                       f'<div class="product-card" style="border-left:3px solid {color}">'
+                       f'<strong>r/{sub["name"]}</strong> <span style="color:{color};font-size:0.8rem">{rel:.0%}</span><br>'
+                       f'<span style="color:#6a6d7a;font-size:0.78rem">{sub.get("data_value","")}</span>'
+                       f'</div>',
+                       unsafe_allow_html=True,
+                   )
+
+               st.markdown("**Demographic Keywords**")
+               kw_html = " ".join(f'<span class="sub-chip">{k}</span>' for k in dp.get("core_keywords", []))
+               st.markdown(kw_html, unsafe_allow_html=True)
+
+    # ===========================================================================
+    # SECTION 2: Amazon Reviews
+    # ===========================================================================
+    with st.expander("🛒 Step 2: Pull Amazon Reviews", expanded=(stages["reviews"] == "empty" and stages["intelligence"] == "complete")):
+       if stages["intelligence"] != "complete":
+           st.warning("Complete Step 1 first.")
+       else:
+           products = intel.get("products", []) if intel else []
+           col1, col2 = st.columns([3, 1])
+
+           with col1:
+               all_prod_names = [p["name"] for p in sorted(products, key=lambda p: -p.get("accuracy", 0))]
+               # Default: select top products with accuracy >= 0.8
+               default_selected = [p["name"] for p in products if p.get("accuracy", 0) >= 0.80]
+               selected_products = st.multiselect(
+                   "Select products to pull reviews for",
+                   options=all_prod_names,
+                   default=default_selected[:12],
+                   help="Higher accuracy = more demographically targeted reviews",
+               )
+           with col2:
+               max_per_product = st.number_input("Max reviews/product", 50, 500, 200, 50)
+               st.caption(f"~{len(selected_products) * max_per_product:,} reviews estimated")
+
+           if proj["review_count"] > 0:
+               st.success(f"{proj['review_count']:,} Amazon reviews already loaded. You can pull more.")
+
+           if st.button("⬇️ Pull Amazon Reviews", type="primary", disabled=not selected_products):
+               st.session_state["log"] = []
+               log_ph = st.empty()
+
+               def _log(k, m):
+                   c = {"info":"#60a5fa","ok":"#4ade80","warn":"#fbbf24","data":"#a78bfa"}.get(k,"#fff")
+                   st.session_state["log"].append(f'<span style="color:{c}">{m}</span>')
+                   log_ph.markdown('<div class="log-box">' + "<br>".join(st.session_state["log"][-30:]) + "</div>", unsafe_allow_html=True)
+
+               with st.status("Streaming from HuggingFace...", expanded=True) as status_box:
+                   try:
+                       added = pull_amazon_reviews(selected_pid, intel, selected_products, int(max_per_product), log_fn=_log)
+                       proj = load_project(selected_pid)
+                       status_box.update(label=f"Done — {added:,} reviews added", state="complete")
+                       st.rerun()
+                   except Exception as e:
+                       status_box.update(label="Failed", state="error")
+                       st.error(f"{e}")
+                       st.exception(e)
+
+    # ===========================================================================
+    # SECTION 3: Reddit + CSV
+    # ===========================================================================
+    with st.expander("📋 Step 3: Add Reddit & Custom Reviews (Recommended)", expanded=False):
+       st.markdown("Adding Reddit data significantly improves signal quality — it captures authentic unprompted opinions.")
+
+       # Reddit — automated scraper
+       st.markdown("### Reddit (Auto-Scraper)")
+       if intel:
+           subs = intel.get("subreddits", [])
+           top_subs = sorted(subs, key=lambda s: -s.get("relevance", 0))[:10]
+           sub_html = " ".join(f'<span class="sub-chip">r/{s["name"]} ({s.get("relevance",0):.0%})</span>' for s in top_subs)
+           st.markdown(f"**Suggested subreddits:** {sub_html}", unsafe_allow_html=True)
+       else:
+           top_subs = []
+
+       st.markdown(
+           "Automatically scrapes top threads from selected subreddits. "
+           "Deduplicates recurring weekly threads (keeps the best instance). "
+           "Extracts all substantive comments via Reddit's JSON API."
+       )
+
+       # Subreddit selection
+       available_subs = [s["name"] for s in top_subs] if top_subs else []
+       custom_subs = st.text_input("Add subreddits (comma-separated)", placeholder="college, StudentLife, personalfinance", key="reddit_custom_subs")
+       if custom_subs:
+           for s in custom_subs.split(","):
+               s = s.strip().replace("r/", "")
+               if s and s not in available_subs:
+                   available_subs.append(s)
+
+       selected_subs = st.multiselect("Select subreddits to scrape", available_subs, default=available_subs[:6], key="reddit_selected_subs")
+
+       col_r1, col_r2 = st.columns(2)
+       max_threads = col_r1.slider("Threads per subreddit", 3, 20, 8, key="reddit_max_threads")
+       max_comments = col_r2.slider("Comments per thread", 50, 500, 150, key="reddit_max_comments")
+
+       if st.button("🔍 Scrape Reddit", type="primary", disabled=not selected_subs):
+           reddit_log = st.empty()
+           reddit_logs: list[str] = []
+
+           def _reddit_log(kind, msg):
+               color = {"info": "#60a5fa", "ok": "#4ade80", "warn": "#fbbf24", "data": "#a78bfa"}.get(kind, "#ffffff")
+               prefix = {"info": "→", "ok": "✓", "warn": "⚠", "data": "  "}.get(kind, " ")
+               reddit_logs.append(f'<span style="color:{color}">{prefix} {msg}</span>')
+               reddit_log.markdown(
+                   '<div class="log-box">' + "<br>".join(reddit_logs[-30:]) + "</div>",
+                   unsafe_allow_html=True,
+               )
+
+           with st.status(f"Scraping {len(selected_subs)} subreddits...", expanded=True):
+               try:
+                   added = scrape_reddit_for_project(
+                       selected_pid,
+                       selected_subs,
+                       max_threads_per_sub=max_threads,
+                       max_comments_per_thread=max_comments,
+                       log_fn=_reddit_log,
+                   )
+                   proj = load_project(selected_pid)
+                   st.success(f"Done — {added:,} Reddit comments added. Total reviews: {proj['review_count']:,}")
+                   st.rerun()
+               except Exception as e:
+                   st.error(f"Scraping failed: {e}")
+                   st.exception(e)
+
+       st.divider()
+
+       # Hacker News — Algolia API (free, no key)
+       st.markdown("### Hacker News (Ask HN + Tech Discussions)")
+       st.markdown(
+           "Searches HN comments via the free Algolia API — no key required. "
+           "Great for surfacing authentic developer/founder opinions about tools and products."
+       )
+
+       if intel:
+           products = intel.get("products", [])
+           default_hn_queries = [p["name"] for p in products[:4] if p.get("accuracy", 0) >= 0.6]
+           # Add demographic-flavoured queries
+           kws = intel.get("demographic_profile", {}).get("core_keywords", [])
+           if kws:
+               default_hn_queries.append(" ".join(kws[:3]))
+       else:
+           default_hn_queries = []
+
+       hn_queries_raw = st.text_area(
+           "Search queries (one per line)",
+           value="\n".join(default_hn_queries[:6]),
+           height=120,
+           key="hn_queries",
+           help="Each query is searched independently. Use product names, problem descriptions, or technology terms.",
+       )
+       hn_max_per_query = st.slider("Max comments per query", 50, 500, 200, key="hn_max_per_query")
+
+       if st.button("🟠 Scrape Hacker News", type="primary"):
+           hn_queries = [q.strip() for q in hn_queries_raw.splitlines() if q.strip()]
+           if not hn_queries:
+               st.warning("Add at least one search query.")
+           else:
+               hn_log = st.empty()
+               hn_logs: list[str] = []
+
+               def _hn_log(kind, msg):
+                   color = {"info": "#60a5fa", "ok": "#4ade80", "warn": "#fbbf24", "data": "#a78bfa"}.get(kind, "#ffffff")
+                   prefix = {"info": "→", "ok": "✓", "warn": "⚠", "data": "  "}.get(kind, " ")
+                   hn_logs.append(f'<span style="color:{color}">{prefix} {msg}</span>')
+                   hn_log.markdown(
+                       '<div class="log-box">' + "<br>".join(hn_logs[-30:]) + "</div>",
+                       unsafe_allow_html=True,
+                   )
+
+               target_total = st.session_state.get("budget_target", 5000)
+               with st.status(f"Searching {len(hn_queries)} HN queries…", expanded=True):
+                   try:
+                       added = scrape_hn_for_project(
+                           selected_pid,
+                           hn_queries,
+                           max_per_query=hn_max_per_query,
+                           target_total=target_total,
+                           log_fn=_hn_log,
+                       )
+                       proj = load_project(selected_pid)
+                       st.success(f"Done — {added:,} HN comments added. Total reviews: {proj['review_count']:,}")
+                       st.rerun()
+                   except Exception as e:
+                       st.error(f"HN scrape failed: {e}")
+                       st.exception(e)
+
+       st.divider()
+
+       # App Store — iTunes Search API + app-store-scraper
+       st.markdown("### App Store (Apple)")
+       st.markdown("Pulls reviews via the iTunes Search API. No key required.")
+
+       if intel:
+           default_appstore_queries = [p["name"] for p in intel.get("products", [])[:5] if p.get("accuracy", 0) >= 0.6]
+       else:
+           default_appstore_queries = []
+
+       appstore_queries_raw = st.text_area(
+           "App names to search (one per line)",
+           value="\n".join(default_appstore_queries),
+           height=80,
+           key="appstore_queries_raw",
+       )
+       appstore_max = st.slider("Max reviews per app", 50, 500, 200, key="appstore_max")
+
+       if st.button("🍎 Scrape App Store", type="primary"):
+           appstore_queries = [q.strip() for q in appstore_queries_raw.splitlines() if q.strip()]
+           if not appstore_queries:
+               st.warning("Add at least one app name.")
+           else:
+               as_log = st.empty()
+               as_logs: list[str] = []
+
+               def _as_log(kind, msg):
+                   color = {"info": "#60a5fa", "ok": "#4ade80", "warn": "#fbbf24", "data": "#a78bfa"}.get(kind, "#ffffff")
+                   prefix = {"info": "→", "ok": "✓", "warn": "⚠", "data": "  "}.get(kind, " ")
+                   as_logs.append(f'<span style="color:{color}">{prefix} {msg}</span>')
+                   as_log.markdown(
+                       '<div class="log-box">' + "<br>".join(as_logs[-30:]) + "</div>",
+                       unsafe_allow_html=True,
+                   )
+
+               target_total = st.session_state.get("budget_target", 5000)
+               with st.status(f"Searching {len(appstore_queries)} App Store queries…", expanded=True):
+                   try:
+                       added = scrape_appstore_for_project(
+                           selected_pid,
+                           appstore_queries,
+                           max_per_app=appstore_max,
+                           target_total=target_total,
+                           log_fn=_as_log,
+                       )
+                       proj = load_project(selected_pid)
+                       st.success(f"Done — {added:,} App Store reviews added. Total: {proj['review_count']:,}")
+                       st.rerun()
+                   except Exception as e:
+                       st.error(f"App Store scrape failed: {e}")
+                       st.exception(e)
+
+       st.divider()
+
+       # Google Play Store
+       st.markdown("### Google Play Store")
+       st.markdown("Searches Play Store and pulls reviews. No key required.")
+
+       if intel:
+           default_playstore_queries = [p["name"] for p in intel.get("products", [])[:5] if p.get("accuracy", 0) >= 0.6]
+       else:
+           default_playstore_queries = []
+
+       playstore_queries_raw = st.text_area(
+           "App names to search (one per line)",
+           value="\n".join(default_playstore_queries),
+           height=80,
+           key="playstore_queries_raw",
+       )
+       playstore_max = st.slider("Max reviews per app", 50, 500, 200, key="playstore_max")
+
+       if st.button("🤖 Scrape Play Store", type="primary"):
+           playstore_queries = [q.strip() for q in playstore_queries_raw.splitlines() if q.strip()]
+           if not playstore_queries:
+               st.warning("Add at least one app name.")
+           else:
+               ps_log = st.empty()
+               ps_logs: list[str] = []
+
+               def _ps_log(kind, msg):
+                   color = {"info": "#60a5fa", "ok": "#4ade80", "warn": "#fbbf24", "data": "#a78bfa"}.get(kind, "#ffffff")
+                   prefix = {"info": "→", "ok": "✓", "warn": "⚠", "data": "  "}.get(kind, " ")
+                   ps_logs.append(f'<span style="color:{color}">{prefix} {msg}</span>')
+                   ps_log.markdown(
+                       '<div class="log-box">' + "<br>".join(ps_logs[-30:]) + "</div>",
+                       unsafe_allow_html=True,
+                   )
+
+               target_total = st.session_state.get("budget_target", 5000)
+               with st.status(f"Searching {len(playstore_queries)} Play Store queries…", expanded=True):
+                   try:
+                       added = scrape_playstore_for_project(
+                           selected_pid,
+                           playstore_queries,
+                           max_per_app=playstore_max,
+                           target_total=target_total,
+                           log_fn=_ps_log,
+                       )
+                       proj = load_project(selected_pid)
+                       st.success(f"Done — {added:,} Play Store reviews added. Total: {proj['review_count']:,}")
+                       st.rerun()
+                   except Exception as e:
+                       st.error(f"Play Store scrape failed: {e}")
+                       st.exception(e)
+
+       st.divider()
+
+       # CSV
+       st.markdown("### CSV Reviews (G2, Amazon, Trustpilot, custom)")
+       st.markdown("Supports any CSV with a text/review column. Flexible column naming.")
+       csv_files = st.file_uploader("Upload review CSVs", type=["csv"], accept_multiple_files=True, key="csv_upload")
+       if csv_files:
+           for cf in csv_files:
+               reviews = parse_csv_reviews(cf.read(), source_label=cf.name)
+               if not reviews:
+                   st.warning(f"`{cf.name}` — no valid reviews found (need a text column, min 30 chars)")
+               else:
+                   with st.expander(f"Preview `{cf.name}` — {len(reviews)} reviews"):
+                       for r in reviews[:3]:
+                           st.markdown(f"**{'⭐'*int(r.get('rating',3))} ({r.get('rating','?')})** — {r.get('product','')}")
+                           st.caption((r.get("text", ""))[:200])
+                   col1, col2 = st.columns([4, 1])
+                   col1.info(f"`{cf.name}` — {len(reviews)} valid reviews ready")
+                   if col2.button("Add", key=f"add_csv_{cf.name}"):
+                       total = append_reviews(selected_pid, reviews, source_label=cf.name)
+                       st.success(f"Added {len(reviews)} reviews. Total: {total:,}")
+                       st.rerun()
+
+    # ===========================================================================
+    # SECTION 4: Data Quality Check
+    # ===========================================================================
+    reviews_all = load_all_reviews(selected_pid)
+    quality = analyze_quality(reviews_all)
+
+    # Budget target slider — controls the 40%-per-source cap across all scrapers
+    from data.budget import budget_summary, MIN_REVIEWS, MAX_REVIEWS, DEFAULT_TOTAL
+    if "budget_target" not in st.session_state:
+       st.session_state["budget_target"] = DEFAULT_TOTAL
+    budget_target = st.slider(
+       "Review target (controls 40%-per-source cap)",
+       min_value=MIN_REVIEWS,
+       max_value=MAX_REVIEWS,
+       value=st.session_state["budget_target"],
+       step=500,
+       key="budget_target_slider",
+       help="Each source may contribute at most 40% of this number. Minimum to build a persona: 2,000.",
+    )
+    st.session_state["budget_target"] = budget_target
+
+    bsummary = budget_summary(reviews_all, budget_target)
+    _src_colors = {"amazon": "#f59e0b", "reddit": "#ef4444", "hackernews": "#f97316", "csv": "#8b5cf6"}
+    _bar_parts = []
+    for src, info in bsummary["per_source"].items():
+       color = _src_colors.get(src, "#6b7280")
+       pct_of_target = info["count"] / budget_target if budget_target else 0
+       cap_pct = 0.40
+       capped_indicator = " ⚠ at cap" if info["at_cap"] else ""
+       _title = f"{src}: {info['count']:,} ({info['pct']:.0%}){capped_indicator}"
+       _bar_parts.append(
+           f'<span style="display:inline-block;background:{color};width:{pct_of_target*100:.1f}%;'
+           f'height:18px;vertical-align:middle;" title="{_title}"></span>'
+       )
+    progress_pct = min(1.0, quality["total"] / budget_target) if budget_target else 0
+    remaining_pct = max(0.0, 1.0 - progress_pct)
+    _bar_parts.append(
+       f'<span style="display:inline-block;background:#1f2937;width:{remaining_pct*100:.1f}%;'
+       f'height:18px;vertical-align:middle;border:1px dashed #374151;" title="remaining"></span>'
+    )
+    st.markdown(
+       f'<div style="margin-bottom:4px"><strong>Source budget:</strong> {quality["total"]:,} / {budget_target:,} '
+       f'({progress_pct:.0%}) — 40% cap per source ({int(budget_target*0.4):,} max each)</div>'
+       f'<div style="width:100%;background:#111;border-radius:4px;overflow:hidden">{"".join(_bar_parts)}</div>'
+       + "".join(
+           f'<span style="font-size:0.75rem;color:{_src_colors.get(src,"#6b7280")};margin-right:12px">'
+           f'■ {src} {info["count"]:,} ({info["pct"]:.0%})'
+           + (" ⚠" if info["at_cap"] else "") + "</span>"
+           for src, info in bsummary["per_source"].items()
+       ),
+       unsafe_allow_html=True,
+    )
+    if not bsummary["meets_minimum"]:
+       st.warning(f"Need at least {MIN_REVIEWS:,} reviews to build a reliable persona. Currently at {quality['total']:,}.")
+
+    with st.expander(f"📊 Data Quality — {quality['total']:,} reviews | {quality['score'].upper()}", expanded=True):
+       badge_cls = f"badge-{quality['score']}"
+       q_cols = st.columns(5)
+       q_cols[0].metric("Total Reviews", f"{quality['total']:,}")
+       q_cols[1].metric("Sources", quality["n_sources"])
+       q_cols[2].metric("Avg Length", f"{quality['avg_length']} chars")
+       q_cols[3].metric("Products", quality["n_products"])
+       q_cols[4].metric("Quality", quality["score"].upper())
+
+       if quality["issues"]:
+           for issue in quality["issues"]:
+               st.warning(issue)
+       else:
+           st.success("Data looks good! Sufficient volume, sources, and rating distribution.")
+
+       # Source breakdown
+       if quality["source_breakdown"]:
+           col1, col2 = st.columns(2)
+           with col1:
+               st.markdown("**Source breakdown:**")
+               for src, cnt in quality["source_breakdown"].items():
+                   pct = cnt / quality["total"] if quality["total"] else 0
+                   cap_mark = " ⚠ at cap" if bsummary["per_source"].get(src, {}).get("at_cap") else ""
+                   st.markdown(f"- `{src}`: {cnt:,} ({pct:.0%}){cap_mark}")
+           with col2:
+               st.markdown("**Rating distribution (sentiment-inferred for Reddit/HN):**")
+               for stars in range(5, 0, -1):
+                   cnt = quality["rating_distribution"].get(stars, 0)
+                   pct = cnt / quality["total"] if quality["total"] else 0
+                   bar = "█" * int(pct * 20)
+                   st.markdown(f"- {'⭐'*stars}: {cnt} `{bar}` {pct:.0%}")
+
+    # ===========================================================================
+    # SECTION 5+6: Run Pipeline
+    # ===========================================================================
+    st.divider()
+    st.markdown("## Run Training Pipeline")
+
+    if quality["total"] < 100:
+       st.error("Need at least 100 reviews to run the pipeline. Add more data above.")
+    elif quality["total"] < 300:
+       st.warning(f"Only {quality['total']} reviews — results will be weak. Recommended: 300+. Continue anyway?")
+
+    col1, col2, col3, col4 = st.columns(4)
+    batch_size = col1.select_slider("Batch size", [15, 20, 30, 40, 50], value=30, help="Reviews per LLM extraction call")
+    force_rerun = col2.checkbox("Re-run extraction from scratch", value=False)
+    n_clusters_override = col3.number_input("Force cluster count (0 = auto)", 0, 20, 0)
+    cluster_seed = col4.number_input("Cluster seed", 0, 999, 42, help="Change seed to test clustering stability")
+
+    # Show pipeline stage status
+    status_cols = st.columns(3)
+    status_cols[0].markdown(f"**Extract:** {stages['signals']}")
+    status_cols[1].markdown(f"**Cluster:** {stages['clusters']}")
+    status_cols[2].markdown(f"**Persona:** {stages['persona']}")
+
+    # Live log area
+    log_ph = st.empty()
+
+    if "log" not in st.session_state:
+       st.session_state["log"] = []
+
+    def _log(kind, msg):
+       color = {"info": "#60a5fa", "ok": "#4ade80", "warn": "#fbbf24", "data": "#a78bfa"}.get(kind, "#ffffff")
+       prefix = {"info": "→", "ok": "✓", "warn": "⚠", "data": "  "}.get(kind, " ")
+       st.session_state["log"].append(f'<span style="color:{color}">{prefix} {msg}</span>')
+       log_ph.markdown(
+           '<div class="log-box">' + "<br>".join(st.session_state["log"][-40:]) + "</div>",
+           unsafe_allow_html=True,
+       )
+
+    col_pipe1, col_pipe2 = st.columns([1, 1])
+
+    with col_pipe1:
+       run_full = st.button("▶ Run Full Pipeline (Extract → Cluster → Build Persona)", type="primary", use_container_width=True, disabled=quality["total"] < 50)
+    with col_pipe2:
+       run_everything = st.button("🚀 Run EVERYTHING (Pull Data → Extract → Cluster → Build)", use_container_width=True, disabled=(stages["intelligence"] != "complete"))
+
+    if run_full or run_everything:
+       if not has_key:
+           st.error("Set OPENROUTER_API_KEY.")
+       else:
+           st.session_state["log"] = []
+
+           with st.status("Running pipeline...", expanded=True) as status_box:
+
+               # === AUTO-PULL DATA (only for "Run Everything") ===
+               if run_everything and intel:
+                   _auto_target = st.session_state.get("budget_target", DEFAULT_TOTAL)
+                   products = intel.get("products", [])
+
+                   # Amazon
+                   _log("info", "━━━ AUTO: Pulling Amazon Reviews ━━━")
+                   default_products = [p["name"] for p in products if p.get("accuracy", 0) >= 0.75]
+                   if default_products:
+                       try:
+                           added = pull_amazon_reviews(selected_pid, intel, default_products, 200, log_fn=_log)
+                           _log("ok", f"Amazon: {added:,} reviews added")
+                           proj = load_project(selected_pid)
+                       except Exception as e:
+                           _log("warn", f"Amazon pull failed: {e} — continuing")
+
+                   # Reddit
+                   _log("info", "━━━ AUTO: Scraping Reddit ━━━")
+                   subs_list = intel.get("subreddits", [])
+                   sub_names = [s["name"] for s in sorted(subs_list, key=lambda s: -s.get("relevance", 0))[:6]]
+                   if sub_names:
+                       try:
+                           added = scrape_reddit_for_project(
+                               selected_pid, sub_names,
+                               max_threads_per_sub=8, max_comments_per_thread=150,
+                               target_total=_auto_target,
+                               log_fn=_log,
+                           )
+                           _log("ok", f"Reddit: {added:,} comments added")
+                           proj = load_project(selected_pid)
+                       except Exception as e:
+                           _log("warn", f"Reddit scrape failed: {e} — continuing")
+
+                   # Hacker News
+                   _log("info", "━━━ AUTO: Scraping Hacker News ━━━")
+                   hn_queries = [p["name"] for p in products[:4] if p.get("accuracy", 0) >= 0.6]
+                   kws = intel.get("demographic_profile", {}).get("core_keywords", [])
+                   if kws:
+                       hn_queries.append(" ".join(kws[:3]))
+                   if hn_queries:
+                       try:
+                           added = scrape_hn_for_project(
+                               selected_pid, hn_queries,
+                               max_per_query=200,
+                               target_total=_auto_target,
+                               log_fn=_log,
+                           )
+                           _log("ok", f"HN: {added:,} comments added")
+                           proj = load_project(selected_pid)
+                       except Exception as e:
+                           _log("warn", f"HN scrape failed: {e} — continuing")
+
+                   # App Store
+                   _log("info", "━━━ AUTO: Scraping App Store ━━━")
+                   as_queries = [p["name"] for p in products[:5] if p.get("accuracy", 0) >= 0.6]
+                   if as_queries:
+                       try:
+                           added = scrape_appstore_for_project(
+                               selected_pid, as_queries,
+                               max_per_app=200,
+                               target_total=_auto_target,
+                               log_fn=_log,
+                           )
+                           _log("ok", f"App Store: {added:,} reviews added")
+                           proj = load_project(selected_pid)
+                       except Exception as e:
+                           _log("warn", f"App Store scrape failed: {e} — continuing")
+
+                   # Google Play Store
+                   _log("info", "━━━ AUTO: Scraping Google Play Store ━━━")
+                   ps_queries = [p["name"] for p in products[:5] if p.get("accuracy", 0) >= 0.6]
+                   if ps_queries:
+                       try:
+                           added = scrape_playstore_for_project(
+                               selected_pid, ps_queries,
+                               max_per_app=200,
+                               target_total=_auto_target,
+                               log_fn=_log,
+                           )
+                           _log("ok", f"Play Store: {added:,} reviews added")
+                           proj = load_project(selected_pid)
+                       except Exception as e:
+                           _log("warn", f"Play Store scrape failed: {e} — continuing")
+
+                   # Reload quality after all data pulls
+                   reviews_all = load_all_reviews(selected_pid)
+                   quality = analyze_quality(reviews_all)
+
+               _log("info", f"Starting pipeline on {quality['total']:,} reviews...")
+
+               # Stage 1: Extract
+               try:
+                   _log("info", "━━━ STAGE 1: Signal Extraction ━━━")
+                   new_b = run_extraction(selected_pid, int(batch_size), force_rerun, log_fn=_log)
+                   _log("ok", f"Extraction complete — {new_b} new batches processed")
+                   proj = load_project(selected_pid)
+               except Exception as e:
+                   status_box.update(label="Extraction failed", state="error")
+                   st.error(f"Extraction failed: {e}")
+                   st.stop()
+
+               # Stage 2: Cluster
+               try:
+                   _log("info", "━━━ STAGE 2: Clustering ━━━")
+                   n_sig = sum(1 for _ in signals_path(selected_pid).read_text().splitlines() if _.strip())
+                   sweep_max = min(10, max(3, n_sig // 5))
+                   result = run_clustering(
+                       selected_pid,
+                       n_override=int(n_clusters_override) if n_clusters_override > 0 else None,
+                       sweep_min=3,
+                       sweep_max=sweep_max,
+                       log_fn=_log,
+                       random_state=int(cluster_seed),
+                   )
+                   _log("ok", f"Clustering complete — {result['chosen_n_clusters']} clusters")
+                   proj = load_project(selected_pid)
+               except Exception as e:
+                   status_box.update(label="Clustering failed", state="error")
+                   st.error(f"Clustering failed: {e}")
+                   st.stop()
+
+               # Stage 3: Persona synthesis
+               try:
+                   _log("info", "━━━ STAGE 3: Persona Synthesis ━━━")
+                   fresh_quality = analyze_quality(load_all_reviews(selected_pid))
+                   run_persona_synthesis(selected_pid, fresh_quality, log_fn=_log)
+                   _log("ok", "Persona synthesis complete!")
+                   proj = load_project(selected_pid)
+               except Exception as e:
+                   status_box.update(label="Persona synthesis failed", state="error")
+                   st.error(f"Synthesis failed: {e}")
+                   st.exception(e)
+                   st.stop()
+
+               status_box.update(label="Pipeline complete! ✓", state="complete")
+               st.rerun()
+
+    # ===========================================================================
+    # SECTION 7: Outputs
+    # ===========================================================================
+    od = outputs_dir(selected_pid)
+    stem = _output_stem(selected_pid)
+    json_out = od / f"{stem}_persona.json"
+
+    if json_out.exists():
+       st.divider()
+       st.markdown("## Outputs")
+
+       persona = json.loads(json_out.read_text())
+       built = datetime.fromtimestamp(json_out.stat().st_mtime).strftime("%Y-%m-%d %H:%M")
+       st.success(f"Persona built: {built} | {quality['total']:,} reviews | Quality: **{quality['score'].upper()}**")
+
+       # Quick persona summary
+       seg = persona.get("segment", {})
+       ep = persona.get("emotional_profile", {})
+       c1, c2, c3 = st.columns(3)
+       c1.metric("Patience", f"{ep.get('baseline_patience',0.5):.0%}")
+       c2.metric("Starting Trust", f"{ep.get('trust_starting_point',0.5):.0%}")
+       c3.metric("Behavioral Rules", len(persona.get("behavioral_rules", [])))
+
+       # Voice sample
+       st.markdown("**Voice:**")
+       st.info(persona.get("voice_sample", "")[:400] + ("..." if len(persona.get("voice_sample","")) > 400 else ""), icon="🗣️")
+
+       # File downloads
+       col1, col2, col3 = st.columns(3)
+       with col1:
+           fn_json = f"{stem}_persona.json"
+           st.markdown(f"**{fn_json}**")
+           st.caption("Structured config for AI agents")
+           st.download_button("⬇️ Download", json_out.read_bytes(), fn_json, "application/json", use_container_width=True)
+           with st.expander("Preview"):
+               st.json(persona)
+
+       with col2:
+           fn_md = f"{stem}_persona.md"
+           md_out = od / fn_md
+           st.markdown(f"**{fn_md}**")
+           st.caption("Rich narrative — use as system prompt context")
+           if md_out.exists():
+               st.download_button("⬇️ Download", md_out.read_bytes(), fn_md, "text/markdown", use_container_width=True)
+               with st.expander("Preview"):
+                   st.markdown(md_out.read_text())
+
+       with col3:
+           fn_rag = f"{stem}_rag_index.jsonl"
+           rag_out = od / fn_rag
+           st.markdown(f"**{fn_rag}**")
+           st.caption("Retrieval index for RAG-augmented agents")
+           if rag_out.exists():
+               lines = rag_out.read_text().strip().split("\n")
+               st.download_button("⬇️ Download", rag_out.read_bytes(), fn_rag, "application/x-ndjson", use_container_width=True)
+               with st.expander(f"Preview ({len(lines)} entries)"):
+                   for line in lines[:8]:
+                       e = json.loads(line)
+                       st.markdown(f"**[{e.get('trait_label','')}]** {e.get('text','')[:120]}")
+                       st.divider()

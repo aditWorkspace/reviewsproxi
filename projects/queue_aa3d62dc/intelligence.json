@@ -1,0 +1,576 @@
+{
+  "products": [
+    {
+      "name": "Microsoft Project Professional 2021",
+      "category": "Software",
+      "accuracy": 0.95,
+      "review_keywords": [
+        "workflow",
+        "implementation",
+        "integration",
+        "deployment",
+        "customization",
+        "scalability",
+        "enterprise"
+      ],
+      "context_keywords": [
+        "organization",
+        "team",
+        "company",
+        "department"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "hobby"
+      ],
+      "why": "Project management software primarily purchased by organizational users who need to implement it for team workflows"
+    },
+    {
+      "name": "Tableau Desktop Professional Edition",
+      "category": "Software",
+      "accuracy": 0.94,
+      "review_keywords": [
+        "dashboard",
+        "analytics",
+        "reporting",
+        "data visualization",
+        "business intelligence",
+        "integration"
+      ],
+      "context_keywords": [
+        "department",
+        "stakeholders",
+        "management",
+        "reporting"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "personal"
+      ],
+      "why": "Business intelligence software bought by organizational users who need advanced analytics capabilities for their teams"
+    },
+    {
+      "name": "Adobe Creative Cloud for Teams",
+      "category": "Software",
+      "accuracy": 0.93,
+      "review_keywords": [
+        "collaboration",
+        "license management",
+        "deployment",
+        "creative workflow",
+        "team access"
+      ],
+      "context_keywords": [
+        "organization",
+        "creative team",
+        "workflow"
+      ],
+      "exclusion_keywords": [
+        "individual",
+        "freelance"
+      ],
+      "why": "Team-based creative software specifically designed for organizational deployment and collaboration needs"
+    },
+    {
+      "name": "Slack Enterprise Grid",
+      "category": "Software",
+      "accuracy": 0.92,
+      "review_keywords": [
+        "enterprise",
+        "communication",
+        "channels",
+        "integration",
+        "security",
+        "compliance"
+      ],
+      "context_keywords": [
+        "company",
+        "departments",
+        "organization",
+        "teams"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "family"
+      ],
+      "why": "Enterprise communication platform purchased by organizational users for company-wide collaboration"
+    },
+    {
+      "name": "Atlassian Jira Software Team License",
+      "category": "Software",
+      "accuracy": 0.91,
+      "review_keywords": [
+        "agile",
+        "project tracking",
+        "workflow",
+        "team collaboration",
+        "sprint planning"
+      ],
+      "context_keywords": [
+        "development team",
+        "organization",
+        "workflow"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "student"
+      ],
+      "why": "Project management tool specifically for organizational teams managing development workflows"
+    },
+    {
+      "name": "Microsoft 365 Business Premium",
+      "category": "Software",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "business",
+        "collaboration",
+        "email",
+        "security",
+        "compliance",
+        "productivity"
+      ],
+      "context_keywords": [
+        "company",
+        "employees",
+        "business",
+        "organization"
+      ],
+      "exclusion_keywords": [
+        "home",
+        "personal"
+      ],
+      "why": "Business productivity suite purchased by organizational users for company-wide implementation"
+    },
+    {
+      "name": "Salesforce CRM Professional Edition",
+      "category": "Software",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "CRM",
+        "sales",
+        "customer management",
+        "automation",
+        "reporting",
+        "integration"
+      ],
+      "context_keywords": [
+        "sales team",
+        "company",
+        "organization"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "individual"
+      ],
+      "why": "Customer relationship management software bought by organizational users for sales team implementation"
+    },
+    {
+      "name": "Asset Tracking Labels with Barcode Scanner",
+      "category": "Office_Products",
+      "accuracy": 0.89,
+      "review_keywords": [
+        "inventory",
+        "tracking",
+        "asset management",
+        "barcode",
+        "organization",
+        "workflow"
+      ],
+      "context_keywords": [
+        "company",
+        "inventory",
+        "department",
+        "tracking"
+      ],
+      "exclusion_keywords": [
+        "home",
+        "personal"
+      ],
+      "why": "Asset management tools purchased by organizational users for internal inventory tracking systems"
+    },
+    {
+      "name": "Kanban Board Magnetic Whiteboard for Agile",
+      "category": "Office_Products",
+      "accuracy": 0.88,
+      "review_keywords": [
+        "agile",
+        "workflow",
+        "project management",
+        "team",
+        "sprint",
+        "visual"
+      ],
+      "context_keywords": [
+        "team",
+        "office",
+        "workflow",
+        "meetings"
+      ],
+      "exclusion_keywords": [
+        "home",
+        "personal"
+      ],
+      "why": "Project management visualization tool bought by organizational users for team workflow implementation"
+    },
+    {
+      "name": "Employee Badge Holder Lanyards Bulk 50 Pack",
+      "category": "Office_Products",
+      "accuracy": 0.87,
+      "review_keywords": [
+        "employee",
+        "identification",
+        "security",
+        "bulk",
+        "professional",
+        "company"
+      ],
+      "context_keywords": [
+        "employees",
+        "company",
+        "organization",
+        "office"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "individual"
+      ],
+      "why": "Bulk employee identification supplies purchased by organizational users for company security systems"
+    },
+    {
+      "name": "Visitor Management Sign-In Book",
+      "category": "Office_Products",
+      "accuracy": 0.86,
+      "review_keywords": [
+        "visitor",
+        "security",
+        "check-in",
+        "professional",
+        "compliance",
+        "tracking"
+      ],
+      "context_keywords": [
+        "office",
+        "visitors",
+        "security",
+        "company"
+      ],
+      "exclusion_keywords": [
+        "home",
+        "personal"
+      ],
+      "why": "Security and compliance tool purchased by organizational users for visitor tracking systems"
+    },
+    {
+      "name": "Industrial Label Printer Brother P-touch",
+      "category": "Electronics",
+      "accuracy": 0.85,
+      "review_keywords": [
+        "labeling",
+        "organization",
+        "inventory",
+        "professional",
+        "durability",
+        "workflow"
+      ],
+      "context_keywords": [
+        "office",
+        "organization",
+        "inventory",
+        "labeling"
+      ],
+      "exclusion_keywords": [
+        "home",
+        "craft"
+      ],
+      "why": "Professional labeling equipment bought by organizational users for internal organization and inventory systems"
+    },
+    {
+      "name": "Time Clock Machine for Employees",
+      "category": "Electronics",
+      "accuracy": 0.84,
+      "review_keywords": [
+        "time tracking",
+        "employee",
+        "payroll",
+        "attendance",
+        "professional",
+        "compliance"
+      ],
+      "context_keywords": [
+        "employees",
+        "payroll",
+        "company",
+        "attendance"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "home"
+      ],
+      "why": "Employee time tracking system purchased by organizational users for payroll and attendance management"
+    },
+    {
+      "name": "Suggestion Box with Lock",
+      "category": "Office_Products",
+      "accuracy": 0.83,
+      "review_keywords": [
+        "feedback",
+        "employee",
+        "suggestions",
+        "communication",
+        "improvement",
+        "anonymous"
+      ],
+      "context_keywords": [
+        "employees",
+        "feedback",
+        "company",
+        "workplace"
+      ],
+      "exclusion_keywords": [
+        "home",
+        "personal"
+      ],
+      "why": "Employee feedback collection tool bought by organizational users to gather internal improvement suggestions"
+    },
+    {
+      "name": "Safety Training Poster Set OSHA Compliant",
+      "category": "Office_Products",
+      "accuracy": 0.82,
+      "review_keywords": [
+        "safety",
+        "training",
+        "compliance",
+        "OSHA",
+        "workplace",
+        "regulations"
+      ],
+      "context_keywords": [
+        "workplace",
+        "compliance",
+        "safety",
+        "employees"
+      ],
+      "exclusion_keywords": [
+        "home",
+        "personal"
+      ],
+      "why": "Workplace safety materials purchased by organizational users for employee training and compliance requirements"
+    },
+    {
+      "name": "Conference Room Booking System Tablet Stand",
+      "category": "Electronics",
+      "accuracy": 0.81,
+      "review_keywords": [
+        "conference room",
+        "booking",
+        "scheduling",
+        "professional",
+        "meeting",
+        "display"
+      ],
+      "context_keywords": [
+        "conference room",
+        "meetings",
+        "office",
+        "scheduling"
+      ],
+      "exclusion_keywords": [
+        "home",
+        "personal"
+      ],
+      "why": "Meeting room management hardware bought by organizational users for internal space booking systems"
+    },
+    {
+      "name": "Employee Handbook Binder Set",
+      "category": "Office_Products",
+      "accuracy": 0.8,
+      "review_keywords": [
+        "employee handbook",
+        "policies",
+        "HR",
+        "professional",
+        "onboarding",
+        "compliance"
+      ],
+      "context_keywords": [
+        "employees",
+        "HR",
+        "policies",
+        "company"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "student"
+      ],
+      "why": "HR documentation supplies purchased by organizational users for employee onboarding and policy management"
+    },
+    {
+      "name": "Workflow Process Improvement Book",
+      "category": "Books",
+      "accuracy": 0.79,
+      "review_keywords": [
+        "process improvement",
+        "workflow",
+        "efficiency",
+        "organizational",
+        "implementation",
+        "change management"
+      ],
+      "context_keywords": [
+        "organization",
+        "process",
+        "team",
+        "implementation"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "academic"
+      ],
+      "why": "Business process books bought by organizational users seeking to implement operational improvements"
+    }
+  ],
+  "subreddits": [
+    {
+      "name": "sysadmin",
+      "relevance": 0.92,
+      "member_type": "80% IT professionals suggesting infrastructure improvements",
+      "data_value": "Feature requests for system management, automation needs, integration requirements",
+      "why": "IT professionals frequently discuss needed features and improvements for organizational systems"
+    },
+    {
+      "name": "BusinessIntelligence",
+      "relevance": 0.9,
+      "member_type": "85% data professionals requesting analytics features",
+      "data_value": "Dashboard requirements, reporting needs, data integration requests",
+      "why": "BI professionals share specific feature needs for organizational data analysis"
+    },
+    {
+      "name": "agile",
+      "relevance": 0.88,
+      "member_type": "75% project managers suggesting workflow improvements",
+      "data_value": "Process improvement ideas, tool feature requests, workflow optimization",
+      "why": "Agile practitioners discuss needed features for project management and team collaboration"
+    },
+    {
+      "name": "humanresources",
+      "relevance": 0.86,
+      "member_type": "70% HR professionals requesting system features",
+      "data_value": "Employee management features, compliance tools, onboarding improvements",
+      "why": "HR professionals share specific needs for employee management and organizational tools"
+    },
+    {
+      "name": "ProcessImprovement",
+      "relevance": 0.85,
+      "member_type": "80% operational staff suggesting efficiency features",
+      "data_value": "Workflow optimization ideas, automation requests, efficiency improvements",
+      "why": "Process improvement specialists focus on operational enhancements and feature suggestions"
+    },
+    {
+      "name": "SecurityCompliance",
+      "relevance": 0.84,
+      "member_type": "75% compliance officers requesting security features",
+      "data_value": "Security requirements, compliance features, audit tool needs",
+      "why": "Compliance professionals discuss specific security and regulatory feature requirements"
+    },
+    {
+      "name": "ProjectManagement",
+      "relevance": 0.82,
+      "member_type": "70% project managers suggesting tool improvements",
+      "data_value": "Project tracking features, collaboration tools, reporting requirements",
+      "why": "Project managers frequently request specific features for team and project management"
+    },
+    {
+      "name": "salesforce",
+      "relevance": 0.81,
+      "member_type": "65% CRM users suggesting customizations",
+      "data_value": "CRM feature requests, integration needs, workflow customizations",
+      "why": "Salesforce users actively discuss needed features and customizations for their organizations"
+    },
+    {
+      "name": "sharepoint",
+      "relevance": 0.8,
+      "member_type": "70% SharePoint admins requesting features",
+      "data_value": "Collaboration features, document management improvements, integration requests",
+      "why": "SharePoint administrators discuss specific organizational needs and feature improvements"
+    },
+    {
+      "name": "ITManagers",
+      "relevance": 0.79,
+      "member_type": "75% IT managers suggesting operational improvements",
+      "data_value": "Infrastructure needs, team management features, operational tool requests",
+      "why": "IT managers share specific needs for managing teams and organizational technology"
+    },
+    {
+      "name": "Office365",
+      "relevance": 0.78,
+      "member_type": "65% Office admins requesting features",
+      "data_value": "Productivity features, collaboration improvements, integration needs",
+      "why": "Office 365 administrators discuss organizational needs and missing features"
+    },
+    {
+      "name": "QualityAssurance",
+      "relevance": 0.77,
+      "member_type": "70% QA professionals suggesting process improvements",
+      "data_value": "Testing tool features, quality process improvements, compliance requirements",
+      "why": "QA professionals share specific needs for quality management and testing tools"
+    },
+    {
+      "name": "ChangeManagement",
+      "relevance": 0.76,
+      "member_type": "75% change managers requesting implementation features",
+      "data_value": "Change tracking features, stakeholder management tools, process improvements",
+      "why": "Change management professionals discuss needed features for organizational transitions"
+    },
+    {
+      "name": "WorkplaceProductivity",
+      "relevance": 0.75,
+      "member_type": "68% operations staff suggesting efficiency tools",
+      "data_value": "Productivity features, workflow automation, efficiency improvements",
+      "why": "Operations professionals share ideas for improving workplace productivity and efficiency"
+    },
+    {
+      "name": "EnterpriseIT",
+      "relevance": 0.74,
+      "member_type": "72% enterprise IT professionals requesting features",
+      "data_value": "Enterprise tool requirements, scalability needs, integration requests",
+      "why": "Enterprise IT professionals discuss specific needs for large-scale organizational tools"
+    }
+  ],
+  "demographic_profile": {
+    "core_keywords": [
+      "workflow",
+      "implementation",
+      "integration",
+      "organization",
+      "team",
+      "department",
+      "efficiency",
+      "compliance",
+      "automation",
+      "scalability",
+      "deployment",
+      "stakeholders",
+      "process",
+      "operational",
+      "enterprise"
+    ],
+    "exclusion_keywords": [
+      "personal",
+      "home",
+      "individual",
+      "hobby",
+      "student",
+      "family",
+      "casual",
+      "entertainment"
+    ],
+    "age_range": "25-55",
+    "primary_motivations": [
+      "operational efficiency",
+      "team collaboration",
+      "compliance requirements",
+      "process improvement"
+    ],
+    "summary": "These are professionals working within organizations who identify gaps in current systems and propose solutions based on their daily operational experience. They are driven by the need to improve team productivity, meet compliance requirements, and streamline workflows for better organizational outcomes. Their frustrations center around tools that don't integrate well with existing systems, lack customization options, or don't scale to meet their specific organizational needs."
+  }
+}

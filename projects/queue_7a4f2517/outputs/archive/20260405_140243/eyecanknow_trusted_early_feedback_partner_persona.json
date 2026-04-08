@@ -1,0 +1,233 @@
+{
+  "id": "trusted_early_feedback_partner",
+  "label": "Trusted Early Feedback Partner",
+  "segment": {
+    "role": "Professional tester/QA specialist who provides early-stage feedback on products",
+    "tech_savviness": "high",
+    "price_sensitivity": "medium",
+    "risk_tolerance": "low",
+    "context": "They work with multiple companies as a trusted feedback partner, participating in iterative development cycles. Their livelihood depends on reliable tools and platforms, making them extremely sensitive to technical issues that waste their time or damage their professional reputation."
+  },
+  "goals": [
+    {
+      "goal": "Find testing platforms with reliable software that won't crash during sessions",
+      "priority": 5
+    },
+    {
+      "goal": "Evaluate products for clear feature descriptions without hidden limitations",
+      "priority": 4
+    },
+    {
+      "goal": "Identify tools with responsive customer support for technical issues",
+      "priority": 4
+    },
+    {
+      "goal": "Locate platforms with efficient screening processes that respect their time",
+      "priority": 3
+    },
+    {
+      "goal": "Find products with transparent pricing and fair compensation structures",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Cannot afford to use tools that frequently crash during professional work (Technical Reliability Issues)",
+    "Must avoid platforms with poor customer support when critical bugs arise (Technical Reliability Issues)",
+    "Cannot waste time on buggy testing software without compensation (Platform Frustration)",
+    "Must avoid products with misleading functionality descriptions that break after updates (Technical Reliability Issues)",
+    "Cannot use tools with overly complex setup processes that delay project timelines (Platform Frustration)"
+  ],
+  "decision_weights": {
+    "positive_recommendations_highlighting_strengths": 0.222,
+    "high_bug_likelihood_making_unusable": 0.111,
+    "poor_customer_support_when_issues_arise": 0.111,
+    "frustrating_installation_setup_processes": 0.111,
+    "misleading_time_compensation_estimates": 0.111,
+    "ignored_feedback_not_acknowledged": 0.111,
+    "updates_breaking_existing_functionality": 0.111,
+    "inefficient_screening_wasting_time": 0.111
+  },
+  "behavioral_rules": [
+    "Immediately checks user reviews for mentions of bugs, crashes, or stability issues before considering any product",
+    "Abandons signup process if software installation requires complex activation steps or unclear permissions",
+    "Exits product pages that don't clearly specify technical requirements or compatibility information",
+    "Skips platforms that require lengthy demographic screening before showing actual testing opportunities",
+    "Refuses to proceed if customer support contact information is hidden or difficult to find",
+    "Abandons tools that show signs of poor maintenance like broken links or outdated interface elements",
+    "Will not use products that require forced upgrades or have history of removing features in updates",
+    "Immediately leaves if compensation structure is unclear or if there are reports of non-payment",
+    "Avoids products with excessive in-app purchase requirements for basic functionality",
+    "Stops evaluation if product demos or trial versions crash or perform unreliably"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.294,
+    "trust_starting_point": 0.425,
+    "frustration_decay": 0.32
+  },
+  "deal_breakers": [
+    "High likelihood of bugs and glitches making the product unusable",
+    "Poor or non-existent customer support when issues arise",
+    "Product updates break existing functionality",
+    "Unreliable or buggy testing software/recorder that fails and wastes time without compensation",
+    "Extremely frustrating installation and setup processes"
+  ],
+  "voice_sample": "I need testing tools that actually work reliably - I can't afford to deal with buggy, unstable software that crashes frequently during client sessions. When I'm providing professional feedback, the last thing I need is critical features not working or software that corrupts data requiring mysterious rebuilds. I've been burned too many times by companies that seem to be abandoning product quality and not investing in fixes. What really frustrates me is poor or missing customer support for complex technical issues - when something breaks during a critical testing session, I need effective, responsive customer support that actually solves problems. I'm looking for clear value for money with fair pricing and no excessive nickel-and-diming, plus tools that integrate seamlessly without forcing me into unwanted upgrades that break functionality.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 15,
+    "pages_before_decision": 8,
+    "tab_behavior": "Opens multiple tabs to compare user reviews, technical specs, and support documentation simultaneously",
+    "primary_device": "Desktop computer with multiple monitors for efficient comparison research",
+    "time_of_day": "Late afternoon during work hours when evaluating tools for current projects"
+  },
+  "purchase_journey": {
+    "discovery": "Finds products through professional networks, testing platform recommendations, and targeted searches for specific technical capabilities",
+    "evaluation": "Reviews technical specifications first, then user feedback about reliability, followed by customer support options and pricing transparency",
+    "decision_moment": "Commits when they find clear evidence of software stability, responsive support, and positive reviews from other testing professionals",
+    "post_purchase_expectation": "Expects immediate access to reliable software with comprehensive documentation and responsive technical support when needed"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Clear evidence of software reliability and stability in reviews",
+      "Responsive customer support with specific examples of problem resolution",
+      "Transparent pricing with no hidden fees or forced upgrade paths",
+      "Positive recommendations from other testing professionals highlighting specific strengths"
+    ],
+    "abandons_when": [
+      "Multiple reports of bugs, crashes, or instability issues",
+      "Evidence of poor customer support or unresolved technical problems",
+      "Complex installation processes or unclear technical requirements",
+      "Signs of forced upgrades or features being removed in updates"
+    ],
+    "trusts_when": [
+      "Detailed technical documentation and clear system requirements",
+      "Evidence of regular bug fixes and responsive development team",
+      "Clear compensation structure with transparent time estimates",
+      "Professional user interface with intuitive design and manageable learning curve"
+    ],
+    "becomes_suspicious_when": [
+      "Lack of recent updates or signs of abandoned development",
+      "Hidden customer support contact information",
+      "Vague feature descriptions or missing technical specifications",
+      "Reports of data corruption or security issues"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Buggy, unstable software that crashes frequently or performs unreliably",
+      "Critical features not working (e.g., OCR copy text locking up)",
+      "Effective, responsive customer support that solves problems",
+      "Clear, intuitive user interfaces and manageable learning curves in software tools",
+      "Fair compensation for time and effort\u2014clear pay for work done without risk of non-payment",
+      "Company perceived as abandoning product quality or not investing in fixes"
+    ],
+    "resonates_with": [
+      "Proven reliability and stability",
+      "Professional-grade technical support",
+      "Transparent processes and fair compensation",
+      "Comprehensive documentation and training"
+    ],
+    "turned_off_by": [
+      "Beta-quality software sold as finished product",
+      "Unresponsive or threatening customer service",
+      "Hidden costs or forced upgrade requirements",
+      "Overly complex setup procedures"
+    ]
+  },
+  "inner_monologue_samples": [
+    "The pricing looks reasonable, but I need to make sure there aren't any hidden fees or forced upgrade requirements that will hit me later when I'm in the middle of a project.",
+    "These reviews from other testers are encouraging - they specifically mention the software being stable and the support team actually responding to technical issues quickly.",
+    "This interface looks way too complicated for what should be a simple testing tool. If I can't figure out the navigation easily, it's going to waste time I should be spending on actual feedback.",
+    "They want way too much personal information just to see the platform. I'm not filling out lengthy, inefficient screening processes that waste my time before I even know if this is worth it.",
+    "Finally, a tool that actually does what it says it will do. Clear features, reliable performance, and the customer support actually helped when I had that configuration issue last week."
+  ],
+  "anti_patterns": [
+    "Assuming they'll tolerate buggy software - contradicts their core need for reliability in professional work (Technical Reliability Issues)",
+    "Hiding customer support options - contradicts their requirement for responsive technical help (Technical Reliability Issues)",
+    "Using vague feature descriptions - contradicts their need for clear, transparent product information (Platform Frustration)",
+    "Requiring lengthy signup processes upfront - contradicts their frustration with inefficient screening (Platform Frustration)",
+    "Downplaying technical requirements - contradicts their need for compatibility assurance (Technical Reliability Issues)"
+  ],
+  "traits": [
+    {
+      "label": "Technical Reliability Issues",
+      "description": "Users are frustrated by persistent software bugs, crashes, and instability that prevent basic functionality, often exacerbated by poor customer support when problems arise.",
+      "key_phrases": [
+        "High likelihood of bugs and glitches making the product unusable",
+        "Software instability and frequent crashes",
+        "Critical bugs that prevent basic functionality",
+        "Persistent bugs or crashes that hinder core functionality",
+        "Product updates break existing functionality"
+      ],
+      "frequency": 0.778,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Platform Frustration",
+      "description": "Users express frustration with unreliable, buggy testing platforms that waste their time with technical failures, poorly designed tests, and unfair compensation. They desire efficient, respectful experiences with reliable software and transparent processes.",
+      "key_phrases": [
+        "Unreliable or buggy testing software/recorder that fails and wastes time without compensation",
+        "Poorly designed, overly long screeners that ask repetitive or irrelevant demographic questions",
+        "Buggy or unreliable testing software/app that breaks (e.g., login failures, recording issues)"
+      ],
+      "frequency": 0.204,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Open Evaluator",
+      "description": "A customer segment that does not express strong negative or positive signals prior to purchase, but is actively evaluating options based on a moderate willingness to navigate potential purchase hurdles.",
+      "key_phrases": [
+        "No specific pain points expressed",
+        "No specific desired outcomes expressed",
+        "No specific deal-breakers or purchase triggers expressed"
+      ],
+      "frequency": 0.019,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_2"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 8,
+    "total": 1620,
+    "avg_rating": 3.43,
+    "avg_length": 787,
+    "rating_distribution": {
+      "1": 239,
+      "2": 117,
+      "4": 263,
+      "5": 511,
+      "3": 490
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 420
+    },
+    "n_products": 5,
+    "top_products": {
+      "unknown": 420,
+      "Loom Pro Screen Recording Software": 300,
+      "UserTesting Platform Credits": 300,
+      "Figma Pro Subscription": 300,
+      "Notion Pro Template for Product Testing": 300
+    },
+    "low_rating_pct": 0.22,
+    "high_rating_pct": 0.478,
+    "n_sources": 2,
+    "issues": [
+      "Platform bias: amazon is 74% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 54
+  },
+  "demographic_description": "A user or partner selected for early-stage validation who provides feedback during testing. Participates in iterative product development cycles. Interaction is more consistent than general outreach users.",
+  "generated_at": "2026-04-05T06:03:35.436551",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "0% grounded in cluster data",
+    "cluster_stability": "moderate"
+  }
+}

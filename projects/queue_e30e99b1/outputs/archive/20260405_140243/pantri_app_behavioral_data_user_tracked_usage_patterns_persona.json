@@ -1,0 +1,231 @@
+{
+  "id": "behavioral_data_user_(tracked_usage_patterns)",
+  "label": "Behavioral Data User (Tracked Usage Patterns)",
+  "segment": {
+    "role": "Technical professional managing business intelligence and analytics systems",
+    "tech_savviness": "high",
+    "price_sensitivity": "medium",
+    "risk_tolerance": "low",
+    "context": "They work with complex software systems daily and have become hyper-sensitive to reliability issues after experiencing frequent crashes and data integrity problems. Their decision-making is heavily influenced by past negative experiences with buggy software and unreliable AI outputs that have caused professional setbacks."
+  },
+  "goals": [
+    {
+      "goal": "Find software with proven reliability and minimal crash incidents",
+      "priority": 5
+    },
+    {
+      "goal": "Verify AI accuracy and deterministic outputs before implementation",
+      "priority": 5
+    },
+    {
+      "goal": "Assess real-time performance monitoring and system stability",
+      "priority": 4
+    },
+    {
+      "goal": "Evaluate data integrity and error reporting capabilities",
+      "priority": 4
+    },
+    {
+      "goal": "Research compatibility across different devices and platforms",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Must verify software stability metrics before considering purchase (from Software Reliability Crisis cluster)",
+    "Requires extensive documentation on AI accuracy and error handling (from AI Reliability & Trust Gap cluster)",
+    "Cannot commit to products without clear technical performance data (from reliability pain points)",
+    "Needs transparent pricing without hidden upgrade costs (from cost-related frustrations)"
+  ],
+  "decision_weights": {
+    "product_reliability": 0.125,
+    "platform_compatibility": 0.125,
+    "feature_complexity_management": 0.125,
+    "user_interface_quality": 0.125,
+    "marketing_accuracy": 0.125,
+    "data_quality_handling": 0.125,
+    "technical_learning_curve": 0.125,
+    "pricing_transparency": 0.125
+  },
+  "behavioral_rules": [
+    "Immediately searches for system status pages and uptime statistics when evaluating software",
+    "Exits product pages that lack technical specifications or performance benchmarks",
+    "Spends extra time reading negative reviews specifically about crashes and bugs",
+    "Cross-references multiple review sources before trusting any software stability claims",
+    "Abandons consideration if AI features lack clear accuracy metrics or error handling documentation",
+    "Requires viewing actual product demos or trials before making any purchase decision",
+    "Checks compatibility documentation across all devices they use before proceeding",
+    "Looks for detailed changelogs and update policies to assess ongoing stability",
+    "Seeks out technical forums and user communities to verify real-world performance",
+    "Prioritizes vendors with transparent incident reporting and resolution processes"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.328,
+    "trust_starting_point": 0.733,
+    "frustration_decay": 0.32
+  },
+  "deal_breakers": [
+    "Software with known frequent crashes or instability issues",
+    "AI systems that cannot provide accuracy guarantees or error traceability",
+    "Products requiring forced upgrades for basic compatibility",
+    "Hidden pricing that requires signup to view costs",
+    "Lack of real-time system performance monitoring capabilities"
+  ],
+  "voice_sample": "I've been burned too many times by software that looks great in demos but falls apart in production. The last analytics platform we deployed had critical data errors in financial reports that cost us weeks of corrections and nearly damaged client relationships. Now I'm extremely cautious about any system that can't show me clear evidence of product effectiveness and measurable ROI. I need accurate and reliable data reporting without errors - I can't afford another situation where buggy and unreliable software with sporadic performance undermines our core operations. When evaluating AI tools, I'm particularly concerned about AI hallucinations and made-up outputs that undermine trust, especially since we deal with financial calculations where accuracy is non-negotiable.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 45,
+    "pages_before_decision": 12,
+    "tab_behavior": "Opens multiple tabs to cross-reference technical specs, reviews, and competitor comparisons simultaneously",
+    "primary_device": "Desktop workstation with multiple monitors for detailed technical evaluation",
+    "time_of_day": "Early morning or late evening when they can focus without interruptions"
+  },
+  "purchase_journey": {
+    "discovery": "Finds products through technical forums, peer recommendations, and industry-specific review sites rather than general marketing",
+    "evaluation": "Reviews technical documentation first, then system requirements, followed by stability metrics, user reviews about crashes, and finally pricing",
+    "decision_moment": "Reaches decision only after seeing concrete uptime data, trying demos, and finding multiple verified references about reliability",
+    "post_purchase_expectation": "Expects immediate access to system monitoring tools, responsive technical support, and transparent incident communication"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Clear visibility into system performance and resource usage is demonstrated",
+      "Accurate and reliable data reporting without errors is proven",
+      "Cost-effective solutions that provide good value for money are evident",
+      "Clean data integration and transformation layers are available"
+    ],
+    "abandons_when": [
+      "Frequent crashes or instability are reported by users",
+      "Bug-laden software causing stress is evident in reviews",
+      "Poor technical performance on devices is documented",
+      "Complex, overwhelming software with high learning curves is apparent"
+    ],
+    "trusts_when": [
+      "Clear evidence of product effectiveness and value with measurable ROI is shown",
+      "Automated, reliable data analysis that reduces manual verification is proven",
+      "Clear, honest communication about product changes and pricing is demonstrated",
+      "Data integrity and accurate reporting capabilities are verified"
+    ],
+    "becomes_suspicious_when": [
+      "AI hallucinations and non-deterministic outputs are mentioned",
+      "Lack of trust in AI accuracy for critical calculations is indicated",
+      "Being forced to pay for upgrades for basic compatibility is required",
+      "Confusing or misleading UI that hinders functionality is present"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Accurate and reliable data reporting without errors",
+      "Clear evidence of product effectiveness and value (measurable ROI)",
+      "Buggy and unreliable software with sporadic performance",
+      "Data integrity and accurate reporting/calculations",
+      "Clear visibility into system performance and resource usage",
+      "Cost-effective solutions that provide good value for money"
+    ],
+    "resonates_with": [
+      "Enterprise-grade reliability and uptime guarantees",
+      "Transparent performance metrics and monitoring",
+      "Proven track record with measurable business outcomes",
+      "Comprehensive error handling and data validation"
+    ],
+    "turned_off_by": [
+      "Revolutionary AI breakthrough claims",
+      "One-size-fits-all solutions",
+      "Limited-time offers with pressure tactics",
+      "Vague performance promises without specifics"
+    ]
+  },
+  "inner_monologue_samples": [
+    "They're not showing any uptime statistics or system performance data - that's a red flag. I need clear visibility into system performance and resource usage before I can even consider this.",
+    "These testimonials look good, but I need to see some actual evidence. Where are the case studies with measurable ROI? I can't justify another purchase without clear evidence of product effectiveness and value.",
+    "This interface looks confusing already. The last thing I need is difficulty navigating or changing workflows mid-session when we're under deadline pressure.",
+    "Another signup form asking for company details before I can even see the pricing. I'm not giving up our information just to find out this is another overpriced solution with hidden upgrade costs.",
+    "Finally, a vendor that actually shows their incident response process and has detailed technical documentation. This looks like they understand what accurate and reliable data reporting without errors actually means."
+  ],
+  "anti_patterns": [
+    "Assuming flashy marketing demos indicate software stability (contradicts Software Reliability Crisis cluster showing users prioritize proven performance over presentations)",
+    "Rushing through technical evaluation phases (contradicts low frustration_decay showing they need time to build confidence)",
+    "Promoting AI capabilities without accuracy guarantees (contradicts AI Reliability & Trust Gap cluster showing deep skepticism about AI errors)",
+    "Using generic business benefits language instead of specific technical metrics (contradicts high tech_savviness and need for concrete performance data)"
+  ],
+  "traits": [
+    {
+      "label": "Software Reliability Crisis",
+      "description": "Users are experiencing fundamental breakdowns in software stability, with frequent crashes, bugs, and technical failures that undermine core functionality and create stress.",
+      "key_phrases": [
+        "Frequent crashes or instability",
+        "Bug-laden software causing stress",
+        "Product reliability issues causing app crashes",
+        "Poor technical performance of games on devices",
+        "Buggy and unreliable software with sporadic performance"
+      ],
+      "frequency": 0.5,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "AI Reliability & Trust Gap",
+      "description": "Users express significant concern about AI errors, hallucinations, and non-deterministic outputs that undermine trust and require extensive manual oversight, while desiring reliable, traceable, and deterministic AI tools that can safely boost productivity.",
+      "key_phrases": [
+        "AI hallucinations and made-up outputs that undermine trust",
+        "Non-deterministic AI outputs that are unpredictable and lack traceability",
+        "Lack of trust in AI accuracy and hallucinations, especially for critical calculations"
+      ],
+      "frequency": 0.475,
+      "tone": "cautious",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Neutral Consideration",
+      "description": "This cluster represents users who show a balanced, moderate level of engagement with purchase friction\u2014willing to evaluate and tolerate some hurdles but are not strongly driven by pain points, desires, or decisive triggers.",
+      "key_phrases": [
+        "friction tolerance: medium",
+        "no strong pain points or triggers",
+        "balanced evaluation stance"
+      ],
+      "frequency": 0.025,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_2"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 8,
+    "total": 2400,
+    "avg_rating": 3.4,
+    "avg_length": 663,
+    "rating_distribution": {
+      "5": 661,
+      "3": 1128,
+      "4": 257,
+      "1": 266,
+      "2": 88
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 1200
+    },
+    "n_products": 7,
+    "top_products": {
+      "unknown": 1200,
+      "Business Intelligence Dashboard Software - Tableau Server": 200,
+      "A/B Testing Platform - Optimizely Enterprise": 200,
+      "Analytics Software License - Google Analytics 360": 200,
+      "Customer Data Platform - Segment Business Tier": 200
+    },
+    "low_rating_pct": 0.147,
+    "high_rating_pct": 0.383,
+    "n_sources": 2,
+    "issues": [
+      "Platform bias: amazon is 50% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 80
+  },
+  "demographic_description": "A user whose activity is tracked through system data such as bookings and interactions. Feedback is inferred from observed behavior rather than direct input. Interaction is passive and data-driven.",
+  "generated_at": "2026-04-05T10:39:28.203200",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "20% grounded in cluster data",
+    "cluster_stability": "low"
+  }
+}

@@ -1,0 +1,105 @@
+{"review_id": "cluster_3_b0_pp0", "trait_label": "Core Functionality & Support Reliability", "text": "Frustration with products requiring technical knowledge of tools like GitHub for non-technical roles", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_pp1", "trait_label": "Core Functionality & Support Reliability", "text": "Annoyance at products with poor user interfaces or unclear error messages (e.g., GUI elements off-screen, validation errors not specified)", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_pp2", "trait_label": "Core Functionality & Support Reliability", "text": "Dissatisfaction with customer support being unresponsive or ineffective", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_do0", "trait_label": "Core Functionality & Support Reliability", "text": "Efficiently manage tasks and data without needing to code", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_do1", "trait_label": "Core Functionality & Support Reliability", "text": "Clear, intuitive user interfaces that work across devices", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_pp0", "trait_label": "Core Functionality & Support Reliability", "text": "Critical data loss or corruption during use", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_pp1", "trait_label": "Core Functionality & Support Reliability", "text": "Misleading or inaccurate product descriptions leading to purchase mistakes", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_pp2", "trait_label": "Core Functionality & Support Reliability", "text": "Poor or unresponsive customer support", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_do0", "trait_label": "Core Functionality & Support Reliability", "text": "Reliable, error-free data handling and conversion", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_do1", "trait_label": "Core Functionality & Support Reliability", "text": "Accurate and honest product descriptions", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_pp0", "trait_label": "Core Functionality & Support Reliability", "text": "Inability to find adequate alternatives for specific use cases (e.g., Mac users needing PC software)", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_pp1", "trait_label": "Core Functionality & Support Reliability", "text": "Lack of clear value in new software versions (perceived unnecessary upgrades)", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_pp2", "trait_label": "Core Functionality & Support Reliability", "text": "Poor technical support and troubleshooting difficulties", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_do0", "trait_label": "Core Functionality & Support Reliability", "text": "Seamless cross-platform software compatibility", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_do1", "trait_label": "Core Functionality & Support Reliability", "text": "Clear, valuable upgrades with noticeable feature improvements", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_pp0", "trait_label": "Core Functionality & Support Reliability", "text": "Outdated software lacking compatibility with modern systems", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_pp1", "trait_label": "Core Functionality & Support Reliability", "text": "Poor product updates causing performance degradation", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_pp2", "trait_label": "Core Functionality & Support Reliability", "text": "Confusing or insufficient onboarding documentation", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_do0", "trait_label": "Core Functionality & Support Reliability", "text": "Automate repetitive analysis tasks to save time", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_do1", "trait_label": "Core Functionality & Support Reliability", "text": "Access real-time, detailed data and statistics", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_pp0", "trait_label": "Core Functionality & Support Reliability", "text": "Software is buggy, unreliable, and crashes frequently", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_pp1", "trait_label": "Core Functionality & Support Reliability", "text": "Customer support is unhelpful, with long wait times and ineffective solutions", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_pp2", "trait_label": "Core Functionality & Support Reliability", "text": "High cost for poor performance, feeling like a waste of money", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_do0", "trait_label": "Core Functionality & Support Reliability", "text": "Software that works reliably without crashes or hangs", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_do1", "trait_label": "Core Functionality & Support Reliability", "text": "Reduce pain from typing through effective speech recognition", "tone": "frustrated"}
+{"review_id": "cluster_4_b0_pp0", "trait_label": "Core Functionality Failure", "text": "Frequent login/access issues preventing use (app launches browser, login fails with 'access revoked' or 'not found')", "tone": "frustrated"}
+{"review_id": "cluster_4_b0_pp1", "trait_label": "Core Functionality Failure", "text": "App instability and bugs after updates (freezing, hanging, crashing, tickets not opening, broken features)", "tone": "frustrated"}
+{"review_id": "cluster_4_b0_pp2", "trait_label": "Core Functionality Failure", "text": "Inadequate customer support (unresolved issues, slow/no responses, contradictory messages)", "tone": "frustrated"}
+{"review_id": "cluster_4_b0_do0", "trait_label": "Core Functionality Failure", "text": "Reliable mobile access to manage tickets away from desktop", "tone": "frustrated"}
+{"review_id": "cluster_4_b0_do1", "trait_label": "Core Functionality Failure", "text": "Stable app with consistent performance across updates and devices", "tone": "frustrated"}
+{"review_id": "cluster_4_b1_pp0", "trait_label": "Core Functionality Failure", "text": "App freezes or crashes frequently on mobile/tablet devices.", "tone": "frustrated"}
+{"review_id": "cluster_4_b1_pp1", "trait_label": "Core Functionality Failure", "text": "Login/sign-up issues (Google, Microsoft) causing inability to access the app.", "tone": "frustrated"}
+{"review_id": "cluster_4_b1_pp2", "trait_label": "Core Functionality Failure", "text": "Performance issues: slow loading, lag, high RAM usage, device overheating.", "tone": "frustrated"}
+{"review_id": "cluster_4_b1_do0", "trait_label": "Core Functionality Failure", "text": "Reliable, stable app that works seamlessly across devices.", "tone": "frustrated"}
+{"review_id": "cluster_4_b1_do1", "trait_label": "Core Functionality Failure", "text": "Feature parity between mobile/tablet and desktop versions.", "tone": "frustrated"}
+{"review_id": "cluster_4_b2_pp0", "trait_label": "Core Functionality Failure", "text": "Critical bugs making the app crash or unusable (crash on launch, infinite loading, text rendering)", "tone": "frustrated"}
+{"review_id": "cluster_4_b2_pp1", "trait_label": "Core Functionality Failure", "text": "Severe mobile app functionality gaps compared to desktop/web (can't edit text, missing features like stylus support, no password-protected boards)", "tone": "frustrated"}
+{"review_id": "cluster_4_b2_pp2", "trait_label": "Core Functionality Failure", "text": "Unfair/unexpected billing practices (auto-charging for shared users without clear consent, no refunds after renewal)", "tone": "frustrated"}
+{"review_id": "cluster_4_b2_do0", "trait_label": "Core Functionality Failure", "text": "Reliable, bug-free mobile app that matches desktop/web functionality", "tone": "frustrated"}
+{"review_id": "cluster_4_b2_do1", "trait_label": "Core Functionality Failure", "text": "Clear, transparent pricing and billing with consent and refund options", "tone": "frustrated"}
+{"review_id": "cluster_4_b3_pp0", "trait_label": "Core Functionality Failure", "text": "Login failures and account access issues", "tone": "frustrated"}
+{"review_id": "cluster_4_b3_pp1", "trait_label": "Core Functionality Failure", "text": "App crashes and severe performance bugs requiring phone restarts", "tone": "frustrated"}
+{"review_id": "cluster_4_b3_pp2", "trait_label": "Core Functionality Failure", "text": "No offline access to view boards", "tone": "frustrated"}
+{"review_id": "cluster_4_b3_do0", "trait_label": "Core Functionality Failure", "text": "Reliable login and account access", "tone": "frustrated"}
+{"review_id": "cluster_4_b3_do1", "trait_label": "Core Functionality Failure", "text": "Stable app performance without crashes or severe bugs", "tone": "frustrated"}
+{"review_id": "cluster_4_b4_pp0", "trait_label": "Core Functionality Failure", "text": "App crashes frequently or freezes when using boards", "tone": "frustrated"}
+{"review_id": "cluster_4_b4_pp1", "trait_label": "Core Functionality Failure", "text": "Unable to sign in or authentication failures", "tone": "frustrated"}
+{"review_id": "cluster_4_b4_pp2", "trait_label": "Core Functionality Failure", "text": "Poor mobile experience with missing features compared to desktop", "tone": "frustrated"}
+{"review_id": "cluster_4_b4_do0", "trait_label": "Core Functionality Failure", "text": "Stable app that doesn't crash or freeze", "tone": "frustrated"}
+{"review_id": "cluster_4_b4_do1", "trait_label": "Core Functionality Failure", "text": "Full mobile feature parity with desktop version", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp0", "trait_label": "Career-Impact Inefficiency", "text": "Lack of decision-making power despite full responsibility", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp1", "trait_label": "Career-Impact Inefficiency", "text": "Excessive meetings and bureaucratic overhead", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp2", "trait_label": "Career-Impact Inefficiency", "text": "Engineers building features without validation or user feedback", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_do0", "trait_label": "Career-Impact Inefficiency", "text": "Ability to influence product direction with data-driven decisions", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_do1", "trait_label": "Career-Impact Inefficiency", "text": "Clear business requirements and stakeholder alignment", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp0", "trait_label": "Career-Impact Inefficiency", "text": "Communication overhead and cross-team coordination becoming burdensome at scale.", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp1", "trait_label": "Career-Impact Inefficiency", "text": "Lack of effective bridge/translation between technical and non-technical stakeholders, leading to superficial adoption of frameworks.", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp2", "trait_label": "Career-Impact Inefficiency", "text": "Top-down implementation of processes without understanding team context or real problems.", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_do0", "trait_label": "Career-Impact Inefficiency", "text": "Make work visible and predictable to management and stakeholders.", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_do1", "trait_label": "Career-Impact Inefficiency", "text": "Have a dedicated role (Product Owner/onsite customer) to bring business context inside the team.", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp0", "trait_label": "Career-Impact Inefficiency", "text": "Technical issues not resolved by support, leading to abandonment", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp1", "trait_label": "Career-Impact Inefficiency", "text": "Excessive process overhead from management (e.g., Scrum ceremonies) that feels unnecessary and slows down work", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp2", "trait_label": "Career-Impact Inefficiency", "text": "Lack of visibility/transparency into progress causing management to impose control measures", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_do0", "trait_label": "Career-Impact Inefficiency", "text": "Effective and responsive technical support that resolves issues quickly", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_do1", "trait_label": "Career-Impact Inefficiency", "text": "Process that adds value and improves predictability without excessive overhead, tailored to team needs", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp0", "trait_label": "Career-Impact Inefficiency", "text": "Scrum master role becoming a 'ceremony police' rather than a facilitator, making processes feel like drudgery", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp1", "trait_label": "Career-Impact Inefficiency", "text": "Ceremonies are seen as blockers to productivity, consuming too much time and preventing actual work", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp2", "trait_label": "Career-Impact Inefficiency", "text": "Unreliable software that stops working without warning, causing data backup failures", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_do0", "trait_label": "Career-Impact Inefficiency", "text": "Agile processes that are truly adaptive and owned by the team, not just ceremonial", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_do1", "trait_label": "Career-Impact Inefficiency", "text": "Reliable, 'set-it-and-forget-it' software that works consistently without manual intervention", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp0", "trait_label": "Career-Impact Inefficiency", "text": "Lack of visibility and trust from management into progress and certainty", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp1", "trait_label": "Career-Impact Inefficiency", "text": "Excessive process overhead and ceremony creating illusions of control without real improvement", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp2", "trait_label": "Career-Impact Inefficiency", "text": "Poor communication from product teams to stakeholders and leadership", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_do0", "trait_label": "Career-Impact Inefficiency", "text": "Proactive, clear communication to build management trust and provide certainty", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_do1", "trait_label": "Career-Impact Inefficiency", "text": "Visibility into progress without unnecessary ceremony or process overhead", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp0", "trait_label": "Value Betrayal", "text": "Unable to download certificate after completing course despite paying", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp1", "trait_label": "Value Betrayal", "text": "Payment issues (payment failure reported but bank shows payment, no refund)", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp2", "trait_label": "Value Betrayal", "text": "Subscription or pro version lacking promised content (no additional courses/learning materials)", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_do0", "trait_label": "Value Betrayal", "text": "Receive certificate upon course completion", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_do1", "trait_label": "Value Betrayal", "text": "Access comprehensive, continuous learning materials after subscription/pro purchase", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp0", "trait_label": "Value Betrayal", "text": "Certificate issuance or access is broken (e.g., button doesn't work, can't download/share)", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp1", "trait_label": "Value Betrayal", "text": "Pro/subscription value unclear or misleading (e.g., no additional content, certificate is 'WORTHLESS')", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp2", "trait_label": "Value Betrayal", "text": "Poor audio quality (e.g., robot/AI voice, no teaching sound)", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_do0", "trait_label": "Value Betrayal", "text": "Receive a valid, shareable certificate upon course completion", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_do1", "trait_label": "Value Betrayal", "text": "Clear, high-quality audio (real human voice) for lessons", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp0", "trait_label": "Value Betrayal", "text": "Certificate only available after paying for a Pro subscription despite being told it's free after course completion.", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp1", "trait_label": "Value Betrayal", "text": "App crashes frequently, especially after completing tests or during usage.", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp2", "trait_label": "Value Betrayal", "text": "Paid for Pro/Lifetime membership but still locked out of content or asked to pay again.", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_do0", "trait_label": "Value Betrayal", "text": "Receive a certificate upon completing a course without hidden fees.", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_do1", "trait_label": "Value Betrayal", "text": "Stable app performance with no crashes.", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp0", "trait_label": "Value Betrayal", "text": "Unable to access content after paying for pro version (blank screen)", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp1", "trait_label": "Value Betrayal", "text": "Feeling misled about certificate credibility and refund processes", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp2", "trait_label": "Value Betrayal", "text": "Essential features locked behind paywall, limiting learning", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_do0", "trait_label": "Value Betrayal", "text": "Learn data science concepts in a simplified, easy-to-understand way", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_do1", "trait_label": "Value Betrayal", "text": "Have a structured, systematic course with step-by-step tutorials", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp0", "trait_label": "Value Betrayal", "text": "Certificate not issued after completing course", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp1", "trait_label": "Value Betrayal", "text": "App inaccessible after sign-up or login", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp2", "trait_label": "Value Betrayal", "text": "Paid Pro subscription issues (revert, blank dashboard)", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_do0", "trait_label": "Value Betrayal", "text": "Receive certificate upon completion", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_do1", "trait_label": "Value Betrayal", "text": "Access content reliably after sign-up", "tone": "frustrated"}
+{"review_id": "monologue_3c34b7", "trait_label": "Inner Monologue", "text": "Enterprise pricing but I need to see if this actually delivers ROI through time savings - can't justify another tool that creates more administrative overhead", "tone": "authentic_voice"}
+{"review_id": "monologue_58b187", "trait_label": "Inner Monologue", "text": "Good customer reviews but I've been burned by pro features that don't work as advertised - need to test the free trial thoroughly first", "tone": "authentic_voice"}
+{"review_id": "monologue_b868f3", "trait_label": "Inner Monologue", "text": "Interface looks clean but I need to verify those GUI elements actually work properly and error messages are clear - can't afford debugging time", "tone": "authentic_voice"}
+{"review_id": "monologue_69bbc7", "trait_label": "Inner Monologue", "text": "Signup form is asking for too much information upfront - this better not be another tool that requires GitHub knowledge for basic PM tasks", "tone": "authentic_voice"}
+{"review_id": "monologue_966305", "trait_label": "Inner Monologue", "text": "Finally, a platform that shows real-time detailed data capabilities and seems to understand that PMs need strategic influence, not just metrics", "tone": "authentic_voice"}

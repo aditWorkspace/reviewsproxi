@@ -1,0 +1,55 @@
+{"review_id": "cluster_1_b0_pp0", "trait_label": "Software Usability Frustration", "text": "Frustration with software that changes/downgrades features without clear communication", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp1", "trait_label": "Software Usability Frustration", "text": "Frustration with customer support providing canned responses and runaround", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp2", "trait_label": "Software Usability Frustration", "text": "Annoyance with user interface limitations (e.g., orientation locking, multi-step processes)", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_do0", "trait_label": "Software Usability Frustration", "text": "Seamless integration across platforms (mobile, desktop)", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_do1", "trait_label": "Software Usability Frustration", "text": "Consistent, reliable performance without crashes or freezes", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp0", "trait_label": "Software Usability Frustration", "text": "Installation failures due to file registration errors and broken repair/uninstall processes", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp1", "trait_label": "Software Usability Frustration", "text": "Inadequate or poorly accessible documentation/help system, missing quick reference resources", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp2", "trait_label": "Software Usability Frustration", "text": "Unintuitive UI/UX causing accidental taps or blocked functionality", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_do0", "trait_label": "Software Usability Frustration", "text": "Smooth, error-free installation and setup process", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_do1", "trait_label": "Software Usability Frustration", "text": "Clear, comprehensive, and easily accessible documentation/help", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp0", "trait_label": "Software Usability Frustration", "text": "Products become unsupported/obsolete quickly (planned obsolescence), breaking existing setups", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp1", "trait_label": "Software Usability Frustration", "text": "Unfair or inaccurate automated bans/account actions with poor customer service", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp2", "trait_label": "Software Usability Frustration", "text": "AI/automation tools are unreliable, flaky, hallucinate, or break under real conditions", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_do0", "trait_label": "Software Usability Frustration", "text": "Reliable, consistent product performance with long-term support and no sudden obsolescence", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_do1", "trait_label": "Software Usability Frustration", "text": "Accurate, fair automated systems that don't falsely flag legitimate users", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp0", "trait_label": "Software Usability Frustration", "text": "Poor software stability and crashing/freezing issues", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp1", "trait_label": "Software Usability Frustration", "text": "Intrusive advertisements and frequent upgrade requests", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp2", "trait_label": "Software Usability Frustration", "text": "Bugs and errors in program installation/activation", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_do0", "trait_label": "Software Usability Frustration", "text": "Thorough validation of software features before production deployment", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_do1", "trait_label": "Software Usability Frustration", "text": "Risk mitigation through controlled testing environments", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp0", "trait_label": "Software Usability Frustration", "text": "Software bugs and technical glitches that cause errors, crashes, and wasted time.", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp1", "trait_label": "Software Usability Frustration", "text": "Poor customer support, especially from non-US reps, and unhelpful support tools.", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp2", "trait_label": "Software Usability Frustration", "text": "High costs, hidden fees, mandatory upgrades, and predatory subscription practices.", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_do0", "trait_label": "Software Usability Frustration", "text": "Software that works reliably without bugs, errors, or technical glitches.", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_do1", "trait_label": "Software Usability Frustration", "text": "Accurate and complete financial/tax reporting that ensures compliance and avoids penalties.", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp0", "trait_label": "Structural Quality Concern", "text": "Stress from unrealistic expectations and KPIs, especially as a one-man QA team.", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp1", "trait_label": "Structural Quality Concern", "text": "Feeling rushed due to pressure to avoid clogging the CICD pipeline, leading to compromised testing quality.", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp2", "trait_label": "Structural Quality Concern", "text": "Frustration with 'shift left' mentality leading to testing pieces instead of wholes and an increase in public-facing defects.", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_do0", "trait_label": "Structural Quality Concern", "text": "Proper quality planning to avoid constant firefighting and reduce mental strain.", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_do1", "trait_label": "Structural Quality Concern", "text": "Testing frameworks and automation that provide measurable coverage.", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp0", "trait_label": "Structural Quality Concern", "text": "The feeling of being treated as the \"last in chain\" under pressure when delays accumulate before testing", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp1", "trait_label": "Structural Quality Concern", "text": "Automation maintenance becoming overwhelming and time-consuming", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp2", "trait_label": "Structural Quality Concern", "text": "Requirement changes during development cycles breaking test automation", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_do0", "trait_label": "Structural Quality Concern", "text": "Remove human judgment and variability through consistent, trusted automated testing", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_do1", "trait_label": "Structural Quality Concern", "text": "Achieve predictable, high-quality releases through structured testing processes", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp0", "trait_label": "Structural Quality Concern", "text": "Unrealistic deadlines and constant pressure from stakeholders", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp1", "trait_label": "Structural Quality Concern", "text": "Poor project management leading to delays and lack of communication", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp2", "trait_label": "Structural Quality Concern", "text": "Pressure to release features without adequate testing, then being blamed for issues", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_do0", "trait_label": "Structural Quality Concern", "text": "Software that works as advertised with no glitches or response lags", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_do1", "trait_label": "Structural Quality Concern", "text": "Enough time to thoroughly test features and cover edge cases", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp0", "trait_label": "Structural Quality Concern", "text": "Fear of job obsolescence due to AI and automation", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp1", "trait_label": "Structural Quality Concern", "text": "Lack of leadership recognition of QA value", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp2", "trait_label": "Structural Quality Concern", "text": "Limited tool functionality (e.g., only tests download speed/bandwidth)", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_do0", "trait_label": "Structural Quality Concern", "text": "Comprehensive testing capabilities beyond basic functions", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_do1", "trait_label": "Structural Quality Concern", "text": "Career evolution through AI-assisted testing and quality ownership", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp0", "trait_label": "Structural Quality Concern", "text": "Fragile test environments cause frequent breaks and high maintenance costs.", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp1", "trait_label": "Structural Quality Concern", "text": "Difficulty quantifying QA's value to leadership, leading to lack of support for automation.", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp2", "trait_label": "Structural Quality Concern", "text": "Known bugs and compatibility issues cause significant wasted time and frustration.", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_do0", "trait_label": "Structural Quality Concern", "text": "Achieve fast, safe software releases with high confidence and low risk.", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_do1", "trait_label": "Structural Quality Concern", "text": "Establish resilient test automation with low maintenance overhead and high stability.", "tone": "frustrated"}
+{"review_id": "monologue_447c3d", "trait_label": "Inner Monologue", "text": "Another tool claiming enterprise pricing but no trial version? I'm not spending budget on something I can't test first - too many times I've been stuck with software that looked good in demos but failed during real implementation.", "tone": "authentic_voice"}
+{"review_id": "monologue_203369", "trait_label": "Inner Monologue", "text": "These customer testimonials look generic, but if they have documentation from actual testing teams showing ROI metrics, that might be worth investigating further.", "tone": "authentic_voice"}
+{"review_id": "monologue_d36e61", "trait_label": "Inner Monologue", "text": "This interface already feels clunky and I'm just on the landing page - if I can't resize windows or it locks orientation like the last tool, I'm out immediately.", "tone": "authentic_voice"}
+{"review_id": "monologue_734515", "trait_label": "Inner Monologue", "text": "They want my email before showing pricing? That's a red flag - clear, upfront communication of software limitations and rules should include transparent pricing.", "tone": "authentic_voice"}
+{"review_id": "monologue_b7aa3b", "trait_label": "Inner Monologue", "text": "Finally, a platform that shows actual test automation frameworks with senior oversight and maintenance considerations - this might actually help me demonstrate QA value to leadership instead of just promising magic AI solutions.", "tone": "authentic_voice"}

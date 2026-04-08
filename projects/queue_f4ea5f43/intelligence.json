@@ -1,0 +1,581 @@
+{
+  "products": [
+    {
+      "name": "Market Research Survey Incentive Gift Cards Multi-Pack",
+      "category": "Office_Products",
+      "accuracy": 0.98,
+      "review_keywords": [
+        "survey",
+        "incentive",
+        "response",
+        "participation",
+        "data",
+        "collection",
+        "research"
+      ],
+      "context_keywords": [
+        "fieldwork",
+        "quota",
+        "sample",
+        "respondents"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "gift"
+      ],
+      "why": "Market researchers buy these specifically to incentivize survey participation and data collection"
+    },
+    {
+      "name": "Statistical Analysis Software License - SPSS/SAS Annual",
+      "category": "Software",
+      "accuracy": 0.97,
+      "review_keywords": [
+        "analysis",
+        "data",
+        "statistical",
+        "research",
+        "methodology",
+        "variables",
+        "coding"
+      ],
+      "context_keywords": [
+        "respondents",
+        "sample",
+        "survey"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "homework"
+      ],
+      "why": "Professional researchers and analysts purchase these expensive licenses for aggregated data analysis"
+    },
+    {
+      "name": "Professional Survey Design Templates and Question Banks",
+      "category": "Software",
+      "accuracy": 0.96,
+      "review_keywords": [
+        "questionnaire",
+        "survey",
+        "design",
+        "methodology",
+        "questions",
+        "templates",
+        "research"
+      ],
+      "context_keywords": [
+        "fieldwork",
+        "data",
+        "collection"
+      ],
+      "exclusion_keywords": [
+        "class",
+        "project"
+      ],
+      "why": "Market researchers and survey professionals buy these to create standardized data collection instruments"
+    },
+    {
+      "name": "Data Collection Tablet Bundle for Field Research",
+      "category": "Electronics",
+      "accuracy": 0.95,
+      "review_keywords": [
+        "fieldwork",
+        "data",
+        "collection",
+        "survey",
+        "portable",
+        "interviews",
+        "research"
+      ],
+      "context_keywords": [
+        "respondents",
+        "field",
+        "collection"
+      ],
+      "exclusion_keywords": [
+        "entertainment",
+        "gaming"
+      ],
+      "why": "Field researchers purchase these specifically for conducting interviews and collecting survey data"
+    },
+    {
+      "name": "Professional Audio Recording Equipment for Interviews",
+      "category": "Electronics",
+      "accuracy": 0.94,
+      "review_keywords": [
+        "interview",
+        "recording",
+        "audio",
+        "quality",
+        "research",
+        "clear",
+        "transcription"
+      ],
+      "context_keywords": [
+        "fieldwork",
+        "respondents",
+        "interviews"
+      ],
+      "exclusion_keywords": [
+        "music",
+        "podcast"
+      ],
+      "why": "Qualitative researchers buy these for recording interviews that will be analyzed collectively"
+    },
+    {
+      "name": "Research Methodology and Data Analysis Textbooks",
+      "category": "Books",
+      "accuracy": 0.93,
+      "review_keywords": [
+        "methodology",
+        "analysis",
+        "research",
+        "statistical",
+        "data",
+        "survey",
+        "patterns"
+      ],
+      "context_keywords": [
+        "fieldwork",
+        "sample",
+        "aggregated"
+      ],
+      "exclusion_keywords": [
+        "beginner",
+        "class"
+      ],
+      "why": "Professional researchers purchase advanced methodology books for improving data collection and analysis techniques"
+    },
+    {
+      "name": "Survey Response Tracking and Management Software",
+      "category": "Software",
+      "accuracy": 0.92,
+      "review_keywords": [
+        "tracking",
+        "responses",
+        "management",
+        "data",
+        "collection",
+        "survey",
+        "organization"
+      ],
+      "context_keywords": [
+        "sample",
+        "fieldwork",
+        "respondents"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "individual"
+      ],
+      "why": "Research coordinators buy this software to manage large-scale data collection projects"
+    },
+    {
+      "name": "Professional Interview Transcription Software",
+      "category": "Software",
+      "accuracy": 0.91,
+      "review_keywords": [
+        "transcription",
+        "interview",
+        "analysis",
+        "coding",
+        "research",
+        "audio",
+        "text"
+      ],
+      "context_keywords": [
+        "fieldwork",
+        "data",
+        "patterns"
+      ],
+      "exclusion_keywords": [
+        "journalist",
+        "student"
+      ],
+      "why": "Qualitative researchers purchase transcription tools for converting interviews into analyzable data"
+    },
+    {
+      "name": "Demographic Sampling and Weighting Calculator Tools",
+      "category": "Software",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "sampling",
+        "demographic",
+        "weighting",
+        "representative",
+        "population",
+        "statistical",
+        "methodology"
+      ],
+      "context_keywords": [
+        "sample",
+        "aggregated",
+        "patterns"
+      ],
+      "exclusion_keywords": [
+        "academic",
+        "homework"
+      ],
+      "why": "Survey researchers buy these specialized tools for ensuring representative demographic sampling"
+    },
+    {
+      "name": "Field Research Clipboards and Data Collection Forms",
+      "category": "Office_Products",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "fieldwork",
+        "data",
+        "collection",
+        "forms",
+        "survey",
+        "interviews",
+        "portable"
+      ],
+      "context_keywords": [
+        "respondents",
+        "field",
+        "collection"
+      ],
+      "exclusion_keywords": [
+        "office",
+        "school"
+      ],
+      "why": "Field interviewers purchase these specifically for conducting face-to-face surveys and interviews"
+    },
+    {
+      "name": "Research Panel Management and Recruitment Platform",
+      "category": "Software",
+      "accuracy": 0.89,
+      "review_keywords": [
+        "panel",
+        "recruitment",
+        "management",
+        "respondents",
+        "research",
+        "database",
+        "participants"
+      ],
+      "context_keywords": [
+        "sample",
+        "fieldwork",
+        "data"
+      ],
+      "exclusion_keywords": [
+        "marketing",
+        "sales"
+      ],
+      "why": "Research companies buy panel management software for recruiting and managing survey participants"
+    },
+    {
+      "name": "Professional Survey Weighting and Analysis Guides",
+      "category": "Books",
+      "accuracy": 0.88,
+      "review_keywords": [
+        "weighting",
+        "analysis",
+        "survey",
+        "methodology",
+        "statistical",
+        "representative",
+        "data"
+      ],
+      "context_keywords": [
+        "sample",
+        "aggregated",
+        "patterns"
+      ],
+      "exclusion_keywords": [
+        "introductory",
+        "textbook"
+      ],
+      "why": "Senior researchers purchase advanced guides for complex survey weighting and demographic analysis"
+    },
+    {
+      "name": "Interview Protocol Development Templates",
+      "category": "Office_Products",
+      "accuracy": 0.87,
+      "review_keywords": [
+        "protocol",
+        "interview",
+        "template",
+        "methodology",
+        "structured",
+        "research",
+        "questions"
+      ],
+      "context_keywords": [
+        "fieldwork",
+        "data",
+        "collection"
+      ],
+      "exclusion_keywords": [
+        "job",
+        "hiring"
+      ],
+      "why": "Qualitative researchers buy standardized templates for creating consistent interview protocols"
+    },
+    {
+      "name": "Data Quality Control and Validation Software",
+      "category": "Software",
+      "accuracy": 0.86,
+      "review_keywords": [
+        "quality",
+        "control",
+        "validation",
+        "data",
+        "accuracy",
+        "research",
+        "checking"
+      ],
+      "context_keywords": [
+        "sample",
+        "aggregated",
+        "patterns"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "individual"
+      ],
+      "why": "Research analysts purchase validation tools for ensuring data quality in large-scale studies"
+    },
+    {
+      "name": "Professional Research Ethics and IRB Compliance Guides",
+      "category": "Books",
+      "accuracy": 0.85,
+      "review_keywords": [
+        "ethics",
+        "IRB",
+        "compliance",
+        "research",
+        "guidelines",
+        "methodology",
+        "standards"
+      ],
+      "context_keywords": [
+        "fieldwork",
+        "respondents",
+        "data"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "academic"
+      ],
+      "why": "Professional researchers buy compliance guides for adhering to research ethics standards"
+    },
+    {
+      "name": "Survey Skip Logic and Branching Software Tools",
+      "category": "Software",
+      "accuracy": 0.84,
+      "review_keywords": [
+        "skip",
+        "logic",
+        "branching",
+        "survey",
+        "conditional",
+        "questionnaire",
+        "design"
+      ],
+      "context_keywords": [
+        "respondents",
+        "data",
+        "collection"
+      ],
+      "exclusion_keywords": [
+        "simple",
+        "basic"
+      ],
+      "why": "Survey designers purchase advanced tools for creating complex conditional survey flows"
+    },
+    {
+      "name": "Field Research Transportation and Equipment Cases",
+      "category": "Office_Products",
+      "accuracy": 0.83,
+      "review_keywords": [
+        "transport",
+        "equipment",
+        "field",
+        "research",
+        "portable",
+        "protection",
+        "interviews"
+      ],
+      "context_keywords": [
+        "fieldwork",
+        "collection",
+        "mobile"
+      ],
+      "exclusion_keywords": [
+        "travel",
+        "vacation"
+      ],
+      "why": "Field researchers buy specialized cases for transporting interview equipment to multiple locations"
+    },
+    {
+      "name": "Demographic Trend Analysis and Reporting Software",
+      "category": "Software",
+      "accuracy": 0.82,
+      "review_keywords": [
+        "demographic",
+        "trends",
+        "analysis",
+        "reporting",
+        "patterns",
+        "population",
+        "statistics"
+      ],
+      "context_keywords": [
+        "aggregated",
+        "sample",
+        "patterns"
+      ],
+      "exclusion_keywords": [
+        "marketing",
+        "sales"
+      ],
+      "why": "Market researchers purchase trend analysis tools for identifying patterns across demographic groups"
+    }
+  ],
+  "subreddits": [
+    {
+      "name": "SampleSize",
+      "relevance": 0.95,
+      "member_type": "90% survey researchers and data collectors seeking participants",
+      "data_value": "Direct insight into survey methodologies, sampling challenges, and data collection approaches",
+      "why": "Dedicated community for researchers recruiting survey participants and discussing sampling methods"
+    },
+    {
+      "name": "SurveyResearch",
+      "relevance": 0.93,
+      "member_type": "85% professional survey researchers and methodologists",
+      "data_value": "Best practices, methodology discussions, and industry challenges in survey design",
+      "why": "Professional community focused specifically on survey research methodology and implementation"
+    },
+    {
+      "name": "QualitativeResearch",
+      "relevance": 0.88,
+      "member_type": "80% qualitative researchers and interview specialists",
+      "data_value": "Interview techniques, coding methods, and qualitative data analysis approaches",
+      "why": "Community for researchers who conduct interviews and analyze qualitative data patterns"
+    },
+    {
+      "name": "MarketResearch",
+      "relevance": 0.85,
+      "member_type": "75% market researchers and consumer insight professionals",
+      "data_value": "Industry trends, client challenges, and commercial research methodologies",
+      "why": "Professional market researchers discussing industry practices and data collection challenges"
+    },
+    {
+      "name": "statisticalconsulting",
+      "relevance": 0.82,
+      "member_type": "70% statistical consultants and research analysts",
+      "data_value": "Complex analysis problems, methodology questions, and statistical approaches",
+      "why": "Consultants and analysts who work with aggregated data and statistical analysis"
+    },
+    {
+      "name": "research",
+      "relevance": 0.78,
+      "member_type": "65% professional researchers across various fields",
+      "data_value": "Cross-disciplinary research challenges, methodology discussions, and industry insights",
+      "why": "Broad research community including many who work with interview and survey data"
+    },
+    {
+      "name": "IRB",
+      "relevance": 0.75,
+      "member_type": "80% researchers dealing with institutional review boards",
+      "data_value": "Research ethics, compliance issues, and institutional requirements",
+      "why": "Researchers navigating ethics approval for studies involving human subjects and interviews"
+    },
+    {
+      "name": "fieldwork",
+      "relevance": 0.73,
+      "member_type": "70% researchers conducting field studies and data collection",
+      "data_value": "Practical challenges in data collection, fieldwork experiences, and logistical issues",
+      "why": "Community focused on practical aspects of conducting research in field settings"
+    },
+    {
+      "name": "polling",
+      "relevance": 0.7,
+      "member_type": "60% pollsters and survey researchers",
+      "data_value": "Polling methodology, sampling techniques, and accuracy discussions",
+      "why": "Professionals involved in political and public opinion polling using survey methods"
+    },
+    {
+      "name": "analytics",
+      "relevance": 0.68,
+      "member_type": "55% data analysts working with survey and interview data",
+      "data_value": "Analysis techniques, tools, and interpretation methods for aggregated data",
+      "why": "Analysts who work with large datasets including survey responses and interview data"
+    },
+    {
+      "name": "DataCollection",
+      "relevance": 0.65,
+      "member_type": "60% professionals involved in systematic data gathering",
+      "data_value": "Tools, techniques, and challenges in gathering research data",
+      "why": "Community focused on various methods of collecting data including surveys and interviews"
+    },
+    {
+      "name": "sociologycareers",
+      "relevance": 0.62,
+      "member_type": "50% sociology professionals who conduct interview research",
+      "data_value": "Career paths and professional experiences in sociology research",
+      "why": "Sociology professionals often conduct interview-based research and demographic studies"
+    },
+    {
+      "name": "psychologyresearch",
+      "relevance": 0.6,
+      "member_type": "45% psychology researchers using interview and survey methods",
+      "data_value": "Research methods and findings in psychology studies",
+      "why": "Psychology researchers frequently use interview and survey methodologies"
+    },
+    {
+      "name": "datascience",
+      "relevance": 0.58,
+      "member_type": "40% data scientists working with survey and demographic data",
+      "data_value": "Technical approaches to analyzing survey data and demographic patterns",
+      "why": "Data scientists often work with survey datasets and demographic analysis"
+    },
+    {
+      "name": "consulting",
+      "relevance": 0.55,
+      "member_type": "35% consultants who conduct research and interviews",
+      "data_value": "Client work experiences and professional challenges in research consulting",
+      "why": "Many consultants conduct interviews and surveys as part of their professional work"
+    }
+  ],
+  "demographic_profile": {
+    "core_keywords": [
+      "aggregated",
+      "patterns",
+      "fieldwork",
+      "methodology",
+      "sample",
+      "respondents",
+      "data collection",
+      "interview",
+      "survey",
+      "analysis",
+      "demographic",
+      "statistical",
+      "research",
+      "collective",
+      "trends"
+    ],
+    "exclusion_keywords": [
+      "individual",
+      "personal",
+      "single",
+      "unique",
+      "student",
+      "academic",
+      "thesis",
+      "homework"
+    ],
+    "age_range": "25-55",
+    "primary_motivations": [
+      "Methodological rigor and data quality",
+      "Representative sampling and statistical validity",
+      "Efficient data collection processes",
+      "Professional credibility and ethical compliance"
+    ],
+    "summary": "These are professional researchers, market analysts, and data collectors who conduct interviews and surveys as part of their career, with responses analyzed collectively rather than individually. They prioritize methodological soundness, representative sampling, and data quality over personal insights or individual stories. Their purchasing decisions focus on professional tools, software, and resources that enhance their ability to gather, analyze, and report on aggregated data patterns across demographic groups."
+  }
+}

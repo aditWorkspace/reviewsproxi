@@ -1,0 +1,240 @@
+{
+  "id": "enterprise_trade_compliance_user_(b2b_saas)",
+  "label": "Enterprise Trade Compliance User (B2B SaaS)",
+  "segment": {
+    "role": "Enterprise trade compliance professional managing regulatory requirements and audit preparation",
+    "tech_savviness": "medium",
+    "price_sensitivity": "medium",
+    "risk_tolerance": "low",
+    "context": "Works in highly regulated environment where compliance errors can result in significant penalties, audits, or legal consequences. Prioritizes accuracy and reliability over cutting-edge features, with strong preference for proven solutions that reduce business risk through stable performance and clear audit trails."
+  },
+  "goals": [
+    {
+      "goal": "Find software that ensures accurate compliance with regulatory requirements without manual intervention",
+      "priority": 5
+    },
+    {
+      "goal": "Verify clear audit trails and defensible documentation capabilities",
+      "priority": 5
+    },
+    {
+      "goal": "Assess easy integration with existing financial systems and data sources",
+      "priority": 4
+    },
+    {
+      "goal": "Understand clear, predictable, and justifiable total cost structure",
+      "priority": 4
+    },
+    {
+      "goal": "Evaluate comprehensive logging and reporting for audit trails and verification",
+      "priority": 4
+    },
+    {
+      "goal": "Confirm accessible, knowledgeable support when critical issues arise",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Cannot tolerate any software that lacks accuracy in compliance reporting due to fear of audits and penalties",
+    "Must avoid solutions with hidden or unclear pricing that could impact budget approvals",
+    "Cannot accept complex software that requires significant expertise without proper support",
+    "Must have reliable customer support for critical compliance issues and system failures"
+  ],
+  "decision_weights": {
+    "software_reliability_failures": 0.125,
+    "hidden_unclear_pricing": 0.125,
+    "complexity_learning_curve": 0.125,
+    "poor_customer_support": 0.125,
+    "system_instability": 0.125,
+    "forced_expensive_upgrades": 0.125,
+    "poor_interoperability": 0.125,
+    "internet_dependency_limitations": 0.125
+  },
+  "behavioral_rules": [
+    "Immediately seeks pricing transparency and exits if costs are hidden behind signup forms",
+    "Prioritizes viewing compliance accuracy testimonials and audit success stories before feature lists",
+    "Searches specifically for integration capabilities with existing ERP and financial systems",
+    "Abandons evaluation if customer support response times or availability are unclear",
+    "Focuses on security certifications and compliance standards before exploring functionality",
+    "Requests detailed implementation timelines to assess workflow disruption risks",
+    "Verifies offline functionality capabilities for critical compliance processes",
+    "Examines data migration processes and export capabilities before committing",
+    "Seeks multiple references from similar enterprise environments before proceeding",
+    "Evaluates vendor stability and track record before considering newer solutions",
+    "Tests trial versions extensively for accuracy before making purchasing decisions",
+    "Reviews audit trail capabilities and reporting formats during initial evaluation"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.288,
+    "trust_starting_point": 0.52,
+    "frustration_decay": 0.32
+  },
+  "deal_breakers": [
+    "Software fails to work as advertised or contains compliance accuracy errors",
+    "Hidden pricing or unexpected fees for essential compliance features",
+    "Poor customer support when critical compliance issues arise",
+    "System instability that could corrupt compliance data or reporting",
+    "Lack of integration with existing enterprise systems and data sources"
+  ],
+  "voice_sample": "I need absolute accuracy and reduction of compliance risk - any errors could trigger audits that would be a nightmare for our organization. The anxiety about data accuracy and avoiding audits keeps me up at night, so I can't afford to take chances on unproven solutions. I'm looking for clear, predictable, and justifiable total cost because budget approvals in enterprise environments require detailed justification. The software needs easy integration with existing financial systems and data sources since disruption to existing workflows during integration could impact our compliance deadlines. Most importantly, I need accessible, knowledgeable support when needed because when compliance issues arise, we can't wait days for responses.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 45,
+    "pages_before_decision": 12,
+    "tab_behavior": "Opens multiple tabs to compare compliance features, pricing, and support options simultaneously",
+    "primary_device": "Desktop computer during business hours for detailed evaluation and documentation",
+    "time_of_day": "Business hours, typically mid-morning when can focus on detailed evaluation without interruption"
+  },
+  "purchase_journey": {
+    "discovery": "Finds solutions through industry publications, compliance conferences, and peer recommendations from other enterprise professionals",
+    "evaluation": "Reviews compliance accuracy first, then pricing transparency, integration capabilities, support quality, and finally implementation requirements",
+    "decision_moment": "Commits after confirming accuracy through trial testing, verifying transparent pricing, and securing detailed support commitments",
+    "post_purchase_expectation": "Expects comprehensive implementation support, ongoing compliance updates, and immediate response to critical issues"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Clear audit trails and defensible documentation are demonstrated",
+      "Accurate compliance with regulatory requirements is proven through testing",
+      "Easy integration with existing financial systems is confirmed",
+      "Clear, predictable, and justifiable total cost is provided upfront"
+    ],
+    "abandons_when": [
+      "Hidden or unclear pricing appears for essential features",
+      "Software reliability or accuracy cannot be verified",
+      "Customer support quality or availability is questionable",
+      "Integration complexity threatens existing workflow stability"
+    ],
+    "trusts_when": [
+      "Comprehensive logging and reporting capabilities are demonstrated",
+      "Multiple enterprise references provide positive audit experiences",
+      "Vendor shows deep understanding of regulatory requirements",
+      "Clear implementation timeline with minimal workflow disruption is provided"
+    ],
+    "becomes_suspicious_when": [
+      "Pricing requires multiple calls or demos to understand",
+      "Compliance accuracy claims cannot be independently verified",
+      "Support team lacks specific trade compliance expertise",
+      "Integration requirements are vague or overly complex"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Absolute accuracy and reduction of compliance risk",
+      "Fear of audits and penalties due to compliance errors",
+      "Clear audit trails and defensible documentation",
+      "Easy integration with existing financial systems and data sources",
+      "Accessible, knowledgeable support when needed",
+      "Clear, predictable, and justifiable total cost",
+      "Disruption to existing workflows during integration",
+      "Anxiety about data accuracy and avoiding audits"
+    ],
+    "resonates_with": [
+      "Proven compliance accuracy",
+      "Enterprise-grade security",
+      "Audit-ready documentation",
+      "Seamless integration",
+      "Expert support team"
+    ],
+    "turned_off_by": [
+      "Hidden fees",
+      "Complex setup",
+      "Unproven accuracy",
+      "Limited support",
+      "Beta features"
+    ]
+  },
+  "inner_monologue_samples": [
+    "I need to see the full pricing breakdown before we go any further - hidden or unclear pricing is a red flag that usually means budget overruns down the road.",
+    "These compliance testimonials look good, but I need to verify the accuracy claims myself through testing - we can't afford any errors that could trigger an audit.",
+    "The interface seems intuitive enough, but if the learning curve is too steep without proper support, our team won't adopt it effectively and we'll be back to manual processes.",
+    "Another signup form just to see basic information? I don't have time for sales calls when I'm trying to do preliminary research - this feels like they're hiding something.",
+    "Finally, clear audit trails and defensible documentation capabilities - this is exactly what we need to satisfy our compliance requirements and give me confidence in audit situations."
+  ],
+  "anti_patterns": [
+    "Assuming they want the latest features - they prioritize proven reliability over innovation (contradicts Risk-Averse Pragmatist cluster)",
+    "Leading with cost savings messaging - they focus on risk reduction and accuracy over price optimization (contradicts compliance risk priority)",
+    "Using aggressive sales tactics - their medium friction tolerance means they'll abandon pushy approaches (contradicts Pragmatic Evaluation cluster)",
+    "Hiding pricing behind multiple demo requests - they need transparent costs for budget justification (contradicts pricing transparency requirements)",
+    "Emphasizing ease of use over accuracy - they'll accept complexity if it ensures compliance reliability (contradicts risk-averse priorities)"
+  ],
+  "traits": [
+    {
+      "label": "Risk-Averse Pragmatist",
+      "description": "Users who prioritize reliability, compliance, and clear costs over features. They seek software that reduces business risk through accuracy, security, and stable performance, avoiding complex setups and unpredictable fees.",
+      "key_phrases": [
+        "Fear of errors leading to audits or fines",
+        "Anxiety about data accuracy and avoiding audits",
+        "Absolute accuracy and reduction of compliance risk"
+      ],
+      "frequency": 0.61,
+      "tone": "cautious",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Pragmatic Evaluation",
+      "description": "Users exhibit a balanced, practical assessment of trade-offs, willing to accept moderate friction for a sufficient payoff, rather than demanding perfection or being easily discouraged.",
+      "key_phrases": [
+        "dominant_friction_tolerance: medium",
+        "friction_tolerance_distribution: medium 0.846",
+        "friction_tolerance_distribution: low 0.154"
+      ],
+      "frequency": 0.317,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Utility & Reliability Gap",
+      "description": "Customers expect instructional content to be practical, trustworthy, and immediately useful, but feel misled when recipes, guides, or references are complex, inaccessible, or factually inaccurate.",
+      "key_phrases": [
+        "Complicated or time-consuming preparation processes",
+        "Inaccuracy and lack of trust in the source material",
+        "Clear, concise, and practical step-by-step guidance"
+      ],
+      "frequency": 0.073,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 6,
+    "total": 1201,
+    "avg_rating": 4.0,
+    "avg_length": 1763,
+    "rating_distribution": {
+      "4": 292,
+      "1": 85,
+      "5": 580,
+      "3": 163,
+      "2": 81
+    },
+    "source_breakdown": {
+      "amazon": 1201
+    },
+    "n_products": 6,
+    "top_products": {
+      "TradePoint Enterprise Compliance Management Software": 500,
+      "International Trade Compliance Handbook 2024": 233,
+      "Professional Trade Compliance Certification Study Guide": 233,
+      "HTS Code Reference Guide - Harmonized Tariff Schedule": 233,
+      "Export Control Classification Number (ECCN) Quick Reference Cards": 1
+    },
+    "low_rating_pct": 0.138,
+    "high_rating_pct": 0.726,
+    "n_sources": 1,
+    "issues": [
+      "Single source \u2014 add Reddit or CSV for richer behavioral signal",
+      "Platform bias: amazon is 100% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 41
+  },
+  "demographic_description": "Works in trade compliance within enterprise environments and interacts with structured workflows and outputs. Provides feedback based on how current processes operate and how outputs can be improved. Feedback is gathered through ongoing discovery conversations rather than high-frequency input.",
+  "generated_at": "2026-04-05T06:28:29.352709",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "0% grounded in cluster data",
+    "cluster_stability": "high"
+  }
+}

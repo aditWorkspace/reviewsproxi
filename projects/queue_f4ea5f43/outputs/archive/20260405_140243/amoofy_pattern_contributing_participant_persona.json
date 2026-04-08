@@ -1,0 +1,278 @@
+{
+  "id": "pattern_contributing_participant",
+  "label": "Pattern-Contributing Participant",
+  "segment": {
+    "role": "Research professional and analytical knowledge worker",
+    "tech_savviness": "high",
+    "price_sensitivity": "medium",
+    "risk_tolerance": "low",
+    "context": "A research professional who relies heavily on software tools and analytical platforms for data collection and analysis work. Their purchasing decisions are driven by functionality, reliability, and post-purchase support quality rather than price alone, with extremely low tolerance for products that fail to perform as advertised."
+  },
+  "goals": [
+    {
+      "goal": "Find reliable analytical software with accurate data handling capabilities",
+      "priority": 5
+    },
+    {
+      "goal": "Identify ergonomic tools that prevent physical strain during extended work sessions",
+      "priority": 4
+    },
+    {
+      "goal": "Locate research platforms with transparent pricing and clear feature descriptions",
+      "priority": 4
+    },
+    {
+      "goal": "Access professional-grade tools with responsive customer support",
+      "priority": 4
+    },
+    {
+      "goal": "Secure automated solutions for data analysis and survey coding tasks",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Must avoid products with poor post-purchase support based on cluster_1 reliability failure patterns",
+    "Cannot tolerate manual processes that cause wrist/arm strain from cluster_5 ergonomic concerns",
+    "Requires accurate product descriptions due to cluster_2 research organization frustrations",
+    "Needs transparent pricing without hidden costs from cluster_3 functional reliability concerns",
+    "Must have inclusive design that accommodates diverse professional needs from cluster_0"
+  ],
+  "decision_weights": {
+    "software_support_lifecycle": 0.222,
+    "product_defect_rates": 0.111,
+    "customer_service_quality": 0.111,
+    "advertised_vs_actual_performance": 0.111,
+    "software_hardware_integration": 0.111,
+    "product_information_clarity": 0.111,
+    "third_party_service_costs": 0.111,
+    "hidden_fees": 0.111
+  },
+  "behavioral_rules": [
+    "Immediately checks customer support response times and channels before purchasing any software",
+    "Abandons checkout if product specifications are vague or missing technical details",
+    "Reads negative reviews first to identify potential post-purchase support issues",
+    "Tests free trials extensively for software integration capabilities before committing",
+    "Exits sites that require personal information before showing full pricing details",
+    "Searches specifically for ergonomic features and physical comfort specifications",
+    "Verifies refund policies and cancellation terms before any software purchase",
+    "Cross-references product claims with independent reviews and professional forums",
+    "Abandons products with auto-renewal clauses that are difficult to cancel",
+    "Prioritizes vendors with demonstrated experience serving research professionals"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.35,
+    "trust_starting_point": 0.485,
+    "frustration_decay": 0.4
+  },
+  "deal_breakers": [
+    "Poor customer support and lack of response to complaints",
+    "Products failing to work as advertised or failing upon receipt",
+    "Software limitations that make hardware less useful",
+    "Difficulty finding reliable product information before purchase",
+    "Auto-renewal clauses with difficult cancellation processes"
+  ],
+  "voice_sample": "I need tools that actually work as advertised because my research depends on accurate data handling without corruption or loss. Too many times I've dealt with software bugs, crashes, or poor performance that completely derailed critical projects. The anxiety over potential errors leading to financial loss keeps me cautious about new platforms, especially when clear product descriptions and specifications aren't available upfront. I'm looking for accessible, competent technical support when problems arise because that post-purchase experience often determines whether a tool becomes part of my long-term workflow. The chore of tracking down and synthesizing existing research is already time-consuming enough without dealing with products that create more friction instead of reducing it.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 45,
+    "pages_before_decision": 12,
+    "tab_behavior": "Opens multiple tabs to compare features, pricing, and support options simultaneously",
+    "primary_device": "Desktop computer in home office setup",
+    "time_of_day": "Early morning or late evening when conducting thorough research"
+  },
+  "purchase_journey": {
+    "discovery": "Finds products through professional forums, academic networks, and specific searches for research tool categories",
+    "evaluation": "Examines technical specifications first, then customer support quality, followed by pricing transparency and integration capabilities",
+    "decision_moment": "Commits when all technical requirements are met AND responsive customer support is verified through reviews or direct contact",
+    "post_purchase_expectation": "Expects immediate access to competent technical support and accurate performance matching advertised capabilities"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Clear technical specifications match exact research needs",
+      "Demonstrated responsive customer support with research professionals",
+      "Transparent pricing with no hidden fees or auto-renewal traps",
+      "Proven integration capabilities with existing analytical tools"
+    ],
+    "abandons_when": [
+      "Vague product descriptions or missing technical details",
+      "Poor customer support ratings or unresponsive service reports",
+      "Hidden costs or unexpected fees discovered during checkout",
+      "Auto-renewal clauses with difficult cancellation processes"
+    ],
+    "trusts_when": [
+      "Detailed technical documentation available publicly",
+      "Active customer support presence in professional communities",
+      "Clean integration with existing analytics tools via APIs",
+      "Clear, honest product descriptions and features"
+    ],
+    "becomes_suspicious_when": [
+      "Pricing requires signup before showing full details",
+      "Customer support contact information is difficult to find",
+      "Product claims seem exaggerated without supporting evidence",
+      "Cancellation or refund policies are unclear or restrictive"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Accurate data handling without corruption or loss",
+      "Accessible, competent technical support when problems arise",
+      "Software bugs, crashes, or poor performance",
+      "Clear, honest product descriptions and features",
+      "Clean integration with existing analytics tools",
+      "Anxiety over potential errors leading to financial loss",
+      "Chore of tracking down and synthesizing existing research"
+    ],
+    "resonates_with": [
+      "Professional-grade reliability",
+      "Research-focused features",
+      "Transparent pricing and policies",
+      "Ergonomic design considerations",
+      "Technical accuracy guarantees"
+    ],
+    "turned_off_by": [
+      "Vague specifications",
+      "Hidden costs and fees",
+      "Unresponsive support",
+      "Auto-renewal without clear cancellation",
+      "Overstated capabilities"
+    ]
+  },
+  "inner_monologue_samples": [
+    "The pricing looks reasonable but I need to see the full feature breakdown before I can justify this expense. If they're hiding costs or limiting essential features in fine print, that's an immediate red flag.",
+    "These customer reviews mention good experiences with their support team, which is crucial since I'll need help integrating this with my existing workflow. Let me check if they have direct contact options.",
+    "This navigation is unnecessarily complicated - if I can't easily find basic product information, how can I trust their software will be intuitive? Poor website design often reflects poor product design.",
+    "Another signup form asking for my email just to see pricing details. This feels manipulative and suggests they'll probably have hidden costs or pushy sales tactics later.",
+    "Finally, a tool that clearly states its analytical capabilities and integration options. The technical documentation looks comprehensive and the support response time guarantee gives me confidence this could actually work."
+  ],
+  "anti_patterns": [
+    "Assuming price is the primary decision factor - contradicts data showing support quality and reliability outweigh cost concerns",
+    "Using generic 'innovative' or 'cutting-edge' language - contradicts preference for clear, honest technical specifications",
+    "Hiding pricing behind signup forms - contradicts need for transparent cost information upfront",
+    "Downplaying customer support importance - contradicts cluster data showing support quality as top decision factor",
+    "Focusing on aesthetic appeal over functionality - contradicts professional tool requirements and ergonomic priorities"
+  ],
+  "traits": [
+    {
+      "label": "Post-Purchase Support & Reliability Failure",
+      "description": "Users who are extremely frustrated when products malfunction or software fails to perform as advertised, and are further alienated by unresponsive or ineffective customer support when seeking resolutions. This group has very low tolerance for post-purchase friction.",
+      "key_phrases": [
+        "Poor customer support",
+        "Products failing to work as advertised",
+        "Software/app limitations making hardware less useful",
+        "Installation or activation issues causing system corruption",
+        "Refund processes are obstructive, slow, and may violate payment card rules"
+      ],
+      "frequency": 0.48,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Ergonomic & Analytical Efficiency",
+      "description": "Users experience physical strain from manual tasks and seek reliable, automated solutions for data analysis and research. They prioritize tools that prevent injury, save time, and provide accurate, nuanced insights without security risks.",
+      "key_phrases": [
+        "Excessive manual typing leads to wrist/arm pain and tendonitis",
+        "Time-consuming manual coding of survey open-ended responses",
+        "Difficulty finding AI analysis tools that avoid hallucinations",
+        "Automate thematic analysis and coding to save time",
+        "AI hallucinations compromising analysis validity"
+      ],
+      "frequency": 0.18,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_5"
+    },
+    {
+      "label": "Research and Organization Frustration",
+      "description": "Users express frustration with products that fail to support efficient, reliable, and professional research, data collection, and material organization, often due to poor quality, inconvenient design, or ambiguous tools.",
+      "key_phrases": [
+        "Difficulty organizing and finding research materials efficiently",
+        "Complete failure during critical research tasks",
+        "Poor data quality from cheap affiliate traffic and unverified samples"
+      ],
+      "frequency": 0.16,
+      "tone": "frustrated",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Functional Reliability Concern",
+      "description": "This cluster reveals a focus on the dependable performance of everyday tools and the avoidance of frustration caused by their frequent failure or hidden costs. Users strongly dislike unexpected breakdowns, poor implementation of features, and ongoing expenses that diminish initial value.",
+      "key_phrases": [
+        "Unexpectedly short product lifespan with repair costs equaling replacement cost",
+        "Frequent equipment failures",
+        "Ink/toner is expensive per page, creating ongoing financial strain",
+        "Reliable printing without frequent failures",
+        "Quality writing tools that perform well and are easy to maintain"
+      ],
+      "frequency": 0.12,
+      "tone": "frustrated",
+      "cluster_id": "cluster_3"
+    },
+    {
+      "label": "Trust and Reliability Concern",
+      "description": "These users are focused on the dependability of products and services, expressing frustration when core functions fail or when business practices (like auto-renewal) feel deceptive. They prioritize transparency, durability, and consistent support, viewing these as fundamental requirements rather than nice-to-haves.",
+      "key_phrases": [
+        "Frustration with auto-renewal clauses and cancellation difficulties",
+        "Poor customer support and inconsistent service",
+        "Durability issues with materials fraying or tearing",
+        "Versatile, high-quality, and durable tools that meet specific professional needs",
+        "Transparency, flexible contracts, and reliable customer service from service providers"
+      ],
+      "frequency": 0.04,
+      "tone": "frustrated",
+      "cluster_id": "cluster_4"
+    },
+    {
+      "label": "Inclusive Design Gap",
+      "description": "Users experience frustration when products, surveys, or tools fail to accommodate diverse identities, communication styles, and specific professional needs, making them feel excluded or unable to use the tool effectively.",
+      "key_phrases": [
+        "designed for a different demographic",
+        "alienate non-queer subculture participants",
+        "lack of representation or fit for masculine lesbians",
+        "triggering or overwhelming for trans individuals"
+      ],
+      "frequency": 0.02,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 7,
+    "total": 1500,
+    "avg_rating": 3.83,
+    "avg_length": 860,
+    "rating_distribution": {
+      "3": 342,
+      "5": 675,
+      "4": 260,
+      "1": 148,
+      "2": 75
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 300
+    },
+    "n_products": 4,
+    "top_products": {
+      "Market Research Survey Incentive Gift Cards Multi-Pack": 500,
+      "Statistical Analysis Software License - SPSS/SAS Annual": 350,
+      "Professional Survey Design Templates and Question Banks": 350,
+      "unknown": 300
+    },
+    "low_rating_pct": 0.149,
+    "high_rating_pct": 0.623,
+    "n_sources": 2,
+    "issues": [
+      "Platform bias: amazon is 80% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 50
+  },
+  "demographic_description": "An individual whose responses contribute to identifying recurring patterns across interviews. Feedback is aggregated with others rather than evaluated individually. Interaction is analyzed collectively.",
+  "generated_at": "2026-04-05T08:48:13.323665",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "20% grounded in cluster data",
+    "cluster_stability": "moderate"
+  }
+}

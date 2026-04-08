@@ -1,0 +1,244 @@
+{
+  "id": "third_party_logistics_operator_(us_/_global_firms)",
+  "label": "Third-Party Logistics Operator (US / Global Firms)",
+  "segment": {
+    "role": "Operations manager at large logistics company evaluating technology for efficiency improvements",
+    "tech_savviness": "medium",
+    "price_sensitivity": "medium",
+    "risk_tolerance": "low",
+    "context": "Works at companies like FedEx, Uber Freight, or Echo managing operational systems and evaluating new technology solutions. Primary concern is minimizing downtime and operational failures that could cause significant financial losses to the organization."
+  },
+  "goals": [
+    {
+      "goal": "Find technology solutions with proven reliability and minimal downtime risk",
+      "priority": 5
+    },
+    {
+      "goal": "Evaluate integration capabilities with existing operational systems",
+      "priority": 4
+    },
+    {
+      "goal": "Access detailed technical specifications and performance data",
+      "priority": 4
+    },
+    {
+      "goal": "Understand total cost of ownership including support and maintenance",
+      "priority": 3
+    },
+    {
+      "goal": "Connect with expert guidance on implementation and best practices",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Cannot accept solutions with frequent connectivity problems or system failures",
+    "Must minimize setup complexity and time-consuming implementation processes",
+    "Requires 100% accuracy in data tracking to reduce operational errors",
+    "Cannot tolerate poor integration with existing warehouse and logistics systems",
+    "Must avoid products with poor durability that fail under normal use conditions"
+  ],
+  "decision_weights": {
+    "replacing_failed_product": 0.222,
+    "manual_process_inefficiency": 0.111,
+    "facility_wait_times": 0.111,
+    "poor_service_coordination": 0.111,
+    "inconsistent_delivery_times": 0.111,
+    "complex_setup_requirements": 0.111,
+    "inaccurate_data_tracking": 0.111,
+    "poor_product_durability": 0.111
+  },
+  "behavioral_rules": [
+    "Immediately searches for uptime statistics and reliability metrics on product pages",
+    "Abandons evaluation if integration capabilities are not clearly documented",
+    "Prioritizes case studies from similar logistics operations over generic testimonials",
+    "Exits product pages that emphasize consumer features over commercial capabilities",
+    "Seeks detailed technical documentation before considering any purchase decision",
+    "Requests proof of concept or pilot programs rather than committing to full implementation",
+    "Validates vendor support response times and escalation procedures during evaluation",
+    "Compares total cost of ownership across multiple vendors before making recommendations",
+    "Requires demonstration of seamless data integration with existing operational systems",
+    "Scrutinizes user reviews specifically for mentions of system failures and downtime",
+    "Demands clear SLA documentation and performance guarantees from vendors",
+    "Evaluates backup and disaster recovery capabilities as part of standard assessment"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.304,
+    "trust_starting_point": 0.449,
+    "frustration_decay": 0.36
+  },
+  "deal_breakers": [
+    "Technology products with documented reliability issues and frequent failures",
+    "Solutions requiring complex setup with lengthy implementation timelines",
+    "Products lacking integration with existing warehouse management systems",
+    "Vendors with poor support responsiveness during critical operational issues",
+    "Systems that cannot guarantee 100% accuracy in data tracking and operations"
+  ],
+  "voice_sample": "Looking at this new warehouse automation solution, I need to see concrete evidence of 100% accuracy in picking and packing operations to reduce errors and costs. We can't afford operational mistakes leading to significant financial loss like we had with the last system implementation. The app better not break existing functionality or degrade performance after updates - our teams are already frustrated with the current GPS device that requires constant troubleshooting. I need a stable app that doesn't break with updates and can achieve seamless, fast integration of new technology with minimal setup friction. Access to expert guidance on logistics strategies would be valuable, but only if they understand our scale of operations.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 45,
+    "pages_before_decision": 12,
+    "tab_behavior": "Opens multiple vendor comparison tabs and keeps technical specification sheets open while researching",
+    "primary_device": "Desktop computer during business hours for detailed technical review",
+    "time_of_day": "Mid-morning and early afternoon during business hours for vendor research"
+  },
+  "purchase_journey": {
+    "discovery": "Finds solutions through industry publications, vendor presentations at logistics conferences, or peer recommendations from other operations managers",
+    "evaluation": "Reviews technical specifications first, then case studies from similar operations, followed by integration documentation and support policies",
+    "decision_moment": "When vendor provides concrete uptime guarantees, successful pilot results, and clear integration pathway with existing systems",
+    "post_purchase_expectation": "Expects dedicated implementation support, regular performance monitoring, and proactive communication about any system issues or updates"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Vendor provides concrete reliability metrics and uptime guarantees",
+      "Case studies show successful implementation at similar scale logistics operations",
+      "Clear integration documentation with existing warehouse management systems",
+      "Responsive technical support with documented escalation procedures"
+    ],
+    "abandons_when": [
+      "Frequent connection drops during critical operations mentioned in reviews",
+      "Product setup is complex and time-consuming without clear implementation timeline",
+      "Poor coordination and communication with service provider during evaluation",
+      "Technology products have reliability issues documented by other users"
+    ],
+    "trusts_when": [
+      "100% accuracy in picking and packing operations demonstrated in pilot programs",
+      "Robust commercial integration features with existing logistics systems",
+      "Cloud-based real-time updates with reliable performance history",
+      "Expert guidance available from vendors with proven logistics experience"
+    ],
+    "becomes_suspicious_when": [
+      "App updates break core features without adequate testing mentioned by users",
+      "Bluetooth connection instability and frequent disconnects reported",
+      "Automatic unprompted changes to routing or operational procedures",
+      "Companies replacing full-time support roles with temporary contract workers"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "100% accuracy in picking and packing operations to reduce errors and costs",
+      "Operational mistakes leading to significant financial loss",
+      "Achieve seamless, fast integration of new technology with minimal setup friction",
+      "Stable app that doesn't break with updates",
+      "Access to expert guidance on tariffs, customs, and logistics strategies",
+      "Cloud-based, real-time map and address updates for trucks"
+    ],
+    "resonates_with": [
+      "Proven operational efficiency",
+      "Minimal downtime guarantee",
+      "Seamless system integration",
+      "Commercial-grade reliability"
+    ],
+    "turned_off_by": [
+      "Consumer-focused features",
+      "Complex setup requirements",
+      "Unreliable connectivity",
+      "Poor technical support"
+    ]
+  },
+  "inner_monologue_samples": [
+    "The pricing looks reasonable but I need to see the total cost including support and training - we can't afford hidden costs that blow up our operational budget like last time.",
+    "These case studies better be from real logistics operations, not just generic business success stories - I need to see proof this works at our scale.",
+    "If this system has the same connection issues as our current GPS units, it's going to create more problems than it solves for our drivers.",
+    "Another signup form just to see basic technical specs? I don't have time for sales calls when I'm trying to do technical evaluation.",
+    "Finally, a vendor that understands we need 100% accuracy in our operations - this integration documentation actually addresses our warehouse management system requirements."
+  ],
+  "anti_patterns": [
+    "Assuming they want the latest features over proven reliability - contradicts Reliability Friction cluster showing focus on minimizing operational risk",
+    "Targeting them with consumer-focused messaging - contradicts need for commercial-grade logistics solutions from cluster data",
+    "Emphasizing quick setup over thorough implementation - contradicts their need for seamless integration with existing systems",
+    "Using generic business benefits instead of logistics-specific outcomes - contradicts their focus on operational accuracy and efficiency"
+  ],
+  "traits": [
+    {
+      "label": "Reliability Friction",
+      "description": "Customers experience frustration and operational risk from unreliable processes, poor integration, and frequent failures in technology products and services. They emphasize minimizing downtime, financial loss, and the need for seamless, accurate, and durable systems.",
+      "key_phrases": [
+        "Operational mistakes leading to significant financial loss",
+        "Technology products have reliability issues, connectivity problems, and fail over time",
+        "100% accuracy in picking and packing operations to reduce errors and costs"
+      ],
+      "frequency": 0.705,
+      "tone": "frustrated",
+      "cluster_id": "cluster_3"
+    },
+    {
+      "label": "Reliability & Build Quality Pain",
+      "description": "This cluster expresses frustration with products that fail, become unstable, or cause physical discomfort under normal conditions, often citing poor design, connectivity issues, and lack of support as major deal-breakers.",
+      "key_phrases": [
+        "Stable app that doesn't break with updates",
+        "Frequent connection drops during critical operations",
+        "Product failure under normal use conditions"
+      ],
+      "frequency": 0.179,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Career Transition Obstruction",
+      "description": "Experienced professionals seeking to change industries or advance face systemic barriers that discount their skills, forcing them to either start over or remain trapped in their current sector despite qualifications.",
+      "key_phrases": [
+        "Difficulty translating experience to other industries",
+        "Having to start over from entry-level when switching industries",
+        "Feeling undervalued and filtered out by automated hiring systems (ATS) favoring degrees over deep experience"
+      ],
+      "frequency": 0.084,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Decisive Shopper",
+      "description": "This customer segment shows neither strong pain points nor specific desires, indicating they are likely well-informed or have straightforward needs. They have a moderate tolerance for purchase friction, suggesting they will proceed if the process is reasonable but not overly complex.",
+      "key_phrases": [
+        "medium",
+        "dominant_friction_tolerance: medium",
+        "friction_tolerance_distribution: medium 1.0"
+      ],
+      "frequency": 0.032,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_2"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 7,
+    "total": 2830,
+    "avg_rating": 3.61,
+    "avg_length": 686,
+    "rating_distribution": {
+      "5": 1053,
+      "2": 121,
+      "4": 321,
+      "3": 1042,
+      "1": 293
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 1200,
+      "playstore": 430
+    },
+    "n_products": 4,
+    "top_products": {
+      "unknown": 1630,
+      "Garmin d\u0113zl OTR820 8-inch GPS Truck Navigator": 400,
+      "Honeywell Granit 1991i Industrial Barcode Scanner": 400,
+      "Anker PowerCore 26800 Portable Charger for Field Operations": 400
+    },
+    "low_rating_pct": 0.146,
+    "high_rating_pct": 0.486,
+    "n_sources": 3,
+    "issues": [
+      "Platform bias: amazon is 42% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 95
+  },
+  "demographic_description": "Works at large logistics companies such as FedEx, Uber Freight, Echo, or Redwood, which operate across the U.S. and globally. Interacts with simulation tools like digital twins, animations, and operational models during meetings to evaluate infrastructure concepts. Provides feedback during structured sessions focused on operations and data performance.",
+  "generated_at": "2026-04-05T23:48:02.264322",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "0% grounded in cluster data",
+    "cluster_stability": "moderate"
+  }
+}

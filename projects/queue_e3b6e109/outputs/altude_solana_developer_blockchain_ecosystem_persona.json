@@ -1,0 +1,281 @@
+{
+  "id": "solana_developer_(blockchain_ecosystem)",
+  "label": "Solana Developer (Blockchain Ecosystem)",
+  "segment": {
+    "role": "Senior blockchain developer building production-ready applications",
+    "tech_savviness": "high",
+    "price_sensitivity": "medium",
+    "risk_tolerance": "low",
+    "context": "A experienced developer working on Solana ecosystem products who has been burned by complex setups and immature tooling. They prioritize production readiness and seamless integration over cutting-edge features that aren't battle-tested."
+  },
+  "goals": [
+    {
+      "goal": "Find plug-and-play solutions that work without complex technical configuration",
+      "priority": 5
+    },
+    {
+      "goal": "Verify production readiness and scalability before committing development time",
+      "priority": 5
+    },
+    {
+      "goal": "Access clear, comprehensive documentation and setup instructions",
+      "priority": 4
+    },
+    {
+      "goal": "Evaluate security features and infrastructure maturity",
+      "priority": 4
+    },
+    {
+      "goal": "Assess team adoption feasibility and learning curve requirements",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Cannot invest time in MVP-stage products with non-scalable infrastructure (from Production Readiness Concern cluster)",
+    "Must avoid frameworks that create barriers for junior developers on team (from Technical Adoption Skepticism cluster)",
+    "Cannot tolerate complex setup processes requiring specialized network configurations (from Technical Setup Frustration cluster)",
+    "Must have reliable functionality across modern devices and platforms (from Technical Reliability cluster)"
+  ],
+  "decision_weights": {
+    "trusted_recommendations": 0.222,
+    "complex_setup_requirements": 0.111,
+    "unclear_device_behavior": 0.111,
+    "workflow_incompatibility": 0.111,
+    "high_learning_curve": 0.111,
+    "poor_documentation": 0.111,
+    "difficult_installation": 0.111,
+    "product_reliability_issues": 0.111
+  },
+  "behavioral_rules": [
+    "Immediately checks documentation quality and setup complexity before considering any product",
+    "Scans for production readiness indicators and scalability mentions within first 30 seconds",
+    "Exits if setup process mentions 'specific technical network configurations' or complex prerequisites",
+    "Looks for security and infrastructure details before evaluating features",
+    "Tests demo sites and evaluates their professional appearance as trust signals",
+    "Searches for team adoption considerations and junior developer compatibility",
+    "Abandons evaluation if product appears to be in MVP or early-stage development",
+    "Prioritizes solutions with proven track records over innovative but unproven approaches",
+    "Checks for device compatibility and cross-platform reliability information",
+    "Evaluates whether core functionality can be verified without extensive setup",
+    "Looks for clear integration examples and code samples in documentation",
+    "Assesses whether the product solves real problems without creating new ones"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.238,
+    "trust_starting_point": 0.465,
+    "frustration_decay": 0.4
+  },
+  "deal_breakers": [
+    "Product requires complex technical network configurations for basic setup",
+    "Demo site appears suspicious or unprofessional, raising trust concerns",
+    "Documentation lacks clarity or is incomplete for core functionality",
+    "Product is explicitly described as MVP stage or not production-ready",
+    "Setup process requires specialized knowledge not available to team members"
+  ],
+  "voice_sample": "Looking at this new wallet integration tool, but I'm immediately concerned about the setup complexity. The last thing I need is another 'Complicated setup process requiring specific technical network configurations' that will block my junior developers. I've been burned too many times by products that promise simplicity but deliver hours of troubleshooting. The demo site needs to look professional and trustworthy - if it appears suspicious, that's an immediate red flag about the team's attention to detail. What I really need is 'Accurate compatibility detection and clear requirements' upfront, not another situation where I waste a day trying to get something working only to discover it's not ready for production.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 15,
+    "pages_before_decision": 6,
+    "tab_behavior": "Opens multiple tabs to cross-reference documentation, demos, and community discussions",
+    "primary_device": "MacBook Pro during work hours for technical evaluation",
+    "time_of_day": "9-11 AM when evaluating new tools, 2-4 PM for implementation research"
+  },
+  "purchase_journey": {
+    "discovery": "Finds tools through trusted developer recommendations, Solana ecosystem newsletters, and GitHub repositories with high star counts",
+    "evaluation": "Checks documentation first, tests demo if available, evaluates setup complexity, searches for production use cases, assesses team learning curve",
+    "decision_moment": "When they can verify the tool works reliably without complex setup and has been used successfully in production by other teams",
+    "post_purchase_expectation": "Expects smooth integration, responsive support for technical issues, and continuous reliability without maintenance overhead"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Clear documentation with working code examples is immediately visible",
+      "Product demonstrates production-ready stability and scalability",
+      "Setup process is described as plug-and-play or minimal configuration",
+      "Trusted developers or companies provide positive recommendations"
+    ],
+    "abandons_when": [
+      "Setup instructions mention complex technical configurations or prerequisites",
+      "Product appears to be in MVP stage with immature infrastructure",
+      "Documentation is unclear or lacks essential technical details",
+      "Demo sites appear unprofessional or raise security concerns"
+    ],
+    "trusts_when": [
+      "Professional appearance and clear technical communication",
+      "Evidence of production usage by recognizable companies or projects",
+      "Comprehensive documentation with realistic examples",
+      "Transparent about limitations and system requirements"
+    ],
+    "becomes_suspicious_when": [
+      "Demo sites or interfaces appear hastily built or unprofessional",
+      "Claims seem too good to be true for the apparent maturity level",
+      "Setup requirements are downplayed but turn out to be complex",
+      "Documentation lacks depth or avoids discussing limitations"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Complicated setup process requiring specific technical network configurations",
+      "Product is in MVP stage with non-scalable servers, not ready for production",
+      "Lack of clarity or documentation leading to confusion",
+      "Accurate compatibility detection and clear requirements",
+      "High initial learning curve for technical libraries"
+    ],
+    "resonates_with": [
+      "Production-ready infrastructure",
+      "Plug-and-play integration",
+      "Battle-tested reliability",
+      "Developer-friendly documentation",
+      "Seamless team adoption"
+    ],
+    "turned_off_by": [
+      "Complex setup requirements",
+      "MVP-stage limitations",
+      "Unclear documentation",
+      "Specialized knowledge prerequisites",
+      "Beta or experimental labels"
+    ]
+  },
+  "inner_monologue_samples": [
+    "The pricing seems reasonable, but I need to know if this is actually production-ready before I even consider it. Too many times I've been burned by products that looked great but turned out to be MVP-stage with non-scalable infrastructure.",
+    "Good to see some positive reviews, but I'm looking for evidence from other developers who've actually shipped this to production. Testimonials are nice, but I need to see real technical validation.",
+    "This setup guide better not require 'specific technical network configurations' or I'm out. I don't have time to become an expert in another complex framework just to get basic functionality working.",
+    "The signup form is asking for a lot of information upfront. I'd rather test the actual product first to see if it lives up to the promises before committing to another developer tool that might not deliver.",
+    "Finally, clear documentation with actual code examples! This is what I need - straightforward integration steps and honest discussion of requirements. If the setup is really this simple, this could work for our team."
+  ],
+  "anti_patterns": [
+    "Assuming they'll tolerate complex setup because they're technical - contradicts Technical Setup Frustration cluster showing they want simplicity",
+    "Focusing on cutting-edge features over reliability - contradicts Production Readiness Concern showing they prioritize maturity",
+    "Using MVP or beta language as selling points - contradicts their skepticism about production readiness",
+    "Hiding documentation behind signups - contradicts their need to evaluate complexity upfront",
+    "Emphasizing advanced features without addressing team adoption - contradicts Technical Adoption Skepticism about junior developer compatibility"
+  ],
+  "traits": [
+    {
+      "label": "Technical Setup Frustration",
+      "description": "Users express significant frustration with complex initial setup, unclear documentation, and technical incompatibilities that create barriers to product use. They desire plug-and-play simplicity but encounter difficult configurations requiring specialized knowledge.",
+      "key_phrases": [
+        "Complicated setup process requiring specific technical network configurations",
+        "Difficult setup/installation process",
+        "Lack of clarity or documentation leading to confusion"
+      ],
+      "frequency": 0.385,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Production Readiness Concern",
+      "description": "Users express skepticism about the platform's maturity for real-world deployment, highlighting concerns about scalability, security, and professional UX. They desire a robust, secure infrastructure with seamless user and agent experiences before committing to production use.",
+      "key_phrases": [
+        "Product is in MVP stage with non-scalable servers, not ready for production",
+        "Demo site appears suspicious, raising trust concerns",
+        "Clunky, non-intuitive DeFi tool interfaces that hinder usability"
+      ],
+      "frequency": 0.231,
+      "tone": "skeptical",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Technical Adoption Skepticism",
+      "description": "This trait reflects users who value advanced technical capabilities but are concerned about the practical challenges of adopting complex frameworks, particularly regarding team compatibility, learning curve, and integration friction. They desire robust solutions but weigh them against organizational constraints.",
+      "key_phrases": [
+        "Worries about introducing complex frameworks into teams with junior developers",
+        "High learning curve due to functional programming abstraction",
+        "Fear that unfamiliar frameworks will lead to poor code reviews"
+      ],
+      "frequency": 0.128,
+      "tone": "cautious",
+      "cluster_id": "cluster_4"
+    },
+    {
+      "label": "Deceptive Ad Model",
+      "description": "Users experience intrusive ads that disrupt core app functionality while questioning the app's legitimacy, often seeing it as a deceptive platform prioritizing ad delivery over its promised purpose. Core complaints center on excessive, unskippable ads layered with false compatibility claims and coercive rating demands.",
+      "key_phrases": [
+        "Excessive and intrusive ad frequency disrupts core app usage",
+        "App misrepresents device compatibility, leading to wasted time and effort",
+        "Coercive rating demands before usage"
+      ],
+      "frequency": 0.09,
+      "tone": "frustrated",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Technical Reliability and Security Concern",
+      "description": "Users express frustration with unreliable hardware/software functionality, inconsistent NFC communication across devices, and lack of basic app security features, undermining the core promise of secure hardware-based authentication.",
+      "key_phrases": [
+        "Unreliable NFC communication on modern Android/iOS/ChromeOS devices",
+        "Frequent 'YubiKey communication error' or storage corruption leading to lost TOTP codes",
+        "App lacks basic security features like biometric or PIN protection"
+      ],
+      "frequency": 0.09,
+      "tone": "frustrated",
+      "cluster_id": "cluster_6"
+    },
+    {
+      "label": "Scam Skepticism",
+      "description": "Users perceive the mining platform as a potential scam due to critical failures in the core promise of withdrawing earnings. They feel deceived by mandatory payments, progress resets, and non-functional withdrawals after significant time investment.",
+      "key_phrases": [
+        "Mined rewards reset to zero before withdrawal",
+        "Requirement to pay for a wallet to withdraw",
+        "Inability to withdraw mined funds"
+      ],
+      "frequency": 0.051,
+      "tone": "frustrated",
+      "cluster_id": "cluster_5"
+    },
+    {
+      "label": "Balanced Assessment",
+      "description": "Reviews show a neutral, pragmatic evaluation style that weighs positives and negatives without strong emotional extremes, indicating a moderate tolerance for minor product issues.",
+      "key_phrases": [
+        "dominant_friction_tolerance: medium",
+        "friction_tolerance_distribution: medium: 1.0",
+        "balanced signals across all categories"
+      ],
+      "frequency": 0.026,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_3"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 7,
+    "total": 2327,
+    "avg_rating": 3.52,
+    "avg_length": 444,
+    "rating_distribution": {
+      "1": 535,
+      "5": 1047,
+      "4": 311,
+      "3": 311,
+      "2": 123
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 195,
+      "playstore": 932
+    },
+    "n_products": 4,
+    "top_products": {
+      "unknown": 1127,
+      "USB-C Hub with Multiple Ports for MacBook": 400,
+      "Ledger Nano S Plus Hardware Wallet": 400,
+      "YubiKey 5 NFC Hardware Security Key": 400
+    },
+    "low_rating_pct": 0.283,
+    "high_rating_pct": 0.584,
+    "n_sources": 3,
+    "issues": [
+      "Platform bias: amazon is 52% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 78
+  },
+  "demographic_description": "A developer working within the Solana ecosystem building products involving embedded wallets or gasless transactions. Interaction with the product is primarily through usage rather than interviews, and feedback is difficult to extract. Communication is limited and often indirect.",
+  "generated_at": "2026-04-05T23:01:50.300014",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "0% grounded in cluster data",
+    "cluster_stability": "moderate"
+  }
+}

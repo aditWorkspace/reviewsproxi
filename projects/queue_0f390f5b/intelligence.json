@@ -1,0 +1,598 @@
+{
+  "products": [
+    {
+      "name": "TrustPilot Business Plan Annual Subscription",
+      "category": "Software",
+      "accuracy": 0.98,
+      "review_keywords": [
+        "business",
+        "reviews",
+        "customer",
+        "management",
+        "reputation",
+        "feedback",
+        "platform"
+      ],
+      "context_keywords": [
+        "clients",
+        "customers",
+        "business",
+        "professional"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "individual"
+      ],
+      "why": "Only business owners managing customer feedback would purchase TrustPilot business subscriptions"
+    },
+    {
+      "name": "Google My Business Optimization Guide",
+      "category": "Books",
+      "accuracy": 0.96,
+      "review_keywords": [
+        "local",
+        "business",
+        "SEO",
+        "customers",
+        "reviews",
+        "optimization",
+        "marketing"
+      ],
+      "context_keywords": [
+        "business",
+        "customers",
+        "reviews",
+        "local"
+      ],
+      "exclusion_keywords": [
+        "hobby",
+        "personal"
+      ],
+      "why": "Purchased specifically by business owners trying to improve their Google review presence and local SEO"
+    },
+    {
+      "name": "Customer Service Training Manual for Small Business",
+      "category": "Books",
+      "accuracy": 0.95,
+      "review_keywords": [
+        "staff",
+        "training",
+        "customer",
+        "service",
+        "business",
+        "employees",
+        "guide"
+      ],
+      "context_keywords": [
+        "employees",
+        "business",
+        "training",
+        "customers"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "personal"
+      ],
+      "why": "Small business owners purchase these to train staff on handling customer interactions and feedback"
+    },
+    {
+      "name": "Professional Email Marketing Software Annual License",
+      "category": "Software",
+      "accuracy": 0.94,
+      "review_keywords": [
+        "customers",
+        "marketing",
+        "email",
+        "campaigns",
+        "business",
+        "outreach",
+        "professional"
+      ],
+      "context_keywords": [
+        "customers",
+        "business",
+        "marketing",
+        "outreach"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "hobby"
+      ],
+      "why": "Businesses purchase email marketing tools to systematically reach out to customers for feedback and engagement"
+    },
+    {
+      "name": "LinkedIn Sales Navigator Professional Subscription",
+      "category": "Software",
+      "accuracy": 0.93,
+      "review_keywords": [
+        "leads",
+        "business",
+        "networking",
+        "professional",
+        "sales",
+        "contacts",
+        "outreach"
+      ],
+      "context_keywords": [
+        "business",
+        "professional",
+        "networking",
+        "sales"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "casual"
+      ],
+      "why": "Business professionals use Sales Navigator for customer outreach and relationship management through LinkedIn"
+    },
+    {
+      "name": "Customer Feedback Management CRM Software",
+      "category": "Software",
+      "accuracy": 0.92,
+      "review_keywords": [
+        "CRM",
+        "feedback",
+        "customers",
+        "management",
+        "business",
+        "reviews",
+        "tracking"
+      ],
+      "context_keywords": [
+        "customers",
+        "business",
+        "feedback",
+        "management"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "individual"
+      ],
+      "why": "Businesses managing customer relationships and feedback across multiple channels need specialized CRM tools"
+    },
+    {
+      "name": "Business Phone System with Call Recording",
+      "category": "Electronics",
+      "accuracy": 0.91,
+      "review_keywords": [
+        "business",
+        "calls",
+        "recording",
+        "customers",
+        "professional",
+        "system",
+        "quality"
+      ],
+      "context_keywords": [
+        "business",
+        "customers",
+        "calls",
+        "professional"
+      ],
+      "exclusion_keywords": [
+        "home",
+        "personal"
+      ],
+      "why": "Businesses handling customer phone interactions need professional phone systems for quality management"
+    },
+    {
+      "name": "Review Response Templates for Business Owners",
+      "category": "Books",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "reviews",
+        "responses",
+        "business",
+        "customers",
+        "templates",
+        "professional",
+        "reputation"
+      ],
+      "context_keywords": [
+        "business",
+        "reviews",
+        "customers",
+        "responses"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "hobby"
+      ],
+      "why": "Business owners seeking to improve their review response strategies purchase template guides"
+    },
+    {
+      "name": "Professional Survey Creation Software License",
+      "category": "Software",
+      "accuracy": 0.89,
+      "review_keywords": [
+        "surveys",
+        "feedback",
+        "customers",
+        "business",
+        "data",
+        "professional",
+        "responses"
+      ],
+      "context_keywords": [
+        "business",
+        "customers",
+        "feedback",
+        "surveys"
+      ],
+      "exclusion_keywords": [
+        "academic",
+        "personal"
+      ],
+      "why": "Businesses use survey software to systematically collect customer feedback and improve response rates"
+    },
+    {
+      "name": "Business Reputation Management Course",
+      "category": "Books",
+      "accuracy": 0.88,
+      "review_keywords": [
+        "reputation",
+        "business",
+        "online",
+        "reviews",
+        "management",
+        "customers",
+        "strategy"
+      ],
+      "context_keywords": [
+        "business",
+        "reputation",
+        "customers",
+        "online"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "individual"
+      ],
+      "why": "Business owners purchase reputation management courses to better handle online reviews and customer feedback"
+    },
+    {
+      "name": "Multi-Channel Customer Communication Platform",
+      "category": "Software",
+      "accuracy": 0.87,
+      "review_keywords": [
+        "communication",
+        "customers",
+        "multi-channel",
+        "business",
+        "platform",
+        "management",
+        "engagement"
+      ],
+      "context_keywords": [
+        "customers",
+        "business",
+        "communication",
+        "channels"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "individual"
+      ],
+      "why": "Businesses managing customer interactions across phone, email, and social platforms need unified communication tools"
+    },
+    {
+      "name": "Customer Retention Strategy Workbook",
+      "category": "Books",
+      "accuracy": 0.86,
+      "review_keywords": [
+        "retention",
+        "customers",
+        "business",
+        "strategy",
+        "loyalty",
+        "engagement",
+        "workbook"
+      ],
+      "context_keywords": [
+        "customers",
+        "business",
+        "retention",
+        "strategy"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "hobby"
+      ],
+      "why": "Business owners focused on improving customer feedback and engagement purchase retention strategy guides"
+    },
+    {
+      "name": "Professional Video Conferencing Equipment for Customer Calls",
+      "category": "Electronics",
+      "accuracy": 0.85,
+      "review_keywords": [
+        "video",
+        "conferencing",
+        "customers",
+        "business",
+        "professional",
+        "quality",
+        "meetings"
+      ],
+      "context_keywords": [
+        "business",
+        "customers",
+        "professional",
+        "meetings"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "home"
+      ],
+      "why": "Businesses conducting customer meetings and feedback sessions via video need professional equipment"
+    },
+    {
+      "name": "Social Media Management Tool for Business Reviews",
+      "category": "Software",
+      "accuracy": 0.84,
+      "review_keywords": [
+        "social",
+        "media",
+        "business",
+        "reviews",
+        "management",
+        "customers",
+        "monitoring"
+      ],
+      "context_keywords": [
+        "business",
+        "social",
+        "customers",
+        "reviews"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "influencer"
+      ],
+      "why": "Businesses monitoring and responding to customer feedback across social platforms use specialized management tools"
+    },
+    {
+      "name": "Customer Service Headset for Business Calls",
+      "category": "Electronics",
+      "accuracy": 0.83,
+      "review_keywords": [
+        "headset",
+        "business",
+        "calls",
+        "customer",
+        "service",
+        "professional",
+        "quality"
+      ],
+      "context_keywords": [
+        "business",
+        "calls",
+        "customer",
+        "professional"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "personal"
+      ],
+      "why": "Customer service representatives and business owners handling phone-based customer feedback need professional headsets"
+    },
+    {
+      "name": "Business Analytics Software for Customer Insights",
+      "category": "Software",
+      "accuracy": 0.82,
+      "review_keywords": [
+        "analytics",
+        "business",
+        "customers",
+        "insights",
+        "data",
+        "feedback",
+        "professional"
+      ],
+      "context_keywords": [
+        "business",
+        "customers",
+        "analytics",
+        "data"
+      ],
+      "exclusion_keywords": [
+        "academic",
+        "personal"
+      ],
+      "why": "Businesses analyzing customer feedback patterns and response rates use specialized analytics software"
+    },
+    {
+      "name": "Professional Business Card Scanner for Contact Management",
+      "category": "Electronics",
+      "accuracy": 0.81,
+      "review_keywords": [
+        "business",
+        "cards",
+        "scanner",
+        "contacts",
+        "professional",
+        "networking",
+        "management"
+      ],
+      "context_keywords": [
+        "business",
+        "professional",
+        "contacts",
+        "networking"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "home"
+      ],
+      "why": "Business professionals managing customer contacts from networking events use card scanners for follow-up outreach"
+    },
+    {
+      "name": "Customer Experience Management Certification Course",
+      "category": "Books",
+      "accuracy": 0.8,
+      "review_keywords": [
+        "customer",
+        "experience",
+        "management",
+        "certification",
+        "business",
+        "professional",
+        "course"
+      ],
+      "context_keywords": [
+        "business",
+        "professional",
+        "customer",
+        "management"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "personal"
+      ],
+      "why": "Business professionals seeking to improve customer feedback and engagement invest in CX management certification"
+    }
+  ],
+  "subreddits": [
+    {
+      "name": "smallbusiness",
+      "relevance": 0.95,
+      "member_type": "80% small business owners actively managing customer relationships",
+      "data_value": "Customer relationship challenges, review management struggles, outreach strategies",
+      "why": "Small business owners frequently discuss customer feedback challenges and response strategies"
+    },
+    {
+      "name": "entrepreneur",
+      "relevance": 0.88,
+      "member_type": "75% business owners and entrepreneurs dealing with customer engagement",
+      "data_value": "Customer acquisition strategies, reputation management, business growth through feedback",
+      "why": "Entrepreneurs share experiences with customer outreach and feedback management across platforms"
+    },
+    {
+      "name": "marketing",
+      "relevance": 0.85,
+      "member_type": "70% marketing professionals managing customer communications",
+      "data_value": "Customer engagement tactics, response rate optimization, multi-channel communication strategies",
+      "why": "Marketing professionals discuss customer feedback campaigns and engagement optimization"
+    },
+    {
+      "name": "CustomerService",
+      "relevance": 0.9,
+      "member_type": "85% customer service professionals and business owners",
+      "data_value": "Customer interaction best practices, feedback handling strategies, response protocols",
+      "why": "Customer service professionals share strategies for managing customer feedback across multiple channels"
+    },
+    {
+      "name": "sales",
+      "relevance": 0.82,
+      "member_type": "65% sales professionals conducting customer outreach",
+      "data_value": "Customer outreach methods, response rate challenges, follow-up strategies",
+      "why": "Sales professionals discuss customer contact strategies and engagement challenges"
+    },
+    {
+      "name": "business",
+      "relevance": 0.78,
+      "member_type": "60% business owners and professionals managing customer relationships",
+      "data_value": "General business customer relationship strategies, feedback management approaches",
+      "why": "Business professionals discuss customer relationship management and feedback strategies"
+    },
+    {
+      "name": "consulting",
+      "relevance": 0.8,
+      "member_type": "70% consultants managing client relationships and feedback",
+      "data_value": "Client feedback management, professional relationship strategies, engagement optimization",
+      "why": "Consultants share strategies for maintaining client relationships and gathering feedback"
+    },
+    {
+      "name": "freelance",
+      "relevance": 0.75,
+      "member_type": "60% freelancers managing client feedback and reviews",
+      "data_value": "Client relationship management, feedback solicitation strategies, reputation building",
+      "why": "Freelancers discuss client feedback management and review generation strategies"
+    },
+    {
+      "name": "ecommerce",
+      "relevance": 0.87,
+      "member_type": "80% ecommerce business owners managing customer reviews",
+      "data_value": "Review management strategies, customer feedback optimization, platform-specific tactics",
+      "why": "Ecommerce owners actively manage customer reviews and feedback across multiple platforms"
+    },
+    {
+      "name": "digital_marketing",
+      "relevance": 0.83,
+      "member_type": "70% digital marketers managing customer engagement campaigns",
+      "data_value": "Customer engagement strategies, feedback campaign optimization, response rate tactics",
+      "why": "Digital marketers discuss customer feedback campaigns and engagement optimization across channels"
+    },
+    {
+      "name": "SEO",
+      "relevance": 0.72,
+      "member_type": "55% SEO professionals helping businesses with review management",
+      "data_value": "Review optimization strategies, local business feedback tactics, reputation SEO",
+      "why": "SEO professionals help businesses optimize their online reviews and customer feedback"
+    },
+    {
+      "name": "socialmedia",
+      "relevance": 0.7,
+      "member_type": "50% social media managers handling customer feedback",
+      "data_value": "Social platform customer engagement, feedback response strategies, reputation management",
+      "why": "Social media managers deal with customer feedback and engagement across social platforms"
+    },
+    {
+      "name": "LocalBusiness",
+      "relevance": 0.85,
+      "member_type": "80% local business owners managing customer reviews and feedback",
+      "data_value": "Local customer relationship strategies, review generation tactics, community engagement",
+      "why": "Local business owners focus heavily on customer reviews and feedback for community reputation"
+    },
+    {
+      "name": "restaurateur",
+      "relevance": 0.89,
+      "member_type": "85% restaurant owners actively managing customer reviews",
+      "data_value": "Customer feedback management, review response strategies, reputation recovery tactics",
+      "why": "Restaurant owners are highly engaged with customer reviews and feedback across multiple platforms"
+    },
+    {
+      "name": "retailer",
+      "relevance": 0.76,
+      "member_type": "65% retail business owners managing customer feedback",
+      "data_value": "Customer service strategies, feedback collection methods, review management approaches",
+      "why": "Retail owners actively manage customer feedback and reviews to maintain business reputation"
+    }
+  ],
+  "demographic_profile": {
+    "core_keywords": [
+      "feedback",
+      "customers",
+      "reviews",
+      "business",
+      "professional",
+      "outreach",
+      "engagement",
+      "response",
+      "reputation",
+      "communication",
+      "clients",
+      "management",
+      "platform",
+      "contact",
+      "follow-up"
+    ],
+    "exclusion_keywords": [
+      "personal",
+      "hobby",
+      "student",
+      "casual",
+      "individual",
+      "home",
+      "academic",
+      "entertainment"
+    ],
+    "age_range": "25-65",
+    "primary_motivations": [
+      "maintaining business reputation",
+      "improving customer satisfaction",
+      "increasing response rates",
+      "managing multi-channel feedback"
+    ],
+    "summary": "Business owners and professionals who actively manage customer relationships across multiple communication channels including phone, email, LinkedIn, and review platforms. Their purchasing decisions are driven by the need to systematically collect, manage, and respond to customer feedback to maintain business reputation and growth. They are frequently frustrated by inconsistent customer response rates and the challenge of engaging customers across disparate platforms effectively."
+  }
+}

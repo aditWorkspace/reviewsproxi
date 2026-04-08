@@ -1,0 +1,105 @@
+{"review_id": "cluster_2_b0_pp0", "trait_label": "Core Functionality & Reliability Concern", "text": "Difficulty accessing product documentation (e.g., user manual)", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp1", "trait_label": "Core Functionality & Reliability Concern", "text": "Complicated, unintuitive software interfaces requiring extensive manual workarounds", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp2", "trait_label": "Core Functionality & Reliability Concern", "text": "Poor or slow customer support requiring lengthy self-research", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_do0", "trait_label": "Core Functionality & Reliability Concern", "text": "Software that works reliably and efficiently with minimal manual intervention", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_do1", "trait_label": "Core Functionality & Reliability Concern", "text": "Access to comprehensive, clear documentation and tutorials", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp0", "trait_label": "Core Functionality & Reliability Concern", "text": "Poor or unavailable documentation/manuals", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp1", "trait_label": "Core Functionality & Reliability Concern", "text": "Inadequate customer support (long hold times, poor language skills, unhelpful)", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp2", "trait_label": "Core Functionality & Reliability Concern", "text": "Difficulty learning or navigating software due to unclear interfaces or coded systems", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_do0", "trait_label": "Core Functionality & Reliability Concern", "text": "Accurate and reliable results from software (e.g., tax filing, data analysis)", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_do1", "trait_label": "Core Functionality & Reliability Concern", "text": "Ease of use and intuitive interface to minimize learning curve", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp0", "trait_label": "Core Functionality & Reliability Concern", "text": "Poor or outdated instructions and documentation causing setup failures", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp1", "trait_label": "Core Functionality & Reliability Concern", "text": "Manual data entry and reconciliation is cumbersome and time-consuming", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp2", "trait_label": "Core Functionality & Reliability Concern", "text": "Inability to import/export data or migrate between platforms easily", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_do0", "trait_label": "Core Functionality & Reliability Concern", "text": "Efficient, fast, and reliable processing of data or tasks", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_do1", "trait_label": "Core Functionality & Reliability Concern", "text": "Accurate and validated results requiring minimal manual correction", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp0", "trait_label": "Core Functionality & Reliability Concern", "text": "Tools over-promise ease of use but require deep technical expertise to configure and troubleshoot", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp1", "trait_label": "Core Functionality & Reliability Concern", "text": "Lack of intuitive, user-friendly interfaces for common tasks (e.g., export to Excel, conditional formatting in charts)", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp2", "trait_label": "Core Functionality & Reliability Concern", "text": "Time-consuming workarounds needed for visualizations and features that are simple in other tools (Excel, Tableau)", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_do0", "trait_label": "Core Functionality & Reliability Concern", "text": "Accurate, automated data processing with rigorous validation to ensure reliability", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_do1", "trait_label": "Core Functionality & Reliability Concern", "text": "Intuitive, efficient user interface that minimizes clicks and learning curve for common tasks", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp0", "trait_label": "Core Functionality & Reliability Concern", "text": "Tools lack essential formatting options (conditional formatting, text formatting in visualizations)", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp1", "trait_label": "Core Functionality & Reliability Concern", "text": "Manual workarounds required for basic functionality", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp2", "trait_label": "Core Functionality & Reliability Concern", "text": "Software is slow, clunky, or has performance issues with large datasets", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_do0", "trait_label": "Core Functionality & Reliability Concern", "text": "Process and analyze large datasets quickly without performance issues", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_do1", "trait_label": "Core Functionality & Reliability Concern", "text": "Automate repetitive data tasks to save time", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp0", "trait_label": "Analytical Integrity Anxiety", "text": "Manual data entry and correction is time-consuming and frustrating.", "tone": "cautious"}
+{"review_id": "cluster_1_b0_pp1", "trait_label": "Analytical Integrity Anxiety", "text": "AI lacks context and struggles with business interpretation, requiring human oversight.", "tone": "cautious"}
+{"review_id": "cluster_1_b0_pp2", "trait_label": "Analytical Integrity Anxiety", "text": "Data import and migration is flawed, causing errors and extra work.", "tone": "cautious"}
+{"review_id": "cluster_1_b0_do0", "trait_label": "Analytical Integrity Anxiety", "text": "AI handles routine data tasks (cleaning, querying) to free up time for analysis.", "tone": "cautious"}
+{"review_id": "cluster_1_b0_do1", "trait_label": "Analytical Integrity Anxiety", "text": "Seamless data import and integration between tools and systems.", "tone": "cautious"}
+{"review_id": "cluster_1_b1_pp0", "trait_label": "Analytical Integrity Anxiety", "text": "Tools provide incorrect or incomplete data, requiring manual rework.", "tone": "cautious"}
+{"review_id": "cluster_1_b1_pp1", "trait_label": "Analytical Integrity Anxiety", "text": "Software crashes, freezes, or has severe bugs causing lost work.", "tone": "cautious"}
+{"review_id": "cluster_1_b1_pp2", "trait_label": "Analytical Integrity Anxiety", "text": "AI/automation tools have unclear data security, privacy, and retention policies.", "tone": "cautious"}
+{"review_id": "cluster_1_b1_do0", "trait_label": "Analytical Integrity Anxiety", "text": "Accurate, reliable data processing with minimal errors.", "tone": "cautious"}
+{"review_id": "cluster_1_b1_do1", "trait_label": "Analytical Integrity Anxiety", "text": "Clear data security, privacy, and governance for AI tools.", "tone": "cautious"}
+{"review_id": "cluster_1_b2_pp0", "trait_label": "Analytical Integrity Anxiety", "text": "Complex codebases lack documentation, making validation difficult and time-consuming.", "tone": "cautious"}
+{"review_id": "cluster_1_b2_pp1", "trait_label": "Analytical Integrity Anxiety", "text": "Difficulty finding junior roles due to market saturation and reduced hiring.", "tone": "cautious"}
+{"review_id": "cluster_1_b2_pp2", "trait_label": "Analytical Integrity Anxiety", "text": "Learning curve with new software is steep without accessible tutorials or manuals.", "tone": "cautious"}
+{"review_id": "cluster_1_b2_do0", "trait_label": "Analytical Integrity Anxiety", "text": "Automate repetitive data processing while maintaining high accuracy through rigorous validation.", "tone": "cautious"}
+{"review_id": "cluster_1_b2_do1", "trait_label": "Analytical Integrity Anxiety", "text": "Quickly learn and master new tools with comprehensive, accessible documentation.", "tone": "cautious"}
+{"review_id": "cluster_1_b3_pp0", "trait_label": "Analytical Integrity Anxiety", "text": "Manual data entry and integration requiring hours of manual work", "tone": "cautious"}
+{"review_id": "cluster_1_b3_pp1", "trait_label": "Analytical Integrity Anxiety", "text": "Tools not working reliably with specific platforms/software causing workflow interruption", "tone": "cautious"}
+{"review_id": "cluster_1_b3_pp2", "trait_label": "Analytical Integrity Anxiety", "text": "Steep learning curve for new software requiring extensive time investment", "tone": "cautious"}
+{"review_id": "cluster_1_b3_do0", "trait_label": "Analytical Integrity Anxiety", "text": "Automate repetitive tasks to free up time for complex analysis", "tone": "cautious"}
+{"review_id": "cluster_1_b3_do1", "trait_label": "Analytical Integrity Anxiety", "text": "Process and analyze large datasets quickly to identify patterns", "tone": "cautious"}
+{"review_id": "cluster_1_b4_pp0", "trait_label": "Analytical Integrity Anxiety", "text": "AI tools misinterpret ambiguous user instructions, requiring manual correction", "tone": "cautious"}
+{"review_id": "cluster_1_b4_pp1", "trait_label": "Analytical Integrity Anxiety", "text": "AI tools make mistakes or suggest overly complex/inaccurate solutions, requiring expert validation", "tone": "cautious"}
+{"review_id": "cluster_1_b4_pp2", "trait_label": "Analytical Integrity Anxiety", "text": "AI agents can produce silent errors that compound across a multi-agent pipeline", "tone": "cautious"}
+{"review_id": "cluster_1_b4_do0", "trait_label": "Analytical Integrity Anxiety", "text": "Automate repetitive data processing and pattern identification tasks", "tone": "cautious"}
+{"review_id": "cluster_1_b4_do1", "trait_label": "Analytical Integrity Anxiety", "text": "Enable non-technical users to generate reports and insights via plain language", "tone": "cautious"}
+{"review_id": "cluster_4_b0_pp0", "trait_label": "Core Functionality Failure", "text": "App has severe login/authentication issues (Google login redirects, invalid credentials)", "tone": "frustrated"}
+{"review_id": "cluster_4_b0_pp1", "trait_label": "Core Functionality Failure", "text": "App is slow or unresponsive (spinning wheels, freezes, long loading times)", "tone": "frustrated"}
+{"review_id": "cluster_4_b0_pp2", "trait_label": "Core Functionality Failure", "text": "Limited course availability in app compared to website", "tone": "frustrated"}
+{"review_id": "cluster_4_b0_do0", "trait_label": "Core Functionality Failure", "text": "Learn and practice new data science/programming skills (Python, R, etc.)", "tone": "frustrated"}
+{"review_id": "cluster_4_b0_do1", "trait_label": "Core Functionality Failure", "text": "Access to all website courses within the mobile app", "tone": "frustrated"}
+{"review_id": "cluster_4_b1_pp0", "trait_label": "Core Functionality Failure", "text": "Mobile app bugs: unresponsive buttons, freezes, login issues, sync problems with web progress", "tone": "frustrated"}
+{"review_id": "cluster_4_b1_pp1", "trait_label": "Core Functionality Failure", "text": "Poor mobile coding interface: editing/deletion issues, slow typing, lack of code playground", "tone": "frustrated"}
+{"review_id": "cluster_4_b1_pp2", "trait_label": "Core Functionality Failure", "text": "Limited course selection on mobile app vs. web, inability to access enrolled tracks", "tone": "frustrated"}
+{"review_id": "cluster_4_b1_do0", "trait_label": "Core Functionality Failure", "text": "Mobile app stability: responsive, bug-free, seamless sync with web progress", "tone": "frustrated"}
+{"review_id": "cluster_4_b1_do1", "trait_label": "Core Functionality Failure", "text": "Improved mobile coding interface: reliable editing, typing, code playground", "tone": "frustrated"}
+{"review_id": "cluster_4_b2_pp0", "trait_label": "Core Functionality Failure", "text": "Progress blocked unexpectedly after free trial/pause without clear warning", "tone": "frustrated"}
+{"review_id": "cluster_4_b2_pp1", "trait_label": "Core Functionality Failure", "text": "App severely lacks sync with web/desktop version, causing discontinuity", "tone": "frustrated"}
+{"review_id": "cluster_4_b2_pp2", "trait_label": "Core Functionality Failure", "text": "Mobile app has significantly fewer courses than desktop, limiting on-the-go learning", "tone": "frustrated"}
+{"review_id": "cluster_4_b2_do0", "trait_label": "Core Functionality Failure", "text": "Seamless sync between mobile app and web/desktop platform", "tone": "frustrated"}
+{"review_id": "cluster_4_b2_do1", "trait_label": "Core Functionality Failure", "text": "Full course catalog available on mobile app", "tone": "frustrated"}
+{"review_id": "cluster_4_b3_pp0", "trait_label": "Core Functionality Failure", "text": "Login/sign-in failures preventing access", "tone": "frustrated"}
+{"review_id": "cluster_4_b3_pp1", "trait_label": "Core Functionality Failure", "text": "App/software is slow or unresponsive", "tone": "frustrated"}
+{"review_id": "cluster_4_b3_pp2", "trait_label": "Core Functionality Failure", "text": "App does not work on specific devices/platforms (Pixel 7, Samsung tablet)", "tone": "frustrated"}
+{"review_id": "cluster_4_b3_do0", "trait_label": "Core Functionality Failure", "text": "Fast, reliable access to data and workbooks for job tasks", "tone": "frustrated"}
+{"review_id": "cluster_4_b3_do1", "trait_label": "Core Functionality Failure", "text": "Consistent cross-platform functionality (mobile, tablet, web parity)", "tone": "frustrated"}
+{"review_id": "cluster_4_b4_pp0", "trait_label": "Core Functionality Failure", "text": "Login/sign-in failures, often with wrong credentials or cloud authentication errors", "tone": "frustrated"}
+{"review_id": "cluster_4_b4_pp1", "trait_label": "Core Functionality Failure", "text": "App crashes or freezes, especially on Android after updates", "tone": "frustrated"}
+{"review_id": "cluster_4_b4_pp2", "trait_label": "Core Functionality Failure", "text": "Poor mobile rendering: dashboards not fully visible, wrong screen sizing, missing information", "tone": "frustrated"}
+{"review_id": "cluster_4_b4_do0", "trait_label": "Core Functionality Failure", "text": "Reliable, stable app access with consistent login and no crashes", "tone": "frustrated"}
+{"review_id": "cluster_4_b4_do1", "trait_label": "Core Functionality Failure", "text": "Dashboards that render correctly on mobile with proper screen adaptation", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp0", "trait_label": "Core Functionality Failure", "text": "Frequent Bluetooth connection drops and pairing instability", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp1", "trait_label": "Core Functionality Failure", "text": "Difficulty reconnecting after device sleep or reboot", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp2", "trait_label": "Core Functionality Failure", "text": "Missing essential keyboard keys (e.g., Esc, arrow keys)", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_do0", "trait_label": "Core Functionality Failure", "text": "Reliable, instant Bluetooth connection without constant re-pairing", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_do1", "trait_label": "Core Functionality Failure", "text": "Full keyboard functionality including all essential keys (arrow, Esc)", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp0", "trait_label": "Core Functionality Failure", "text": "Bluetooth connection instability and frequent disconnections", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp1", "trait_label": "Core Functionality Failure", "text": "Pairing requires deleting and re-establishing connection each use", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp2", "trait_label": "Core Functionality Failure", "text": "Connection latency and laggy cursor movement", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_do0", "trait_label": "Core Functionality Failure", "text": "Reliable, stable Bluetooth connection without manual re-pairing", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_do1", "trait_label": "Core Functionality Failure", "text": "Smooth, precise cursor movement with no lag", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp0", "trait_label": "Core Functionality Failure", "text": "Frustration with connection issues and setup difficulty (bluetooth pairing, dropped connections)", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp1", "trait_label": "Core Functionality Failure", "text": "Annoyance with volume button hijacking when app is open (phone volume not working normally)", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp2", "trait_label": "Core Functionality Failure", "text": "Frustration with buggy or unreliable premium features after purchase (keyboard lag, random characters, text input issues, reconnection problems)", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_do0", "trait_label": "Core Functionality Failure", "text": "Seamless, reliable remote control of PC/tablet/TV from another room/couch (cozy gaming, HTPC control)", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_do1", "trait_label": "Core Functionality Failure", "text": "Intuitive and polished user experience with minimal setup friction", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp0", "trait_label": "Core Functionality Failure", "text": "Connection instability and frequent disconnections", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp1", "trait_label": "Core Functionality Failure", "text": "Prompts to upgrade to Pro that block basic functionality", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp2", "trait_label": "Core Functionality Failure", "text": "Key combinations (like Ctrl+C) malfunctioning or getting stuck after paying for Pro", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_do0", "trait_label": "Core Functionality Failure", "text": "Reliable, consistent Bluetooth connection without frequent drops", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_do1", "trait_label": "Core Functionality Failure", "text": "Seamless setup that works immediately without complex configuration", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp0", "trait_label": "Core Functionality Failure", "text": "Touchpad becomes unusable/locked after connection", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp1", "trait_label": "Core Functionality Failure", "text": "Multimedia play/pause features not working", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp2", "trait_label": "Core Functionality Failure", "text": "Unable to connect to new device via app, requires manual Bluetooth pairing", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_do0", "trait_label": "Core Functionality Failure", "text": "Seamless Bluetooth connection without manual intervention", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_do1", "trait_label": "Core Functionality Failure", "text": "Full keyboard with Ctrl, Alt, Esc, arrow keys, and shortcuts", "tone": "frustrated"}
+{"review_id": "monologue_2519d0", "trait_label": "Inner Monologue", "text": "I need to see the actual pricing for enterprise features upfront - if they're hiding costs for the manual validation capabilities I need, that's a red flag about transparency", "tone": "authentic_voice"}
+{"review_id": "monologue_73ad83", "trait_label": "Inner Monologue", "text": "These customer reviews mention reliability issues, but I need to hear from someone I trust who's actually used this for large dataset analysis in a business context", "tone": "authentic_voice"}
+{"review_id": "monologue_4a1cc4", "trait_label": "Inner Monologue", "text": "This interface looks clean, but can I actually trace back through the AI's decision-making process when I need to validate results for my quarterly review?", "tone": "authentic_voice"}
+{"review_id": "monologue_b00b1f", "trait_label": "Inner Monologue", "text": "Another signup form asking for company data before I can even see the documentation - I'm not sharing sensitive information until I know their data policies", "tone": "authentic_voice"}
+{"review_id": "monologue_630bd7", "trait_label": "Inner Monologue", "text": "Finally, a tool that explicitly shows manual validation workflows and audit trails - this is exactly what I need to maintain analytical integrity", "tone": "authentic_voice"}

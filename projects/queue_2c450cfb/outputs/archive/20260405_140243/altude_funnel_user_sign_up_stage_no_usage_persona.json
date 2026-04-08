@@ -1,0 +1,315 @@
+{
+  "id": "funnel_user_(sign_up_stage,_no_usage)",
+  "label": "Funnel User (Sign-up Stage, No Usage)",
+  "segment": {
+    "role": "Busy professional seeking efficiency tools but overwhelmed by complexity",
+    "tech_savviness": "medium",
+    "price_sensitivity": "high",
+    "risk_tolerance": "low",
+    "context": "Time-constrained individual who signs up for tools seeking quick solutions but abandons when faced with complex setup or unclear value. They want immediate results with minimal effort but consistently encounter friction that prevents actual usage."
+  },
+  "goals": [
+    {
+      "goal": "Find tools that solve immediate problems without complex configuration",
+      "priority": 5
+    },
+    {
+      "goal": "Achieve quick tangible results with minimal learning curve",
+      "priority": 5
+    },
+    {
+      "goal": "Access clear pricing and functionality before committing time",
+      "priority": 4
+    },
+    {
+      "goal": "Complete setup and onboarding in under 5 minutes",
+      "priority": 4
+    },
+    {
+      "goal": "Verify product works reliably without technical troubleshooting",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Limited time for learning complex software interfaces (from Ease of Use Demand cluster)",
+    "Low tolerance for technical glitches during initial setup (from Friction Intolerance cluster)",
+    "Cannot invest significant effort without clear immediate value (from Practical Efficiency cluster)",
+    "Overwhelmed by too many features or configuration options (from Simplicity-Seeking Frustration cluster)"
+  ],
+  "decision_weights": {
+    "complex_setup_frustration": 0.125,
+    "account_access_anxiety": 0.125,
+    "wrong_decision_fear": 0.125,
+    "feature_overwhelm": 0.125,
+    "technical_glitch_annoyance": 0.125,
+    "progress_embarrassment": 0.125,
+    "hidden_cost_frustration": 0.125,
+    "final_step_failure_rage": 0.125
+  },
+  "behavioral_rules": [
+    "Abandons signup process if more than 5 form fields are required (from Low-Friction Expectation cluster)",
+    "Exits immediately if pricing information is not visible before account creation (from Friction Intolerance cluster)",
+    "Closes tab when encountering technical errors during initial setup process (from Usability Frustration cluster)",
+    "Skips onboarding tutorials longer than 2 minutes (from Practical Efficiency cluster)",
+    "Abandons if product requires integration with other tools during setup (from Ease of Use Demand cluster)",
+    "Exits when faced with multiple subscription tiers without clear recommendations (from Overwhelmed Beginner cluster)",
+    "Closes browser when setup process requires technical knowledge not clearly explained (from Simplicity-Seeking Frustration cluster)",
+    "Abandons if free trial requires credit card before testing basic functionality (from Friction Intolerance cluster)",
+    "Exits if user interface appears cluttered or overwhelming on first login (from Overwhelmed Seeker cluster)",
+    "Leaves when product doesn't work immediately after signup without configuration (from Low-Friction Expectation cluster)"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.234,
+    "trust_starting_point": 0.468,
+    "frustration_decay": 0.4
+  },
+  "deal_breakers": [
+    "Requires technical setup or installation beyond simple account creation",
+    "Hides pricing or features behind mandatory signup process",
+    "Shows complex interface with multiple configuration options on first use",
+    "Demands credit card information before allowing product testing",
+    "Fails to work immediately without additional setup steps"
+  ],
+  "voice_sample": "I'm constantly looking for tools that can help streamline my work, but I'm so tired of signing up for things that promise to be simple and then hit me with a steep learning curve. I need something that works immediately with minimal setup and no complex configuration. I don't have time for analysis paralysis from too many options or features - just show me what it does and let me try it quickly. When I see a tool that might help, I want a quick, simple, and successful first use without technical barriers. If it's going to take me an hour to figure out how to use something that should be basic, I'm moving on to find something else.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 8,
+    "pages_before_decision": 4,
+    "tab_behavior": "Opens multiple alternatives in tabs, quickly cycles through comparing simplicity",
+    "primary_device": "Desktop during work hours or mobile during commute",
+    "time_of_day": "Lunch breaks or early evening when seeking productivity solutions"
+  },
+  "purchase_journey": {
+    "discovery": "Found through targeted outreach in professional groups or communities discussing efficiency tools",
+    "evaluation": "Looks for clear value proposition, simple pricing, and evidence of ease of use in first 3 pages",
+    "decision_moment": "Signs up when product promises immediate utility with minimal setup, but abandons when reality doesn't match",
+    "post_purchase_expectation": "Tool should work immediately and deliver promised value within first 5 minutes of use"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Product demonstrates immediate value without setup",
+      "Clear pricing with no hidden costs or complexity",
+      "Interface appears simple and intuitive at first glance",
+      "Free trial allows full testing without credit card"
+    ],
+    "abandons_when": [
+      "Setup process becomes complex or technical",
+      "Multiple configuration steps required before use",
+      "Technical glitches occur during onboarding",
+      "Product requires learning curve longer than expected"
+    ],
+    "trusts_when": [
+      "Pricing and features clearly displayed upfront",
+      "Product works exactly as advertised immediately",
+      "Setup process is genuinely simple and fast",
+      "No unexpected requirements or hidden steps"
+    ],
+    "becomes_suspicious_when": [
+      "Features are locked behind upgrade prompts",
+      "Setup requires more technical knowledge than advertised",
+      "Product seems more complex than initially presented",
+      "Additional tools or subscriptions are suggested during onboarding"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "A product that works immediately with minimal setup and no complex configuration",
+      "Quick and easy setup with minimal effort to start using",
+      "Achieve quick, tangible results without overwhelming complexity",
+      "Analysis paralysis from too many options or features",
+      "Achieve a quick, simple, and successful first use or sign-up without technical barriers"
+    ],
+    "resonates_with": [
+      "Works in minutes, not hours",
+      "No technical setup required",
+      "Immediate results guaranteed",
+      "Simple and intuitive interface"
+    ],
+    "turned_off_by": [
+      "Advanced configuration options",
+      "Professional setup required",
+      "Learning curve expected",
+      "Integration with existing tools"
+    ]
+  },
+  "inner_monologue_samples": [
+    "Okay, let me see the pricing before I waste time signing up... if I have to create an account just to see what this costs, I'm out.",
+    "This looks promising, lots of good reviews... but if this turns into another 20-minute setup process, I don't have time for that.",
+    "Great, another signup form asking for my job title, company size, and phone number. Do I really need to give them my life story just to try this?",
+    "Finally signed up, now let's see if this actually works like they said... oh no, it wants me to configure integrations and connect three other tools first.",
+    "This is exactly what I needed! It actually does what it says without making me read a manual or watch tutorials."
+  ],
+  "anti_patterns": [
+    "Assuming they'll invest time in learning complex features (contradicts Ease of Use Demand cluster)",
+    "Requiring extensive onboarding before showing value (contradicts Practical Efficiency cluster)",
+    "Hiding pricing or requiring signup for basic information (contradicts Friction Intolerance cluster)",
+    "Presenting multiple options without clear guidance (contradicts Overwhelmed Beginner cluster)",
+    "Expecting them to troubleshoot technical issues (contradicts Low-Friction Expectation cluster)"
+  ],
+  "traits": [
+    {
+      "label": "Friction Intolerance",
+      "description": "These users exhibit low tolerance for complexity, technical issues, or opaque pricing, demanding seamless setup, clear communication, and reliable functionality. They seek tools that simplify life without adding cognitive load or requiring ongoing maintenance.",
+      "key_phrases": [
+        "Frustration with complex installation processes",
+        "Quick and easy installation and setup",
+        "Software that works reliably 'set-and-forget'"
+      ],
+      "frequency": 0.175,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Practical Efficiency",
+      "description": "Users seek simple, reliable tools that solve immediate, specific problems without overcomplication, and are extremely frustrated by any performance issues or unnecessary complexity that disrupts their workflow.",
+      "key_phrases": [
+        "Find a tool that effectively solves a specific, immediate need without overcomplication",
+        "Achieve a quick, tangible improvement with minimal effort",
+        "A product that works immediately with minimal setup and no complex configuration"
+      ],
+      "frequency": 0.15,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_5"
+    },
+    {
+      "label": "Ease of Use Demand",
+      "description": "Users strongly prioritize simple, intuitive tools that deliver quick results without significant learning curves or technical complications. They express frustration with complexity and technical issues, seeking products that work reliably out of the box.",
+      "key_phrases": [
+        "Tools are too complicated, leading to abandonment",
+        "Quick and easy setup with minimal effort to start using",
+        "Clear, intuitive interface that doesn't require constant referencing of manuals"
+      ],
+      "frequency": 0.138,
+      "tone": "frustrated",
+      "cluster_id": "cluster_3"
+    },
+    {
+      "label": "Low-Friction Expectation",
+      "description": "Users in this cluster seek simple, reliable solutions that immediately solve problems without complexity or hidden costs. They experience high frustration when products are difficult to understand, malfunction, or fail to meet basic expectations.",
+      "key_phrases": [
+        "Simple, intuitive product that doesn't require extensive learning",
+        "Struggles with follow-through on learned skills or ideas due to complexity or overwhelm",
+        "Achieve simplicity and ease in completing tasks without expertise"
+      ],
+      "frequency": 0.125,
+      "tone": "frustrated",
+      "cluster_id": "cluster_9"
+    },
+    {
+      "label": "Simplicity-Seeking Frustration",
+      "description": "Users are overwhelmed by complexity and poor usability, which causes frustration and abandonment. They strongly desire tools and processes that are intuitive, require minimal setup, and deliver clear, immediate results to combat decision fatigue and wasted time.",
+      "key_phrases": [
+        "Excessive complexity leading to abandonment",
+        "Feeling overwhelmed by analysis paralysis",
+        "Simplify life and reduce complexity in tools/processes"
+      ],
+      "frequency": 0.087,
+      "tone": "frustrated",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Usability Frustration",
+      "description": "Users express frustration with software that is complex, unstable, and interferes with their goals through poor design, intrusive elements, or excessive cognitive load.",
+      "key_phrases": [
+        "Complexity and steep learning curve in software",
+        "Software freezing and crashing frequently",
+        "Intrusive ads disrupting gameplay flow"
+      ],
+      "frequency": 0.087,
+      "tone": "frustrated",
+      "cluster_id": "cluster_7"
+    },
+    {
+      "label": "Overwhelmed Seeker",
+      "description": "This user seeks tools and solutions to achieve personal or business goals but feels consistently overwhelmed by complexity, time constraints, and fear of failure. They are easily frustrated by technical issues and abandoned tools that don't deliver quick, simple value.",
+      "key_phrases": [
+        "steep learning curve",
+        "analysis paralysis",
+        "time constraints",
+        "fear of failure",
+        "quick wins"
+      ],
+      "frequency": 0.075,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Friction Intolerance",
+      "description": "Users in this cluster show a low tolerance for any friction in their digital experiences, becoming frustrated by intrusive monetization, misleading free trials, unclear instructions, and apps that demand high effort or cause technical issues. They want simple, effective tools that deliver on their basic promises without hidden costs or complexity.",
+      "key_phrases": [
+        "Frustrated by intrusive ads or interruptions that degrade the experience",
+        "Dislikes apps that require excessive time, energy, or technical troubleshooting to use",
+        "Monetization approach that feels fair and respects user time"
+      ],
+      "frequency": 0.075,
+      "tone": "frustrated",
+      "cluster_id": "cluster_4"
+    },
+    {
+      "label": "Overwhelmed Beginner",
+      "description": "Represents users who feel intimidated and stalled by the complexity of tools and business-building processes, leading to analysis paralysis and a strong preference for simple, guided solutions requiring minimal setup and technical knowledge.",
+      "key_phrases": [
+        "Analysis paralysis in choosing the right tool/opportunity",
+        "Struggling with complex software learning curves despite prior experience",
+        "Quick, simple solutions requiring minimal setup and technical knowledge"
+      ],
+      "frequency": 0.075,
+      "tone": "frustrated",
+      "cluster_id": "cluster_6"
+    },
+    {
+      "label": "Access Barrier Frustration",
+      "description": "Users express significant frustration with digital products and services that impose restrictive access requirements or fail to provide complete functionality without additional, often unnecessary, subscriptions or limitations.",
+      "key_phrases": [
+        "Maddened by requiring a paid cable subscription to access streaming apps",
+        "Frustrated with incomplete content (not live or recent episodes)",
+        "True streaming without cable subscription requirement"
+      ],
+      "frequency": 0.013,
+      "tone": "frustrated",
+      "cluster_id": "cluster_8"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 8,
+    "total": 2400,
+    "avg_rating": 3.43,
+    "avg_length": 552,
+    "rating_distribution": {
+      "5": 660,
+      "1": 239,
+      "4": 296,
+      "2": 116,
+      "3": 1089
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 1200
+    },
+    "n_products": 7,
+    "top_products": {
+      "unknown": 1200,
+      "Social Media Management Tools - Hootsuite Business Plan": 200,
+      "Project Management Software - Asana Premium": 200,
+      "Online Course Creation Software - Teachable Pro": 200,
+      "Adobe Creative Cloud Individual Plan": 200
+    },
+    "low_rating_pct": 0.148,
+    "high_rating_pct": 0.398,
+    "n_sources": 2,
+    "issues": [
+      "Platform bias: amazon is 50% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 80
+  },
+  "demographic_description": "A user reached through outreach (e.g., Telegram groups) who expresses interest and signs up for the product. Does not proceed to actual usage or integration after sign-up. Behavior is observed through funnel drop-off rather than direct feedback.",
+  "generated_at": "2026-04-05T10:03:34.667235",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "0% grounded in cluster data",
+    "cluster_stability": "low"
+  }
+}

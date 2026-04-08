@@ -1,0 +1,287 @@
+{
+  "id": "cross_functional_pm_(design_+_engineering_collaboration)",
+  "label": "Cross-Functional PM (Design + Engineering Collaboration)",
+  "segment": {
+    "role": "Mid-career Product Manager coordinating between design and engineering teams",
+    "tech_savviness": "high",
+    "price_sensitivity": "medium",
+    "risk_tolerance": "low",
+    "context": "Works in fast-paced environments where team dysfunction and tool failures directly impact delivery. Values reliable systems that enable seamless collaboration without creating additional overhead or forcing unnecessary personal vulnerability."
+  },
+  "goals": [
+    {
+      "goal": "Find tools that enable seamless collaboration between product managers, designers, and engineers",
+      "priority": 5
+    },
+    {
+      "goal": "Establish reliable backup systems when team members are absent",
+      "priority": 4
+    },
+    {
+      "goal": "Access professional-grade features without complexity that slows down team workflows",
+      "priority": 4
+    },
+    {
+      "goal": "Implement design systems with clear governance and dedicated ownership",
+      "priority": 3
+    },
+    {
+      "goal": "Maintain work-life segmentation while meeting cross-functional demands",
+      "priority": 3
+    },
+    {
+      "goal": "Reduce communication gaps and inaccurate assumptions within teams",
+      "priority": 4
+    }
+  ],
+  "constraints": [
+    "Limited time for evaluating tools due to high workload from sole domain ownership",
+    "Cannot risk team productivity with unreliable software that freezes during tasks",
+    "Must avoid tools that mandate personal sharing or vulnerability in professional settings",
+    "Budget constraints require proof of value before investing in team collaboration tools"
+  ],
+  "decision_weights": {
+    "backup_support_coverage": 0.125,
+    "managerial_guidance_availability": 0.125,
+    "workload_distribution_pressure": 0.125,
+    "work_life_boundary_maintenance": 0.125,
+    "professional_privacy_protection": 0.125,
+    "meeting_authenticity_comfort": 0.125,
+    "team_communication_clarity": 0.125,
+    "specialized_expertise_recognition": 0.125
+  },
+  "behavioral_rules": [
+    "Immediately checks reliability metrics and uptime guarantees before considering any collaboration tool",
+    "Abandons evaluation if basic functionality demos show freezing or performance issues",
+    "Prioritizes tools that offer clear backup and coverage options for team continuity",
+    "Skips products that require mandatory team-building or personal sharing features",
+    "Verifies integration capabilities with existing design and engineering workflows first",
+    "Exits pricing pages that hide costs behind required personal demos or sales calls",
+    "Searches specifically for governance and maintenance documentation in design system tools",
+    "Tests core functionality immediately rather than exploring advanced features first",
+    "Requires clear documentation about team roles and permissions before purchase",
+    "Validates compatibility with existing tech stack before proceeding with trials",
+    "Refuses tools that send notifications outside of configured business hours",
+    "Demands transparent pricing without forced upselling during evaluation"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.265,
+    "trust_starting_point": 0.491,
+    "frustration_decay": 0.4
+  },
+  "deal_breakers": [
+    "Software freezes during tasks or has unreliable core functionality",
+    "Tools that mandate personal sharing during work meetings",
+    "Excessive, intrusive ads that disrupt basic app interaction",
+    "App fails to perform advertised core functionality",
+    "Communication gaps and inaccurate assumptions within teams cannot be resolved",
+    "Lack of dedicated ownership and maintenance for critical systems",
+    "Missing essential features for professional workflow requirements"
+  ],
+  "voice_sample": "I'm constantly frustrated by tools that promise seamless collaboration but fail at the basic level - software freezes during tasks, missing essential keys for workflows, or worst of all, forcing team vulnerability exercises that create more dysfunction than connection. What I need is a living, well-maintained design system that serves as a single source of truth, with clear governance and contribution rules that my engineering team will actually follow. The last thing I have time for is another tool that requires manual workarounds or creates communication gaps between my designers and developers. I just want something that works reliably so I can focus on shipping products instead of constantly troubleshooting our collaboration stack.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 25,
+    "pages_before_decision": 8,
+    "tab_behavior": "Opens multiple vendor tabs to compare features side-by-side, keeps documentation and pricing pages open simultaneously",
+    "primary_device": "Laptop during work hours with secondary mobile checking for team compatibility",
+    "time_of_day": "Late morning after standups or early evening when planning next sprint"
+  },
+  "purchase_journey": {
+    "discovery": "Finds tools through engineering team recommendations, design community forums, or when current solutions fail during critical project moments",
+    "evaluation": "Tests core functionality first, then checks integration docs, reviews governance features, validates team onboarding process",
+    "decision_moment": "Commits when tool demonstrates reliable performance under team load and shows clear ROI for collaboration efficiency",
+    "post_purchase_expectation": "Expects smooth team onboarding, stable performance during high-usage periods, and responsive support for configuration issues"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Tool demonstrates stable connection and reliable core functionality",
+      "Clear governance and contribution rules are documented",
+      "Seamless integration with existing design and engineering workflows",
+      "Transparent pricing with clear team scaling options",
+      "Dedicated support for implementation and maintenance"
+    ],
+    "abandons_when": [
+      "Software freezes during demonstrations or trials",
+      "Hidden pricing or forced sales call requirements",
+      "Mandatory personal sharing or team building features",
+      "Poor integration with current tech stack",
+      "Lack of clear backup and coverage options"
+    ],
+    "trusts_when": [
+      "Engineering teams actively use and recommend the tool",
+      "Clear documentation about system maintenance and ownership",
+      "Transparent uptime metrics and reliability guarantees",
+      "Responsive customer support during trial period",
+      "Evidence of successful cross-functional team adoption"
+    ],
+    "becomes_suspicious_when": [
+      "Marketing emphasizes soft skills over technical capabilities",
+      "Pricing structure seems designed to force upgrades",
+      "Demo requires sharing sensitive team or project information",
+      "Tool promises to solve communication problems through personality assessments",
+      "Sales process feels pushy or dismissive of technical requirements"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "A living, well-maintained design system that serves as a single source of truth",
+      "Enable seamless collaboration between product managers, designers, and engineers",
+      "Clear governance, contribution rules, and versioning",
+      "Communication gaps and inaccurate assumptions within teams",
+      "Ability to quickly build and ship products without bureaucracy",
+      "A stable app that doesn't crash during use",
+      "Access to professional-grade features without complexity",
+      "Alignment across teams to reduce design drift and ensure code matches designs"
+    ],
+    "resonates_with": [
+      "Streamlined cross-functional workflows",
+      "Reliable system performance and uptime",
+      "Clear team governance and ownership models",
+      "Professional-grade collaboration features",
+      "Transparent integration documentation"
+    ],
+    "turned_off_by": [
+      "Team building and vulnerability-based collaboration",
+      "Complex licensing schemes and hidden costs",
+      "Personality-driven communication solutions",
+      "Tools requiring extensive manual maintenance",
+      "Platforms that blur professional boundaries"
+    ]
+  },
+  "inner_monologue_samples": [
+    "Another pricing page that wants me to 'talk to sales' - I need to see actual costs per user so I can budget for the whole cross-functional team, not sit through a demo where they'll try to upsell enterprise features we don't need.",
+    "These testimonials all sound like marketing speak. Show me actual engineering teams using this for design system maintenance, not PMs talking about 'improved communication' - I need proof this won't become another tool we abandon after three months.",
+    "This navigation is already confusing me and I'm the one evaluating it. If I can't figure out basic functionality quickly, there's no way my designers and engineers will adopt this without constant support tickets.",
+    "Why do they need my team size, company info, and project details just to start a trial? This feels like they're more interested in their sales pipeline than letting me test if their tool actually works with our workflow.",
+    "Finally, a tool that starts with technical integration docs instead of team personality assessments. The API documentation looks solid and they have clear versioning - this might actually solve our design system governance problems."
+  ],
+  "anti_patterns": [
+    "Assuming they want extensive customization options - contradicts need for 'professional-grade features without complexity'",
+    "Pushing team communication training or soft skills development - contradicts frustration with 'forced personal sharing'",
+    "Emphasizing individual productivity over team systems - contradicts focus on 'seamless collaboration between teams'",
+    "Offering basic plans that require upgrades for team features - contradicts need for transparent pricing and team coverage",
+    "Marketing collaboration tools as personality or culture solutions - contradicts preference for technical functionality over team dynamics"
+  ],
+  "traits": [
+    {
+      "label": "Team Dysfunction Frustration",
+      "description": "This cluster represents users frustrated by inefficient team dynamics, including poor communication, micromanagement, and blurred professional boundaries, which hinder collaboration and create high cognitive load.",
+      "key_phrases": [
+        "Communication gaps and inaccurate assumptions within teams",
+        "Managerial guidance is absent or insufficient for decision-making",
+        "Tools that mandate personal sharing or vulnerability"
+      ],
+      "frequency": 0.317,
+      "tone": "frustrated",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Team Support & Collaboration Need",
+      "description": "Users express deep concern about lacking empathy and practical support within teams and from management, especially during personal challenges. They desire tools and systems that foster genuine collaboration, maintain confidentiality, and provide reliable backup without intrusive oversight.",
+      "key_phrases": [
+        "Frustration with team members lacking empathy and connection",
+        "Empathy and support from leadership during personal difficulties",
+        "Concern about managers not providing support during personal challenges",
+        "Maintain a safe space for personal issues without employer intrusion",
+        "Enable seamless collaboration between product managers, designers, and engineers"
+      ],
+      "frequency": 0.258,
+      "tone": "cautious",
+      "cluster_id": "cluster_5"
+    },
+    {
+      "label": "Functional Reliability Concern",
+      "description": "This cluster expresses frustration with basic functionality failures, performance issues, and lack of reliability across software applications. Users report bugs, freezes, missing features, and poor user experiences that disrupt their workflow.",
+      "key_phrases": [
+        "Software freezes during tasks in older versions",
+        "Unable to upload Word files, only text",
+        "Slow to load and hard to search"
+      ],
+      "frequency": 0.225,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Organizational Design System Struggle",
+      "description": "Users express frustration and concern about the challenges of implementing, maintaining, and gaining organizational buy-in for design systems. Pain points center on lack of dedicated ownership, insufficient funding, poor governance, and misalignment between teams.",
+      "key_phrases": [
+        "lack of dedicated ownership and maintenance",
+        "misaligned expectations between PMs and engineers",
+        "systems become too rigid or messy without clear governance",
+        "design system treated as a living product, not a one-time deliverable",
+        "clear governance, contribution rules, and versioning"
+      ],
+      "frequency": 0.075,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Technical and Ethical Failures",
+      "description": "Users are reporting a combination of severe technical problems (crashes, connectivity failures) alongside unethical app behaviors such as deceptive compatibility claims, forced ratings, and intrusive ads that block core functionality. This cluster represents a fundamental breakdown in both performance and integrity.",
+      "key_phrases": [
+        "Excessive, intrusive, and deceptive ads that disrupt basic app interaction",
+        "App fails to perform advertised core functionality",
+        "App deceives users (e.g., fake compatibility check, forced 5-star rating, misleading connection time)"
+      ],
+      "frequency": 0.067,
+      "tone": "frustrated",
+      "cluster_id": "cluster_3"
+    },
+    {
+      "label": "Unreliable Core Functionality",
+      "description": "Users are primarily frustrated by persistent, fundamental failures in establishing and maintaining the basic Bluetooth connection and by the application's incomplete or non-standard keyboard and mouse emulation, which prevents reliable use for its core purpose.",
+      "key_phrases": [
+        "Difficulty establishing or maintaining Bluetooth connection",
+        "Bluetooth connection unreliability, frequent disconnections and pairing failures",
+        "Missing essential keys for user's workflow (e.g., arrows, modifiers)",
+        "Mouse pointer speed is imprecise and choppy",
+        "Connection fails after reboot/backgrounding"
+      ],
+      "frequency": 0.058,
+      "tone": "frustrated",
+      "cluster_id": "cluster_4"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 8,
+    "total": 3590,
+    "avg_rating": 3.17,
+    "avg_length": 515,
+    "rating_distribution": {
+      "5": 967,
+      "1": 759,
+      "4": 441,
+      "2": 235,
+      "3": 1188
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 1200,
+      "playstore": 1190
+    },
+    "n_products": 5,
+    "top_products": {
+      "unknown": 2390,
+      "Notion Personal Pro Annual Plan": 300,
+      "Figma Professional Team Plan": 300,
+      "Slack Pro Plan Team Subscription": 300,
+      "Miro Online Whiteboard Annual Subscription": 300
+    },
+    "low_rating_pct": 0.277,
+    "high_rating_pct": 0.392,
+    "n_sources": 3,
+    "issues": [],
+    "batches_estimate": 120
+  },
+  "demographic_description": "Works closely with design and engineering teams using tools like Notion, Slack, and whiteboarding platforms. Participates in collaborative sessions to define solutions and execute features. Interaction is team-based and iterative.",
+  "generated_at": "2026-04-05T22:56:53.378124",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "14% grounded in cluster data",
+    "cluster_stability": "moderate"
+  }
+}

@@ -1,0 +1,80 @@
+{"review_id": "cluster_3_b0_pp0", "trait_label": "Reliability Friction", "text": "Operational mistakes leading to significant financial loss (e.g., wrong inventory counts, shipment errors causing research damage)", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_pp1", "trait_label": "Reliability Friction", "text": "High-pressure environment where errors are frequent and costly (e.g., inventory algorithm shutdowns, railcar mishaps)", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_pp2", "trait_label": "Reliability Friction", "text": "Need for reliable, seamless product setup to avoid downtime (e.g., router connection issues, complex manuals)", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_do0", "trait_label": "Reliability Friction", "text": "Minimize financial and operational risk from errors through reliable systems", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_do1", "trait_label": "Reliability Friction", "text": "Achieve seamless, fast integration of new technology with minimal setup friction", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_pp0", "trait_label": "Reliability Friction", "text": "Delivery times are too long, impacting satisfaction.", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_pp1", "trait_label": "Reliability Friction", "text": "Errors in warehouse operations (picking, packing, receiving) lead to customer complaints, lost inventory, backorders, and increased costs.", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_pp2", "trait_label": "Reliability Friction", "text": "Technology products (cameras, routers, tracking devices) have reliability issues, connectivity problems, and fail over time.", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_do0", "trait_label": "Reliability Friction", "text": "100% accuracy in picking and packing operations to reduce errors and costs.", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_do1", "trait_label": "Reliability Friction", "text": "Long-term durability and reliability of products.", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_pp0", "trait_label": "Reliability Friction", "text": "Frustration with inaccurate or unreliable tracking technology (e.g., GPS, heart rate, motion tracking)", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_pp1", "trait_label": "Reliability Friction", "text": "Annoyance at poor build quality, missing components, or defective products upon delivery", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_pp2", "trait_label": "Reliability Friction", "text": "Concern over safety hazards and negligence in warehouse operations (e.g., unstable racks, unsafe forklift practices)", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_do0", "trait_label": "Reliability Friction", "text": "Accurate, reliable data tracking for fitness, logistics, or operational decisions", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_do1", "trait_label": "Reliability Friction", "text": "Durable, rugged products that withstand harsh environments (e.g., warehouses, outdoor use)", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_pp0", "trait_label": "Reliability Friction", "text": "Costly operational mistakes due to human error", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_pp1", "trait_label": "Reliability Friction", "text": "Mistakes causing financial loss and operational disruption", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_pp2", "trait_label": "Reliability Friction", "text": "Lack of durable, reliable technology for daily operations", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_do0", "trait_label": "Reliability Friction", "text": "Minimize costly errors in shipping, freight, and distribution operations", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_do1", "trait_label": "Reliability Friction", "text": "Implement practical solutions that prevent recurring mistakes", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_pp0", "trait_label": "Reliability Friction", "text": "Difficulty finding a 3PL that works with small or early-stage brands due to high volume requirements", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_pp1", "trait_label": "Reliability Friction", "text": "Uncertainty and stress around tariff changes and compliance, requiring expert advice", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_pp2", "trait_label": "Reliability Friction", "text": "Poor communication or unresponsiveness from logistics providers", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_do0", "trait_label": "Reliability Friction", "text": "Seamless integration with e-commerce platforms like Shopify", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_do1", "trait_label": "Reliability Friction", "text": "Access to expert guidance on tariffs, customs, and logistics strategies", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp0", "trait_label": "Reliability & Build Quality Pain", "text": "Bluetooth connection instability, frequent disconnects, and inability to reconnect without complex troubleshooting (uninstall/reinstall, force stop, device forgetting, power cycling)", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp1", "trait_label": "Reliability & Build Quality Pain", "text": "App performance degraded or features broken after software/firmware updates", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp2", "trait_label": "Reliability & Build Quality Pain", "text": "App interferes with other Bluetooth devices (e.g., headsets) or phone settings (e.g., volume)", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_do0", "trait_label": "Reliability & Build Quality Pain", "text": "Stable, persistent Bluetooth connection that auto-reconnects reliably after temporary disconnection", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_do1", "trait_label": "Reliability & Build Quality Pain", "text": "Reliable address/location search and sending from phone to GPS, including coordinates", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp0", "trait_label": "Reliability & Build Quality Pain", "text": "Unreliable Bluetooth/phone connectivity requiring frequent resets or re-pairing", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp1", "trait_label": "Reliability & Build Quality Pain", "text": "App or GPS freezes, crashes, or requires forced restarts", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp2", "trait_label": "Reliability & Build Quality Pain", "text": "Automatic, unprompted re-routing without road closures", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_do0", "trait_label": "Reliability & Build Quality Pain", "text": "Reliable, persistent Bluetooth/phone-to-GPS connection", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_do1", "trait_label": "Reliability & Build Quality Pain", "text": "Routing that strictly respects vehicle dimensions (length) and road restrictions", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp0", "trait_label": "Reliability & Build Quality Pain", "text": "App requires frequent and unnecessary logins, especially problematic when offline", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp1", "trait_label": "Reliability & Build Quality Pain", "text": "Bluetooth connection is unreliable; loses connection or requires manual reconnection on device", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp2", "trait_label": "Reliability & Build Quality Pain", "text": "App lacks historical data and insights; only shows limited real-time graphs", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_do0", "trait_label": "Reliability & Build Quality Pain", "text": "Reliable, persistent Bluetooth connection that reconnects automatically after device power loss", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_do1", "trait_label": "Reliability & Build Quality Pain", "text": "Historical data graphs over varying time periods to analyze power draw and usage patterns", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp0", "trait_label": "Reliability & Build Quality Pain", "text": "App instability/crashes interrupting monitoring", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp1", "trait_label": "Reliability & Build Quality Pain", "text": "Unreliable Bluetooth/connection dropping", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp2", "trait_label": "Reliability & Build Quality Pain", "text": "Poor password/login functionality", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_do0", "trait_label": "Reliability & Build Quality Pain", "text": "Reliable, persistent device connection and control", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_do1", "trait_label": "Reliability & Build Quality Pain", "text": "Granular, customizable time-of-use/peak settings (15-min intervals)", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp0", "trait_label": "Reliability & Build Quality Pain", "text": "Software updates failing to complete (taking >12 hours or failing entirely)", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp1", "trait_label": "Reliability & Build Quality Pain", "text": "GPS/device freezing or crashing during critical navigation", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp2", "trait_label": "Reliability & Build Quality Pain", "text": "Persistent Bluetooth/phone app connectivity failure requiring repeated uninstall/reinstall cycles", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_do0", "trait_label": "Reliability & Build Quality Pain", "text": "Reliable, stable connection between phone app and GPS device at ALL times", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_do1", "trait_label": "Reliability & Build Quality Pain", "text": "Software updates that complete successfully without breaking core functionality", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp0", "trait_label": "Career Transition Obstruction", "text": "Entry-level supply chain roles are scarce and competitive, making career entry difficult", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp1", "trait_label": "Career Transition Obstruction", "text": "Feeling overqualified for entry-level warehouse/associate roles after obtaining certifications/degrees", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp2", "trait_label": "Career Transition Obstruction", "text": "High turnover and poor job stability in freight brokerage roles", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_do0", "trait_label": "Career Transition Obstruction", "text": "Obtain logistics experience to advance in supply chain career", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_do1", "trait_label": "Career Transition Obstruction", "text": "Find an entry point that provides relevant experience without starting at warehouse level", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp0", "trait_label": "Career Transition Obstruction", "text": "Difficulty finding a job after obtaining certification, feeling unprepared for the labor market", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp1", "trait_label": "Career Transition Obstruction", "text": "Frustration with expectations to start in warehouse or manual labor roles despite certification", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp2", "trait_label": "Career Transition Obstruction", "text": "Concern about the value of certifications without practical experience", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_do0", "trait_label": "Career Transition Obstruction", "text": "Secure a role that leverages certification and avoids physical manual labor", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_do1", "trait_label": "Career Transition Obstruction", "text": "Find a career path in supply chain with growth potential", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp0", "trait_label": "Career Transition Obstruction", "text": "Competition with over-qualified candidates (MBAs, multiple certifications, degrees) in a tough job market", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp1", "trait_label": "Career Transition Obstruction", "text": "Lack of practical, hands-on logistics/supply chain experience despite education/certifications", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp2", "trait_label": "Career Transition Obstruction", "text": "Difficulty getting a foot in the door for office/strategic roles without prior warehouse/floor experience", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_do0", "trait_label": "Career Transition Obstruction", "text": "Secure a strategic, data-driven role in supply chain (e.g., planner, analyst, manager)", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_do1", "trait_label": "Career Transition Obstruction", "text": "Gain respect and credibility by understanding ground-level operations", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp0", "trait_label": "Career Transition Obstruction", "text": "Unclear career path or entry requirements", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp1", "trait_label": "Career Transition Obstruction", "text": "Difficulty standing out to recruiters despite significant experience", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp2", "trait_label": "Career Transition Obstruction", "text": "Frustration with lack of local entry-level opportunities (beyond warehouse labor)", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_do0", "trait_label": "Career Transition Obstruction", "text": "Transition from military logistics to civilian supply chain roles", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_do1", "trait_label": "Career Transition Obstruction", "text": "Enter the field without a college degree via certifications/alternative pathways", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp0", "trait_label": "Career Transition Obstruction", "text": "Frustration with lack of job opportunities despite qualifications and willingness to learn", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp1", "trait_label": "Career Transition Obstruction", "text": "Anxiety about career relevance due to AI and automation", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp2", "trait_label": "Career Transition Obstruction", "text": "Difficulty transitioning roles or industries without relevant experience", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_do0", "trait_label": "Career Transition Obstruction", "text": "Secure a stable, data-driven role in supply chain/logistics (e.g., analyst, project management)", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_do1", "trait_label": "Career Transition Obstruction", "text": "Develop skills that remain strategically relevant amid AI/automation trends", "tone": "frustrated"}
+{"review_id": "monologue_81ab93", "trait_label": "Inner Monologue", "text": "The pricing looks reasonable but I need to see the total cost including support and training - we can't afford hidden costs that blow up our operational budget like last time.", "tone": "authentic_voice"}
+{"review_id": "monologue_ed1c70", "trait_label": "Inner Monologue", "text": "These case studies better be from real logistics operations, not just generic business success stories - I need to see proof this works at our scale.", "tone": "authentic_voice"}
+{"review_id": "monologue_129cdd", "trait_label": "Inner Monologue", "text": "If this system has the same connection issues as our current GPS units, it's going to create more problems than it solves for our drivers.", "tone": "authentic_voice"}
+{"review_id": "monologue_ec1d69", "trait_label": "Inner Monologue", "text": "Another signup form just to see basic technical specs? I don't have time for sales calls when I'm trying to do technical evaluation.", "tone": "authentic_voice"}
+{"review_id": "monologue_a4f2bc", "trait_label": "Inner Monologue", "text": "Finally, a vendor that understands we need 100% accuracy in our operations - this integration documentation actually addresses our warehouse management system requirements.", "tone": "authentic_voice"}

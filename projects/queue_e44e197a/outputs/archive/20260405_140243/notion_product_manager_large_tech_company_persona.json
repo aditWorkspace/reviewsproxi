@@ -1,0 +1,260 @@
+{
+  "id": "product_manager_(large_tech_company)",
+  "label": "Product Manager (Large Tech Company)",
+  "segment": {
+    "role": "Senior PM at large tech company managing data-driven product decisions",
+    "tech_savviness": "high",
+    "price_sensitivity": "low",
+    "risk_tolerance": "low",
+    "context": "Works with complex data tools like Hex dashboards and Zendesk, synthesizing user feedback and metrics to drive product strategy. Values reliable, intuitive tools that enhance workflow efficiency and strategic impact without administrative overhead."
+  },
+  "goals": [
+    {
+      "goal": "Find tools that automate repetitive analysis tasks to save time",
+      "priority": 5
+    },
+    {
+      "goal": "Access real-time, detailed data and statistics for decision making",
+      "priority": 5
+    },
+    {
+      "goal": "Ability to influence product direction with data-driven decisions",
+      "priority": 4
+    },
+    {
+      "goal": "Better stakeholder relationships to influence processes incrementally",
+      "priority": 4
+    },
+    {
+      "goal": "Ability to customize and adapt tools to fit specific workflow needs",
+      "priority": 3
+    },
+    {
+      "goal": "Access comprehensive documentation without technical barriers",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Cannot spend excessive time on status updates and administrative tasks",
+    "Must avoid products requiring deep technical knowledge like GitHub for non-technical roles",
+    "Cannot tolerate poor user interfaces or unclear error messages",
+    "Needs responsive customer support when issues arise"
+  ],
+  "decision_weights": {
+    "regulatory_compliance": 0.222,
+    "technical_accessibility": 0.111,
+    "interface_clarity": 0.111,
+    "support_responsiveness": 0.111,
+    "system_performance": 0.111,
+    "data_reliability": 0.111,
+    "setup_efficiency": 0.111,
+    "implementation_speed": 0.111
+  },
+  "behavioral_rules": [
+    "Immediately tests core functionality during free trial before considering purchase",
+    "Abandons products that require GitHub knowledge for basic PM tasks",
+    "Exits immediately if GUI elements are off-screen or validation errors aren't specified",
+    "Seeks detailed documentation and setup guides before committing to enterprise tools",
+    "Prioritizes tools with reliable backup systems to prevent data loss",
+    "Demands responsive customer support channels before making enterprise purchases",
+    "Tests mobile/tablet performance if product claims cross-platform compatibility",
+    "Verifies that pro features actually work before upgrading from free tier",
+    "Looks for evidence of design system governance and living product approach",
+    "Requires ability to revert to previous versions after bad updates"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.274,
+    "trust_starting_point": 0.5,
+    "frustration_decay": 0.384
+  },
+  "deal_breakers": [
+    "App crashes frequently or freezes when using core features",
+    "Pro upgrade fails to unlock promised features",
+    "Customer support being unresponsive or ineffective",
+    "Products requiring technical knowledge of tools like GitHub for non-technical roles",
+    "Software that consumes excessive system resources or storage space"
+  ],
+  "voice_sample": "I need tools that respect my time and expertise as a PM. When I'm evaluating a new analytics platform, I want to see accurate and reliable data processing without AI hallucinations - I can't afford to make strategic decisions based on flawed insights. The ability to automate repetitive analysis tasks to save time is crucial because I'm already spending too much time on status updates instead of actual strategic work. I expect a design system treated as a living product with clear governance, not some half-baked interface where GUI elements are off-screen. If I'm paying for enterprise features, I need the ability to influence product direction with data-driven decisions, and accessible support channels when things inevitably go wrong.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 45,
+    "pages_before_decision": 12,
+    "tab_behavior": "Opens multiple tabs to compare features, documentation, and pricing simultaneously",
+    "primary_device": "Desktop during work hours, mobile for quick reviews",
+    "time_of_day": "Late morning (10-11am) and mid-afternoon (2-4pm) during work"
+  },
+  "purchase_journey": {
+    "discovery": "Finds products through industry reports, colleague recommendations, and targeted content about PM tools",
+    "evaluation": "Tests core functionality first, reviews documentation depth, checks customer support responsiveness, validates mobile performance",
+    "decision_moment": "When tool demonstrates clear ROI through time savings and improved stakeholder influence",
+    "post_purchase_expectation": "Immediate access to all promised features with reliable performance and responsive support"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Tool demonstrates clear ability to automate repetitive analysis tasks",
+      "Platform shows real-time, detailed data and statistics capabilities",
+      "Product offers ability to customize and adapt to specific workflow needs",
+      "Evidence of design system governance and professional approach"
+    ],
+    "abandons_when": [
+      "Products requiring technical knowledge of GitHub for non-technical roles",
+      "Poor user interfaces or unclear error messages",
+      "Unresponsive or ineffective customer support",
+      "App crashes frequently or freezes during basic usage"
+    ],
+    "trusts_when": [
+      "Accurate and reliable data processing without AI hallucinations",
+      "Comprehensive documentation and setup guides available",
+      "Accessible support and feedback channels clearly visible",
+      "Evidence of automatic software updates and version notifications"
+    ],
+    "becomes_suspicious_when": [
+      "Pro features don't work as advertised",
+      "Excessive system resource consumption without justification",
+      "Hidden technical requirements not disclosed upfront",
+      "Poor mobile app performance despite cross-platform claims"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Automate repetitive analysis tasks to save time",
+      "Ability to influence product direction with data-driven decisions",
+      "Access real-time, detailed data and statistics",
+      "A design system treated as a living product with clear governance",
+      "Better stakeholder relationships to influence processes incrementally",
+      "Spending too much time on status updates"
+    ],
+    "resonates_with": [
+      "Data-driven decision making",
+      "Strategic impact and visibility",
+      "Workflow optimization",
+      "Professional enterprise tools",
+      "Stakeholder influence"
+    ],
+    "turned_off_by": [
+      "Technical complexity for non-technical roles",
+      "Administrative overhead",
+      "Unreliable core functionality",
+      "Poor user experience design",
+      "Unresponsive support"
+    ]
+  },
+  "inner_monologue_samples": [
+    "Enterprise pricing but I need to see if this actually delivers ROI through time savings - can't justify another tool that creates more administrative overhead",
+    "Good customer reviews but I've been burned by pro features that don't work as advertised - need to test the free trial thoroughly first",
+    "Interface looks clean but I need to verify those GUI elements actually work properly and error messages are clear - can't afford debugging time",
+    "Signup form is asking for too much information upfront - this better not be another tool that requires GitHub knowledge for basic PM tasks",
+    "Finally, a platform that shows real-time detailed data capabilities and seems to understand that PMs need strategic influence, not just metrics"
+  ],
+  "anti_patterns": [
+    "Assuming PMs want technical complexity - contradicts frustration with GitHub requirements for non-technical roles",
+    "Hiding pricing or feature details - contradicts need for transparent evaluation of professional tools",
+    "Emphasizing flashy features over core reliability - contradicts frustration with fundamental functionality failures",
+    "Treating PMs as purely analytical roles - contradicts need for stakeholder influence and strategic impact",
+    "Offering poor mobile experiences for cross-platform tools - contradicts expectation of professional-grade consistency"
+  ],
+  "traits": [
+    {
+      "label": "Core Functionality & Support Reliability",
+      "description": "Users express frustration when fundamental product features fail to work as expected, or when poor user experience and inadequate support prevent them from completing essential tasks. They value products that are reliable, intuitive, and backed by effective assistance when needed.",
+      "key_phrases": [
+        "Frustration with products requiring technical knowledge of tools like GitHub for non-technical roles",
+        "Annoyance at products with poor user interfaces or unclear error messages (e.g., GUI elements off-screen, validation errors not specified)",
+        "Dissatisfaction with customer support being unresponsive or ineffective"
+      ],
+      "frequency": 0.573,
+      "tone": "frustrated",
+      "cluster_id": "cluster_3"
+    },
+    {
+      "label": "Core Functionality Failure",
+      "description": "Users experience fundamental breakdowns in the app's basic operation, including persistent crashes, login failures, and data loss, which prevent any meaningful use of the product.",
+      "key_phrases": [
+        "App repeatedly fails to connect to store causing crashes and data loss",
+        "Persistent login failures",
+        "App freezes or crashes frequently on mobile/tablet devices.",
+        "Game crashes and loses all progress and in-app purchases",
+        "Software hanging/stalling after working fine for a while"
+      ],
+      "frequency": 0.227,
+      "tone": "frustrated",
+      "cluster_id": "cluster_4"
+    },
+    {
+      "label": "Career-Impact Inefficiency",
+      "description": "Professionals experience time-consuming administrative tasks (status updates, meetings, documentation) and struggle with visibility, which directly hinders their ability to execute, influence stakeholders, and advance their careers. They seek tools and frameworks that optimize workflow efficiency while simultaneously boosting their strategic impact and political capital.",
+      "key_phrases": [
+        "Spending too much time on status updates",
+        "Difficulty with execution vs visibility leading to career stagnation",
+        "Time wasted iterating on documents vs telling the story to stakeholders"
+      ],
+      "frequency": 0.109,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Value Betrayal",
+      "description": "Customers feel their investment of time, money, and trust has been fundamentally dishonored. This manifests through broken transactional promises (losing paid content, withheld certificates, pro features that don't work), manipulative pricing (predatory subscriptions, mandatory costly upgrades), and a lack of basic functional respect (software that fails to install, poor customer support).",
+      "key_phrases": [
+        "Feeling deceived by predatory subscription models that remove access upon cancellation",
+        "Pro upgrade fails to unlock promised features",
+        "Payment issues (payment failure reported but bank shows payment, no refund)"
+      ],
+      "frequency": 0.073,
+      "tone": "frustrated",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Moderate Consideration",
+      "description": "The cluster indicates a user segment that weighs product choices with moderate care. They are not impulsive buyers nor paralyzed by indecision, but are likely to evaluate a reasonable number of factors before purchase.",
+      "key_phrases": [
+        "dominant_friction_tolerance: medium",
+        "friction_tolerance_distribution: medium: 1.0"
+      ],
+      "frequency": 0.018,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_1"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 8,
+    "total": 3297,
+    "avg_rating": 3.12,
+    "avg_length": 589,
+    "rating_distribution": {
+      "4": 340,
+      "5": 844,
+      "1": 715,
+      "2": 209,
+      "3": 1189
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 1200,
+      "playstore": 897
+    },
+    "n_products": 5,
+    "top_products": {
+      "unknown": 2097,
+      "Zendesk Support Professional Plan": 300,
+      "Tableau Desktop Professional License": 300,
+      "Hex for Data Science Teams Annual Subscription": 300,
+      "Miro Annual Team Plan Subscription": 300
+    },
+    "low_rating_pct": 0.28,
+    "high_rating_pct": 0.359,
+    "n_sources": 3,
+    "issues": [],
+    "batches_estimate": 110
+  },
+  "demographic_description": "Works as a PM using tools like Hex dashboards and Zendesk to review user feedback and metrics. Interacts with multiple data sources and synthesizes patterns from them. Behavior involves structured analysis of product data.",
+  "generated_at": "2026-04-05T20:55:19.933550",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "20% grounded in cluster data",
+    "cluster_stability": "moderate"
+  }
+}

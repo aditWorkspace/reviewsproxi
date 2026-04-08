@@ -1,0 +1,3707 @@
+{
+  "chosen_n_clusters": 4,
+  "sweep_results": [
+    {
+      "k": 3,
+      "silhouette": 0.1949867308139801,
+      "intra_similarity": 0.6196862657864889,
+      "inter_distance": 0.5051150321960449,
+      "combined_score": 0.38442225158214566
+    },
+    {
+      "k": 4,
+      "silhouette": 0.2094430923461914,
+      "intra_similarity": 0.662182554602623,
+      "inter_distance": 0.5483982563018799,
+      "combined_score": 0.4130559638142586
+    },
+    {
+      "k": 5,
+      "silhouette": 0.10877177864313126,
+      "intra_similarity": 0.6576389789581298,
+      "inter_distance": 0.49752146005630493,
+      "combined_score": 0.35118187502026554
+    },
+    {
+      "k": 6,
+      "silhouette": 0.09561257064342499,
+      "intra_similarity": 0.6574544509251913,
+      "inter_distance": 0.4516143202781677,
+      "combined_score": 0.33536548465490346
+    },
+    {
+      "k": 7,
+      "silhouette": 0.09800262749195099,
+      "intra_similarity": 0.6695972425597054,
+      "inter_distance": 0.4200506806373596,
+      "combined_score": 0.33389062264135905
+    },
+    {
+      "k": 8,
+      "silhouette": 0.09373168647289276,
+      "intra_similarity": 0.6864332386425563,
+      "inter_distance": 0.5635640621185303,
+      "combined_score": 0.3655086272529194
+    },
+    {
+      "k": 9,
+      "silhouette": 0.09352482855319977,
+      "intra_similarity": 0.6811160519719124,
+      "inter_distance": 0.5253768563270569,
+      "combined_score": 0.356172601133585
+    },
+    {
+      "k": 10,
+      "silhouette": 0.09755556285381317,
+      "intra_similarity": 0.6841535170873007,
+      "inter_distance": 0.503179669380188,
+      "combined_score": 0.3546597704291344
+    }
+  ],
+  "quality_metrics": {
+    "silhouette": 0.2094430923461914,
+    "intra_similarity": 0.662182554602623,
+    "inter_distance": 0.5483982563018799,
+    "combined_score": 0.4130559638142586,
+    "stability_ari": 0.5806,
+    "stability_label": "moderate"
+  },
+  "cluster_0": {
+    "member_count": 7,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "High cost per authentication with perceived low value",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "App crashes and technical instability preventing use",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Inaccurate authentication results (real items deemed fake, fakes deemed authentic)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Poor or robotic customer support with unhelpful responses",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Requirement to destroy item (e.g., shoe) for authentication",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Token/credit system confusion and perceived scam (free tokens not usable, credits lost)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Slow or no refunds for incorrect results",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "App or service shutting down after payment",
+            "emotional_intensity": 1.0
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Fast, reliable authentication for peace of mind in online shopping (e.g., eBay)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Accurate, consistent results verified by multiple authenticators or cross-checking",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Easy-to-use, stable app with quick turnaround (<10 mins)",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Fair pricing (value for cost) and transparent token/credit system",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Responsive, helpful customer support for questions and disputes",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Non-destructive authentication process",
+            "priority": 0.4
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Comparison to other apps (e.g., CheckCheck) showing superior process (more pictures, dual authentication)",
+            "context": "Seeking more thorough verification"
+          },
+          {
+            "trigger": "Need for quick authentication to confirm legitimacy of a purchased item",
+            "context": "Post-purchase verification"
+          },
+          {
+            "trigger": "Recommendation from other users or positive reviews highlighting speed and accuracy",
+            "context": "Social proof"
+          },
+          {
+            "trigger": "Desire for a portable 'authentication team' for convenience",
+            "context": "On-demand professional service"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Cost too high per item ($10) for unreliable service",
+            "severity": 0.9
+          },
+          {
+            "objection": "Technical issues (crashes, non-functional app) prevent usage",
+            "severity": 0.8
+          },
+          {
+            "objection": "Authentication accuracy is low and inconsistent (60%, random results)",
+            "severity": 0.9
+          },
+          {
+            "objection": "Scam concerns (lost money, fake results, no refund)",
+            "severity": 1.0
+          },
+          {
+            "objection": "Poor customer support (robotic, unresponsive)",
+            "severity": 0.7
+          },
+          {
+            "objection": "Requirement to destroy item is unreasonable",
+            "severity": 0.6
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "CheckCheck or similar authentication apps",
+            "reason": "More rigorous process (more pictures, two authenticators)",
+            "threshold": "When current app's process feels insufficient"
+          },
+          {
+            "from_product": "Manual or informal verification",
+            "reason": "Need for faster, professional, on-demand authentication",
+            "threshold": "When convenience and speed become critical"
+          },
+          {
+            "from_product": "Current authentication service",
+            "reason": "High cost coupled with inaccurate results",
+            "threshold": "After experiencing financial loss and incorrect authentication"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Accuracy and reliability of authentication",
+          "Speed of turnaround",
+          "Cost and pricing fairness",
+          "App stability and usability",
+          "Customer support quality",
+          "Transparency of process (e.g., no destructive checks)"
+        ],
+        "deal_breakers": [
+          "Inaccurate authentication results (false positives/negatives)",
+          "High cost with no refund for errors",
+          "App crashes or unusable service",
+          "Scam-like behavior (lost credits, shutdown)"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "App crashing with error codes (e.g., HTTP 503)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Unexpected or high cost with no free option",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Perceived fraud or theft of money without service delivery",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Incorrect authentication results (false positives/negatives)",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "App unreliable or not turning on when needed",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Wasted time",
+            "emotional_intensity": 0.8
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable, fast authentication of product (e.g., sneakers) legitimacy",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Peace of mind and assurance when buying/selling",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Second opinion to confirm suspicions",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Quick response time and service speed",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Cost-effective or free verification option",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Stable, non-crashing app functionality",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Uncertainty about authenticity from third-party sites",
+            "context": "Pre-purchase or post-purchase verification"
+          },
+          {
+            "trigger": "Need for assurance when buying or selling high-value items (e.g., sneakers)",
+            "context": "E-commerce or peer-to-peer transactions"
+          },
+          {
+            "trigger": "Wanting to confirm personal suspicions about an item",
+            "context": "Personal doubt or risk assessment"
+          },
+          {
+            "trigger": "Recommendation from others or positive word-of-mouth",
+            "context": "Social proof and trust building"
+          },
+          {
+            "trigger": "Desire for an official certificate or verification",
+            "context": "Resale or certification needs"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Service takes money but doesn't authenticate (perceived scam)",
+            "severity": 0.95
+          },
+          {
+            "objection": "App is buggy, crashes, or is unreliable",
+            "severity": 0.85
+          },
+          {
+            "objection": "Cost is prohibitive with no free trial",
+            "severity": 0.8
+          },
+          {
+            "objection": "Authentication results are inaccurate (false real/fake calls)",
+            "severity": 0.9
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Current authentication service/app",
+            "reason": "Persistent technical failures (crashes, errors)",
+            "threshold": "After multiple failed attempts or unresolved issues"
+          },
+          {
+            "from_product": "Current authentication service/app",
+            "reason": "Financial loss with no service rendered",
+            "threshold": "After a single incident of paying without result"
+          },
+          {
+            "from_product": "Current authentication service/app",
+            "reason": "Loss of trust due to inaccurate results",
+            "threshold": "After receiving a clearly incorrect verification"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Accuracy of authentication",
+          "Reliability and speed of service",
+          "Cost/value",
+          "App stability and usability",
+          "Trust and social proof"
+        ],
+        "deal_breakers": [
+          "Inaccurate authentication results",
+          "App crashes or critical technical failures",
+          "Payment taken without service delivered"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Unclear pricing structure, hidden costs before signing up.",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "App crashes or force-closes during authentication process.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Suspected rushed, superficial authentication based on limited photos, leading to questionable accuracy.",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Cluttered or poor app layout interfering with usability.",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Perceived unreliability for certain product categories (e.g., clothing vs. shoes).",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Over-reliance on specific criteria (e.g., stitching) without deeper analysis.",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Quick, fast authentication results to reduce waiting time.",
+            "priority": 0.9
+          },
+          {
+            "outcome": "High accuracy and reliability to ensure trust in results.",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Easy, simple app navigation and clear instructions.",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Reasonable, transparent pricing.",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Professional service and thorough verification process.",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Certificate of Authentication (CoA) as proof for disputes or peace of mind.",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "To verify authenticity of a purchased item (especially after potential scam).",
+            "context": "Post-purchase doubt or dispute situation."
+          },
+          {
+            "trigger": "To get a second opinion when unsure about an item's legitimacy.",
+            "context": "Pre-purchase or ownership uncertainty."
+          },
+          {
+            "trigger": "To replace lost original certificates or documentation.",
+            "context": "Need for official proof of authenticity."
+          },
+          {
+            "trigger": "Lower cost compared to alternatives (e.g., StockX).",
+            "context": "Price comparison with competing services."
+          },
+          {
+            "trigger": "Previous dissatisfaction with competitor's standards.",
+            "context": "Switching from another authentication service."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Accuracy doubts: results conflict with other expert opinions or known authenticity.",
+            "severity": 0.9
+          },
+          {
+            "objection": "Process feels rushed or automated, not thorough.",
+            "severity": 0.7
+          },
+          {
+            "objection": "Pricing is unclear and requires upfront credit purchase.",
+            "severity": 0.8
+          },
+          {
+            "objection": "App technical issues (crashes, bugs) disrupt the experience.",
+            "severity": 0.6
+          },
+          {
+            "objection": "Limited capability for certain product types (e.g., clothing).",
+            "severity": 0.7
+          },
+          {
+            "objection": "Reliance on photo-only verification perceived as insufficient.",
+            "severity": 0.65
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Other authentication apps (e.g., CheckCheck)",
+            "reason": "Declining standards or reliability of competitor.",
+            "threshold": "When competitor's service becomes unreliable."
+          },
+          {
+            "from_product": "Competitors like StockX",
+            "reason": "Lower cost and perceived better value.",
+            "threshold": "Price sensitivity and seeking cheaper alternatives."
+          }
+        ],
+        "decision_factors_ranked": [
+          "Speed of authentication",
+          "Accuracy and reliability",
+          "Price/cost",
+          "App usability and ease",
+          "Professionalism and thoroughness"
+        ],
+        "deal_breakers": [
+          "Inaccurate authentication results leading to distrust",
+          "Hidden or opaque pricing model",
+          "Persistent app crashes or technical failures"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Fear of paying for counterfeit products",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Inconvenience of slow authentication from other services",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Distrust in the reliability of other authenticators (e.g., StockX)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Frustration with app technical failures (HTTP 503 errors)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Anger at being blocked after payment",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Anxiety about spending large amounts on sneakers without verification",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Quick, reliable sneaker authentication before purchase",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Peace of mind about product authenticity",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Cost savings by avoiding counterfeit purchases",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Easy, on-the-fly authentication convenience",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Confidence in making sneaker purchases",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to authenticate shoes before a purchase",
+            "context": "Considering buying sneakers online"
+          },
+          {
+            "trigger": "Loss of trust in other authentication platforms",
+            "context": "Disappointment with alternatives like StockX or other apps"
+          },
+          {
+            "trigger": "Risk of high financial loss from counterfeit products",
+            "context": "Spending thousands on potential fakes"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Requires payment to authenticate",
+            "severity": 0.7
+          },
+          {
+            "objection": "App has technical issues or crashes",
+            "severity": 0.8
+          },
+          {
+            "objection": "Concerns about reliability/accuracy of authentication results",
+            "severity": 0.8
+          },
+          {
+            "objection": "Suspicion of being blocked or scammed after payment",
+            "severity": 0.9
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Other legit check apps",
+            "reason": "Too expensive or slow",
+            "threshold": "Cheaper and faster alternative"
+          },
+          {
+            "from_product": "StockX authentication",
+            "reason": "Distrust in reliability",
+            "threshold": "Seeking more trustworthy service"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Speed of authentication",
+          "Reliability of results",
+          "Cost-effectiveness",
+          "Ease of use",
+          "App stability"
+        ],
+        "deal_breakers": [
+          "App not functioning (e.g., HTTP 503 errors)",
+          "Suspected scamming (blocking after payment)",
+          "Inaccurate authentication results",
+          "Mandatory payment requirement without trial"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Slow or cumbersome process for uploading shoes/pictures to the app",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Frustration with having to pay for tokens/authentication service",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Technical issues or errors during use (e.g., 503 errors, account disabled warnings)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Concern about app safety and personal information security",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Peace of mind and confidence in product authenticity",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Fast, instant, or quicker-than-advertised authentication results",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Accurate and reliable authentication results",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Easy-to-use and intuitive app interface and navigation",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Lower cost or more affordable pricing/service tiers",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Suspicion or uncertainty about a product's authenticity (e.g., 'hype shoes be out there for bootleg')",
+            "context": "After-market purchase verification"
+          },
+          {
+            "trigger": "Discovery that a previous purchase (e.g., from StockX) was a replica",
+            "context": "Recurring verification need after bad experience"
+          },
+          {
+            "trigger": "Desire for convenience and speed compared to alternatives",
+            "context": "Need for quick verification before purchase or after receiving item"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Requires payment/tokens for a service some feel should be free",
+            "severity": 0.7
+          },
+          {
+            "objection": "Technical reliability issues and app errors preventing use",
+            "severity": 0.8
+          },
+          {
+            "objection": "Perceived safety/security risks with the app",
+            "severity": 0.6
+          },
+          {
+            "objection": "Pricing considered slightly high",
+            "severity": 0.4
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "StockX (implied marketplace authentication)",
+            "reason": "Discovery that StockX authentication failed (sold replica as authentic)",
+            "threshold": "One major failure leading to financial loss and hassle"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Speed of authentication",
+          "Accuracy/reliability",
+          "Ease of use/app interface",
+          "Cost/value",
+          "Customer service"
+        ],
+        "deal_breakers": [
+          "Persistent technical errors preventing use",
+          "Major security/safety concerns with the app",
+          "Consistently inaccurate authentication results"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.5,
+      "reddit": 0.5,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "App crashes frequently, especially during connection to device",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.075
+        },
+        {
+          "signal": "Bluetooth pairing/connection issues (fails to connect, disconnects easily)",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.075
+        },
+        {
+          "signal": "Poor or confusing user interface (UI) that is inefficient and a headache to use",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.075
+        },
+        {
+          "signal": "Inconsistent or indecisive authentication results (different reasons for failure, inconclusive rulings)",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.075
+        },
+        {
+          "signal": "Lack of detailed feedback on failed authentications (vague, short reasons, no educational value)",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.075
+        },
+        {
+          "signal": "Payment system issues (credit cards declined, token purchase confusion)",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.075
+        },
+        {
+          "signal": "Difficulty contacting customer support (ignored messages, impossible to reach)",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.075
+        },
+        {
+          "signal": "Technical errors like 503 errors preventing app functionality",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.075
+        },
+        {
+          "signal": "App not compatible with newer Android devices",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.075
+        },
+        {
+          "signal": "Requires excessive photos for authentication, causing frustration",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.075
+        },
+        {
+          "signal": "Unclear pricing structure, hidden costs before signing up.",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.075
+        },
+        {
+          "signal": "App crashes or force-closes during authentication process.",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.075
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Reliable and stable Bluetooth connection to devices",
+          "count": 1,
+          "frequency": 0.027,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0811
+        },
+        {
+          "signal": "Fast and efficient authentication service with quick turnaround times",
+          "count": 1,
+          "frequency": 0.027,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0811
+        },
+        {
+          "signal": "Clear, detailed, and educational feedback on authentication results (both pass and fail)",
+          "count": 1,
+          "frequency": 0.027,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0811
+        },
+        {
+          "signal": "User-friendly and intuitive app interface",
+          "count": 1,
+          "frequency": 0.027,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0811
+        },
+        {
+          "signal": "Consistent and trustworthy authentication decisions",
+          "count": 1,
+          "frequency": 0.027,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0811
+        },
+        {
+          "signal": "Easy and reliable payment process",
+          "count": 1,
+          "frequency": 0.027,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0811
+        },
+        {
+          "signal": "Accessible and responsive customer support",
+          "count": 1,
+          "frequency": 0.027,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0811
+        },
+        {
+          "signal": "Peace of mind regarding product authenticity",
+          "count": 1,
+          "frequency": 0.027,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0811
+        },
+        {
+          "signal": "Ability to get refunds or resolve disputes with sellers using authentication certificates",
+          "count": 1,
+          "frequency": 0.027,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0811
+        },
+        {
+          "signal": "Quick, fast authentication results to reduce waiting time.",
+          "count": 1,
+          "frequency": 0.027,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0811
+        },
+        {
+          "signal": "High accuracy and reliability to ensure trust in results.",
+          "count": 1,
+          "frequency": 0.027,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0811
+        },
+        {
+          "signal": "Easy, simple app navigation and clear instructions.",
+          "count": 1,
+          "frequency": 0.027,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0811
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Inaccurate authentication results",
+          "count": 2,
+          "frequency": 0.1,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.25
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Need to verify authenticity of a purchased item (e.g., sneakers, cologne) to avoid counterfeits",
+          "count": 1,
+          "frequency": 0.0417,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.125
+        },
+        {
+          "signal": "Requirement for a certificate of authenticity to facilitate returns or refunds",
+          "count": 1,
+          "frequency": 0.0417,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.125
+        },
+        {
+          "signal": "Desire for quick and affordable authentication compared to competitors",
+          "count": 1,
+          "frequency": 0.0417,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.125
+        },
+        {
+          "signal": "Recommendation from positive reviews highlighting speed, efficiency, and reliability",
+          "count": 1,
+          "frequency": 0.0417,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.125
+        },
+        {
+          "signal": "To verify authenticity of a purchased item (especially after potential scam).",
+          "count": 1,
+          "frequency": 0.0417,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.125
+        },
+        {
+          "signal": "To get a second opinion when unsure about an item's legitimacy.",
+          "count": 1,
+          "frequency": 0.0417,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.125
+        },
+        {
+          "signal": "To replace lost original certificates or documentation.",
+          "count": 1,
+          "frequency": 0.0417,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.125
+        },
+        {
+          "signal": "Lower cost compared to alternatives (e.g., StockX).",
+          "count": 1,
+          "frequency": 0.0417,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.125
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "medium": 0.286,
+        "low": 0.714
+      }
+    }
+  },
+  "cluster_1": {
+    "member_count": 59,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Equipment failure in critical situations (e.g., fire suppression system malfunction)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Unreliable or mislabeled product capacity (e.g., cart rated for 175lbs fails under heavy use)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Poor product condition from resale (e.g., cigarette smoke odor on used items)",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Inadequate safety features or unclear safety protocols (e.g., chemical hazards, fire extinguisher misuse)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Tools lacking durability for commercial daily use (e.g., bearings wearing out, cheap construction)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Frustrating user interface in work tools (e.g., no memory function, accidental shut-offs)",
+            "emotional_intensity": 0.4
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Accurate and reliable measurements for safety and quality control (e.g., temperature, pH, cable testing)",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Equipment that performs under harsh conditions without failure",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Clear safety guidelines and effective hazard mitigation",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Durable tools that withstand daily commercial use",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Easy-to-use tools with intuitive interfaces to reduce errors",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for specialized safety equipment (e.g., non-contact thermometers for hazardous areas)",
+            "context": "When working in environments with fire or chemical risks"
+          },
+          {
+            "trigger": "Replacing failed or inadequate equipment (e.g., worn-out bearings on carts)",
+            "context": "After equipment degrades from daily commercial use"
+          },
+          {
+            "trigger": "Recommendation from trusted sources (e.g., YouTube reviews, expert testing)",
+            "context": "When seeking proven effective solutions"
+          },
+          {
+            "trigger": "Requirement for precise calibration or maintenance (e.g., pH meters, battery chargers)",
+            "context": "For tasks demanding accuracy and stability"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product durability does not match advertised specifications (e.g., overstated weight capacity)",
+            "severity": 0.8
+          },
+          {
+            "objection": "Safety risks from improper labeling or unclear instructions (e.g., fire extinguisher classifications)",
+            "severity": 0.9
+          },
+          {
+            "objection": "Poor quality control in resold or used items",
+            "severity": 0.6
+          },
+          {
+            "objection": "Tools lacking features needed for efficient work (e.g., no memory, battery cover falls off)",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Nature's Miracle or Urine Off",
+            "reason": "Found more concentrated and effective enzyme cleaner",
+            "threshold": "When dilution without performance loss is possible"
+          },
+          {
+            "from_product": "Generic or low-cost testers",
+            "reason": "Upgraded to more reliable or featured tools (e.g., Fluke)",
+            "threshold": "When price justifies better accuracy and durability"
+          },
+          {
+            "from_product": "Basic carts or transport tools",
+            "reason": "Switched due to durability issues under heavy loads",
+            "threshold": "When commercial use exceeds light-duty limits"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Safety and reliability",
+          "Durability for commercial use",
+          "Accuracy and performance",
+          "Ease of use and training",
+          "Price vs. value"
+        ],
+        "deal_breakers": [
+          "Safety hazards or unclear protocols",
+          "Equipment failing under advertised conditions",
+          "Lack of durability for daily commercial use"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Tools being taken or mistaken by coworkers on job sites",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Products arriving with defects or incorrect specifications, causing production delays",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Difficulty reading or interpreting test results (e.g., faint positive line)",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Products failing under pressure or not sealing properly despite correct application",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Instruments not holding calibration, requiring frequent re-calibration",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Safety concerns with tools slipping or failing during use (e.g., welding ground clamp)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Frustration with products missing necessary components (e.g., connectors)",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Clear, unambiguous tool ownership to prevent loss or mix-ups",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Reliable, durable products that withstand harsh field conditions",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Accurate, easy-to-read test results for safety and compliance",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Products that fit correctly and work with existing equipment without modification",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Tools that enhance safety and reduce risk of accidents on site",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Time-saving solutions that reduce setup or alignment effort",
+            "priority": 0.75
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for a specific, reliable tool for a critical task (e.g., welding, testing)",
+            "context": "When starting a new job or replacing a failed tool"
+          },
+          {
+            "trigger": "Frustration with previous products failing or causing issues",
+            "context": "After experiencing a product failure or inefficiency"
+          },
+          {
+            "trigger": "Recommendation from a professional (e.g., nurse for test kits)",
+            "context": "Seeking trusted advice for compliance or safety-critical items"
+          },
+          {
+            "trigger": "Need for a product that solves a persistent annoyance (e.g., short trailer chains)",
+            "context": "When a recurring problem causes repeated inconvenience"
+          },
+          {
+            "trigger": "Desire for a cost-effective solution for infrequent use",
+            "context": "For tasks performed only once or twice a year"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product does not perform as advertised under real-world conditions",
+            "severity": 0.8
+          },
+          {
+            "objection": "Missing parts or incompatible connectors requiring additional purchases",
+            "severity": 0.7
+          },
+          {
+            "objection": "Poor durability or materials (e.g., plastic parts where metal is needed)",
+            "severity": 0.75
+          },
+          {
+            "objection": "Incorrect item shipped, delaying critical operations",
+            "severity": 0.9
+          },
+          {
+            "objection": "Product requires significant user skill or technique to work properly",
+            "severity": 0.6
+          },
+          {
+            "objection": "High price without clear justification for the value",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Standard shackles",
+            "reason": "Insufficient length for safe, easy trailer connection",
+            "threshold": "When misalignment causes one chain to not reach"
+          },
+          {
+            "from_product": "Other test kits",
+            "reason": "Lower sensitivity, quality, or reliability",
+            "threshold": "When professional recommendation or compliance requirements highlight deficiencies"
+          },
+          {
+            "from_product": "Non-3M electrical tape",
+            "reason": "Perceived as inferior quality or 'junk'",
+            "threshold": "When reliability and performance are critical for electrical work"
+          },
+          {
+            "from_product": "Other magnets",
+            "reason": "Insufficient magnetic field throw for picking up small metal objects",
+            "threshold": "When efficiency in collecting debris (e.g., nails) is too low"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and durability",
+          "Safety and compliance",
+          "Ease of use and fit",
+          "Professional recommendation",
+          "Cost-effectiveness for frequency of use",
+          "Brand reputation (e.g., 3M)"
+        ],
+        "deal_breakers": [
+          "Defective or incorrect item upon arrival",
+          "Product failure that compromises safety",
+          "Inability to perform core function as described",
+          "Missing critical components needed for installation"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Equipment failures or defects requiring immediate fixes to maintain operations.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Insufficient resources or materials on night shift leading to temporary or non-compliant repairs.",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Frustration with products that malfunction or fail unexpectedly (e.g., defective relays, poor suction).",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Need for reliable, leak-proof solutions to prevent operational disruptions (e.g., leaks, weather damage).",
+            "emotional_intensity": 0.4
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Get equipment running quickly to avoid downtime, regardless of cosmetic or minor code issues.",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Have durable, multi-purpose tools and supplies that perform reliably in harsh outdoor conditions.",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Ensure safety and compliance through proper materials and procedures, especially for electrical work.",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Achieve easy cleanup and maintenance with products that simplify tasks and reduce effort.",
+            "priority": 0.5
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Immediate need for a temporary fix or emergency repair material.",
+            "context": "Night shift or urgent equipment failure"
+          },
+          {
+            "trigger": "Replacing unreliable or defective products that caused operational issues.",
+            "context": "After experiencing product failure or poor performance"
+          },
+          {
+            "trigger": "Seeking versatile, durable products for multi-purpose use in the field.",
+            "context": "General procurement for field operations or personal use"
+          },
+          {
+            "trigger": "Preventive measure to avoid future problems (e.g., weatherproofing, backup supplies).",
+            "context": "Planning for maintenance or storage needs"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Products arriving defective or with quality control issues (e.g., relays soldered incorrectly).",
+            "severity": 0.8
+          },
+          {
+            "objection": "Night shift lacking proper materials or resources to make permanent, compliant repairs.",
+            "severity": 0.7
+          },
+          {
+            "objection": "Products not meeting durability or performance expectations for industrial environments.",
+            "severity": 0.6
+          },
+          {
+            "objection": "Inadequate safety features or non-compliance with standards (e.g., missing green ground wire).",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Disposable droppers or low-quality alternatives",
+            "reason": "Leakage and unreliability",
+            "threshold": "Multiple failures or frequent need for replacement"
+          },
+          {
+            "from_product": "Foam takeout containers",
+            "reason": "Poor durability and lack of secure sealing",
+            "threshold": "Spills, inability to withstand reuse or microwave"
+          },
+          {
+            "from_product": "Canister vacuums or other cleaning tools",
+            "reason": "Ineffective on various surfaces or hard to clean",
+            "threshold": "Persistent poor performance or excessive maintenance"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and durability",
+          "Ease of use and quick deployment",
+          "Versatility and multi-purpose application",
+          "Cost-effectiveness and value for money",
+          "Safety and compliance features"
+        ],
+        "deal_breakers": [
+          "Critical defects or failures on arrival",
+          "Non-compliance with safety or electrical standards",
+          "Inability to perform under harsh field conditions",
+          "Poor quality control leading to inconsistent performance"
+        ],
+        "friction_tolerance": "high",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Safety equipment lacking arc flash study stickers or unclear safety ratings",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Unsafe work practices like using high-amperage circuit breakers as daily switches",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Products (like bottles) leaking due to poor design or faulty seals",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Receiving used/damaged products misrepresented as near mint condition",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Strong magnets causing injury when spacers fail or handling goes wrong",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Safe, reliable operation of high-power electrical equipment with proper PPE and procedures",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Durable, leak-proof, and functional containers/bottles for storage and transport",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Clear, accurate product descriptions and images to avoid mis-purchases",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Easy-to-use diagnostic tools (like inspection cameras) to avoid costly service calls",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Organized, sturdy hardware (bags, organizers) for field or project use",
+            "priority": 0.65
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to replace missing or varied hardware (screws, bolts) for repair work",
+            "context": "Restoring old furniture for donation"
+          },
+          {
+            "trigger": "Need to waterproof or seal old windows against weather",
+            "context": "Home maintenance after noticing leaks"
+          },
+          {
+            "trigger": "Need to lift and preserve fingerprints or materials in the field",
+            "context": "Evidence collection or forensic work"
+          },
+          {
+            "trigger": "Need to inspect plumbing or hidden spaces for leaks or issues",
+            "context": "Avoiding expensive plumber visits"
+          },
+          {
+            "trigger": "Need to mark locations (trees, paths, conduits) in outdoor environments",
+            "context": "Landscaping or site planning"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Circuit breakers are not designed for frequent switching and pose arc flash risks",
+            "severity": 0.9
+          },
+          {
+            "objection": "Product quality mismatch: items arrive dirty, broken, or not as described",
+            "severity": 0.8
+          },
+          {
+            "objection": "Safety gear (like cabinets) may fail catastrophically despite ratings",
+            "severity": 0.85
+          },
+          {
+            "objection": "Poor design leads to leaks, breakage, or injury (e.g., bottle caps, magnets)",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "No-name or grocery store bags",
+            "reason": "Seeking sturdier, better-value bags for organizing",
+            "threshold": "Existing bags rip easily or are too expensive"
+          },
+          {
+            "from_product": "Generic toothpastes for sensitivity",
+            "reason": "Higher concentration of active ingredient needed",
+            "threshold": "Standard products don't relieve sensitivity effectively"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Safety compliance and PPE adequacy",
+          "Durability and reliability in harsh conditions",
+          "Ease of use and application",
+          "Accuracy of product description",
+          "Value for money"
+        ],
+        "deal_breakers": [
+          "Unsafe work practices enforced without proper procedures",
+          "Products that leak or fail under normal use",
+          "Misrepresented condition or functionality"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Frustration with unclear or missing product instructions",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Annoyance with products that force longer, more complicated repairs due to poor initial installation or quality",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Concern about products or installations that don't meet code or OSHA standards, creating safety/liability issues",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Irritation with products that fail prematurely or require frequent, unplanned maintenance",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Frustration with team/management decisions that create more work for other shifts or personnel",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Get clear, practical instructions with the product to ensure correct, safe use",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Ensure work and materials are up to code and compliant with OSHA/safety standards to avoid violations and risks",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Install equipment correctly the first time to avoid costly, time-consuming future repairs and downtime",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Use reliable tools that hold up under harsh field conditions to minimize breakdowns",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Have products that are easy to store, transport, and access on-site due to space constraints",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Achieve a professional, tidy finish on work, avoiding jury-rigged or 'good enough' solutions",
+            "priority": 0.65
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Seeing a product recommendation or tutorial on a platform like YouTube that demonstrates its effectiveness and correct application",
+            "context": "Learning a new technique or needing a specific tool for a job"
+          },
+          {
+            "trigger": "Replacing a bulky, over-sized piece of equipment with a more compact, equally powerful version to save space",
+            "context": "Moving sites or optimizing limited storage in a vehicle or on-site shack"
+          },
+          {
+            "trigger": "Finding a lower price for the same item at a local big-box store (e.g., Home Depot) versus online",
+            "context": "Price comparison and immediate need"
+          },
+          {
+            "trigger": "Needing a tool that is accurate and reliable 'out of the box' for precision measurements",
+            "context": "Quality assurance, calibration, or specific measurement tasks"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product is missing critical information like directions for use, making it impractical or dangerous",
+            "severity": 0.9
+          },
+          {
+            "objection": "Installation method or product quality is clearly not to code, posing safety and compliance risks",
+            "severity": 0.95
+          },
+          {
+            "objection": "Product design or a previous installation creates more work and downtime later, indicating poor planning or quality",
+            "severity": 0.8
+          },
+          {
+            "objection": "A cheaper or simpler alternative (like tray vs. conduit) might be more cost-effective and less time-consuming",
+            "severity": 0.6
+          },
+          {
+            "objection": "Product does not perform its specific, intended function correctly (e.g., wrong tone for auditory testing)",
+            "severity": 0.75
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Standard blue surgical masks",
+            "reason": "Perceived higher level of protection and waterproof quality",
+            "threshold": "Empirical personal testing (e.g., blowing into a glove) demonstrates superior performance"
+          },
+          {
+            "from_product": "Tegaderm patches/rolls",
+            "reason": "Frustration with lack of instructions, leading to a wasted purchase",
+            "threshold": "Inability to use the product effectively due to poor documentation"
+          },
+          {
+            "from_product": "Other face shields/goggles",
+            "reason": "Chronic fogging issues in variable temperatures and with respiration",
+            "threshold": "Fogging interferes with visibility and safety during critical tasks"
+          },
+          {
+            "from_product": "Larger, bulkier wet/dry vacuum",
+            "reason": "Need for portability and easier storage without sacrificing power",
+            "threshold": "Relocation or space constraints make the old model impractical"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Safety and Code Compliance",
+          "Durability and Reliability",
+          "Ease of Use/Installation",
+          "Price and Value",
+          "Portability and Storage"
+        ],
+        "deal_breakers": [
+          "Products that blatantly violate OSHA or electrical/safety codes",
+          "Products supplied with no or dangerously unclear instructions",
+          "Installations that are knowingly sloppy and guarantee future failure or major repair work"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.562,
+      "reddit": 0.438,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Operators bitching/moaning about writing permits and other tasks",
+          "count": 1,
+          "frequency": 0.0025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0075
+        },
+        {
+          "signal": "Stress from management breathing down neck and auditing everything, demanding perfection",
+          "count": 1,
+          "frequency": 0.0025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0075
+        },
+        {
+          "signal": "Having to keep maintenance and others safe daily while bosses push limits of unit operation",
+          "count": 1,
+          "frequency": 0.0025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0075
+        },
+        {
+          "signal": "Dealing with contractors/management who tear up orderly facility and impose new processes without understanding operator context",
+          "count": 1,
+          "frequency": 0.0025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0075
+        },
+        {
+          "signal": "Scary situations like fires, not knowing what's about to happen while knowing potential severity",
+          "count": 1,
+          "frequency": 0.0025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0075
+        },
+        {
+          "signal": "Poor inter-unit communication causing scrambling (e.g., nuclear densitometer not communicated)",
+          "count": 1,
+          "frequency": 0.0025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0075
+        },
+        {
+          "signal": "Negative unit culture making work unpleasant or difficult",
+          "count": 1,
+          "frequency": 0.0025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0075
+        },
+        {
+          "signal": "Fear of injury or death from hazardous chemicals (H2S, HF acid)",
+          "count": 1,
+          "frequency": 0.0025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0075
+        },
+        {
+          "signal": "Poor workplace relationships and interpersonal conflict among coworkers",
+          "count": 1,
+          "frequency": 0.0025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0075
+        },
+        {
+          "signal": "Annoyance from the cumbersome PPE requirements for certain units (e.g., Level B and C suits)",
+          "count": 1,
+          "frequency": 0.0025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0075
+        },
+        {
+          "signal": "Frustration with dirty, hot, or physically demanding work environments (heavy oils, coker)",
+          "count": 1,
+          "frequency": 0.0025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0075
+        },
+        {
+          "signal": "Dismay over procedural failures leading to incidents (blind tags not attached properly)",
+          "count": 1,
+          "frequency": 0.0025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0075
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Good value for money",
+          "count": 2,
+          "frequency": 0.0053,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0132
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Poor quality control/defective products",
+          "count": 2,
+          "frequency": 0.0084,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.021
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Specific project requirement",
+          "count": 2,
+          "frequency": 0.0069,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0172
+        }
+      ],
+      "dominant_friction_tolerance": "medium",
+      "friction_tolerance_distribution": {
+        "medium": 0.492,
+        "low": 0.475,
+        "high": 0.034
+      }
+    }
+  },
+  "cluster_2": {
+    "member_count": 7,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Inaccurate sizing or inconsistent fit compared to stated size",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poor durability: products rip, fray, or wear out quickly with minimal use",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Uncomfortable materials causing chafing, scraping, or stiffness",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Inadequate support or poor design leading to functional failure",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Product not matching description or pictures (e.g., seams present vs. 'seamless')",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Low quality materials or construction feeling cheap",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Accurate sizing and comfortable fit",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Durable products that withstand active use",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Comfortable, soft, non-irritating materials",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Functional performance for specific activities (e.g., hiking, dancing)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Flattering appearance or slimming effect",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Easy care and maintenance (washes/dries well)",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Positive reviews or recommendations influencing size choice",
+            "context": "Based sizing decisions on other customer reviews"
+          },
+          {
+            "trigger": "Seeking a replacement for inferior, short-lived products",
+            "context": "Tired of cheap products failing quickly"
+          },
+          {
+            "trigger": "Special offer or sale price",
+            "context": "Purchased primarily because item was on sale"
+          },
+          {
+            "trigger": "Need for a specific use case (e.g., hiking, backpacking, kayaking)",
+            "context": "Bought for a planned activity or trip"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Size runs too small or too large compared to standard sizing",
+            "severity": 0.9
+          },
+          {
+            "objection": "Product durability is insufficient for intended use",
+            "severity": 0.9
+          },
+          {
+            "objection": "Poor value for price, especially if product fails quickly",
+            "severity": 0.8
+          },
+          {
+            "objection": "Uncomfortable design causing physical irritation",
+            "severity": 0.7
+          },
+          {
+            "objection": "Product not matching advertised features",
+            "severity": 0.7
+          },
+          {
+            "objection": "Incorrect sizing guidance leads to poor fit",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Low-cost, disposable alternatives",
+            "reason": "Poor durability, lasts only 1-2 wears",
+            "threshold": "Product fails after minimal use"
+          },
+          {
+            "from_product": "Products causing discomfort or injury",
+            "reason": "Prevents blisters or physical irritation",
+            "threshold": "Product causes pain or damage"
+          },
+          {
+            "from_product": "Ill-fitting clothing",
+            "reason": "Better fit and comfort",
+            "threshold": "Consistent sizing issues"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Fit and Sizing Accuracy",
+          "Durability",
+          "Comfort",
+          "Performance for Intended Use",
+          "Value for Money",
+          "Appearance / Style",
+          "Material Quality"
+        ],
+        "deal_breakers": [
+          "Extreme sizing inaccuracy",
+          "Product failure within hours/days of use",
+          "Physical discomfort or injury caused by product",
+          "Grossly misrepresented product features"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Durability issues (split seams, broken straps)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Fit unpredictability (clothing sizing varies wildly)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Material quality degradation after washing",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Product does not match description/photo",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poor fit for certain body types (height, width)",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Comfortable footwear for long workdays",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Reliable durability in challenging conditions",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Accurate sizing and fit",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Value for money (quality vs price)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Support for specific physical needs (plantar fasciitis, high arches)",
+            "priority": 0.9
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for comfortable, all-day footwear",
+            "context": "Switching from other work shoes"
+          },
+          {
+            "trigger": "Need for weather-resistant outerwear",
+            "context": "Working in rain/snow conditions"
+          },
+          {
+            "trigger": "Gift purchase for family members",
+            "context": "Seeking practical, comfortable items"
+          },
+          {
+            "trigger": "Need for supportive footwear for medical conditions",
+            "context": "Managing foot pain/discomfort"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Poor durability leads to early failure",
+            "severity": 0.9
+          },
+          {
+            "objection": "Sizing inconsistency across products",
+            "severity": 0.8
+          },
+          {
+            "objection": "Product doesn't match advertised description",
+            "severity": 0.85
+          },
+          {
+            "objection": "Quality degrades significantly after washing",
+            "severity": 0.75
+          },
+          {
+            "objection": "Insufficient sizing options for varied body types",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Other work shoes/boots",
+            "reason": "Better design for long usage",
+            "threshold": "Walking 8+ miles without foot fatigue"
+          },
+          {
+            "from_product": "Conventional jackets",
+            "reason": "Prefer hoodie style with weather resistance",
+            "threshold": "Need rain/snow protection without bulk"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Durability",
+          "Comfort",
+          "Fit accuracy",
+          "Weather resistance",
+          "Support features",
+          "Value for money"
+        ],
+        "deal_breakers": [
+          "Premature product failure (splitting, breaking)",
+          "Significant sizing inaccuracies",
+          "False advertising (material/color mismatch)",
+          "Poor wash durability"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Sizing inconsistencies across same brand/product line",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Material degradation after washing (shrinkage, pilling)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poor durability under work conditions (inner soles wear out, nails protrude)",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Inadequate fit for body type/width (too narrow, tight in chest/waist)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Lack of functional support (arch support, water resistance)",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Product not matching advertisement/model representation",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Design flaws affecting usability (extremely small screw backs)",
+            "emotional_intensity": 0.55
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Accurate and consistent sizing for reliable purchase",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Durable materials that withstand washing and wear without degradation",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Comfortable fit that accommodates specific body/work needs",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Functional features for work/safety (warmth, grip, support)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Reliable performance in challenging outdoor/work environments",
+            "priority": 0.75
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for work-appropriate footwear/clothing for outdoor environments",
+            "context": "Job requirements in oil/gas field operations"
+          },
+          {
+            "trigger": "Replacement of worn-out gear due to durability failures",
+            "context": "Previous product failed under work conditions"
+          },
+          {
+            "trigger": "Seeking improved comfort/support for long hours on feet",
+            "context": "Work involves standing/walking on concrete all day"
+          },
+          {
+            "trigger": "Need for weather-appropriate protection (cold resistance)",
+            "context": "Working in varying outdoor temperatures"
+          },
+          {
+            "trigger": "Positive experience with brand/product line leads to repeat purchase",
+            "context": "Trust in previously reliable Columbia/Hanes products"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Sizing unpredictability despite ordering correct size",
+            "severity": 0.9
+          },
+          {
+            "objection": "Poor durability requiring frequent replacement",
+            "severity": 0.85
+          },
+          {
+            "objection": "Inadequate protection from elements (water, cold)",
+            "severity": 0.8
+          },
+          {
+            "objection": "Comfort issues causing physical discomfort/pain during wear",
+            "severity": 0.75
+          },
+          {
+            "objection": "Quality inconsistencies within same brand/product line",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Current work boots",
+            "reason": "Durability failure (inner soles wear out, nails protrude)",
+            "threshold": "Product fails within work cycle"
+          },
+          {
+            "from_product": "Current outerwear",
+            "reason": "Inadequate cold/weather protection",
+            "threshold": "Product fails in 25\u00b0F conditions"
+          },
+          {
+            "from_product": "Brand previously trusted",
+            "reason": "Sizing inconsistencies across product lines",
+            "threshold": "New purchase differs from established fit expectations"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Durability for work conditions",
+          "Accurate sizing/fit",
+          "Comfort for long wear",
+          "Functional features (grip, support)",
+          "Weather/environment protection",
+          "Material quality",
+          "Brand reliability"
+        ],
+        "deal_breakers": [
+          "Sizing that doesn't match stated measurements",
+          "Durability failures under work conditions",
+          "Physical discomfort/pain during wear",
+          "Lack of essential safety features (grip, support)",
+          "Inadequate weather protection for work environment"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Clothing being too short and not covering desired areas (e.g., belly, butt)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Socks slipping down during activity or wear",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Products having a strong chemical odor upon arrival",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Fit issues due to size inconsistencies or body shape mismatches",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Concerns about product durability and stitching quality",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Desire for more storage/pockets in bags",
+            "emotional_intensity": 0.3
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Comfortable, non-restrictive fit that flatters the body",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Products that maintain their position/stay put during use",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Versatile items suitable for multiple occasions (casual, dressy, travel, exercise)",
+            "priority": 0.85
+          },
+          {
+            "outcome": "High-quality, durable construction that lasts",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Aesthetic appeal and receiving compliments",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Adequate storage and organizational compartments",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Protection from elements (sun, cold)",
+            "priority": 0.5
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Specific need for an event or activity (costume, cruise, snowboarding, cold weather)",
+            "context": "Event-driven shopping"
+          },
+          {
+            "trigger": "Search for replacement for a previous item (e.g., hidden money pouch, Ugg slippers)",
+            "context": "Product replacement"
+          },
+          {
+            "trigger": "Desire for comfort and fit, especially for specific body types (overweight, taller/shorter)",
+            "context": "Personal comfort"
+          },
+          {
+            "trigger": "Need for a gift, especially during holidays",
+            "context": "Gifting occasions"
+          },
+          {
+            "trigger": "Positive experience with a brand leading to repeat purchase (e.g., TravelPro, Gold Toe)",
+            "context": "Brand loyalty"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product length is insufficient for coverage preferences",
+            "severity": 0.8
+          },
+          {
+            "objection": "Material quality or thickness not as expected",
+            "severity": 0.5
+          },
+          {
+            "objection": "Size/fit does not match expectations or is inconsistent",
+            "severity": 0.7
+          },
+          {
+            "objection": "Lack of elastic or features causing slippage (e.g., socks rolling down)",
+            "severity": 0.6
+          },
+          {
+            "objection": "Odor upon unboxing",
+            "severity": 0.4
+          },
+          {
+            "objection": "Concerns about long-term durability and stitching",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Generic hidden money pouch",
+            "reason": "Found a more attractive, functional, and roomy crossbody bag",
+            "threshold": "When traveling and needing secure, stylish storage"
+          },
+          {
+            "from_product": "Expensive brand-name slippers (Uggs)",
+            "reason": "Found a cheaper alternative that looks and feels similar",
+            "threshold": "Cost savings without sacrificing perceived quality"
+          },
+          {
+            "from_product": "Socks that slip down",
+            "reason": "Preference for socks that stay up during activity",
+            "threshold": "When existing product fails a core functional need"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Fit and comfort",
+          "Quality and durability",
+          "Versatility and multi-use",
+          "Price and value",
+          "Style and aesthetic appeal",
+          "Brand reputation and trust",
+          "Specific functional features (e.g., pockets, non-slip)"
+        ],
+        "deal_breakers": [
+          "Poor fit (especially length for coverage)",
+          "Slippage or failure to stay in place",
+          "Significant odor issues",
+          "Perceived low durability or poor construction"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Footwear causing immense heel pain due to poor heel cup design.",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Inaccurate sizing or fit issues despite following size charts.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Products lacking needed support (e.g., arch support).",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Poor quality or durability (e.g., breaks easily, fabric too thin, warping).",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Misrepresentation in product listing (e.g., appearance, material, design).",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Discomfort from poor construction (e.g., slipping off, too hot, not stretchy).",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Sizing inconsistencies across brands or styles.",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Comfortable, well-fitting clothing/footwear for daily or work use.",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Durable items that hold up to washing and regular wear.",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Accurate product representation (size, material, appearance).",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Adequate support (e.g., arch, ankle) in footwear.",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Stylish yet functional items suitable for specific contexts (e.g., work, fall).",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for new or replacement work/essential clothing.",
+            "context": "Replenishing wardrobe basics."
+          },
+          {
+            "trigger": "Positive aesthetic appeal (e.g., delicate lace, cute print).",
+            "context": "Desire for fashionable or special items."
+          },
+          {
+            "trigger": "Specific functional need (e.g., warmth, costume, sports).",
+            "context": "Addressing immediate use case."
+          },
+          {
+            "trigger": "Satisfaction with material quality and comfort.",
+            "context": "Prior positive experience or perceived value."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product does not fit as expected or advertised.",
+            "severity": 0.9
+          },
+          {
+            "objection": "Poor construction or design flaws (e.g., seams off, armholes too large).",
+            "severity": 0.75
+          },
+          {
+            "objection": "Insufficient support or comfort for intended use.",
+            "severity": 0.7
+          },
+          {
+            "objection": "Material quality issues (thin, stiff, sheen).",
+            "severity": 0.65
+          },
+          {
+            "objection": "Misleading product images or descriptions.",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Previous version of a product (e.g., older Asics gels).",
+            "reason": "Decline in support or fit quality.",
+            "threshold": "When new version fails to meet historical performance standards."
+          },
+          {
+            "from_product": "Competitor products with better fit or support.",
+            "reason": "Persistent discomfort or pain.",
+            "threshold": "Immediate physical discomfort or repeated sizing failures."
+          }
+        ],
+        "decision_factors_ranked": [
+          "Fit and sizing accuracy",
+          "Comfort and support",
+          "Material quality and durability",
+          "Accuracy of product representation",
+          "Style and aesthetic appeal",
+          "Price relative to quality"
+        ],
+        "deal_breakers": [
+          "Poor fit causing pain or dysfunction",
+          "Critical design flaws (e.g., heel cup issues, slipping off)",
+          "Severe misrepresentation of product",
+          "Extremely poor durability (breaks easily)"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 1.0,
+      "reddit": 0.0,
+      "csv": 0.0
+    },
+    "single_source_warning": true,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Sizing issues: items run narrow (especially in toes), small, large, or do not fit as expected, requiring sizing up/down or adjustments",
+          "count": 1,
+          "frequency": 0.0233,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0698
+        },
+        {
+          "signal": "Poor durability: materials thin, low quality, fraying after washing, or wearing down quickly, not standing up to harsh conditions",
+          "count": 1,
+          "frequency": 0.0233,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0698
+        },
+        {
+          "signal": "Comfort issues: shoes narrow, seams cause irritation, clothing restricts movement or causes chafing, not comfortable for long wear",
+          "count": 1,
+          "frequency": 0.0233,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0698
+        },
+        {
+          "signal": "Inaccurate product descriptions: color not as shown, material different than expected, warmth inadequate, or misleading fit",
+          "count": 1,
+          "frequency": 0.0233,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0698
+        },
+        {
+          "signal": "Lack of support for specific work needs: insufficient warmth in cold, not moisture-wicking enough, poor design for field work",
+          "count": 1,
+          "frequency": 0.0233,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0703
+        },
+        {
+          "signal": "Durability issues (split seams, broken straps)",
+          "count": 1,
+          "frequency": 0.0233,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0698
+        },
+        {
+          "signal": "Fit unpredictability (clothing sizing varies wildly)",
+          "count": 1,
+          "frequency": 0.0233,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0698
+        },
+        {
+          "signal": "Material quality degradation after washing",
+          "count": 1,
+          "frequency": 0.0233,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0703
+        },
+        {
+          "signal": "Product does not match description/photo",
+          "count": 1,
+          "frequency": 0.0233,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0698
+        },
+        {
+          "signal": "Poor fit for certain body types (height, width)",
+          "count": 1,
+          "frequency": 0.0233,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.093
+        },
+        {
+          "signal": "Sizing inconsistencies across same brand/product line",
+          "count": 1,
+          "frequency": 0.0233,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0698
+        },
+        {
+          "signal": "Material degradation after washing (shrinkage, pilling)",
+          "count": 1,
+          "frequency": 0.0233,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0698
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Reliable durability for harsh outdoor conditions and extended wear, including resistance to wear and washing",
+          "count": 1,
+          "frequency": 0.0263,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0789
+        },
+        {
+          "signal": "Accurate sizing with consistent fit across products and clear size charts to reduce ordering errors",
+          "count": 1,
+          "frequency": 0.0263,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0789
+        },
+        {
+          "signal": "Comfort for long hours of wear, including no chafing, good fit, and adequate arch/foot support",
+          "count": 1,
+          "frequency": 0.0263,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0789
+        },
+        {
+          "signal": "Functional performance in specific conditions: warmth in cold, moisture-wicking, water resistance, and suitability for field work",
+          "count": 1,
+          "frequency": 0.0263,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0789
+        },
+        {
+          "signal": "Quality materials that match description and expectations, with no fraying, fading, or damage after minimal use",
+          "count": 1,
+          "frequency": 0.0263,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1053
+        },
+        {
+          "signal": "Comfortable footwear for long workdays",
+          "count": 1,
+          "frequency": 0.0263,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0789
+        },
+        {
+          "signal": "Reliable durability in challenging conditions",
+          "count": 1,
+          "frequency": 0.0263,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0789
+        },
+        {
+          "signal": "Accurate sizing and fit",
+          "count": 1,
+          "frequency": 0.0263,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0789
+        },
+        {
+          "signal": "Value for money (quality vs price)",
+          "count": 1,
+          "frequency": 0.0263,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0789
+        },
+        {
+          "signal": "Support for specific physical needs (plantar fasciitis, high arches)",
+          "count": 1,
+          "frequency": 0.0263,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0789
+        },
+        {
+          "signal": "Accurate and consistent sizing for reliable purchase",
+          "count": 1,
+          "frequency": 0.0263,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0789
+        },
+        {
+          "signal": "Durable materials that withstand washing and wear without degradation",
+          "count": 1,
+          "frequency": 0.0263,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0789
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Poor durability or rapid wear",
+          "count": 1,
+          "frequency": 0.0345,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1379
+        },
+        {
+          "signal": "Severe sizing issues with no resolution",
+          "count": 1,
+          "frequency": 0.0345,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1034
+        },
+        {
+          "signal": "Material misrepresentation (e.g., not as warm/advertised)",
+          "count": 1,
+          "frequency": 0.0345,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1034
+        },
+        {
+          "signal": "Critical comfort flaws (e.g., chafing, irritation)",
+          "count": 1,
+          "frequency": 0.0345,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1034
+        },
+        {
+          "signal": "Premature product failure (splitting, breaking)",
+          "count": 1,
+          "frequency": 0.0345,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1034
+        },
+        {
+          "signal": "Significant sizing inaccuracies",
+          "count": 1,
+          "frequency": 0.0345,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1034
+        },
+        {
+          "signal": "False advertising (material/color mismatch)",
+          "count": 1,
+          "frequency": 0.0345,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1043
+        },
+        {
+          "signal": "Poor wash durability",
+          "count": 1,
+          "frequency": 0.0345,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1034
+        },
+        {
+          "signal": "Sizing that doesn't match stated measurements",
+          "count": 1,
+          "frequency": 0.0345,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1379
+        },
+        {
+          "signal": "Durability failures under work conditions",
+          "count": 1,
+          "frequency": 0.0345,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1034
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Positive brand reputation or prior positive experience with the brand (e.g., Outdoor Research)",
+          "count": 1,
+          "frequency": 0.0333,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1
+        },
+        {
+          "signal": "Product features align with specific work or activity needs (e.g., fieldwork, walking, cold weather)",
+          "count": 1,
+          "frequency": 0.0333,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1
+        },
+        {
+          "signal": "Recommendation or positive reviews highlighting durability and fit",
+          "count": 1,
+          "frequency": 0.0333,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1
+        },
+        {
+          "signal": "Need for comfortable, all-day footwear",
+          "count": 1,
+          "frequency": 0.0333,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1
+        },
+        {
+          "signal": "Need for weather-resistant outerwear",
+          "count": 1,
+          "frequency": 0.0333,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1
+        },
+        {
+          "signal": "Gift purchase for family members",
+          "count": 1,
+          "frequency": 0.0333,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1
+        },
+        {
+          "signal": "Need for supportive footwear for medical conditions",
+          "count": 1,
+          "frequency": 0.0333,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1
+        },
+        {
+          "signal": "Need for work-appropriate footwear/clothing for outdoor environments",
+          "count": 1,
+          "frequency": 0.0333,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "low": 0.857,
+        "medium": 0.143
+      }
+    }
+  },
+  "cluster_3": {
+    "member_count": 7,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "App connectivity failures causing black screen",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "App crashes during video recording/playback",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Inability to save photos/videos due to permission issues",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poor camera resolution/image quality",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Product requires cumbersome two-person operation",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Lost work time due to product failure in field",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Compatibility issues with specific Android versions/devices",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "App design changes reducing functionality (full screen loss)",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Unresponsive customer support",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable app-device connectivity",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Working video/photo saving functionality",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Cross-device compatibility across Android versions",
+            "priority": 0.85
+          },
+          {
+            "outcome": "One-person operation capability",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Clear setup/usage instructions",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Better camera resolution/image quality",
+            "priority": 0.65
+          },
+          {
+            "outcome": "Functional full-screen display mode",
+            "priority": 0.55
+          },
+          {
+            "outcome": "Responsive customer support",
+            "priority": 0.5
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to inspect hard-to-reach areas (walls, equipment)",
+            "context": "Field maintenance/repair work"
+          },
+          {
+            "trigger": "Affordable price point",
+            "context": "Budget-conscious equipment purchase"
+          },
+          {
+            "trigger": "Previous positive experience with brand (Klein)",
+            "context": "Brand loyalty"
+          },
+          {
+            "trigger": "Tool failure during critical field work",
+            "context": "Urgent replacement need"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "App incompatibility with specific Android devices/versions",
+            "severity": 0.9
+          },
+          {
+            "objection": "Broken video recording/playback functionality",
+            "severity": 0.85
+          },
+          {
+            "objection": "Black screen connectivity issues",
+            "severity": 0.95
+          },
+          {
+            "objection": "Poor product design requiring two-person operation",
+            "severity": 0.6
+          },
+          {
+            "objection": "Low camera resolution quality",
+            "severity": 0.55
+          },
+          {
+            "objection": "Lack of customer support responsiveness",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "ET16/Klein borescope",
+            "reason": "Persistent app connectivity failures",
+            "threshold": "Multiple troubleshooting attempts fail"
+          },
+          {
+            "from_product": "ET16/Klein borescope",
+            "reason": "Broken video saving functionality",
+            "threshold": "Critical feature failure during use"
+          },
+          {
+            "from_product": "ET16/Klein borescope",
+            "reason": "Compatibility issues with newer Android devices",
+            "threshold": "Device upgrade renders product unusable"
+          },
+          {
+            "from_product": "ET16/Klein borescope",
+            "reason": "App updates that reduce functionality",
+            "threshold": "Key feature removal without warning"
+          }
+        ],
+        "decision_factors_ranked": [
+          "App-device connectivity reliability",
+          "Video/photo saving functionality",
+          "Android device compatibility",
+          "Ease of one-person operation",
+          "Customer support responsiveness",
+          "Image quality/resolution",
+          "Setup simplicity",
+          "Price"
+        ],
+        "deal_breakers": [
+          "Black screen/app connectivity failure",
+          "Inability to save video/photos",
+          "Incompatibility with user's specific Android device",
+          "App crashing during critical recording",
+          "Poor customer support responsiveness"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "App crashes immediately or within seconds of opening",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Black screen/no video feed despite phone recognizing the device",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "App doesn't record video or saves in unusable formats",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "App constantly flips between video and charging notifications",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Product works once then stops working entirely",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Wasted time and money on service calls due to product failure",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Poor customer support response (trouble tickets taking weeks/months)",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "App compatibility issues across multiple Android devices/models",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Device disconnects/reconnects constantly with moisture warnings",
+            "emotional_intensity": 0.65
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Product works immediately out of the box without troubleshooting",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Reliable video feed that doesn't crash or show black screen",
+            "priority": 0.9
+          },
+          {
+            "outcome": "App that saves video in usable formats",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Better video capabilities (enlargement, lighting adjustment)",
+            "priority": 0.6
+          },
+          {
+            "outcome": "App compatibility across all modern Android devices",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Responsive customer support with timely solutions",
+            "priority": 0.75
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Trust in Klein Tools brand reputation for quality",
+            "context": "Previous positive experiences with Klein tools"
+          },
+          {
+            "trigger": "Need for 10' camera length for inspections",
+            "context": "Specific job requirements for longer reach"
+          },
+          {
+            "trigger": "Perceived value for money on hardware",
+            "context": "Initial assessment before app issues"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "App is fundamentally broken across multiple devices",
+            "severity": 0.95
+          },
+          {
+            "objection": "Product is essentially worthless without functional app",
+            "severity": 0.9
+          },
+          {
+            "objection": "Poor customer support denies problems exist",
+            "severity": 0.7
+          },
+          {
+            "objection": "Brand reputation damaged by this product",
+            "severity": 0.65
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Klein ET16 Borescope",
+            "reason": "App completely non-functional on their devices",
+            "threshold": "First attempted use"
+          },
+          {
+            "from_product": "Klein ET16 Borescope",
+            "reason": "Product failure during critical service call",
+            "threshold": "Single failure during professional use"
+          },
+          {
+            "from_product": "Klein ET16 Borescope",
+            "reason": "Works initially then stops working",
+            "threshold": "Second use attempt fails"
+          }
+        ],
+        "decision_factors_ranked": [
+          "App reliability and functionality",
+          "Hardware quality and durability",
+          "Brand reputation",
+          "Price/value",
+          "Customer support responsiveness",
+          "Specific feature set (e.g., 10' length)"
+        ],
+        "deal_breakers": [
+          "App that crashes immediately",
+          "Persistent black screen/no video feed",
+          "Product that works once then fails",
+          "No working video recording capability",
+          "Incompatibility with common Android devices"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "App consistently fails to display video/image (blank/black screen)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "App crashes frequently or is unstable/unreliable",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "App/software compatibility issues with specific phones or OS versions",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Video/image quality is poor, unclear, or unusable for inspection tasks",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Inability to save videos or photos properly",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Connection/USB cable is too short, making tool awkward/hard to use with phone",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Lack of clear instructions, troubleshooting, or support from Klein for app issues",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "App lacks critical features like exposure control or HDR",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Frustration over product quality decline (app used to work, now doesn't) or manufacturing shift",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Tool and app that work reliably 'out of the box' with clear instructions",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Clear, high-quality video/image for inspecting tight, hard-to-see spaces",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Ability to easily save videos and photos from the app",
+            "priority": 0.7
+          },
+          {
+            "outcome": "App with stable, non-crashing software and proper permissions handling",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Longer connection cable or hands-free phone mounting solution",
+            "priority": 0.6
+          },
+          {
+            "outcome": "App with advanced features like exposure control, HDR, zoom, rotate",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Compatibility across a wide range of devices and OS versions",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Product manufactured with high quality/reliability (e.g., USA vs. China mention)",
+            "priority": 0.4
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to inspect or see inside areas without disassembly",
+            "context": "Automotive, mechanical, or field maintenance tasks"
+          },
+          {
+            "trigger": "Replacing an older, bulkier, or less convenient inspection tool",
+            "context": "Upgrading toolset for efficiency/portability"
+          },
+          {
+            "trigger": "Tool recommendation or brand trust (Klein)",
+            "context": "Previous positive experience with Klein tools"
+          },
+          {
+            "trigger": "Low cost/potential high ROI for time saved on jobs",
+            "context": "Value-driven purchase for professional or DIY use"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "App/software is completely non-functional (blank screen, crashes)",
+            "severity": 0.95
+          },
+          {
+            "objection": "Poor video/image quality makes tool useless for intended inspection purpose",
+            "severity": 0.8
+          },
+          {
+            "objection": "Lack of reliable support or clear troubleshooting from manufacturer",
+            "severity": 0.75
+          },
+          {
+            "objection": "Short cable creates ergonomic/safety issue (hard to use, risk dropping phone)",
+            "severity": 0.6
+          },
+          {
+            "objection": "Inability to save recordings limits utility for documentation",
+            "severity": 0.5
+          },
+          {
+            "objection": "Loss of trust in brand due to this product failure",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Klein borescope/ET16",
+            "reason": "Persistent app failure (blank screen, crashes) across multiple devices/attempts",
+            "threshold": "After multiple troubleshooting attempts fail (e.g., trying different apps, phones, restarts)"
+          },
+          {
+            "from_product": "Klein borescope/ET16",
+            "reason": "Poor video quality renders tool ineffective for inspections",
+            "threshold": "When visual clarity is insufficient for the task despite correct use"
+          },
+          {
+            "from_product": "Klein borescope/ET16",
+            "reason": "Finding a third-party app that works but lacks desired features/support",
+            "threshold": "When a generic app works but user wants integrated, feature-rich experience"
+          },
+          {
+            "from_product": "Klein borescope/ET16",
+            "reason": "Loss of confidence in brand affecting future Klein purchases",
+            "threshold": "When frustration leads to considering returning other Klein tools"
+          }
+        ],
+        "decision_factors_ranked": [
+          "App/software functionality and reliability",
+          "Video/image clarity and quality",
+          "Ease of use and setup (plug-and-play)",
+          "Device/phone compatibility",
+          "Physical design (cable length, ergonomics)",
+          "Ability to save/store media",
+          "Brand reputation and trust",
+          "Cost and perceived value",
+          "Advanced features (exposure, zoom, etc.)"
+        ],
+        "deal_breakers": [
+          "App that fails to display any video/image (blank/black screen)",
+          "App that crashes constantly or is unusably unstable",
+          "Complete lack of manufacturer support or clear troubleshooting guidance"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "App crashes or fails to launch on multiple Android devices",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "App shows black screen/camera not recognized despite device compatibility",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Videos saved are corrupted/unplayable MP4 files",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "App has no useful features and is locked to vertical orientation with poor UI",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "USB-C connection is loose, causing intermittent disconnection",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "App stops working over time due to lack of updates/support",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Need to reboot phone or use workarounds (emulator) to get app to work temporarily",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable app that works consistently across devices (Android versions 8-12, tablets and phones)",
+            "priority": 1.0
+          },
+          {
+            "outcome": "Ability to save/view videos and photos without corruption",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Stable connection without frequent app crashes or disconnections",
+            "priority": 0.95
+          },
+          {
+            "outcome": "App with useful features and better UI (e.g., rotation support, larger tablet view)",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Continued software updates and support from manufacturer",
+            "priority": 0.85
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Trust in Klein brand quality from past tool experience",
+            "context": "Journeyman with 27+ years in industry relying on brand reputation"
+          },
+          {
+            "trigger": "Need for a low-cost borescope to complete a specific job",
+            "context": "Cheaper alternative to more expensive inspection tools for immediate task"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "App is completely unreliable across many devices, making hardware unusable",
+            "severity": 1.0
+          },
+          {
+            "objection": "No manufacturer support or updates to fix known issues",
+            "severity": 0.9
+          },
+          {
+            "objection": "Poor app design with missing features and bad user experience",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Klein ET16/ET20 borescope",
+            "reason": "App failures and lack of support making product unusable",
+            "threshold": "Persistent black screen/crash issues across multiple devices"
+          },
+          {
+            "from_product": "Klein ET16/ET20 borescope",
+            "reason": "Using third-party app (e.g., Color Borescope Endoscope) that works better",
+            "threshold": "Discovery that alternative app provides stable functionality and features"
+          },
+          {
+            "from_product": "Klein ET16/ET20 borescope",
+            "reason": "Switching to competitor (e.g., FLIR) for reliable equipment",
+            "threshold": "Repeated failure and perceived abandonment by manufacturer"
+          }
+        ],
+        "decision_factors_ranked": [
+          "App reliability and functionality",
+          "Manufacturer support and updates",
+          "Device compatibility",
+          "Ease of setup and connection",
+          "Cost relative to alternatives"
+        ],
+        "deal_breakers": [
+          "App that consistently crashes or shows black screen",
+          "No functional video/photo saving",
+          "Lack of manufacturer support or fixes for known issues"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "App crashes or freezes repeatedly during use",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Device/app fails to connect or recognize the borescope hardware",
+            "emotional_intensity": 0.92
+          },
+          {
+            "signal": "Black screen/no image display despite lights working",
+            "emotional_intensity": 0.88
+          },
+          {
+            "signal": "Poor app performance (drains battery, bugs, no auto-shutdown)",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Lack of technical support or updates to fix known issues",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poor video/image quality (resolution, glare)",
+            "emotional_intensity": 0.75
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable, stable app that works consistently with borescope hardware",
+            "priority": 0.98
+          },
+          {
+            "outcome": "Clear image/video feed for diagnostic accuracy",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Compatibility with modern smartphones and Android versions",
+            "priority": 0.88
+          },
+          {
+            "outcome": "Functional tech support and timely bug-fixing updates",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Battery-efficient app performance",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for visual diagnostic tool to reduce guesswork",
+            "context": "Review 6 mentions saving guesswork in diagnostics"
+          },
+          {
+            "trigger": "Positive past experience with same brand/product",
+            "context": "Review 5 mentions it 'Used to be great'"
+          },
+          {
+            "trigger": "Easy physical connection (wired) to phone",
+            "context": "Review 20 cites easy wire connection"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "App/software is fundamentally broken or unreliable",
+            "severity": 0.96
+          },
+          {
+            "objection": "No compatibility with specific phone models or OS versions",
+            "severity": 0.92
+          },
+          {
+            "objection": "Lack of manufacturer support or updates",
+            "severity": 0.85
+          },
+          {
+            "objection": "Product fails immediately upon first use",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Klein ET16 borescope/app",
+            "reason": "App crashes, fails to connect, or shows no image",
+            "threshold": "Immediate failure or consistent malfunction"
+          },
+          {
+            "from_product": "Potentially older Klein app",
+            "reason": "App no longer works on newer phones",
+            "threshold": "Upgrade to unsupported phone model"
+          }
+        ],
+        "decision_factors_ranked": [
+          "App/software reliability and stability",
+          "Hardware-software compatibility",
+          "Image/video quality and clarity",
+          "Technical support and update responsiveness",
+          "Ease of physical setup and connection",
+          "Battery efficiency of app"
+        ],
+        "deal_breakers": [
+          "App crashes or freezes immediately",
+          "Complete failure to connect or recognize device",
+          "Persistent black screen/no image",
+          "No manufacturer support or fixes for known bugs"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0,
+      "reddit": 0,
+      "csv": 0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "App interface is confusing and difficult to use",
+          "count": 1,
+          "frequency": 0.0172,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0517
+        },
+        {
+          "signal": "Bore scope does not connect to app, resulting in black screen or 'No ET16 Connected' error",
+          "count": 1,
+          "frequency": 0.0172,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.069
+        },
+        {
+          "signal": "App frequently crashes or restarts during use",
+          "count": 1,
+          "frequency": 0.0172,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0517
+        },
+        {
+          "signal": "App cannot save videos due to corruption or permission issues",
+          "count": 1,
+          "frequency": 0.0172,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0517
+        },
+        {
+          "signal": "App lacks essential adjustable features (e.g., focus, zoom, exposure control)",
+          "count": 1,
+          "frequency": 0.0172,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0517
+        },
+        {
+          "signal": "Phone screen turns off during use due to lack of screen control",
+          "count": 1,
+          "frequency": 0.0172,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.069
+        },
+        {
+          "signal": "Customer support is slow or unresponsive when issues arise",
+          "count": 1,
+          "frequency": 0.0172,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0517
+        },
+        {
+          "signal": "App fails to recognize or connect after phone updates or on certain Android versions",
+          "count": 1,
+          "frequency": 0.0172,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0517
+        },
+        {
+          "signal": "Frequent, intrusive ads in a basic flashlight app",
+          "count": 1,
+          "frequency": 0.0172,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0522
+        },
+        {
+          "signal": "Tool is difficult to maneuver hands-free, requiring multiple hands to operate",
+          "count": 1,
+          "frequency": 0.0172,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0517
+        },
+        {
+          "signal": "App consistently fails to display video/image (blank/black screen)",
+          "count": 1,
+          "frequency": 0.0172,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0517
+        },
+        {
+          "signal": "App crashes frequently or is unstable/unreliable",
+          "count": 1,
+          "frequency": 0.0172,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0517
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Reliable connectivity and immediate, clear video feed display",
+          "count": 1,
+          "frequency": 0.0204,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0612
+        },
+        {
+          "signal": "Stable app performance with no crashes or restarts during use",
+          "count": 1,
+          "frequency": 0.0204,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0612
+        },
+        {
+          "signal": "Ability to reliably save and view recorded videos and photos",
+          "count": 1,
+          "frequency": 0.0204,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0612
+        },
+        {
+          "signal": "Simple, intuitive interface that is easy to navigate",
+          "count": 1,
+          "frequency": 0.0204,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0612
+        },
+        {
+          "signal": "Adjustable features such as focus, exposure, zoom, and screen controls",
+          "count": 1,
+          "frequency": 0.0204,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0617
+        },
+        {
+          "signal": "Wireless capability to avoid cable issues and phone swinging",
+          "count": 1,
+          "frequency": 0.0204,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0612
+        },
+        {
+          "signal": "Tool designed for easy handling (e.g., better grip, hands-free use)",
+          "count": 1,
+          "frequency": 0.0204,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0612
+        },
+        {
+          "signal": "Responsive, effective customer support for troubleshooting",
+          "count": 1,
+          "frequency": 0.0204,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0612
+        },
+        {
+          "signal": "Compatibility across multiple phone models and OS versions",
+          "count": 1,
+          "frequency": 0.0204,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0612
+        },
+        {
+          "signal": "Rugged, durable tool design that withstands field conditions",
+          "count": 1,
+          "frequency": 0.0204,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0612
+        },
+        {
+          "signal": "Tool and app that work reliably 'out of the box' with clear instructions",
+          "count": 1,
+          "frequency": 0.0204,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0612
+        },
+        {
+          "signal": "Clear, high-quality video/image for inspecting tight, hard-to-see spaces",
+          "count": 1,
+          "frequency": 0.0204,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0612
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "App fails to connect or display video consistently",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "Inability to save or view recorded media",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "App incompatibility with current Android versions without fix",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "Unresponsive customer support for critical issues",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "App that fails to display any video/image (blank/black screen)",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "App that crashes constantly or is unusably unstable",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "Complete lack of manufacturer support or clear troubleshooting guidance",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "App that consistently crashes or shows black screen",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "No functional video/photo saving",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "Lack of manufacturer support or fixes for known issues",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Recommendation or trust in a well-known, reliable brand (e.g., Klein Tools)",
+          "count": 1,
+          "frequency": 0.0435,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1304
+        },
+        {
+          "signal": "Affordable price compared to much more expensive standalone units",
+          "count": 1,
+          "frequency": 0.0435,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1304
+        },
+        {
+          "signal": "Need for a portable, smartphone-integrated inspection tool",
+          "count": 1,
+          "frequency": 0.0435,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1304
+        },
+        {
+          "signal": "Word-of-mouth or positive initial reviews",
+          "count": 1,
+          "frequency": 0.0435,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1304
+        },
+        {
+          "signal": "Availability of a cost-effective, easy-to-use solution",
+          "count": 1,
+          "frequency": 0.0435,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1304
+        },
+        {
+          "signal": "Need to inspect or see inside areas without disassembly",
+          "count": 1,
+          "frequency": 0.0435,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1304
+        },
+        {
+          "signal": "Replacing an older, bulkier, or less convenient inspection tool",
+          "count": 1,
+          "frequency": 0.0435,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1304
+        },
+        {
+          "signal": "Tool recommendation or brand trust (Klein)",
+          "count": 1,
+          "frequency": 0.0435,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1304
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "low": 1.0
+      }
+    }
+  }
+}

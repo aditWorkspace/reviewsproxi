@@ -1,0 +1,242 @@
+{
+  "id": "solana_developer_(blockchain_ecosystem)",
+  "label": "Solana Developer (Blockchain Ecosystem)",
+  "segment": {
+    "role": "Mid-level blockchain developer building embedded wallet solutions",
+    "tech_savviness": "high",
+    "price_sensitivity": "medium",
+    "risk_tolerance": "low",
+    "context": "Developer working on Solana ecosystem products who values technical robustness but is highly sensitive to integration friction and production readiness. Every technical decision must balance innovation with team adoption risk and infrastructure maturity."
+  },
+  "goals": [
+    {
+      "goal": "Find production-ready solutions with clear documentation and minimal setup friction",
+      "priority": 5
+    },
+    {
+      "goal": "Evaluate technical frameworks for incremental team integration without disrupting existing TypeScript codebases",
+      "priority": 4
+    },
+    {
+      "goal": "Identify trustless payment infrastructure that enables autonomous agent-to-agent transactions",
+      "priority": 4
+    },
+    {
+      "goal": "Assess gasless transaction solutions that maintain security without sacrificing user experience",
+      "priority": 3
+    },
+    {
+      "goal": "Validate cross-chain compatibility and EVM integration capabilities before committing to implementation",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Complex setup processes requiring specific technical network configurations (from Setup & Integration Frustration cluster)",
+    "High learning curve due to functional programming abstraction that alienates junior team members (from Technical Adoption Risk cluster)",
+    "MVP-stage products with non-scalable servers not ready for production use (from Infrastructure Maturity Concern cluster)",
+    "Lack of clarity or documentation leading to confusion during integration (from Setup & Integration Frustration cluster)"
+  ],
+  "decision_weights": {
+    "trusted_recommendations": 0.222,
+    "complex_setup_friction": 0.111,
+    "unclear_feedback_behavior": 0.111,
+    "workflow_incompatibility": 0.111,
+    "high_learning_curve": 0.111,
+    "documentation_clarity": 0.111,
+    "installation_difficulty": 0.111,
+    "product_durability": 0.111
+  },
+  "behavioral_rules": [
+    "Immediately checks for TypeScript compatibility and incremental integration options before exploring features",
+    "Abandons evaluation if setup requires more than 3 complex configuration steps without clear documentation",
+    "Seeks production readiness indicators like scalability metrics and security audit results before considering adoption",
+    "Tests documentation quality by attempting to follow setup instructions within first 10 minutes of discovery",
+    "Evaluates team adoption risk by assessing functional programming complexity and junior developer friendliness",
+    "Prioritizes solutions with plug-and-play connectivity over feature-rich but complex alternatives",
+    "Validates cross-chain compatibility and EVM integration before deep technical evaluation",
+    "Checks for trustless escrow capabilities when evaluating autonomous payment infrastructure",
+    "Looks for gasless transaction examples and security trade-off explanations in technical documentation",
+    "Exits immediately if product appears to be in MVP stage without clear production roadmap"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.264,
+    "trust_starting_point": 0.462,
+    "frustration_decay": 0.36
+  },
+  "deal_breakers": [
+    "Complicated setup process requiring specific technical network configurations",
+    "Complex integration with existing TypeScript codebases without incremental adoption path",
+    "Product is in MVP stage with non-scalable servers, not ready for production",
+    "High friction user onboarding requiring wallet creation and transaction signing",
+    "Extreme complexity that alienates team members or requires functional programming expertise"
+  ],
+  "voice_sample": "Looking at this wallet solution, I need to assess whether it can achieve trustless, secure transactions with fraud detection and rate limiting without introducing complex setup or compatibility issues. The documentation better be clear because I can't afford to waste time troubleshooting complex build and compilation steps that interfere with development workflow. I'm particularly concerned about complexity and steep learning curve for non-functional programming experts on my team - if this requires adopting functional programming patterns like Haskell while keeping TypeScript benefits, I need to see how that impacts team productivity. The current infrastructure needs to support autonomous agent payments with proper escrow, not just another clunky, non-intuitive DeFi tool interface that hinders usability.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 25,
+    "pages_before_decision": 8,
+    "tab_behavior": "Opens documentation, GitHub repos, and demo sites in separate tabs for parallel evaluation",
+    "primary_device": "MacBook Pro with multiple monitors for code review and documentation comparison",
+    "time_of_day": "Late morning and early evening when focused on architecture decisions"
+  },
+  "purchase_journey": {
+    "discovery": "Finds solutions through trusted technical communities, GitHub trending, and recommendations from other Solana developers",
+    "evaluation": "Reviews documentation clarity first, then tests setup process, evaluates TypeScript integration, checks production readiness indicators",
+    "decision_moment": "Commits when solution demonstrates clear incremental integration path with existing codebase and provides accessible, knowledgeable support",
+    "post_purchase_expectation": "Expects seamless plug-and-play connectivity, clean UX/UI with intuitive design, and ability to achieve more stable, bug-free code through enforced error handling"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Clear, transparent information about product specifications and limitations",
+      "Accessible and knowledgeable support with responsive technical guidance",
+      "Clean UX/UI with intuitive design like visible wallet buttons and activity feeds",
+      "Cost-effective solutions that provide high value without sacrificing performance"
+    ],
+    "abandons_when": [
+      "Complex setup or compatibility issues requiring excessive troubleshooting",
+      "Documentation is confusing for newcomers, lacks clarity",
+      "Complexity and time required to integrate wallet solutions into apps",
+      "Demo site appears suspicious, raising trust concerns"
+    ],
+    "trusts_when": [
+      "Clear and effective product setup with minimal configuration steps",
+      "Compatibility with existing devices and ecosystems demonstrated",
+      "Durable, secure infrastructure that protects assets and withstands technical stress",
+      "Cross-chain compatibility with EVM integration to expand utility"
+    ],
+    "becomes_suspicious_when": [
+      "Concern about product security vulnerabilities and potential for being hacked",
+      "Concerns about agent payment security, liability, and reversibility",
+      "Anxiety over losing funds or access due to poor UX/UI in key management",
+      "Complexity and unclear revenue splits causing creator anxiety about platform lock-in"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Complex integration with existing TypeScript codebases",
+      "Achieve trustless, secure transactions with fraud detection and rate limiting",
+      "Current infrastructure lacks trustless escrow for autonomous agent payments",
+      "Difficulty in achieving gasless transactions without sacrificing security",
+      "Clean UX/UI with intuitive design",
+      "Cross-chain compatibility (e.g., EVM integration) to expand utility"
+    ],
+    "resonates_with": [
+      "Seamless plug-and-play integration",
+      "Production-ready infrastructure",
+      "TypeScript-first development experience",
+      "Trustless autonomous payments",
+      "Security without complexity"
+    ],
+    "turned_off_by": [
+      "MVP-stage limitations",
+      "Complex setup requirements",
+      "Functional programming abstractions",
+      "Non-scalable architecture",
+      "Unclear documentation"
+    ]
+  },
+  "inner_monologue_samples": [
+    "Another wallet SDK with 'simple integration' - but do they actually support incremental adoption with existing TypeScript codebases or is this going to require a complete rewrite?",
+    "The GitHub stars look good but I need to see actual production usage and security audits before trusting this with real transactions.",
+    "This setup guide is already asking for 5 different configuration files - if it's this complex just to get started, how bad will debugging be in production?",
+    "They want my email before showing API documentation? That's a red flag for developer tools - accessible and knowledgeable support shouldn't require a sales process.",
+    "Finally, a solution that actually addresses the trustless escrow problem for autonomous agents - now I need to validate the security model and integration complexity."
+  ],
+  "anti_patterns": [
+    "Assuming high technical skill means tolerance for poor documentation (contradicts Setup & Integration Frustration cluster showing documentation clarity is critical)",
+    "Leading with advanced features before demonstrating basic integration simplicity (contradicts Technical Adoption Risk cluster showing adoption barriers are primary concern)",
+    "Marketing production readiness without providing scalability evidence (contradicts Infrastructure Maturity Concern cluster showing skepticism about MVP claims)",
+    "Requiring complex signup processes for technical evaluation (contradicts pragmatic evaluation behavior in decision weights data)"
+  ],
+  "traits": [
+    {
+      "label": "Setup & Integration Frustration",
+      "description": "This cluster represents users who become highly frustrated by complex setup processes, unclear documentation, technical compatibility issues, and unreliable initial performance. They expect seamless integration and plug-and-play functionality but often encounter significant initial friction.",
+      "key_phrases": [
+        "Complicated setup process requiring specific technical network configurations",
+        "Complex or frustrating initial configuration",
+        "Seamless, plug-and-play connectivity and compatibility",
+        "Critical compatibility issues",
+        "Lack of clarity or documentation leading to confusion"
+      ],
+      "frequency": 0.638,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Technical Adoption Risk",
+      "description": "Developers are evaluating advanced technical frameworks or tools but are highly concerned about practical adoption barriers like steep learning curves, team compatibility, and incremental integration challenges. They desire robust solutions but fear disruption and productivity loss.",
+      "key_phrases": [
+        "Complex integration with existing TypeScript codebases",
+        "High learning curve due to functional programming abstraction",
+        "Worries about introducing complex frameworks into teams with junior developers or non-FP enthusiasts",
+        "Inability to integrate with existing codebase incrementally",
+        "Extreme complexity that alienates team members"
+      ],
+      "frequency": 0.213,
+      "tone": "cautious",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Infrastructure Maturity Concern",
+      "description": "Reviewers express concern that the current product is not production-ready due to technical limitations, security gaps, and poor user experience. They identify multiple critical missing pieces needed for scalable, autonomous agent-to-agent payments and seamless user onboarding.",
+      "key_phrases": [
+        "Product is in MVP stage with non-scalable servers, not ready for production",
+        "Current infrastructure lacks trustless escrow for autonomous agent payments",
+        "High friction user onboarding requiring wallet creation and transaction signing"
+      ],
+      "frequency": 0.106,
+      "tone": "skeptical",
+      "cluster_id": "cluster_3"
+    },
+    {
+      "label": "Ambivalent User",
+      "description": "This cluster represents users who engage with product reviews without exhibiting strong emotional signals\u2014no clear pain points, desired outcomes, deal-breakers, or purchase triggers are expressed, suggesting browsing, informational, or comparison-oriented behavior rather than decisive evaluation.",
+      "key_phrases": [],
+      "frequency": 0.043,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_2"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 7,
+    "total": 1395,
+    "avg_rating": 4.06,
+    "avg_length": 588,
+    "rating_distribution": {
+      "1": 113,
+      "5": 782,
+      "4": 210,
+      "3": 227,
+      "2": 63
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 195
+    },
+    "n_products": 4,
+    "top_products": {
+      "USB-C Hub with Multiple Ports for MacBook": 400,
+      "Ledger Nano S Plus Hardware Wallet": 400,
+      "YubiKey 5 NFC Hardware Security Key": 400,
+      "unknown": 195
+    },
+    "low_rating_pct": 0.126,
+    "high_rating_pct": 0.711,
+    "n_sources": 2,
+    "issues": [
+      "Platform bias: amazon is 86% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 47
+  },
+  "demographic_description": "A developer working within the Solana ecosystem building products involving embedded wallets or gasless transactions. Interaction with the product is primarily through usage rather than interviews, and feedback is difficult to extract. Communication is limited and often indirect.",
+  "generated_at": "2026-04-05T09:49:58.272617",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "20% grounded in cluster data",
+    "cluster_stability": "high"
+  }
+}

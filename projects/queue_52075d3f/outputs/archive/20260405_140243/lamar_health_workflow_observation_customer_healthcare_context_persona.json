@@ -1,0 +1,253 @@
+{
+  "id": "workflow_observation_customer_(healthcare_context)",
+  "label": "Workflow Observation Customer (Healthcare Context)",
+  "segment": {
+    "role": "Healthcare process improvement professional managing workflow documentation and system integration",
+    "tech_savviness": "medium",
+    "price_sensitivity": "medium",
+    "risk_tolerance": "low",
+    "context": "Works in healthcare environments where software reliability directly impacts patient care and operational efficiency. Prioritizes stable, intuitive tools that can accurately capture and analyze complex healthcare workflows without frequent crashes or maintenance overhead."
+  },
+  "goals": [
+    {
+      "goal": "Find workflow documentation software that works reliably without crashes during critical process recording",
+      "priority": 5
+    },
+    {
+      "goal": "Identify tools with clear, intuitive interfaces that don't require extensive training for healthcare staff",
+      "priority": 4
+    },
+    {
+      "goal": "Locate business process modeling software that integrates seamlessly with existing healthcare systems",
+      "priority": 4
+    },
+    {
+      "goal": "Research digital documentation cameras that provide accurate, high-quality capture in clinical environments",
+      "priority": 3
+    },
+    {
+      "goal": "Evaluate time tracking solutions that deliver reliable data for healthcare workflow optimization",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Limited budget for software licenses and ongoing subscription costs",
+    "Cannot tolerate software instability that could disrupt patient care workflows",
+    "Must comply with healthcare data privacy and security requirements",
+    "Restricted time for software evaluation due to operational responsibilities"
+  ],
+  "decision_weights": {
+    "software_stability_reliability": 0.323,
+    "specific_functionality_availability": 0.323,
+    "ai_tool_accuracy": 0.118,
+    "system_resource_requirements": 0.059,
+    "integration_compatibility": 0.059,
+    "installation_complexity": 0.059,
+    "workflow_adaptability": 0.059
+  },
+  "behavioral_rules": [
+    "Immediately exits if software description mentions 'beta' or 'early access' due to reliability concerns",
+    "Abandons evaluation if installation requires more than basic technical setup steps",
+    "Prioritizes vendors offering phone support over chat-only customer service options",
+    "Skips products with subscription-only models when perpetual license options exist",
+    "Exits immediately if software crashes during free trial or demo",
+    "Avoids AI-powered tools that don't clearly explain accuracy limitations and manual oversight requirements",
+    "Rejects solutions requiring extensive customization or configuration for basic functionality",
+    "Abandons if product requires multiple additional software purchases to achieve core functionality",
+    "Prioritizes established vendors with healthcare industry experience over startups",
+    "Exits if documentation is incomplete or requires technical expertise to understand basic features"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.301,
+    "trust_starting_point": 0.524,
+    "frustration_decay": 0.32
+  },
+  "deal_breakers": [
+    "Software crashes during demonstration or trial period",
+    "Requires extensive technical expertise for basic installation and setup",
+    "AI features produce unreliable results requiring constant manual correction",
+    "No phone support available for troubleshooting critical issues",
+    "Incompatible with existing healthcare systems and file formats"
+  ],
+  "voice_sample": "I need workflow documentation tools that actually work when we need them most. Too many times I've seen software that looks great in demos but falls apart when you're trying to capture critical patient care processes in real-time. The last thing we need is another system that crashes right when we're documenting a complex procedure or loses data during a workflow analysis session. I'm looking for something that's intuitive enough that our clinical staff can use it without extensive training, but robust enough to handle the complexity of healthcare operations. Clear, step-by-step processes that are easy to follow are essential because we don't have time for trial-and-error when patient care is involved.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 45,
+    "pages_before_decision": 8,
+    "tab_behavior": "Opens multiple vendor comparison tabs, keeps documentation and support pages open for reference",
+    "primary_device": "Desktop computer at work during administrative hours",
+    "time_of_day": "Mid-morning between 9-11 AM when administrative tasks are scheduled"
+  },
+  "purchase_journey": {
+    "discovery": "Searches for healthcare-specific workflow tools through professional networks and industry publications, often triggered by software reliability failures",
+    "evaluation": "Reviews stability claims first, then examines integration capabilities, support options, and total cost of ownership including training requirements",
+    "decision_moment": "Commits when vendor demonstrates reliable performance in healthcare-similar scenarios and provides clear implementation timeline with support",
+    "post_purchase_expectation": "Expects seamless deployment with minimal disruption to existing workflows and responsive support during initial implementation period"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Vendor demonstrates software stability under realistic healthcare workflow conditions",
+      "Clear documentation shows step-by-step implementation without technical expertise requirements",
+      "Phone support is available with healthcare industry experience",
+      "Integration capabilities are proven with existing healthcare systems"
+    ],
+    "abandons_when": [
+      "Software crashes or shows instability during demonstration",
+      "Setup requires complex technical configuration or multiple system dependencies",
+      "AI features produce unreliable results requiring extensive manual correction",
+      "No clear support pathway for troubleshooting operational issues"
+    ],
+    "trusts_when": [
+      "Vendor provides accurate and timely data capture demonstrations",
+      "Clear, honest communication about software limitations and requirements",
+      "Healthcare-specific case studies and references available",
+      "Transparent pricing without hidden subscription requirements"
+    ],
+    "becomes_suspicious_when": [
+      "Marketing emphasizes advanced features over basic reliability",
+      "Pricing requires extensive consultation before revealing costs",
+      "AI capabilities are oversold without acknowledging maintenance requirements",
+      "Installation process is downplayed as 'simple' without technical details"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "A product that works as advertised",
+      "Reliable performance without crashes, especially in critical functions",
+      "Clear, step-by-step processes that are easy to follow",
+      "Accurate, reliable, and high-quality data capture and recording",
+      "Accessible and responsive customer support (especially phone support) for troubleshooting",
+      "Clear, intuitive user interfaces and comprehensive, easy-to-follow documentation",
+      "Automation that saves time and is not a maintenance burden"
+    ],
+    "resonates_with": [
+      "Healthcare-proven reliability",
+      "Intuitive design for busy professionals",
+      "Seamless integration capabilities",
+      "Comprehensive support and training"
+    ],
+    "turned_off_by": [
+      "Complex setup requirements",
+      "Subscription-only pricing models",
+      "AI-powered without human oversight",
+      "Beta or early-access software"
+    ]
+  },
+  "inner_monologue_samples": [
+    "This pricing looks reasonable, but I need to make sure there aren't hidden costs for support or integration - we can't afford surprises in our healthcare budget.",
+    "They have good reviews, but I need to see if other healthcare organizations are actually using this successfully - testimonials from other industries won't cut it.",
+    "This interface looks complicated - if our clinical staff can't figure this out quickly, it's going to create more problems than it solves.",
+    "Another signup form just to see basic features? I don't have time for sales calls when I'm trying to evaluate whether this software even meets our basic requirements.",
+    "Finally, something that actually demonstrates reliable workflow capture without crashing - this could work for our patient care process documentation needs."
+  ],
+  "anti_patterns": [
+    "Assuming they want the most advanced features - contradicts their priority for reliable basic functionality over unstable advanced capabilities",
+    "Emphasizing AI automation benefits - contradicts their skepticism of AI tools that produce unreliable results requiring manual correction",
+    "Hiding pricing behind consultation requirements - contradicts their need for transparent, straightforward cost evaluation",
+    "Downplaying technical setup complexity - contradicts their frustration with complex installation processes requiring technical expertise",
+    "Promoting subscription-only models - contradicts their preference for software ownership and budget predictability"
+  ],
+  "traits": [
+    {
+      "label": "Software Reliability & Ease-of-Use Seeker",
+      "description": "Users are highly frustrated by frequent crashes, instability, and a complex or non-intuitive interface. They strongly desire software that is dependable, easy to use 'out of the box', and comes with clear support, valuing seamless and efficient performance above advanced but unstable features.",
+      "key_phrases": [
+        "Software not intuitive, feels limited compared to accustomed tools",
+        "Unreliable software with crashes and lost projects",
+        "Reliable performance without crashes, especially in critical functions"
+      ],
+      "frequency": 0.577,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "AI Reliability Skepticism",
+      "description": "Users express frustration with AI-powered tools that fail to deliver on promises of automation, producing unreliable results that require extensive manual intervention and maintenance.",
+      "key_phrases": [
+        "AI tools produce flaky/unreliable code for complex test scenarios",
+        "Tests breaking frequently due to flaky selectors and timing issues",
+        "High maintenance burden for updating tests when features change"
+      ],
+      "frequency": 0.211,
+      "tone": "frustrated",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Core Functionality Failure",
+      "description": "Users are highly frustrated when software fails to perform its advertised, fundamental tasks reliably or accurately. This includes installation issues, data errors, and features that don't work as promised, directly undermining the primary reason for purchase.",
+      "key_phrases": [
+        "Frustration with unreliable features and incorrect data reporting",
+        "Dissatisfaction with incomplete or buggy software at launch",
+        "Software that doesn't perform advertised core function (e.g., automatic grocery list generation)"
+      ],
+      "frequency": 0.155,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Role Identity Crisis",
+      "description": "Professionals experiencing confusion, undervaluation, and anxiety due to ambiguous and overloaded job definitions, particularly as organizations eliminate specialized roles and expect them to perform multiple functions without clear boundaries or support.",
+      "key_phrases": [
+        "Role confusion and unclear responsibilities",
+        "Being overloaded with multiple roles (e.g., BA, SM, PO, QA)",
+        "Feeling undervalued until information is needed"
+      ],
+      "frequency": 0.042,
+      "tone": "frustrated",
+      "cluster_id": "cluster_3"
+    },
+    {
+      "label": "Convenience Compromise",
+      "description": "Users appreciate the portability and versatility of compact devices but are frustrated by practical limitations that undermine their convenience, such as storage constraints, intermittent connectivity, or battery dependence that disrupt seamless usage.",
+      "key_phrases": [
+        "Limited on-device storage capacity requiring frequent external backups",
+        "Slight delay in communication between keyboard and display during fast typing",
+        "Portable speaker needing regular recharging, making it a temporary solution for TV audio"
+      ],
+      "frequency": 0.014,
+      "tone": "frustrated",
+      "cluster_id": "cluster_4"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 7,
+    "total": 2102,
+    "avg_rating": 3.43,
+    "avg_length": 799,
+    "rating_distribution": {
+      "5": 616,
+      "3": 854,
+      "4": 283,
+      "1": 256,
+      "2": 93
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 902
+    },
+    "n_products": 4,
+    "top_products": {
+      "unknown": 902,
+      "Time Tracking Software for Business Process Documentation": 500,
+      "Business Process Modeling Software Professional License": 500,
+      "Digital Workflow Documentation Camera for Process Recording": 200
+    },
+    "low_rating_pct": 0.166,
+    "high_rating_pct": 0.428,
+    "n_sources": 2,
+    "issues": [
+      "Platform bias: amazon is 57% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 71
+  },
+  "demographic_description": "A customer whose workflows are recorded and analyzed to understand operational processes. Interacts by demonstrating real processes rather than describing them abstractly. Feedback is validated through confirmation of observed workflows.",
+  "generated_at": "2026-04-05T11:15:51.488832",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "0% grounded in cluster data",
+    "cluster_stability": "low"
+  }
+}

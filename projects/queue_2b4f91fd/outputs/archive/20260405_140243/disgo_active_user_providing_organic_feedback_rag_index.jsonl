@@ -1,0 +1,80 @@
+{"review_id": "cluster_1_b0_pp0", "trait_label": "Critical Reliability Failure", "text": "Difficult setup/configuration of devices (e.g., alarm clock)", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp1", "trait_label": "Critical Reliability Failure", "text": "Frustration with app features disappearing or being inconsistent across accounts (e.g., repost button)", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp2", "trait_label": "Critical Reliability Failure", "text": "Disappointment with product defects/failure (e.g., trackball mouse, Fire Cube stuttering)", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_do0", "trait_label": "Critical Reliability Failure", "text": "Seamless, effortless device setup and use (intuitive configuration)", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_do1", "trait_label": "Critical Reliability Failure", "text": "Consistent, reliable app features across all accounts/devices", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp0", "trait_label": "Critical Reliability Failure", "text": "Apps/platforms removing features without explanation or consistency (like repost button disappearing from some accounts but not others)", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp1", "trait_label": "Critical Reliability Failure", "text": "Technical glitches in devices/apps that disrupt daily usage", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp2", "trait_label": "Critical Reliability Failure", "text": "Poor compatibility between new accessories and older devices (like cases blocking ports, speakers not working with specific setups)", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_do0", "trait_label": "Critical Reliability Failure", "text": "Seamless, reliable app/device performance without unexpected changes or glitches", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_do1", "trait_label": "Critical Reliability Failure", "text": "Easy setup and wireless convenience in accessories and devices", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp0", "trait_label": "Critical Reliability Failure", "text": "Frustration with disappearing app features (like repost button) without explanation", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp1", "trait_label": "Critical Reliability Failure", "text": "Anxiety about potential censorship or algorithmic control limiting expression", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp2", "trait_label": "Critical Reliability Failure", "text": "Inconvenience from products not fitting devices properly (e.g., mounts, cases)", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_do0", "trait_label": "Critical Reliability Failure", "text": "Reliable and consistent app functionality with clear communication on changes", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_do1", "trait_label": "Critical Reliability Failure", "text": "Ability to freely share and repost content for awareness or personal expression", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp0", "trait_label": "Critical Reliability Failure", "text": "Frustration with software features being removed without warning or control", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp1", "trait_label": "Critical Reliability Failure", "text": "Annoyance at intrusive ads and promotions within apps and devices", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp2", "trait_label": "Critical Reliability Failure", "text": "Difficulty with device setup and pairing, especially Bluetooth", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_do0", "trait_label": "Critical Reliability Failure", "text": "Seamless, automatic, and reliable wireless connectivity", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_do1", "trait_label": "Critical Reliability Failure", "text": "High-quality audio and sound clarity", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp0", "trait_label": "Critical Reliability Failure", "text": "Platform glitches prevent content from being seen (videos stuck at 0 views, in review for hours)", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp1", "trait_label": "Critical Reliability Failure", "text": "Being locked out of account without ability to verify or log in", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp2", "trait_label": "Critical Reliability Failure", "text": "Inability to comment or interact normally due to app issues", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_do0", "trait_label": "Critical Reliability Failure", "text": "Content performs as expected (gets views, engagement, pushes to feed)", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_do1", "trait_label": "Critical Reliability Failure", "text": "Reliable, uninterrupted access to account and platform features", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp0", "trait_label": "Technical Reliability Concern", "text": "App crashes frequently or becomes unstable", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp1", "trait_label": "Technical Reliability Concern", "text": "Key features fail to work (e.g., posts not showing, messages jumbled)", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp2", "trait_label": "Technical Reliability Concern", "text": "Apps automatically restart or cannot be turned off", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_do0", "trait_label": "Technical Reliability Concern", "text": "Apps that work reliably without crashes or bugs", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_do1", "trait_label": "Technical Reliability Concern", "text": "Access to desired content (shows, posts, features) without extra paywalls", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp0", "trait_label": "Technical Reliability Concern", "text": "App updates causing functionality to break unexpectedly", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp1", "trait_label": "Technical Reliability Concern", "text": "Inability to view or interact with posts/content after updates", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp2", "trait_label": "Technical Reliability Concern", "text": "Apps that crash frequently or become unusable", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_do0", "trait_label": "Technical Reliability Concern", "text": "Reliable, crash-free app performance across all devices", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_do1", "trait_label": "Technical Reliability Concern", "text": "Seamless content viewing and posting without technical glitches", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp0", "trait_label": "Technical Reliability Concern", "text": "Purchases not being delivered after payment, game freezing and requiring reset.", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp1", "trait_label": "Technical Reliability Concern", "text": "Contacting customer service and receiving no response to purchase issues.", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp2", "trait_label": "Technical Reliability Concern", "text": "App functionality breaking after updates (e.g., DMs/messages not opening).", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_do0", "trait_label": "Technical Reliability Concern", "text": "Reliable delivery of purchased items/services without app crashes.", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_do1", "trait_label": "Technical Reliability Concern", "text": "Responsive and effective customer service for issue resolution.", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp0", "trait_label": "Technical Reliability Concern", "text": "Frustration with buggy updates and broken features (e.g., DMs not working, notifications failing)", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp1", "trait_label": "Technical Reliability Concern", "text": "Annoyance at having to repeatedly reinstall apps to fix temporary issues", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp2", "trait_label": "Technical Reliability Concern", "text": "Disappointment when paid features malfunction or lack expected content (e.g., missing graphics, broken updates)", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_do0", "trait_label": "Technical Reliability Concern", "text": "Reliable app performance with consistent functionality after updates", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_do1", "trait_label": "Technical Reliability Concern", "text": "Intuitive, user-friendly interfaces that enhance rather than hinder experience", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp0", "trait_label": "Technical Reliability Concern", "text": "App crashes or becomes unusable after updates, especially beta versions", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp1", "trait_label": "Technical Reliability Concern", "text": "Difficulty spikes in games that feel unfair or abruptly block progress", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp2", "trait_label": "Technical Reliability Concern", "text": "Hidden or misleading pricing (e.g., free app requires payment to advance)", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_do0", "trait_label": "Technical Reliability Concern", "text": "Reliable, crash-free app performance, especially for core functions", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_do1", "trait_label": "Technical Reliability Concern", "text": "Clear, transparent pricing with no surprises", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp0", "trait_label": "Platform Distrust & Lack of Control", "text": "Not getting enough reach/engagement on social media despite effort", "tone": "skeptical"}
+{"review_id": "cluster_2_b0_pp1", "trait_label": "Platform Distrust & Lack of Control", "text": "Feeling stuck and unable to grow follower count", "tone": "skeptical"}
+{"review_id": "cluster_2_b0_pp2", "trait_label": "Platform Distrust & Lack of Control", "text": "Lacking clarity on how to source or create compelling content", "tone": "skeptical"}
+{"review_id": "cluster_2_b0_do0", "trait_label": "Platform Distrust & Lack of Control", "text": "Increase social media reach and follower growth organically", "tone": "skeptical"}
+{"review_id": "cluster_2_b0_do1", "trait_label": "Platform Distrust & Lack of Control", "text": "Get actionable feedback and advice on content creation", "tone": "skeptical"}
+{"review_id": "cluster_2_b1_pp0", "trait_label": "Platform Distrust & Lack of Control", "text": "Service termination due to opaque 'excessive use' policies with no clear recourse", "tone": "skeptical"}
+{"review_id": "cluster_2_b1_pp1", "trait_label": "Platform Distrust & Lack of Control", "text": "Inadequate customer support channels (no phone support, only online chat)", "tone": "skeptical"}
+{"review_id": "cluster_2_b1_pp2", "trait_label": "Platform Distrust & Lack of Control", "text": "Loss of paid service time and money upon termination", "tone": "skeptical"}
+{"review_id": "cluster_2_b1_do0", "trait_label": "Platform Distrust & Lack of Control", "text": "Clear, transparent terms of service and usage limits", "tone": "skeptical"}
+{"review_id": "cluster_2_b1_do1", "trait_label": "Platform Distrust & Lack of Control", "text": "Accessible, multi-channel customer support", "tone": "skeptical"}
+{"review_id": "cluster_2_b2_pp0", "trait_label": "Platform Distrust & Lack of Control", "text": "Struggling with low views and reach after taking time off social media", "tone": "skeptical"}
+{"review_id": "cluster_2_b2_pp1", "trait_label": "Platform Distrust & Lack of Control", "text": "Difficulty growing followers and overcoming initial follower hump", "tone": "skeptical"}
+{"review_id": "cluster_2_b2_pp2", "trait_label": "Platform Distrust & Lack of Control", "text": "Uncertainty about content strategy, posting frequency, and format (reels vs static)", "tone": "skeptical"}
+{"review_id": "cluster_2_b2_do0", "trait_label": "Platform Distrust & Lack of Control", "text": "Grow social media pages/accounts quickly and gain engaged followers", "tone": "skeptical"}
+{"review_id": "cluster_2_b2_do1", "trait_label": "Platform Distrust & Lack of Control", "text": "Create valuable, engaging content that drives views and shares", "tone": "skeptical"}
+{"review_id": "cluster_2_b3_pp0", "trait_label": "Platform Distrust & Lack of Control", "text": "Frustration with low organic reach and algorithm changes on Instagram", "tone": "skeptical"}
+{"review_id": "cluster_2_b3_pp1", "trait_label": "Platform Distrust & Lack of Control", "text": "Feeling forced into a pay-to-play model on social platforms", "tone": "skeptical"}
+{"review_id": "cluster_2_b3_pp2", "trait_label": "Platform Distrust & Lack of Control", "text": "Disappointment when tech products fail after initial success", "tone": "skeptical"}
+{"review_id": "cluster_2_b3_do0", "trait_label": "Platform Distrust & Lack of Control", "text": "Consistent, high organic reach on social media without paying for ads", "tone": "skeptical"}
+{"review_id": "cluster_2_b3_do1", "trait_label": "Platform Distrust & Lack of Control", "text": "Tech products that are reliable and durable", "tone": "skeptical"}
+{"review_id": "cluster_2_b4_pp0", "trait_label": "Platform Distrust & Lack of Control", "text": "Frustration with sudden algorithm changes drastically reducing organic reach/engagement", "tone": "skeptical"}
+{"review_id": "cluster_2_b4_pp1", "trait_label": "Platform Distrust & Lack of Control", "text": "Anxiety over losing followers and audience despite consistent effort", "tone": "skeptical"}
+{"review_id": "cluster_2_b4_pp2", "trait_label": "Platform Distrust & Lack of Control", "text": "Feeling platform intentionally suppresses content to force paid promotions", "tone": "skeptical"}
+{"review_id": "cluster_2_b4_do0", "trait_label": "Platform Distrust & Lack of Control", "text": "Consistent, reliable growth in followers and engagement", "tone": "skeptical"}
+{"review_id": "cluster_2_b4_do1", "trait_label": "Platform Distrust & Lack of Control", "text": "Mastery of platform algorithms to maximize organic reach", "tone": "skeptical"}
+{"review_id": "monologue_a3f643", "trait_label": "Inner Monologue", "text": "Here we go again with pricing that's not upfront. If I have to create an account just to see what this costs, that's already a red flag that there are going to be surprise charges later.", "tone": "authentic_voice"}
+{"review_id": "monologue_621b58", "trait_label": "Inner Monologue", "text": "Okay, they have good reviews but let me check specifically for mentions of crashes or data loss. I can't afford another app that's going to lose my work.", "tone": "authentic_voice"}
+{"review_id": "monologue_09655c", "trait_label": "Inner Monologue", "text": "This navigation is already confusing and I'm just trying to find basic information. If I can't figure out how to use their website, their app is probably going to be just as poorly designed.", "tone": "authentic_voice"}
+{"review_id": "monologue_10be3c", "trait_label": "Inner Monologue", "text": "Another signup form asking for way too many permissions. Do they really need access to my contacts just to let me post photos? This feels like a data grab.", "tone": "authentic_voice"}
+{"review_id": "monologue_763654", "trait_label": "Inner Monologue", "text": "Finally, an app that actually does what it says and hasn't crashed in two days. Maybe I can actually rely on this one for my content creation work.", "tone": "authentic_voice"}

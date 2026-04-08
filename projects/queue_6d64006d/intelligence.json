@@ -1,0 +1,598 @@
+{
+  "products": [
+    {
+      "name": "Anker PowerCore 26800 Portable Charger for Field Operations",
+      "category": "Electronics",
+      "accuracy": 0.95,
+      "review_keywords": [
+        "field",
+        "delivery",
+        "route",
+        "warehouse",
+        "shift",
+        "truck",
+        "operations"
+      ],
+      "context_keywords": [
+        "logistics",
+        "fleet",
+        "distribution",
+        "freight"
+      ],
+      "exclusion_keywords": [
+        "vacation",
+        "camping"
+      ],
+      "why": "High-capacity portable chargers are essential for logistics workers who spend long hours in vehicles or warehouses without reliable power access"
+    },
+    {
+      "name": "RFID Blocking Clipboard with Storage for Fleet Management",
+      "category": "Office_Products",
+      "accuracy": 0.94,
+      "review_keywords": [
+        "delivery",
+        "manifest",
+        "BOL",
+        "paperwork",
+        "driver",
+        "route",
+        "clipboard"
+      ],
+      "context_keywords": [
+        "transportation",
+        "trucking",
+        "dispatch",
+        "freight"
+      ],
+      "exclusion_keywords": [
+        "classroom",
+        "student"
+      ],
+      "why": "Specialized clipboards with RFID protection are bought by logistics professionals for secure document handling during shipments"
+    },
+    {
+      "name": "Garmin d\u0113zl OTR820 8-inch GPS Truck Navigator",
+      "category": "Electronics",
+      "accuracy": 0.93,
+      "review_keywords": [
+        "trucking",
+        "commercial",
+        "CDL",
+        "DOT",
+        "hours",
+        "bridge",
+        "weight"
+      ],
+      "context_keywords": [
+        "freight",
+        "logistics",
+        "transportation",
+        "fleet"
+      ],
+      "exclusion_keywords": [
+        "vacation",
+        "personal"
+      ],
+      "why": "Commercial truck GPS units with DOT compliance features are purchased specifically by professional drivers and fleet managers"
+    },
+    {
+      "name": "High-Visibility Safety Vest Class 2 ANSI Compliant",
+      "category": "Industrial_and_Scientific",
+      "accuracy": 0.92,
+      "review_keywords": [
+        "warehouse",
+        "loading",
+        "dock",
+        "OSHA",
+        "safety",
+        "compliance",
+        "shift"
+      ],
+      "context_keywords": [
+        "logistics",
+        "distribution",
+        "freight",
+        "operations"
+      ],
+      "exclusion_keywords": [
+        "construction",
+        "roadwork"
+      ],
+      "why": "ANSI-compliant safety vests are mandatory purchases for logistics workers in warehouse and loading dock environments"
+    },
+    {
+      "name": "Honeywell Granit 1991i Industrial Barcode Scanner",
+      "category": "Electronics",
+      "accuracy": 0.91,
+      "review_keywords": [
+        "scanning",
+        "inventory",
+        "WMS",
+        "warehouse",
+        "rugged",
+        "industrial",
+        "tracking"
+      ],
+      "context_keywords": [
+        "logistics",
+        "distribution",
+        "fulfillment",
+        "operations"
+      ],
+      "exclusion_keywords": [
+        "retail",
+        "cashier"
+      ],
+      "why": "Industrial-grade barcode scanners are purchased by logistics companies for warehouse management and inventory tracking systems"
+    },
+    {
+      "name": "Steel Toe Work Boots Slip Resistant for Warehouse Workers",
+      "category": "Clothing_Shoes_and_Jewelry",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "warehouse",
+        "steel",
+        "slip",
+        "dock",
+        "safety",
+        "shift",
+        "comfortable"
+      ],
+      "context_keywords": [
+        "logistics",
+        "distribution",
+        "freight",
+        "operations"
+      ],
+      "exclusion_keywords": [
+        "construction",
+        "welding"
+      ],
+      "why": "Steel toe boots with slip resistance are essential safety gear purchased by warehouse and distribution center workers"
+    },
+    {
+      "name": "TomTom VIA 1625TM 6-Inch GPS with Lifetime Traffic Maps",
+      "category": "Electronics",
+      "accuracy": 0.89,
+      "review_keywords": [
+        "delivery",
+        "route",
+        "traffic",
+        "commercial",
+        "navigation",
+        "efficient",
+        "updates"
+      ],
+      "context_keywords": [
+        "logistics",
+        "transportation",
+        "fleet",
+        "dispatch"
+      ],
+      "exclusion_keywords": [
+        "vacation",
+        "leisure"
+      ],
+      "why": "Commercial-grade GPS with lifetime traffic updates are purchased by delivery drivers and fleet operators for route optimization"
+    },
+    {
+      "name": "Ergodyne ProFlex 375 Knee Pads for Warehouse Work",
+      "category": "Industrial_and_Scientific",
+      "accuracy": 0.88,
+      "review_keywords": [
+        "knee",
+        "warehouse",
+        "kneeling",
+        "loading",
+        "comfort",
+        "protection",
+        "shift"
+      ],
+      "context_keywords": [
+        "logistics",
+        "distribution",
+        "operations",
+        "fulfillment"
+      ],
+      "exclusion_keywords": [
+        "gardening",
+        "sports"
+      ],
+      "why": "Ergonomic knee pads are purchased by warehouse workers who frequently kneel while loading, unloading, and inventory management"
+    },
+    {
+      "name": "Motorola Solutions DP4400e Digital Two-Way Radio",
+      "category": "Electronics",
+      "accuracy": 0.87,
+      "review_keywords": [
+        "radio",
+        "dispatch",
+        "communication",
+        "warehouse",
+        "operations",
+        "clear",
+        "range"
+      ],
+      "context_keywords": [
+        "logistics",
+        "distribution",
+        "freight",
+        "operations"
+      ],
+      "exclusion_keywords": [
+        "amateur",
+        "hobby"
+      ],
+      "why": "Professional two-way radios are purchased by logistics companies for warehouse and distribution center communication systems"
+    },
+    {
+      "name": "Mechanic Work Gloves Cut Resistant Level 5 Protection",
+      "category": "Tools_and_Home_Improvement",
+      "accuracy": 0.86,
+      "review_keywords": [
+        "gloves",
+        "cut",
+        "warehouse",
+        "handling",
+        "protection",
+        "grip",
+        "durable"
+      ],
+      "context_keywords": [
+        "logistics",
+        "distribution",
+        "operations",
+        "freight"
+      ],
+      "exclusion_keywords": [
+        "gardening",
+        "automotive"
+      ],
+      "why": "Cut-resistant work gloves are essential safety equipment purchased by logistics workers handling packages and freight"
+    },
+    {
+      "name": "DOT Physical Exam Preparation Guide for Commercial Drivers",
+      "category": "Books",
+      "accuracy": 0.85,
+      "review_keywords": [
+        "DOT",
+        "physical",
+        "CDL",
+        "medical",
+        "exam",
+        "commercial",
+        "driver"
+      ],
+      "context_keywords": [
+        "trucking",
+        "transportation",
+        "freight",
+        "logistics"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "learning"
+      ],
+      "why": "DOT physical preparation guides are purchased by active commercial drivers in logistics who need to maintain their medical certifications"
+    },
+    {
+      "name": "Lumbar Support Belt for Heavy Lifting Warehouse Work",
+      "category": "Health_and_Household",
+      "accuracy": 0.84,
+      "review_keywords": [
+        "lumbar",
+        "lifting",
+        "warehouse",
+        "support",
+        "back",
+        "heavy",
+        "comfort"
+      ],
+      "context_keywords": [
+        "logistics",
+        "distribution",
+        "operations",
+        "freight"
+      ],
+      "exclusion_keywords": [
+        "fitness",
+        "gym"
+      ],
+      "why": "Lumbar support belts are purchased by warehouse and distribution workers who regularly lift heavy packages and freight"
+    },
+    {
+      "name": "DEWALT DPG82-11C Concealer Safety Glasses",
+      "category": "Tools_and_Home_Improvement",
+      "accuracy": 0.83,
+      "review_keywords": [
+        "safety",
+        "glasses",
+        "warehouse",
+        "protection",
+        "clear",
+        "ANSI",
+        "comfortable"
+      ],
+      "context_keywords": [
+        "logistics",
+        "distribution",
+        "operations",
+        "industrial"
+      ],
+      "exclusion_keywords": [
+        "construction",
+        "woodworking"
+      ],
+      "why": "ANSI-rated safety glasses are mandatory protective equipment purchased by logistics workers in warehouse environments"
+    },
+    {
+      "name": "Fleet Management Software Subscription for Small Business",
+      "category": "Software",
+      "accuracy": 0.82,
+      "review_keywords": [
+        "fleet",
+        "tracking",
+        "GPS",
+        "management",
+        "vehicles",
+        "routes",
+        "efficiency"
+      ],
+      "context_keywords": [
+        "logistics",
+        "transportation",
+        "dispatch",
+        "operations"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "family"
+      ],
+      "why": "Fleet management software subscriptions are purchased by logistics companies to track vehicles and optimize delivery operations"
+    },
+    {
+      "name": "Industrial Headlamp LED Rechargeable for Warehouse Work",
+      "category": "Tools_and_Home_Improvement",
+      "accuracy": 0.81,
+      "review_keywords": [
+        "headlamp",
+        "warehouse",
+        "rechargeable",
+        "bright",
+        "hands-free",
+        "industrial",
+        "shift"
+      ],
+      "context_keywords": [
+        "logistics",
+        "distribution",
+        "operations",
+        "freight"
+      ],
+      "exclusion_keywords": [
+        "camping",
+        "hiking"
+      ],
+      "why": "Industrial headlamps are purchased by logistics workers for hands-free lighting during warehouse operations and night shifts"
+    },
+    {
+      "name": "Cargo Straps Ratchet Tie Down Set 4-Pack Heavy Duty",
+      "category": "Automotive",
+      "accuracy": 0.8,
+      "review_keywords": [
+        "cargo",
+        "straps",
+        "tie-down",
+        "secure",
+        "heavy",
+        "truck",
+        "freight"
+      ],
+      "context_keywords": [
+        "logistics",
+        "transportation",
+        "freight",
+        "trucking"
+      ],
+      "exclusion_keywords": [
+        "moving",
+        "personal"
+      ],
+      "why": "Heavy-duty cargo straps are purchased by freight and logistics professionals for securing commercial shipments during transport"
+    },
+    {
+      "name": "Digital Tire Pressure Gauge Heavy Duty for Commercial Vehicles",
+      "category": "Automotive",
+      "accuracy": 0.79,
+      "review_keywords": [
+        "tire",
+        "pressure",
+        "commercial",
+        "accurate",
+        "heavy",
+        "truck",
+        "fleet"
+      ],
+      "context_keywords": [
+        "logistics",
+        "transportation",
+        "trucking",
+        "fleet"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "car"
+      ],
+      "why": "Commercial-grade tire pressure gauges are purchased by fleet managers and drivers for maintaining commercial vehicle safety standards"
+    },
+    {
+      "name": "Warehouse Management Systems Implementation Guide",
+      "category": "Books",
+      "accuracy": 0.78,
+      "review_keywords": [
+        "WMS",
+        "warehouse",
+        "implementation",
+        "systems",
+        "operations",
+        "logistics",
+        "management"
+      ],
+      "context_keywords": [
+        "distribution",
+        "fulfillment",
+        "operations",
+        "supply"
+      ],
+      "exclusion_keywords": [
+        "academic",
+        "theory"
+      ],
+      "why": "WMS implementation guides are purchased by logistics professionals actively involved in warehouse system upgrades and optimization"
+    }
+  ],
+  "subreddits": [
+    {
+      "name": "logistics",
+      "relevance": 0.95,
+      "member_type": "80% active logistics professionals, 20% students/enthusiasts",
+      "data_value": "Industry challenges, technology discussions, career advice, operational insights",
+      "why": "Primary professional community for logistics workers sharing industry-specific experiences and knowledge"
+    },
+    {
+      "name": "Truckers",
+      "relevance": 0.92,
+      "member_type": "90% active commercial drivers and fleet operators",
+      "data_value": "Route experiences, equipment reviews, regulatory updates, workplace issues",
+      "why": "Dedicated community for professional drivers in freight and logistics transportation"
+    },
+    {
+      "name": "supplychain",
+      "relevance": 0.9,
+      "member_type": "75% supply chain and logistics professionals, 25% related industries",
+      "data_value": "Industry trends, software discussions, optimization strategies, vendor reviews",
+      "why": "Professional network focused on supply chain management and logistics operations"
+    },
+    {
+      "name": "warehousing",
+      "relevance": 0.88,
+      "member_type": "85% warehouse and distribution center workers and managers",
+      "data_value": "Operational challenges, safety discussions, technology adoption, efficiency tips",
+      "why": "Specialized community for warehouse operations and distribution center management"
+    },
+    {
+      "name": "freightbrokers",
+      "relevance": 0.85,
+      "member_type": "70% freight brokers and logistics coordinators",
+      "data_value": "Market rates, carrier relationships, technology tools, business strategies",
+      "why": "Professional community for freight brokerage and logistics coordination professionals"
+    },
+    {
+      "name": "transportation",
+      "relevance": 0.82,
+      "member_type": "60% transportation and logistics professionals, 40% related fields",
+      "data_value": "Industry policy discussions, technology trends, infrastructure challenges",
+      "why": "Broader transportation industry community with significant logistics professional participation"
+    },
+    {
+      "name": "FleetManagement",
+      "relevance": 0.8,
+      "member_type": "75% fleet managers and logistics coordinators",
+      "data_value": "Vehicle management strategies, technology reviews, operational efficiency discussions",
+      "why": "Specialized community for fleet operations and vehicle management in logistics companies"
+    },
+    {
+      "name": "OSHA",
+      "relevance": 0.78,
+      "member_type": "50% logistics and warehouse workers discussing safety compliance",
+      "data_value": "Safety protocol discussions, compliance updates, workplace incident analysis",
+      "why": "Safety-focused community with significant participation from warehouse and logistics workers"
+    },
+    {
+      "name": "industrialengineering",
+      "relevance": 0.75,
+      "member_type": "40% logistics operations managers and analysts",
+      "data_value": "Process optimization discussions, efficiency analysis, technology implementation",
+      "why": "Engineering community with logistics professionals focused on operational optimization"
+    },
+    {
+      "name": "ThirdPartyLogistics",
+      "relevance": 0.73,
+      "member_type": "80% 3PL employees and logistics service providers",
+      "data_value": "Service provider discussions, client management, operational challenges",
+      "why": "Specialized community for third-party logistics providers and their employees"
+    },
+    {
+      "name": "AmazonFC",
+      "relevance": 0.7,
+      "member_type": "90% Amazon fulfillment center workers",
+      "data_value": "Workplace experiences, operational insights, policy discussions, technology feedback",
+      "why": "Large community of fulfillment center workers from major logistics employer"
+    },
+    {
+      "name": "UPS",
+      "relevance": 0.68,
+      "member_type": "85% UPS employees including drivers and operations staff",
+      "data_value": "Company-specific operational discussions, workplace issues, service insights",
+      "why": "Employee community from major logistics and shipping company"
+    },
+    {
+      "name": "FedEx",
+      "relevance": 0.67,
+      "member_type": "80% FedEx employees across operations and delivery",
+      "data_value": "Operational procedures, workplace culture, service delivery discussions",
+      "why": "Employee community from major logistics and express shipping company"
+    },
+    {
+      "name": "WMS",
+      "relevance": 0.65,
+      "member_type": "70% warehouse management system users and administrators",
+      "data_value": "Software implementation experiences, system optimization, user feedback",
+      "why": "Technical community for warehouse management system users in logistics operations"
+    },
+    {
+      "name": "LastMileDelivery",
+      "relevance": 0.63,
+      "member_type": "65% last-mile delivery drivers and coordinators",
+      "data_value": "Delivery optimization strategies, customer interaction insights, route efficiency",
+      "why": "Specialized community for final delivery logistics and urban distribution operations"
+    }
+  ],
+  "demographic_profile": {
+    "core_keywords": [
+      "logistics",
+      "freight",
+      "warehouse",
+      "distribution",
+      "fleet",
+      "supply chain",
+      "operations",
+      "transportation",
+      "shipping",
+      "fulfillment",
+      "cargo",
+      "dispatch",
+      "delivery",
+      "inventory",
+      "WMS"
+    ],
+    "exclusion_keywords": [
+      "student",
+      "academic",
+      "theoretical",
+      "hobby",
+      "personal",
+      "retail",
+      "consumer",
+      "DIY"
+    ],
+    "age_range": "25-55",
+    "primary_motivations": [
+      "operational efficiency and cost reduction",
+      "safety compliance and risk management",
+      "technology integration and data optimization",
+      "scalability and performance improvement"
+    ],
+    "summary": "These are experienced logistics professionals working at major shipping, freight, and distribution companies who make data-driven operational decisions daily. They prioritize practical solutions that improve efficiency, ensure compliance, and integrate with existing technology systems. Their frustrations center around outdated processes, poor data integration, safety compliance complexity, and solutions that don't scale with enterprise-level operations."
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "id": "industry_expert_(biotech_/_mit_network)",
+  "label": "Industry Expert (Biotech / MIT Network)",
+  "segment": {
+    "role": "Senior research professional in biotechnology with academic network connections",
+    "tech_savviness": "high",
+    "price_sensitivity": "medium",
+    "risk_tolerance": "low",
+    "context": "Experienced professional who values reliable, efficient tools that solve specific workflow problems without introducing friction. Makes purchasing decisions based on expertise and proven functionality rather than marketing, with zero tolerance for technical failures that disrupt research workflows."
+  },
+  "goals": [
+    {
+      "goal": "Find software tools that accelerate prototyping and research phases without installation headaches",
+      "priority": 5
+    },
+    {
+      "goal": "Evaluate technical documentation and support quality before committing to tools",
+      "priority": 4
+    },
+    {
+      "goal": "Assess software compatibility with existing professional hardware configurations",
+      "priority": 4
+    },
+    {
+      "goal": "Verify transparent pricing and licensing terms for professional use",
+      "priority": 3
+    },
+    {
+      "goal": "Test software reliability and performance impact on system resources",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Cannot tolerate software that fails to install or activate properly (from Technical Reliability Concern cluster)",
+    "Must avoid tools with bloated, slow, or confusing interfaces that hinder productivity (from Professional Pragmatist cluster)",
+    "Requires compatibility with modern professional systems and file formats (from Professional Reliability Expectation cluster)",
+    "Cannot accept unreliable activation/licensing that locks users out (from Professional Pragmatist cluster)"
+  ],
+  "decision_weights": {
+    "activation_setup_issues": 0.125,
+    "installation_process_quality": 0.125,
+    "technical_support_adequacy": 0.125,
+    "system_performance_impact": 0.125,
+    "documentation_clarity": 0.125,
+    "hardware_compatibility": 0.125,
+    "interface_usability": 0.125,
+    "system_resource_efficiency": 0.125
+  },
+  "behavioral_rules": [
+    "Immediately checks system requirements and compatibility before considering download",
+    "Abandons pages that don't provide clear installation instructions within first 30 seconds",
+    "Searches specifically for technical documentation links before engaging with product demos",
+    "Exits immediately if activation process requires unclear licensing steps",
+    "Prioritizes reading about system performance impact before evaluating features",
+    "Looks for evidence of regular software updates and modern system compatibility",
+    "Avoids products that don't clearly state technical support availability",
+    "Tests download/trial options immediately if available rather than reading marketing content",
+    "Cross-references software requirements with current hardware setup before proceeding",
+    "Abandons evaluation if user interface screenshots show cluttered or unprofessional design",
+    "Seeks specific information about file import/export capabilities early in evaluation",
+    "Immediately looks for user reviews mentioning installation success/failure rates"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.316,
+    "trust_starting_point": 0.484,
+    "frustration_decay": 0.37
+  },
+  "deal_breakers": [
+    "Software that fails to install or activate properly",
+    "Frequent crashes or instability during use",
+    "Causes significant system slowdowns",
+    "Hidden or misrepresented subscription pricing",
+    "Poor or non-existent technical support",
+    "Compatibility issues when importing/exporting files",
+    "Outdated software that hasn't been updated for modern systems"
+  ],
+  "voice_sample": "I need tools that just work - period. When I'm evaluating software for research workflows, I'm looking for something that will accelerate the prototyping, research, and iterative design phases of technical projects without becoming another headache to manage. The last thing I need is to waste time dealing with software that freezes or becomes unresponsive during use, especially when I'm working with complex datasets or time-sensitive analyses.\n\nI've been burned too many times by software that promises the world but fails at basic functionality. Poor software installation processes with bugs and errors are an immediate red flag - if they can't get the installation right, how can I trust the core functionality? I need the ability to independently accomplish complex technical tasks without having to troubleshoot their technical problems.\n\nTransparency is non-negotiable. I want to see exactly what I'm getting, how it integrates with my existing setup, and what the real costs are upfront. Hidden subscription models or unclear licensing terms tell me everything I need to know about how they view their professional users.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 15,
+    "pages_before_decision": 8,
+    "tab_behavior": "Opens multiple tabs to compare technical specifications and cross-reference compatibility",
+    "primary_device": "Desktop workstation during office hours",
+    "time_of_day": "Mid-morning and early afternoon during work breaks"
+  },
+  "purchase_journey": {
+    "discovery": "Finds products through professional network recommendations, academic forums, or targeted searches for specific technical functionality",
+    "evaluation": "Immediately checks system requirements, then technical documentation, user reviews focusing on reliability, and finally pricing/licensing terms",
+    "decision_moment": "When software demonstrates clear compatibility, reliable performance evidence, and transparent professional licensing",
+    "post_purchase_expectation": "Expects smooth installation, stable performance, and responsive technical support when needed"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Clear evidence of reliable, consistent functionality without failures",
+      "Comprehensive technical documentation and support availability",
+      "Proven compatibility with professional hardware configurations",
+      "Transparent pricing with flexible professional licensing options"
+    ],
+    "abandons_when": [
+      "Poor software installation processes with bugs and errors",
+      "Software performance issues causing system slowdowns",
+      "Missing or unclear product functionality documentation",
+      "Software compatibility problems with specific configurations"
+    ],
+    "trusts_when": [
+      "Access to effective training materials for mastering complex software",
+      "Accurate, consistent customer service that resolves issues promptly",
+      "Ability to independently accomplish complex technical tasks",
+      "Achieving professional-quality results without specialized training requirements"
+    ],
+    "becomes_suspicious_when": [
+      "Aggressive or unclear monetization with unexpected upgrade prompts",
+      "Product activation and setup issues causing frustration",
+      "Unintuitive or broken user interfaces preventing basic functionality",
+      "Software unexpectedly bogs down system performance"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Accelerate the prototyping, research, and iterative design phases of technical projects",
+      "Ability to independently accomplish complex technical tasks",
+      "Poor software installation processes with bugs and errors",
+      "Software performance issues causing system slowdowns",
+      "Dealing with software that freezes or becomes unresponsive during use",
+      "Access to effective training materials for mastering complex software"
+    ],
+    "resonates_with": [
+      "Professional-grade reliability and performance",
+      "Seamless integration with existing workflows",
+      "Comprehensive technical documentation",
+      "Proven stability in demanding environments"
+    ],
+    "turned_off_by": [
+      "Marketing hype without technical substance",
+      "Unclear system requirements",
+      "Vague installation procedures",
+      "Consumer-focused feature descriptions"
+    ]
+  },
+  "inner_monologue_samples": [
+    "Another subscription model - I need to see exactly what this costs annually and whether there are volume discounts for research teams before I waste more time.",
+    "Good, they have actual user testimonials from other research professionals mentioning specific use cases, not just generic marketing speak.",
+    "This navigation is already confusing me and I haven't even gotten to the technical specs - if their website is this poorly organized, what does that say about their software?",
+    "They want my email before showing me system requirements? That's an immediate red flag - professional tools should have technical specs readily available.",
+    "Finally, clear documentation about file compatibility and system impact - this is exactly what I need to evaluate whether this fits our current setup."
+  ],
+  "anti_patterns": [
+    "Assuming they care about flashy UI design over functional reliability (contradicts Professional Pragmatist cluster focus on efficiency)",
+    "Leading with consumer-focused features rather than professional workflow benefits (contradicts their expertise-based decision making)",
+    "Hiding technical specifications behind marketing content (contradicts Technical Reliability Concern cluster need for upfront technical details)",
+    "Treating them like general consumers rather than technical experts (contradicts their industry expert status and evaluation approach)"
+  ],
+  "traits": [
+    {
+      "label": "Technical Reliability Concern",
+      "description": "Users in this cluster express frustration over foundational software issues, focusing on poor technical performance, installation failures, system slowdowns, and inadequate support. Their core desire is for software that installs easily, runs smoothly, and provides reliable core functionality without needing constant troubleshooting.",
+      "key_phrases": [
+        "Software that fails to install or activate properly",
+        "Frequent crashes or instability",
+        "Causes significant system slowdowns",
+        "Poor software installation processes with bugs and errors",
+        "Inadequate technical support and documentation"
+      ],
+      "frequency": 0.369,
+      "tone": "frustrated",
+      "cluster_id": "cluster_4"
+    },
+    {
+      "label": "Professional Pragmatist",
+      "description": "Users in this cluster are experienced professionals who prioritize reliable, efficient tools that solve specific workflow problems without introducing friction. They value long-term access, interoperability, and solutions that enhance productivity for well-defined technical tasks.",
+      "key_phrases": [
+        "Accelerate the prototyping, research, and iterative design phases of technical projects",
+        "Bloated, slow, or confusing software interfaces that hinder productivity",
+        "Unreliable activation/licensing that locks the user out",
+        "Need for a specific, high-value feature unavailable in current or free tools"
+      ],
+      "frequency": 0.189,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_3"
+    },
+    {
+      "label": "Professional Reliability Expectation",
+      "description": "Users are frustrated by software tools that fail, slow down workflows, or are incompatible with professional standards, and they seek products that deliver consistent, effective performance in real-world work scenarios.",
+      "key_phrases": [
+        "Dealing with software that freezes or becomes unresponsive during use",
+        "Experiencing compatibility issues when importing/exporting files between different software programs",
+        "Struggling with outdated software that hasn't been updated to work with modern systems"
+      ],
+      "frequency": 0.117,
+      "tone": "frustrated",
+      "cluster_id": "cluster_6"
+    },
+    {
+      "label": "Aspirational Functionality Gap",
+      "description": "Users desire full-featured, desktop-parity MATLAB functionality on mobile devices but are frustrated by missing features, network dependency, and interface limitations.",
+      "key_phrases": [
+        "Access to full MATLAB features on mobile, including all Windows-like interfaces (editor, toolboxes)",
+        "Full desktop functionality on mobile/tablet",
+        "Reliable and fast cloud/network connectivity allowing smooth operation"
+      ],
+      "frequency": 0.099,
+      "tone": "frustrated",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Reliability & Transparency Seeker",
+      "description": "Users demand a consistently functional, error-free experience and transparent pricing. They become highly frustrated by broken promises, technical instability, and hidden costs that disrupt their workflow.",
+      "key_phrases": [
+        "Persistent technical failures after initial success",
+        "Hidden or misrepresented subscription pricing",
+        "Poor or non-existent customer support",
+        "Reliable, consistent functionality without sudden failures",
+        "Flexible and transparent pricing options"
+      ],
+      "frequency": 0.063,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "App Reliability Frustration",
+      "description": "Users are frustrated by an unreliable app that stops playing audio randomly, crashes, and drains battery, which critically disrupts its core purpose for sleep and focus. They desire a stable, set-and-forget experience with the same robust features and purchase model available on the desktop platform.",
+      "key_phrases": [
+        "App stops playing sounds randomly during sleep or when not in foreground, causing disruptions",
+        "App is buggy, crashes, freezes, or stops playing sound randomly",
+        "Critical bugs that prevent core use (sleep, focus)",
+        "High battery drain without solution"
+      ],
+      "frequency": 0.063,
+      "tone": "frustrated",
+      "cluster_id": "cluster_7"
+    },
+    {
+      "label": "Critical Multi-Monitor Dependency",
+      "description": "Users who rely on multi-screen setups for professional productivity and face immediate workflow disruption when their primary displays fail, leading them to seek urgent software-based alternatives for continuity.",
+      "key_phrases": [
+        "Primary monitor or HDMI port failure requiring urgent secondary display solution",
+        "Broken primary displays create immediate productivity barriers",
+        "Professional productivity bottleneck from single-screen limitations",
+        "Maintain professional workflow continuity with minimal latency",
+        "Failure to maintain stable connection for extended work sessions"
+      ],
+      "frequency": 0.054,
+      "tone": "frustrated",
+      "cluster_id": "cluster_5"
+    },
+    {
+      "label": "Reliability & Performance Concern",
+      "description": "Consumers express frustration with technical products that fail to deliver consistent, dependable performance, often experiencing defects, connectivity issues, or poor battery life shortly after purchase. They seek durable, high-quality solutions from trusted brands that provide stable operation and integrate seamlessly into their workflows.",
+      "key_phrases": [
+        "Unreliable performance (intermittent connections, poor battery life)",
+        "Product defects or failures shortly after purchase (e.g., TV screen lines)",
+        "Technical complexity that impedes basic functionality (e.g., wireless setup failure)"
+      ],
+      "frequency": 0.045,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 8,
+    "total": 3317,
+    "avg_rating": 3.49,
+    "avg_length": 604,
+    "rating_distribution": {
+      "3": 1241,
+      "5": 1096,
+      "4": 411,
+      "1": 402,
+      "2": 167
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 1200,
+      "playstore": 917
+    },
+    "n_products": 7,
+    "top_products": {
+      "unknown": 2117,
+      "IEEE Standards Collection Software": 500,
+      "MATLAB and Simulink Student Suite": 500,
+      "Folding Laptop Stand for Conferences": 50,
+      "Wireless Presentation Remote with Laser Pointer": 50
+    },
+    "low_rating_pct": 0.172,
+    "high_rating_pct": 0.454,
+    "n_sources": 3,
+    "issues": [],
+    "batches_estimate": 111
+  },
+  "demographic_description": "A professional connected through academic or industry networks (e.g., MIT, Stanford) who participates in interviews. Provides feedback through scheduled conversations about workflows and problems. Interaction is based on expertise rather than product usage.",
+  "generated_at": "2026-04-05T22:13:56.678221",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "43% grounded in cluster data",
+    "cluster_stability": "low"
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "id": "product_manager_(large_tech_company)",
+  "label": "Product Manager (Large Tech Company)",
+  "segment": {
+    "role": "Mid-level product manager at a tech company managing multiple data sources and stakeholder relationships",
+    "tech_savviness": "high",
+    "price_sensitivity": "medium",
+    "risk_tolerance": "low",
+    "context": "Works with tools like Hex dashboards and Zendesk, synthesizing user feedback and metrics. Has deep frustration with unreliable systems and inefficient workflows that impact both team productivity and career advancement."
+  },
+  "goals": [
+    {
+      "goal": "Find tools with reliable uptime and responsive customer support for critical workflows",
+      "priority": 5
+    },
+    {
+      "goal": "Identify solutions that improve meeting effectiveness and reduce status update overhead",
+      "priority": 4
+    },
+    {
+      "goal": "Access clear progress tracking against objectives and key results",
+      "priority": 4
+    },
+    {
+      "goal": "Obtain structured frameworks for better stakeholder communication",
+      "priority": 3
+    },
+    {
+      "goal": "Find products that balance execution visibility to advance career",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Cannot tolerate products requiring extensive technical setup like GitHub for non-dev tasks",
+    "Must avoid solutions with poor UI that hinder task completion",
+    "Cannot risk data loss or corruption in critical product metrics",
+    "Limited time for troubleshooting due to packed meeting schedules",
+    "Budget approval process requires demonstrable ROI"
+  ],
+  "decision_weights": {
+    "compliance_requirements": 0.222,
+    "technical_accessibility": 0.111,
+    "interface_usability": 0.111,
+    "support_responsiveness": 0.111,
+    "system_performance": 0.111,
+    "data_reliability": 0.111,
+    "setup_complexity": 0.111,
+    "implementation_friction": 0.111
+  },
+  "behavioral_rules": [
+    "Immediately checks uptime statistics and SLA guarantees before considering any product",
+    "Abandons products that require GitHub integration or command-line setup for basic functionality",
+    "Scrutinizes customer support response times and availability during evaluation",
+    "Tests UI clarity by attempting core tasks within first 5 minutes of trial",
+    "Verifies data backup and recovery processes before committing to any data-handling tool",
+    "Exits immediately if error messages are vague or unhelpful during trial",
+    "Prioritizes products with clear onboarding that doesn't require extensive technical knowledge",
+    "Checks for mobile optimization since reviews happen across devices",
+    "Validates that promised features work immediately after payment",
+    "Looks for evidence of responsive bug fixes and active product maintenance"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.274,
+    "trust_starting_point": 0.5,
+    "frustration_decay": 0.384
+  },
+  "deal_breakers": [
+    "App crashes frequently or causes data loss",
+    "Customer support is unresponsive or ineffective",
+    "Poor user interface with unclear error messages",
+    "Requires technical knowledge beyond PM skillset",
+    "Predatory subscription models that remove paid content"
+  ],
+  "voice_sample": "I need tools that just work reliably without becoming another project to manage. When I'm synthesizing user feedback from multiple sources, the last thing I can deal with is the analysis tool itself crashing or losing data. I've been burned too many times by products that looked great in demos but had terrible UIs once you actually tried to do real work. And don't get me started on customer support that takes days to respond when you're trying to hit quarterly objectives. I need solutions that help me spend less time on status updates in meetings and more time on meaningful work that actually advances my career.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 25,
+    "pages_before_decision": 8,
+    "tab_behavior": "Opens multiple tabs to compare reliability metrics, support options, and user reviews simultaneously",
+    "primary_device": "Laptop during work hours, mobile for evening research",
+    "time_of_day": "Late morning between meetings or early evening after work"
+  },
+  "purchase_journey": {
+    "discovery": "Finds products through colleague recommendations, industry forums, or when current tools fail during critical tasks",
+    "evaluation": "Checks uptime guarantees first, then reviews support documentation, tests core functionality in trial, validates data handling capabilities",
+    "decision_moment": "When product demonstrates reliable core functionality with responsive support and clear ROI for workflow efficiency",
+    "post_purchase_expectation": "Expects immediate access to all features, reliable performance, and responsive support when issues arise"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Product demonstrates clear reliability metrics and uptime guarantees",
+      "Support team responds quickly with helpful, specific guidance",
+      "UI is intuitive enough to complete core tasks without extensive training",
+      "Clear evidence of active product maintenance and bug fixes"
+    ],
+    "abandons_when": [
+      "Setup requires technical knowledge beyond PM expertise",
+      "Interface has confusing navigation or unclear error messages",
+      "Customer support is slow or provides generic responses",
+      "Product shows signs of data reliability issues"
+    ],
+    "trusts_when": [
+      "Transparent about system limitations and known issues",
+      "Provides detailed documentation without requiring technical background",
+      "Shows evidence of responsive customer support in reviews",
+      "Offers clear data backup and recovery processes"
+    ],
+    "becomes_suspicious_when": [
+      "Pricing model has hidden fees or removes features after payment",
+      "Product requires extensive technical setup not mentioned upfront",
+      "Support documentation is sparse or overly technical",
+      "Reviews mention frequent crashes or data loss issues"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Spending too much time on status updates in 1:1 meetings instead of meaningful work",
+      "Difficulty tracking progress against objectives and key results",
+      "Difficulty with execution vs visibility leading to career stagnation",
+      "Annoyance at products with poor user interfaces or unclear error messages",
+      "Dissatisfaction with customer support being unresponsive or ineffective",
+      "Better stakeholder relationships to influence processes incrementally",
+      "Ability to influence product direction with data-driven decisions"
+    ],
+    "resonates_with": [
+      "Streamlined workflow efficiency",
+      "Data-driven decision making",
+      "Reliable system performance",
+      "Responsive customer support"
+    ],
+    "turned_off_by": [
+      "Technical complexity barriers",
+      "Unreliable system performance",
+      "Poor user experience design",
+      "Unresponsive support teams"
+    ]
+  },
+  "inner_monologue_samples": [
+    "The pricing looks reasonable, but I need to make sure this won't be another tool that works great in the demo but crashes when I'm trying to pull quarterly metrics for the board presentation.",
+    "These customer testimonials are encouraging, but I really need to see evidence that their support team actually responds quickly when things break - I can't afford downtime during sprint reviews.",
+    "This interface looks clean, but let me test if I can actually complete a basic task without having to dive into documentation or ask engineering for help with setup.",
+    "They want my email before showing me the full feature list? That's exactly the kind of friction that makes me wonder what they're hiding about their actual capabilities.",
+    "Finally, a tool that actually does what it promises without requiring me to become a data engineer just to generate basic reports for stakeholders."
+  ],
+  "anti_patterns": [
+    "Assuming they want the most feature-rich solution - they prioritize reliability over features (contradicts Core Reliability Failure cluster)",
+    "Marketing technical complexity as a benefit - they avoid products requiring technical knowledge (contradicts System Reliability cluster)",
+    "Hiding pricing or support details - they need transparency due to low trust starting point (contradicts Violated Fairness Expectation cluster)",
+    "Focusing on advanced capabilities before proving basic reliability - they need core functionality to work first (contradicts Product Management Inefficiency cluster)"
+  ],
+  "traits": [
+    {
+      "label": "System Reliability and Support Demand",
+      "description": "This cluster expresses frustration with technical barriers to entry, poor UX, and unreliable support when things go wrong. Users expect software to be accessible, stable, and backed by responsive help when needed.",
+      "key_phrases": [
+        "Frustration with products requiring technical knowledge of tools like GitHub for non-technical roles",
+        "Annoyance at products with poor user interfaces or unclear error messages",
+        "Dissatisfaction with customer support being unresponsive or ineffective",
+        "Critical data loss or corruption",
+        "Poor or confusing user interface hindering task completion"
+      ],
+      "frequency": 0.573,
+      "tone": "frustrated",
+      "cluster_id": "cluster_3"
+    },
+    {
+      "label": "Core Reliability Failure",
+      "description": "Users are encountering severe, persistent bugs that cripple basic functionality, including crashes, data loss, failed connections, and rendering the app unusable. The core expectation of a stable, functioning product is being violated.",
+      "key_phrases": [
+        "App repeatedly fails to connect to store causing crashes and data loss",
+        "Persistent unresolved bug preventing data backup",
+        "Game crashes and loses all progress and in-app purchases",
+        "Software hanging/stalling after working fine for a while",
+        "Persistent login failures"
+      ],
+      "frequency": 0.227,
+      "tone": "frustrated",
+      "cluster_id": "cluster_4"
+    },
+    {
+      "label": "Product Management Inefficiency",
+      "description": "Product managers experiencing frustration with inefficient workflows, unclear goal tracking, and poor stakeholder communication, which hinders both team productivity and their own career advancement. They seek structured frameworks and actionable guidance to improve meeting effectiveness, increase visibility, and deliver meaningful impact.",
+      "key_phrases": [
+        "Spending too much time on status updates in 1:1 meetings instead of meaningful work",
+        "Difficulty tracking progress against objectives and key results",
+        "Difficulty with execution vs visibility leading to career stagnation"
+      ],
+      "frequency": 0.109,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Violated Fairness Expectation",
+      "description": "This trait describes users who feel wronged when a product or service fails to deliver on a fundamental, reasonable expectation after payment or engagement, often through hidden terms, broken promises, or disrespectful practices that invalidate the perceived value exchange.",
+      "key_phrases": [
+        "Feeling deceived by predatory subscription models",
+        "Predatory subscriptions that remove paid content",
+        "Pro upgrade fails to unlock promised features"
+      ],
+      "frequency": 0.073,
+      "tone": "frustrated",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Open-Minded Shopper",
+      "description": "A consumer who is willing to consider a range of options and does not currently hold strong negative or positive filters. They are moderately tolerant of potential purchase friction but lack a clear trigger or specific demand.",
+      "key_phrases": [],
+      "frequency": 0.018,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_1"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 8,
+    "total": 3297,
+    "avg_rating": 3.12,
+    "avg_length": 589,
+    "rating_distribution": {
+      "4": 340,
+      "5": 844,
+      "1": 715,
+      "2": 209,
+      "3": 1189
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 1200,
+      "playstore": 897
+    },
+    "n_products": 5,
+    "top_products": {
+      "unknown": 2097,
+      "Zendesk Support Professional Plan": 300,
+      "Tableau Desktop Professional License": 300,
+      "Hex for Data Science Teams Annual Subscription": 300,
+      "Miro Annual Team Plan Subscription": 300
+    },
+    "low_rating_pct": 0.28,
+    "high_rating_pct": 0.359,
+    "n_sources": 3,
+    "issues": [],
+    "batches_estimate": 110
+  },
+  "demographic_description": "Works as a PM using tools like Hex dashboards and Zendesk to review user feedback and metrics. Interacts with multiple data sources and synthesizes patterns from them. Behavior involves structured analysis of product data.",
+  "generated_at": "2026-04-05T22:39:05.929606",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "0% grounded in cluster data",
+    "cluster_stability": "moderate"
+  }
+}

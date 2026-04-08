@@ -1,0 +1,165 @@
+{"review_id": "cluster_5_b0_pp0", "trait_label": "Validation Risk Aversion", "text": "Performance degradation over time (e.g., CPU hogging, freezing, incomplete scans)", "tone": "cautious"}
+{"review_id": "cluster_5_b0_pp1", "trait_label": "Validation Risk Aversion", "text": "Incompatibility warnings with future OS updates causing uncertainty", "tone": "cautious"}
+{"review_id": "cluster_5_b0_pp2", "trait_label": "Validation Risk Aversion", "text": "Lack of expected features (e.g., automated data entry for investments)", "tone": "cautious"}
+{"review_id": "cluster_5_b0_do0", "trait_label": "Validation Risk Aversion", "text": "Software that runs smoothly in the background without performance issues", "tone": "cautious"}
+{"review_id": "cluster_5_b0_do1", "trait_label": "Validation Risk Aversion", "text": "Reliable and accurate functionality that matches expectations and descriptions", "tone": "cautious"}
+{"review_id": "cluster_5_b1_pp0", "trait_label": "Validation Risk Aversion", "text": "Difficulty navigating and deploying open-source alternatives due to lack of skillset", "tone": "cautious"}
+{"review_id": "cluster_5_b1_pp1", "trait_label": "Validation Risk Aversion", "text": "Poor or clueless outsourced tech support", "tone": "cautious"}
+{"review_id": "cluster_5_b1_pp2", "trait_label": "Validation Risk Aversion", "text": "Product lacking key features compared to competitors (e.g., customization, parental controls)", "tone": "cautious"}
+{"review_id": "cluster_5_b1_do0", "trait_label": "Validation Risk Aversion", "text": "Thorough validation of product functionality and performance before full commitment", "tone": "cautious"}
+{"review_id": "cluster_5_b1_do1", "trait_label": "Validation Risk Aversion", "text": "Smooth, flawless installation and integration with existing systems", "tone": "cautious"}
+{"review_id": "cluster_5_b2_pp0", "trait_label": "Validation Risk Aversion", "text": "Inaccurate or misleading product advertising/compatibility claims", "tone": "cautious"}
+{"review_id": "cluster_5_b2_pp1", "trait_label": "Validation Risk Aversion", "text": "Poor or unhelpful vendor support (blaming others, lack of ownership)", "tone": "cautious"}
+{"review_id": "cluster_5_b2_pp2", "trait_label": "Validation Risk Aversion", "text": "Software/hardware causing system performance degradation (slow connections, hang-ups)", "tone": "cautious"}
+{"review_id": "cluster_5_b2_do0", "trait_label": "Validation Risk Aversion", "text": "Accurate advertising and clear compatibility information", "tone": "cautious"}
+{"review_id": "cluster_5_b2_do1", "trait_label": "Validation Risk Aversion", "text": "Thorough product validation before full deployment", "tone": "cautious"}
+{"review_id": "cluster_5_b3_pp0", "trait_label": "Validation Risk Aversion", "text": "Product fails to load or install on specific devices/OS versions", "tone": "cautious"}
+{"review_id": "cluster_5_b3_pp1", "trait_label": "Validation Risk Aversion", "text": "Unstable or buggy performance (frequent crashes, loading issues, playback errors)", "tone": "cautious"}
+{"review_id": "cluster_5_b3_pp2", "trait_label": "Validation Risk Aversion", "text": "Poor user experience around account management, login, or payment/renewal processes", "tone": "cautious"}
+{"review_id": "cluster_5_b3_do0", "trait_label": "Validation Risk Aversion", "text": "Reliable, stable product performance across all intended platforms", "tone": "cautious"}
+{"review_id": "cluster_5_b3_do1", "trait_label": "Validation Risk Aversion", "text": "Seamless integration with existing systems and data sources", "tone": "cautious"}
+{"review_id": "cluster_5_b4_pp0", "trait_label": "Validation Risk Aversion", "text": "Fear of disrupting critical systems during updates or migrations", "tone": "cautious"}
+{"review_id": "cluster_5_b4_pp1", "trait_label": "Validation Risk Aversion", "text": "Dealing with legacy or poorly documented systems where knowledge is lost", "tone": "cautious"}
+{"review_id": "cluster_5_b4_pp2", "trait_label": "Validation Risk Aversion", "text": "Unexpected software bugs or performance issues that cause major slowdowns", "tone": "cautious"}
+{"review_id": "cluster_5_b4_do0", "trait_label": "Validation Risk Aversion", "text": "Thorough validation and risk mitigation before deployment", "tone": "cautious"}
+{"review_id": "cluster_5_b4_do1", "trait_label": "Validation Risk Aversion", "text": "Reliable functionality without disruptive downtime or failures", "tone": "cautious"}
+{"review_id": "cluster_4_b0_pp0", "trait_label": "Product Reliability & Value Doubt", "text": "Frustration with unreliable functionality (e.g., apps crashing, freezing, failing to load)", "tone": "skeptical"}
+{"review_id": "cluster_4_b0_pp1", "trait_label": "Product Reliability & Value Doubt", "text": "Dissatisfaction with complex or overly verbose scripting tools (e.g., bash scripts becoming unmaintainable 'turd')", "tone": "skeptical"}
+{"review_id": "cluster_4_b0_pp2", "trait_label": "Product Reliability & Value Doubt", "text": "Annoyance with technical glitches (e.g., apps not appearing for download, compatibility issues)", "tone": "skeptical"}
+{"review_id": "cluster_4_b0_do0", "trait_label": "Product Reliability & Value Doubt", "text": "Thorough validation of product functionality before full commitment", "tone": "skeptical"}
+{"review_id": "cluster_4_b0_do1", "trait_label": "Product Reliability & Value Doubt", "text": "Reliable, error-free performance (e.g., no crashes, freezes, or loading issues)", "tone": "skeptical"}
+{"review_id": "cluster_4_b1_pp0", "trait_label": "Product Reliability & Value Doubt", "text": "Product has major glitches or compatibility issues with specific OS versions, causing crashes and failures during critical tasks", "tone": "skeptical"}
+{"review_id": "cluster_4_b1_pp1", "trait_label": "Product Reliability & Value Doubt", "text": "Lack of transparency from company about known issues before download/use", "tone": "skeptical"}
+{"review_id": "cluster_4_b1_pp2", "trait_label": "Product Reliability & Value Doubt", "text": "Product is buggy or quirky over long-term use, with inconsistent behavior and unresolved UI/display issues", "tone": "skeptical"}
+{"review_id": "cluster_4_b1_do0", "trait_label": "Product Reliability & Value Doubt", "text": "Thorough validation of product functionality and reliability before full deployment", "tone": "skeptical"}
+{"review_id": "cluster_4_b1_do1", "trait_label": "Product Reliability & Value Doubt", "text": "Clear, unbiased analysis and factual reporting (for news/media products)", "tone": "skeptical"}
+{"review_id": "cluster_4_b2_pp0", "trait_label": "Product Reliability & Value Doubt", "text": "Unable to upload desired file formats (e.g., Word documents instead of text)", "tone": "skeptical"}
+{"review_id": "cluster_4_b2_pp1", "trait_label": "Product Reliability & Value Doubt", "text": "Difficulty controlling or customizing core functionality (e.g., scroll speed, search)", "tone": "skeptical"}
+{"review_id": "cluster_4_b2_pp2", "trait_label": "Product Reliability & Value Doubt", "text": "Compatibility issues between software and hardware or operating system", "tone": "skeptical"}
+{"review_id": "cluster_4_b2_do0", "trait_label": "Product Reliability & Value Doubt", "text": "Thoroughly validate product functionality before full deployment", "tone": "skeptical"}
+{"review_id": "cluster_4_b2_do1", "trait_label": "Product Reliability & Value Doubt", "text": "Gather detailed feedback to inform purchase or development decisions", "tone": "skeptical"}
+{"review_id": "cluster_4_b3_pp0", "trait_label": "Product Reliability & Value Doubt", "text": "Online services/features stop working in older versions, forcing unwanted upgrades", "tone": "skeptical"}
+{"review_id": "cluster_4_b3_pp1", "trait_label": "Product Reliability & Value Doubt", "text": "Scripts/tools with insufficient safeguards cause destructive errors (e.g., rm -rf)", "tone": "skeptical"}
+{"review_id": "cluster_4_b3_pp2", "trait_label": "Product Reliability & Value Doubt", "text": "Products crash or hang, especially during core workflows", "tone": "skeptical"}
+{"review_id": "cluster_4_b3_do0", "trait_label": "Product Reliability & Value Doubt", "text": "Reliable, crash-free performance during critical workflows", "tone": "skeptical"}
+{"review_id": "cluster_4_b3_do1", "trait_label": "Product Reliability & Value Doubt", "text": "Clear, actionable help and troubleshooting guides", "tone": "skeptical"}
+{"review_id": "cluster_4_b4_pp0", "trait_label": "Product Reliability & Value Doubt", "text": "Fear of job displacement due to AI automation (multiple references to AI replacing junior developers and eventual impact on seniors)", "tone": "skeptical"}
+{"review_id": "cluster_4_b4_pp1", "trait_label": "Product Reliability & Value Doubt", "text": "Tools fail to find high-level architectural oversights and instead focus on nitpicking", "tone": "skeptical"}
+{"review_id": "cluster_4_b4_pp2", "trait_label": "Product Reliability & Value Doubt", "text": "Confusion about pricing/cost structure during download/installation (mentions of misleading free trial messages)", "tone": "skeptical"}
+{"review_id": "cluster_4_b4_do0", "trait_label": "Product Reliability & Value Doubt", "text": "Thorough validation of product functionality before full deployment", "tone": "skeptical"}
+{"review_id": "cluster_4_b4_do1", "trait_label": "Product Reliability & Value Doubt", "text": "Reliable identification of high-level architectural issues and recent API changes", "tone": "skeptical"}
+{"review_id": "cluster_1_b0_pp0", "trait_label": "Functional Reliability Concern", "text": "Product onboarding and learning curve is higher than expected, requiring more time investment to understand basic functionality.", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp1", "trait_label": "Functional Reliability Concern", "text": "Importing existing work/data fails or performs poorly, forcing reconstruction from scratch.", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp2", "trait_label": "Functional Reliability Concern", "text": "Bugs and technical glitches (e.g., voice recognition failures, application crashes, UI issues) cause frustration and waste time.", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_do0", "trait_label": "Functional Reliability Concern", "text": "Effective and thorough validation of product functionality before full deployment.", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_do1", "trait_label": "Functional Reliability Concern", "text": "Minimized risk and avoidance of costly mistakes or technical debt when adopting new tools.", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp0", "trait_label": "Functional Reliability Concern", "text": "Frustration with product not working as intended during evaluation (e.g., software crashing, requiring network connection, or not working on specific device)", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp1", "trait_label": "Functional Reliability Concern", "text": "Concern about significant productivity loss and increased inefficiency when using new software", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp2", "trait_label": "Functional Reliability Concern", "text": "Worried about poor product quality and lack of proper testing before release", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_do0", "trait_label": "Functional Reliability Concern", "text": "Validate product functionality and performance thoroughly before full deployment", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_do1", "trait_label": "Functional Reliability Concern", "text": "Identify potential risks and negative impacts on productivity before commitment", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp0", "trait_label": "Functional Reliability Concern", "text": "Lack of thorough testing leading to critical software bugs and unstable performance", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp1", "trait_label": "Functional Reliability Concern", "text": "Misleading product descriptions (compatibility, features, pricing) causing wasted time and money", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp2", "trait_label": "Functional Reliability Concern", "text": "Pressure to adopt trendy technologies (e.g., AI agents) over solving core security or operational issues", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_do0", "trait_label": "Functional Reliability Concern", "text": "A reliable, thoroughly tested product that performs core functions without critical bugs", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_do1", "trait_label": "Functional Reliability Concern", "text": "Clear, accurate product information regarding compatibility, features, and pricing", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp0", "trait_label": "Functional Reliability Concern", "text": "Installation/download issues with software (broken links, missing installers, server reliance)", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp1", "trait_label": "Functional Reliability Concern", "text": "Software glitches, freezing, or crashing during use", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp2", "trait_label": "Functional Reliability Concern", "text": "Poor or non-existent customer support when problems arise", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_do0", "trait_label": "Functional Reliability Concern", "text": "Software installs and runs smoothly without technical issues", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_do1", "trait_label": "Functional Reliability Concern", "text": "Thorough validation of core functionality before full commitment/deployment", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp0", "trait_label": "Functional Reliability Concern", "text": "Difficulty assessing true value of time and services (inability to track billable hours effectively)", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp1", "trait_label": "Functional Reliability Concern", "text": "High price anxiety and sticker shock", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp2", "trait_label": "Functional Reliability Concern", "text": "Difficulty managing business operations (inventory, invoices, payments) as a solopreneur/small business", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_do0", "trait_label": "Functional Reliability Concern", "text": "Streamlined time and expense tracking for accurate billing", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_do1", "trait_label": "Functional Reliability Concern", "text": "Efficient business operations management (inventory, invoicing, payments)", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp0", "trait_label": "Trust Deficit", "text": "Product lacks critical features compared to previous versions or alternatives (e.g., cannot navigate network shares, sub-folders on USB)", "tone": "skeptical"}
+{"review_id": "cluster_2_b0_pp1", "trait_label": "Trust Deficit", "text": "Unrealistic security demands from security teams (e.g., zero CVEs in production)", "tone": "skeptical"}
+{"review_id": "cluster_2_b0_pp2", "trait_label": "Trust Deficit", "text": "Poor onboarding and setup instructions, requiring users to search for answers independently", "tone": "skeptical"}
+{"review_id": "cluster_2_b0_do0", "trait_label": "Trust Deficit", "text": "Software that reliably performs core functions (backup, streaming, security) without unnecessary restrictions", "tone": "skeptical"}
+{"review_id": "cluster_2_b0_do1", "trait_label": "Trust Deficit", "text": "A balanced, risk-based approach to security vulnerabilities rather than an unattainable 'zero CVE' goal", "tone": "skeptical"}
+{"review_id": "cluster_2_b1_pp0", "trait_label": "Trust Deficit", "text": "Lack of control over actions and unclear monetization in game testing", "tone": "skeptical"}
+{"review_id": "cluster_2_b1_pp1", "trait_label": "Trust Deficit", "text": "Unreliable application performance across different devices and networks", "tone": "skeptical"}
+{"review_id": "cluster_2_b1_pp2", "trait_label": "Trust Deficit", "text": "Fear of touching and upgrading critical legacy systems due to complexity and risk", "tone": "skeptical"}
+{"review_id": "cluster_2_b1_do0", "trait_label": "Trust Deficit", "text": "A reliable, fast tool that increases productivity without lag or bloat", "tone": "skeptical"}
+{"review_id": "cluster_2_b1_do1", "trait_label": "Trust Deficit", "text": "Clear control and transparency in product use (no hidden traps or costs)", "tone": "skeptical"}
+{"review_id": "cluster_2_b2_pp0", "trait_label": "Trust Deficit", "text": "Software crashes or errors preventing basic functionality", "tone": "skeptical"}
+{"review_id": "cluster_2_b2_pp1", "trait_label": "Trust Deficit", "text": "False network connectivity errors despite working connection", "tone": "skeptical"}
+{"review_id": "cluster_2_b2_pp2", "trait_label": "Trust Deficit", "text": "Excessive battery drain due to app not closing properly", "tone": "skeptical"}
+{"review_id": "cluster_2_b2_do0", "trait_label": "Trust Deficit", "text": "Reliable, error-free software that works on first launch", "tone": "skeptical"}
+{"review_id": "cluster_2_b2_do1", "trait_label": "Trust Deficit", "text": "Practical security scanning that prioritizes actual, exploitable vulnerabilities", "tone": "skeptical"}
+{"review_id": "cluster_2_b3_pp0", "trait_label": "Trust Deficit", "text": "Inadequate internal testing and beta products inflicted on users causing instability and crashes", "tone": "skeptical"}
+{"review_id": "cluster_2_b3_pp1", "trait_label": "Trust Deficit", "text": "Software complexity and steep learning curve making it unsuitable for casual or non-technical users", "tone": "skeptical"}
+{"review_id": "cluster_2_b3_pp2", "trait_label": "Trust Deficit", "text": "Devious pop-up windows and in-game purchase mechanisms that trick users into spending currency", "tone": "skeptical"}
+{"review_id": "cluster_2_b3_do0", "trait_label": "Trust Deficit", "text": "Thorough validation of functionality before committing to full deployment", "tone": "skeptical"}
+{"review_id": "cluster_2_b3_do1", "trait_label": "Trust Deficit", "text": "Clear, user-friendly interface with minimal learning curve for non-technical teams", "tone": "skeptical"}
+{"review_id": "cluster_2_b4_pp0", "trait_label": "Trust Deficit", "text": "Fear of insider threats and data theft", "tone": "skeptical"}
+{"review_id": "cluster_2_b4_pp1", "trait_label": "Trust Deficit", "text": "Distrust and negative morale from intrusive monitoring", "tone": "skeptical"}
+{"review_id": "cluster_2_b4_pp2", "trait_label": "Trust Deficit", "text": "Tools perceived as ineffective against real security threats", "tone": "skeptical"}
+{"review_id": "cluster_2_b4_do0", "trait_label": "Trust Deficit", "text": "Effective protection against data theft and insider threats", "tone": "skeptical"}
+{"review_id": "cluster_2_b4_do1", "trait_label": "Trust Deficit", "text": "Maintain employee trust and morale while ensuring security", "tone": "skeptical"}
+{"review_id": "cluster_3_b0_pp0", "trait_label": "Reliability & Transparency Skepticism", "text": "Ads or perceived low value in free versions.", "tone": "skeptical"}
+{"review_id": "cluster_3_b0_pp1", "trait_label": "Reliability & Transparency Skepticism", "text": "Poor communication from management on test automation priorities and strategy.", "tone": "skeptical"}
+{"review_id": "cluster_3_b0_pp2", "trait_label": "Reliability & Transparency Skepticism", "text": "High maintenance burden and flakiness of automated tests.", "tone": "skeptical"}
+{"review_id": "cluster_3_b0_do0", "trait_label": "Reliability & Transparency Skepticism", "text": "Thorough validation of core, business-critical functionalities before commitment.", "tone": "skeptical"}
+{"review_id": "cluster_3_b0_do1", "trait_label": "Reliability & Transparency Skepticism", "text": "Clear, prioritized automation strategy focusing on smoke and regression tests.", "tone": "skeptical"}
+{"review_id": "cluster_3_b1_pp0", "trait_label": "Reliability & Transparency Skepticism", "text": "AI automation tools produce flaky tests and require constant maintenance under real-world conditions", "tone": "skeptical"}
+{"review_id": "cluster_3_b1_pp1", "trait_label": "Reliability & Transparency Skepticism", "text": "Self-healing features can unpredictably break scripts, causing late-night alerts and failures", "tone": "skeptical"}
+{"review_id": "cluster_3_b1_pp2", "trait_label": "Reliability & Transparency Skepticism", "text": "Software fails to install or crashes shortly after opening, wasting significant time", "tone": "skeptical"}
+{"review_id": "cluster_3_b1_do0", "trait_label": "Reliability & Transparency Skepticism", "text": "Automated testing that works reliably under real-world conditions without constant maintenance", "tone": "skeptical"}
+{"review_id": "cluster_3_b1_do1", "trait_label": "Reliability & Transparency Skepticism", "text": "Tools that save significant development time (e.g., weeks of work reduced to days)", "tone": "skeptical"}
+{"review_id": "cluster_3_b2_pp0", "trait_label": "Reliability & Transparency Skepticism", "text": "Unrealistic expectations from management on automation output and speed", "tone": "skeptical"}
+{"review_id": "cluster_3_b2_pp1", "trait_label": "Reliability & Transparency Skepticism", "text": "Product instability and system being in early development causing testing difficulties", "tone": "skeptical"}
+{"review_id": "cluster_3_b2_pp2", "trait_label": "Reliability & Transparency Skepticism", "text": "Frustration with complex installation, activation, or download processes", "tone": "skeptical"}
+{"review_id": "cluster_3_b2_do0", "trait_label": "Reliability & Transparency Skepticism", "text": "Achieve stable, reliable test automation that grows organically", "tone": "skeptical"}
+{"review_id": "cluster_3_b2_do1", "trait_label": "Reliability & Transparency Skepticism", "text": "Have a clear, realistic strategy and well-defined quality metrics", "tone": "skeptical"}
+{"review_id": "cluster_3_b3_pp0", "trait_label": "Reliability & Transparency Skepticism", "text": "High cost of test maintenance and brittleness when UIs change.", "tone": "skeptical"}
+{"review_id": "cluster_3_b3_pp1", "trait_label": "Reliability & Transparency Skepticism", "text": "Flaky tests due to timing issues and unreliable selectors.", "tone": "skeptical"}
+{"review_id": "cluster_3_b3_pp2", "trait_label": "Reliability & Transparency Skepticism", "text": "Difficulty enabling non-technical team members to create or maintain tests.", "tone": "skeptical"}
+{"review_id": "cluster_3_b3_do0", "trait_label": "Reliability & Transparency Skepticism", "text": "Reduced test maintenance effort (self-healing for basic UI changes).", "tone": "skeptical"}
+{"review_id": "cluster_3_b3_do1", "trait_label": "Reliability & Transparency Skepticism", "text": "Reliable, deterministic tests with minimal flakes.", "tone": "skeptical"}
+{"review_id": "cluster_3_b4_pp0", "trait_label": "Reliability & Transparency Skepticism", "text": "Difficulty validating AI-generated code for complex or novel tasks", "tone": "skeptical"}
+{"review_id": "cluster_3_b4_pp1", "trait_label": "Reliability & Transparency Skepticism", "text": "Poor error handling and validation at final steps rather than at point of entry", "tone": "skeptical"}
+{"review_id": "cluster_3_b4_pp2", "trait_label": "Reliability & Transparency Skepticism", "text": "Misleading advertising (e.g., false 'free' claims, hidden paywalls)", "tone": "skeptical"}
+{"review_id": "cluster_3_b4_do0", "trait_label": "Reliability & Transparency Skepticism", "text": "Automate repetitive tasks to free up time for analysis and problem-solving", "tone": "skeptical"}
+{"review_id": "cluster_3_b4_do1", "trait_label": "Reliability & Transparency Skepticism", "text": "Thoroughly validate product functionality before full deployment", "tone": "skeptical"}
+{"review_id": "cluster_6_b0_pp0", "trait_label": "Process & Quality Frustration", "text": "Products not working immediately upon payment/download (fail to open or launch)", "tone": "frustrated"}
+{"review_id": "cluster_6_b0_pp1", "trait_label": "Process & Quality Frustration", "text": "Being brought into the testing process too late, leading to rushed and brittle coverage", "tone": "frustrated"}
+{"review_id": "cluster_6_b0_pp2", "trait_label": "Process & Quality Frustration", "text": "Struggling with flaky or dead element locators in test automation", "tone": "frustrated"}
+{"review_id": "cluster_6_b0_do0", "trait_label": "Process & Quality Frustration", "text": "Product works reliably and as expected immediately upon purchase/installation", "tone": "frustrated"}
+{"review_id": "cluster_6_b0_do1", "trait_label": "Process & Quality Frustration", "text": "Establish a proper, planned test-driven environment with early QA involvement", "tone": "frustrated"}
+{"review_id": "cluster_6_b1_pp0", "trait_label": "Process & Quality Frustration", "text": "Insufficient testing prior to release leading to bugs and instability", "tone": "frustrated"}
+{"review_id": "cluster_6_b1_pp1", "trait_label": "Process & Quality Frustration", "text": "Poor post-release support and slow response to bug fixes", "tone": "frustrated"}
+{"review_id": "cluster_6_b1_pp2", "trait_label": "Process & Quality Frustration", "text": "Frustration with internal budget constraints leading to substandard equipment", "tone": "frustrated"}
+{"review_id": "cluster_6_b1_do0", "trait_label": "Process & Quality Frustration", "text": "Thorough validation of product functionality before full deployment", "tone": "frustrated"}
+{"review_id": "cluster_6_b1_do1", "trait_label": "Process & Quality Frustration", "text": "Reliability and stability of the product", "tone": "frustrated"}
+{"review_id": "cluster_6_b2_pp0", "trait_label": "Process & Quality Frustration", "text": "Product fails to perform its core advertised functionality", "tone": "frustrated"}
+{"review_id": "cluster_6_b2_pp1", "trait_label": "Process & Quality Frustration", "text": "Inability to install or download due to technical errors or security software conflicts", "tone": "frustrated"}
+{"review_id": "cluster_6_b2_pp2", "trait_label": "Process & Quality Frustration", "text": "Poor or unhelpful customer support experience", "tone": "frustrated"}
+{"review_id": "cluster_6_b2_do0", "trait_label": "Process & Quality Frustration", "text": "Reliable performance of the software's core functionality", "tone": "frustrated"}
+{"review_id": "cluster_6_b2_do1", "trait_label": "Process & Quality Frustration", "text": "Smooth installation and compatibility with their system", "tone": "frustrated"}
+{"review_id": "cluster_6_b3_pp0", "trait_label": "Process & Quality Frustration", "text": "Lack of key features needed for creative flexibility", "tone": "frustrated"}
+{"review_id": "cluster_6_b3_pp1", "trait_label": "Process & Quality Frustration", "text": "Software pushed into production that is not ready for testing", "tone": "frustrated"}
+{"review_id": "cluster_6_b3_pp2", "trait_label": "Process & Quality Frustration", "text": "Insufficient testing time due to late delivery from development", "tone": "frustrated"}
+{"review_id": "cluster_6_b3_do0", "trait_label": "Process & Quality Frustration", "text": "Flexibility and customization in creative software", "tone": "frustrated"}
+{"review_id": "cluster_6_b3_do1", "trait_label": "Process & Quality Frustration", "text": "Stable, reliable releases with confidence in quality", "tone": "frustrated"}
+{"review_id": "cluster_6_b4_pp0", "trait_label": "Process & Quality Frustration", "text": "Pressure from stakeholders when pushing back on features due to insufficient testing time", "tone": "frustrated"}
+{"review_id": "cluster_6_b4_pp1", "trait_label": "Process & Quality Frustration", "text": "Being the last in chain, receiving builds late with delays from other teams, resulting in emergency overtime", "tone": "frustrated"}
+{"review_id": "cluster_6_b4_pp2", "trait_label": "Process & Quality Frustration", "text": "Unrealistic deadlines and constant pressure from multiple directions", "tone": "frustrated"}
+{"review_id": "cluster_6_b4_do0", "trait_label": "Process & Quality Frustration", "text": "Sufficient time to thoroughly test features before release", "tone": "frustrated"}
+{"review_id": "cluster_6_b4_do1", "trait_label": "Process & Quality Frustration", "text": "Clear documentation and requirements to avoid clarification iterations", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp0", "trait_label": "Trust and Reliability Concern", "text": "Unclear or misleading app permissions, with discrepancies between listed and actual requirements", "tone": "cautious"}
+{"review_id": "cluster_0_b0_pp1", "trait_label": "Trust and Reliability Concern", "text": "Developers not performing adequate cross-platform/device testing, leading to app crashes and poor compatibility", "tone": "cautious"}
+{"review_id": "cluster_0_b0_pp2", "trait_label": "Trust and Reliability Concern", "text": "Unethical developer behavior, such as self-reviewing apps and intentionally hiding permissions", "tone": "cautious"}
+{"review_id": "cluster_0_b0_do0", "trait_label": "Trust and Reliability Concern", "text": "Clear, accurate, and transparent disclosure of all app permissions and data access", "tone": "cautious"}
+{"review_id": "cluster_0_b0_do1", "trait_label": "Trust and Reliability Concern", "text": "Products that work reliably across all promised platforms and device models", "tone": "cautious"}
+{"review_id": "cluster_0_b1_pp0", "trait_label": "Trust and Reliability Concern", "text": "Disruption from product instability, bugs, and crashes", "tone": "cautious"}
+{"review_id": "cluster_0_b1_pp1", "trait_label": "Trust and Reliability Concern", "text": "Concern over privacy violations and excessive app permissions", "tone": "cautious"}
+{"review_id": "cluster_0_b1_pp2", "trait_label": "Trust and Reliability Concern", "text": "Frustration with unresponsiveness to user feedback and concerns", "tone": "cautious"}
+{"review_id": "cluster_0_b1_do0", "trait_label": "Trust and Reliability Concern", "text": "Product stability and reliability without bugs or crashes", "tone": "cautious"}
+{"review_id": "cluster_0_b1_do1", "trait_label": "Trust and Reliability Concern", "text": "Strong data privacy and security with minimal permissions", "tone": "cautious"}
+{"review_id": "monologue_015386", "trait_label": "Inner Monologue", "text": "Before I even look at pricing, I need to understand exactly what this can and cannot do - I can't afford another situation where we discover critical limitations after commitment.", "tone": "authentic_voice"}
+{"review_id": "monologue_4b7891", "trait_label": "Inner Monologue", "text": "These user reviews mention stability issues... I need to see evidence they've done adequate cross-platform testing before we risk our production environment.", "tone": "authentic_voice"}
+{"review_id": "monologue_0a1217", "trait_label": "Inner Monologue", "text": "The installation process seems clunky and time-consuming - if we can't get this running smoothly in our test environment, how will it perform at scale?", "tone": "authentic_voice"}
+{"review_id": "monologue_bbfd99", "trait_label": "Inner Monologue", "text": "They're asking for a lot of permissions that seem unnecessary - this feels like potential evidence of deceptive practices that could compromise our security.", "tone": "authentic_voice"}
+{"review_id": "monologue_98afd1", "trait_label": "Inner Monologue", "text": "Finally, a tool that actually demonstrates the specific functionality we need without the typical AI hallucination problems - this might actually reduce our workload instead of creating more maintenance overhead.", "tone": "authentic_voice"}

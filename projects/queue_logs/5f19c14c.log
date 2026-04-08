@@ -1,0 +1,412 @@
+[03:03:34] ✓ ━━━ Starting job [5f19c14c]: Outreach Contact (Telegram Group Member) ━━━
+[03:03:34] → Creating project 'queue_5f19c14c' (Altude — Outreach Contact (Telegram Group Member))
+[03:03:34] → Generating intelligence (attempt 1/3)…
+[03:03:34] → Using Sonnet to map A user contacted in blockchain-related Telegram groups who s... to specific products + subreddits
+[03:04:33] ✓ Found 18 targeted products, 15 subreddits
+[03:04:33]      [95%] Crypto Hardware Wallet - Ledger Nano S Plus
+[03:04:33]      [92%] Blockchain Programming Books - Mastering Bitcoin
+[03:04:33]      [90%] Cryptocurrency Mining USB ASIC Miner
+[03:04:33]      [88%] Ethereum Solidity Smart Contract Development Course
+[03:04:33]      [87%] Bitcoin Logo Cryptocurrency T-Shirt
+[03:04:33] → Pulling Amazon reviews for 6 products…
+[03:04:33] → Streaming Electronics from HuggingFace...
+[03:04:38] →   Scanned 5,000 reviews, collected 914 so far (86 slots left)
+[03:04:39] ✓   Done Electronics: collected 1000 reviews (scanned 5,504)
+[03:04:39] → Streaming Books from HuggingFace...
+[03:04:41] ✓   Done Books: collected 200 reviews (scanned 2,930)
+[03:04:41] → Streaming Software from HuggingFace...
+[03:04:41] ⚠ Amazon budget full — skipping remaining categories
+[03:04:41] → Scraping Reddit: ['CryptoCurrency', 'Bitcoin', 'ethtrader', 'CryptoMoonShots', 'DeFi', 'NFT', 'Crypto_com', 'binance']…
+[03:04:45] → Scraping r/CryptoCurrency… (budget remaining: 1200)
+[03:04:45] →   Fetching r/CryptoCurrency/top (page 1)...
+[03:04:48] →   Fetching r/CryptoCurrency/top (page 2)...
+[03:04:50] →   Fetching r/CryptoCurrency/top (page 3)...
+[03:04:53] →   Fetching r/CryptoCurrency/top (page 4)...
+[03:04:55] →   Fetching r/CryptoCurrency/top (page 5)...
+[03:04:58] →   Fetching r/CryptoCurrency/top (page 6)...
+[03:05:00] ✓   Found 12 unique threads from r/CryptoCurrency
+[03:05:00]        [1882 comments] This dude sold 10,000 BTC after 14 yrs today, bought it for 
+[03:05:00]        [1204 comments] Crime season
+[03:05:00]        [1008 comments] Over $200 million has been liquidated from the crypto market
+[03:05:00]        [960 comments] Who Is Satoshi?
+[03:05:00]        [902 comments] My goal was to make $50K in Crypto this year, only $75K more
+[03:05:00] →   Scoring threads with 4-criterion rubric…
+[03:05:13] →   Kept 9/12 threads (dropped 3 with relevance < 0.40)
+[03:05:13] →   Thread 1/6 [relevance 0.67]: This dude sold 10,000 BTC after 14 yrs today, bought it…
+[03:05:19]        → 100 comments (100 high-relevance, avg rating 3.0★)
+[03:05:22] →   Thread 2/6 [relevance 0.92]: Over $200 million has been liquidated from the crypto m…
+[03:05:27]        → 100 comments (100 high-relevance, avg rating 3.0★)
+[03:05:30] →   Thread 3/6 [relevance 1.00]: Mantra just got rugpulled…
+[03:05:35]        → 100 comments (100 high-relevance, avg rating 3.0★)
+[03:05:38] →   Thread 4/6 [relevance 1.00]: Former NYC Mayor Eric Adams rugs his own memecoin just …
+[03:05:44]        → 100 comments (100 high-relevance, avg rating 2.9★)
+[03:05:47] →   Thread 5/6 [relevance 0.83]: My goal was to make $50K in Crypto this year, only $75K…
+[03:05:51]        → 100 comments (100 high-relevance, avg rating 3.1★)
+[03:05:54] →   Thread 6/6 [relevance 0.83]: Netherlands to introduce unrealized capital gains tax o…
+[03:05:59]        → 100 comments (100 high-relevance, avg rating 2.9★)
+[03:06:02] ✓   r/CryptoCurrency: 600 comments from 6 threads
+[03:06:02] → Scraping r/Bitcoin… (budget remaining: 600)
+[03:06:02] →   Fetching r/Bitcoin/top (page 1)...
+[03:06:04] →   Fetching r/Bitcoin/top (page 2)...
+[03:06:07] →   Fetching r/Bitcoin/top (page 3)...
+[03:06:09] →   Fetching r/Bitcoin/top (page 4)...
+[03:06:12] →   Fetching r/Bitcoin/top (page 5)...
+[03:06:14] →   Fetching r/Bitcoin/top (page 6)...
+[03:06:17] ✓   Found 12 unique threads from r/Bitcoin
+[03:06:17]        [2076 comments] Trying to withdraw $50,000 from the bank
+[03:06:17]        [1922 comments] I found a block. Solo mining.
+[03:06:17]        [1340 comments] What’s your pick?
+[03:06:17]        [1200 comments] What is happening?
+[03:06:17]        [1116 comments] All my savings, 6 years of DCA, got liquidated last night.
+[03:06:17] →   Scoring threads with 4-criterion rubric…
+[03:06:26] →   Kept 7/12 threads (dropped 5 with relevance < 0.40)
+[03:06:26] →   Thread 1/6 [relevance 1.00]: I found a block. Solo mining.…
+[03:06:32]        → 100 comments (100 high-relevance, avg rating 3.2★)
+[03:06:35] →   Thread 2/6 [relevance 0.92]: All my savings, 6 years of DCA, got liquidated last nig…
+[03:06:40]        → 100 comments (100 high-relevance, avg rating 3.0★)
+[03:06:43] →   Thread 3/6 [relevance 0.83]: I sold my Bitcoin and bought a house…
+[03:06:47]        → 100 comments (100 high-relevance, avg rating 3.0★)
+[03:06:50] →   Thread 4/6 [relevance 0.83]: I can't do this anymore. I'm selling everything. Goodby…
+[03:06:54]        → 100 comments (100 high-relevance, avg rating 3.0★)
+[03:06:57] →   Thread 5/6 [relevance 0.67]: Buy Now…
+[03:07:02]        → 100 comments (100 high-relevance, avg rating 2.9★)
+[03:07:05] →   Thread 6/6 [relevance 0.67]: What’s driving the surge?…
+[03:07:09]        → 100 comments (100 high-relevance, avg rating 3.0★)
+[03:07:12] ✓   r/Bitcoin: 600 comments from 6 threads
+[03:07:13] ⚠   Reddit budget full (1200 cap reached) — stopping
+[03:07:13] → Scraping HN: ['Crypto Hardware Wallet - Ledger Nano S Plus', 'Blockchain Programming Books - Mastering Bitcoin', 'Cryptocurrency Mining USB ASIC Miner', 'Ethereum Solidity Smart Contract Development Course', 'crypto blockchain DeFi']…
+[03:07:14] →   HN search: 'Crypto Hardware Wallet - Ledger Nano S Plus'…
+[03:07:15] ✓     +0 unique comments (total so far: 0)
+[03:07:15] →   HN search: 'Blockchain Programming Books - Mastering Bitcoin'…
+[03:07:15] ✓     +0 unique comments (total so far: 0)
+[03:07:15] →   HN search: 'Cryptocurrency Mining USB ASIC Miner'…
+[03:07:15] ✓     +0 unique comments (total so far: 0)
+[03:07:15] →   HN search: 'Ethereum Solidity Smart Contract Development Course'…
+[03:07:16] ✓     +0 unique comments (total so far: 0)
+[03:07:16] →   HN search: 'crypto blockchain DeFi'…
+[03:07:19] ✓     +0 unique comments (total so far: 0)
+[03:07:19] → Total reviews collected: 2,400
+[03:07:19] → Running signal extraction…
+[03:07:19] → Extracting 80 batches (resuming from 0)...
+[03:07:19] →   5 API key(s), 25 parallel workers, 25min timeout
+[03:07:28]      Batch 1/80 → 5 pain pts, 3 triggers, 4 deal breakers
+[03:07:31]      Batch 2/80 → 5 pain pts, 4 triggers, 4 deal breakers
+[03:07:31]      Batch 3/80 → 6 pain pts, 4 triggers, 3 deal breakers
+[03:07:34]      Batch 4/80 → 10 pain pts, 5 triggers, 5 deal breakers
+[03:07:40]      Batch 5/80 → 5 pain pts, 4 triggers, 3 deal breakers
+[03:07:40]      Batch 6/80 → 4 pain pts, 4 triggers, 3 deal breakers
+[03:07:43]      Batch 7/80 → 5 pain pts, 4 triggers, 3 deal breakers
+[03:07:43]      Batch 8/80 → 5 pain pts, 2 triggers, 3 deal breakers
+[03:07:44]      Batch 9/80 → 6 pain pts, 6 triggers, 4 deal breakers
+[03:07:45]      Batch 10/80 → 5 pain pts, 3 triggers, 3 deal breakers
+[03:07:48]      Batch 11/80 → 4 pain pts, 3 triggers, 4 deal breakers
+[03:07:49]      Batch 12/80 → 7 pain pts, 4 triggers, 4 deal breakers
+[03:07:56]      Batch 13/80 → 7 pain pts, 5 triggers, 5 deal breakers
+[03:07:56]      Batch 14/80 → 5 pain pts, 3 triggers, 5 deal breakers
+[03:07:58]      Batch 15/80 → 6 pain pts, 6 triggers, 5 deal breakers
+[03:07:59]      Batch 16/80 → 4 pain pts, 3 triggers, 3 deal breakers
+[03:08:00]      Batch 17/80 → 6 pain pts, 4 triggers, 4 deal breakers
+[03:08:00]      Batch 18/80 → 6 pain pts, 5 triggers, 5 deal breakers
+[03:08:01]      Batch 19/80 → 5 pain pts, 5 triggers, 3 deal breakers
+[03:08:02]      Batch 20/80 → 5 pain pts, 3 triggers, 3 deal breakers
+[03:08:03]      Batch 21/80 → 7 pain pts, 6 triggers, 5 deal breakers
+[03:08:03]      Batch 22/80 → 5 pain pts, 4 triggers, 3 deal breakers
+[03:08:06]      Batch 23/80 → 6 pain pts, 4 triggers, 4 deal breakers
+[03:08:07]      Batch 24/80 → 6 pain pts, 3 triggers, 3 deal breakers
+[03:08:10]      Batch 25/80 → 4 pain pts, 3 triggers, 4 deal breakers
+[03:08:13]      Batch 26/80 → 8 pain pts, 5 triggers, 5 deal breakers
+[03:08:14]      Batch 27/80 → 5 pain pts, 5 triggers, 5 deal breakers
+[03:08:18]      Batch 28/80 → 5 pain pts, 5 triggers, 5 deal breakers
+[03:08:18]      Batch 29/80 → 4 pain pts, 3 triggers, 3 deal breakers
+[03:08:18]      Batch 30/80 → 5 pain pts, 4 triggers, 4 deal breakers
+[03:08:20]      Batch 31/80 → 5 pain pts, 5 triggers, 3 deal breakers
+[03:08:20]      Batch 32/80 → 4 pain pts, 3 triggers, 4 deal breakers
+[03:08:20]      Batch 33/80 → 6 pain pts, 3 triggers, 3 deal breakers
+[03:08:22]      Batch 34/80 → 8 pain pts, 5 triggers, 5 deal breakers
+[03:08:23]      Batch 35/80 → 6 pain pts, 4 triggers, 4 deal breakers
+[03:08:24]      Batch 36/80 → 5 pain pts, 5 triggers, 4 deal breakers
+[03:08:26]      Batch 37/80 → 5 pain pts, 3 triggers, 4 deal breakers
+[03:08:30]      Batch 38/80 → 5 pain pts, 4 triggers, 4 deal breakers
+[03:08:31]      Batch 39/80 → 7 pain pts, 5 triggers, 5 deal breakers
+[03:08:35]      Batch 40/80 → 5 pain pts, 4 triggers, 4 deal breakers
+[03:08:36]      Batch 41/80 → 7 pain pts, 6 triggers, 4 deal breakers
+[03:08:37]      Batch 42/80 → 5 pain pts, 4 triggers, 4 deal breakers
+[03:08:37]      Batch 43/80 → 6 pain pts, 5 triggers, 4 deal breakers
+[03:08:39]      Batch 44/80 → 5 pain pts, 3 triggers, 3 deal breakers
+[03:08:42]      Batch 45/80 → 7 pain pts, 6 triggers, 5 deal breakers
+[03:08:46]      Batch 46/80 → 8 pain pts, 5 triggers, 3 deal breakers
+[03:08:46]      Batch 47/80 → 7 pain pts, 5 triggers, 5 deal breakers
+[03:08:47]      Batch 48/80 → 4 pain pts, 4 triggers, 3 deal breakers
+[03:08:48]      Batch 49/80 → 4 pain pts, 3 triggers, 4 deal breakers
+[03:08:50]      Batch 50/80 → 6 pain pts, 5 triggers, 4 deal breakers
+[03:08:51]      Batch 51/80 → 6 pain pts, 3 triggers, 4 deal breakers
+[03:08:54]      Batch 52/80 → 6 pain pts, 6 triggers, 5 deal breakers
+[03:08:55]      Batch 53/80 → 5 pain pts, 4 triggers, 5 deal breakers
+[03:08:55]      Batch 54/80 → 5 pain pts, 5 triggers, 4 deal breakers
+[03:08:55]      Batch 55/80 → 8 pain pts, 4 triggers, 4 deal breakers
+[03:08:56]      Batch 56/80 → 5 pain pts, 5 triggers, 5 deal breakers
+[03:08:57]      Batch 57/80 → 5 pain pts, 4 triggers, 4 deal breakers
+[03:09:00]      Batch 58/80 → 5 pain pts, 4 triggers, 4 deal breakers
+[03:09:00]      Batch 59/80 → 6 pain pts, 3 triggers, 3 deal breakers
+[03:09:02]      Batch 60/80 → 7 pain pts, 4 triggers, 1 deal breakers
+[03:09:10]      Batch 61/80 → 6 pain pts, 4 triggers, 4 deal breakers
+[03:09:10]      Batch 62/80 → 5 pain pts, 4 triggers, 3 deal breakers
+[03:09:16]      Batch 63/80 → 5 pain pts, 4 triggers, 3 deal breakers
+[03:09:17]      Batch 64/80 → 7 pain pts, 4 triggers, 5 deal breakers
+[03:09:20]      Batch 65/80 → 4 pain pts, 3 triggers, 3 deal breakers
+[03:09:21]      Batch 66/80 → 5 pain pts, 4 triggers, 3 deal breakers
+[03:09:21]      Batch 67/80 → 6 pain pts, 5 triggers, 5 deal breakers
+[03:09:24]      Batch 68/80 → 5 pain pts, 5 triggers, 4 deal breakers
+[03:09:29]      Batch 69/80 → 5 pain pts, 5 triggers, 3 deal breakers
+[03:09:31]      Batch 70/80 → 9 pain pts, 5 triggers, 3 deal breakers
+[03:09:34]      Batch 71/80 → 6 pain pts, 5 triggers, 4 deal breakers
+[03:09:37]      Batch 72/80 → 4 pain pts, 3 triggers, 4 deal breakers
+[03:09:41]      Batch 73/80 → 4 pain pts, 3 triggers, 4 deal breakers
+[03:09:43]      Batch 74/80 → 6 pain pts, 5 triggers, 5 deal breakers
+[03:09:47]      Batch 75/80 → 5 pain pts, 3 triggers, 2 deal breakers
+[03:09:48]      Batch 76/80 → 5 pain pts, 4 triggers, 3 deal breakers
+[03:09:56]      Batch 77/80 → 6 pain pts, 4 triggers, 3 deal breakers
+[03:11:31]      Batch 78/80 → 5 pain pts, 6 triggers, 4 deal breakers
+[03:11:41]      Batch 79/80 → 5 pain pts, 4 triggers, 4 deal breakers
+[03:11:42]      Batch 80/80 → 5 pain pts, 3 triggers, 4 deal breakers
+[03:11:42] ✓ Extraction done — 80 total batches (80 new)
+[03:11:42] ✓ Extraction: 80 batches
+[03:11:42] → Running clustering…
+[03:11:42] → Embedding 80 signal batches...
+[03:11:45] → Sweeping k=3..10 for optimal clusters...
+[03:11:45] ✓ Best k=8 (score=0.315)
+[03:11:45] → Running stability analysis (10 seeds)...
+[03:11:45]      Cluster stability (ARI): 0.494 (low)
+[03:11:45] ⚠   Low stability — cluster boundaries shift across runs. Consider re-running with a different seed.
+[03:11:45]      Cluster weight std across seeds: 0.082, 0.080, 0.059, 0.071, 0.053, 0.023, 0.053, 0.061
+[03:11:45] → Building 8 clusters (seed=42)...
+[03:11:46]      Cluster 0: 3 batches [amazon:50% / reddit:50%] — top: Difficulty using crypto wallet as collateral for l (CI: 0%–21%)
+[03:11:49]      Cluster 1: 10 batches [amazon:50% / reddit:50%] — top: Concerns about product compatibility and fit (e.g. (CI: 0%–5%)
+[03:11:52]      Cluster 2: 17 batches [amazon:50% / reddit:50%] — top: Bear market prolonged duration causing financial s (CI: 0%–3%)
+
+
+FATAL ERROR:
+Traceback (most recent call last):
+  File "/Users/adit/proxi-ai/worker.py", line 368, in main
+    run_job(job)
+  File "/Users/adit/proxi-ai/worker.py", line 310, in run_job
+    result = _t.run_clustering(
+  File "/Users/adit/proxi-ai/train.py", line 1648, in run_clustering
+    all_pain.extend(pp["signal"] for pp in s.get("pain_points", []) if isinstance(pp, dict))
+  File "/Users/adit/proxi-ai/train.py", line 1648, in <genexpr>
+    all_pain.extend(pp["signal"] for pp in s.get("pain_points", []) if isinstance(pp, dict))
+KeyError: 'signal'
+[13:55:19] ✓ ━━━ Starting job [5f19c14c]: Outreach Contact (Telegram Group Member) ━━━
+[13:55:20] → Resuming project 'queue_5f19c14c'
+[13:55:20] → Intelligence already exists — skipping
+[13:55:20] → Amazon already has 1200 reviews — skipping
+[13:55:20] → Reddit already has 1200 reviews — skipping
+[13:55:20] → Scraping HN: ['Crypto Hardware Wallet - Ledger Nano S Plus', 'Blockchain Programming Books - Mastering Bitcoin', 'Cryptocurrency Mining USB ASIC Miner', 'Ethereum Solidity Smart Contract Development Course', 'crypto blockchain DeFi']…
+[13:55:22] →   HN search: 'Crypto Hardware Wallet - Ledger Nano S Plus'…
+[13:55:22] ✓     +0 unique comments (total so far: 0)
+[13:55:22] →   HN search: 'Blockchain Programming Books - Mastering Bitcoin'…
+[13:55:23] ✓     +0 unique comments (total so far: 0)
+[13:55:23] →   HN search: 'Cryptocurrency Mining USB ASIC Miner'…
+[13:55:23] ✓     +0 unique comments (total so far: 0)
+[13:55:23] →   HN search: 'Ethereum Solidity Smart Contract Development Course'…
+[13:55:23] ✓     +0 unique comments (total so far: 0)
+[13:55:23] →   HN search: 'crypto blockchain DeFi'…
+[13:55:27] ✓     +0 unique comments (total so far: 0)
+[13:55:27] → Scraping App Store: ['Crypto Hardware Wallet - Ledger Nano S Plus', 'Blockchain Programming Books - Mastering Bitcoin', 'Cryptocurrency Mining USB ASIC Miner']…
+[13:55:28] →   App Store: 'Ledger Wallet™ crypto app' (id=1361671700)…
+[13:55:29] ✓     +0 App Store reviews for 'Ledger Wallet™ crypto app'
+[13:55:29] →   App Store: 'STRIKE: BUY & HOLD BITCOIN' (id=1488724463)…
+[13:55:30] ✓     +0 App Store reviews for 'STRIKE: BUY & HOLD BITCOIN'
+[13:55:31] →   App Store: 'Bitcoin Mining · Cloud Mining' (id=6503180820)…
+[13:55:31] ✓     +0 App Store reviews for 'Bitcoin Mining · Cloud Mining'
+[13:55:32] →   App Store: 'MEW crypto wallet: DeFi Web3' (id=1464614025)…
+[13:55:32] ✓     +0 App Store reviews for 'MEW crypto wallet: DeFi Web3'
+[13:55:33] →   App Store: 'CoinMarketCap: Crypto Tracker' (id=1282107098)…
+[13:55:34] ✓     +0 App Store reviews for 'CoinMarketCap: Crypto Tracker'
+[13:55:34] →   App Store: 'Trade AI: Chart AI Analysis' (id=6741457696)…
+[13:55:35] ✓     +0 App Store reviews for 'Trade AI: Chart AI Analysis'
+[13:55:35] → Scraping Play Store: ['Crypto Hardware Wallet - Ledger Nano S Plus', 'Blockchain Programming Books - Mastering Bitcoin', 'Cryptocurrency Mining USB ASIC Miner']…
+[13:55:37] →   Play Store: 'Ledger Wallet™ crypto app' (com.ledger.live)…
+[13:55:38] ✓     +199 Play Store reviews for 'Ledger Wallet™ crypto app'
+[13:55:39] →   Play Store: 'Learn Blockchain Programming' (crypto.learn.blockchain.programming.coding.cryptocurrency.bitcoin)…
+[13:55:39] ✓     +200 Play Store reviews for 'Learn Blockchain Programming'
+[13:55:40] →   Play Store: 'Crypto Mining (ASIC Miner)' (datamining.mobi)…
+[13:55:40] ✓     +36 Play Store reviews for 'Crypto Mining (ASIC Miner)'
+[13:55:41] →   Play Store: 'Learn Solidity Programming' (com.fashbell.learn.solidity)…
+[13:55:41] ✓     +0 Play Store reviews for 'Learn Solidity Programming'
+[13:55:42] →   Play Store: 'Trust: Crypto & Bitcoin Wallet' (com.wallet.crypto.trustapp)…
+[13:55:42] ✓     +200 Play Store reviews for 'Trust: Crypto & Bitcoin Wallet'
+[13:55:43] →   Play Store: 'Learn Technical Analysis' (com.pbkappstudio.learntechnicalanalsis)…
+[13:55:43] ✓     +2 Play Store reviews for 'Learn Technical Analysis'
+[13:55:47] ✓ Play Store: 637 reviews added
+[13:55:47] → Total reviews collected: 3,037
+[13:55:47] → Running signal extraction…
+[13:55:47] → Extracting 22 batches (resuming from 80)...
+[13:55:47] →   5 API key(s), 22 parallel workers, 25min timeout
+[13:56:08]      Batch 81/102 → 9 pain pts, 4 triggers, 4 deal breakers
+[13:56:11]      Batch 82/102 → 5 pain pts, 3 triggers, 3 deal breakers
+[13:56:13]      Batch 83/102 → 16 pain pts, 3 triggers, 4 deal breakers
+[13:56:13]      Batch 84/102 → 5 pain pts, 3 triggers, 3 deal breakers
+[13:56:14]      Batch 85/102 → 6 pain pts, 4 triggers, 3 deal breakers
+[13:56:15]      Batch 86/102 → 6 pain pts, 5 triggers, 3 deal breakers
+[13:56:15]      Batch 87/102 → 7 pain pts, 4 triggers, 3 deal breakers
+[13:56:16]      Batch 88/102 → 7 pain pts, 3 triggers, 4 deal breakers
+[13:56:19]      Batch 89/102 → 8 pain pts, 5 triggers, 5 deal breakers
+[13:56:20]      Batch 90/102 → 8 pain pts, 3 triggers, 4 deal breakers
+[13:56:21]      Batch 91/102 → 7 pain pts, 4 triggers, 4 deal breakers
+[13:56:22]      Batch 92/102 → 7 pain pts, 2 triggers, 3 deal breakers
+[13:56:24]      Batch 93/102 → 10 pain pts, 3 triggers, 4 deal breakers
+[13:56:25]      Batch 94/102 → 9 pain pts, 4 triggers, 4 deal breakers
+[13:56:26]      Batch 95/102 → 10 pain pts, 4 triggers, 3 deal breakers
+[13:56:28]      Batch 96/102 → 7 pain pts, 4 triggers, 4 deal breakers
+[13:56:29]      Batch 97/102 → 8 pain pts, 5 triggers, 5 deal breakers
+[13:56:37]      Batch 98/102 → 9 pain pts, 3 triggers, 3 deal breakers
+[13:57:18]      Batch 99/102 → 7 pain pts, 4 triggers, 4 deal breakers
+[13:57:36]      Batch 100/102 → 12 pain pts, 4 triggers, 4 deal breakers
+[13:58:34]      Batch 101/102 → 16 pain pts, 4 triggers, 4 deal breakers
+[14:00:05]      Batch 102/102 → 12 pain pts, 4 triggers, 4 deal breakers
+[14:00:05] ✓ Extraction done — 102 total batches (22 new)
+[14:00:05] ✓ Extraction: 22 batches
+[14:00:05] → Running clustering…
+[14:00:05] → Embedding 102 signal batches...
+[14:00:08] → Sweeping k=3..10 for optimal clusters...
+[14:00:08] ✓ Best k=8 (score=0.325)
+[14:00:08] → Running stability analysis (10 seeds)...
+[14:00:08]      Cluster stability (ARI): 0.558 (moderate)
+[14:00:08]      Cluster weight std across seeds: 0.040, 0.071, 0.054, 0.032, 0.033, 0.047, 0.064, 0.071
+[14:00:08] → Building 8 clusters (seed=42)...
+[14:00:10]      Cluster 0: 8 batches [amazon:50% / reddit:50%] — top: Difficulty using crypto wallet as collateral for l (CI: 0%–8%)
+[14:00:14]      Cluster 1: 15 batches [] — top: Unreliable connection to hardware device, requirin (CI: 0%–2%)
+[14:00:17]      Cluster 2: 11 batches [amazon:50% / reddit:50%] — top: Concerns about product compatibility and fit (e.g. (CI: 0%–4%)
+[14:00:21]      Cluster 3: 26 batches [amazon:50% / reddit:50%] — top: Bear market prolonged duration causing financial s (CI: 0%–2%)
+[14:00:25]      Cluster 4: 15 batches [amazon:50% / reddit:50%] — top: Poor or insufficient product instructions and setu (CI: 0%–4%)
+[14:00:26]      Cluster 5: 5 batches [amazon:50% / reddit:50%] — top: Uncertainty about tax implications and rules for c (CI: 0%–12%)
+[14:00:28]      Cluster 6: 7 batches [] — top: Pro version purchase fails to activate or unlock c (CI: 0%–6%)
+[14:00:31]      Cluster 7: 15 batches [amazon:50% / reddit:50%] — top: Frustration with poor user experience and technica (CI: 0%–4%)
+[14:00:31] ✓ Cluster weights validated (sum=1.0000)
+[14:00:31] ✓ Clustering: 8 clusters
+[14:00:31] → Synthesising persona…
+[14:00:31] → Labeling 8 behavioral trait clusters...
+[14:00:31] →   Labeling cluster 1/8...
+[14:00:34]        [8%] Security & Legitimacy Anxiety — skeptical
+[14:00:34] →   Labeling cluster 2/8...
+[14:00:41]        [15%] Technical Reliability & Stability Concerns — frustrated
+[14:00:41] →   Labeling cluster 3/8...
+[14:00:47]        [11%] Setup & Compatibility Frustration — frustrated
+[14:00:47] →   Labeling cluster 4/8...
+[14:00:52]        [26%] Market Cycle Anxiety — cautious
+[14:00:52] →   Labeling cluster 5/8...
+[14:00:56]        [15%] Investment Risk Avoidance — cautious
+[14:00:56] →   Labeling cluster 6/8...
+[14:01:05]        [5%] Tax Anxiety — frustrated
+[14:01:05] →   Labeling cluster 7/8...
+[14:01:09]        [7%] Paid Feature Access Failure — frustrated
+[14:01:09] →   Labeling cluster 8/8...
+[14:01:15]        [15%] Crypto/Technical Security Anxiety — cautious
+[14:01:15] → Computing data-driven metrics from cluster signals...
+[14:01:15]      Decision factor: Bear market prolonged duration causing financial s = 12.5%
+[14:01:15]      Decision factor: Fear of missing out (FOMO) from not investing earl = 12.5%
+[14:01:15]      Decision factor: Feeling of regret for not buying Bitcoin earlier i = 12.5%
+[14:01:15]      Decision factor: Distrust or dismissal from others for early crypto = 12.5%
+[14:01:15]      Decision factor: Complexity of verifying blockchain transactions to = 12.5%
+[14:01:15]      Emotional profile: patience=0.365, trust=0.484, decay=0.4
+[14:01:15] → Synthesizing full persona from all traits (this is the big call)...
+[14:02:02] → Validating persona against data-driven metrics...
+[14:02:02] ✓   emotional_profile enforced: {'baseline_patience': 0.365, 'trust_starting_point': 0.484, 'frustration_decay': 0.4}
+[14:02:02]      deal_breakers: 0/7 grounded in cluster data (0%)
+[14:02:02] ⚠   Low grounding — most deal breakers may be LLM-invented
+[14:02:02] ✓ altude_outreach_contact_telegram_group_member_persona.json written
+[14:02:02] → Generating rich markdown context document...
+[14:02:02] ✓ altude_outreach_contact_telegram_group_member_persona.md written
+[14:02:02] ✓ altude_outreach_contact_telegram_group_member_rag_index.jsonl written (205 entries)
+[14:02:02] ✓ Persona synthesis complete
+[14:02:02] ✓ ━━━ Job [5f19c14c] done in 403s ━━━
+[16:06:58] ✓ ━━━ Starting job [5f19c14c]: Outreach Contact (Telegram Group Member) ━━━
+[16:06:58] → Resuming project 'queue_5f19c14c'
+[16:06:58] → Intelligence already exists — skipping
+[16:06:58] → Amazon already has 1200 reviews — skipping
+[16:06:58] → Reddit already has 1200 reviews — skipping
+[16:06:58] → Scraping HN: ['Crypto Hardware Wallet - Ledger Nano S Plus', 'Blockchain Programming Books - Mastering Bitcoin', 'Cryptocurrency Mining USB ASIC Miner', 'Ethereum Solidity Smart Contract Development Course', 'crypto blockchain DeFi']…
+[16:07:01] →   HN search: 'Crypto Hardware Wallet - Ledger Nano S Plus'…
+[16:07:01] ⚠ HN API error on page 0: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+[16:07:01] ✓     +0 unique comments (total so far: 0)
+[16:07:01] →   HN search: 'Blockchain Programming Books - Mastering Bitcoin'…
+[16:07:01] ✓     +0 unique comments (total so far: 0)
+[16:07:01] →   HN search: 'Cryptocurrency Mining USB ASIC Miner'…
+[16:07:01] ✓     +0 unique comments (total so far: 0)
+[16:07:01] →   HN search: 'Ethereum Solidity Smart Contract Development Course'…
+[16:07:02] ✓     +0 unique comments (total so far: 0)
+[16:07:02] →   HN search: 'crypto blockchain DeFi'…
+[16:07:05] ✓     +0 unique comments (total so far: 0)
+[16:07:05] → Scraping App Store: ['Crypto Hardware Wallet - Ledger Nano S Plus', 'Blockchain Programming Books - Mastering Bitcoin', 'Cryptocurrency Mining USB ASIC Miner']…
+[16:07:07] →   App Store: 'Ledger Wallet™ crypto app' (id=1361671700)…
+[16:07:08] ✓     +0 App Store reviews for 'Ledger Wallet™ crypto app'
+[16:07:08] →   App Store: 'STRIKE: BUY & HOLD BITCOIN' (id=1488724463)…
+[16:07:09] ✓     +0 App Store reviews for 'STRIKE: BUY & HOLD BITCOIN'
+[16:07:10] →   App Store: 'Bitcoin Mining · Cloud Mining' (id=6503180820)…
+[16:07:10] ✓     +0 App Store reviews for 'Bitcoin Mining · Cloud Mining'
+[16:07:11] →   App Store: 'MEW crypto wallet: DeFi Web3' (id=1464614025)…
+[16:07:12] ✓     +0 App Store reviews for 'MEW crypto wallet: DeFi Web3'
+[16:07:12] →   App Store: 'CoinMarketCap: Crypto Tracker' (id=1282107098)…
+[16:07:13] ✓     +0 App Store reviews for 'CoinMarketCap: Crypto Tracker'
+[16:07:14] →   App Store: 'Trade AI: Chart AI Analysis' (id=6741457696)…
+[16:07:14] ✓     +0 App Store reviews for 'Trade AI: Chart AI Analysis'
+[16:07:15] → Play Store already has 637 reviews — skipping
+[16:07:15] → Total reviews collected: 3,037
+[16:07:15] → Running signal extraction…
+[16:07:15] ✓ All 102 batches already extracted.
+[16:07:15] ✓ Extraction: 0 batches
+[16:07:15] → Running clustering…
+[16:07:15] → Embedding 102 signal batches...
+[16:07:17] → Sweeping k=3..10 for optimal clusters...
+[16:07:17] ✓ Best k=8 (score=0.325)
+[16:07:17] → Running stability analysis (10 seeds)...
+[16:07:17]      Cluster stability (ARI): 0.558 (moderate)
+[16:07:18]      Cluster weight std across seeds: 0.040, 0.071, 0.054, 0.032, 0.033, 0.047, 0.064, 0.071
+[16:07:18] → Building 8 clusters (seed=42)...
+[16:07:19]      Cluster 0: 8 batches [amazon:50% / reddit:50%] — top: Difficulty using crypto wallet as collateral for l (CI: 0%–8%)
+[16:07:23]      Cluster 1: 15 batches [] — top: Unreliable connection to hardware device, requirin (CI: 0%–2%)
+[16:07:26]      Cluster 2: 11 batches [amazon:50% / reddit:50%] — top: Concerns about product compatibility and fit (e.g. (CI: 0%–4%)
+[16:07:31]      Cluster 3: 26 batches [amazon:50% / reddit:50%] — top: Bear market prolonged duration causing financial s (CI: 0%–2%)
+[16:07:34]      Cluster 4: 15 batches [amazon:50% / reddit:50%] — top: Poor or insufficient product instructions and setu (CI: 0%–4%)
+[16:07:35]      Cluster 5: 5 batches [amazon:50% / reddit:50%] — top: Uncertainty about tax implications and rules for c (CI: 0%–12%)
+[16:07:37]      Cluster 6: 7 batches [] — top: Pro version purchase fails to activate or unlock c (CI: 0%–6%)
+[16:07:40]      Cluster 7: 15 batches [amazon:50% / reddit:50%] — top: Frustration with poor user experience and technica (CI: 0%–4%)
+[16:07:40] ✓ Cluster weights validated (sum=1.0000)
+[16:07:40] ✓ Clustering: 8 clusters
+[16:07:40] → Synthesising persona…
+[16:07:40] → Labeling 8 behavioral trait clusters...
+[16:07:40] →   Labeling cluster 1/8...
+[16:07:45]        [8%] Cryptocurrency Risk Wariness — cautious
+[16:07:45] →   Labeling cluster 2/8...
+[16:07:52]        [15%] Functional Reliability Demands — frustrated
+[16:07:52] →   Labeling cluster 3/8...
+[16:07:58]        [11%] Systemic Reliability Seeking — frustrated
+[16:07:58] →   Labeling cluster 4/8...
+[16:08:03]        [26%] Market Timing Anxiety — frustrated
+[16:08:03] →   Labeling cluster 5/8...
+[16:08:07]        [15%] Technical and Financial Risk Aversion — cautious
+[16:08:07] →   Labeling cluster 6/8...
+[16:08:30]        [5%] Tax Complexity Anxiety — frustrated
+[16:08:30] →   Labeling cluster 7/8...
+[16:08:48]        [7%] Paid Features Failure — frustrated
+[16:08:48] →   Labeling cluster 8/8...
+[16:08:57]        [15%] Cryptocurrency Asset Anxiety — anxious
+[16:08:57] → Computing data-driven metrics from cluster signals...
+[16:08:57]      Decision factor: Bear market prolonged duration causing financial s = 12.5%
+[16:08:57]      Decision factor: Fear of missing out (FOMO) from not investing earl = 12.5%
+[16:08:57]      Decision factor: Feeling of regret for not buying Bitcoin earlier i = 12.5%
+[16:08:57]      Decision factor: Distrust or dismissal from others for early crypto = 12.5%
+[16:08:57]      Decision factor: Complexity of verifying blockchain transactions to = 12.5%
+[16:08:57]      Emotional profile: patience=0.365, trust=0.484, decay=0.4
+[16:08:57] → Synthesizing full persona from all traits (this is the big call)...
+[16:09:42] → Validating persona against data-driven metrics...
+[16:09:42] ✓   emotional_profile enforced: {'baseline_patience': 0.365, 'trust_starting_point': 0.484, 'frustration_decay': 0.4}
+[16:09:42]      deal_breakers: 0/5 grounded in cluster data (0%)
+[16:09:42] ⚠   Low grounding — most deal breakers may be LLM-invented
+[16:09:42] ✓ altude_outreach_contact_telegram_group_member_persona.json written
+[16:09:42] → Generating rich markdown context document...
+[16:09:42] ✓ altude_outreach_contact_telegram_group_member_persona.md written
+[16:09:42] ✓ altude_outreach_contact_telegram_group_member_rag_index.jsonl written (205 entries)
+[16:09:42] ✓ Persona synthesis complete
+[16:09:42] ✓ ━━━ Job [5f19c14c] done in 164s ━━━

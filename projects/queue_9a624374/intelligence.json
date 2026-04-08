@@ -1,0 +1,556 @@
+{
+  "products": [
+    {
+      "name": "LoadRunner Professional Performance Testing Software",
+      "category": "Software",
+      "accuracy": 0.98,
+      "review_keywords": [
+        "performance",
+        "testing",
+        "environment",
+        "load",
+        "scenarios",
+        "baseline",
+        "metrics",
+        "validation"
+      ],
+      "context_keywords": [
+        "UAT",
+        "pre-production",
+        "staging",
+        "rollout"
+      ],
+      "exclusion_keywords": [
+        "production",
+        "live"
+      ],
+      "why": "UAT testers buy specialized testing software to validate system performance before production deployment"
+    },
+    {
+      "name": "Selenium WebDriver Testing Framework Books",
+      "category": "Books",
+      "accuracy": 0.96,
+      "review_keywords": [
+        "automation",
+        "testing",
+        "framework",
+        "browser",
+        "scripts",
+        "validation",
+        "scenarios"
+      ],
+      "context_keywords": [
+        "UAT",
+        "test-environment",
+        "pre-release"
+      ],
+      "exclusion_keywords": [
+        "development",
+        "coding"
+      ],
+      "why": "UAT professionals need to learn automated testing tools for comprehensive feature validation"
+    },
+    {
+      "name": "JIRA Test Management Plugin License",
+      "category": "Software",
+      "accuracy": 0.95,
+      "review_keywords": [
+        "test-cases",
+        "tracking",
+        "defects",
+        "workflows",
+        "reporting",
+        "integration"
+      ],
+      "context_keywords": [
+        "acceptance-testing",
+        "validation",
+        "sign-off"
+      ],
+      "exclusion_keywords": [
+        "development",
+        "agile"
+      ],
+      "why": "UAT teams purchase test management tools to organize and track acceptance testing activities"
+    },
+    {
+      "name": "TestRail Test Case Management Software",
+      "category": "Software",
+      "accuracy": 0.94,
+      "review_keywords": [
+        "test-plans",
+        "execution",
+        "reporting",
+        "milestones",
+        "coverage",
+        "traceability"
+      ],
+      "context_keywords": [
+        "user-acceptance",
+        "validation",
+        "sign-off"
+      ],
+      "exclusion_keywords": [
+        "unit-testing",
+        "development"
+      ],
+      "why": "UAT coordinators buy dedicated test management platforms for structured acceptance testing workflows"
+    },
+    {
+      "name": "Postman API Testing Tool Subscription",
+      "category": "Software",
+      "accuracy": 0.93,
+      "review_keywords": [
+        "API",
+        "endpoints",
+        "validation",
+        "requests",
+        "responses",
+        "integration"
+      ],
+      "context_keywords": [
+        "pre-production",
+        "staging",
+        "acceptance"
+      ],
+      "exclusion_keywords": [
+        "development",
+        "debugging"
+      ],
+      "why": "UAT testers purchase API testing tools to validate backend functionality before go-live"
+    },
+    {
+      "name": "BrowserStack Cross-Browser Testing Platform",
+      "category": "Software",
+      "accuracy": 0.92,
+      "review_keywords": [
+        "browser",
+        "compatibility",
+        "testing",
+        "devices",
+        "validation",
+        "screenshots"
+      ],
+      "context_keywords": [
+        "acceptance-testing",
+        "final-validation",
+        "sign-off"
+      ],
+      "exclusion_keywords": [
+        "development",
+        "debugging"
+      ],
+      "why": "UAT teams buy cross-browser testing services to validate features across different environments"
+    },
+    {
+      "name": "User Acceptance Testing Methodology Books",
+      "category": "Books",
+      "accuracy": 0.91,
+      "review_keywords": [
+        "methodology",
+        "best-practices",
+        "frameworks",
+        "validation",
+        "sign-off",
+        "criteria"
+      ],
+      "context_keywords": [
+        "UAT",
+        "acceptance",
+        "testing-phase"
+      ],
+      "exclusion_keywords": [
+        "development",
+        "unit-testing"
+      ],
+      "why": "UAT practitioners purchase methodology guides to improve their testing processes and frameworks"
+    },
+    {
+      "name": "Defect Tracking Spreadsheet Templates",
+      "category": "Office_Products",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "defect",
+        "tracking",
+        "templates",
+        "issues",
+        "priority",
+        "status"
+      ],
+      "context_keywords": [
+        "acceptance-testing",
+        "validation",
+        "sign-off"
+      ],
+      "exclusion_keywords": [
+        "development",
+        "coding"
+      ],
+      "why": "UAT testers buy defect tracking templates to systematically document issues found during testing"
+    },
+    {
+      "name": "HP EliteBook Mobile Testing Workstation",
+      "category": "Electronics",
+      "accuracy": 0.89,
+      "review_keywords": [
+        "portable",
+        "testing",
+        "performance",
+        "multiple-browsers",
+        "validation"
+      ],
+      "context_keywords": [
+        "on-site",
+        "testing-environment",
+        "client-location"
+      ],
+      "exclusion_keywords": [
+        "development",
+        "gaming"
+      ],
+      "why": "UAT professionals need portable, reliable laptops for testing at various client locations and environments"
+    },
+    {
+      "name": "Screen Recording Software for Test Documentation",
+      "category": "Software",
+      "accuracy": 0.88,
+      "review_keywords": [
+        "screen-capture",
+        "documentation",
+        "evidence",
+        "recordings",
+        "validation"
+      ],
+      "context_keywords": [
+        "test-execution",
+        "sign-off",
+        "evidence"
+      ],
+      "exclusion_keywords": [
+        "tutorials",
+        "gaming"
+      ],
+      "why": "UAT testers purchase screen recording tools to document test execution and provide evidence for sign-off"
+    },
+    {
+      "name": "Multiple Monitor Setup for Testing",
+      "category": "Electronics",
+      "accuracy": 0.87,
+      "review_keywords": [
+        "dual-monitor",
+        "testing",
+        "efficiency",
+        "multiple-applications",
+        "comparison"
+      ],
+      "context_keywords": [
+        "test-environment",
+        "validation",
+        "simultaneous"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "design"
+      ],
+      "why": "UAT professionals buy multiple monitors to efficiently compare systems and run parallel test scenarios"
+    },
+    {
+      "name": "Software Testing Certification Exam Prep",
+      "category": "Books",
+      "accuracy": 0.86,
+      "review_keywords": [
+        "certification",
+        "ISTQB",
+        "exam-prep",
+        "testing-principles",
+        "validation"
+      ],
+      "context_keywords": [
+        "professional",
+        "credentials",
+        "career"
+      ],
+      "exclusion_keywords": [
+        "development",
+        "programming"
+      ],
+      "why": "UAT professionals purchase certification materials to advance their testing careers and credibility"
+    },
+    {
+      "name": "Test Data Generation Tools",
+      "category": "Software",
+      "accuracy": 0.85,
+      "review_keywords": [
+        "test-data",
+        "generation",
+        "realistic",
+        "scenarios",
+        "validation"
+      ],
+      "context_keywords": [
+        "acceptance-testing",
+        "realistic-scenarios",
+        "validation"
+      ],
+      "exclusion_keywords": [
+        "development",
+        "database"
+      ],
+      "why": "UAT teams buy test data tools to create realistic scenarios that mirror production conditions"
+    },
+    {
+      "name": "Ergonomic Office Chair for Testing Sessions",
+      "category": "Home_and_Kitchen",
+      "accuracy": 0.84,
+      "review_keywords": [
+        "ergonomic",
+        "long-sessions",
+        "comfort",
+        "back-support",
+        "adjustable"
+      ],
+      "context_keywords": [
+        "testing-marathon",
+        "extended-sessions",
+        "validation"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "executive"
+      ],
+      "why": "UAT testers need comfortable seating for long testing sessions during intensive validation phases"
+    },
+    {
+      "name": "Blue Light Blocking Glasses for Extended Testing",
+      "category": "Health_and_Household",
+      "accuracy": 0.83,
+      "review_keywords": [
+        "blue-light",
+        "eye-strain",
+        "computer",
+        "long-hours",
+        "testing"
+      ],
+      "context_keywords": [
+        "extended-sessions",
+        "screen-time",
+        "validation"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "fashion"
+      ],
+      "why": "UAT professionals buy eye protection for extended screen time during intensive testing periods"
+    },
+    {
+      "name": "Wireless Testing Mouse and Keyboard Combo",
+      "category": "Electronics",
+      "accuracy": 0.82,
+      "review_keywords": [
+        "wireless",
+        "testing",
+        "responsive",
+        "reliable",
+        "validation"
+      ],
+      "context_keywords": [
+        "test-environment",
+        "efficiency",
+        "setup"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "mechanical"
+      ],
+      "why": "UAT testers purchase reliable input devices for consistent interaction during feature validation"
+    },
+    {
+      "name": "Testing Checklists and Templates Workbook",
+      "category": "Office_Products",
+      "accuracy": 0.81,
+      "review_keywords": [
+        "checklists",
+        "templates",
+        "systematic",
+        "coverage",
+        "validation"
+      ],
+      "context_keywords": [
+        "acceptance-criteria",
+        "sign-off",
+        "completeness"
+      ],
+      "exclusion_keywords": [
+        "development",
+        "project-management"
+      ],
+      "why": "UAT coordinators buy structured templates to ensure comprehensive coverage of acceptance criteria"
+    },
+    {
+      "name": "Portable External Hard Drive for Test Environments",
+      "category": "Electronics",
+      "accuracy": 0.8,
+      "review_keywords": [
+        "portable",
+        "backup",
+        "test-data",
+        "environments",
+        "reliable"
+      ],
+      "context_keywords": [
+        "testing-setup",
+        "data-backup",
+        "portability"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "media"
+      ],
+      "why": "UAT teams need portable storage for test data, environments, and documentation across different testing locations"
+    }
+  ],
+  "subreddits": [
+    {
+      "name": "softwaretesting",
+      "relevance": 0.95,
+      "member_type": "80% active UAT professionals and testing specialists",
+      "data_value": "Testing methodologies, tool discussions, and validation approaches specific to acceptance testing",
+      "why": "Primary community for professional testers sharing UAT experiences and best practices"
+    },
+    {
+      "name": "QualityAssurance",
+      "relevance": 0.92,
+      "member_type": "75% QA and UAT professionals discussing testing processes",
+      "data_value": "Quality standards, testing frameworks, and validation criteria discussions",
+      "why": "Focused on quality assurance practices including user acceptance testing workflows"
+    },
+    {
+      "name": "agile",
+      "relevance": 0.88,
+      "member_type": "60% professionals involved in UAT within agile frameworks",
+      "data_value": "Sprint testing, acceptance criteria definition, and iterative validation approaches",
+      "why": "Many UAT activities occur within agile development cycles and sprint validations"
+    },
+    {
+      "name": "testautomation",
+      "relevance": 0.85,
+      "member_type": "70% automation testers including UAT automation specialists",
+      "data_value": "Automation tools, frameworks, and approaches for acceptance testing validation",
+      "why": "UAT professionals increasingly use automation tools for comprehensive feature validation"
+    },
+    {
+      "name": "selenium",
+      "relevance": 0.82,
+      "member_type": "65% testers using Selenium for UAT automation",
+      "data_value": "Selenium-specific UAT automation techniques and browser testing approaches",
+      "why": "Selenium is commonly used by UAT teams for automated browser-based acceptance testing"
+    },
+    {
+      "name": "manualtesting",
+      "relevance": 0.8,
+      "member_type": "80% manual testers including UAT specialists",
+      "data_value": "Manual testing techniques, exploratory testing, and hands-on validation methods",
+      "why": "UAT often requires manual testing approaches for comprehensive user experience validation"
+    },
+    {
+      "name": "ISTQB",
+      "relevance": 0.78,
+      "member_type": "70% certified testing professionals including UAT practitioners",
+      "data_value": "Professional testing standards, certification paths, and best practices",
+      "why": "ISTQB certification is valuable for UAT professionals seeking career advancement"
+    },
+    {
+      "name": "jira",
+      "relevance": 0.76,
+      "member_type": "60% professionals using JIRA for test management including UAT",
+      "data_value": "JIRA workflows for test case management and defect tracking in UAT",
+      "why": "JIRA is widely used by UAT teams for managing acceptance testing workflows"
+    },
+    {
+      "name": "businessanalysis",
+      "relevance": 0.74,
+      "member_type": "50% business analysts involved in UAT and acceptance criteria",
+      "data_value": "Requirements validation, acceptance criteria definition, and stakeholder communication",
+      "why": "Business analysts often collaborate closely with UAT teams on acceptance criteria"
+    },
+    {
+      "name": "postman",
+      "relevance": 0.72,
+      "member_type": "65% API testers including UAT professionals",
+      "data_value": "API testing approaches, integration validation, and backend testing for UAT",
+      "why": "API testing is crucial for comprehensive UAT validation of system integrations"
+    },
+    {
+      "name": "devops",
+      "relevance": 0.7,
+      "member_type": "40% DevOps professionals involved in UAT environment setup",
+      "data_value": "Environment management, deployment processes, and UAT infrastructure discussions",
+      "why": "DevOps teams often support UAT environment setup and deployment processes"
+    },
+    {
+      "name": "projectmanagement",
+      "relevance": 0.68,
+      "member_type": "45% project managers coordinating UAT phases",
+      "data_value": "UAT planning, stakeholder coordination, and testing phase management",
+      "why": "Project managers frequently coordinate UAT activities and stakeholder sign-offs"
+    },
+    {
+      "name": "ITCareerQuestions",
+      "relevance": 0.65,
+      "member_type": "30% professionals considering or advancing in UAT careers",
+      "data_value": "Career paths in testing, UAT role transitions, and professional development",
+      "why": "Many IT professionals transition into or advance within UAT and testing roles"
+    },
+    {
+      "name": "sysadmin",
+      "relevance": 0.62,
+      "member_type": "35% system administrators supporting UAT environments",
+      "data_value": "UAT environment setup, system configuration, and infrastructure support",
+      "why": "System administrators often provide technical support for UAT environment management"
+    },
+    {
+      "name": "consulting",
+      "relevance": 0.6,
+      "member_type": "40% consultants providing UAT services to clients",
+      "data_value": "Client engagement strategies, UAT service delivery, and consulting best practices",
+      "why": "Many UAT professionals work as consultants providing testing services to multiple clients"
+    }
+  ],
+  "demographic_profile": {
+    "core_keywords": [
+      "acceptance-testing",
+      "validation",
+      "sign-off",
+      "pre-production",
+      "staging",
+      "test-environment",
+      "user-acceptance",
+      "UAT",
+      "acceptance-criteria",
+      "feature-testing",
+      "end-to-end",
+      "business-requirements",
+      "stakeholder",
+      "go-live",
+      "rollout"
+    ],
+    "exclusion_keywords": [
+      "development",
+      "coding",
+      "programming",
+      "production",
+      "live-environment",
+      "debugging",
+      "unit-testing",
+      "infrastructure"
+    ],
+    "age_range": "28-50",
+    "primary_motivations": [
+      "ensuring feature completeness before rollout",
+      "validating business requirements are met",
+      "minimizing production defects",
+      "stakeholder confidence and sign-off"
+    ],
+    "summary": "User Acceptance Testing professionals are quality-focused individuals who validate software features in controlled environments before production deployment. They are driven by thoroughness, risk mitigation, and ensuring business requirements are fully met through systematic testing. They are frustrated by incomplete requirements, rushed testing timelines, and inadequate test environments that don't mirror production conditions."
+  }
+}

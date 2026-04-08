@@ -1,0 +1,80 @@
+{"review_id": "cluster_0_b0_pp0", "trait_label": "Reliability Concern", "text": "Equipment failure in critical situations (e.g., fire suppression system malfunction)", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp1", "trait_label": "Reliability Concern", "text": "Unreliable or mislabeled product capacity (e.g., cart rated for 175lbs fails under heavy use)", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp2", "trait_label": "Reliability Concern", "text": "Poor product condition from resale (e.g., cigarette smoke odor on used items)", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_do0", "trait_label": "Reliability Concern", "text": "Accurate and reliable measurements for safety and quality control (e.g., temperature, pH, cable testing)", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_do1", "trait_label": "Reliability Concern", "text": "Equipment that performs under harsh conditions without failure", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp0", "trait_label": "Reliability Concern", "text": "Tools being taken or mistaken by coworkers on job sites", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp1", "trait_label": "Reliability Concern", "text": "Products arriving with defects or incorrect specifications, causing production delays", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp2", "trait_label": "Reliability Concern", "text": "Difficulty reading or interpreting test results (e.g., faint positive line)", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_do0", "trait_label": "Reliability Concern", "text": "Clear, unambiguous tool ownership to prevent loss or mix-ups", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_do1", "trait_label": "Reliability Concern", "text": "Reliable, durable products that withstand harsh field conditions", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp0", "trait_label": "Reliability Concern", "text": "Equipment failures or defects requiring immediate fixes to maintain operations.", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp1", "trait_label": "Reliability Concern", "text": "Insufficient resources or materials on night shift leading to temporary or non-compliant repairs.", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp2", "trait_label": "Reliability Concern", "text": "Frustration with products that malfunction or fail unexpectedly (e.g., defective relays, poor suction).", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_do0", "trait_label": "Reliability Concern", "text": "Get equipment running quickly to avoid downtime, regardless of cosmetic or minor code issues.", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_do1", "trait_label": "Reliability Concern", "text": "Have durable, multi-purpose tools and supplies that perform reliably in harsh outdoor conditions.", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp0", "trait_label": "Reliability Concern", "text": "Frustration with unclear or missing product instructions", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp1", "trait_label": "Reliability Concern", "text": "Annoyance with products that force longer, more complicated repairs due to poor initial installation or quality", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp2", "trait_label": "Reliability Concern", "text": "Concern about products or installations that don't meet code or OSHA standards, creating safety/liability issues", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_do0", "trait_label": "Reliability Concern", "text": "Get clear, practical instructions with the product to ensure correct, safe use", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_do1", "trait_label": "Reliability Concern", "text": "Ensure work and materials are up to code and compliant with OSHA/safety standards to avoid violations and risks", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp0", "trait_label": "Reliability Concern", "text": "Product malfunction (valve breaking, continuous uncontrollable flow)", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp1", "trait_label": "Reliability Concern", "text": "Product causes property/safety hazard (eats through gloves, damages rings, risk of floor damage)", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp2", "trait_label": "Reliability Concern", "text": "Tool unreliability causes workflow disruption (flow meter reading erratic flow when process is off)", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_do0", "trait_label": "Reliability Concern", "text": "Reliable, accurate instrument readings in challenging field conditions", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_do1", "trait_label": "Reliability Concern", "text": "Safe product handling with clear, effective protective measures", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp0", "trait_label": "Safety & Reliability Pressure", "text": "Fear of injury or death from unsafe work practices like drilling into live panels", "tone": "cautious"}
+{"review_id": "cluster_2_b0_pp1", "trait_label": "Safety & Reliability Pressure", "text": "Pressure from management to bypass safety protocols for production/ budgetary reasons", "tone": "cautious"}
+{"review_id": "cluster_2_b0_pp2", "trait_label": "Safety & Reliability Pressure", "text": "Inadequate or improper safety training and PPE (e.g., using cardboard/rags vs. rated CAL suit)", "tone": "cautious"}
+{"review_id": "cluster_2_b0_do0", "trait_label": "Safety & Reliability Pressure", "text": "Go home safely to family after every shift", "tone": "cautious"}
+{"review_id": "cluster_2_b0_do1", "trait_label": "Safety & Reliability Pressure", "text": "Have the right to refuse unsafe work without job repercussions", "tone": "cautious"}
+{"review_id": "cluster_2_b1_pp0", "trait_label": "Safety & Reliability Pressure", "text": "Workers feel pressured to perform unsafe tasks (like working on live electrical equipment) for fear of job loss or retaliation.", "tone": "cautious"}
+{"review_id": "cluster_2_b1_pp1", "trait_label": "Safety & Reliability Pressure", "text": "Inadequate safety enforcement and lack of company accountability for hazardous working conditions.", "tone": "cautious"}
+{"review_id": "cluster_2_b1_pp2", "trait_label": "Safety & Reliability Pressure", "text": "Fear of being fired without explicit reason after raising safety concerns, making legal recourse difficult.", "tone": "cautious"}
+{"review_id": "cluster_2_b1_do0", "trait_label": "Safety & Reliability Pressure", "text": "Immediate, unquestioned ability to halt work when safety is compromised.", "tone": "cautious"}
+{"review_id": "cluster_2_b1_do1", "trait_label": "Safety & Reliability Pressure", "text": "Clear, company-enforced safety protocols consistently applied across all sites.", "tone": "cautious"}
+{"review_id": "cluster_2_b2_pp0", "trait_label": "Safety & Reliability Pressure", "text": "Frustration with unsafe work conditions and lack of contingency planning for hazardous energy control", "tone": "cautious"}
+{"review_id": "cluster_2_b2_pp1", "trait_label": "Safety & Reliability Pressure", "text": "Disappointment with products that fail during critical or long-duration tasks (e.g., leak, layer separation)", "tone": "cautious"}
+{"review_id": "cluster_2_b2_pp2", "trait_label": "Safety & Reliability Pressure", "text": "Annoyance with inadequate fit or compatibility issues causing extra work (e.g., rolls not fitting dispensers), especially when sizing is close", "tone": "cautious"}
+{"review_id": "cluster_2_b2_do0", "trait_label": "Safety & Reliability Pressure", "text": "Guaranteed safety and compliance with OSHA standards (e.g., lockout/tagout, PPE use) to prevent injuries and hazards", "tone": "cautious"}
+{"review_id": "cluster_2_b2_do1", "trait_label": "Safety & Reliability Pressure", "text": "Reliable, durable products that perform consistently under demanding conditions without failure (e.g., no leaks, no print errors)", "tone": "cautious"}
+{"review_id": "cluster_2_b3_pp0", "trait_label": "Safety & Reliability Pressure", "text": "Safety concerns about working on energized electrical panels", "tone": "cautious"}
+{"review_id": "cluster_2_b3_pp1", "trait_label": "Safety & Reliability Pressure", "text": "Leaks and container failures (cracking tubes, leaking bottles)", "tone": "cautious"}
+{"review_id": "cluster_2_b3_pp2", "trait_label": "Safety & Reliability Pressure", "text": "Workplace safety procedures putting craftsmen at risk", "tone": "cautious"}
+{"review_id": "cluster_2_b3_do0", "trait_label": "Safety & Reliability Pressure", "text": "Zero leaks or failures in fluid containers and seals", "tone": "cautious"}
+{"review_id": "cluster_2_b3_do1", "trait_label": "Safety & Reliability Pressure", "text": "Safe work environment without risking injury or death", "tone": "cautious"}
+{"review_id": "cluster_2_b4_pp0", "trait_label": "Safety & Reliability Pressure", "text": "Tools and equipment are damaged or disorganized during travel/transport", "tone": "cautious"}
+{"review_id": "cluster_2_b4_pp1", "trait_label": "Safety & Reliability Pressure", "text": "Product durability is insufficient for professional or repeated use, leading to premature failure or waste", "tone": "cautious"}
+{"review_id": "cluster_2_b4_pp2", "trait_label": "Safety & Reliability Pressure", "text": "High cost of premium protective equipment (like Pelican cases) is a significant barrier", "tone": "cautious"}
+{"review_id": "cluster_2_b4_do0", "trait_label": "Safety & Reliability Pressure", "text": "Tools arrive at the job site undamaged, organized, and ready to use", "tone": "cautious"}
+{"review_id": "cluster_2_b4_do1", "trait_label": "Safety & Reliability Pressure", "text": "Equipment is reliable, durable, and performs consistently in harsh or critical field conditions", "tone": "cautious"}
+{"review_id": "cluster_1_b0_pp0", "trait_label": "Quality Skeptic", "text": "Inaccurate sizing or inconsistent fit compared to stated size", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp1", "trait_label": "Quality Skeptic", "text": "Poor durability: products rip, fray, or wear out quickly with minimal use", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp2", "trait_label": "Quality Skeptic", "text": "Uncomfortable materials causing chafing, scraping, or stiffness", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_do0", "trait_label": "Quality Skeptic", "text": "Accurate sizing and comfortable fit", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_do1", "trait_label": "Quality Skeptic", "text": "Durable products that withstand active use", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp0", "trait_label": "Quality Skeptic", "text": "Durability issues (split seams, broken straps)", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp1", "trait_label": "Quality Skeptic", "text": "Fit unpredictability (clothing sizing varies wildly)", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp2", "trait_label": "Quality Skeptic", "text": "Material quality degradation after washing", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_do0", "trait_label": "Quality Skeptic", "text": "Comfortable footwear for long workdays", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_do1", "trait_label": "Quality Skeptic", "text": "Reliable durability in challenging conditions", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp0", "trait_label": "Quality Skeptic", "text": "Sizing inconsistencies across same brand/product line", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp1", "trait_label": "Quality Skeptic", "text": "Material degradation after washing (shrinkage, pilling)", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp2", "trait_label": "Quality Skeptic", "text": "Poor durability under work conditions (inner soles wear out, nails protrude)", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_do0", "trait_label": "Quality Skeptic", "text": "Accurate and consistent sizing for reliable purchase", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_do1", "trait_label": "Quality Skeptic", "text": "Durable materials that withstand washing and wear without degradation", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp0", "trait_label": "Quality Skeptic", "text": "Clothing being too short and not covering desired areas (e.g., belly, butt)", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp1", "trait_label": "Quality Skeptic", "text": "Socks slipping down during activity or wear", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp2", "trait_label": "Quality Skeptic", "text": "Products having a strong chemical odor upon arrival", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_do0", "trait_label": "Quality Skeptic", "text": "Comfortable, non-restrictive fit that flatters the body", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_do1", "trait_label": "Quality Skeptic", "text": "Products that maintain their position/stay put during use", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp0", "trait_label": "Quality Skeptic", "text": "Footwear causing immense heel pain due to poor heel cup design.", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp1", "trait_label": "Quality Skeptic", "text": "Inaccurate sizing or fit issues despite following size charts.", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp2", "trait_label": "Quality Skeptic", "text": "Products lacking needed support (e.g., arch support).", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_do0", "trait_label": "Quality Skeptic", "text": "Comfortable, well-fitting clothing/footwear for daily or work use.", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_do1", "trait_label": "Quality Skeptic", "text": "Durable items that hold up to washing and regular wear.", "tone": "frustrated"}
+{"review_id": "monologue_a9dd6d", "trait_label": "Inner Monologue", "text": "This price seems reasonable but I've learned the hard way that cheap equipment costs more in the long run when it fails during critical operations.", "tone": "authentic_voice"}
+{"review_id": "monologue_1a8cfd", "trait_label": "Inner Monologue", "text": "These reviews look good but they're all from office workers - I need to know how this performs when there's vibration from equipment interfering with accuracy.", "tone": "authentic_voice"}
+{"review_id": "monologue_5bb955", "trait_label": "Inner Monologue", "text": "The website is confusing and I can't find the safety certifications quickly - if they don't make compliance documentation easy to find, what else are they hiding?", "tone": "authentic_voice"}
+{"review_id": "monologue_eef47d", "trait_label": "Inner Monologue", "text": "Another signup form just to see technical specs? I don't have time for this when I'm trying to solve an immediate equipment problem.", "tone": "authentic_voice"}
+{"review_id": "monologue_72f7c7", "trait_label": "Inner Monologue", "text": "Finally, detailed documentation that shows this was actually tested in industrial conditions - this is what I need to ensure reliable performance.", "tone": "authentic_voice"}

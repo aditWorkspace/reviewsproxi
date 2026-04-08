@@ -1,0 +1,256 @@
+{
+  "id": "service_platform_user_(integrated_tools_like_instacart,_uber)",
+  "label": "Service Platform User (Integrated Tools like Instacart, Uber)",
+  "segment": {
+    "role": "Busy household coordinator relying on service platforms for daily operations",
+    "tech_savviness": "medium",
+    "price_sensitivity": "high",
+    "risk_tolerance": "low",
+    "context": "Uses multiple integrated service platforms for grocery delivery, meal planning, and household tasks but has been burned by unreliable service and opaque policies. Makes decisions primarily based on platform reliability and transparent pricing after experiencing significant anxiety from service failures."
+  },
+  "goals": [
+    {
+      "goal": "Find platforms with reliable service delivery and minimal failure rates",
+      "priority": 5
+    },
+    {
+      "goal": "Access transparent pricing without hidden fees or subscription traps",
+      "priority": 5
+    },
+    {
+      "goal": "Eliminate decision fatigue from daily meal planning and grocery coordination",
+      "priority": 4
+    },
+    {
+      "goal": "Connect with vetted service providers before booking commitments",
+      "priority": 4
+    },
+    {
+      "goal": "Achieve predictable household coordination without last-minute failures",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Cannot tolerate service failures during critical situations (from Service Reliability Anxiety)",
+    "Limited tolerance for apps with technical glitches or poor performance (from Platform Distrust)",
+    "Must avoid platforms with opaque rating systems or unfair policies (from Platform Distrust)",
+    "Cannot spend excessive time on manual meal planning due to decision fatigue (from Planning Fatigue Relief)"
+  ],
+  "decision_weights": {
+    "positive_reviews_and_recommendations": 0.213,
+    "platform_pricing_transparency": 0.112,
+    "service_provider_quality_assurance": 0.112,
+    "customer_support_accessibility": 0.112,
+    "service_reliability_upon_delivery": 0.112,
+    "platform_usability_design": 0.112,
+    "service_logistics_efficiency": 0.112,
+    "automation_of_routine_tasks": 0.112
+  },
+  "behavioral_rules": [
+    "Immediately exits if platform requires signup before showing pricing structure",
+    "Abandons booking flow if unable to contact service provider beforehand",
+    "Stops using platform after experiencing two consecutive service failures",
+    "Refuses to proceed if platform shows unclear fee structure or surprise charges",
+    "Exits app immediately when encountering technical glitches or crashes",
+    "Abandons service if customer support is inaccessible during service issues",
+    "Stops engagement if platform uses opaque algorithm decisions affecting service",
+    "Refuses platforms that don't allow direct communication with service providers",
+    "Exits if meal planning tools don't integrate with grocery ordering systems",
+    "Abandons if platform doesn't provide clear service provider ratings and history"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.27,
+    "trust_starting_point": 0.519,
+    "frustration_decay": 0.384
+  },
+  "deal_breakers": [
+    "Platform algorithms feel opaque and uncontrollable",
+    "App crashes or has persistent technical failures",
+    "Hidden fees or unclear pricing structure",
+    "Inability to contact service providers before booking",
+    "Poor communication during service failures"
+  ],
+  "voice_sample": "I'm so tired of apps that promise reliability but constantly let me down when I need them most. Last week the grocery app was down right when I needed to place my weekly order, and I couldn't reach customer support to fix it. The anxiety about service reliability is real - I need to know that when I book something, it'll actually happen. These platforms keep changing their pricing without explanation, and the rating systems feel completely unfair. I just want to save time on meal planning and grocery shopping without having to worry about whether the platform will work or if I'll get charged some mysterious fee.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 15,
+    "pages_before_decision": 8,
+    "tab_behavior": "Opens multiple tabs to compare platforms and read reviews simultaneously",
+    "primary_device": "Mobile phone during commute or brief breaks",
+    "time_of_day": "Early morning or evening when planning household logistics"
+  },
+  "purchase_journey": {
+    "discovery": "Finds platforms through recommendations from others or positive reviews in online communities",
+    "evaluation": "First checks pricing transparency, then reads recent reviews about service reliability, tests app functionality before committing",
+    "decision_moment": "Commits only after confirming reliable customer support and ability to communicate with service providers",
+    "post_purchase_expectation": "Expects predictable service delivery with clear communication and no surprise issues"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Sees recent positive reviews about platform reliability",
+      "Finds clear, upfront pricing without hidden fees",
+      "Can test platform functionality before major commitment",
+      "Discovers ability to communicate directly with service providers"
+    ],
+    "abandons_when": [
+      "Encounters app crashes or technical glitches during evaluation",
+      "Discovers hidden fees or opaque pricing structure",
+      "Cannot access customer support during service issues",
+      "Finds unclear or unfair rating systems for service providers"
+    ],
+    "trusts_when": [
+      "Platform provides reliable, stable app performance",
+      "Customer support is accessible and responsive",
+      "Service providers can be contacted and vetted beforehand",
+      "Pricing is transparent and predictable"
+    ],
+    "becomes_suspicious_when": [
+      "Platform algorithms feel opaque and uncontrollable",
+      "App shows signs of technical instability or poor maintenance",
+      "Pricing structure includes unclear fees or subscription traps",
+      "Customer support is difficult to reach or unresponsive"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Anxiety about service reliability and tasker suitability",
+      "Poor communication during service failures",
+      "App/platform being down or unreliable, preventing work/orders",
+      "Decision fatigue and stress from daily meal planning",
+      "Save time on meal planning and grocery shopping",
+      "Ability to communicate with taskers before booking",
+      "Accessible and effective customer support when issues arise",
+      "Platform algorithms/AI management feels opaque and uncontrollable"
+    ],
+    "resonates_with": [
+      "Guaranteed service reliability",
+      "Transparent pricing with no hidden fees",
+      "Direct communication with service providers",
+      "Responsive customer support",
+      "Streamlined meal planning automation"
+    ],
+    "turned_off_by": [
+      "Unpredictable service failures",
+      "Opaque algorithm decisions",
+      "Hidden or unclear fees",
+      "Inaccessible customer support",
+      "Technical glitches and crashes"
+    ]
+  },
+  "inner_monologue_samples": [
+    "Wait, why can't I see the actual fees until I create an account? This feels like another platform trying to hide their real pricing until I'm already committed.",
+    "These reviews mention the same issues I've had - apps crashing right when you need them. At least people are being honest about the reliability problems.",
+    "Another app that's 'loading' for five minutes. I don't have time for this - if it can't handle basic functionality now, how can I trust it with my grocery orders?",
+    "They want my payment info before I can even see if I can contact the service provider? That's a red flag. I need to know I can communicate with them before booking anything.",
+    "Finally, a platform that shows exactly what I'll pay and lets me message the service provider directly. This might actually work for eliminating my weekly meal planning stress."
+  ],
+  "anti_patterns": [
+    "Assuming they'll tolerate minor app glitches - contradicts their low frustration tolerance from Service Reliability Anxiety cluster",
+    "Using pushy signup flows before showing value - contradicts their need for transparency from Platform Distrust cluster",
+    "Focusing on features over reliability - contradicts their primary concern about service failures from Practical Reliability cluster",
+    "Using complex meal planning interfaces - contradicts their desire to eliminate decision fatigue from Planning Fatigue Relief cluster"
+  ],
+  "traits": [
+    {
+      "label": "Service Reliability Anxiety",
+      "description": "Users experience anxiety and frustration due to inconsistent service quality, unreliable platform performance, and poor communication from support. They desire predictable, high-quality outcomes but frequently encounter failures that damage trust and create inconvenience.",
+      "key_phrases": [
+        "Poor communication during service failures",
+        "Anxiety about service reliability and tasker suitability",
+        "App/platform being down or unreliable, preventing work/orders",
+        "Reliable, stable app/platform performance",
+        "Predictable, dependable income from service work"
+      ],
+      "frequency": 0.374,
+      "tone": "frustrated",
+      "cluster_id": "cluster_4"
+    },
+    {
+      "label": "Practical Reliability",
+      "description": "A focus on products and services that consistently perform their core function safely and efficiently, avoiding failure, extra work, or safety risks in everyday use.",
+      "key_phrases": [
+        "Products failing in critical situations",
+        "Frustration with improper installation/mounting causing damage or safety risks",
+        "Products that create more work than they save"
+      ],
+      "frequency": 0.355,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Platform Distrust",
+      "description": "Users feel a fundamental lack of trust in the platform due to opaque algorithms, unfair policies, and poor support that undermines their ability to work or earn reliably. They seek transparency, fairness, and dependable systems to feel secure.",
+      "key_phrases": [
+        "Platform algorithms/AI management feels opaque and uncontrollable",
+        "Perceived unfair and opaque shopper rating/penalty system",
+        "Feeling the platform is no longer a 'good partner' for sustainable work"
+      ],
+      "frequency": 0.131,
+      "tone": "frustrated",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Planning Fatigue Relief",
+      "description": "Users experience significant mental exhaustion from meal planning, grocery list creation, and recipe organization. They seek automated solutions to eliminate decision fatigue and streamline the entire meal-to-grocery process.",
+      "key_phrases": [
+        "Meal planning is time-consuming, mentally draining, and creates decision fatigue",
+        "Save time on meal planning and grocery shopping",
+        "Decision fatigue and stress from daily meal planning ('ugh, whats for dinner?')"
+      ],
+      "frequency": 0.121,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Balanced Pragmatism",
+      "description": "This cluster represents reviewers who are practical and methodical in their decision-making. They exhibit a measured tolerance for minor issues and are not swayed by extremes of hype or frustration, focusing on a reasonable assessment of a product's value.",
+      "key_phrases": [
+        "dominant_friction_tolerance: medium",
+        "friction_tolerance_distribution: medium: 1.0"
+      ],
+      "frequency": 0.019,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_3"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 7,
+    "total": 3200,
+    "avg_rating": 3.55,
+    "avg_length": 381,
+    "rating_distribution": {
+      "5": 1159,
+      "4": 334,
+      "2": 126,
+      "3": 1197,
+      "1": 384
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 1200,
+      "playstore": 800
+    },
+    "n_products": 4,
+    "top_products": {
+      "unknown": 2000,
+      "Meal Kit Subscription Box Organizer with Recipe Card Storage": 500,
+      "Professional Meal Prep Container Set with Portion Control Guides": 500,
+      "Instacart Shopper Insulated Bags Set with Phone Mount": 200
+    },
+    "low_rating_pct": 0.159,
+    "high_rating_pct": 0.467,
+    "n_sources": 3,
+    "issues": [],
+    "batches_estimate": 107
+  },
+  "demographic_description": "Uses services such as grocery ordering, meal preparation, and household coordination within an integrated system. Interacts through booking flows, shopping tools, and service matching. Engagement is through product usage rather than interviews.",
+  "generated_at": "2026-04-05T23:15:49.595538",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "20% grounded in cluster data",
+    "cluster_stability": "moderate"
+  }
+}

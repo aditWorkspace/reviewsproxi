@@ -1,0 +1,238 @@
+{
+  "id": "interview_participant_(global_sample,_~1200_interviews)",
+  "label": "Interview Participant (Global Sample, ~1200 Interviews)",
+  "segment": {
+    "role": "Health-vulnerable consumer managing chronic conditions",
+    "tech_savviness": "medium",
+    "price_sensitivity": "high",
+    "risk_tolerance": "low",
+    "context": "Someone actively managing underlying health vulnerabilities and chronic fatigue who seeks cost-effective solutions for persistent symptoms. They prioritize products that provide reliable protection and comfort while being highly sensitive to side effects and unwilling to pay for unproven benefits."
+  },
+  "goals": [
+    {
+      "goal": "Find effective symptom management without side effects for chronic fatigue and pain",
+      "priority": 5
+    },
+    {
+      "goal": "Locate cost-effective health solutions that deliver on promises",
+      "priority": 5
+    },
+    {
+      "goal": "Identify products that provide reliable protection for weak immune system",
+      "priority": 4
+    },
+    {
+      "goal": "Access convenient home delivery options especially for health monitoring",
+      "priority": 4
+    },
+    {
+      "goal": "Discover natural pain relief for muscles, back, and joints",
+      "priority": 4
+    },
+    {
+      "goal": "Find products that help achieve restful, uninterrupted sleep",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Limited energy for extensive research due to debilitating fatigue and brain fog",
+    "Financial constraints requiring cost-effective solutions without excessive cost",
+    "Must avoid products with severe negative side effects due to health vulnerabilities",
+    "Cannot tolerate products that cause histamine overload or anxiety at night"
+  ],
+  "decision_weights": {
+    "fatigue_and_energy_management": 0.209,
+    "travel_and_portability_needs": 0.165,
+    "trusted_source_recommendations": 0.104,
+    "specific_health_condition_relief": 0.104,
+    "current_solution_inadequacy": 0.104,
+    "safety_and_precaution_needs": 0.104,
+    "protective_health_products": 0.104,
+    "community_recommended_solutions": 0.104
+  },
+  "behavioral_rules": [
+    "Immediately checks for side effect information and warnings before considering any health product",
+    "Abandons purchase if cost appears excessive without clear benefits or value proposition",
+    "Prioritizes reading reviews from others with similar chronic health conditions",
+    "Seeks detailed ingredient lists and purity information for any supplement or health product",
+    "Compares multiple cost-effective alternatives before making health-related purchases",
+    "Looks for products specifically designed for immune system support and fatigue management",
+    "Avoids products that require significant energy investment to use or maintain",
+    "Searches for home delivery options to minimize energy expenditure on shopping trips",
+    "Validates product claims against trusted medical sources or community recommendations",
+    "Abandons complex signup processes that require extensive personal health information"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.414,
+    "trust_starting_point": 0.518,
+    "frustration_decay": 0.173
+  },
+  "deal_breakers": [
+    "Severe negative side effects mentioned in reviews or warnings",
+    "Excessive cost without clear benefits or proven effectiveness",
+    "Products that worsen existing conditions like anxiety or histamine reactions",
+    "Lack of reliable delivery options for essential health products",
+    "No clear information about ingredients or potential interactions with existing conditions"
+  ],
+  "voice_sample": "I'm constantly dealing with debilitating fatigue, brain fog, and post-exertional malaise that makes every decision feel overwhelming. When I'm looking at health products, I need to know they won't make my chronic health issues worse or cause severe negative side effects that could set me back for weeks. The anxiety about potential embarrassment or mess due to health-related issues means I have to be incredibly careful about what I try. Cost-effective solutions that deliver value are essential because I'm already dealing with medical bills and can't afford to waste money on products that promise the world but deliver nothing. I need effective symptom management without side effects, and I'm tired of the difficulty finding effective treatments through lots of trial and error.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 25,
+    "pages_before_decision": 8,
+    "tab_behavior": "Opens multiple tabs to compare reviews, ingredients, and prices but closes them quickly if overwhelmed",
+    "primary_device": "Smartphone or tablet while resting due to fatigue limitations",
+    "time_of_day": "Mid-morning when energy levels are highest, avoiding evening due to brain fog"
+  },
+  "purchase_journey": {
+    "discovery": "Finds products through online community recommendations from others with similar chronic conditions or trusted health forums",
+    "evaluation": "Checks ingredient lists first, then reviews from people with similar health issues, followed by cost comparison and side effect research",
+    "decision_moment": "Purchases when finding clear evidence of effectiveness for their specific condition with minimal side effects at reasonable cost",
+    "post_purchase_expectation": "Expects gentle effectiveness without worsening existing symptoms and reliable delivery that doesn't require energy-draining trips"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Finds recommendation from trusted source with similar health conditions",
+      "Sees specific health need addressed with clear ingredient transparency",
+      "Discovers cost-effective solution with proven track record",
+      "Identifies product that addresses low energy and fatigue specifically"
+    ],
+    "abandons_when": [
+      "Encounters excessive cost without clear benefits",
+      "Finds mention of severe negative side effects",
+      "Discovers dissatisfaction with current alternatives in reviews",
+      "Faces complex processes that require significant energy investment"
+    ],
+    "trusts_when": [
+      "Sees effective symptom management results in detailed reviews",
+      "Finds convenient and easy-to-use products that fit daily routines",
+      "Discovers affordable, reliable wellness solutions without dependency risks",
+      "Encounters accurate and easy at-home health monitoring options"
+    ],
+    "becomes_suspicious_when": [
+      "Pricing information is hidden or unclear",
+      "Health claims seem too good to be true without scientific backing",
+      "No mention of potential side effects or interactions",
+      "Reviews seem fake or don't mention specific health conditions"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Debilitating fatigue, brain fog, and post-exertional malaise",
+      "Chronic health issues following COVID-19 infection",
+      "Cost-effective solutions that deliver value",
+      "Effective symptom management without side effects",
+      "Weak immune system and recurrent illness",
+      "Anxiety about health issues like UTIs and poor sleep",
+      "Difficulty finding effective treatments; lots of trial and error"
+    ],
+    "resonates_with": [
+      "Gentle, natural ingredients",
+      "Clinically proven for chronic conditions",
+      "Money-back guarantee",
+      "Developed for sensitive individuals",
+      "Community-recommended solutions"
+    ],
+    "turned_off_by": [
+      "Miracle cure claims",
+      "High-pressure sales tactics",
+      "Premium pricing without justification",
+      "Complex multi-step routines",
+      "Aggressive marketing language"
+    ]
+  },
+  "inner_monologue_samples": [
+    "Another expensive supplement that promises everything... I've been burned before by excessive cost without clear benefits. Let me check if anyone with chronic fatigue has actually tried this.",
+    "These reviews look promising, but I need to make sure this won't cause severe negative side effects or make my histamine issues worse. Too many products have made my anxiety and health struggles even worse.",
+    "This website is taking forever to load and I'm already feeling that brain fog creeping in. If I can't easily find what I need, I'll have to come back when I have more energy.",
+    "They want my medical history just to see the price? I don't have the energy for this kind of hassle, and I'm concerned about sharing my chronic health issues with random companies.",
+    "Finally, a product that addresses low energy and fatigue specifically, with ingredients I can actually pronounce. The reviews from people with similar conditions give me hope this might actually help."
+  ],
+  "anti_patterns": [
+    "Assuming they want premium products - contradicts their high price sensitivity and need for cost-effective solutions",
+    "Using high-energy marketing language - contradicts their debilitating fatigue and need for gentle approaches",
+    "Hiding ingredient information - contradicts their need for transparency due to health vulnerabilities",
+    "Requiring complex signup processes - contradicts their limited energy and frustration with difficult procedures",
+    "Making unrealistic health claims - contradicts their experience with trial and error and preference for proven solutions"
+  ],
+  "traits": [
+    {
+      "label": "Health-Value Pragmatism",
+      "description": "Health-conscious consumers seeking cost-effective solutions for persistent symptoms like fatigue and pain, while being highly sensitive to side effects and unwilling to pay for unproven benefits.",
+      "key_phrases": [
+        "Low energy and fatigue",
+        "Cost-effective health solutions",
+        "Severe negative side effects",
+        "Excessive cost without clear benefits",
+        "Debilitating fatigue, brain fog, and post-exertional malaise"
+      ],
+      "frequency": 0.537,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Vulnerability Management",
+      "description": "Consumers are actively managing underlying health vulnerabilities, chronic conditions, or recovery needs, seeking products that provide reliable protection, comfort, and independence while mitigating daily frustrations and anxieties.",
+      "key_phrases": [
+        "Fear of infection despite precautions",
+        "Dealing with health issues like asthma or chemo side effects",
+        "Debilitating long-term pain (shoulder, neck, back, knees)",
+        "Weak immune system and recurrent illness",
+        "Managing health conditions with reliable products"
+      ],
+      "frequency": 0.425,
+      "tone": "cautious",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Neutral Evaluator",
+      "description": "A user who approaches product reviews with a balanced, medium tolerance for friction, weighing information without strong positive or negative biases. They display a measured, even-handed approach to decision-making.",
+      "key_phrases": [],
+      "frequency": 0.037,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_0"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 7,
+    "total": 2400,
+    "avg_rating": 3.75,
+    "avg_length": 385,
+    "rating_distribution": {
+      "4": 212,
+      "1": 155,
+      "5": 967,
+      "3": 1036,
+      "2": 30
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 1200
+    },
+    "n_products": 5,
+    "top_products": {
+      "unknown": 1200,
+      "COVID-19 Rapid Antigen Test Kit 5-Pack": 300,
+      "Immune System Support Vitamin D3 + K2": 300,
+      "Blue Light Blocking Glasses for Computer Use": 300,
+      "KN95 Face Masks 50-Pack Black": 300
+    },
+    "low_rating_pct": 0.077,
+    "high_rating_pct": 0.491,
+    "n_sources": 2,
+    "issues": [
+      "Very few negative reviews \u2014 pain points may be underrepresented",
+      "Platform bias: amazon is 50% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 80
+  },
+  "demographic_description": "A participant in a large-scale global interview set conducted post-COVID. Provides qualitative responses during conversations. Interaction is part of broad data collection efforts.",
+  "generated_at": "2026-04-05T08:26:09.995939",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "40% grounded in cluster data",
+    "cluster_stability": "high"
+  }
+}

@@ -1,0 +1,55 @@
+{"review_id": "cluster_1_b0_pp0", "trait_label": "Trust Deficit", "text": "Difficulty accessing product documentation (e.g., user manual)", "tone": "skeptical"}
+{"review_id": "cluster_1_b0_pp1", "trait_label": "Trust Deficit", "text": "Complicated, unintuitive software interfaces requiring extensive manual workarounds", "tone": "skeptical"}
+{"review_id": "cluster_1_b0_pp2", "trait_label": "Trust Deficit", "text": "Poor or slow customer support requiring lengthy self-research", "tone": "skeptical"}
+{"review_id": "cluster_1_b0_do0", "trait_label": "Trust Deficit", "text": "Software that works reliably and efficiently with minimal manual intervention", "tone": "skeptical"}
+{"review_id": "cluster_1_b0_do1", "trait_label": "Trust Deficit", "text": "Access to comprehensive, clear documentation and tutorials", "tone": "skeptical"}
+{"review_id": "cluster_1_b1_pp0", "trait_label": "Trust Deficit", "text": "Poor or unavailable documentation/manuals", "tone": "skeptical"}
+{"review_id": "cluster_1_b1_pp1", "trait_label": "Trust Deficit", "text": "Inadequate customer support (long hold times, poor language skills, unhelpful)", "tone": "skeptical"}
+{"review_id": "cluster_1_b1_pp2", "trait_label": "Trust Deficit", "text": "Difficulty learning or navigating software due to unclear interfaces or coded systems", "tone": "skeptical"}
+{"review_id": "cluster_1_b1_do0", "trait_label": "Trust Deficit", "text": "Accurate and reliable results from software (e.g., tax filing, data analysis)", "tone": "skeptical"}
+{"review_id": "cluster_1_b1_do1", "trait_label": "Trust Deficit", "text": "Ease of use and intuitive interface to minimize learning curve", "tone": "skeptical"}
+{"review_id": "cluster_1_b2_pp0", "trait_label": "Trust Deficit", "text": "Tools over-promise ease of use but require deep technical expertise to configure and troubleshoot", "tone": "skeptical"}
+{"review_id": "cluster_1_b2_pp1", "trait_label": "Trust Deficit", "text": "Lack of intuitive, user-friendly interfaces for common tasks (e.g., export to Excel, conditional formatting in charts)", "tone": "skeptical"}
+{"review_id": "cluster_1_b2_pp2", "trait_label": "Trust Deficit", "text": "Time-consuming workarounds needed for visualizations and features that are simple in other tools (Excel, Tableau)", "tone": "skeptical"}
+{"review_id": "cluster_1_b2_do0", "trait_label": "Trust Deficit", "text": "Accurate, automated data processing with rigorous validation to ensure reliability", "tone": "skeptical"}
+{"review_id": "cluster_1_b2_do1", "trait_label": "Trust Deficit", "text": "Intuitive, efficient user interface that minimizes clicks and learning curve for common tasks", "tone": "skeptical"}
+{"review_id": "cluster_1_b3_pp0", "trait_label": "Trust Deficit", "text": "Tools that are not intuitive or user-friendly, causing high friction in basic tasks", "tone": "skeptical"}
+{"review_id": "cluster_1_b3_pp1", "trait_label": "Trust Deficit", "text": "Frustration with software that lacks clear, logical, or intuitive interface design", "tone": "skeptical"}
+{"review_id": "cluster_1_b3_pp2", "trait_label": "Trust Deficit", "text": "Fear of AI-generated code or prototypes being unreliable, insecure, or not production-ready", "tone": "skeptical"}
+{"review_id": "cluster_1_b3_do0", "trait_label": "Trust Deficit", "text": "Accurate, reliable, and production-ready software or analysis output", "tone": "skeptical"}
+{"review_id": "cluster_1_b3_do1", "trait_label": "Trust Deficit", "text": "Intuitive, user-friendly interfaces that reduce cognitive load", "tone": "skeptical"}
+{"review_id": "cluster_1_b4_pp0", "trait_label": "Trust Deficit", "text": "Poor or outdated instructions and documentation causing setup failures", "tone": "skeptical"}
+{"review_id": "cluster_1_b4_pp1", "trait_label": "Trust Deficit", "text": "Manual data entry and reconciliation is cumbersome and time-consuming", "tone": "skeptical"}
+{"review_id": "cluster_1_b4_pp2", "trait_label": "Trust Deficit", "text": "Inability to import/export data or migrate between platforms easily", "tone": "skeptical"}
+{"review_id": "cluster_1_b4_do0", "trait_label": "Trust Deficit", "text": "Efficient, fast, and reliable processing of data or tasks", "tone": "skeptical"}
+{"review_id": "cluster_1_b4_do1", "trait_label": "Trust Deficit", "text": "Accurate and validated results requiring minimal manual correction", "tone": "skeptical"}
+{"review_id": "cluster_2_b0_pp0", "trait_label": "Data Workflow Inefficiency", "text": "Tools provide incorrect or incomplete data, requiring manual rework.", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp1", "trait_label": "Data Workflow Inefficiency", "text": "Software crashes, freezes, or has severe bugs causing lost work.", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp2", "trait_label": "Data Workflow Inefficiency", "text": "AI/automation tools have unclear data security, privacy, and retention policies.", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_do0", "trait_label": "Data Workflow Inefficiency", "text": "Accurate, reliable data processing with minimal errors.", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_do1", "trait_label": "Data Workflow Inefficiency", "text": "Clear data security, privacy, and governance for AI tools.", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp0", "trait_label": "Data Workflow Inefficiency", "text": "Manual data entry and correction is time-consuming and frustrating.", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp1", "trait_label": "Data Workflow Inefficiency", "text": "AI lacks context and struggles with business interpretation, requiring human oversight.", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp2", "trait_label": "Data Workflow Inefficiency", "text": "Data import and migration is flawed, causing errors and extra work.", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_do0", "trait_label": "Data Workflow Inefficiency", "text": "AI handles routine data tasks (cleaning, querying) to free up time for analysis.", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_do1", "trait_label": "Data Workflow Inefficiency", "text": "Seamless data import and integration between tools and systems.", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp0", "trait_label": "Data Workflow Inefficiency", "text": "AI tools misinterpret ambiguous user instructions, requiring manual correction", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp1", "trait_label": "Data Workflow Inefficiency", "text": "AI tools make mistakes or suggest overly complex/inaccurate solutions, requiring expert validation", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp2", "trait_label": "Data Workflow Inefficiency", "text": "AI agents can produce silent errors that compound across a multi-agent pipeline", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_do0", "trait_label": "Data Workflow Inefficiency", "text": "Automate repetitive data processing and pattern identification tasks", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_do1", "trait_label": "Data Workflow Inefficiency", "text": "Enable non-technical users to generate reports and insights via plain language", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp0", "trait_label": "Data Workflow Inefficiency", "text": "Frustration with AI-generated code being over-engineered or nonsensical for simple tasks", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp1", "trait_label": "Data Workflow Inefficiency", "text": "Time wasted on manual debugging and correction of AI outputs", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp2", "trait_label": "Data Workflow Inefficiency", "text": "Difficulty integrating AI tools into existing workflows without extensive manual validation", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_do0", "trait_label": "Data Workflow Inefficiency", "text": "AI tools that generate accurate, production-ready code or analysis with minimal manual fixes", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_do1", "trait_label": "Data Workflow Inefficiency", "text": "Seamless integration of AI into existing data analysis and validation processes", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp0", "trait_label": "Data Workflow Inefficiency", "text": "Complex codebases lack documentation, making validation difficult and time-consuming.", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp1", "trait_label": "Data Workflow Inefficiency", "text": "Difficulty finding junior roles due to market saturation and reduced hiring.", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp2", "trait_label": "Data Workflow Inefficiency", "text": "Learning curve with new software is steep without accessible tutorials or manuals.", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_do0", "trait_label": "Data Workflow Inefficiency", "text": "Automate repetitive data processing while maintaining high accuracy through rigorous validation.", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_do1", "trait_label": "Data Workflow Inefficiency", "text": "Quickly learn and master new tools with comprehensive, accessible documentation.", "tone": "frustrated"}
+{"review_id": "monologue_29dc8c", "trait_label": "Inner Monologue", "text": "Here we go again with the pricing page that doesn't tell me what I actually get for my money. If they can't be transparent about costs upfront, how can I trust them with my data processing pipeline?", "tone": "authentic_voice"}
+{"review_id": "monologue_2fba12", "trait_label": "Inner Monologue", "text": "These testimonials look nice, but I need to see actual evidence of reliability. Let me check the user reviews for mentions of silent failures or data corruption - that's where the real story is.", "tone": "authentic_voice"}
+{"review_id": "monologue_627a9c", "trait_label": "Inner Monologue", "text": "This interface looks overly complicated for basic data processing. If I need a manual just to import a CSV file, this tool is going to slow down my team rather than help us.", "tone": "authentic_voice"}
+{"review_id": "monologue_53f778", "trait_label": "Inner Monologue", "text": "They want my email before showing me the actual feature comparison? That's a red flag. Transparent vendors don't hide their capabilities behind lead capture forms.", "tone": "authentic_voice"}
+{"review_id": "monologue_fb7c68", "trait_label": "Inner Monologue", "text": "Finally, a tool that shows exactly how to validate outputs and trace errors back to their source. This might actually work for our workflow if it performs as documented.", "tone": "authentic_voice"}

@@ -1,0 +1,2342 @@
+{
+  "chosen_n_clusters": 3,
+  "sweep_results": [
+    {
+      "k": 3,
+      "silhouette": 0.08310559391975403,
+      "intra_similarity": 0.7405195633570353,
+      "inter_distance": 0.635604977607727,
+      "combined_score": 0.39082966148853304
+    },
+    {
+      "k": 4,
+      "silhouette": 0.0634123831987381,
+      "intra_similarity": 0.7224380075931549,
+      "inter_distance": 0.5176198482513428,
+      "combined_score": 0.35196156352758406
+    },
+    {
+      "k": 5,
+      "silhouette": 0.0819474533200264,
+      "intra_similarity": 0.7292621374130249,
+      "inter_distance": 0.46955668926239014,
+      "combined_score": 0.35366370573639866
+    },
+    {
+      "k": 6,
+      "silhouette": 0.08142764121294022,
+      "intra_similarity": 0.7242574890454611,
+      "inter_distance": 0.43060368299484253,
+      "combined_score": 0.344111803919077
+    },
+    {
+      "k": 7,
+      "silhouette": 0.07639952749013901,
+      "intra_similarity": 0.7361012697219849,
+      "inter_distance": 0.4418007731437683,
+      "combined_score": 0.34739029929041865
+    },
+    {
+      "k": 8,
+      "silhouette": 0.08157231658697128,
+      "intra_similarity": 0.7267780676484108,
+      "inter_distance": 0.4070277214050293,
+      "combined_score": 0.34022512286901474
+    },
+    {
+      "k": 9,
+      "silhouette": 0.08120565116405487,
+      "intra_similarity": 0.7192996210522122,
+      "inter_distance": 0.3877026438713074,
+      "combined_score": 0.33393324067195257
+    },
+    {
+      "k": 10,
+      "silhouette": 0.07800132036209106,
+      "intra_similarity": 0.718029010295868,
+      "inter_distance": 0.37505894899368286,
+      "combined_score": 0.32942115306854247
+    }
+  ],
+  "quality_metrics": {
+    "silhouette": 0.08310559391975403,
+    "intra_similarity": 0.7405195633570353,
+    "inter_distance": 0.635604977607727,
+    "combined_score": 0.39082966148853304,
+    "stability_ari": 0.3658,
+    "stability_label": "low"
+  },
+  "cluster_0": {
+    "member_count": 63,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Experiencing data loss or unrecoverable failures with existing software",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Frustration with slow, laggy, or unresponsive interfaces in data/tracking tools",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Difficulty finding data/features due to poor UI/UX or navigation",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "High and unpredictable costs for performance (e.g., database scaling)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Inability to verify tool effectiveness or measure ROI clearly",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Fear of vendor lock-in or being forced into subscription models",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Poor or non-existent customer support when problems arise",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Installation/update processes causing system instability or failure",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Tools returning incorrect or nonsensical data (e.g., negative MPG)",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable data access and system uptime without failures",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Fast, responsive performance for queries and data manipulation",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Intuitive, easy-to-navigate interface requiring minimal training",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Cost-effective scaling that aligns performance with budget",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Clear evidence of product effectiveness and value (measurable ROI)",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Data integrity and accurate reporting/calculations",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Easy installation and seamless integration with existing systems",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Ability to easily find, filter, and analyze specific data points",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Tools that save time by automating tasks or simplifying complex processes",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Previous version of software/hardware fails or becomes obsolete",
+            "context": "Need to replace a broken or outdated critical tool"
+          },
+          {
+            "trigger": "Seeking specific functionality missing in current tools (e.g., auto-sync, better search)",
+            "context": "Identified a gap in workflow efficiency"
+          },
+          {
+            "trigger": "Recommendation or comparison showing better value/performance than alternative",
+            "context": "Comparative analysis during procurement"
+          },
+          {
+            "trigger": "Need for more robust data protection or backup features",
+            "context": "Fear of data loss from current methods"
+          },
+          {
+            "trigger": "Perceived long-term value or investment in a comprehensive solution",
+            "context": "Planning for extended, deep usage (e.g., language learning for life)"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "High cost relative to perceived value or available budget",
+            "severity": 0.8
+          },
+          {
+            "objection": "Unclear if the product is necessary or effective for the stated need",
+            "severity": 0.6
+          },
+          {
+            "objection": "Poor user experience or steep learning curve",
+            "severity": 0.7
+          },
+          {
+            "objection": "Fear of product instability causing system damage or data corruption",
+            "severity": 0.9
+          },
+          {
+            "objection": "Lack of trust in vendor support or long-term product direction",
+            "severity": 0.7
+          },
+          {
+            "objection": "Product lacks specific, required features present in alternatives",
+            "severity": 0.6
+          },
+          {
+            "objection": "Existing solution, even if manual (e.g., Excel), is perceived as 'good enough'",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Any software/tool",
+            "reason": "Critical failure or bug that corrupts data/function",
+            "threshold": "Immediate upon failure"
+          },
+          {
+            "from_product": "High-cost performance solutions (e.g., hyperscale DB)",
+            "reason": "Budget constraints cannot justify cost",
+            "threshold": "Cost exceeds available budget"
+          },
+          {
+            "from_product": "Software with poor UI/UX",
+            "reason": "Frustration impacts productivity and accuracy",
+            "threshold": "Persistent difficulty finding features/data"
+          },
+          {
+            "from_product": "Vendor with poor support",
+            "reason": "Unresolved technical issues or bugs",
+            "threshold": "Issue remains unresolved after seeking help"
+          },
+          {
+            "from_product": "Performing tool",
+            "reason": "Discovery of a significantly better or more cost-effective alternative",
+            "threshold": "Clear evidence of superior value proposition"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability & Data Integrity",
+          "Performance & Speed",
+          "Cost vs. Value",
+          "Ease of Use & Learning Curve",
+          "Feature Set & Specific Capabilities",
+          "Quality of Support",
+          "Integration & Stability"
+        ],
+        "deal_breakers": [
+          "Product causes system instability or data loss",
+          "Critical advertised features do not work",
+          "Cost is radically disproportionate to value or budget",
+          "Vendor provides no meaningful support for broken functionality"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Frustration with buggy, unreliable software that crashes or hangs frequently",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Anger over forced, poorly managed upgrades and data conversion processes that fail",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Disappointment in product downgrades and deceptive feature removal without clear communication",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Annoyance with inaccurate data or poor localization (e.g., weather app showing wrong local temperature)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Frustration with poor technical support that fails to resolve issues after significant time investment",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Irritation with intrusive ads and poor user experience choices (e.g., forced nudges, repetitive login screens)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Concern over high costs for perceived mediocre performance",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Stable, reliable software that performs core functions without errors or crashes",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Clear, honest communication about product changes, pricing, and feature sets",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Accurate, localized data and insights relevant to their specific context",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Intuitive, efficient user interfaces that save time and reduce cognitive load",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Cost-effective solutions that provide good value for money, avoiding unnecessary cloud or upgrade expenses",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Seamless data migration and backward compatibility during upgrades",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Flexibility to choose the right tool for the job (on-prem vs. cloud, simple vs. complex) based on actual data needs",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Loss of critical functionality in existing product (e.g., inability to download investment quotes)",
+            "context": "Forced upgrade due to end-of-life or feature deprecation"
+          },
+          {
+            "trigger": "Need for specific, task-oriented capabilities (e.g., fitness tracking, weather reports, note-taking, remote access)",
+            "context": "Finding a tool to solve a particular daily or business problem"
+          },
+          {
+            "trigger": "Significant cost savings compared to alternatives or previous pricing",
+            "context": "Price comparison leading to purchase decision"
+          },
+          {
+            "trigger": "Positive word-of-mouth or personal recommendation from trusted sources",
+            "context": "Seeking reliable tools based on others' experiences"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product is unreliable, buggy, and causes system instability",
+            "severity": 0.9
+          },
+          {
+            "objection": "Upgrade/installation process is fraught with failure and risks data loss",
+            "severity": 0.85
+          },
+          {
+            "objection": "Product has been downgraded, removing features previously available",
+            "severity": 0.8
+          },
+          {
+            "objection": "Solution is overkill for actual needs (e.g., using a distributed system for small datasets)",
+            "severity": 0.6
+          },
+          {
+            "objection": "High cost does not justify the mediocre performance or value",
+            "severity": 0.7
+          },
+          {
+            "objection": "Data or reporting lacks accuracy, granularity, or contextual relevance",
+            "severity": 0.65
+          },
+          {
+            "objection": "Poor or biased reporting/data quality (perceived political bias in news)",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "TurboTax Deluxe",
+            "reason": "Removal of key tax schedule support (Schedule C, D, E, F) without clear disclosure",
+            "threshold": "Core functionality loss for filing needs"
+          },
+          {
+            "from_product": "QuickBooks/Quicken",
+            "reason": "Persistent software errors, hangs, and unresolved bugs despite updates",
+            "threshold": "Product unreliability impacting daily business operations"
+          },
+          {
+            "from_product": "Cloud data platforms (e.g., Databricks)",
+            "reason": "Cost/performance mismatch; simpler, cheaper on-prem solutions suffice",
+            "threshold": "Realization of misuse and unjustified operational expense"
+          },
+          {
+            "from_product": "Any software",
+            "reason": "Deceptive practices or material product downgrades damaging trust",
+            "threshold": "Breach of trust with long-term customers"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability/Stability",
+          "Functionality/Feature Set",
+          "Cost/Value for Money",
+          "Ease of Use/Intuitiveness",
+          "Data Accuracy & Relevance",
+          "Vendor Transparency & Trust",
+          "Scalability/Flexibility"
+        ],
+        "deal_breakers": [
+          "Persistent bugs/crashes that disrupt core workflow",
+          "Loss of critical features needed for core tasks",
+          "Deceptive marketing or hidden feature removal",
+          "Unresolvable data inaccuracy or poor localization"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Software not working as advertised on stated compatible systems",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Critical data errors in financial reports leading to costly corrections",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Poor performance causing long render/export times and freezes",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Dashboard not displaying real-time activity data",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Software requiring excessive system resources or specific configurations (64-bit OS, high-speed internet, specific accounts)",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Lack of testing before feature releases leading to bugs and broken graphics",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Non-intuitive interface and steep learning curve",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Difficulty navigating or changing workflows mid-session",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Proprietary query language requiring additional learning",
+            "emotional_intensity": 0.55
+          },
+          {
+            "signal": "Poor marketing and low awareness making stakeholder adoption difficult",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Missing metadata retention during file conversions",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Software taking over computer with unclosable windows during operations",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Accurate and reliable data reporting without errors",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Tools that boost performance and efficiency in daily work",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Software that works reliably with stated system requirements",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Easy connection and integration between different data sources",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Real-time tracking and dashboard updates",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Software that allows background operation without disrupting work",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Easy-to-learn interface that lets users focus on content rather than tool",
+            "priority": 0.65
+          },
+          {
+            "outcome": "Flexible dashboarding with customization options",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Ability to generate useful reports and visualizations with minimal effort",
+            "priority": 0.55
+          },
+          {
+            "outcome": "Tools that help track progress and improvement over time",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Good support system with responsive help when issues arise",
+            "priority": 0.45
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Finding a tool that delivers value in shorter timeframe than current solution",
+            "context": "Evaluation period for replacement tools"
+          },
+          {
+            "trigger": "Special pricing or bargain offer for multi-feature package",
+            "context": "Comparison shopping for bundled utilities"
+          },
+          {
+            "trigger": "Disappointment with current tool's performance or limitations",
+            "context": "Active search for alternatives"
+          },
+          {
+            "trigger": "Recommendation from colleagues in professional network",
+            "context": "Professional tool research"
+          },
+          {
+            "trigger": "Immediate purchase after trying free version that exceeds expectations",
+            "context": "Free trial evaluation"
+          },
+          {
+            "trigger": "Need to convert from specific competitor with known issues",
+            "context": "Switching from problematic competitor"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Software not working properly on supported systems despite meeting hardware requirements",
+            "severity": 0.95
+          },
+          {
+            "objection": "Critical data inaccuracies that could lead to financial/tax consequences",
+            "severity": 0.9
+          },
+          {
+            "objection": "Excessive learning curve for proprietary languages or complex interfaces",
+            "severity": 0.7
+          },
+          {
+            "objection": "Poor performance on large batch operations or resource-intensive tasks",
+            "severity": 0.75
+          },
+          {
+            "objection": "Lack of awareness or need to convince stakeholders about lesser-known tools",
+            "severity": 0.6
+          },
+          {
+            "objection": "Installation complexity with specific account or connectivity requirements",
+            "severity": 0.65
+          },
+          {
+            "objection": "Higher cost compared to alternatives with similar capabilities",
+            "severity": 0.55
+          },
+          {
+            "objection": "Lack of testing and slow bug fixes from development team",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Norton/eTrust/PC-cillin",
+            "reason": "Software taking over computer with unclosable windows during operations",
+            "threshold": "When it prevents working during scans/updates"
+          },
+          {
+            "from_product": "Current BI tools (Tableau, Power BI, Looker)",
+            "reason": "Finding tool with more complete feature set and dashboarding flexibility",
+            "threshold": "When evaluation shows clear advantage in capability and ease"
+          },
+          {
+            "from_product": "Sony Movie Studio 18",
+            "reason": "Constant errors and performance issues on 32-bit system",
+            "threshold": "When it fails to render/export properly despite meeting requirements"
+          },
+          {
+            "from_product": "Quicken Home and Business 2014",
+            "reason": "Incorrect totals, missing categories, and report errors",
+            "threshold": "When errors require converting data to Excel and amending tax returns"
+          },
+          {
+            "from_product": "Current video editing software",
+            "reason": "Finding alternative that works with 32-bit OS after bad experience",
+            "threshold": "When product fails despite meeting all requirements"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and accuracy of data/output",
+          "Performance and speed",
+          "Ease of use and learning curve",
+          "Compatibility with existing systems",
+          "Feature completeness",
+          "Cost-effectiveness",
+          "Support quality",
+          "Integration capabilities",
+          "Real-time functionality",
+          "Customization flexibility"
+        ],
+        "deal_breakers": [
+          "Critical data errors that require costly corrections",
+          "Software not working on stated compatible systems",
+          "Performance issues that prevent completion of work",
+          "Unacceptable learning curve for proprietary languages",
+          "Lack of real-time data updates in dashboards",
+          "Poor customer support and slow bug fixes"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Overly complex interfaces that hinder user efficiency",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Difficulty in extracting insights due to poor visualization or reporting tools",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Software instability or bugs that disrupt workflow",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poor integration or data linking with external systems",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "High learning curve or need for very specific command phrasing",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Inflexible or 'brain-dead' automated features that don't match user needs",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Intrusive ads or poor user experience design that impedes usage",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Lack of reliable customer support when issues arise",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Difficulty in collaborating or sharing data across accounts",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Performance issues or software bloat slowing down systems",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Ability to create custom reports and visualizations easily",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Real-time collaboration and data sharing capabilities",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Seamless integration with existing data warehouses and pipelines",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Self-service analytics for non-technical stakeholders",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Quick, actionable insights to drive business decisions (ROCK)",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Powerful AI features to speed up development and analysis",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Simple, intuitive interface requiring minimal training",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Reliable data tracking and automated updates",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Flexible workflow automation (app building)",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Advanced, interactive visualization for storytelling",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Dissatisfaction with current solution's user interface or complexity",
+            "context": "Upgrading from a competitor due to usability issues"
+          },
+          {
+            "trigger": "Need for more powerful analytics or visualization capabilities",
+            "context": "Business growth requiring better data insights"
+          },
+          {
+            "trigger": "Recommendation from experts or positive review ratings",
+            "context": "Professional validation influencing adoption"
+          },
+          {
+            "trigger": "Need for self-service analytics to reduce IT/analyst dependency",
+            "context": "Reducing backlog of data requests"
+          },
+          {
+            "trigger": "Desire for real-time collaboration features",
+            "context": "Team-based analytical projects"
+          },
+          {
+            "trigger": "Availability of AI or automation features",
+            "context": "Seeking efficiency gains"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Steep learning curve or need for specialized training",
+            "severity": 0.6
+          },
+          {
+            "objection": "High cost relative to perceived value",
+            "severity": 0.5
+          },
+          {
+            "objection": "Integration challenges with existing systems",
+            "severity": 0.8
+          },
+          {
+            "objection": "Unreliable or buggy software requiring constant workarounds",
+            "severity": 0.9
+          },
+          {
+            "objection": "Limited visualization or formatting options",
+            "severity": 0.6
+          },
+          {
+            "objection": "Poor customer support experience",
+            "severity": 0.8
+          },
+          {
+            "objection": "Data privacy or security concerns with cloud-based tools",
+            "severity": 0.5
+          },
+          {
+            "objection": "Lack of customization for specific workflows",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Weather Channel app",
+            "reason": "Poor user experience after update",
+            "threshold": "UI became very difficult to operate"
+          },
+          {
+            "from_product": "Norton/McAfee",
+            "reason": "Interferes with other programs or performance",
+            "threshold": "Disruption to daily tasks"
+          },
+          {
+            "from_product": "PowerBI/Tableau",
+            "reason": "Need more flexibility, ease of use, or specific features",
+            "threshold": "Seeking simpler pivot tables, better cloud integration, or specific viz capabilities"
+          },
+          {
+            "from_product": "Excel",
+            "reason": "Need for automated tracking and integrated analytics",
+            "threshold": "Manual processes becoming too cumbersome"
+          },
+          {
+            "from_product": "Looker",
+            "reason": "Post-acquisition changes or restrictions",
+            "threshold": "Product perceived as crippled by new owner"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Ease of use and user-friendly interface",
+          "Integration capabilities with existing data infrastructure",
+          "Ability to handle large datasets efficiently",
+          "Flexibility and customizability of reports/analytics",
+          "Quality of visualization and data presentation",
+          "Automation and workflow enhancement features",
+          "Reliability and stability of the software",
+          "Quality of customer support",
+          "Cost-effectiveness"
+        ],
+        "deal_breakers": [
+          "Critical bugs that prevent core functionality",
+          "Poor integration with key data sources",
+          "Excessively complex or unintuitive interface",
+          "Inability to support self-service analytics",
+          "Unreliable data updates or sync"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Difficulty accessing technical support and reporting bugs (no chat, phone, useful knowledgebase)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Software stability issues (crashes, credential loss, sound problems, inconsistent performance across devices)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Time-consuming manual configuration and performance tuning required",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "High cost with perceived low value (annual fees, upgrade pricing without significant improvements)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Poor user experience and clunky interfaces",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Product bloat and unnecessary features complicating core functionality",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Limited mobile/tablet capabilities compared to desktop versions",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Complex licensing models (per rule set, per add-on) and restrictive DRM",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Lag time or inefficiency compared to simpler alternatives",
+            "emotional_intensity": 0.4
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Automated performance tuning and optimization to reduce manual configuration",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Efficient, reliable data analysis and insight generation to drive business decisions",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Faster, more accurate SQL/Python/DAX code generation with alternative solutions",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Comprehensive tracking and monitoring of metrics (finances, shipments, equipment, health)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Seamless integration and data migration between systems",
+            "priority": 0.7
+          },
+          {
+            "outcome": "User-friendly interfaces that enable non-technical stakeholders to participate",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Clear, defensible insights from messy or partially understood datasets",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to run Windows applications on Mac systems",
+            "context": "Business professionals requiring cross-platform compatibility"
+          },
+          {
+            "trigger": "Requirement to generate complex characters/NPCs quickly for game mastering",
+            "context": "RPG enthusiasts writing custom adventures"
+          },
+          {
+            "trigger": "Tracking numerous shipments or financial accounts in one place",
+            "context": "Managing multiple data streams for oversight"
+          },
+          {
+            "trigger": "Assistance with statistical analysis, predictive modeling, or data transformation",
+            "context": "Data-driven decision-making tasks"
+          },
+          {
+            "trigger": "Desire for automated report building, documentation, and data visualization",
+            "context": "Streamlining BI and analytics workflows"
+          },
+          {
+            "trigger": "Monitoring medication interactions or equipment status",
+            "context": "Health or asset management needs"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Poor or inaccessible customer support for issue resolution",
+            "severity": 0.9
+          },
+          {
+            "objection": "High cost relative to value, especially with subscription/annual fees",
+            "severity": 0.8
+          },
+          {
+            "objection": "Software instability, bugs, and inconsistent performance",
+            "severity": 0.8
+          },
+          {
+            "objection": "Overly complex licensing and additional costs for core features",
+            "severity": 0.7
+          },
+          {
+            "objection": "Lack of innovation or meaningful improvements in new versions",
+            "severity": 0.6
+          },
+          {
+            "objection": "Limited mobile functionality and poor cross-device experience",
+            "severity": 0.5
+          },
+          {
+            "objection": "Better free or lower-cost alternatives available (e.g., Mint for financial tracking)",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Parallels Desktop",
+            "reason": "Persistent bugs and lack of support making it unreliable",
+            "threshold": "Critical workflows disrupted regularly"
+          },
+          {
+            "from_product": "Quicken",
+            "reason": "Excessive cost, bloat, and lack of innovation compared to free alternatives",
+            "threshold": "Value no longer justifies price"
+          },
+          {
+            "from_product": "Legacy VHS-to-DVD converters",
+            "reason": "Buggy software and availability of newer, better products",
+            "threshold": "Time wasted outweighs benefits"
+          },
+          {
+            "from_product": "Manual data analysis methods",
+            "reason": "AI tools significantly speed up insight generation and reduce friction",
+            "threshold": "Efficiency gains become clear and reproducible"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and stability",
+          "Cost vs. value",
+          "Ease of use and automation",
+          "Quality of customer support",
+          "Feature set and customization",
+          "Integration and compatibility",
+          "Innovation and updates"
+        ],
+        "deal_breakers": [
+          "Unreliable software with constant crashes",
+          "No accessible customer support",
+          "Prohibitively high cost with low ROI",
+          "Lack of core functionality needed for key tasks"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.5,
+      "reddit": 0.5,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "AI tools make mistakes (coding errors, math errors, factual errors) that require manual review to catch",
+          "count": 1,
+          "frequency": 0.0018,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0055
+        },
+        {
+          "signal": "Non-deterministic AI outputs that are unpredictable and lack traceability",
+          "count": 1,
+          "frequency": 0.0018,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0056
+        },
+        {
+          "signal": "Software taxing system resources excessively (high CPU/memory usage during normal operation)",
+          "count": 1,
+          "frequency": 0.0018,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0055
+        },
+        {
+          "signal": "AI hallucinations and made-up outputs that undermine trust",
+          "count": 1,
+          "frequency": 0.0018,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0055
+        },
+        {
+          "signal": "Poor software interoperability and format compatibility issues",
+          "count": 1,
+          "frequency": 0.0018,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0055
+        },
+        {
+          "signal": "Software with steep learning curves that requires external resources (books, tutorials) to master",
+          "count": 1,
+          "frequency": 0.0018,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0055
+        },
+        {
+          "signal": "Difficulty interpreting ambiguous or vague user requirements",
+          "count": 1,
+          "frequency": 0.0018,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0055
+        },
+        {
+          "signal": "Silent errors compounding when agents feed agents without proper traceability",
+          "count": 1,
+          "frequency": 0.0018,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0055
+        },
+        {
+          "signal": "Misinterpretations and mistakes by AI agents that require expert oversight to catch",
+          "count": 1,
+          "frequency": 0.0018,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0055
+        },
+        {
+          "signal": "Lack of foundational data competencies and semantic layer at companies, blocking effective AI agent deployment",
+          "count": 1,
+          "frequency": 0.0018,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0055
+        },
+        {
+          "signal": "Clients replacing consultation contracts with AI without proper preparation, leading to lost business",
+          "count": 1,
+          "frequency": 0.0018,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0055
+        },
+        {
+          "signal": "AI suggesting overly complex solutions when simpler methods exist",
+          "count": 1,
+          "frequency": 0.0018,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0055
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "AI as a productivity booster (junior analyst) that speeds up work while maintaining quality",
+          "count": 1,
+          "frequency": 0.002,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0061
+        },
+        {
+          "signal": "Reliable, deterministic software that produces consistent results every time",
+          "count": 1,
+          "frequency": 0.002,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0061
+        },
+        {
+          "signal": "Easy-to-use software interfaces with straightforward workflows",
+          "count": 1,
+          "frequency": 0.002,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0061
+        },
+        {
+          "signal": "Software that runs efficiently without excessive resource consumption",
+          "count": 1,
+          "frequency": 0.002,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0061
+        },
+        {
+          "signal": "Clear visibility into software processes and data transformations",
+          "count": 1,
+          "frequency": 0.002,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0061
+        },
+        {
+          "signal": "Good value proposition - software that delivers results worth the cost",
+          "count": 1,
+          "frequency": 0.002,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0061
+        },
+        {
+          "signal": "Automated, accurate root-cause analysis for business metric changes (e.g., forecast drops, conversion slowdowns)",
+          "count": 1,
+          "frequency": 0.002,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0061
+        },
+        {
+          "signal": "AI agents that can handle complex tasks like building product roadmaps and presentations from raw data",
+          "count": 1,
+          "frequency": 0.002,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0061
+        },
+        {
+          "signal": "Non-technical users able to query data in plain English with reliable, precise results",
+          "count": 1,
+          "frequency": 0.002,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0061
+        },
+        {
+          "signal": "Clear traceability and auditable pipelines to diagnose failures and improve processes",
+          "count": 1,
+          "frequency": 0.002,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0061
+        },
+        {
+          "signal": "Bridging communication gaps between business/clinical SMEs and technical teams via AI",
+          "count": 1,
+          "frequency": 0.002,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0061
+        },
+        {
+          "signal": "Scalable, enterprise-ready AI BI agents that work with messy, real-world data",
+          "count": 1,
+          "frequency": 0.002,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0061
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Poor data security practices",
+          "count": 2,
+          "frequency": 0.0065,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0161
+        },
+        {
+          "signal": "Frequent crashes or instability",
+          "count": 2,
+          "frequency": 0.0065,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0161
+        },
+        {
+          "signal": "Unreliable core functionality",
+          "count": 2,
+          "frequency": 0.0065,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0161
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Previous positive experience with the brand/product line",
+          "count": 1,
+          "frequency": 0.0032,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0095
+        },
+        {
+          "signal": "Need to solve a specific, immediate problem (one-time use case)",
+          "count": 1,
+          "frequency": 0.0032,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0095
+        },
+        {
+          "signal": "Software offering good interoperability with existing hardware/software",
+          "count": 1,
+          "frequency": 0.0032,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0095
+        },
+        {
+          "signal": "Previous product issues driving search for better solution",
+          "count": 1,
+          "frequency": 0.0032,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0095
+        },
+        {
+          "signal": "Recurring ad-hoc reporting requests that dashboards cannot answer",
+          "count": 1,
+          "frequency": 0.0032,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0095
+        },
+        {
+          "signal": "Need to automate complex data tasks (e.g., Jira scraping, presentation generation)",
+          "count": 1,
+          "frequency": 0.0032,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0095
+        },
+        {
+          "signal": "Desire to reduce dependency on human analysts for routine data inquiries",
+          "count": 1,
+          "frequency": 0.0032,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0095
+        },
+        {
+          "signal": "Availability of advanced, paid AI models with improved traceability and reliability",
+          "count": 1,
+          "frequency": 0.0032,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0095
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "low": 0.571,
+        "medium": 0.429
+      }
+    }
+  },
+  "cluster_1": {
+    "member_count": 29,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "App/UI not working or buggy (gets stuck, doesn't refresh, shows errors)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Missing real-time or current-day data",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "UI/UX is cluttered, ugly, or a step backwards",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Lack of features or too basic",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Platform is difficult to understand or set up (feels like 'written in code')",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poor or non-existent customer support",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Forced updates to disliked versions",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Missing specific data coverage (e.g., stocks from certain countries)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Intrusive ads with audio",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Monitor website/ads performance on the go (mobile convenience)",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Easy to use and navigate interface",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Access to real-time and current-day data",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Simple, understandable data presentation",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Ability to create custom reports/dashboards easily",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Quick, at-a-glance overview (heat map, widget)",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Reliable, accurate, and working app",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Good value (free/low cost with great features)",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Reduces need to use desktop/computer for monitoring",
+            "context": "Mobile-first workflow"
+          },
+          {
+            "trigger": "Provides essential features for free, prompting consideration of paid version",
+            "context": "Free tier demonstrates value"
+          },
+          {
+            "trigger": "Offers unique mobile-specific features or data views not on desktop",
+            "context": "Feature discovery on mobile"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product is buggy, unreliable, or doesn't work",
+            "severity": 0.95
+          },
+          {
+            "objection": "UI/UX is poor, cluttered, or difficult",
+            "severity": 0.85
+          },
+          {
+            "objection": "Lacks critical features or data (real-time, specific regions)",
+            "severity": 0.8
+          },
+          {
+            "objection": "Platform is too complex or hard to understand",
+            "severity": 0.75
+          },
+          {
+            "objection": "No customer support",
+            "severity": 0.9
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Google Analytics",
+            "reason": "UI/UX degraded after update (ugly, cluttered)",
+            "threshold": "Forced update to disliked version"
+          },
+          {
+            "from_product": "Google Analytics",
+            "reason": "Found better, easier-to-understand platform (Yandex Metrica)",
+            "threshold": "Realization of superior competitor usability"
+          },
+          {
+            "from_product": "Google Analytics",
+            "reason": "App/website not working, inaccurate data, no support",
+            "threshold": "Chronic unreliability with no resolution"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability (app works, data is accurate)",
+          "Ease of use / UI simplicity",
+          "Mobile convenience / access on the go",
+          "Cost (value, free features)",
+          "Data comprehensibility",
+          "Real-time/current data access",
+          "Customization (dashboards, reports)",
+          "Feature depth vs. desktop"
+        ],
+        "deal_breakers": [
+          "App/software consistently buggy or broken",
+          "Complete lack of customer support",
+          "Forced adoption of a severely degraded UI/UX",
+          "Missing critical real-time or current data"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Removal of critical data (organic keywords, detailed traffic sources, real-time traffic source visibility)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Loss of core functionality and data accessibility (real-time user page views, date comparison, actual numbers vs percentages)",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Unusable reporting due to bugs (data doesn't refresh, wrong dates/currencies, graph display issues)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Degraded user interface (cluttered, confusing navigation, poor mobile UX, unprofessional look)",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Unreliable data accuracy (page views inaccurate, data mismatches between app/desktop, conversion over-reporting)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Deletion/loss of user-created dashboards and settings after updates",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Extreme slowness and timeouts in loading views",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Inability to set up or link the app (registration, OTP, geo-restrictions)",
+            "emotional_intensity": 0.65
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Access to detailed, accurate behavioral data (traffic sources, real-time numbers, page-level stats)",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Reliable, real-time analytics that refresh correctly and show accurate data",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Intuitive, professional UI that simplifies navigation and data visualization",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Preservation of user settings and dashboards across updates",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Feature parity with desktop version (date comparison, reporting flexibility, data sharing)",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Responsive, stable app performance with fast load times",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Critical functionality loss in current tool (e.g., real-time data, key metrics)",
+            "context": "Migration from legacy system after forced update (GA4 transition)"
+          },
+          {
+            "trigger": "Need for accurate, actionable data to manage business performance",
+            "context": "Business depends on web analytics for decisions and client reporting"
+          },
+          {
+            "trigger": "Requirement for mobile accessibility to reference data in meetings or on-the-go",
+            "context": "Professional needing quick data access away from desktop"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product complexity and steep learning curve reduce efficiency",
+            "severity": 0.75
+          },
+          {
+            "objection": "Liability and opacity in data reporting (over-reporting, data obfuscation)",
+            "severity": 0.7
+          },
+          {
+            "objection": "Poor support and lack of responsiveness to user feedback",
+            "severity": 0.65
+          },
+          {
+            "objection": "Geographic or technical restrictions limiting accessibility",
+            "severity": 0.6
+          },
+          {
+            "objection": "High cost relative to value, especially compared to simpler alternatives",
+            "severity": 0.55
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Google Analytics (GA4 app)",
+            "reason": "Loss of real-time, accurate analytics and core reporting features",
+            "threshold": "After repeated failed updates and inability to perform essential business tasks"
+          },
+          {
+            "from_product": "Google Analytics (GA4 app)",
+            "reason": "Unreliable data and persistent bugs affecting decision-making",
+            "threshold": "When data inaccuracies and refresh issues impact business operations"
+          },
+          {
+            "from_product": "Google Ads/Analytics",
+            "reason": "Extreme complexity and over-reporting, with better ROI from simpler tools",
+            "threshold": "When cost and complexity outweigh benefits, and alternatives offer clearer value"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Data Accuracy and Reliability",
+          "Real-time Analytics Access",
+          "Ease of Use and Intuitive UI",
+          "Feature Completeness (vs. Desktop)",
+          "Performance and Speed",
+          "Stability Across Updates",
+          "Cost vs. Value"
+        ],
+        "deal_breakers": [
+          "Irrevocable loss of critical data sources",
+          "Persistent, unaddressed bugs breaking core functionality",
+          "Inability to access real-time or accurate data for decision-making"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Sudden authentication/sign-in failures that persist after reinstallation",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Data inaccuracy or discrepancies (e.g., inflated metrics, mismatched desktop/mobile numbers)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Critical app breaking after an update (data not loading, UI broken, features missing)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Poor or non-existent customer support and lack of response to feedback",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Reduction or removal of crucial data features (e.g., detailed traffic sources, keywords)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "UI/UX changes that make information harder to perceive and workflows less efficient",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Forced, unexplained updates and lack of transparency about changes",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Lack of customization options (e.g., can't remove floating button, no widgets, no shortcuts)",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable, always-accessible access to accurate, real-time behavioral data on mobile",
+            "priority": 1.0
+          },
+          {
+            "outcome": "Data consistency and accuracy across mobile app, desktop, and third-party platforms",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Transparent communication about updates and data feature changes",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Responsive, helpful customer support for business-critical issues",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Intuitive, efficient UI that makes key metrics easy to view and act upon quickly",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Greater customization of dashboards, alerts, and shortcuts for specific monitoring needs",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Retention of detailed data insights (traffic sources, queries) for business decisions",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to monitor website/ads performance anytime, anywhere without a laptop",
+            "context": "Mentioned as a key reason for using the mobile app for convenience and time-saving"
+          },
+          {
+            "trigger": "Requirement for quick, actionable insights to drive business decisions",
+            "context": "Implied by the professional focus on tracking behavioral data for business outcomes"
+          },
+          {
+            "trigger": "Positive initial setup experience leading to valuable data visibility",
+            "context": "Positive reviews highlight ease after correct setup and personalized dashboards"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Data provided by the app is inaccurate or unreliable for business decisions",
+            "severity": 0.95
+          },
+          {
+            "objection": "The app is unstable; frequent updates break core functionality without warning",
+            "severity": 0.9
+          },
+          {
+            "objection": "Lack of support and communication from the provider when critical issues arise",
+            "severity": 0.85
+          },
+          {
+            "objection": "Key analytical features have been removed, reducing the tool's value",
+            "severity": 0.8
+          },
+          {
+            "objection": "The mobile interface is less usable than the desktop version, defeating its purpose",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Mobile App",
+            "reason": "Persistent, unresolved authentication or data-loading failures",
+            "threshold": "App becomes completely unusable for accessing data"
+          },
+          {
+            "from_product": "Mobile App",
+            "reason": "Chronic data inaccuracy undermining trust in insights",
+            "threshold": "Discrepancy is large and consistent, making data unreliable for decisions"
+          },
+          {
+            "from_product": "Mobile App",
+            "reason": "Degraded user experience making mobile access less efficient than desktop",
+            "threshold": "Preferring to use laptop due to poor mobile UI/UX"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Data Accuracy & Reliability",
+          "App Stability & Uptime",
+          "Ease of Access & Usability (Mobile)",
+          "Depth & Detail of Insights",
+          "Responsiveness of Support",
+          "Customization Options"
+        ],
+        "deal_breakers": [
+          "Persistent inability to access data due to app failures",
+          "Systematic inaccuracy in core metrics that misleads business decisions",
+          "Complete lack of response from support on critical, widespread issues"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Missing core historical data comparison features (e.g., compare date ranges, hour-by-hour view)",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Real-time/live data inaccuracy or complete absence (shows 0 users, delayed updates)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Loss of customized dashboards/settings after updates",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Severely degraded UI/UX causing confusion and visual strain",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Inability to segment or filter data on mobile",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Poor or non-existent customer support (no response to issues)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Forced migration to new version (GA4) with missing data and empty default reports",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Login/authentication failures preventing access",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Inability to switch between Google Analytics accounts or access Admin features in-app",
+            "emotional_intensity": 0.65
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Accurate, reliable real-time data for immediate monitoring",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Ability to quickly compare data across date ranges and time periods",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Intuitive, user-friendly interface for easy data understanding",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Customizable dashboards that persist across updates",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Mobile access to essential segmentation and key metrics",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Clear, actionable insights without excessive setup",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Ability to monitor website health and traffic sources remotely",
+            "context": "When away from desktop, needing quick glance at metrics"
+          },
+          {
+            "trigger": "Integration with other apps and enhanced tracking for comprehensive analytics",
+            "context": "When seeking a unified, advanced tracking solution"
+          },
+          {
+            "trigger": "Guided, easy-to-use approach simplifying complex data",
+            "context": "When starting out or needing streamlined access to key stats"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "New versions remove critical features, making the app useless for core tasks",
+            "severity": 0.9
+          },
+          {
+            "objection": "Data inaccuracies (e.g., real-time mismatches, currency switches) undermine trust",
+            "severity": 0.95
+          },
+          {
+            "objection": "Poor support responsiveness leaves issues unresolved for weeks",
+            "severity": 0.85
+          },
+          {
+            "objection": "Overly complex UI that hinders rather than helps",
+            "severity": 0.8
+          },
+          {
+            "objection": "Forced migration to half-baked new systems (like GA4) with empty defaults",
+            "severity": 0.9
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Google Analytics app",
+            "reason": "Loss of real-time data and comparison features after update",
+            "threshold": "When app becomes 'pretty much useless' for daily monitoring"
+          },
+          {
+            "from_product": "Google Analytics app",
+            "reason": "Persistent login failures and no support response",
+            "threshold": "After weeks of inability to access data"
+          },
+          {
+            "from_product": "Google Analytics (free version)",
+            "reason": "Data inaccuracy and lack of real-time reliability",
+            "threshold": "When paid alternative (e.g., GoSquared) offers 100% accuracy"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Data accuracy and reliability",
+          "Real-time data availability",
+          "Ease of use / intuitive UI",
+          "Feature stability across updates",
+          "Customer support responsiveness",
+          "Customization and dashboard control",
+          "Ability to segment and compare data"
+        ],
+        "deal_breakers": [
+          "Complete loss of real-time or live data",
+          "Critical features removed without warning (e.g., date comparison)",
+          "Persistent login/access failures with no fix",
+          "No response from support on broken functionality",
+          "Data inaccuracies that invalidate trust"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Buggy and unreliable software with sporadic performance",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Frustration with forced updates that introduce crashes and instability",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Poor customer support with slow or ineffective resolutions",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Incompatibility issues between software/hardware causing crashes",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Confusing or misleading UI/ads that hinder functionality",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Performance degradation on newer systems despite high-end hardware",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Being forced to pay for upgrades for basic compatibility (e.g., HD video import)",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Difficulty getting stakeholders to articulate clear dashboard requirements",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Building complex dashboards that go unused, wasting time and resources",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Software being resource-heavy and slowing down systems",
+            "emotional_intensity": 0.55
+          },
+          {
+            "signal": "Lack of exportable, robust data for deeper analysis",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Being excluded from direct communication with end-users when building tools",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Corporate pressure for shiny dashboards over practical, actionable reports",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable, bug-free software that works consistently",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Fast, efficient performance even on older hardware",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Clear, actionable data to drive business decisions",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Simple, automated reports over complex dashboards when appropriate",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Easy setup, modification, and bulletproof operation",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Accessible and responsive customer support",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Seamless compatibility across platforms and with other software",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Cost-effective pricing with competitive value",
+            "priority": 0.65
+          },
+          {
+            "outcome": "User-friendly interface with a reasonable learning curve",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Ability to export data for further ad-hoc analysis",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Alerts or notifications when metrics exceed/fall below goals",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Tool that saves time and reduces workload rather than increasing it",
+            "priority": 0.75
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to use specific Windows-only software on Mac via virtualization",
+            "context": "Professional requirement for cross-platform compatibility"
+          },
+          {
+            "trigger": "Forced upgrade to access new features like HD video import",
+            "context": "Hardware/format compatibility necessity"
+          },
+          {
+            "trigger": "Replacing a buggy, slow, or unreliable alternative",
+            "context": "Frustration with current tool's performance"
+          },
+          {
+            "trigger": "Lack of better alternatives in the market",
+            "context": "Limited options despite poor reviews"
+          },
+          {
+            "trigger": "Recommendation from peers or positive word-of-mouth",
+            "context": "Trust in community feedback"
+          },
+          {
+            "trigger": "Competitive pricing and good value proposition",
+            "context": "Cost-conscious purchasing decision"
+          },
+          {
+            "trigger": "Need to visualize or plan projects (e.g., home renovation)",
+            "context": "Specific project requirement"
+          },
+          {
+            "trigger": "Requirement to track and analyze behavioral data for business outcomes",
+            "context": "Professional role demands"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Software is too buggy and unreliable for professional use",
+            "severity": 0.9
+          },
+          {
+            "objection": "Poor customer support and slow issue resolution",
+            "severity": 0.85
+          },
+          {
+            "objection": "Forced upgrades or updates that break functionality",
+            "severity": 0.8
+          },
+          {
+            "objection": "High resource usage leading to system slowdowns",
+            "severity": 0.7
+          },
+          {
+            "objection": "Incompatibility with other software or hardware",
+            "severity": 0.75
+          },
+          {
+            "objection": "Confusing UI or intrusive ads that hinder experience",
+            "severity": 0.6
+          },
+          {
+            "objection": "Steep learning curve and lack of user-friendly design",
+            "severity": 0.5
+          },
+          {
+            "objection": "Tools are built without clear requirements, leading to waste",
+            "severity": 0.65
+          },
+          {
+            "objection": "Pressure to build dashboards over practical reports",
+            "severity": 0.55
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Parallels",
+            "reason": "Weird problems and loss of virtual machine in newer versions",
+            "threshold": "Persistent reliability issues after version upgrade"
+          },
+          {
+            "from_product": "Aperture",
+            "reason": "Bugs, crashes, and data loss with large libraries",
+            "threshold": "Unusable for professional photo management"
+          },
+          {
+            "from_product": "Pinnacle",
+            "reason": "Slower and more buggy performance",
+            "threshold": "Found faster, less buggy alternative"
+          },
+          {
+            "from_product": "Speed Your Read",
+            "reason": "Major timing issues on Windows 7 vs. XP",
+            "threshold": "Performance degradation on newer OS with no support response"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and bug-free performance",
+          "Ability to drive business decisions with clear data",
+          "Ease of use and setup",
+          "Compatibility with other software/hardware",
+          "Cost-effectiveness and pricing",
+          "Customer support quality",
+          "Performance efficiency on system resources",
+          "Learning curve and user-friendliness"
+        ],
+        "deal_breakers": [
+          "Software crashes or loses data consistently",
+          "Customer support is unresponsive or ineffective",
+          "Forced updates that break core functionality",
+          "Incompatibility with required platforms or tools",
+          "Extreme resource usage that cripples system performance"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.501,
+      "reddit": 0.499,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Poor or non-existent customer support",
+          "count": 3,
+          "frequency": 0.0123,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0288
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Maintain privacy and security from hackers",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0144
+        },
+        {
+          "signal": "Product works reliably without crashing",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0144
+        },
+        {
+          "signal": "Ability to binge-watch content (not just live)",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0144
+        },
+        {
+          "signal": "Build a robust CV for health data science career",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0144
+        },
+        {
+          "signal": "Master new features incrementally",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0144
+        },
+        {
+          "signal": "Edit PDFs and manipulate documents digitally",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0144
+        },
+        {
+          "signal": "Ability to analyze data efficiently across large datasets",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0144
+        },
+        {
+          "signal": "Track employee time and billing with comprehensive reports",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0144
+        },
+        {
+          "signal": "Shift roles from content marketing to marketing analytics",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0144
+        },
+        {
+          "signal": "Have time for personal development on the clock",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0144
+        },
+        {
+          "signal": "Reliable tools that work consistently without technical failures",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0144
+        },
+        {
+          "signal": "Detailed reporting and analytics capabilities for informed decision-making",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0144
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Unreliable performance or frequent crashes",
+          "count": 2,
+          "frequency": 0.0163,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0407
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Need to conceal online privacy",
+          "count": 1,
+          "frequency": 0.0085,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0254
+        },
+        {
+          "signal": "App promising specific functionality (e.g., photo to sketch)",
+          "count": 1,
+          "frequency": 0.0085,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0339
+        },
+        {
+          "signal": "Replace cable for binge-watching specific seasons",
+          "count": 1,
+          "frequency": 0.0085,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0254
+        },
+        {
+          "signal": "Career advancement in data science",
+          "count": 1,
+          "frequency": 0.0085,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0254
+        },
+        {
+          "signal": "Need for advanced features over basic version",
+          "count": 1,
+          "frequency": 0.0085,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0254
+        },
+        {
+          "signal": "Ability to edit previously unchangeable documents",
+          "count": 1,
+          "frequency": 0.0085,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0339
+        },
+        {
+          "signal": "Tracking employee time and billing",
+          "count": 1,
+          "frequency": 0.0085,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0254
+        },
+        {
+          "signal": "Handling analytics projects in current role",
+          "count": 1,
+          "frequency": 0.0085,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0254
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "medium": 0.207,
+        "low": 0.793
+      }
+    }
+  },
+  "cluster_2": {
+    "member_count": 2,
+    "representative_batches": [
+      {
+        "signals": [
+          {
+            "signal_name": "string",
+            "evidence": [
+              "string"
+            ],
+            "confidence": "number"
+          }
+        ],
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "signals": [
+          {
+            "signal_name": "Efficiency and Time Savings",
+            "evidence": [
+              "Love this. Not the sexiest thing in the world but saving someone in your org multiple weeks of manual work is an awesome efficiency win.",
+              "I bought Laplink to move all my programs and files from the desktop to a new laptop as a way to have a ready to use backup. I used the special 'ethernet' cable and the transfer went very smoothly."
+            ]
+          },
+          {
+            "signal_name": "Data Accuracy and Reliability",
+            "evidence": [
+              "Human consumers want to see agreed upon metrics that is accurate and is directly correlated with health of biz.",
+              "Second thing is accuracy once you have decided metric you dont want non-deterministic agent in loop you want repeatable process which you can rely upon."
+            ]
+          },
+          {
+            "signal_name": "Integration and Workflow Compatibility",
+            "evidence": [
+              "I used Laplink again to move those and had good help from Laplink Customer Service in making it happen.",
+              "I haven't opened all of the devices (I haven't earned enough), but I wish it had a little history with it to round it out."
+            ]
+          },
+          {
+            "signal_name": "Actionable Insights and Reporting",
+            "evidence": [
+              "You can create lots of reports, but no way to see how your budget is faring on the income end and if you have irregular income, it's not very useful at all.",
+              "While reports seem to be correct when I create them, the display of the rents paid year-to-date when using the 'Rent Center' always shows 0 for all properties."
+            ]
+          },
+          {
+            "signal_name": "Usability and Learning Curve",
+            "evidence": [
+              "This is not organized well, difficult to use and doesn't do what I want it to.",
+              "What makes this excellent is that it has 3 different levels. Easy is easy, and so forth."
+            ]
+          },
+          {
+            "signal_name": "Data Security and Privacy",
+            "evidence": [
+              "I have kept the laptop current and updated since and lived with peace of mind.",
+              "I bought Laplink to move all my programs and files from the desktop to a new laptop as a way to have a ready to use backup."
+            ]
+          },
+          {
+            "signal_name": "Scalability and Performance",
+            "evidence": [
+              "I used the special 'ethernet' cable and the transfer went very smoothly.",
+              "I used Laplink again to move those and had good help from Laplink Customer Service in making it happen."
+            ]
+          },
+          {
+            "signal_name": "Customization and Flexibility",
+            "evidence": [
+              "You have to create the categories yourself and they may or may not 'ask' you if this is a category to flag for taxes.",
+              "I wish it was better with dealing with budgetting and with income."
+            ]
+          },
+          {
+            "signal_name": "Collaboration and Sharing",
+            "evidence": [
+              "Honestly it\u2019s one of my favorite parts of my job - when I get to create a tool that makes part of someone\u2019s job way easier, I can feel the gratitude and appreciation and it makes my day.",
+              "This should be in each geography class."
+            ]
+          },
+          {
+            "signal_name": "Predictive and Prescriptive Analytics",
+            "evidence": [
+              "I wish it was better with dealing with budgetting and with income.",
+              "I wish it had a little history with it to round it out."
+            ]
+          }
+        ],
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.5,
+      "reddit": 0.5,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [],
+      "top_desired_outcomes": [],
+      "top_deal_breakers": [],
+      "top_purchase_triggers": [],
+      "dominant_friction_tolerance": "medium",
+      "friction_tolerance_distribution": {
+        "medium": 1.0
+      }
+    }
+  }
+}

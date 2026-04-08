@@ -1,0 +1,565 @@
+{
+  "products": [
+    {
+      "name": "Miro Online Whiteboard Annual Subscription",
+      "category": "Software",
+      "accuracy": 0.95,
+      "review_keywords": [
+        "collaboration",
+        "team",
+        "brainstorming",
+        "remote",
+        "wireframes",
+        "design sprint",
+        "templates",
+        "user journey"
+      ],
+      "context_keywords": [
+        "sprint planning",
+        "stakeholder review",
+        "design handoff",
+        "iteration"
+      ],
+      "exclusion_keywords": [
+        "teaching",
+        "student"
+      ],
+      "why": "Product managers and UX designers buy this for team collaboration and design workflows"
+    },
+    {
+      "name": "Notion Personal Pro Annual Plan",
+      "category": "Software",
+      "accuracy": 0.94,
+      "review_keywords": [
+        "product roadmap",
+        "documentation",
+        "team workspace",
+        "project tracking",
+        "requirements",
+        "templates",
+        "integration"
+      ],
+      "context_keywords": [
+        "sprint planning",
+        "feature specs",
+        "team alignment"
+      ],
+      "exclusion_keywords": [
+        "homework",
+        "classroom"
+      ],
+      "why": "Product managers and designers use Notion for project documentation and team coordination"
+    },
+    {
+      "name": "Slack Pro Plan Team Subscription",
+      "category": "Software",
+      "accuracy": 0.93,
+      "review_keywords": [
+        "team communication",
+        "channels",
+        "integration",
+        "workflow",
+        "notifications",
+        "file sharing",
+        "search"
+      ],
+      "context_keywords": [
+        "standup",
+        "deployment",
+        "design review"
+      ],
+      "exclusion_keywords": [
+        "family",
+        "personal"
+      ],
+      "why": "Tech teams purchase Slack for internal communication and workflow management"
+    },
+    {
+      "name": "Figma Professional Team Plan",
+      "category": "Software",
+      "accuracy": 0.92,
+      "review_keywords": [
+        "design collaboration",
+        "prototyping",
+        "handoff",
+        "version control",
+        "components",
+        "team library"
+      ],
+      "context_keywords": [
+        "design system",
+        "developer handoff",
+        "user testing"
+      ],
+      "exclusion_keywords": [
+        "portfolio",
+        "freelance"
+      ],
+      "why": "Product design teams buy Figma for collaborative interface design and prototyping"
+    },
+    {
+      "name": "LG 27UK850-W 27-Inch 4K USB-C Monitor",
+      "category": "Electronics",
+      "accuracy": 0.91,
+      "review_keywords": [
+        "dual monitor",
+        "design work",
+        "color accuracy",
+        "USB-C",
+        "productivity",
+        "screen real estate"
+      ],
+      "context_keywords": [
+        "code review",
+        "design mockups",
+        "multiple windows"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "entertainment"
+      ],
+      "why": "Product managers and designers need high-quality monitors for detailed design work and multitasking"
+    },
+    {
+      "name": "Logitech MX Master 3S Wireless Mouse",
+      "category": "Electronics",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "precision",
+        "productivity",
+        "workflow",
+        "customizable",
+        "multi-device",
+        "ergonomic",
+        "design"
+      ],
+      "context_keywords": [
+        "CAD work",
+        "wireframing",
+        "long sessions"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "casual"
+      ],
+      "why": "Design professionals purchase this mouse for precise work across design tools and applications"
+    },
+    {
+      "name": "Rocketbook Smart Reusable Notebook",
+      "category": "Office_Products",
+      "accuracy": 0.89,
+      "review_keywords": [
+        "whiteboarding",
+        "meeting notes",
+        "digital sync",
+        "reusable",
+        "collaboration",
+        "sketching"
+      ],
+      "context_keywords": [
+        "sprint planning",
+        "user flows",
+        "ideation"
+      ],
+      "exclusion_keywords": [
+        "school",
+        "homework"
+      ],
+      "why": "Product team members use this for note-taking and sketching that syncs with digital tools"
+    },
+    {
+      "name": "Shure SM7B Cardioid Dynamic Microphone",
+      "category": "Electronics",
+      "accuracy": 0.88,
+      "review_keywords": [
+        "podcast quality",
+        "user interviews",
+        "research calls",
+        "professional audio",
+        "noise rejection"
+      ],
+      "context_keywords": [
+        "user research",
+        "stakeholder interviews",
+        "remote calls"
+      ],
+      "exclusion_keywords": [
+        "streaming",
+        "music"
+      ],
+      "why": "UX researchers and product managers buy this for conducting high-quality user interviews"
+    },
+    {
+      "name": "Herman Miller Aeron Ergonomic Office Chair",
+      "category": "Home_and_Kitchen",
+      "accuracy": 0.87,
+      "review_keywords": [
+        "long hours",
+        "ergonomic",
+        "back support",
+        "productivity",
+        "investment",
+        "professional"
+      ],
+      "context_keywords": [
+        "remote work",
+        "home office",
+        "design sessions"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "budget"
+      ],
+      "why": "Product professionals invest in ergonomic seating for long design and development sessions"
+    },
+    {
+      "name": "Apple iPad Pro 12.9-inch with Apple Pencil",
+      "category": "Electronics",
+      "accuracy": 0.86,
+      "review_keywords": [
+        "wireframing",
+        "sketching",
+        "design review",
+        "portable",
+        "presentation",
+        "annotation"
+      ],
+      "context_keywords": [
+        "client meetings",
+        "design critique",
+        "user journey"
+      ],
+      "exclusion_keywords": [
+        "entertainment",
+        "kids"
+      ],
+      "why": "Product designers use iPads for mobile wireframing and design presentations with stakeholders"
+    },
+    {
+      "name": "Sony WH-1000XM5 Noise Canceling Headphones",
+      "category": "Electronics",
+      "accuracy": 0.85,
+      "review_keywords": [
+        "focus",
+        "open office",
+        "noise cancellation",
+        "calls",
+        "productivity",
+        "comfort"
+      ],
+      "context_keywords": [
+        "deep work",
+        "user interviews",
+        "design thinking"
+      ],
+      "exclusion_keywords": [
+        "music lover",
+        "travel"
+      ],
+      "why": "Product team members need noise cancellation for focus in open office environments"
+    },
+    {
+      "name": "Lamicall Adjustable Phone Stand for Video Calls",
+      "category": "Cell_Phones_and_Accessories",
+      "accuracy": 0.84,
+      "review_keywords": [
+        "video calls",
+        "hands-free",
+        "meetings",
+        "stable",
+        "adjustable",
+        "professional"
+      ],
+      "context_keywords": [
+        "standup meetings",
+        "remote collaboration",
+        "screen sharing"
+      ],
+      "exclusion_keywords": [
+        "entertainment",
+        "gaming"
+      ],
+      "why": "Remote product team members use phone stands for video calls and collaborative sessions"
+    },
+    {
+      "name": "Elgato Key Light Air LED Panel",
+      "category": "Electronics",
+      "accuracy": 0.83,
+      "review_keywords": [
+        "video calls",
+        "professional lighting",
+        "remote work",
+        "meetings",
+        "adjustable",
+        "quality"
+      ],
+      "context_keywords": [
+        "client calls",
+        "team standups",
+        "presentations"
+      ],
+      "exclusion_keywords": [
+        "streaming",
+        "content creation"
+      ],
+      "why": "Product professionals buy lighting equipment for high-quality video calls with clients and teams"
+    },
+    {
+      "name": "Steelcase Think 3D Knit Office Chair",
+      "category": "Home_and_Kitchen",
+      "accuracy": 0.82,
+      "review_keywords": [
+        "ergonomic",
+        "long sessions",
+        "back support",
+        "adjustable",
+        "professional",
+        "comfort"
+      ],
+      "context_keywords": [
+        "design sprints",
+        "code reviews",
+        "home office"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "temporary"
+      ],
+      "why": "Product team members invest in ergonomic seating for extended design and development work"
+    },
+    {
+      "name": "VIVO Dual Monitor Desk Mount Stand",
+      "category": "Office_Products",
+      "accuracy": 0.81,
+      "review_keywords": [
+        "dual monitor",
+        "productivity",
+        "desk space",
+        "adjustable",
+        "workflow",
+        "setup"
+      ],
+      "context_keywords": [
+        "code review",
+        "design comparison",
+        "multitasking"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "entertainment"
+      ],
+      "why": "Product professionals set up dual monitor configurations for design work and development tasks"
+    },
+    {
+      "name": "Blue Yeti USB Microphone for Podcasting",
+      "category": "Electronics",
+      "accuracy": 0.8,
+      "review_keywords": [
+        "user interviews",
+        "research calls",
+        "professional audio",
+        "clear sound",
+        "USB"
+      ],
+      "context_keywords": [
+        "user research",
+        "stakeholder calls",
+        "remote interviews"
+      ],
+      "exclusion_keywords": [
+        "streaming",
+        "music recording"
+      ],
+      "why": "UX researchers and product managers use quality microphones for user interviews and research calls"
+    },
+    {
+      "name": "Humanscale M/Connect Docking Station",
+      "category": "Electronics",
+      "accuracy": 0.79,
+      "review_keywords": [
+        "laptop docking",
+        "multiple monitors",
+        "USB-C",
+        "productivity",
+        "cable management"
+      ],
+      "context_keywords": [
+        "hot desking",
+        "remote setup",
+        "monitor connection"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "personal"
+      ],
+      "why": "Product team members use docking stations to quickly connect laptops to multiple monitors and peripherals"
+    },
+    {
+      "name": "Post-it Super Sticky Meeting Charts",
+      "category": "Office_Products",
+      "accuracy": 0.78,
+      "review_keywords": [
+        "brainstorming",
+        "meeting facilitation",
+        "sticky",
+        "collaboration",
+        "ideation",
+        "workshop"
+      ],
+      "context_keywords": [
+        "design sprint",
+        "retrospective",
+        "user journey mapping"
+      ],
+      "exclusion_keywords": [
+        "school",
+        "personal"
+      ],
+      "why": "Product managers and designers use large format sticky notes for team brainstorming and design thinking sessions"
+    }
+  ],
+  "subreddits": [
+    {
+      "name": "ProductManagement",
+      "relevance": 0.95,
+      "member_type": "80% active product managers, 15% aspiring PMs, 5% designers/engineers",
+      "data_value": "Product strategy discussions, roadmap planning, stakeholder management techniques",
+      "why": "Primary community for product managers sharing experiences and best practices"
+    },
+    {
+      "name": "userexperience",
+      "relevance": 0.93,
+      "member_type": "75% UX/UI designers, 20% researchers, 5% product managers",
+      "data_value": "Design process insights, user research methods, portfolio feedback",
+      "why": "Main hub for UX professionals discussing design methodology and career advice"
+    },
+    {
+      "name": "designsystems",
+      "relevance": 0.91,
+      "member_type": "70% product designers, 25% front-end developers, 5% design ops",
+      "data_value": "Component library discussions, design token strategies, team workflow optimization",
+      "why": "Specialized community focused on scalable design practices and team collaboration"
+    },
+    {
+      "name": "agile",
+      "relevance": 0.89,
+      "member_type": "60% product managers, 30% scrum masters, 10% developers",
+      "data_value": "Sprint planning strategies, team velocity optimization, stakeholder communication",
+      "why": "Product team members discussing agile methodology and cross-functional collaboration"
+    },
+    {
+      "name": "product_design",
+      "relevance": 0.87,
+      "member_type": "80% product designers, 15% UX researchers, 5% product managers",
+      "data_value": "Design critique, prototyping techniques, design-development handoff processes",
+      "why": "Community focused on product-specific design challenges and solutions"
+    },
+    {
+      "name": "UXResearch",
+      "relevance": 0.86,
+      "member_type": "70% UX researchers, 20% product managers, 10% designers",
+      "data_value": "Research methodology, user interview techniques, data synthesis approaches",
+      "why": "Specialized community for user research professionals and methods"
+    },
+    {
+      "name": "FigmaDesign",
+      "relevance": 0.84,
+      "member_type": "75% product designers, 20% UI designers, 5% product managers",
+      "data_value": "Tool-specific workflows, component strategies, team collaboration patterns",
+      "why": "Product designers sharing Figma workflows and collaboration techniques"
+    },
+    {
+      "name": "remotework",
+      "relevance": 0.82,
+      "member_type": "40% product professionals, 30% engineers, 30% other remote workers",
+      "data_value": "Remote collaboration tools, distributed team management, async communication",
+      "why": "Product team members discussing remote work challenges and solutions"
+    },
+    {
+      "name": "startups",
+      "relevance": 0.8,
+      "member_type": "50% product managers/designers at startups, 30% founders, 20% other roles",
+      "data_value": "Early-stage product decisions, resource constraints, rapid iteration strategies",
+      "why": "Product professionals at startups discussing lean product development"
+    },
+    {
+      "name": "scrum",
+      "relevance": 0.78,
+      "member_type": "55% product managers, 35% scrum masters, 10% team leads",
+      "data_value": "Sprint planning, backlog management, team dynamics and velocity",
+      "why": "Product managers discussing scrum implementation and team coordination"
+    },
+    {
+      "name": "notion",
+      "relevance": 0.76,
+      "member_type": "45% product professionals, 30% project managers, 25% other knowledge workers",
+      "data_value": "Documentation strategies, team workspace setup, project tracking methods",
+      "why": "Product teams sharing Notion templates and organizational workflows"
+    },
+    {
+      "name": "webdev",
+      "relevance": 0.74,
+      "member_type": "40% engineers, 30% product managers, 20% designers, 10% others",
+      "data_value": "Technical feasibility discussions, implementation approaches, design-dev collaboration",
+      "why": "Product team members discussing technical implementation and constraints"
+    },
+    {
+      "name": "ui_design",
+      "relevance": 0.72,
+      "member_type": "65% UI/product designers, 25% front-end developers, 10% product managers",
+      "data_value": "Interface design trends, usability patterns, visual design feedback",
+      "why": "Product designers sharing interface design work and getting feedback"
+    },
+    {
+      "name": "miro",
+      "relevance": 0.7,
+      "member_type": "60% product professionals, 25% facilitators, 15% consultants",
+      "data_value": "Workshop facilitation, remote brainstorming, collaborative planning techniques",
+      "why": "Product teams sharing whiteboarding templates and facilitation approaches"
+    },
+    {
+      "name": "TechCareerShifters",
+      "relevance": 0.68,
+      "member_type": "35% transitioning to product roles, 30% current product professionals, 35% other tech roles",
+      "data_value": "Career transition strategies, skill development, industry insights",
+      "why": "Mix of current and aspiring product professionals discussing career development"
+    }
+  ],
+  "demographic_profile": {
+    "core_keywords": [
+      "sprint",
+      "iteration",
+      "stakeholder",
+      "user story",
+      "wireframe",
+      "prototype",
+      "handoff",
+      "roadmap",
+      "backlog",
+      "retrospective",
+      "standup",
+      "collaboration",
+      "cross-functional",
+      "agile",
+      "scrum"
+    ],
+    "exclusion_keywords": [
+      "homework",
+      "student",
+      "graduation",
+      "retirement",
+      "parenting",
+      "school",
+      "classroom",
+      "personal project"
+    ],
+    "age_range": "26-40",
+    "primary_motivations": [
+      "team collaboration efficiency",
+      "user-centered design quality",
+      "stakeholder alignment",
+      "iterative improvement"
+    ],
+    "summary": "Product managers, UX/UI designers, and product designers working in cross-functional teams at tech companies or product-focused organizations. They prioritize tools and processes that enable seamless collaboration between design and engineering, emphasize user research and data-driven decisions, and focus on iterative product development. Their biggest frustrations include misaligned stakeholders, inefficient handoff processes, and tools that don't integrate well with their existing workflow."
+  }
+}

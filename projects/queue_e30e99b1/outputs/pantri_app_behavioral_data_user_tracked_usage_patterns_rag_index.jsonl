@@ -1,0 +1,55 @@
+{"review_id": "cluster_0_b0_pp0", "trait_label": "Unreliability Concern", "text": "Experiencing data loss or unrecoverable failures with existing software", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp1", "trait_label": "Unreliability Concern", "text": "Frustration with slow, laggy, or unresponsive interfaces in data/tracking tools", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp2", "trait_label": "Unreliability Concern", "text": "Difficulty finding data/features due to poor UI/UX or navigation", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_do0", "trait_label": "Unreliability Concern", "text": "Reliable data access and system uptime without failures", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_do1", "trait_label": "Unreliability Concern", "text": "Fast, responsive performance for queries and data manipulation", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp0", "trait_label": "Unreliability Concern", "text": "Frustration with buggy, unreliable software that crashes or hangs frequently", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp1", "trait_label": "Unreliability Concern", "text": "Anger over forced, poorly managed upgrades and data conversion processes that fail", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp2", "trait_label": "Unreliability Concern", "text": "Disappointment in product downgrades and deceptive feature removal without clear communication", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_do0", "trait_label": "Unreliability Concern", "text": "Stable, reliable software that performs core functions without errors or crashes", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_do1", "trait_label": "Unreliability Concern", "text": "Clear, honest communication about product changes, pricing, and feature sets", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp0", "trait_label": "Unreliability Concern", "text": "Software not working as advertised on stated compatible systems", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp1", "trait_label": "Unreliability Concern", "text": "Critical data errors in financial reports leading to costly corrections", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp2", "trait_label": "Unreliability Concern", "text": "Poor performance causing long render/export times and freezes", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_do0", "trait_label": "Unreliability Concern", "text": "Accurate and reliable data reporting without errors", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_do1", "trait_label": "Unreliability Concern", "text": "Tools that boost performance and efficiency in daily work", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp0", "trait_label": "Unreliability Concern", "text": "Overly complex interfaces that hinder user efficiency", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp1", "trait_label": "Unreliability Concern", "text": "Difficulty in extracting insights due to poor visualization or reporting tools", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp2", "trait_label": "Unreliability Concern", "text": "Software instability or bugs that disrupt workflow", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_do0", "trait_label": "Unreliability Concern", "text": "Ability to create custom reports and visualizations easily", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_do1", "trait_label": "Unreliability Concern", "text": "Real-time collaboration and data sharing capabilities", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp0", "trait_label": "Unreliability Concern", "text": "Difficulty accessing technical support and reporting bugs (no chat, phone, useful knowledgebase)", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp1", "trait_label": "Unreliability Concern", "text": "Software stability issues (crashes, credential loss, sound problems, inconsistent performance across devices)", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp2", "trait_label": "Unreliability Concern", "text": "Time-consuming manual configuration and performance tuning required", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_do0", "trait_label": "Unreliability Concern", "text": "Automated performance tuning and optimization to reduce manual configuration", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_do1", "trait_label": "Unreliability Concern", "text": "Efficient, reliable data analysis and insight generation to drive business decisions", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp0", "trait_label": "Support & Reliability Frustration", "text": "App/UI not working or buggy (gets stuck, doesn't refresh, shows errors)", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp1", "trait_label": "Support & Reliability Frustration", "text": "Missing real-time or current-day data", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp2", "trait_label": "Support & Reliability Frustration", "text": "UI/UX is cluttered, ugly, or a step backwards", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_do0", "trait_label": "Support & Reliability Frustration", "text": "Monitor website/ads performance on the go (mobile convenience)", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_do1", "trait_label": "Support & Reliability Frustration", "text": "Easy to use and navigate interface", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp0", "trait_label": "Support & Reliability Frustration", "text": "Removal of critical data (organic keywords, detailed traffic sources, real-time traffic source visibility)", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp1", "trait_label": "Support & Reliability Frustration", "text": "Loss of core functionality and data accessibility (real-time user page views, date comparison, actual numbers vs percentages)", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp2", "trait_label": "Support & Reliability Frustration", "text": "Unusable reporting due to bugs (data doesn't refresh, wrong dates/currencies, graph display issues)", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_do0", "trait_label": "Support & Reliability Frustration", "text": "Access to detailed, accurate behavioral data (traffic sources, real-time numbers, page-level stats)", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_do1", "trait_label": "Support & Reliability Frustration", "text": "Reliable, real-time analytics that refresh correctly and show accurate data", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp0", "trait_label": "Support & Reliability Frustration", "text": "Sudden authentication/sign-in failures that persist after reinstallation", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp1", "trait_label": "Support & Reliability Frustration", "text": "Data inaccuracy or discrepancies (e.g., inflated metrics, mismatched desktop/mobile numbers)", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp2", "trait_label": "Support & Reliability Frustration", "text": "Critical app breaking after an update (data not loading, UI broken, features missing)", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_do0", "trait_label": "Support & Reliability Frustration", "text": "Reliable, always-accessible access to accurate, real-time behavioral data on mobile", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_do1", "trait_label": "Support & Reliability Frustration", "text": "Data consistency and accuracy across mobile app, desktop, and third-party platforms", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp0", "trait_label": "Support & Reliability Frustration", "text": "Missing core historical data comparison features (e.g., compare date ranges, hour-by-hour view)", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp1", "trait_label": "Support & Reliability Frustration", "text": "Real-time/live data inaccuracy or complete absence (shows 0 users, delayed updates)", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp2", "trait_label": "Support & Reliability Frustration", "text": "Loss of customized dashboards/settings after updates", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_do0", "trait_label": "Support & Reliability Frustration", "text": "Accurate, reliable real-time data for immediate monitoring", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_do1", "trait_label": "Support & Reliability Frustration", "text": "Ability to quickly compare data across date ranges and time periods", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp0", "trait_label": "Support & Reliability Frustration", "text": "Buggy and unreliable software with sporadic performance", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp1", "trait_label": "Support & Reliability Frustration", "text": "Frustration with forced updates that introduce crashes and instability", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp2", "trait_label": "Support & Reliability Frustration", "text": "Poor customer support with slow or ineffective resolutions", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_do0", "trait_label": "Support & Reliability Frustration", "text": "Reliable, bug-free software that works consistently", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_do1", "trait_label": "Support & Reliability Frustration", "text": "Fast, efficient performance even on older hardware", "tone": "frustrated"}
+{"review_id": "monologue_6b79ca", "trait_label": "Inner Monologue", "text": "The pricing looks reasonable, but I need to see what kind of support comes with this. If I'm paying for a business tool, I better not be stuck with just email support when something breaks during a critical report deadline.", "tone": "authentic_voice"}
+{"review_id": "monologue_8d564c", "trait_label": "Inner Monologue", "text": "These user reviews mention some concerning reliability issues. I can't afford another situation where I'm manually checking every output because the AI makes random errors that undermine trust with my stakeholders.", "tone": "authentic_voice"}
+{"review_id": "monologue_301598", "trait_label": "Inner Monologue", "text": "This navigation is already confusing me, and I'm technically savvy. If I can't easily find basic information about data accuracy and error handling, how am I supposed to trust this tool with our critical analytics?", "tone": "authentic_voice"}
+{"review_id": "monologue_d92e4b", "trait_label": "Inner Monologue", "text": "They want my email before showing me technical specs? That's a red flag. I need to evaluate the actual capabilities and system requirements before I'm ready for a sales conversation.", "tone": "authentic_voice"}
+{"review_id": "monologue_fc673a", "trait_label": "Inner Monologue", "text": "Finally, a vendor that provides clear technical documentation and acknowledges the limitations of their AI features. This level of transparency about what the tool can and cannot do reliably is exactly what I need to make an informed decision.", "tone": "authentic_voice"}

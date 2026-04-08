@@ -1,0 +1,239 @@
+{
+  "id": "enterprise_trade_compliance_user_(b2b_saas)",
+  "label": "Enterprise Trade Compliance User (B2B SaaS)",
+  "segment": {
+    "role": "Enterprise trade compliance professional managing regulatory risk and audit requirements",
+    "tech_savviness": "medium",
+    "price_sensitivity": "medium",
+    "risk_tolerance": "low",
+    "context": "Works within structured enterprise environments where compliance failures can result in audits, penalties, and financial losses. Prioritizes reliability, accuracy, and defensible documentation over cost savings or cutting-edge features."
+  },
+  "goals": [
+    {
+      "goal": "Find software with comprehensive audit trails and defensible documentation capabilities",
+      "priority": 5
+    },
+    {
+      "goal": "Verify accurate compliance with regulatory requirements without manual intervention",
+      "priority": 5
+    },
+    {
+      "goal": "Evaluate integration capabilities with existing financial systems and data sources",
+      "priority": 4
+    },
+    {
+      "goal": "Assess streamlined workflow automation to reduce errors and save time",
+      "priority": 4
+    },
+    {
+      "goal": "Understand clear, predictable, and justifiable total cost structure",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Cannot risk software that acts as a 'black box' with unclear compliance logic",
+    "Must avoid solutions requiring constant manual verification due to data integrity issues",
+    "Cannot tolerate poor or non-existent customer support when critical compliance issues arise",
+    "Must prevent disruption to existing workflows during integration phases",
+    "Cannot accept complex pricing with hidden or add-on fees for essential compliance features"
+  ],
+  "decision_weights": {
+    "software_functionality_failure": 0.125,
+    "hidden_pricing_structure": 0.125,
+    "complexity_learning_curve": 0.125,
+    "poor_customer_support": 0.125,
+    "reliability_stability_issues": 0.125,
+    "forced_expensive_upgrades": 0.125,
+    "interoperability_limitations": 0.125,
+    "connectivity_dependencies": 0.125
+  },
+  "behavioral_rules": [
+    "Immediately searches for audit trail and documentation capabilities before evaluating other features",
+    "Abandons evaluation if pricing page shows 'contact sales' without basic cost transparency",
+    "Requests detailed integration specifications and data migration processes before committing",
+    "Seeks multiple customer references from similar enterprise compliance environments",
+    "Downloads and thoroughly reviews security certifications and compliance documentation",
+    "Tests accuracy of automated compliance reporting against manual calculations",
+    "Verifies availability of knowledgeable technical support during business hours",
+    "Examines upgrade policies and licensing restrictions before purchase decisions",
+    "Evaluates offline functionality and backup procedures for system reliability",
+    "Assesses comprehensive logging capabilities for regulatory audit requirements",
+    "Reviews historical accuracy and error rates in compliance calculations",
+    "Investigates workflow disruption potential during implementation phases"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.288,
+    "trust_starting_point": 0.52,
+    "frustration_decay": 0.32
+  },
+  "deal_breakers": [
+    "Software lacks clear audit trails and defensible documentation",
+    "Poor data security and compliance certifications",
+    "Unreliable performance or frequent crashes during critical compliance periods",
+    "Complex pricing with hidden fees for essential compliance features",
+    "Difficulty integrating with existing financial systems and data sources"
+  ],
+  "voice_sample": "I need to be absolutely certain this software will provide accurate compliance with regulatory requirements without manual intervention. The fear of audits and penalties due to compliance errors keeps me up at night, and I can't afford to implement something that might fail when we need it most. Clear audit trails and defensible documentation aren't just nice-to-haves - they're essential for our regulatory environment. I'm looking for efficiency through streamlined, automated workflows, but not at the expense of accuracy and reliability. Any solution that feels like a 'black box' with unclear logic is an immediate non-starter for our compliance needs.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 45,
+    "pages_before_decision": 12,
+    "tab_behavior": "Opens multiple tabs for compliance documentation, security certifications, and customer references to cross-reference claims",
+    "primary_device": "Desktop computer during business hours for thorough evaluation",
+    "time_of_day": "Mid-morning to early afternoon during work hours when can consult with IT and legal teams"
+  },
+  "purchase_journey": {
+    "discovery": "Researches through industry compliance forums, regulatory body recommendations, and peer networks rather than general search",
+    "evaluation": "Reviews compliance certifications first, then audit trail capabilities, followed by integration documentation and customer references from similar enterprises",
+    "decision_moment": "When software demonstrates accurate compliance reporting with clear audit trails and provides transparent pricing for all essential features",
+    "post_purchase_expectation": "Expects comprehensive implementation support with minimal workflow disruption and ongoing compliance updates as regulations change"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Sees comprehensive logging and reporting for audit trails and verification",
+      "Finds accurate compliance with regulatory requirements without manual intervention",
+      "Discovers easy integration with existing financial systems and data sources",
+      "Observes clear, predictable, and justifiable total cost structure"
+    ],
+    "abandons_when": [
+      "Encounters complex pricing with hidden or add-on fees",
+      "Faces difficulty in getting timely and effective technical support",
+      "Discovers data integrity issues or errors in automated tracking",
+      "Finds software acts as 'black box' with unclear compliance logic"
+    ],
+    "trusts_when": [
+      "Sees clear audit trails and defensible documentation capabilities",
+      "Finds accurate and error-free compliance reporting examples",
+      "Discovers comprehensive coverage of specific regulatory requirements",
+      "Observes ability to grow and adapt with changing business needs"
+    ],
+    "becomes_suspicious_when": [
+      "Pricing requires extensive consultation without basic transparency",
+      "Integration documentation lacks specific technical details",
+      "Customer references are generic rather than compliance-specific",
+      "Security certifications are outdated or insufficient for enterprise requirements"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Absolute accuracy and reduction of compliance risk",
+      "Clear audit trails and defensible documentation",
+      "Accurate compliance with regulatory requirements without manual intervention",
+      "Fear of audits and penalties due to compliance errors",
+      "Efficient workflow automation that saves time and reduces errors",
+      "Easy integration with existing financial systems and data sources",
+      "Clear, predictable, and justifiable total cost",
+      "Comprehensive logging and reporting for audit trails and verification"
+    ],
+    "resonates_with": [
+      "Enterprise-grade reliability and accuracy",
+      "Regulatory compliance automation",
+      "Audit-ready documentation and reporting",
+      "Risk mitigation and error reduction"
+    ],
+    "turned_off_by": [
+      "Complex setup requirements",
+      "Hidden pricing for compliance features",
+      "Unclear integration processes",
+      "Vague security claims"
+    ]
+  },
+  "inner_monologue_samples": [
+    "I need to see the actual cost structure upfront - complex pricing with hidden or add-on fees is exactly what I'm trying to avoid. If they can't be transparent about pricing, how can I trust them with compliance accuracy?",
+    "These customer testimonials look good, but I need to see specific examples of comprehensive logging and reporting for audit trails. Generic success stories don't help me evaluate compliance capabilities.",
+    "This integration guide is too high-level. I need detailed technical specifications to ensure easy integration with existing financial systems and data sources without disrupting our current workflows.",
+    "A 20-field signup form just to see a demo? That suggests they're more focused on sales pressure than providing clear, accessible information about their compliance capabilities.",
+    "Finally - clear audit trails and defensible documentation with specific regulatory coverage. This is exactly what I need for accurate compliance with regulatory requirements without manual intervention."
+  ],
+  "anti_patterns": [
+    "Assuming they want the latest features over proven reliability (contradicts Enterprise Reliability Risk cluster focus on stability)",
+    "Pushing aggressive sales tactics or time-limited offers (contradicts Measured Decision-Making cluster's careful consideration approach)",
+    "Providing generic compliance claims without specific audit trail documentation (contradicts Content Integrity Concern cluster's need for accuracy and practical application)",
+    "Hiding essential compliance features behind premium tiers without clear pricing (contradicts cluster pain point of complex pricing with hidden fees)",
+    "Emphasizing ease-of-use over accuracy and control (contradicts cluster priority of absolute accuracy and reduction of compliance risk)"
+  ],
+  "traits": [
+    {
+      "label": "Enterprise Reliability Risk",
+      "description": "Users in this cluster are highly risk-averse enterprise or professional customers whose primary concern is avoiding failures that could lead to financial loss, compliance errors, or operational disruption. They evaluate software based on its stability, security, support quality, and transparent pricing to mitigate business risk.",
+      "key_phrases": [
+        "Fear of audits and penalties due to compliance errors",
+        "Poor data security and compliance certifications",
+        "Unreliable performance or frequent crashes",
+        "Being locked into a vendor with forced upgrades",
+        "Absolute accuracy and reduction of compliance risk"
+      ],
+      "frequency": 0.61,
+      "tone": "cautious",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Measured Decision-Making",
+      "description": "This cluster represents users who approach purchases with careful consideration, weighing pros and cons without being easily frustrated or overly impulsive. They tolerate a moderate amount of friction before abandoning a purchase.",
+      "key_phrases": [
+        "dominant_friction_tolerance: medium",
+        "friction_tolerance_distribution: medium 0.846",
+        "friction_tolerance_distribution: low 0.154"
+      ],
+      "frequency": 0.317,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Content Integrity Concern",
+      "description": "This cluster represents readers who are highly sensitive to issues that undermine the trustworthiness and practical usability of informational content. They emphasize accuracy, clarity, and accessibility as non-negotiables for reference materials and guides.",
+      "key_phrases": [
+        "Inaccuracy and lack of trust in the source material",
+        "Complete lack of practical application",
+        "Clear, concise, and practical step-by-step guidance",
+        "Reliability and accuracy of information",
+        "Confusing, unclear, or conflicting instructions"
+      ],
+      "frequency": 0.073,
+      "tone": "cautious",
+      "cluster_id": "cluster_0"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 8,
+    "total": 1209,
+    "avg_rating": 4.0,
+    "avg_length": 1752,
+    "rating_distribution": {
+      "4": 292,
+      "1": 87,
+      "5": 586,
+      "3": 163,
+      "2": 81
+    },
+    "source_breakdown": {
+      "amazon": 1201,
+      "playstore": 8
+    },
+    "n_products": 7,
+    "top_products": {
+      "TradePoint Enterprise Compliance Management Software": 500,
+      "International Trade Compliance Handbook 2024": 233,
+      "Professional Trade Compliance Certification Study Guide": 233,
+      "HTS Code Reference Guide - Harmonized Tariff Schedule": 233,
+      "unknown": 8
+    },
+    "low_rating_pct": 0.139,
+    "high_rating_pct": 0.726,
+    "n_sources": 2,
+    "issues": [
+      "Platform bias: amazon is 99% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 41
+  },
+  "demographic_description": "Works in trade compliance within enterprise environments and interacts with structured workflows and outputs. Provides feedback based on how current processes operate and how outputs can be improved. Feedback is gathered through ongoing discovery conversations rather than high-frequency input.",
+  "generated_at": "2026-04-05T21:36:48.750596",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "40% grounded in cluster data",
+    "cluster_stability": "high"
+  }
+}

@@ -1,0 +1,150 @@
+{"review_id": "cluster_1_b0_pp0", "trait_label": "Technical Setup Frustration", "text": "Poor product quality control leading to defects on arrival", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp1", "trait_label": "Technical Setup Frustration", "text": "Frequent technical issues like connectivity problems or device malfunction", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp2", "trait_label": "Technical Setup Frustration", "text": "Frustrating customer service experiences with long hold times and rude reps", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_do0", "trait_label": "Technical Setup Frustration", "text": "Reliable performance without constant issues or failures", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_do1", "trait_label": "Technical Setup Frustration", "text": "Easy setup and seamless integration with existing devices", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp0", "trait_label": "Technical Setup Frustration", "text": "Frustration with installation/enrollment processes requiring significant effort and lacking clear instructions.", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp1", "trait_label": "Technical Setup Frustration", "text": "Disappointment with unreliable performance, such as short battery life, connectivity issues, and poor video quality.", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp2", "trait_label": "Technical Setup Frustration", "text": "Concern over product durability and build quality, especially for critical security devices.", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_do0", "trait_label": "Technical Setup Frustration", "text": "Seamless integration and easy setup with existing systems/platforms.", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_do1", "trait_label": "Technical Setup Frustration", "text": "Reliable, consistent performance without frequent maintenance or recharging.", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp0", "trait_label": "Technical Setup Frustration", "text": "Poor or non-existent documentation/instruction manuals causing frustration and wasted time", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp1", "trait_label": "Technical Setup Frustration", "text": "Flaky or unreliable software/app connectivity leading to devices being unusable", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp2", "trait_label": "Technical Setup Frustration", "text": "Concern about product security vulnerabilities and potential for being hacked", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_do0", "trait_label": "Technical Setup Frustration", "text": "Products that 'just work' reliably and require minimal troubleshooting", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_do1", "trait_label": "Technical Setup Frustration", "text": "Easy, seamless, and intuitive integration with existing devices and workflows", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp0", "trait_label": "Technical Setup Frustration", "text": "Technical setup and configuration difficulties", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp1", "trait_label": "Technical Setup Frustration", "text": "Poor customer support responsiveness and quality", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp2", "trait_label": "Technical Setup Frustration", "text": "Device compatibility issues", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_do0", "trait_label": "Technical Setup Frustration", "text": "Reliable, consistent device operation", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_do1", "trait_label": "Technical Setup Frustration", "text": "Quick resolution of technical issues", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp0", "trait_label": "Technical Setup Frustration", "text": "Products not working reliably or failing unexpectedly", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp1", "trait_label": "Technical Setup Frustration", "text": "Poor user experience due to unintuitive software or configuration", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp2", "trait_label": "Technical Setup Frustration", "text": "Compatibility issues with existing hardware or setup", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_do0", "trait_label": "Technical Setup Frustration", "text": "Seamless, plug-and-play functionality", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_do1", "trait_label": "Technical Setup Frustration", "text": "Improved user experience over previous solutions", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp0", "trait_label": "Production Readiness Concern", "text": "Software/hardware compatibility breaks (old devices lose support)", "tone": "skeptical"}
+{"review_id": "cluster_0_b0_pp1", "trait_label": "Production Readiness Concern", "text": "Critical functional failures (can't create wallet, can't link hardware wallet, app resets)", "tone": "skeptical"}
+{"review_id": "cluster_0_b0_pp2", "trait_label": "Production Readiness Concern", "text": "Assets locked/lost due to software bugs or account issues", "tone": "skeptical"}
+{"review_id": "cluster_0_b0_do0", "trait_label": "Production Readiness Concern", "text": "Fast, reliable access to assets (no delays, no freezes)", "tone": "skeptical"}
+{"review_id": "cluster_0_b0_do1", "trait_label": "Production Readiness Concern", "text": "Consistent, bug-free core functionality (wallet creation, linking, sending, receiving)", "tone": "skeptical"}
+{"review_id": "cluster_0_b1_pp0", "trait_label": "Production Readiness Concern", "text": "App freezes or becomes laggy to the point of being unusable", "tone": "skeptical"}
+{"review_id": "cluster_0_b1_pp1", "trait_label": "Production Readiness Concern", "text": "Failed or stuck transactions due to bugs or sync issues", "tone": "skeptical"}
+{"review_id": "cluster_0_b1_pp2", "trait_label": "Production Readiness Concern", "text": "Poor or non-existent customer support", "tone": "skeptical"}
+{"review_id": "cluster_0_b1_do0", "trait_label": "Production Readiness Concern", "text": "Reliable, bug-free app performance with smooth transactions", "tone": "skeptical"}
+{"review_id": "cluster_0_b1_do1", "trait_label": "Production Readiness Concern", "text": "Strong security and safe storage of crypto assets", "tone": "skeptical"}
+{"review_id": "cluster_0_b2_pp0", "trait_label": "Production Readiness Concern", "text": "Hardware device failure right out of the box (battery/charging issues)", "tone": "skeptical"}
+{"review_id": "cluster_0_b2_pp1", "trait_label": "Production Readiness Concern", "text": "Software app fails to connect to hardware device or crashes", "tone": "skeptical"}
+{"review_id": "cluster_0_b2_pp2", "trait_label": "Production Readiness Concern", "text": "Extremely slow or unresponsive customer support (days to respond)", "tone": "skeptical"}
+{"review_id": "cluster_0_b2_do0", "trait_label": "Production Readiness Concern", "text": "Reliable, secure hardware wallet that works immediately out of the box", "tone": "skeptical"}
+{"review_id": "cluster_0_b2_do1", "trait_label": "Production Readiness Concern", "text": "Seamless, intuitive connection between hardware and software (mobile/desktop)", "tone": "skeptical"}
+{"review_id": "cluster_0_b3_pp0", "trait_label": "Production Readiness Concern", "text": "Mobile app is slow, laggy, and unresponsive", "tone": "skeptical"}
+{"review_id": "cluster_0_b3_pp1", "trait_label": "Production Readiness Concern", "text": "Firmware updates are buggy, fail, and can lead to lost funds", "tone": "skeptical"}
+{"review_id": "cluster_0_b3_pp2", "trait_label": "Production Readiness Concern", "text": "App performance degrades over time, requiring force restarts", "tone": "skeptical"}
+{"review_id": "cluster_0_b3_do0", "trait_label": "Production Readiness Concern", "text": "Fast, responsive, and reliable app performance", "tone": "skeptical"}
+{"review_id": "cluster_0_b3_do1", "trait_label": "Production Readiness Concern", "text": "Secure storage of cryptocurrency with no risk of loss from bugs", "tone": "skeptical"}
+{"review_id": "cluster_0_b4_pp0", "trait_label": "Production Readiness Concern", "text": "App freezes or hangs frequently, leading to unresponsive interface and crashing on Android.", "tone": "skeptical"}
+{"review_id": "cluster_0_b4_pp1", "trait_label": "Production Readiness Concern", "text": "Constant failure to load balances or connect to servers, making assets inaccessible for days or weeks.", "tone": "skeptical"}
+{"review_id": "cluster_0_b4_pp2", "trait_label": "Production Readiness Concern", "text": "UI bugs include distorted icons, non-scaling, unresponsive text boxes, and blurred QR code scanning.", "tone": "skeptical"}
+{"review_id": "cluster_0_b4_do0", "trait_label": "Production Readiness Concern", "text": "Fast, reliable transaction execution with consistent speed and no lagging.", "tone": "skeptical"}
+{"review_id": "cluster_0_b4_do1", "trait_label": "Production Readiness Concern", "text": "Intuitive and clean UI that is user-friendly and simplifies crypto management.", "tone": "skeptical"}
+{"review_id": "cluster_4_b0_pp0", "trait_label": "Technical Adoption Skepticism", "text": "Struggling with TypeScript's limitations in ensuring robust error handling", "tone": "cautious"}
+{"review_id": "cluster_4_b0_pp1", "trait_label": "Technical Adoption Skepticism", "text": "Finding TypeScript and similar tools insufficient for enforcing proper coding practices", "tone": "cautious"}
+{"review_id": "cluster_4_b0_pp2", "trait_label": "Technical Adoption Skepticism", "text": "Concern about AI-generated content polluting technical discussions", "tone": "cautious"}
+{"review_id": "cluster_4_b0_do0", "trait_label": "Technical Adoption Skepticism", "text": "Simplify and standardize development workflows with a 'batteries-included' framework", "tone": "cautious"}
+{"review_id": "cluster_4_b0_do1", "trait_label": "Technical Adoption Skepticism", "text": "Achieve more stable, bug-free code through enforced error handling", "tone": "cautious"}
+{"review_id": "cluster_4_b1_pp0", "trait_label": "Technical Adoption Skepticism", "text": "Difficulty maintaining type safety and catching errors early in TypeScript development", "tone": "cautious"}
+{"review_id": "cluster_4_b1_pp1", "trait_label": "Technical Adoption Skepticism", "text": "Cumbersome error handling patterns in TypeScript requiring manual type narrowing", "tone": "cautious"}
+{"review_id": "cluster_4_b1_pp2", "trait_label": "Technical Adoption Skepticism", "text": "Complex build and compilation steps interfering with development workflow", "tone": "cautious"}
+{"review_id": "cluster_4_b1_do0", "trait_label": "Technical Adoption Skepticism", "text": "Reduced friction for end-users through embedded wallets and gasless transactions", "tone": "cautious"}
+{"review_id": "cluster_4_b1_do1", "trait_label": "Technical Adoption Skepticism", "text": "Enhanced developer experience with better tooling and error prevention", "tone": "cautious"}
+{"review_id": "cluster_4_b2_pp0", "trait_label": "Technical Adoption Skepticism", "text": "Existing development workflow lacks structure for error handling and side effects", "tone": "cautious"}
+{"review_id": "cluster_4_b2_pp1", "trait_label": "Technical Adoption Skepticism", "text": "Difficulty managing asynchronous code coordination (timeouts, retries, batching)", "tone": "cautious"}
+{"review_id": "cluster_4_b2_pp2", "trait_label": "Technical Adoption Skepticism", "text": "Ad-hoc error handling with throw/catch leads to unsafe code", "tone": "cautious"}
+{"review_id": "cluster_4_b2_do0", "trait_label": "Technical Adoption Skepticism", "text": "Write safer, more succinct, and easier-to-read code", "tone": "cautious"}
+{"review_id": "cluster_4_b2_do1", "trait_label": "Technical Adoption Skepticism", "text": "Adopt functional programming patterns like Haskell while keeping TypeScript benefits", "tone": "cautious"}
+{"review_id": "cluster_4_b3_pp0", "trait_label": "Technical Adoption Skepticism", "text": "Complexity and steep learning curve for non-functional programming (FP) experts", "tone": "cautious"}
+{"review_id": "cluster_4_b3_pp1", "trait_label": "Technical Adoption Skepticism", "text": "Integrating Effect with existing frameworks/non-Effect code is difficult", "tone": "cautious"}
+{"review_id": "cluster_4_b3_pp2", "trait_label": "Technical Adoption Skepticism", "text": "Potential for future tech debt due to library commitment and lack of stability/standardization", "tone": "cautious"}
+{"review_id": "cluster_4_b3_do0", "trait_label": "Technical Adoption Skepticism", "text": "Manage highly complex, interdependent async operations without race conditions or debugging chaos", "tone": "cautious"}
+{"review_id": "cluster_4_b3_do1", "trait_label": "Technical Adoption Skepticism", "text": "Improve error handling and type safety in backend/reactive systems", "tone": "cautious"}
+{"review_id": "cluster_4_b4_pp0", "trait_label": "Technical Adoption Skepticism", "text": "Switch statements in JavaScript/TypeScript are unsafe and can lead to sneaky runtime exceptions", "tone": "cautious"}
+{"review_id": "cluster_4_b4_pp1", "trait_label": "Technical Adoption Skepticism", "text": "Incorrectly typing JSON responses or API returns leads to runtime errors", "tone": "cautious"}
+{"review_id": "cluster_4_b4_pp2", "trait_label": "Technical Adoption Skepticism", "text": "Managing date/time operations manually is error-prone and time-consuming", "tone": "cautious"}
+{"review_id": "cluster_4_b4_do0", "trait_label": "Technical Adoption Skepticism", "text": "Safer code with exhaustive type checking and pattern matching", "tone": "cautious"}
+{"review_id": "cluster_4_b4_do1", "trait_label": "Technical Adoption Skepticism", "text": "Type-safe runtime validation of external data (APIs, user input)", "tone": "cautious"}
+{"review_id": "cluster_2_b0_pp0", "trait_label": "Deceptive Ad Model", "text": "Excessive and intrusive ad frequency disrupts core app usage", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp1", "trait_label": "Deceptive Ad Model", "text": "Ads are not just frequent, but layered (ads within ads) and difficult to skip/close", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp2", "trait_label": "Deceptive Ad Model", "text": "App misrepresents device compatibility, leading to wasted time and effort", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_do0", "trait_label": "Deceptive Ad Model", "text": "Successfully connect phone to TV/monitor via USB/HDMI cable", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_do1", "trait_label": "Deceptive Ad Model", "text": "Accurate and truthful device compatibility check before attempt", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp0", "trait_label": "Deceptive Ad Model", "text": "Excessive, intrusive ads disrupting core functionality", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp1", "trait_label": "Deceptive Ad Model", "text": "False compatibility promises leading to wasted time", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp2", "trait_label": "Deceptive Ad Model", "text": "Coercive rating demands before usage", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_do0", "trait_label": "Deceptive Ad Model", "text": "Reliable, working HDMI connectivity from phone to TV", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_do1", "trait_label": "Deceptive Ad Model", "text": "Clean, ad-free or minimally intrusive user experience", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp0", "trait_label": "Deceptive Ad Model", "text": "Excessive ads interrupting core app functionality", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp1", "trait_label": "Deceptive Ad Model", "text": "Deceptive compatibility checks that falsely claim success", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp2", "trait_label": "Deceptive Ad Model", "text": "App fails to perform advertised function (mirroring phone to TV)", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_do0", "trait_label": "Deceptive Ad Model", "text": "Seamlessly mirror phone screen to TV", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_do1", "trait_label": "Deceptive Ad Model", "text": "App that actually works after compatibility check", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp0", "trait_label": "Deceptive Ad Model", "text": "Excessive and intrusive ads (e.g., multiple unskippable ads per click, ads within ads)", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp1", "trait_label": "Deceptive Ad Model", "text": "App misrepresents device compatibility and fails to deliver core screen-mirroring functionality", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp2", "trait_label": "Deceptive Ad Model", "text": "Functionality is blocked or inaccessible due to ad frequency, making the app unusable", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_do0", "trait_label": "Deceptive Ad Model", "text": "Reliable, simple screen mirroring/HDMI connection from phone to TV/monitor", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_do1", "trait_label": "Deceptive Ad Model", "text": "An app that works as advertised without misleading compatibility claims", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp0", "trait_label": "Deceptive Ad Model", "text": "Excessive, intrusive, and frequent ads that block app usage", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp1", "trait_label": "Deceptive Ad Model", "text": "App fails to perform its core function (e.g., connecting phone to TV)", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp2", "trait_label": "Deceptive Ad Model", "text": "Misleading compatibility detection or false promises of functionality", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_do0", "trait_label": "Deceptive Ad Model", "text": "App that reliably and simply connects device to TV via cable", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_do1", "trait_label": "Deceptive Ad Model", "text": "Clean, functional interface without intrusive advertising", "tone": "frustrated"}
+{"review_id": "cluster_6_b0_pp0", "trait_label": "Technical Reliability and Security Concern", "text": "NFC functionality consistently fails on Android devices despite correct hardware, causing key communication errors and rendering key useless", "tone": "frustrated"}
+{"review_id": "cluster_6_b0_pp1", "trait_label": "Technical Reliability and Security Concern", "text": "App redesign introduced UX regressions such as inability to autofill OATH passwords from password managers, requiring manual copy-paste", "tone": "frustrated"}
+{"review_id": "cluster_6_b0_pp2", "trait_label": "Technical Reliability and Security Concern", "text": "Limited account storage capacity (e.g., 32 accounts) is insufficient for users with many accounts, making product useless", "tone": "frustrated"}
+{"review_id": "cluster_6_b0_do0", "trait_label": "Technical Reliability and Security Concern", "text": "Seamless, reliable NFC functionality across all supported Android devices and YubiKey models", "tone": "frustrated"}
+{"review_id": "cluster_6_b0_do1", "trait_label": "Technical Reliability and Security Concern", "text": "Portable, secure 2FA seed storage on hardware key rather than device or cloud, enabling easy device migration", "tone": "frustrated"}
+{"review_id": "cluster_6_b1_pp0", "trait_label": "Technical Reliability and Security Concern", "text": "Unreliable NFC communication on modern Android/iOS/ChromeOS devices", "tone": "frustrated"}
+{"review_id": "cluster_6_b1_pp1", "trait_label": "Technical Reliability and Security Concern", "text": "Poor UI/UX with confusing navigation, tiny fonts, and missing critical functions like delete/replace entries", "tone": "frustrated"}
+{"review_id": "cluster_6_b1_pp2", "trait_label": "Technical Reliability and Security Concern", "text": "App lacks basic security features like biometric or PIN protection", "tone": "frustrated"}
+{"review_id": "cluster_6_b1_do0", "trait_label": "Technical Reliability and Security Concern", "text": "Reliable, consistent NFC and USB connectivity across all supported platforms", "tone": "frustrated"}
+{"review_id": "cluster_6_b1_do1", "trait_label": "Technical Reliability and Security Concern", "text": "Intuitive, simple UI with clear options to manage (add, delete, replace) entries", "tone": "frustrated"}
+{"review_id": "cluster_6_b2_pp0", "trait_label": "Technical Reliability and Security Concern", "text": "NFC communication failures requiring repeated attempts or troubleshooting", "tone": "frustrated"}
+{"review_id": "cluster_6_b2_pp1", "trait_label": "Technical Reliability and Security Concern", "text": "Inability to add accounts due to app/OS/keyboard compatibility issues", "tone": "frustrated"}
+{"review_id": "cluster_6_b2_pp2", "trait_label": "Technical Reliability and Security Concern", "text": "Lack of backup/redundancy for accounts when using multiple YubiKeys", "tone": "frustrated"}
+{"review_id": "cluster_6_b2_do0", "trait_label": "Technical Reliability and Security Concern", "text": "Reliable NFC communication without troubleshooting", "tone": "frustrated"}
+{"review_id": "cluster_6_b2_do1", "trait_label": "Technical Reliability and Security Concern", "text": "Seamless backup and redundancy across multiple keys", "tone": "frustrated"}
+{"review_id": "cluster_6_b3_pp0", "trait_label": "Technical Reliability and Security Concern", "text": "Hardware key compatibility issues, especially with newer models like Security Key NFC, YubiKey Bio, and YubiKey 5C NFC", "tone": "frustrated"}
+{"review_id": "cluster_6_b3_pp1", "trait_label": "Technical Reliability and Security Concern", "text": "Inconsistent or unreliable NFC/QR code scanning causing repeated errors (e.g., 'NFC Read Error', 'can't read tag', 'QR scanning doesn't work')", "tone": "frustrated"}
+{"review_id": "cluster_6_b3_pp2", "trait_label": "Technical Reliability and Security Concern", "text": "Poor user experience for setup or account management (e.g., no import/export from other 2FA apps, tricky setup, accounts hidden by default)", "tone": "frustrated"}
+{"review_id": "cluster_6_b3_do0", "trait_label": "Technical Reliability and Security Concern", "text": "Reliable and consistent key recognition across all supported YubiKey models", "tone": "frustrated"}
+{"review_id": "cluster_6_b3_do1", "trait_label": "Technical Reliability and Security Concern", "text": "Improved NFC/QR scanning functionality that works on a wide range of devices", "tone": "frustrated"}
+{"review_id": "cluster_6_b4_pp0", "trait_label": "Technical Reliability and Security Concern", "text": "Technical failures in hardware detection (NFC, USB)", "tone": "frustrated"}
+{"review_id": "cluster_6_b4_pp1", "trait_label": "Technical Reliability and Security Concern", "text": "Inconsistent or broken NFC functionality requiring obscure settings changes", "tone": "frustrated"}
+{"review_id": "cluster_6_b4_pp2", "trait_label": "Technical Reliability and Security Concern", "text": "Poor error handling and data loss (e.g., losing all sites after a slip-up)", "tone": "frustrated"}
+{"review_id": "cluster_6_b4_do0", "trait_label": "Technical Reliability and Security Concern", "text": "Reliable, consistent hardware detection (NFC/USB) without manual fixes", "tone": "frustrated"}
+{"review_id": "cluster_6_b4_do1", "trait_label": "Technical Reliability and Security Concern", "text": "Simplified, frictionless authentication process", "tone": "frustrated"}
+{"review_id": "cluster_5_b0_pp0", "trait_label": "Scam Skepticism", "text": "Inability to withdraw mined funds", "tone": "frustrated"}
+{"review_id": "cluster_5_b0_pp1", "trait_label": "Scam Skepticism", "text": "Requirement to pay for a wallet to withdraw", "tone": "frustrated"}
+{"review_id": "cluster_5_b0_pp2", "trait_label": "Scam Skepticism", "text": "App resets mining progress/balance to zero before withdrawal", "tone": "frustrated"}
+{"review_id": "cluster_5_b0_do0", "trait_label": "Scam Skepticism", "text": "Successfully withdraw earned SOL", "tone": "frustrated"}
+{"review_id": "cluster_5_b0_do1", "trait_label": "Scam Skepticism", "text": "Transparent, free withdrawal process", "tone": "frustrated"}
+{"review_id": "cluster_5_b1_pp0", "trait_label": "Scam Skepticism", "text": "Mined rewards reset to zero before withdrawal", "tone": "frustrated"}
+{"review_id": "cluster_5_b1_pp1", "trait_label": "Scam Skepticism", "text": "Withdrawal process fails or gets stuck pending", "tone": "frustrated"}
+{"review_id": "cluster_5_b1_pp2", "trait_label": "Scam Skepticism", "text": "Requires a separate, paid, early-access wallet to withdraw", "tone": "frustrated"}
+{"review_id": "cluster_5_b1_do0", "trait_label": "Scam Skepticism", "text": "Reliable, timely payout after meeting mining threshold", "tone": "frustrated"}
+{"review_id": "cluster_5_b1_do1", "trait_label": "Scam Skepticism", "text": "Simple, fast withdrawal to a mainstream wallet", "tone": "frustrated"}
+{"review_id": "cluster_5_b2_pp0", "trait_label": "Scam Skepticism", "text": "Inability to withdraw earned funds despite promises", "tone": "frustrated"}
+{"review_id": "cluster_5_b2_pp1", "trait_label": "Scam Skepticism", "text": "Intrusive and excessive ads that block app functionality", "tone": "frustrated"}
+{"review_id": "cluster_5_b2_pp2", "trait_label": "Scam Skepticism", "text": "Mining process resets to zero or yields no rewards", "tone": "frustrated"}
+{"review_id": "cluster_5_b2_do0", "trait_label": "Scam Skepticism", "text": "Earn Solana coins easily through mining", "tone": "frustrated"}
+{"review_id": "cluster_5_b2_do1", "trait_label": "Scam Skepticism", "text": "Reliable and timely withdrawal of earned money", "tone": "frustrated"}
+{"review_id": "cluster_5_b3_pp0", "trait_label": "Scam Skepticism", "text": "Balance/wiped to zero before withdrawal", "tone": "frustrated"}
+{"review_id": "cluster_5_b3_pp1", "trait_label": "Scam Skepticism", "text": "Withdrawal process fails or empties balance", "tone": "frustrated"}
+{"review_id": "cluster_5_b3_pp2", "trait_label": "Scam Skepticism", "text": "Cannot withdraw or withdrawal is fake", "tone": "frustrated"}
+{"review_id": "cluster_5_b3_do0", "trait_label": "Scam Skepticism", "text": "Successfully withdraw mined funds", "tone": "frustrated"}
+{"review_id": "cluster_5_b3_do1", "trait_label": "Scam Skepticism", "text": "Simple, user-friendly UI", "tone": "frustrated"}
+{"review_id": "monologue_033711", "trait_label": "Inner Monologue", "text": "The pricing seems reasonable, but I need to know if this is actually production-ready before I even consider it. Too many times I've been burned by products that looked great but turned out to be MVP-stage with non-scalable infrastructure.", "tone": "authentic_voice"}
+{"review_id": "monologue_4fcb21", "trait_label": "Inner Monologue", "text": "Good to see some positive reviews, but I'm looking for evidence from other developers who've actually shipped this to production. Testimonials are nice, but I need to see real technical validation.", "tone": "authentic_voice"}
+{"review_id": "monologue_8cff81", "trait_label": "Inner Monologue", "text": "This setup guide better not require 'specific technical network configurations' or I'm out. I don't have time to become an expert in another complex framework just to get basic functionality working.", "tone": "authentic_voice"}
+{"review_id": "monologue_cb0072", "trait_label": "Inner Monologue", "text": "The signup form is asking for a lot of information upfront. I'd rather test the actual product first to see if it lives up to the promises before committing to another developer tool that might not deliver.", "tone": "authentic_voice"}
+{"review_id": "monologue_1328a5", "trait_label": "Inner Monologue", "text": "Finally, clear documentation with actual code examples! This is what I need - straightforward integration steps and honest discussion of requirements. If the setup is really this simple, this could work for our team.", "tone": "authentic_voice"}

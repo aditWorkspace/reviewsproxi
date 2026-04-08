@@ -1,0 +1,637 @@
+[
+  {
+    "id": "0073fd2c",
+    "status": "done",
+    "project_name": "Disgo",
+    "label": "Consumer App User (Hospitality / Food Discovery Context)",
+    "description": "A user of a consumer app focused on food and bar recommendations, interacting with features related to check-ins and personalized suggestions. Provides feedback through surveys (\u224850 users) on feature design, naming, and functionality. Engages with the product by comparing it to platforms like TikTok or Yelp.",
+    "config": {
+      "target_total": 8000,
+      "max_threads": 6,
+      "max_comments": 100,
+      "hn_max_per_query": 150
+    },
+    "created_at": "2026-04-05T04:47:44.025946+00:00",
+    "started_at": "2026-04-05T21:02:47.727129+00:00",
+    "finished_at": "2026-04-05T21:08:46.612665+00:00",
+    "duration_s": 359,
+    "error": null,
+    "persona_id": "queue_0073fd2c",
+    "log_file": "projects/queue_logs/0073fd2c.log"
+  },
+  {
+    "id": "2b4f91fd",
+    "status": "done",
+    "project_name": "Disgo",
+    "label": "Active User Providing Organic Feedback",
+    "description": "Uses the app and gives feedback through messages or conversations rather than structured systems. Interacts with features like check-ins and content posting, sharing issues encountered during real usage (e.g., posting while dining). Feedback is collected informally through ongoing user interaction.",
+    "config": {
+      "target_total": 8000,
+      "max_threads": 6,
+      "max_comments": 100,
+      "hn_max_per_query": 150
+    },
+    "created_at": "2026-04-05T04:47:44.026536+00:00",
+    "started_at": "2026-04-05T21:08:46.631608+00:00",
+    "finished_at": "2026-04-05T21:12:40.541606+00:00",
+    "duration_s": 234,
+    "error": null,
+    "persona_id": "queue_2b4f91fd",
+    "log_file": "projects/queue_logs/2b4f91fd.log"
+  },
+  {
+    "id": "da62d3a2",
+    "status": "done",
+    "project_name": "Disgo",
+    "label": "Internal Team Member (Startup Team of ~3)",
+    "description": "Part of a small founding team building the product and actively using it themselves. Participates in feature decisions based on internal discussions and personal usage of the app. Combines internal preferences with external user feedback to guide product development.",
+    "config": {
+      "target_total": 8000,
+      "max_threads": 6,
+      "max_comments": 100,
+      "hn_max_per_query": 150
+    },
+    "created_at": "2026-04-05T04:47:44.026839+00:00",
+    "started_at": "2026-04-05T21:12:40.556403+00:00",
+    "finished_at": "2026-04-05T21:17:31.623241+00:00",
+    "duration_s": 291,
+    "error": null,
+    "persona_id": "queue_da62d3a2",
+    "log_file": "projects/queue_logs/da62d3a2.log"
+  },
+  {
+    "id": "0f390f5b",
+    "status": "done",
+    "project_name": "EyeCanKnow",
+    "label": "Direct Outreach User (Multi-Channel Contact)",
+    "description": "A user contacted via phone, email, LinkedIn, Trustpilot, or Google reviews. Provides feedback inconsistently depending on response rates. Interaction is dependent on engagement and often limited.",
+    "config": {
+      "target_total": 8000,
+      "max_threads": 6,
+      "max_comments": 100,
+      "hn_max_per_query": 150
+    },
+    "created_at": "2026-04-05T04:47:44.027210+00:00",
+    "started_at": "2026-04-05T21:17:31.656682+00:00",
+    "finished_at": "2026-04-05T21:22:11.098179+00:00",
+    "duration_s": 279,
+    "error": null,
+    "persona_id": "queue_0f390f5b",
+    "log_file": "projects/queue_logs/0f390f5b.log"
+  },
+  {
+    "id": "7a4f2517",
+    "status": "done",
+    "project_name": "EyeCanKnow",
+    "label": "Trusted Early Feedback Partner",
+    "description": "A user or partner selected for early-stage validation who provides feedback during testing. Participates in iterative product development cycles. Interaction is more consistent than general outreach users.",
+    "config": {
+      "target_total": 8000,
+      "max_threads": 6,
+      "max_comments": 100,
+      "hn_max_per_query": 150
+    },
+    "created_at": "2026-04-05T04:47:44.027478+00:00",
+    "started_at": "2026-04-05T21:22:11.119330+00:00",
+    "finished_at": "2026-04-05T21:30:18.888832+00:00",
+    "duration_s": 488,
+    "error": null,
+    "persona_id": "queue_7a4f2517",
+    "log_file": "projects/queue_logs/7a4f2517.log"
+  },
+  {
+    "id": "e1d6ef10",
+    "status": "done",
+    "project_name": "EyeCanKnow",
+    "label": "B2C Platform User (\u22487,700 Users)",
+    "description": "One of thousands of users interacting with the product at scale. Feedback is primarily indirect and inferred from usage patterns, funnels, and conversion behavior. Interaction is analyzed through data rather than direct communication.",
+    "config": {
+      "target_total": 8000,
+      "max_threads": 6,
+      "max_comments": 100,
+      "hn_max_per_query": 150
+    },
+    "created_at": "2026-04-05T04:47:44.027761+00:00",
+    "started_at": "2026-04-05T21:30:18.909407+00:00",
+    "finished_at": "2026-04-05T21:34:42.780001+00:00",
+    "duration_s": 264,
+    "error": null,
+    "persona_id": "queue_e1d6ef10",
+    "log_file": "projects/queue_logs/e1d6ef10.log"
+  },
+  {
+    "id": "e370e00a",
+    "status": "done",
+    "project_name": "SailGTX",
+    "label": "Enterprise Trade Compliance User (B2B SaaS)",
+    "description": "Works in trade compliance within enterprise environments and interacts with structured workflows and outputs. Provides feedback based on how current processes operate and how outputs can be improved. Feedback is gathered through ongoing discovery conversations rather than high-frequency input.",
+    "config": {
+      "target_total": 8000,
+      "max_threads": 6,
+      "max_comments": 100,
+      "hn_max_per_query": 150
+    },
+    "created_at": "2026-04-05T04:47:44.028484+00:00",
+    "started_at": "2026-04-05T21:34:42.844375+00:00",
+    "finished_at": "2026-04-05T21:36:48.772134+00:00",
+    "duration_s": 126,
+    "error": null,
+    "persona_id": "queue_e370e00a",
+    "log_file": "projects/queue_logs/e370e00a.log"
+  },
+  {
+    "id": "9beea62d",
+    "status": "done",
+    "project_name": "SailGTX",
+    "label": "Early Adopter Customer (Segmented User Group)",
+    "description": "A subset of enterprise users identified internally as more willing to test new features. Interacts with new functionality earlier and provides feedback that is weighted more heavily in decision-making. Participates in validating new ideas before broader rollout.",
+    "config": {
+      "target_total": 8000,
+      "max_threads": 6,
+      "max_comments": 100,
+      "hn_max_per_query": 150
+    },
+    "created_at": "2026-04-05T04:47:44.029068+00:00",
+    "started_at": "2026-04-05T21:36:48.789357+00:00",
+    "finished_at": "2026-04-05T21:49:43.647906+00:00",
+    "duration_s": 775,
+    "error": null,
+    "persona_id": "queue_9beea62d",
+    "log_file": "projects/queue_logs/9beea62d.log"
+  },
+  {
+    "id": "ff599255",
+    "status": "done",
+    "project_name": "SailGTX",
+    "label": "Long-Tenured Industry User (15+ Years Experience)",
+    "description": "Works in the same role for extended periods (explicitly referenced as ~15 years) within compliance or related workflows. Provides feedback based on deep familiarity with existing systems and processes. Interaction reflects established habits and long-term workflow experience.",
+    "config": {
+      "target_total": 8000,
+      "max_threads": 6,
+      "max_comments": 100,
+      "hn_max_per_query": 150
+    },
+    "created_at": "2026-04-05T04:47:44.029680+00:00",
+    "started_at": "2026-04-05T21:49:43.669412+00:00",
+    "finished_at": "2026-04-05T21:52:28.266384+00:00",
+    "duration_s": 165,
+    "error": null,
+    "persona_id": "queue_ff599255",
+    "log_file": "projects/queue_logs/ff599255.log"
+  },
+  {
+    "id": "d0ba59c2",
+    "status": "done",
+    "project_name": "NROC Security",
+    "label": "Existing Enterprise Customer (AI Security Context)",
+    "description": "A current customer using enterprise security tools related to AI usage visibility. Provides feedback based on real usage and internal workflows. Interaction occurs through direct conversations about product improvements.",
+    "config": {
+      "target_total": 8000,
+      "max_threads": 6,
+      "max_comments": 100,
+      "hn_max_per_query": 150
+    },
+    "created_at": "2026-04-05T04:47:44.030293+00:00",
+    "started_at": "2026-04-05T21:52:28.286490+00:00",
+    "finished_at": "2026-04-05T21:55:25.146363+00:00",
+    "duration_s": 177,
+    "error": null,
+    "persona_id": "queue_d0ba59c2",
+    "log_file": "projects/queue_logs/d0ba59c2.log"
+  },
+  {
+    "id": "aa3d62dc",
+    "status": "done",
+    "project_name": "NROC Security",
+    "label": "Existing Customer Requesting Features",
+    "description": "A user within an organization who suggests new features based on their specific operational needs. Feedback reflects their internal setup and may vary across organizations. Interaction is driven by feature requests during engagement.",
+    "config": {
+      "target_total": 8000,
+      "max_threads": 6,
+      "max_comments": 100,
+      "hn_max_per_query": 150
+    },
+    "created_at": "2026-04-05T04:47:44.030967+00:00",
+    "started_at": "2026-04-05T21:55:25.172725+00:00",
+    "finished_at": "2026-04-05T22:03:05.771058+00:00",
+    "duration_s": 461,
+    "error": null,
+    "persona_id": "queue_aa3d62dc",
+    "log_file": "projects/queue_logs/aa3d62dc.log"
+  },
+  {
+    "id": "45b9a8d3",
+    "status": "done",
+    "project_name": "NROC Security",
+    "label": "External Market User (Non-Customer Segment)",
+    "description": "A user outside the existing customer base whose needs are considered for expansion. Interaction involves understanding broader market requirements beyond current users. Feedback is gathered through outreach beyond existing accounts.",
+    "config": {
+      "target_total": 8000,
+      "max_threads": 6,
+      "max_comments": 100,
+      "hn_max_per_query": 150
+    },
+    "created_at": "2026-04-05T04:47:44.031620+00:00",
+    "started_at": "2026-04-05T22:03:05.788949+00:00",
+    "finished_at": "2026-04-05T22:07:55.072247+00:00",
+    "duration_s": 289,
+    "error": null,
+    "persona_id": "queue_45b9a8d3",
+    "log_file": "projects/queue_logs/45b9a8d3.log"
+  },
+  {
+    "id": "3c7f24a9",
+    "status": "done",
+    "project_name": "DecycleBio",
+    "label": "Industry Expert (Biotech / MIT Network)",
+    "description": "A professional connected through academic or industry networks (e.g., MIT, Stanford) who participates in interviews. Provides feedback through scheduled conversations about workflows and problems. Interaction is based on expertise rather than product usage.",
+    "config": {
+      "target_total": 8000,
+      "max_threads": 6,
+      "max_comments": 100,
+      "hn_max_per_query": 150
+    },
+    "created_at": "2026-04-05T04:47:44.032152+00:00",
+    "started_at": "2026-04-05T22:07:55.092872+00:00",
+    "finished_at": "2026-04-05T22:13:56.703487+00:00",
+    "duration_s": 362,
+    "error": null,
+    "persona_id": "queue_3c7f24a9",
+    "log_file": "projects/queue_logs/3c7f24a9.log"
+  },
+  {
+    "id": "8ff0f7a6",
+    "status": "done",
+    "project_name": "Amoofy",
+    "label": "Interview Participant (Global Sample, ~1200 Interviews)",
+    "description": "A participant in a large-scale global interview set conducted post-COVID. Provides qualitative responses during conversations. Interaction is part of broad data collection efforts.",
+    "config": {
+      "target_total": 8000,
+      "max_threads": 6,
+      "max_comments": 100,
+      "hn_max_per_query": 150
+    },
+    "created_at": "2026-04-05T04:47:44.032662+00:00",
+    "started_at": "2026-04-05T22:13:56.721843+00:00",
+    "finished_at": "2026-04-05T22:19:11.492629+00:00",
+    "duration_s": 315,
+    "error": null,
+    "persona_id": "queue_8ff0f7a6",
+    "log_file": "projects/queue_logs/8ff0f7a6.log"
+  },
+  {
+    "id": "98b06b99",
+    "status": "done",
+    "project_name": "Amoofy",
+    "label": "Pilot Customer (Early Product Testing)",
+    "description": "A user or organization testing the product in pilot deployments. Provides feedback during early-stage usage. Interaction focuses on validating functionality.",
+    "config": {
+      "target_total": 8000,
+      "max_threads": 6,
+      "max_comments": 100,
+      "hn_max_per_query": 150
+    },
+    "created_at": "2026-04-05T04:47:44.033528+00:00",
+    "started_at": "2026-04-05T22:19:11.542303+00:00",
+    "finished_at": "2026-04-05T22:23:40.341627+00:00",
+    "duration_s": 269,
+    "error": null,
+    "persona_id": "queue_98b06b99",
+    "log_file": "projects/queue_logs/98b06b99.log"
+  },
+  {
+    "id": "f4ea5f43",
+    "status": "done",
+    "project_name": "Amoofy",
+    "label": "Pattern-Contributing Participant",
+    "description": "An individual whose responses contribute to identifying recurring patterns across interviews. Feedback is aggregated with others rather than evaluated individually. Interaction is analyzed collectively.",
+    "config": {
+      "target_total": 8000,
+      "max_threads": 6,
+      "max_comments": 100,
+      "hn_max_per_query": 150
+    },
+    "created_at": "2026-04-05T04:47:44.034056+00:00",
+    "started_at": "2026-04-05T22:23:40.359612+00:00",
+    "finished_at": "2026-04-05T22:37:12.900206+00:00",
+    "duration_s": 813,
+    "error": null,
+    "persona_id": "queue_f4ea5f43",
+    "log_file": "projects/queue_logs/f4ea5f43.log"
+  },
+  {
+    "id": "e44e197a",
+    "status": "done",
+    "project_name": "Notion",
+    "label": "Product Manager (Large Tech Company)",
+    "description": "Works as a PM using tools like Hex dashboards and Zendesk to review user feedback and metrics. Interacts with multiple data sources and synthesizes patterns from them. Behavior involves structured analysis of product data.",
+    "config": {
+      "target_total": 8000,
+      "max_threads": 6,
+      "max_comments": 100,
+      "hn_max_per_query": 150
+    },
+    "created_at": "2026-04-05T04:47:44.034590+00:00",
+    "started_at": "2026-04-05T22:37:12.929691+00:00",
+    "finished_at": "2026-04-05T22:39:05.955840+00:00",
+    "duration_s": 113,
+    "error": null,
+    "persona_id": "queue_e44e197a",
+    "log_file": "projects/queue_logs/e44e197a.log"
+  },
+  {
+    "id": "506cd2db",
+    "status": "done",
+    "project_name": "Notion",
+    "label": "PM Using AI Tools (Claude / ChatGPT)",
+    "description": "Uses AI tools to summarize feedback and identify patterns across datasets. Still reviews raw interviews or source material for validation. Interaction combines automated and manual analysis.",
+    "config": {
+      "target_total": 8000,
+      "max_threads": 6,
+      "max_comments": 100,
+      "hn_max_per_query": 150
+    },
+    "created_at": "2026-04-05T04:47:44.035182+00:00",
+    "started_at": "2026-04-05T22:39:05.977302+00:00",
+    "finished_at": "2026-04-05T22:43:09.900702+00:00",
+    "duration_s": 244,
+    "error": null,
+    "persona_id": "queue_506cd2db",
+    "log_file": "projects/queue_logs/506cd2db.log"
+  },
+  {
+    "id": "d6959b4c",
+    "status": "done",
+    "project_name": "Notion",
+    "label": "Cross-Functional PM (Design + Engineering Collaboration)",
+    "description": "Works closely with design and engineering teams using tools like Notion, Slack, and whiteboarding platforms. Participates in collaborative sessions to define solutions and execute features. Interaction is team-based and iterative.",
+    "config": {
+      "target_total": 8000,
+      "max_threads": 6,
+      "max_comments": 100,
+      "hn_max_per_query": 150
+    },
+    "created_at": "2026-04-05T04:47:44.035895+00:00",
+    "started_at": "2026-04-05T22:43:09.924280+00:00",
+    "finished_at": "2026-04-05T22:56:53.408601+00:00",
+    "duration_s": 823,
+    "error": null,
+    "persona_id": "queue_d6959b4c",
+    "log_file": "projects/queue_logs/d6959b4c.log"
+  },
+  {
+    "id": "e3b6e109",
+    "status": "done",
+    "project_name": "Altude",
+    "label": "Solana Developer (Blockchain Ecosystem)",
+    "description": "A developer working within the Solana ecosystem building products involving embedded wallets or gasless transactions. Interaction with the product is primarily through usage rather than interviews, and feedback is difficult to extract. Communication is limited and often indirect.",
+    "config": {
+      "target_total": 8000,
+      "max_threads": 6,
+      "max_comments": 100,
+      "hn_max_per_query": 150
+    },
+    "created_at": "2026-04-05T04:47:44.036477+00:00",
+    "started_at": "2026-04-05T22:56:53.438330+00:00",
+    "finished_at": "2026-04-05T23:01:50.329878+00:00",
+    "duration_s": 297,
+    "error": null,
+    "persona_id": "queue_e3b6e109",
+    "log_file": "projects/queue_logs/e3b6e109.log"
+  },
+  {
+    "id": "2c450cfb",
+    "status": "done",
+    "project_name": "Altude",
+    "label": "Funnel User (Sign-up Stage, No Usage)",
+    "description": "A user reached through outreach (e.g., Telegram groups) who expresses interest and signs up for the product. Does not proceed to actual usage or integration after sign-up. Behavior is observed through funnel drop-off rather than direct feedback.",
+    "config": {
+      "target_total": 8000,
+      "max_threads": 6,
+      "max_comments": 100,
+      "hn_max_per_query": 150
+    },
+    "created_at": "2026-04-05T04:47:44.037215+00:00",
+    "started_at": "2026-04-05T23:01:50.361292+00:00",
+    "finished_at": "2026-04-05T23:06:58.871584+00:00",
+    "duration_s": 309,
+    "error": null,
+    "persona_id": "queue_2c450cfb",
+    "log_file": "projects/queue_logs/2c450cfb.log"
+  },
+  {
+    "id": "5f19c14c",
+    "status": "done",
+    "project_name": "Altude",
+    "label": "Outreach Contact (Telegram Group Member)",
+    "description": "A user contacted in blockchain-related Telegram groups who shows initial interest when approached. Interaction is brief and often does not progress beyond initial conversations. Provides minimal or no actionable feedback.",
+    "config": {
+      "target_total": 8000,
+      "max_threads": 6,
+      "max_comments": 100,
+      "hn_max_per_query": 150
+    },
+    "created_at": "2026-04-05T04:47:44.037832+00:00",
+    "started_at": "2026-04-05T23:06:58.890759+00:00",
+    "finished_at": "2026-04-05T23:09:42.597894+00:00",
+    "duration_s": 164,
+    "error": null,
+    "persona_id": "queue_5f19c14c",
+    "log_file": "projects/queue_logs/5f19c14c.log"
+  },
+  {
+    "id": "a7050c6d",
+    "status": "done",
+    "project_name": "Pantri App",
+    "label": "Survey Respondent (150+ Sample Size)",
+    "description": "A user participating in surveys used to validate problem relevance. Provides structured responses during early-stage research. Interaction occurs before product development.",
+    "config": {
+      "target_total": 8000,
+      "max_threads": 6,
+      "max_comments": 100,
+      "hn_max_per_query": 150
+    },
+    "created_at": "2026-04-05T04:47:44.038385+00:00",
+    "started_at": "2026-04-05T23:09:42.622293+00:00",
+    "finished_at": "2026-04-05T23:13:55.064990+00:00",
+    "duration_s": 252,
+    "error": null,
+    "persona_id": "queue_a7050c6d",
+    "log_file": "projects/queue_logs/a7050c6d.log"
+  },
+  {
+    "id": "06a3d2de",
+    "status": "done",
+    "project_name": "Pantri App",
+    "label": "Service Platform User (Integrated Tools like Instacart, Uber)",
+    "description": "Uses services such as grocery ordering, meal preparation, and household coordination within an integrated system. Interacts through booking flows, shopping tools, and service matching. Engagement is through product usage rather than interviews.",
+    "config": {
+      "target_total": 8000,
+      "max_threads": 6,
+      "max_comments": 100,
+      "hn_max_per_query": 150
+    },
+    "created_at": "2026-04-05T04:47:44.038948+00:00",
+    "started_at": "2026-04-05T23:13:55.082061+00:00",
+    "finished_at": "2026-04-05T23:15:49.617898+00:00",
+    "duration_s": 115,
+    "error": null,
+    "persona_id": "queue_06a3d2de",
+    "log_file": "projects/queue_logs/06a3d2de.log"
+  },
+  {
+    "id": "e30e99b1",
+    "status": "done",
+    "project_name": "Pantri App",
+    "label": "Behavioral Data User (Tracked Usage Patterns)",
+    "description": "A user whose activity is tracked through system data such as bookings and interactions. Feedback is inferred from observed behavior rather than direct input. Interaction is passive and data-driven.",
+    "config": {
+      "target_total": 8000,
+      "max_threads": 6,
+      "max_comments": 100,
+      "hn_max_per_query": 150
+    },
+    "created_at": "2026-04-05T04:47:44.039518+00:00",
+    "started_at": "2026-04-05T23:15:49.638113+00:00",
+    "finished_at": "2026-04-05T23:24:49.103500+00:00",
+    "duration_s": 539,
+    "error": null,
+    "persona_id": "queue_e30e99b1",
+    "log_file": "projects/queue_logs/e30e99b1.log"
+  },
+  {
+    "id": "6d64006d",
+    "status": "done",
+    "project_name": "Green Corridors",
+    "label": "Third-Party Logistics Operator (US / Global Firms)",
+    "description": "Works at large logistics companies such as FedEx, Uber Freight, Echo, or Redwood, which operate across the U.S. and globally. Interacts with simulation tools like digital twins, animations, and operational models during meetings to evaluate infrastructure concepts. Provides feedback during structured sessions focused on operations and data performance.",
+    "config": {
+      "target_total": 8000,
+      "max_threads": 6,
+      "max_comments": 100,
+      "hn_max_per_query": 150
+    },
+    "created_at": "2026-04-05T04:47:44.040164+00:00",
+    "started_at": "2026-04-05T23:24:49.129225+00:00",
+    "finished_at": "2026-04-05T23:48:02.293360+00:00",
+    "duration_s": 1393,
+    "error": null,
+    "persona_id": "queue_6d64006d",
+    "log_file": "projects/queue_logs/6d64006d.log"
+  },
+  {
+    "id": "95d0f275",
+    "status": "done",
+    "project_name": "Green Corridors",
+    "label": "Oil & Gas Field Operator (Canada / Texas / Costa Rica context)",
+    "description": "Works in oil and gas field operations across locations mentioned such as Texas, British Columbia (Canada), and Costa Rica. Interacts directly with equipment in the field and provides feedback based on real operational issues observed during workflows. Participates in iterative product improvement by describing specific problems encountered on-site.",
+    "config": {
+      "target_total": 8000,
+      "max_threads": 6,
+      "max_comments": 100,
+      "hn_max_per_query": 150
+    },
+    "created_at": "2026-04-05T04:47:44.040785+00:00",
+    "started_at": "2026-04-05T23:48:02.361581+00:00",
+    "finished_at": "2026-04-05T23:52:16.574424+00:00",
+    "duration_s": 254,
+    "error": null,
+    "persona_id": "queue_95d0f275",
+    "log_file": "projects/queue_logs/95d0f275.log"
+  },
+  {
+    "id": "295f14cb",
+    "status": "done",
+    "project_name": "Green Corridors",
+    "label": "Oil & Gas Engineer (Exploration & Production Offices)",
+    "description": "Holds roles like drilling engineer or completions engineer within exploration and production companies. Works in office environments tied to field operations and reviews product outputs after demonstrations or deployments. Provides feedback by suggesting additional use cases and improvements after seeing product capabilities.",
+    "config": {
+      "target_total": 8000,
+      "max_threads": 6,
+      "max_comments": 100,
+      "hn_max_per_query": 150
+    },
+    "created_at": "2026-04-05T04:47:44.041558+00:00",
+    "started_at": "2026-04-05T23:52:16.593256+00:00",
+    "finished_at": "2026-04-05T23:56:49.972783+00:00",
+    "duration_s": 273,
+    "error": null,
+    "persona_id": "queue_295f14cb",
+    "log_file": "projects/queue_logs/295f14cb.log"
+  },
+  {
+    "id": "52075d3f",
+    "status": "done",
+    "project_name": "Lamar Health",
+    "label": "Workflow Observation Customer (Healthcare Context)",
+    "description": "A customer whose workflows are recorded and analyzed to understand operational processes. Interacts by demonstrating real processes rather than describing them abstractly. Feedback is validated through confirmation of observed workflows.",
+    "config": {
+      "target_total": 8000,
+      "max_threads": 6,
+      "max_comments": 100,
+      "hn_max_per_query": 150
+    },
+    "created_at": "2026-04-05T04:47:44.042201+00:00",
+    "started_at": "2026-04-05T23:56:49.994155+00:00",
+    "finished_at": "2026-04-06T00:02:38.727056+00:00",
+    "duration_s": 349,
+    "error": null,
+    "persona_id": "queue_52075d3f",
+    "log_file": "projects/queue_logs/52075d3f.log"
+  },
+  {
+    "id": "9a624374",
+    "status": "done",
+    "project_name": "Lamar Health",
+    "label": "UAT Testing Customer",
+    "description": "A customer testing features in a user acceptance testing environment before full rollout. Provides feedback based on hands-on interaction with test versions. Interaction occurs during controlled testing phases.",
+    "config": {
+      "target_total": 8000,
+      "max_threads": 6,
+      "max_comments": 100,
+      "hn_max_per_query": 150
+    },
+    "created_at": "2026-04-05T04:47:44.042861+00:00",
+    "started_at": "2026-04-06T00:02:38.864947+00:00",
+    "finished_at": "2026-04-06T00:06:59.126417+00:00",
+    "duration_s": 260,
+    "error": null,
+    "persona_id": "queue_9a624374",
+    "log_file": "projects/queue_logs/9a624374.log"
+  },
+  {
+    "id": "04cf565b",
+    "status": "done",
+    "project_name": "Lamar Health",
+    "label": "Repeated Feedback Customer",
+    "description": "A user whose repeated requests signal consistent issues or needs. Interaction is tracked across multiple instances of similar feedback. Behavior is identified through frequency rather than single interactions.",
+    "config": {
+      "target_total": 8000,
+      "max_threads": 6,
+      "max_comments": 100,
+      "hn_max_per_query": 150
+    },
+    "created_at": "2026-04-05T04:47:44.043512+00:00",
+    "started_at": "2026-04-06T00:06:59.220582+00:00",
+    "finished_at": "2026-04-06T00:19:28.038219+00:00",
+    "duration_s": 749,
+    "error": null,
+    "persona_id": "queue_04cf565b",
+    "log_file": "projects/queue_logs/04cf565b.log"
+  },
+  {
+    "id": "d4f022b9",
+    "status": "done",
+    "project_name": "adittesting",
+    "label": "Operations-Driven SaaS Decision Maker",
+    "description": "Mid-career professionals, typically ages 30 to 50, working in small to mid-sized companies with 50 to 500 employees, most often in industries like technology, professional services, finance, or e-commerce. They hold roles such as operations manager, head of growth, IT manager, or director-level positions, with a bachelor\u2019s degree at minimum and often additional certifications or an MBA. Geographically concentrated in urban and suburban business hubs across North America and Western Europe, with increasing representation in fast-growing markets like India and Southeast Asia. Annual personal income generally ranges from $85K to $180K+, and they operate within organizations generating $5M to $100M in annual revenue.",
+    "config": {},
+    "created_at": "2026-04-06T08:17:54.822779+00:00",
+    "started_at": "2026-04-06T08:17:55.191162+00:00",
+    "finished_at": "2026-04-06T08:56:26.119061+00:00",
+    "duration_s": 2311,
+    "error": null,
+    "persona_id": "queue_d4f022b9",
+    "log_file": "projects/queue_logs/d4f022b9.log"
+  }
+]

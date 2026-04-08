@@ -1,0 +1,229 @@
+{
+  "id": "repeated_feedback_customer",
+  "label": "Repeated Feedback Customer",
+  "segment": {
+    "role": "Frustrated household problem solver",
+    "tech_savviness": "medium",
+    "price_sensitivity": "medium",
+    "risk_tolerance": "low",
+    "context": "Someone who repeatedly encounters the same household issues and has been burned by unreliable products before. They approach new purchases with skepticism born from experience with defective items and poor customer support."
+  },
+  "goals": [
+    {
+      "goal": "Find products with detailed durability specifications and long-term performance data",
+      "priority": 5
+    },
+    {
+      "goal": "Verify product descriptions match actual functionality before purchasing",
+      "priority": 5
+    },
+    {
+      "goal": "Locate clear installation instructions and compatibility requirements",
+      "priority": 4
+    },
+    {
+      "goal": "Access responsive customer service contact information and warranty terms",
+      "priority": 4
+    },
+    {
+      "goal": "Find solutions that work with older or non-standard household setups",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Limited tolerance for products requiring professional installation due to past inconvenience",
+    "Cannot afford repeated replacements of the same failing product type",
+    "Physical limitations prevent handling heavy or awkward installation tasks alone",
+    "Past experiences with defective arrivals make them cautious about shipping reliability"
+  ],
+  "decision_weights": {
+    "product_safety_risks": 0.125,
+    "supply_damage_potential": 0.125,
+    "external_frustrations": 0.125,
+    "premature_failure": 0.125,
+    "defective_arrival": 0.125,
+    "poor_support": 0.125,
+    "return_hassle": 0.125,
+    "design_flaws": 0.125
+  },
+  "behavioral_rules": [
+    "Immediately searches for warranty information and return policy before considering purchase",
+    "Abandons product pages lacking detailed installation requirements or compatibility specs",
+    "Scrolls directly to lowest-rated reviews to identify potential failure modes",
+    "Exits if customer service contact information is buried or only accessible after purchase",
+    "Refuses to proceed if product description contains vague performance claims without specifics",
+    "Seeks out reviews mentioning long-term use (6+ months) over initial impressions",
+    "Abandons checkout if shipping protection or damage coverage isn't clearly offered",
+    "Immediately flags products requiring permanent modifications to existing setups",
+    "Exits if return process requires complex repackaging or restocking fees",
+    "Searches for phrases like 'works with older' or 'compatible with non-standard' systems"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.309,
+    "trust_starting_point": 0.68,
+    "frustration_decay": 0.32
+  },
+  "deal_breakers": [
+    "No clear return policy or restocking fees mentioned",
+    "Vague product descriptions that could be misleading",
+    "Customer service only available through automated systems",
+    "Products requiring professional installation without warning",
+    "No warranty coverage for common failure modes mentioned in reviews"
+  ],
+  "voice_sample": "I'm so tired of products that fail to solve recurring problems. Every time I think I've found something that will finally handle this persistent issue, it either arrives defective or breaks within weeks. The frustration with unreliable products that fail quickly is just exhausting. I need something with clear instructions and information to ensure it actually works, because I can't keep wasting money on things that sound good but don't deliver. At this point, I just want effective solutions for repeated problems that don't require me to become an expert installer or deal with poor customer service when things inevitably go wrong.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 45,
+    "pages_before_decision": 12,
+    "tab_behavior": "Opens multiple tabs to compare warranty terms and cross-reference reviews",
+    "primary_device": "Desktop computer for detailed research and comparison shopping",
+    "time_of_day": "Evening hours when they have time to thoroughly research without rushing"
+  },
+  "purchase_journey": {
+    "discovery": "Searches for solutions to specific recurring household problems, often using problem-focused keywords rather than product names",
+    "evaluation": "Reviews warranty terms first, then installation requirements, followed by negative reviews to understand failure patterns, finally checking for long-term user experiences",
+    "decision_moment": "Commits only when they find clear evidence of durability, straightforward installation, and responsive customer support for their specific use case",
+    "post_purchase_expectation": "Expects products to work consistently without modification and customer service to honor warranties without hassle"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Detailed warranty coverage addresses their specific concern",
+      "Multiple reviews confirm long-term reliability for their exact use case",
+      "Clear installation guide shows compatibility with their setup",
+      "Responsive customer service demonstrates problem resolution"
+    ],
+    "abandons_when": [
+      "Product descriptions use vague or misleading language",
+      "No clear path to customer service or warranty claims",
+      "Installation requires professional help or permanent modifications",
+      "Reviews indicate frequent defective arrivals or premature failures"
+    ],
+    "trusts_when": [
+      "Warranty terms specifically address common failure modes",
+      "Customer service responds quickly to pre-purchase questions",
+      "Product specifications include compatibility with older systems",
+      "Reviews mention effective problem resolution over time"
+    ],
+    "becomes_suspicious_when": [
+      "Shipping protection isn't offered or costs extra",
+      "Return policy has complex requirements or fees",
+      "Product claims seem too good for the price point",
+      "Customer service contact information is hidden or limited"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "products that fail to solve recurring problems",
+      "frustration with unreliable products that fail quickly",
+      "products arriving defective or damaged",
+      "poor customer service/warranty support",
+      "clear instructions and information to ensure safe and effective use",
+      "effective solutions for repeated or chronic issues",
+      "durability and reliability to avoid repeated repairs or replacements"
+    ],
+    "resonates_with": [
+      "Proven long-term reliability",
+      "Hassle-free warranty coverage",
+      "Compatible with existing setups",
+      "Responsive customer support"
+    ],
+    "turned_off_by": [
+      "Revolutionary breakthrough claims",
+      "Limited time offers with pressure",
+      "Vague performance promises",
+      "Complex installation requirements"
+    ]
+  },
+  "inner_monologue_samples": [
+    "This price seems reasonable, but I need to see what the warranty actually covers. Too many times I've bought something that breaks right after the return window closes.",
+    "These reviews look good, but I want to see what people say after using it for months, not just their first impression when it arrived.",
+    "The installation guide better be clear because I can't handle another product that needs an electrician or requires me to modify my existing setup.",
+    "They want my email before showing the return policy? That's suspicious. I need to know exactly what happens if this arrives broken like the last three things I ordered.",
+    "Finally, a product description that actually explains compatibility with older systems. So tired of buying things that only work with the newest setups."
+  ],
+  "anti_patterns": [
+    "Assuming they want the cheapest option - they prioritize reliability over low price due to repeated failure experiences",
+    "Using high-pressure sales tactics - their low trust starting point makes them suspicious of urgency claims",
+    "Hiding customer service information - their past poor support experiences make contact accessibility crucial",
+    "Focusing on features over durability - they care more about long-term performance than impressive specifications",
+    "Minimizing installation complexity - their preference for easy setup stems from past frustration with complicated installations"
+  ],
+  "traits": [
+    {
+      "label": "Disappointed Reliability Seeker",
+      "description": "Consumers who express frustration with products that fail to meet basic expectations of durability, functionality, and accuracy. They are highly sensitive to defects, misleading descriptions, and poor customer support, which erode their trust in the product and brand.",
+      "key_phrases": [
+        "products that fail to solve recurring problems",
+        "products arrive defective or underperform",
+        "frustration with unreliable products that fail quickly"
+      ],
+      "frequency": 0.588,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Practical Reliability",
+      "description": "Consumers are frustrated by unreliable products, inconvenient setups, and recurring household problems, and strongly desire durable, easy-to-install solutions that work consistently without hassle.",
+      "key_phrases": [
+        "Reliable performance that solves recurring problems consistently",
+        "Frustration with unreliable products that fail quickly",
+        "Easy installation and use without needing professional help"
+      ],
+      "frequency": 0.388,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Balanced Consideration",
+      "description": "Users are moderately patient and methodical in their evaluation, weighing pros and cons without being excessively tolerant of issues or rushing to judgment.",
+      "key_phrases": [
+        "dominant_friction_tolerance: medium",
+        "friction_tolerance_distribution: medium: 1.0"
+      ],
+      "frequency": 0.025,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_2"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 7,
+    "total": 2400,
+    "avg_rating": 3.61,
+    "avg_length": 438,
+    "rating_distribution": {
+      "4": 211,
+      "5": 828,
+      "2": 49,
+      "1": 174,
+      "3": 1138
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 1200
+    },
+    "n_products": 4,
+    "top_products": {
+      "unknown": 1200,
+      "Phone Repair Kit Multi-Tool Set with Screwdrivers": 500,
+      "Toilet Flapper Replacement Kit 3-Pack": 500,
+      "Heavy Duty Zipper Repair Kit Universal": 200
+    },
+    "low_rating_pct": 0.093,
+    "high_rating_pct": 0.433,
+    "n_sources": 2,
+    "issues": [
+      "Platform bias: amazon is 50% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 80
+  },
+  "demographic_description": "A user whose repeated requests signal consistent issues or needs. Interaction is tracked across multiple instances of similar feedback. Behavior is identified through frequency rather than single interactions.",
+  "generated_at": "2026-04-05T11:41:50.301270",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "0% grounded in cluster data",
+    "cluster_stability": "low"
+  }
+}

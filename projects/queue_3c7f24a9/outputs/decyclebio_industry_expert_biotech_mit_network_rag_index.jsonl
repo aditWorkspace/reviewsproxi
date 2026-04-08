@@ -1,0 +1,205 @@
+{"review_id": "cluster_4_b0_pp0", "trait_label": "Technical Reliability Concern", "text": "Buggy and unreliable software with frequent crashes and compatibility issues", "tone": "frustrated"}
+{"review_id": "cluster_4_b0_pp1", "trait_label": "Technical Reliability Concern", "text": "Poor customer support and technical assistance", "tone": "frustrated"}
+{"review_id": "cluster_4_b0_pp2", "trait_label": "Technical Reliability Concern", "text": "Misleading licensing and restrictive activation policies", "tone": "frustrated"}
+{"review_id": "cluster_4_b0_do0", "trait_label": "Technical Reliability Concern", "text": "Stable, reliable, and compatible software that performs core functions without failure", "tone": "frustrated"}
+{"review_id": "cluster_4_b0_do1", "trait_label": "Technical Reliability Concern", "text": "Clear, fair, and flexible licensing for multiple devices/installations", "tone": "frustrated"}
+{"review_id": "cluster_4_b1_pp0", "trait_label": "Technical Reliability Concern", "text": "Difficulty mastering software due to complex structure or poor documentation", "tone": "frustrated"}
+{"review_id": "cluster_4_b1_pp1", "trait_label": "Technical Reliability Concern", "text": "Software crashes frequently, causing interruptions and data loss risk", "tone": "frustrated"}
+{"review_id": "cluster_4_b1_pp2", "trait_label": "Technical Reliability Concern", "text": "Poor speech recognition or technical reliability (e.g., browser incompatibility, loading issues)", "tone": "frustrated"}
+{"review_id": "cluster_4_b1_do0", "trait_label": "Technical Reliability Concern", "text": "Efficiently produce professional content (e.g., videos for business)", "tone": "frustrated"}
+{"review_id": "cluster_4_b1_do1", "trait_label": "Technical Reliability Concern", "text": "Achieve practical language proficiency for travel or communication", "tone": "frustrated"}
+{"review_id": "cluster_4_b2_pp0", "trait_label": "Technical Reliability Concern", "text": "Inadequate or unhelpful technical support", "tone": "frustrated"}
+{"review_id": "cluster_4_b2_pp1", "trait_label": "Technical Reliability Concern", "text": "Poor software reliability or frequent bugs", "tone": "frustrated"}
+{"review_id": "cluster_4_b2_pp2", "trait_label": "Technical Reliability Concern", "text": "Complex or non-intuitive user interface", "tone": "frustrated"}
+{"review_id": "cluster_4_b2_do0", "trait_label": "Technical Reliability Concern", "text": "Seamless, multi-format import/export capabilities", "tone": "frustrated"}
+{"review_id": "cluster_4_b2_do1", "trait_label": "Technical Reliability Concern", "text": "Professional-quality output (videos, documents)", "tone": "frustrated"}
+{"review_id": "cluster_4_b3_pp0", "trait_label": "Technical Reliability Concern", "text": "Frustration with overly complex installation and configuration processes", "tone": "frustrated"}
+{"review_id": "cluster_4_b3_pp1", "trait_label": "Technical Reliability Concern", "text": "Anger over intrusive advertising and lack of transparency with personal data", "tone": "frustrated"}
+{"review_id": "cluster_4_b3_pp2", "trait_label": "Technical Reliability Concern", "text": "Disappointment with software bugs, slow performance, and unexpected system restarts during install", "tone": "frustrated"}
+{"review_id": "cluster_4_b3_do0", "trait_label": "Technical Reliability Concern", "text": "Reliable, error-free backup and data recovery solutions", "tone": "frustrated"}
+{"review_id": "cluster_4_b3_do1", "trait_label": "Technical Reliability Concern", "text": "Intuitive, easy-to-use software with minimal learning curve", "tone": "frustrated"}
+{"review_id": "cluster_4_b4_pp0", "trait_label": "Technical Reliability Concern", "text": "Insufficient or missing critical features (e.g., lacking Publisher, Access, Outlook)", "tone": "frustrated"}
+{"review_id": "cluster_4_b4_pp1", "trait_label": "Technical Reliability Concern", "text": "Poor or missing documentation", "tone": "frustrated"}
+{"review_id": "cluster_4_b4_pp2", "trait_label": "Technical Reliability Concern", "text": "Buggy or unstable software prone to freezing/crashing", "tone": "frustrated"}
+{"review_id": "cluster_4_b4_do0", "trait_label": "Technical Reliability Concern", "text": "Easy setup and installation", "tone": "frustrated"}
+{"review_id": "cluster_4_b4_do1", "trait_label": "Technical Reliability Concern", "text": "Saves time compared to manual work or hiring experts", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_pp0", "trait_label": "Professional Pragmatist", "text": "Difficulty staying current with rapidly advancing technology and research (ML papers, new models)", "tone": "pragmatic"}
+{"review_id": "cluster_3_b0_pp1", "trait_label": "Professional Pragmatist", "text": "Time wasted dealing with unreliable AI-generated code that hallucinates and requires constant fixing", "tone": "pragmatic"}
+{"review_id": "cluster_3_b0_pp2", "trait_label": "Professional Pragmatist", "text": "Software forced obsolescence and upgrades that disrupt workflow and introduce new problems", "tone": "pragmatic"}
+{"review_id": "cluster_3_b0_do0", "trait_label": "Professional Pragmatist", "text": "Significant time savings and productivity gains through automation of repetitive or trivial tasks", "tone": "pragmatic"}
+{"review_id": "cluster_3_b0_do1", "trait_label": "Professional Pragmatist", "text": "Reliable, stable software that works as expected without crashes or major bugs", "tone": "pragmatic"}
+{"review_id": "cluster_3_b1_pp0", "trait_label": "Professional Pragmatist", "text": "Conflicting and inaccurate information from customer service causing financial loss", "tone": "pragmatic"}
+{"review_id": "cluster_3_b1_pp1", "trait_label": "Professional Pragmatist", "text": "Failure to deliver promised refunds after service outsourcing", "tone": "pragmatic"}
+{"review_id": "cluster_3_b1_pp2", "trait_label": "Professional Pragmatist", "text": "Poor random number generation in games, making play unfair or frustrating", "tone": "pragmatic"}
+{"review_id": "cluster_3_b1_do0", "trait_label": "Professional Pragmatist", "text": "Accurate, consistent customer service that resolves issues promptly", "tone": "pragmatic"}
+{"review_id": "cluster_3_b1_do1", "trait_label": "Professional Pragmatist", "text": "High-quality software that works flawlessly and enhances professional productivity", "tone": "pragmatic"}
+{"review_id": "cluster_3_b2_pp0", "trait_label": "Professional Pragmatist", "text": "Software installation processes are excessively complex and time-consuming, requiring advanced technical intervention.", "tone": "pragmatic"}
+{"review_id": "cluster_3_b2_pp1", "trait_label": "Professional Pragmatist", "text": "Software interfaces are non-intuitive, requiring extensive tutorials and causing high learning curves.", "tone": "pragmatic"}
+{"review_id": "cluster_3_b2_pp2", "trait_label": "Professional Pragmatist", "text": "Software frequently crashes or freezes, disrupting workflow and causing frustration.", "tone": "pragmatic"}
+{"review_id": "cluster_3_b2_do0", "trait_label": "Professional Pragmatist", "text": "Software must integrate seamlessly with existing professional hardware ecosystems (e.g., Wacom tablets, specific printers).", "tone": "pragmatic"}
+{"review_id": "cluster_3_b2_do1", "trait_label": "Professional Pragmatist", "text": "Software should enable high-efficiency workflows, minimizing time spent on setup, learning, and troubleshooting.", "tone": "pragmatic"}
+{"review_id": "cluster_3_b3_pp0", "trait_label": "Professional Pragmatist", "text": "Difficulty communicating due to language barriers in critical situations (e.g., after an accident)", "tone": "pragmatic"}
+{"review_id": "cluster_3_b3_pp1", "trait_label": "Professional Pragmatist", "text": "Complexity and perceived hassle of important but daunting tasks like estate planning", "tone": "pragmatic"}
+{"review_id": "cluster_3_b3_pp2", "trait_label": "Professional Pragmatist", "text": "Frustration with subscription/rental models for essential software", "tone": "pragmatic"}
+{"review_id": "cluster_3_b3_do0", "trait_label": "Professional Pragmatist", "text": "Achieve practical, conversational fluency in a second language quickly and effectively", "tone": "pragmatic"}
+{"review_id": "cluster_3_b3_do1", "trait_label": "Professional Pragmatist", "text": "Complete complex legal/financial paperwork correctly and with minimal stress", "tone": "pragmatic"}
+{"review_id": "cluster_3_b4_pp0", "trait_label": "Professional Pragmatist", "text": "High-quality software requires expert guidance to avoid damaging the system", "tone": "pragmatic"}
+{"review_id": "cluster_3_b4_pp1", "trait_label": "Professional Pragmatist", "text": "Software updates break existing functionality (e.g., Blu-Ray playback)", "tone": "pragmatic"}
+{"review_id": "cluster_3_b4_pp2", "trait_label": "Professional Pragmatist", "text": "Lack of intuitive interfaces or poor documentation increases learning curve", "tone": "pragmatic"}
+{"review_id": "cluster_3_b4_do0", "trait_label": "Professional Pragmatist", "text": "Robust, professional-level results from software without a steep learning curve", "tone": "pragmatic"}
+{"review_id": "cluster_3_b4_do1", "trait_label": "Professional Pragmatist", "text": "Cost-effective solutions covering multiple devices with a single license", "tone": "pragmatic"}
+{"review_id": "cluster_6_b0_pp0", "trait_label": "Professional Reliability Expectation", "text": "Dealing with software that freezes or becomes unresponsive during use", "tone": "frustrated"}
+{"review_id": "cluster_6_b0_pp1", "trait_label": "Professional Reliability Expectation", "text": "Experiencing compatibility issues when importing/exporting files between different software programs", "tone": "frustrated"}
+{"review_id": "cluster_6_b0_pp2", "trait_label": "Professional Reliability Expectation", "text": "Struggling with outdated software that hasn't been updated to work with modern systems", "tone": "frustrated"}
+{"review_id": "cluster_6_b0_do0", "trait_label": "Professional Reliability Expectation", "text": "Achieving professional-quality results without requiring specialized training", "tone": "frustrated"}
+{"review_id": "cluster_6_b0_do1", "trait_label": "Professional Reliability Expectation", "text": "Saving time and increasing efficiency in work tasks", "tone": "frustrated"}
+{"review_id": "cluster_6_b1_pp0", "trait_label": "Professional Reliability Expectation", "text": "Software updates create major productivity losses (e.g., waiting for programs, relearning interfaces)", "tone": "frustrated"}
+{"review_id": "cluster_6_b1_pp1", "trait_label": "Professional Reliability Expectation", "text": "Key products ignore the core professional desktop use case (e.g., hybrid mobile/desktop UI forced on keyboard/mouse users)", "tone": "frustrated"}
+{"review_id": "cluster_6_b1_pp2", "trait_label": "Professional Reliability Expectation", "text": "Lack of adequate professional development and investment from employer", "tone": "frustrated"}
+{"review_id": "cluster_6_b1_do0", "trait_label": "Professional Reliability Expectation", "text": "Maximize productivity with efficient, stable, and intuitive professional software", "tone": "frustrated"}
+{"review_id": "cluster_6_b1_do1", "trait_label": "Professional Reliability Expectation", "text": "Secure long-term career growth, including skills for starting an independent consultancy", "tone": "frustrated"}
+{"review_id": "cluster_6_b2_pp0", "trait_label": "Professional Reliability Expectation", "text": "Frustration with unreliable software that has constant technical problems", "tone": "frustrated"}
+{"review_id": "cluster_6_b2_pp1", "trait_label": "Professional Reliability Expectation", "text": "Anger at unauthorized recurring charges after cancellation and poor refund handling", "tone": "frustrated"}
+{"review_id": "cluster_6_b2_pp2", "trait_label": "Professional Reliability Expectation", "text": "Frustration with buggy, unstable, or poorly designed software that lacks polish", "tone": "frustrated"}
+{"review_id": "cluster_6_b2_do0", "trait_label": "Professional Reliability Expectation", "text": "Reliable, stable software that works consistently without technical problems", "tone": "frustrated"}
+{"review_id": "cluster_6_b2_do1", "trait_label": "Professional Reliability Expectation", "text": "Software that saves significant time compared to alternatives through specialization", "tone": "frustrated"}
+{"review_id": "cluster_6_b3_pp0", "trait_label": "Professional Reliability Expectation", "text": "Difficulty transferring complex software installations and customizations to new computers", "tone": "frustrated"}
+{"review_id": "cluster_6_b3_pp1", "trait_label": "Professional Reliability Expectation", "text": "Fear of losing licensed software and configurations during system migration", "tone": "frustrated"}
+{"review_id": "cluster_6_b3_pp2", "trait_label": "Professional Reliability Expectation", "text": "Frustration with software that crashes or freezes during critical tasks", "tone": "frustrated"}
+{"review_id": "cluster_6_b3_do0", "trait_label": "Professional Reliability Expectation", "text": "Flawless migration of applications, files, and licenses between computer systems", "tone": "frustrated"}
+{"review_id": "cluster_6_b3_do1", "trait_label": "Professional Reliability Expectation", "text": "Comprehensive system protection without performance degradation", "tone": "frustrated"}
+{"review_id": "cluster_6_b4_pp0", "trait_label": "Professional Reliability Expectation", "text": "Working with legacy or incompatible software systems", "tone": "frustrated"}
+{"review_id": "cluster_6_b4_pp1", "trait_label": "Professional Reliability Expectation", "text": "Wasting time on organization and manual processes", "tone": "frustrated"}
+{"review_id": "cluster_6_b4_pp2", "trait_label": "Professional Reliability Expectation", "text": "Feeling undervalued and undercompensated by employer", "tone": "frustrated"}
+{"review_id": "cluster_6_b4_do0", "trait_label": "Professional Reliability Expectation", "text": "Increased productivity and decreased procrastination", "tone": "frustrated"}
+{"review_id": "cluster_6_b4_do1", "trait_label": "Professional Reliability Expectation", "text": "Better organization of complex projects and research", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp0", "trait_label": "Aspirational Functionality Gap", "text": "Difficulty or inability to log in or create an account despite correct credentials and repeated attempts", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp1", "trait_label": "Aspirational Functionality Gap", "text": "App crashes or becomes unresponsive (e.g., white screen, buffering)", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp2", "trait_label": "Aspirational Functionality Gap", "text": "Missing core toolboxes or functionality (e.g., Signal Processing Toolbox)", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_do0", "trait_label": "Aspirational Functionality Gap", "text": "Access to full MATLAB features on mobile, including all Windows-like interfaces (editor, toolboxes)", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_do1", "trait_label": "Aspirational Functionality Gap", "text": "Reliable and fast cloud/network connectivity allowing smooth operation", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp0", "trait_label": "Aspirational Functionality Gap", "text": "Mobile app has fewer features than desktop/web version", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp1", "trait_label": "Aspirational Functionality Gap", "text": "Network/connection errors disrupting work", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp2", "trait_label": "Aspirational Functionality Gap", "text": "Poor mobile UI/UX compared to desktop", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_do0", "trait_label": "Aspirational Functionality Gap", "text": "Full desktop functionality on mobile/tablet", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_do1", "trait_label": "Aspirational Functionality Gap", "text": "Reliable, stable connectivity", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp0", "trait_label": "Aspirational Functionality Gap", "text": "Mobile app version lacking desktop features/full specification", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp1", "trait_label": "Aspirational Functionality Gap", "text": "Login/account creation failures, email validation issues", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp2", "trait_label": "Aspirational Functionality Gap", "text": "App connectivity failures (to computer/network) despite being logged in", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_do0", "trait_label": "Aspirational Functionality Gap", "text": "Full desktop software capabilities on mobile (simulation, toolboxes)", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_do1", "trait_label": "Aspirational Functionality Gap", "text": "Reliable, seamless login and device connectivity", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp0", "trait_label": "Aspirational Functionality Gap", "text": "Cannot log in due to sign-in errors despite correct credentials", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp1", "trait_label": "Aspirational Functionality Gap", "text": "Missing core features (Simulink, command window and editor simultaneously)", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp2", "trait_label": "Aspirational Functionality Gap", "text": "Requires always-on internet connection; lacks offline operability", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_do0", "trait_label": "Aspirational Functionality Gap", "text": "Full MATLAB desktop parity (Simulink, Live Scripts, toolboxes)", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_do1", "trait_label": "Aspirational Functionality Gap", "text": "Offline operability for on-the-go work", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp0", "trait_label": "Aspirational Functionality Gap", "text": "Severe connectivity and login issues, app frequently fails to connect or crashes at login.", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp1", "trait_label": "Aspirational Functionality Gap", "text": "No offline functionality; app is unusable without a stable internet connection.", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp2", "trait_label": "Aspirational Functionality Gap", "text": "App lacks critical desktop-like UI features (split-screen, window docking, dark mode).", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_do0", "trait_label": "Aspirational Functionality Gap", "text": "A robust, reliable mobile app for professional work when away from a laptop.", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_do1", "trait_label": "Aspirational Functionality Gap", "text": "Full desktop-like UI and functionality on mobile/tablet (split-screen, dark mode, arrow key support).", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp0", "trait_label": "Reliability & Transparency Seeker", "text": "Aggressive paywall after limited free scans (e.g., 10 cards)", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp1", "trait_label": "Reliability & Transparency Seeker", "text": "Poor data parsing/OCR accuracy (misplaces email, misses fields)", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp2", "trait_label": "Reliability & Transparency Seeker", "text": "Lack of transparency about pricing before install/use", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_do0", "trait_label": "Reliability & Transparency Seeker", "text": "Accurate, automated parsing of all business card fields (address, email, phone)", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_do1", "trait_label": "Reliability & Transparency Seeker", "text": "Seamless export/integration with contacts (Google, Outlook, vCard)", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp0", "trait_label": "Reliability & Transparency Seeker", "text": "Inability to sort/organize scanned cards by name, company, or date", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp1", "trait_label": "Reliability & Transparency Seeker", "text": "Limited free scans (typically 10 cards) without clear upfront disclosure, leading to wasted time and feeling misled", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp2", "trait_label": "Reliability & Transparency Seeker", "text": "Poor or missing export/backup options (cannot export specific groups, no cloud backup like OneDrive/Dropbox)", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_do0", "trait_label": "Reliability & Transparency Seeker", "text": "High accuracy OCR that handles diverse cards (landscape, portrait, inverted print, bilingual, non-English characters)", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_do1", "trait_label": "Reliability & Transparency Seeker", "text": "Seamless, correct integration with native phone contacts", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp0", "trait_label": "Reliability & Transparency Seeker", "text": "Limited free scans or trial feels restrictive/underhanded before fully evaluating", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp1", "trait_label": "Reliability & Transparency Seeker", "text": "Poor OCR accuracy requiring manual correction, defeating the purpose of scanning", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp2", "trait_label": "Reliability & Transparency Seeker", "text": "Lack of critical features like duplicate detection, scanning card backs, and editing fields post-scan", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_do0", "trait_label": "Reliability & Transparency Seeker", "text": "Accurate, reliable scanning that saves time vs. manual entry", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_do1", "trait_label": "Reliability & Transparency Seeker", "text": "Seamless integration with existing contact systems (e.g., auto-sync to phone/Outlook/Gmail)", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp0", "trait_label": "Reliability & Transparency Seeker", "text": "Payment processing issues after purchasing subscription (deduction but shows failed)", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp1", "trait_label": "Reliability & Transparency Seeker", "text": "Unable to replace/retake photo of business card after initial scan", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp2", "trait_label": "Reliability & Transparency Seeker", "text": "App crashes or unresponsive UI elements (e.g., settings menu)", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_do0", "trait_label": "Reliability & Transparency Seeker", "text": "Accurate and reliable OCR for business card scanning, even with tricky designs", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_do1", "trait_label": "Reliability & Transparency Seeker", "text": "Clear labeling of phone numbers (mobile, office, fax) during scan", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp0", "trait_label": "Reliability & Transparency Seeker", "text": "Ineffective customer support (no response, no contact number)", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp1", "trait_label": "Reliability & Transparency Seeker", "text": "Software bug blocking core function (backup restore stuck at 0%)", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp2", "trait_label": "Reliability & Transparency Seeker", "text": "Aggressive or unclear monetization (unexpected upgrade prompts, limited free scans)", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_do0", "trait_label": "Reliability & Transparency Seeker", "text": "Seamless, automated contact saving and management", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_do1", "trait_label": "Reliability & Transparency Seeker", "text": "Accurate data extraction from diverse cards (complex layouts, handwritten)", "tone": "frustrated"}
+{"review_id": "cluster_7_b0_pp0", "trait_label": "App Reliability Frustration", "text": "App is buggy, crashes, freezes, or stops playing sound randomly", "tone": "frustrated"}
+{"review_id": "cluster_7_b0_pp1", "trait_label": "App Reliability Frustration", "text": "Sleep timer is unreliable, leading to drained device battery", "tone": "frustrated"}
+{"review_id": "cluster_7_b0_pp2", "trait_label": "App Reliability Frustration", "text": "Cannot save custom sound settings/presets; app reverts to default", "tone": "frustrated"}
+{"review_id": "cluster_7_b0_do0", "trait_label": "App Reliability Frustration", "text": "Reliable, uninterrupted sound playback for sleep, focus, or tinnitus masking", "tone": "frustrated"}
+{"review_id": "cluster_7_b0_do1", "trait_label": "App Reliability Frustration", "text": "Ability to mix or stack multiple soundscapes to create custom environments", "tone": "frustrated"}
+{"review_id": "cluster_7_b1_pp0", "trait_label": "App Reliability Frustration", "text": "App stops playing sounds randomly during sleep or when not in foreground, causing disruptions", "tone": "frustrated"}
+{"review_id": "cluster_7_b1_pp1", "trait_label": "App Reliability Frustration", "text": "Battery drain or overheating when app runs, even on charger", "tone": "frustrated"}
+{"review_id": "cluster_7_b1_pp2", "trait_label": "App Reliability Frustration", "text": "Lack of buy confirmation or clear warning before purchase, leading to accidental spending", "tone": "frustrated"}
+{"review_id": "cluster_7_b1_do0", "trait_label": "App Reliability Frustration", "text": "Reliable, uninterrupted sound playback for sleep/focus without random stops", "tone": "frustrated"}
+{"review_id": "cluster_7_b1_do1", "trait_label": "App Reliability Frustration", "text": "Stable app performance with no crashes, freezes, or audio failures", "tone": "frustrated"}
+{"review_id": "cluster_7_b2_pp0", "trait_label": "App Reliability Frustration", "text": "High battery consumption draining battery quickly during sleep or extended use", "tone": "frustrated"}
+{"review_id": "cluster_7_b2_pp1", "trait_label": "App Reliability Frustration", "text": "Frequent app crashes, audio stopping when switching apps, and playback unreliability", "tone": "frustrated"}
+{"review_id": "cluster_7_b2_pp2", "trait_label": "App Reliability Frustration", "text": "Audio playback issues: low volume even at max settings, crackling sounds, or no sound at all", "tone": "frustrated"}
+{"review_id": "cluster_7_b2_do0", "trait_label": "App Reliability Frustration", "text": "Reliable, uninterrupted playback for sleep, focus, or meditation without technical glitches", "tone": "frustrated"}
+{"review_id": "cluster_7_b2_do1", "trait_label": "App Reliability Frustration", "text": "Effective sound masking for concentration in noisy environments or for misophonia relief", "tone": "frustrated"}
+{"review_id": "cluster_7_b3_pp0", "trait_label": "App Reliability Frustration", "text": "Audio playback stops randomly when app is backgrounded", "tone": "frustrated"}
+{"review_id": "cluster_7_b3_pp1", "trait_label": "App Reliability Frustration", "text": "Inconsistent or choppy audio, especially over Bluetooth", "tone": "frustrated"}
+{"review_id": "cluster_7_b3_pp2", "trait_label": "App Reliability Frustration", "text": "Lacks simple, intuitive timer (e.g., stop at 6 AM)", "tone": "frustrated"}
+{"review_id": "cluster_7_b3_do0", "trait_label": "App Reliability Frustration", "text": "Reliable, uninterrupted playback all night for sleep", "tone": "frustrated"}
+{"review_id": "cluster_7_b3_do1", "trait_label": "App Reliability Frustration", "text": "Ability to layer/mix multiple soundscapes", "tone": "frustrated"}
+{"review_id": "cluster_7_b4_pp0", "trait_label": "App Reliability Frustration", "text": "App crashes, stops playing, or glitches after a few minutes.", "tone": "frustrated"}
+{"review_id": "cluster_7_b4_pp1", "trait_label": "App Reliability Frustration", "text": "Cannot combine multiple sounds/generators.", "tone": "frustrated"}
+{"review_id": "cluster_7_b4_pp2", "trait_label": "App Reliability Frustration", "text": "Poor or buggy app interface and controls (e.g., no playback controls, fails to restart after interruptions).", "tone": "frustrated"}
+{"review_id": "cluster_7_b4_do0", "trait_label": "App Reliability Frustration", "text": "Seamless, uninterrupted audio playback for sleep, focus, or relaxation.", "tone": "frustrated"}
+{"review_id": "cluster_7_b4_do1", "trait_label": "App Reliability Frustration", "text": "Ability to layer or combine multiple sound generators.", "tone": "frustrated"}
+{"review_id": "cluster_5_b0_pp0", "trait_label": "Critical Multi-Monitor Dependency", "text": "Primary monitor or HDMI port failure requiring urgent secondary display solution", "tone": "frustrated"}
+{"review_id": "cluster_5_b0_pp1", "trait_label": "Critical Multi-Monitor Dependency", "text": "Frustration with post-update bugs breaking previously stable USB connectivity", "tone": "frustrated"}
+{"review_id": "cluster_5_b0_pp2", "trait_label": "Critical Multi-Monitor Dependency", "text": "Annoyance with touch interface incorrectly generating left-click before right-click on hold", "tone": "frustrated"}
+{"review_id": "cluster_5_b0_do0", "trait_label": "Critical Multi-Monitor Dependency", "text": "Reliable wired (USB) secondary display with no charging drain", "tone": "frustrated"}
+{"review_id": "cluster_5_b0_do1", "trait_label": "Critical Multi-Monitor Dependency", "text": "Low-latency, cable-like wireless experience suitable for gaming or full-screen video", "tone": "frustrated"}
+{"review_id": "cluster_5_b1_pp0", "trait_label": "Critical Multi-Monitor Dependency", "text": "Unreliable connectivity (disconnects, freezes, auto-connection issues)", "tone": "frustrated"}
+{"review_id": "cluster_5_b1_pp1", "trait_label": "Critical Multi-Monitor Dependency", "text": "Performance issues (lag, low FPS, sluggishness)", "tone": "frustrated"}
+{"review_id": "cluster_5_b1_pp2", "trait_label": "Critical Multi-Monitor Dependency", "text": "Aspect ratio/resolution problems causing stretched or distorted displays", "tone": "frustrated"}
+{"review_id": "cluster_5_b1_do0", "trait_label": "Critical Multi-Monitor Dependency", "text": "Stable, reliable second monitor functionality for productivity/work", "tone": "frustrated"}
+{"review_id": "cluster_5_b1_do1", "trait_label": "Critical Multi-Monitor Dependency", "text": "Repurpose old devices (tablets, phones) as functional displays", "tone": "frustrated"}
+{"review_id": "cluster_5_b2_pp0", "trait_label": "Critical Multi-Monitor Dependency", "text": "Blocking file transfer/USB functionality when connected, forcing full app control", "tone": "frustrated"}
+{"review_id": "cluster_5_b2_pp1", "trait_label": "Critical Multi-Monitor Dependency", "text": "Commercial license nag/black screen after extended use, disrupting workflow", "tone": "frustrated"}
+{"review_id": "cluster_5_b2_pp2", "trait_label": "Critical Multi-Monitor Dependency", "text": "Intermittent USB connectivity issues (black screen, disconnection)", "tone": "frustrated"}
+{"review_id": "cluster_5_b2_do0", "trait_label": "Critical Multi-Monitor Dependency", "text": "Seamless, lag-free extended display for multitasking/remote work", "tone": "frustrated"}
+{"review_id": "cluster_5_b2_do1", "trait_label": "Critical Multi-Monitor Dependency", "text": "Reliable wired (USB) connectivity for stable, high-performance use", "tone": "frustrated"}
+{"review_id": "cluster_5_b3_pp0", "trait_label": "Critical Multi-Monitor Dependency", "text": "Performance issues after updates or version expiration", "tone": "frustrated"}
+{"review_id": "cluster_5_b3_pp1", "trait_label": "Critical Multi-Monitor Dependency", "text": "Unreliable connectivity after initial success", "tone": "frustrated"}
+{"review_id": "cluster_5_b3_pp2", "trait_label": "Critical Multi-Monitor Dependency", "text": "Noticeable lag or choppiness, especially over WiFi", "tone": "frustrated"}
+{"review_id": "cluster_5_b3_do0", "trait_label": "Critical Multi-Monitor Dependency", "text": "Reliable, plug-and-play secondary display functionality", "tone": "frustrated"}
+{"review_id": "cluster_5_b3_do1", "trait_label": "Critical Multi-Monitor Dependency", "text": "Low-latency, high-quality visual performance", "tone": "frustrated"}
+{"review_id": "cluster_5_b4_pp0", "trait_label": "Critical Multi-Monitor Dependency", "text": "Persistent lag/wireless latency affecting smooth video/data transfer", "tone": "frustrated"}
+{"review_id": "cluster_5_b4_pp1", "trait_label": "Critical Multi-Monitor Dependency", "text": "USB driver issues block normal data transfer after uninstall", "tone": "frustrated"}
+{"review_id": "cluster_5_b4_pp2", "trait_label": "Critical Multi-Monitor Dependency", "text": "Unreliable connections/disconnections even on stable WiFi", "tone": "frustrated"}
+{"review_id": "cluster_5_b4_do0", "trait_label": "Critical Multi-Monitor Dependency", "text": "Seamless multi-monitor setup without buying extra hardware", "tone": "frustrated"}
+{"review_id": "cluster_5_b4_do1", "trait_label": "Critical Multi-Monitor Dependency", "text": "Reliable, low-latency video/control for productivity (e.g., presentations)", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp0", "trait_label": "Reliability & Performance Concern", "text": "Difficulty managing multiple devices and cables leading to clutter and inconvenience", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp1", "trait_label": "Reliability & Performance Concern", "text": "Concerns about cybersecurity degree programs being perceived as insufficiently rigorous or lacking credibility for securing high-quality jobs", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp2", "trait_label": "Reliability & Performance Concern", "text": "Uncertainty about the best educational path (CS vs. Cyber vs. IT) for achieving career goals in a competitive market", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_do0", "trait_label": "Reliability & Performance Concern", "text": "A clean, organized workspace without cable clutter", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_do1", "trait_label": "Reliability & Performance Concern", "text": "High-quality, professional-grade tools that deliver superior performance (e.g., audio, video, photo quality)", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp0", "trait_label": "Reliability & Performance Concern", "text": "Lack of depth and technical rigor in cybersecurity degrees compared to computer science", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp1", "trait_label": "Reliability & Performance Concern", "text": "Feeling pigeonholed by specialized degrees limiting career flexibility", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp2", "trait_label": "Reliability & Performance Concern", "text": "Disappointment with product design flaws (e.g., poor speaker direction, no power light)", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_do0", "trait_label": "Reliability & Performance Concern", "text": "Gain comprehensive foundational knowledge (e.g., computer science over cybersecurity)", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_do1", "trait_label": "Reliability & Performance Concern", "text": "Achieve career versatility and avoid specialization too early", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp0", "trait_label": "Reliability & Performance Concern", "text": "Fear of power outages and loss of contact with weather/news updates in rural areas", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp1", "trait_label": "Reliability & Performance Concern", "text": "Difficulty setting up and pairing devices (e.g., Bluetooth connectivity issues)", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp2", "trait_label": "Reliability & Performance Concern", "text": "Anxiety about choosing the wrong educational path for a cybersecurity career in a competitive market", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_do0", "trait_label": "Reliability & Performance Concern", "text": "Reliable, battery-powered devices for emergency communication during power outages", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_do1", "trait_label": "Reliability & Performance Concern", "text": "High-quality, foundational education (e.g., CS degree) to ensure long-term career flexibility and competitiveness", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp0", "trait_label": "Reliability & Performance Concern", "text": "Overheating during intense computing tasks (e.g., GPU, WASD keys)", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp1", "trait_label": "Reliability & Performance Concern", "text": "Spotty Wi-Fi leads to unreliable downloads/functionality", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp2", "trait_label": "Reliability & Performance Concern", "text": "Product quality: cords/connections fail intermittently, requiring precise arrangement", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_do0", "trait_label": "Reliability & Performance Concern", "text": "Efficient cooling for high-performance hardware (GPU, key areas)", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_do1", "trait_label": "Reliability & Performance Concern", "text": "Secure, stable integration with existing equipment/cabling setups", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp0", "trait_label": "Reliability & Performance Concern", "text": "High-end degrees don't always translate to practical job skills, causing career path uncertainty.", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp1", "trait_label": "Reliability & Performance Concern", "text": "Difficulty distinguishing between theoretical vs. practical program quality, leading to suboptimal education investment.", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp2", "trait_label": "Reliability & Performance Concern", "text": "HR filters may overlook less common degrees despite potential skill alignment, increasing hiring anxiety.", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_do0", "trait_label": "Reliability & Performance Concern", "text": "Obtain a degree that is both respected by employers and provides strong foundational skills for long-term career growth.", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_do1", "trait_label": "Reliability & Performance Concern", "text": "Secure a role in cybersecurity or infrastructure management with clear advancement pathways.", "tone": "frustrated"}
+{"review_id": "monologue_7d02bb", "trait_label": "Inner Monologue", "text": "Another subscription model - I need to see exactly what this costs annually and whether there are volume discounts for research teams before I waste more time.", "tone": "authentic_voice"}
+{"review_id": "monologue_7c4e7f", "trait_label": "Inner Monologue", "text": "Good, they have actual user testimonials from other research professionals mentioning specific use cases, not just generic marketing speak.", "tone": "authentic_voice"}
+{"review_id": "monologue_08128e", "trait_label": "Inner Monologue", "text": "This navigation is already confusing me and I haven't even gotten to the technical specs - if their website is this poorly organized, what does that say about their software?", "tone": "authentic_voice"}
+{"review_id": "monologue_eac7ef", "trait_label": "Inner Monologue", "text": "They want my email before showing me system requirements? That's an immediate red flag - professional tools should have technical specs readily available.", "tone": "authentic_voice"}
+{"review_id": "monologue_674a94", "trait_label": "Inner Monologue", "text": "Finally, clear documentation about file compatibility and system impact - this is exactly what I need to evaluate whether this fits our current setup.", "tone": "authentic_voice"}

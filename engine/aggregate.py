@@ -42,8 +42,10 @@ def cluster_by_similarity(
 ) -> list[dict]:
     """Cluster a flat list of signal dicts by semantic similarity.
 
-    Each cluster is represented by one canonical entry whose ``frequency``
-    and ``emotional_intensity`` fields are aggregated from all members.
+    Each cluster is represented by the member whose embedding is closest to
+    the cluster centroid (not arbitrarily the first member).  Frequency is
+    set to the cluster size — a real observation count derived from how many
+    independent batches produced a semantically similar signal.
 
     Parameters
     ----------
@@ -67,7 +69,8 @@ def cluster_by_similarity(
     model = _get_embed_model()
     embeddings: np.ndarray = model.encode(texts, normalize_embeddings=True)
 
-    # Greedy leader clustering
+    # Greedy leader clustering — note this is still order-dependent; a future
+    # improvement is to replace with complete-linkage or HDBSCAN.
     n = len(signals)
     assigned = [False] * n
     clusters: list[list[int]] = []
@@ -86,19 +89,32 @@ def cluster_by_similarity(
                 assigned[j] = True
         clusters.append(cluster)
 
-    # Merge each cluster into one canonical signal
+    # Merge each cluster into one canonical signal.
     merged: list[dict] = []
     for cluster_indices in clusters:
         members = [signals[idx] for idx in cluster_indices]
-        canonical = dict(members[0])  # shallow copy of the first member
 
-        # Aggregate numeric fields
-        freq_total = sum(m.get("frequency", 1) for m in members)
-        intensities = [m.get("emotional_intensity", 0.5) for m in members]
-        avg_intensity = sum(intensities) / len(intensities)
+        # Select the member whose embedding is closest to the cluster centroid,
+        # rather than blindly picking the first (insertion-order) member.
+        cluster_embs = embeddings[np.array(cluster_indices)]
+        centroid = cluster_embs.mean(axis=0)
+        distances = np.linalg.norm(cluster_embs - centroid, axis=1)
+        best_local = int(np.argmin(distances))
+        canonical = dict(members[best_local])
 
-        canonical["frequency"] = freq_total
-        canonical["emotional_intensity"] = round(avg_intensity, 3)
+        # Frequency = cluster size: a deterministic count of how many batches
+        # independently produced a semantically similar signal.  This replaces
+        # the previous approach of summing LLM-fabricated per-batch counts.
+        canonical["frequency"] = len(members)
+
+        # Average emotional intensity across all cluster members; only use
+        # members that actually have an intensity value (don't default to 0.5).
+        intensities = [
+            m["emotional_intensity"]
+            for m in members
+            if m.get("emotional_intensity") is not None
+        ]
+        canonical["emotional_intensity"] = round(sum(intensities) / len(intensities), 3) if intensities else None
         canonical["_cluster_size"] = len(members)
 
         merged.append(canonical)
@@ -120,9 +136,12 @@ def _merge_keyed_signals(
     """Cluster, sort by score, and return top *top_n* entries."""
     clustered = cluster_by_similarity(all_entries, text_key=text_key, threshold=threshold)
 
-    # Score = frequency * emotional_intensity (default 0.5 when absent)
+    # Score = frequency (real cluster-size count) × emotional_intensity.
+    # When intensity is unknown we use 0.5 as a neutral prior rather than
+    # promoting or demoting the signal artificially.
     for entry in clustered:
-        entry["_score"] = entry.get("frequency", 1) * entry.get("emotional_intensity", 0.5)
+        intensity = entry.get("emotional_intensity")
+        entry["_score"] = entry["frequency"] * (intensity if intensity is not None else 0.5)
 
     clustered.sort(key=lambda x: x["_score"], reverse=True)
     return clustered[:top_n]
@@ -139,19 +158,15 @@ def _merge_string_lists(all_items: list[str], top_n: int = 15) -> list[str]:
         item_clean = item.strip()
         if not item_clean:
             continue
-        if item_clean in unique_map:
-            unique_map[item_clean] += 1
-        else:
-            unique_map[item_clean] = 1
+        unique_map[item_clean] = unique_map.get(item_clean, 0) + 1
 
     if not unique_map:
         return []
 
     labels = list(unique_map.keys())
-    counts = [unique_map[l] for l in labels]
+    counts = [unique_map[lb] for lb in labels]
     embeddings = model.encode(labels, normalize_embeddings=True)
 
-    # Greedy dedup
     n = len(labels)
     assigned = [False] * n
     result: list[tuple[str, int]] = []
@@ -159,16 +174,27 @@ def _merge_string_lists(all_items: list[str], top_n: int = 15) -> list[str]:
     for i in range(n):
         if assigned[i]:
             continue
-        total_count = counts[i]
+        cluster_indices = [i]
         assigned[i] = True
         for j in range(i + 1, n):
             if assigned[j]:
                 continue
-            sim = float(np.dot(embeddings[i], embeddings[j]))
-            if sim >= 0.85:
-                total_count += counts[j]
+            if float(np.dot(embeddings[i], embeddings[j])) >= 0.85:
+                cluster_indices.append(j)
                 assigned[j] = True
-        result.append((labels[i], total_count))
+
+        total_count = sum(counts[idx] for idx in cluster_indices)
+
+        # Pick the label closest to the cluster centroid, not the first one.
+        if len(cluster_indices) == 1:
+            best_label = labels[cluster_indices[0]]
+        else:
+            cluster_embs = embeddings[np.array(cluster_indices)]
+            centroid = cluster_embs.mean(axis=0)
+            dists = np.linalg.norm(cluster_embs - centroid, axis=1)
+            best_label = labels[cluster_indices[int(np.argmin(dists))]]
+
+        result.append((best_label, total_count))
 
     result.sort(key=lambda x: x[1], reverse=True)
     return [item for item, _ in result[:top_n]]

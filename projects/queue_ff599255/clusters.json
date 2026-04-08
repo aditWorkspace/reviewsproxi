@@ -1,0 +1,2146 @@
+{
+  "chosen_n_clusters": 3,
+  "sweep_results": [
+    {
+      "k": 3,
+      "silhouette": 0.13659214973449707,
+      "intra_similarity": 0.6435046593348185,
+      "inter_distance": 0.6910659074783325,
+      "combined_score": 0.3995606541633606
+    },
+    {
+      "k": 4,
+      "silhouette": 0.15931706130504608,
+      "intra_similarity": 0.6307867243885994,
+      "inter_distance": 0.6113917827606201,
+      "combined_score": 0.3911729045212269
+    },
+    {
+      "k": 5,
+      "silhouette": 0.16924874484539032,
+      "intra_similarity": 0.6369054019451141,
+      "inter_distance": 0.5982682704925537,
+      "combined_score": 0.39534964710474013
+    },
+    {
+      "k": 6,
+      "silhouette": 0.16457191109657288,
+      "intra_similarity": 0.63370813926061,
+      "inter_distance": 0.5956840515136719,
+      "combined_score": 0.3915352076292038
+    },
+    {
+      "k": 7,
+      "silhouette": 0.15032035112380981,
+      "intra_similarity": 0.6301141466413226,
+      "inter_distance": 0.538327157497406,
+      "combined_score": 0.3718598510537829
+    },
+    {
+      "k": 8,
+      "silhouette": 0.16718433797359467,
+      "intra_similarity": 0.6341668777167797,
+      "inter_distance": 0.5399391651153564,
+      "combined_score": 0.38183006532490255
+    },
+    {
+      "k": 9,
+      "silhouette": 0.1547161191701889,
+      "intra_similarity": 0.6503910012543201,
+      "inter_distance": 0.5680297017097473,
+      "combined_score": 0.38608130030334
+    },
+    {
+      "k": 10,
+      "silhouette": 0.1526184380054474,
+      "intra_similarity": 0.6330896973609924,
+      "inter_distance": 0.5270580053329468,
+      "combined_score": 0.37164772927761075
+    }
+  ],
+  "quality_metrics": {
+    "silhouette": 0.13659214973449707,
+    "intra_similarity": 0.6435046593348185,
+    "inter_distance": 0.6910659074783325,
+    "combined_score": 0.3995606541633606,
+    "stability_ari": 0.373,
+    "stability_label": "low"
+  },
+  "cluster_0": {
+    "member_count": 38,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Frustration with political/economic uncertainty impacting business decisions",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Concern about tariffs causing chaos and harming manufacturing without clear long-term benefits",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Irritation with books/products that are misleading or don't deliver on promised content",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Annoyance at lack of historical/practical accuracy in reference materials",
+            "emotional_intensity": 0.55
+          },
+          {
+            "signal": "Frustration with poorly executed, 'boring' storytelling in fiction",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Concern about job losses and economic displacement despite policy claims",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Stable, predictable regulatory/trade environment for long-term planning",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Methodical, logical policy implementation with clear timelines",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Accurate, reliable information sources that match their title/promises",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Products that integrate well with existing workflows and established practices",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Clear, practical guidance that respects their industry experience",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Solutions that address complex, multi-layered issues without oversimplification",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for annual/regular replacement of reliable tools",
+            "context": "Calendar purchase 'year after year' for appointment tracking"
+          },
+          {
+            "trigger": "Seeking to understand new/emerging technical fields",
+            "context": "Buying introductory guides to AI, electronics as hobbies or professional development"
+          },
+          {
+            "trigger": "Desire for specialized knowledge to supplement deep existing expertise",
+            "context": "Purchasing niche references on criminal justice careers, nuclear history, etc."
+          },
+          {
+            "trigger": "Looking for behind-the-scenes insights on familiar systems/industries",
+            "context": "Buying oral histories of acclaimed TV series or industry analyses"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product/content is misleading or doesn't match title/promises",
+            "severity": 0.85
+          },
+          {
+            "objection": "Lacks practical applicability for experienced professionals",
+            "severity": 0.8
+          },
+          {
+            "objection": "Contains inaccuracies or unrealistic scenarios",
+            "severity": 0.75
+          },
+          {
+            "objection": "Presents information in disorganized or poorly structured format",
+            "severity": 0.65
+          },
+          {
+            "objection": "Fails as standalone resource without extensive prior knowledge",
+            "severity": 0.7
+          },
+          {
+            "objection": "Creates uncertainty rather than providing clarity",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Books with inaccurate content",
+            "reason": "Loss of trust in author's expertise",
+            "threshold": "Single instance of clear factual error"
+          },
+          {
+            "from_product": "Poorly structured reference materials",
+            "reason": "Inefficiency in finding needed information",
+            "threshold": "Format impedes quick reference use"
+          },
+          {
+            "from_product": "Oversimplified analyses of complex issues",
+            "reason": "Insufficient depth for professional needs",
+            "threshold": "Content lacks nuance they know exists"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Accuracy and factual reliability",
+          "Practical applicability to established workflows",
+          "Clarity and logical structure",
+          "Depth and nuance matching their expertise",
+          "Stability and predictability of outcomes",
+          "Alignment with long-term planning needs",
+          "Efficiency in information retrieval",
+          "Transparency about limitations/scope"
+        ],
+        "deal_breakers": [
+          "Content that contradicts their deep industry knowledge",
+          "Solutions that create more uncertainty than they resolve",
+          "Oversimplification of complex, multi-layered problems",
+          "Failure to deliver on explicit promises/titles",
+          "Lack of methodical, logical approach to implementation"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Frustration with inefficient, slow, or overly bureaucratic processes that bog down work.",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Anxiety and disruption caused by external political or economic uncertainty impacting business operations.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Dissatisfaction with tools or resources that are incomplete, confusing, or lack practical depth.",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Resentment towards poor quality or unprofessional outputs (e.g., cosmetic flaws, subpar components).",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Annoyance at having to rely on shared or borrowed resources due to personal unavailability.",
+            "emotional_intensity": 0.4
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "A return to or maintenance of established, reliable, and effective workflows that 'just work'.",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Access to comprehensive, well-researched, and accurate reference material that provides immediate, reliable answers.",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Tools or content that offer depth, completeness, and are grounded in real-world experience or historical accuracy.",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Efficiency gains through concise, actionable guidance that prevents wasted time and effort.",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Predictability and certainty in their operational environment, allowing for stable planning and execution.",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Previous positive experience with the author, series, or brand (e.g., 'if you're familiar with... you know what to expect').",
+            "context": "Established trust and known quality standards from a long-term provider."
+          },
+          {
+            "trigger": "Inability to access a superior shared resource (e.g., borrowing from a co-worker) on a reliable, personal basis.",
+            "context": "Need for personal, on-demand availability of a proven resource."
+          },
+          {
+            "trigger": "A specific, high-stakes professional or personal need requiring authoritative and complete reference material.",
+            "context": "Task requiring reliable, vetted information to support established workflows."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product lacks the expected depth, completeness, or factual grounding compared to known alternatives.",
+            "severity": 0.7
+          },
+          {
+            "objection": "Poor quality or unprofessional finish on a deliverable is unacceptable, reflecting badly on the user.",
+            "severity": 0.6
+          },
+          {
+            "objection": "Content is confusing, poorly structured, or difficult to integrate into an existing knowledge framework.",
+            "severity": 0.5
+          },
+          {
+            "objection": "New policies or economic conditions introduce crippling uncertainty, making established processes untenable.",
+            "severity": 0.8
+          },
+          {
+            "objection": "Questioning the fundamental logic or value proposition of a tool/process (e.g., 'Why 3D print over casting?').",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Fiction",
+            "reason": "Desire for factual accuracy and historical depth over dramatization.",
+            "threshold": "When nonfiction provides more satisfying and reliable information on a subject of interest."
+          },
+          {
+            "from_product": "A previously stable supplier/process",
+            "reason": "Introduction of severe external uncertainty (e.g., tariffs) that disrupts cost, supply, and planning.",
+            "threshold": "When the disruption makes the current process non-viable or excessively risky."
+          }
+        ],
+        "decision_factors_ranked": [
+          "Proven Reliability & Familiarity",
+          "Depth & Completeness of Information",
+          "Alignment with Established Workflows",
+          "Professional Quality/Finish",
+          "Cost-Effectiveness & Predictability"
+        ],
+        "deal_breakers": [
+          "Introduces catastrophic operational uncertainty",
+          "Fails to meet baseline quality/professional standards",
+          "Is factually incomplete or unreliable",
+          "Severely disrupts a core, long-standing workflow without clear benefit"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Frustration with poorly structured or overly repetitive content in professional literature",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Inability to easily integrate new products into established workflows due to ingredient or process incompatibility",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Disappointment with products that require specific, hard-to-source ingredients or proprietary brand-name components",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Annoyance at misleading titles, claims, or scope that do not align with the actual product content",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Fear of adopting new solutions that might disrupt long-standing, reliable systems and cause operational chaos",
+            "emotional_intensity": 0.65
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Efficient acquisition of precise, actionable information without wading through fluff or repetition",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Seamless integration of new tools or information into existing, proven workflows with minimal adjustment",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Achieving high reliability and predictable, excellent results from adopted products or methods",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Gaining a deep, evidence-based understanding of a complex topic from a trusted expert source",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Maintaining stability and order in systems while implementing incremental improvements",
+            "priority": 0.75
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to solve a specific, complex problem not adequately addressed by generalist sources",
+            "context": "Encountering a niche professional or diagnostic challenge (e.g., Wilson's disease, TNBC)"
+          },
+          {
+            "trigger": "Recommendation from a trusted, established authority or institution in the field",
+            "context": "Referral from a recognized expert (e.g., Dr. Berenson for myeloma) or reputable platform (e.g., The Great British Bake Off)"
+          },
+          {
+            "trigger": "Product promises practical, clear application and respects the user's time",
+            "context": "Seeking a \"down to earth\" guide or a cookbook where recipes \"have to look and taste good and be practical to make\""
+          },
+          {
+            "trigger": "Desire to understand the foundational \"why\" behind established practices or regulations",
+            "context": "Researching the historical and cultural context of a regulated domain (e.g., cheese production, bear behavior)"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product is overly reliant on specific proprietary components or brands, limiting flexibility",
+            "severity": 0.8
+          },
+          {
+            "objection": "Content is disorganized, repetitive, or could be condensed without losing value",
+            "severity": 0.7
+          },
+          {
+            "objection": "Product's scope is misleading or fails to deliver on its advertised promise for the user's specific need",
+            "severity": 0.85
+          },
+          {
+            "objection": "New methodology or tool advocates for a disruptive change that threatens system stability",
+            "severity": 0.9
+          },
+          {
+            "objection": "Lack of practical, step-by-step models for implementation despite presenting high-level concepts",
+            "severity": 0.65
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Complex, clinical, or \"textbook-like\" reference materials",
+            "reason": "Seeking more accessible, practical, and clearly explained alternatives that fit into a busy schedule",
+            "threshold": "When a simpler, more practical alternative becomes available (e.g., a \"menopause for dummies\" guide)"
+          },
+          {
+            "from_product": "Generic, broad-scope information sources (e.g., general internet searches)",
+            "reason": "Need for deep, expert-level, and validated information on a niche topic",
+            "threshold": "When facing a complex, specific problem where superficial information is insufficient and potentially risky"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Practicality and ease of integration into existing workflows",
+          "Clarity, organization, and efficiency of the content",
+          "Depth and reliability of expertise/evidence",
+          "Specificity and relevance to the exact problem",
+          "Stability and non-disruptive nature of the solution",
+          "Transparency and accuracy of product claims"
+        ],
+        "deal_breakers": [
+          "Advocates for chaotic or fundamentally unstable changes to core systems",
+          "Relies heavily on inaccessible, proprietary, or discontinued components",
+          "Is fundamentally misleading about its scope or applicability to the user's core need",
+          "Is demonstrably repetitive or wasteful of the user's time without adding value"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Feeling that established workflows are disrupted by new products that don't integrate well with existing systems.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Frustration with overly simplistic or basic content that doesn't offer new insights beyond their deep existing knowledge.",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Annoyance with inaccurate or misleading product titles/descriptions that waste time.",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Difficulty finding products that align with their specific, mature preferences and avoid ingredients/styles they dislike.",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Concern about outdated information in reference materials due to the static nature of print.",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Maintain and streamline existing, proven workflows without disruption.",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Gain deep, specialized knowledge or advanced techniques that complement their experience.",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Achieve reliable, predictable, and high-quality results from products.",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Find products that are trustworthy, accurate, and align precisely with stated goals.",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Make efficient use of time by avoiding products with fluff, filler, or unnecessary complexity.",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Product is highly specialized and addresses a specific, gap in their deep existing knowledge base.",
+            "context": "Seeking advanced/niche reference material."
+          },
+          {
+            "trigger": "Strong evidence (e.g., detailed, critical reviews) that the product's quality and depth match professional standards.",
+            "context": "Evaluating a potential addition to their toolkit."
+          },
+          {
+            "trigger": "Product promises to solve a persistent, minor inefficiency in their current workflow.",
+            "context": "Looking for incremental optimization."
+          },
+          {
+            "trigger": "Recommendation or evidence from a trusted, authoritative source within their field.",
+            "context": "Validating a product's credibility."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product lacks the depth, sophistication, or advanced detail required for an experienced user.",
+            "severity": 0.9
+          },
+          {
+            "objection": "Product requires significant changes to established, comfortable workflows or systems.",
+            "severity": 0.85
+          },
+          {
+            "objection": "Product contains inaccuracies, errors, or omits critical foundational knowledge.",
+            "severity": 0.8
+          },
+          {
+            "objection": "Product focuses on styles, ingredients, or methods they have consciously moved away from.",
+            "severity": 0.7
+          },
+          {
+            "objection": "Product is poorly organized, has insufficient visual aids (photos, diagrams), or is hard to reference quickly.",
+            "severity": 0.65
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Overly simplistic guides/cookbooks",
+            "reason": "Content is too basic and offers no new value relative to deep existing knowledge.",
+            "threshold": "After a thorough review reveals lack of advanced insights."
+          },
+          {
+            "from_product": "Products with rigid methodologies",
+            "reason": "Method imposes workflow changes incompatible with established, efficient practices.",
+            "threshold": "When integration attempts prove too disruptive."
+          },
+          {
+            "from_product": "Products found to be unreliable or inaccurate",
+            "reason": "Loss of trust in the product as a dependable source of information.",
+            "threshold": "Upon discovery of factual errors or misleading claims."
+          }
+        ],
+        "decision_factors_ranked": [
+          "Depth & Sophistication of Content",
+          "Workflow Compatibility & Non-Disruption",
+          "Accuracy & Reliability",
+          "Alignment with Specific Tastes/Preferences",
+          "Efficiency & Time-Saving",
+          "Visual/Reference Quality"
+        ],
+        "deal_breakers": [
+          "Fundamentally alters a core, trusted workflow.",
+          "Contains factual inaccuracies or critical omissions.",
+          "Is misleadingly marketed (title/description doesn't match content).",
+          "Is composed primarily of filler, fluff, or overly simplistic content."
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Disorganized, confusing content structure disrupts comprehension and workflow",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Lack of comprehensive reference tools (index, color photos, clear summaries)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Time-consuming research and verification required due to incomplete guidance",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Difficulty applying knowledge without supplemental materials or repeated review",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Frustration with substandard production quality (formatting errors, typos)",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Content lacks depth or actionable specificity for complex scenarios",
+            "emotional_intensity": 0.4
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Clear, logically organized content that builds understanding systematically",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Comprehensive reference materials (indexes, summaries, visual aids) for quick lookup",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Actionable, precise guidance that can be implemented without extensive external verification",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Material that respects expertise by offering depth, nuance, and advanced insights",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Time-efficient learning with minimal re-reading or supplemental research",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Professional production quality (clear formatting, accurate text) that supports focus",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to fill knowledge gaps or verify compliance in a specialized domain",
+            "context": "When facing a new regulation, complex case, or planning (estate, legal, historical research)"
+          },
+          {
+            "trigger": "Seeking authoritative, foundational reference to solidify or update expertise",
+            "context": "When maintaining professional competence or building a reliable personal library"
+          },
+          {
+            "trigger": "Requirement for structured, evidence-based explanations of complex systems",
+            "context": "When preparing for a project, decision, or needing to explain topics to others"
+          },
+          {
+            "trigger": "Desire for self-sufficiency and reducing reliance on external consultants",
+            "context": "When aiming to understand processes (legal, navigation, employee rights) independently"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Content is oversimplified, lacking the depth required for experienced professionals",
+            "severity": 0.7
+          },
+          {
+            "objection": "Poor organization or flow disrupts efficient learning and reference",
+            "severity": 0.6
+          },
+          {
+            "objection": "Missing critical reference components (index, visual aids, state-specific details)",
+            "severity": 0.6
+          },
+          {
+            "objection": "Substantial time investment required with uncertain practical return",
+            "severity": 0.5
+          },
+          {
+            "objection": "Production quality issues (errors, formatting) undermine credibility and usability",
+            "severity": 0.4
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "General overviews",
+            "reason": "Need for specialized, actionable depth and reliable reference structure",
+            "threshold": "When general knowledge proves insufficient for application or verification"
+          },
+          {
+            "from_product": "Outdated editions",
+            "reason": "Requirement for current regulations, research, or methodologies",
+            "threshold": "When changes in law, standards, or historical understanding render old info unreliable"
+          },
+          {
+            "from_product": "Poorly structured content",
+            "reason": "Demand for logical flow and organizational aids to support efficient workflow",
+            "threshold": "When confusion or time wasted navigating material impedes productivity"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Content depth and accuracy",
+          "Organization and clarity",
+          "Comprehensiveness as a reference",
+          "Authoritativeness and evidence base",
+          "Practical applicability",
+          "Production quality"
+        ],
+        "deal_breakers": [
+          "Major factual inaccuracies or outdated information",
+          "Complete lack of organizational aids (index, summaries)",
+          "Content is too basic with no advanced insights",
+          "Persistent production errors that hinder comprehension"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.644,
+      "reddit": 0.356,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "QA being undervalued and underpaid compared to development roles.",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0139
+        },
+        {
+          "signal": "QA treated as a rubber stamp or afterthought in the development process.",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0139
+        },
+        {
+          "signal": "Management prioritizes speed over quality and automation over human QA insight.",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0139
+        },
+        {
+          "signal": "QA burnout due to lack of respect, resources, and clear requirements.",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0139
+        },
+        {
+          "signal": "QA teams are understaffed and overworked.",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0139
+        },
+        {
+          "signal": "Companies not investing in early testing during requirements/user story phase.",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0139
+        },
+        {
+          "signal": "Lack of spiral binding in cookbooks makes them impractical during use.",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0139
+        },
+        {
+          "signal": "Feeling undervalued and treated as a 'dev janitor' or afterthought",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0139
+        },
+        {
+          "signal": "QA not integrated early or given authority, leading to blocked releases or ignored concerns",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0139
+        },
+        {
+          "signal": "Lack of resources and time to do thorough QA work",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0139
+        },
+        {
+          "signal": "Stakeholder and product pressure to prioritize speed over quality, overriding QA decisions",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0139
+        },
+        {
+          "signal": "Frustration with poor IT culture among some long-tenured peers who resist upskilling",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0139
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "QA to be integrated throughout the entire development lifecycle, contributing early.",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0149
+        },
+        {
+          "signal": "QA to be valued, respected, and paid commensurate with developers.",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0149
+        },
+        {
+          "signal": "A culture where quality is prioritized and QA is not siloed.",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0149
+        },
+        {
+          "signal": "Clear, solid requirements and acceptance criteria provided to QA.",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0149
+        },
+        {
+          "signal": "Cookbooks that stay open during use (e.g., spiral bound).",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0149
+        },
+        {
+          "signal": "Cookbooks with thorough, safe, and complete recipes.",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0198
+        },
+        {
+          "signal": "Cookbooks with abundant pictures and inspirational ideas.",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0149
+        },
+        {
+          "signal": "A role where their voice is heard and respected in planning and release decisions",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0198
+        },
+        {
+          "signal": "Having the final authority to give a 'green light' for releases",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0149
+        },
+        {
+          "signal": "Quality being established as a team and leadership responsibility, not just QA's",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0149
+        },
+        {
+          "signal": "Ability to add value by integrating quality thinking and testing skills into the development process effectively",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0149
+        },
+        {
+          "signal": "Having clear criteria and processes for quality gates that are supported by management",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0149
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Incomplete or dangerously incorrect instructions",
+          "count": 1,
+          "frequency": 0.0073,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0292
+        },
+        {
+          "signal": "Culture that fundamentally undervalues QA role",
+          "count": 1,
+          "frequency": 0.0073,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0219
+        },
+        {
+          "signal": "Binding that prevents practical use (non-spiral)",
+          "count": 1,
+          "frequency": 0.0073,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0219
+        },
+        {
+          "signal": "Lack of support from leadership/stakeholders for QA authority and processes",
+          "count": 1,
+          "frequency": 0.0073,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0219
+        },
+        {
+          "signal": "Culture that treats QA as low-value gatekeepers or 'janitors'",
+          "count": 1,
+          "frequency": 0.0073,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0219
+        },
+        {
+          "signal": "Critical inaccuracies or omissions in reference material",
+          "count": 1,
+          "frequency": 0.0073,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0219
+        },
+        {
+          "signal": "Product design that actively hinders efficient use (e.g., poor ergonomics for a reference tool)",
+          "count": 1,
+          "frequency": 0.0073,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0219
+        },
+        {
+          "signal": "Uncorrected critical errors in technical material",
+          "count": 1,
+          "frequency": 0.0073,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0219
+        },
+        {
+          "signal": "Complete lack of official support or errata",
+          "count": 1,
+          "frequency": 0.0073,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0219
+        },
+        {
+          "signal": "Content that superficially covers topics without explanatory depth",
+          "count": 1,
+          "frequency": 0.0073,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0219
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Need for a gift (for family, friends, holiday parties, gift exchanges).",
+          "count": 1,
+          "frequency": 0.0072,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0288
+        },
+        {
+          "signal": "Personal interest in learning (new recipes, methods, hobbies).",
+          "count": 1,
+          "frequency": 0.0072,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0216
+        },
+        {
+          "signal": "Collector's habit (collecting cookbooks or specific types of books).",
+          "count": 1,
+          "frequency": 0.0072,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0216
+        },
+        {
+          "signal": "Project inspiration (building a tree house, landsailing, cooking).",
+          "count": 1,
+          "frequency": 0.0072,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0216
+        },
+        {
+          "signal": "Established reliance on a specific brand/style that has worked for established workflows for years",
+          "count": 1,
+          "frequency": 0.0072,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0216
+        },
+        {
+          "signal": "A specific, obvious need based on deep familiarity with a system (e.g., a manual for a 30-year-old vehicle).",
+          "count": 1,
+          "frequency": 0.0072,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0216
+        },
+        {
+          "signal": "Seeking tools or references that require no special/exotic ingredients or equipment to implement.",
+          "count": 1,
+          "frequency": 0.0072,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0216
+        },
+        {
+          "signal": "Finding a product that offers inspiration or a fresh perspective within a highly familiar domain.",
+          "count": 1,
+          "frequency": 0.0072,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0288
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "medium": 0.184,
+        "low": 0.816
+      }
+    }
+  },
+  "cluster_1": {
+    "member_count": 5,
+    "representative_batches": [
+      {
+        "signals": [
+          {
+            "signal_name": "Reliance on Established Workflows",
+            "evidence": [
+              "Review 3: 'The testing that was most important for that product was also just good old fashioned human judgement.'",
+              "Review 6: 'I gave it context of another test that I had written a long time ago which I knew was the gold standard.'"
+            ]
+          },
+          {
+            "signal_name": "Deep Familiarity with Regulatory Systems",
+            "evidence": [
+              "Review 6: 'our APIs are all similiar, they more or less take the database table schema as input' indicates deep understanding of internal system structures and data flows.",
+              "Review 6: 'my company has invest a lot of money in AI and I believe our models have been trained against our codebase.' shows awareness of internal compliance and training systems."
+            ]
+          },
+          {
+            "signal_name": "Prioritizing Maintainability and Stability",
+            "evidence": [
+              "Review 3: 'It's just a website same as any other website. No different testing needed.' suggests a preference for stable, predictable systems.",
+              "Review 6: 'I gave it context of another test that I had written a long time ago which I knew was the gold standard.' indicates a focus on proven, maintainable solutions over novel but risky ones."
+            ]
+          },
+          {
+            "signal_name": "Skepticism of Novelty for Novelty's Sake",
+            "evidence": [
+              "Review 3: 'It's just a website same as any other website. No different testing needed.'",
+              "Review 6: 'I gave it context of another test that I had written a long time ago which I knew was the gold standard.'"
+            ]
+          },
+          {
+            "signal_name": "Value Integration with Existing Tools/Processes",
+            "evidence": [
+              "Review 6: 'I gave it context of another test that I had written a long time ago which I knew was the gold standard.'",
+              "Review 6: 'It had the best results out of llama & openai.'"
+            ]
+          },
+          {
+            "signal_name": "Concern for Long-Term System Integrity",
+            "evidence": [
+              "Review 6: 'I gave it context of another test that I had written a long time ago which I knew was the gold standard.'",
+              "Review 6: 'It did a really good job, I had to make minor tweaks but was able to make a merge request out of it.'"
+            ]
+          }
+        ],
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "signals": [
+          {
+            "signal_name": "Deep Familiarity with Historical Context",
+            "evidence": [
+              "Review 1: 'As an amateur scholar of Yiddishkeit, my readings have included several novels and biographies set in the Warsaw Ghetto, so I was familiar with the horrific overcrowding and dehumanizing conditions...'",
+              "Review 2: 'As an amateur scholar of Yiddishkeit, my readings have included several novels and biographies set in the Warsaw Ghetto, so I was familiar with the horrific overcrowding and dehumanizing conditions...'"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "signal_name": "Established Workflow for Critical Analysis",
+            "evidence": [
+              "Review 1: 'At times, the novel is nearly bogged down by the overenthusiastic descriptions, such as a segment on beetles that goes on for several pages, but these scenic detours serve to illuminate the thinking behind several pivotal characters.'",
+              "Review 1: 'There are certainly important concepts glossed over, such as the Hasidic viewpoint of the Shoah, and at times the quotes taken from Antonina's diary and other documents blur between fiction and recounting based on the sparse endnotes...'"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "signal_name": "Prioritization of Accuracy and Evidence",
+            "evidence": [
+              "Review 1: '...at times the quotes taken from Antonina's diary and other documents blur between fiction and recounting based on the sparse endnotes...'",
+              "Review 3: 'Yeah. And, would you ever trust AI blindly with any regulation? They don\u2019t.'"
+            ],
+            "confidence": 0.8
+          },
+          {
+            "signal_name": "Value for Comprehensive and Detailed Information",
+            "evidence": [
+              "Review 3: 'Gina DePalma's Dolce Italiano: Desserts from the Babbo Kitchen collects a treasure trove of desserts and savories...'",
+              "Review 3: 'She includes a section called Learning Italian that covers various regions, DOP and IGP origins, a recommended reading list, ten Italian ingredients you should know...'"
+            ],
+            "confidence": 0.75
+          },
+          {
+            "signal_name": "Skepticism Towards Overly Simplistic or Unverified Solutions",
+            "evidence": [
+              "Review 3: 'Yeah. And, would you ever trust AI blindly with any regulation? They don\u2019t.'"
+            ],
+            "confidence": 0.7
+          }
+        ],
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [],
+        "desired_outcomes": [],
+        "purchase_triggers": [],
+        "objections": [],
+        "switching_triggers": [],
+        "decision_factors_ranked": [],
+        "deal_breakers": [],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "signals": [
+          {
+            "signal_name": "Signal name, e.g., 'Prioritizes workflow integration'",
+            "evidence": [
+              "Exact quote from a review that demonstrates this signal.",
+              "Another exact quote if needed."
+            ],
+            "relevance": "Brief explanation of why this signal is relevant to the long-tenured professional persona."
+          }
+        ],
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [],
+        "desired_outcomes": [],
+        "purchase_triggers": [],
+        "objections": [],
+        "switching_triggers": [],
+        "decision_factors_ranked": [],
+        "deal_breakers": [],
+        "friction_tolerance": "high",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.5,
+      "reddit": 0.5,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [],
+      "top_desired_outcomes": [],
+      "top_deal_breakers": [],
+      "top_purchase_triggers": [],
+      "dominant_friction_tolerance": "medium",
+      "friction_tolerance_distribution": {
+        "medium": 0.8,
+        "high": 0.2
+      }
+    }
+  },
+  "cluster_2": {
+    "member_count": 31,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Heavy maintenance burden from automation tools breaking with every release",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Lack of communication/coordination between dev and QA teams, leading to unexpected test failures",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Unrealistic expectations from management/stakeholders about automation being a 'magic wand' that saves time",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Automation maintenance consuming hours that could be spent on meaningful exploratory testing",
+            "emotional_intensity": 0.8
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Automation that is integrated into the product's nervous system, not an add-on, feeling like an invisible connection",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Stable test automation foundations with shared ownership and discipline similar to dev CI/CD",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Consistent, trustworthy test results removing human judgment and variability",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Increased test coverage in areas that couldn't be tested manually before",
+            "priority": 0.75
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Frustration with maintaining test scripts that break with every release",
+            "context": "Experienced professionals realizing current automation approach is unsustainable"
+          },
+          {
+            "trigger": "Need to scale testing beyond manual capabilities without increasing workload",
+            "context": "Management pressure to increase test coverage and areas tested"
+          },
+          {
+            "trigger": "Realization that current tools create work instead of saving time",
+            "context": "After years of struggling with fragile automation suites"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Automation can slow down delivery when done prematurely or for wrong cases",
+            "severity": 0.85
+          },
+          {
+            "objection": "Fantasy of '100% automation' is unrealistic and leads to flaky pipelines",
+            "severity": 0.8
+          },
+          {
+            "objection": "Requires manual testing first to understand what to automate",
+            "severity": 0.75
+          },
+          {
+            "objection": "Tools that require constant manual maintenance defeat the purpose",
+            "severity": 0.9
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Traditional test automation frameworks",
+            "reason": "Excessive maintenance burden breaking with every release",
+            "threshold": "When maintenance consumes more time than saved"
+          },
+          {
+            "from_product": "Fragile test suites",
+            "reason": "Require constant manual updates and create more work than value",
+            "threshold": "When automation becomes a blocker rather than enabler"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Minimized maintenance requirements",
+          "Integration with existing workflows",
+          "Consistency and trustworthiness of results",
+          "Scalability of test coverage",
+          "Team collaboration features",
+          "Realistic time savings",
+          "Educational value for team growth"
+        ],
+        "deal_breakers": [
+          "Products that increase maintenance workload instead of reducing it",
+          "Tools that fail to integrate with existing development processes",
+          "Solutions that promise unrealistic '100% automation'",
+          "Products that require constant manual script updates",
+          "Tools that create more process complexity than value"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "High maintenance burden of automated tests when features change frequently",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Difficulty quantifying and communicating the ROI/value of quality assurance and automation",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Tools/processes failing to integrate smoothly into existing workflows or requiring excessive babysitting",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Unrealistic hype and overpromising about what AI/testing tools can solve",
+            "emotional_intensity": 0.65
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Increase team confidence and release velocity through reliable, stable automation",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Achieve a high, sustainable level of software quality",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Reduce manual, repetitive tasks in testing (e.g., exploratory, visual checks) through smart tooling",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Implement automation strategies that provide clear, measurable business value",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Product solves a specific, recurring maintenance headache (e.g., flaky selectors)",
+            "context": "Evaluating tools to reduce test churn"
+          },
+          {
+            "trigger": "Tool integrates cleanly and reliably with established developer environments (e.g., Cursor)",
+            "context": "Seeking to enhance existing workflow"
+          },
+          {
+            "trigger": "Solution offers a grounded, realistic approach as opposed to hype",
+            "context": "Vendor selection to avoid wasted effort"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Automation requires significant effort to set up and maintain, offering diminishing returns",
+            "severity": 0.7
+          },
+          {
+            "objection": "Current AI/testing tools only solve a fraction (e.g., 20%) of real-world testing problems",
+            "severity": 0.6
+          },
+          {
+            "objection": "Third-party tools/agents fail to understand complex behavioral logic, leading to blockages",
+            "severity": 0.65
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Heavy, brittle UI automation frameworks",
+            "reason": "Excessive maintenance churn from frequent UI changes",
+            "threshold": "When maintenance costs consistently outweigh confidence/velocity gains"
+          },
+          {
+            "from_product": "Vague or hype-driven QA/AI tools",
+            "reason": "Failure to deliver grounded, quantifiable value",
+            "threshold": "When promised ROI fails to materialize after evaluation period"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Integration stability with existing workflows/tools",
+          "Realistic ROI and value demonstration",
+          "Reduction in long-term maintenance burden",
+          "Alignment with strategic quality goals (e.g., confidence, safety)",
+          "Technical robustness and reliability"
+        ],
+        "deal_breakers": [
+          "Disrupts or complicates established, stable workflows",
+          "Cannot demonstrate clear, measurable value beyond hype",
+          "Introduces high, ongoing maintenance overhead",
+          "Fails to work reliably in complex, real-world environments"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Overly complex or confusing systems that require extensive learning",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Being forced to use unreliable or substandard products due to external pressures (tariffs)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Wasting time on unproductive work or having projects cancelled",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Staffing shortages and inability to find qualified personnel for critical roles",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Burnout from unsustainable overtime demands on experienced employees",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Frustration with illogical or unrealistic workflow expectations",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Anger at political decisions that disrupt established manufacturing processes",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Dissatisfaction with products that don't meet practical, real-world needs",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable, predictable results from products and systems",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Clear, step-by-step guidance that respects existing expertise",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Maintaining established, proven workflows with minimal disruption",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Practical solutions that solve specific, real-world problems",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Comprehensive technical guidance for specialized tasks",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Systems that minimize human error in critical processes",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Sustainable operations that don't rely on employee burnout",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Products that enhance rather than complicate existing expertise",
+            "priority": 0.75
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to solve a specific technical problem in their workflow",
+            "context": "When facing a specialized task requiring detailed guidance"
+          },
+          {
+            "trigger": "Seeking to expand capabilities within their established field",
+            "context": "When looking to enhance existing skills with new techniques"
+          },
+          {
+            "trigger": "External pressures force a change in suppliers or processes",
+            "context": "When tariffs or policy changes disrupt current arrangements"
+          },
+          {
+            "trigger": "Need to replace unreliable or underperforming current solutions",
+            "context": "When quality issues threaten operational reliability"
+          },
+          {
+            "trigger": "Requirement for comprehensive reference materials",
+            "context": "When building or maintaining institutional knowledge"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Too complex or confusing for practical implementation",
+            "severity": 0.8
+          },
+          {
+            "objection": "Doesn't integrate well with established workflows",
+            "severity": 0.9
+          },
+          {
+            "objection": "Unrealistic expectations that don't match real-world constraints",
+            "severity": 0.7
+          },
+          {
+            "objection": "Requires extensive retraining without clear benefits",
+            "severity": 0.75
+          },
+          {
+            "objection": "Quality concerns that could lead to recalls or failures",
+            "severity": 0.85
+          },
+          {
+            "objection": "Too theoretical without practical application",
+            "severity": 0.6
+          },
+          {
+            "objection": "Solutions that create more problems than they solve",
+            "severity": 0.8
+          },
+          {
+            "objection": "Dependence on unsustainable staffing or resource models",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Offshore manufacturing",
+            "reason": "Unreliable quality that threatens compliance",
+            "threshold": "When recalls become likely"
+          },
+          {
+            "from_product": "Complex software systems",
+            "reason": "Excessive learning curve without sufficient ROI",
+            "threshold": "When productivity drops significantly"
+          },
+          {
+            "from_product": "Inadequate training materials",
+            "reason": "Failure to provide clear, actionable guidance",
+            "threshold": "When errors increase"
+          },
+          {
+            "from_product": "Current staffing models",
+            "reason": "Burnout of experienced personnel",
+            "threshold": "When critical employees leave"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and predictable outcomes",
+          "Integration with existing workflows",
+          "Clear, actionable guidance",
+          "Practical, real-world applicability",
+          "Quality and compliance standards",
+          "Minimal disruption to operations",
+          "Comprehensive technical depth",
+          "Sustainability for long-term use",
+          "Cost-effectiveness relative to value"
+        ],
+        "deal_breakers": [
+          "Threats to compliance or regulatory requirements",
+          "Unreliable quality that could cause failures",
+          "Excessive complexity without clear benefits",
+          "Requires complete workflow overhaul",
+          "Unrealistic resource or staffing demands",
+          "Creates more problems than it solves",
+          "Poor integration with existing systems"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Inaccurate AI outputs that require time-consuming corrections and create compliance risks",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Stubborn adherence to legacy workflows by management/colleagues resistant to change",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Time-consuming manual research and documentation processes",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Lack of trust in AI tools due to factual errors and inconsistent performance",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Difficulty handling complex if/then regulatory scenarios with current AI",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Concerns about job displacement despite AI being positioned as an efficiency tool",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Organizational pressure to do more work with fewer resources (headcount reduction)",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Dramatically reduce manual research and documentation time (95% reduction goal)",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Maintain absolute accuracy and compliance despite efficiency gains",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Human oversight remaining central to all regulatory decisions",
+            "priority": 0.85
+          },
+          {
+            "outcome": "AI as a reliable tool to augment, not replace, human expertise",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Clear ROI through time savings that can be redirected to strategic work",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Tools that integrate seamlessly with established workflows",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Overwhelming manual workload creating bottlenecks in compliance processes",
+            "context": "When existing manual methods cannot scale with increasing regulatory demands"
+          },
+          {
+            "trigger": "Clear evidence that a tool significantly reduces time on repetitive tasks",
+            "context": "Seeing demonstrable ROI through case studies or pilot projects"
+          },
+          {
+            "trigger": "Need to redirect human expertise from manual tasks to strategic decision-making",
+            "context": "When team is bogged down in research/documentation instead of analysis"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "AI outputs contain factual errors, mixing up regulations or referencing outdated information",
+            "severity": 0.9
+          },
+          {
+            "objection": "AI cannot handle complex regulatory reasoning and if/then scenarios",
+            "severity": 0.85
+          },
+          {
+            "objection": "Legal and compliance responsibility ultimately rests with humans, making AI risky",
+            "severity": 0.95
+          },
+          {
+            "objection": "Requires significant human time to check and correct AI outputs, negating efficiency",
+            "severity": 0.8
+          },
+          {
+            "objection": "Management may use AI as justification for headcount reduction",
+            "severity": 0.65
+          },
+          {
+            "objection": "Need for specialized regulatory knowledge that AI lacks (e.g., GMP, jurisdictional nuances)",
+            "severity": 0.75
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "AI-generated compliance documents",
+            "reason": "Persistent factual errors that could lead to regulatory fines",
+            "threshold": "When error-checking time exceeds manual creation time"
+          },
+          {
+            "from_product": "Any tool positioned as full automation",
+            "reason": "Inability to provide necessary human oversight and accountability",
+            "threshold": "When tool attempts to bypass human decision-making"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Accuracy and reliability of outputs",
+          "Maintenance of human oversight and accountability",
+          "Time savings and demonstrable ROI",
+          "Integration with existing workflows",
+          "Reduction of manual, repetitive tasks",
+          "Vendor's understanding of regulatory complexity"
+        ],
+        "deal_breakers": [
+          "Tool that cannot guarantee 100% factual accuracy on regulations",
+          "Solution that removes or minimizes required human oversight",
+          "AI that generates outputs too confidently when incorrect",
+          "Tool that doesn't allow for expert review and correction",
+          "Vendor that promises full automation of regulatory decision-making"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Lack of proper documentation for established workflows (SOPs, work instructions, etc.) leading to inconsistency",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Inefficient processes causing productivity losses (e.g., drilling example taking 2 hours vs. 45 minutes with better tools)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Inability to implement automation due to lack of internal expertise or support structures",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Accounting systems and numbers that are not solid/reliable, preventing accurate strategy setting",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poorly implemented ERP systems that bury workflows instead of simplifying them",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Inadequate motivation systems (e.g., pure salary without commission for sales/PM)",
+            "emotional_intensity": 0.4
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Maintain and improve established workflows with minimal disruption",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Increase productivity and reduce waste through proven methodologies (Lean, Six Sigma)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Implement reliable systems that provide accurate, real-time data for decision-making",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Motivate teams through performance-based incentives tied to actual production roles",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Achieve compliance with industry regulations without adding unnecessary complexity",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Identification of a specific pain point in production that can be solved with new tools/technology",
+            "context": "After observing inefficiencies (e.g., long drilling times) and consulting with tool reps"
+          },
+          {
+            "trigger": "Need to replace unreliable systems that provide 'soft numbers' for financial management",
+            "context": "During due diligence or after discovering accounting inaccuracies"
+          },
+          {
+            "trigger": "Recommendation from trusted industry contacts or specialized advisors",
+            "context": "When facing complex decisions about automation or system implementation"
+          },
+          {
+            "trigger": "Observing successful implementation at similar organizations or trade shows",
+            "context": "After seeing practical demonstrations of tools/methods that solve specific problems"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "High cost of automation with uncertain ROI ('easy to spend millions and see 0 returns')",
+            "severity": 0.8
+          },
+          {
+            "objection": "Complex ERP systems that create workflow barriers instead of simplifying them",
+            "severity": 0.7
+          },
+          {
+            "objection": "Solutions that aren't tailored to specific manufacturing contexts ('no one size fits all')",
+            "severity": 0.6
+          },
+          {
+            "objection": "Tools/systems that require frequent calibration or maintenance without clear benefit",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Manual processes/old tools",
+            "reason": "Demonstrated inefficiency causing measurable productivity losses",
+            "threshold": "When new tools can reduce process time by 50%+ (e.g., 2 hours to 45 minutes)"
+          },
+          {
+            "from_product": "Existing accounting/ERP systems",
+            "reason": "Inability to provide reliable numbers for strategic decision-making",
+            "threshold": "When variances in inventory/job costs indicate weak accounting department"
+          },
+          {
+            "from_product": "Current motivation systems",
+            "reason": "Failure to incentivize quality control at production level",
+            "threshold": "When defects reach QC that production staff could have caught earlier"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and accuracy of data/output",
+          "Fit with existing workflows and processes",
+          "Proven ROI from similar implementations",
+          "Ease of integration without major disruption",
+          "Support for compliance requirements",
+          "Long-term maintainability and calibration needs",
+          "Team adoption and cultural fit",
+          "Upfront and ongoing costs"
+        ],
+        "deal_breakers": [
+          "Systems that cannot provide auditable, reliable numbers",
+          "Solutions requiring complete workflow overhaul",
+          "Automation without clear ROI or internal support capability",
+          "Products that increase complexity without solving core problems"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.5,
+      "reddit": 0.5,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Feeling overworked and overwhelmed due to high workload and unrealistic expectations (e.g., handling multiple projects, testing daily releases, fielding 20+ tickets/week, supporting many devs per one QA)",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0151
+        },
+        {
+          "signal": "Being treated as a secondary citizen or lacking proper role definition and respect within the development process",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0151
+        },
+        {
+          "signal": "Lack of time for proper, thorough work due to excessive demands and prioritization pressure",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0151
+        },
+        {
+          "signal": "Frustration with being blamed for issues despite workload constraints",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0151
+        },
+        {
+          "signal": "Experiencing a toxic work environment leading to burnout and consideration of leaving the role",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0151
+        },
+        {
+          "signal": "Product manager feeling overloaded with testing and business-side projects, lacking time for core responsibilities like research and customer focus",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0151
+        },
+        {
+          "signal": "QA not being involved in planning sessions, limiting their ability to contribute effectively to product logic",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0151
+        },
+        {
+          "signal": "Tools/automation being suggested to replace critical QA thinking, causing role undervaluation",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0151
+        },
+        {
+          "signal": "Frustration with unclear role definitions and being expected to perform tasks outside their defined scope (e.g., QA doing BA/PM work).",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0151
+        },
+        {
+          "signal": "Frustration with pressure for speed over quality, leading to rushed work and inability to perform thorough, thoughtful testing.",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0151
+        },
+        {
+          "signal": "Disillusionment with industry trends that devalue deep expertise, such as outsourcing QA or eliminating QA departments in favor of developer-written tests.",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0151
+        },
+        {
+          "signal": "Burnout from working after hours or weekends due to tight schedules and being the 'clean-up crew' for problems that could have been prevented earlier.",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0152
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Achieve manageable workload with clear prioritization and realistic expectations",
+          "count": 1,
+          "frequency": 0.0054,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0161
+        },
+        {
+          "signal": "Have time and capacity to perform QA duties properly, including regression testing and ticket handling",
+          "count": 1,
+          "frequency": 0.0054,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0161
+        },
+        {
+          "signal": "Gain respect and proper integration within the product development lifecycle",
+          "count": 1,
+          "frequency": 0.0054,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0161
+        },
+        {
+          "signal": "Automate repetitive tasks to free up time for more valuable, critical-thinking work",
+          "count": 1,
+          "frequency": 0.0054,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0161
+        },
+        {
+          "signal": "Clarify role responsibilities to avoid being tasked with non-QA work (e.g., establishing designs/requirements)",
+          "count": 1,
+          "frequency": 0.0054,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0161
+        },
+        {
+          "signal": "Be involved in planning sessions to understand business logic and product scope, enabling proactive contribution",
+          "count": 1,
+          "frequency": 0.0054,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0161
+        },
+        {
+          "signal": "Prevent problems early in the planning/design phase to reduce drama and rework later in the development cycle.",
+          "count": 1,
+          "frequency": 0.0054,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0161
+        },
+        {
+          "signal": "Have clear, well-defined roles and responsibilities where each function (QA, Dev, BA, PM) can focus on their core expertise.",
+          "count": 1,
+          "frequency": 0.0054,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0161
+        },
+        {
+          "signal": "Implement effective, automated test pipelines (e.g., in CI/CD) that provide fast feedback and prevent broken code from merging, without sacrificing thoroughness.",
+          "count": 1,
+          "frequency": 0.0054,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0215
+        },
+        {
+          "signal": "Maintain product quality and deep understanding of the entire application, even as development pace increases.",
+          "count": 1,
+          "frequency": 0.0054,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0161
+        },
+        {
+          "signal": "Work with clear, comprehensive, and easily accessible information/documentation.",
+          "count": 1,
+          "frequency": 0.0054,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0161
+        },
+        {
+          "signal": "Achieve strategic partnership and respect for QA within the software development lifecycle",
+          "count": 1,
+          "frequency": 0.0054,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0161
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Forces role ambiguity or significant scope creep beyond core expertise",
+          "count": 1,
+          "frequency": 0.0073,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0219
+        },
+        {
+          "signal": "Prioritizes speed to market in a way that guarantees significant quality degradation",
+          "count": 1,
+          "frequency": 0.0073,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0219
+        },
+        {
+          "signal": "Lacks clarity, creating persistent friction and inefficiency",
+          "count": 1,
+          "frequency": 0.0073,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0219
+        },
+        {
+          "signal": "Is incomplete or requires lock-in to an unproven series/system",
+          "count": 1,
+          "frequency": 0.0073,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0219
+        },
+        {
+          "signal": "Persistent devaluation or misunderstanding of QA's strategic role by leadership",
+          "count": 1,
+          "frequency": 0.0073,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0219
+        },
+        {
+          "signal": "Products that are fundamentally damaged, misrepresented, or unusable",
+          "count": 1,
+          "frequency": 0.0073,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0219
+        },
+        {
+          "signal": "Resources that are insultingly basic relative to their 15+ years of experience",
+          "count": 1,
+          "frequency": 0.0073,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0219
+        },
+        {
+          "signal": "Requires refactoring of solid existing architecture to work",
+          "count": 1,
+          "frequency": 0.0073,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0219
+        },
+        {
+          "signal": "Promises autonomous solutions that ignore underlying structural issues",
+          "count": 1,
+          "frequency": 0.0073,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0219
+        },
+        {
+          "signal": "Introduces flakiness or false positives into stable processes",
+          "count": 1,
+          "frequency": 0.0073,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0219
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Solves a specific, long-standing need or fills a gap in their collection/expertise.",
+          "count": 1,
+          "frequency": 0.0086,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0259
+        },
+        {
+          "signal": "Offers high utility, practical advice, or actionable knowledge aligned with their professional or personal interests.",
+          "count": 1,
+          "frequency": 0.0086,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0259
+        },
+        {
+          "signal": "Matches established, trusted preferences (author, series, publisher, theme).",
+          "count": 1,
+          "frequency": 0.0086,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0259
+        },
+        {
+          "signal": "Facilitates a meaningful personal or shared experience (e.g., bonding, education, tradition).",
+          "count": 1,
+          "frequency": 0.0086,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0259
+        },
+        {
+          "signal": "Delivers exceptional quality in content, presentation, or craftsmanship.",
+          "count": 1,
+          "frequency": 0.0086,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0259
+        },
+        {
+          "signal": "Need to update or refresh deep domain knowledge after time away from the field",
+          "count": 1,
+          "frequency": 0.0086,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0345
+        },
+        {
+          "signal": "Seeking to enhance a specific, established skill within a familiar system",
+          "count": 1,
+          "frequency": 0.0086,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0259
+        },
+        {
+          "signal": "Desire for a reliable desktop reference for specific, on-demand information",
+          "count": 1,
+          "frequency": 0.0086,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0259
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "medium": 0.194,
+        "low": 0.806
+      }
+    }
+  }
+}

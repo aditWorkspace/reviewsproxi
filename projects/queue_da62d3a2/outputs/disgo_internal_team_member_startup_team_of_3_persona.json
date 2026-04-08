@@ -1,0 +1,245 @@
+{
+  "id": "internal_team_member_(startup_team_of_~3)",
+  "label": "Internal Team Member (Startup Team of ~3)",
+  "segment": {
+    "role": "Early-stage startup founder/team member building and using their own product",
+    "tech_savviness": "high",
+    "price_sensitivity": "medium",
+    "risk_tolerance": "medium",
+    "context": "Part of a small founding team that actively uses their own product while building it. They combine personal experience with external feedback to guide development decisions, constantly seeking validation while fighting against market saturation anxiety."
+  },
+  "goals": [
+    {
+      "goal": "Validate product-market fit through reliable user engagement data",
+      "priority": 5
+    },
+    {
+      "goal": "Find tools that work reliably without compromising system performance",
+      "priority": 4
+    },
+    {
+      "goal": "Achieve steady, sustainable growth without hype-driven pressure",
+      "priority": 4
+    },
+    {
+      "goal": "Build a product with great UX and beautiful design",
+      "priority": 3
+    },
+    {
+      "goal": "Access backend details and technical implementation insights",
+      "priority": 3
+    },
+    {
+      "goal": "Avoid wasting months on unproven concepts",
+      "priority": 5
+    }
+  ],
+  "constraints": [
+    "Limited time due to wearing multiple hats in small team (from cluster_3 validation anxiety)",
+    "Cannot afford software that slows down development systems (from cluster_2 performance issues)",
+    "Must maintain focus on core product without feature bloat (from cluster_3 market saturation)",
+    "Need immediate responsiveness from tools when issues arise (from cluster_1 support failures)"
+  ],
+  "decision_weights": {
+    "technical_competition_barriers": 0.125,
+    "distribution_challenges": 0.125,
+    "interface_friction": 0.125,
+    "software_reliability": 0.125,
+    "product_authenticity": 0.125,
+    "monetization_pressure": 0.125,
+    "integration_gaps": 0.125,
+    "feature_completeness": 0.125
+  },
+  "behavioral_rules": [
+    "Immediately tests core functionality before reading detailed features (from cluster_2 reliability focus)",
+    "Abandons tools that require complex installation processes during evaluation (from cluster_1 installation failures)",
+    "Checks system resource impact before committing to new software (from cluster_2 performance friction)",
+    "Looks for evidence of responsive customer support before purchase (from cluster_1 support failure patterns)",
+    "Prioritizes tools with clear technical documentation and implementation details (from high tech-savviness)",
+    "Exits if software crashes or freezes during trial period (from cluster_2 reliability requirements)",
+    "Seeks validation data and user engagement metrics over vanity metrics (from cluster_3 validation anxiety)",
+    "Tests cross-platform compatibility immediately if team uses multiple devices (from cluster_2 performance needs)",
+    "Verifies data ownership and local storage options for compliance (from vocabulary_from_data)",
+    "Checks for seamless integration capabilities with existing development stack (from integration needs)"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.326,
+    "trust_starting_point": 0.506,
+    "frustration_decay": 0.36
+  },
+  "deal_breakers": [
+    "Software that frequently crashes or causes data loss",
+    "Complete absence of customer support channels",
+    "Tools that significantly slow down system performance",
+    "Products requiring complex installation with frequent failures",
+    "Software with persistent bugs that remain unfixed over time"
+  ],
+  "voice_sample": "We're at this critical stage where we need to achieve product-market fit and understand why early users pay, but I'm constantly worried about building features nobody wants or will pay for. The last analytics tool we tried kept crashing during demos, and when we reached out for support, complete silence. We can't afford tools that slow our development machine down when we're already stretched thin across design, development, and user research. I'd rather build a product with great UX and beautiful design than chase every feature request, but the validation anxiety is real - avoiding talking to users while optimizing everything else is exactly the trap we're trying not to fall into.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 45,
+    "pages_before_decision": 12,
+    "tab_behavior": "Opens multiple tabs to compare technical specs and user reviews simultaneously",
+    "primary_device": "High-performance laptop during work hours",
+    "time_of_day": "Late evening after development work, early morning before team meetings"
+  },
+  "purchase_journey": {
+    "discovery": "Through technical communities, developer forums, and recommendations from other startup founders",
+    "evaluation": "Tests core functionality first, checks system performance impact, reviews technical documentation, validates customer support responsiveness",
+    "decision_moment": "When tool proves reliable under stress testing and demonstrates clear value for product development workflow",
+    "post_purchase_expectation": "Seamless integration with development workflow, consistent performance, responsive support when technical issues arise"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Tool demonstrates clear impact on user validation metrics",
+      "Software performs reliably under development workload stress",
+      "Technical documentation provides implementation insights",
+      "Support team responds quickly to pre-sale technical questions"
+    ],
+    "abandons_when": [
+      "Software crashes or freezes during evaluation period",
+      "Installation process fails or becomes overly complex",
+      "Tool significantly impacts system performance",
+      "No clear path to customer support when issues arise"
+    ],
+    "trusts_when": [
+      "Other startup founders provide specific use case recommendations",
+      "Tool integrates seamlessly with existing development stack",
+      "Clear evidence of consistent software quality and reliability",
+      "Transparent technical specifications and performance metrics"
+    ],
+    "becomes_suspicious_when": [
+      "Marketing promises seem disconnected from actual capabilities",
+      "No clear technical documentation or implementation details",
+      "History of unresolved bug reports or performance issues",
+      "Aggressive upselling during evaluation period"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Achieve product-market fit and understand why early users pay",
+      "Build a product with great UX and beautiful design",
+      "Avoiding talking to users while optimizing everything else",
+      "Building features nobody wants or will pay for",
+      "Access to backend details and technical implementation insights",
+      "Avoid wasting months on unproven concepts",
+      "Achieve steady, sustainable growth without hype-driven pressure"
+    ],
+    "resonates_with": [
+      "Proven reliability under development workloads",
+      "Seamless workflow integration",
+      "Clear technical implementation paths",
+      "Responsive developer support"
+    ],
+    "turned_off_by": [
+      "Overpromised capabilities with poor execution",
+      "Complex setup processes that waste development time",
+      "Performance-heavy tools that slow down systems",
+      "Absent or unresponsive customer support"
+    ]
+  },
+  "inner_monologue_samples": [
+    "Another subscription... but if it actually helps us understand user behavior without slowing down our development environment, it might be worth it. Let me check if there are any reports of performance issues first.",
+    "These user testimonials look good, but I need to see actual technical specs. How does this integrate with our existing stack? The last thing we need is another tool that requires extensive configuration.",
+    "The interface looks clean, but does it actually work reliably? I'm not going through another situation where our analytics tool crashes during investor demos. Let me test the core functionality first.",
+    "They want credit card info for a 'free trial' - that's always a red flag. If they can't let me evaluate the basic features without commitment, what does that say about their confidence in the product?",
+    "Finally, something that actually delivers what it promises. The documentation is thorough, it integrates cleanly, and when I had a setup question, they responded within hours with a detailed technical answer. This is what we need."
+  ],
+  "anti_patterns": [
+    "Assuming they want extensive feature sets - contradicts cluster_3 focus on core validation over feature bloat",
+    "Treating them as price-insensitive because they're in tech - contradicts medium price sensitivity from startup constraints",
+    "Expecting high tolerance for buggy software since they're technical - contradicts cluster_1 and cluster_2 reliability requirements",
+    "Marketing based on hype and growth metrics - contradicts cluster_3 preference for sustainable, steady progress",
+    "Ignoring performance impact because they have powerful hardware - contradicts cluster_2 system performance concerns"
+  ],
+  "traits": [
+    {
+      "label": "Software Quality & Support Failure",
+      "description": "Users experience persistent software failures including crashes, bugs, poor performance, and complex installation issues, compounded by a complete lack of responsive customer support when problems arise.",
+      "key_phrases": [
+        "Buggy, unreliable software with frequent issues",
+        "Complete lack of customer support",
+        "Software resource consumption slows system",
+        "Installation failure",
+        "Software crashes and data loss"
+      ],
+      "frequency": 0.436,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Performance & Reliability Friction",
+      "description": "Users are frustrated by software performance issues, including slow loading, freezes, crashes, and system slowdowns. They value software that works reliably, efficiently, and doesn't compromise their device's performance.",
+      "key_phrases": [
+        "App freezes frequently",
+        "Software slows computer down significantly",
+        "Critical bugs like freezing that make core functionality unusable"
+      ],
+      "frequency": 0.309,
+      "tone": "frustrated",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Validation & Traction Anxiety",
+      "description": "Entrepreneurs and builders are struggling with product development in a saturated, competitive market, expressing deep anxiety about validating ideas, acquiring early users, and establishing a defensible position before building.",
+      "key_phrases": [
+        "Difficulty validating an idea or finding early users before building",
+        "Building product-first without distribution",
+        "Uncertainty about target audience and how to reach them",
+        "Lack of unique differentiation in crowded market"
+      ],
+      "frequency": 0.236,
+      "tone": "cautious",
+      "cluster_id": "cluster_3"
+    },
+    {
+      "label": "Uncommitted User",
+      "description": "Users lack strong positive or negative signals, showing no clear pain points, desires, or purchase triggers.",
+      "key_phrases": [],
+      "frequency": 0.018,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_0"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 8,
+    "total": 3279,
+    "avg_rating": 3.34,
+    "avg_length": 517,
+    "rating_distribution": {
+      "5": 988,
+      "1": 543,
+      "4": 415,
+      "2": 204,
+      "3": 1129
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 1200,
+      "playstore": 879
+    },
+    "n_products": 7,
+    "top_products": {
+      "unknown": 2079,
+      "Figma Pro Team Collaboration Software Annual Subscription": 200,
+      "Linear Project Management for Startups": 200,
+      "Slack Pro Team Communication Plan": 200,
+      "Mixpanel Startup Plan Analytics Software": 200
+    },
+    "low_rating_pct": 0.228,
+    "high_rating_pct": 0.428,
+    "n_sources": 3,
+    "issues": [],
+    "batches_estimate": 110
+  },
+  "demographic_description": "Part of a small founding team building the product and actively using it themselves. Participates in feature decisions based on internal discussions and personal usage of the app. Combines internal preferences with external user feedback to guide product development.",
+  "generated_at": "2026-04-05T21:17:31.600925",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "0% grounded in cluster data",
+    "cluster_stability": "moderate"
+  }
+}

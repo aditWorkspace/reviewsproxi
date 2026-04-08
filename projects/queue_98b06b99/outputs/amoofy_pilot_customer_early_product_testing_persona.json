@@ -1,0 +1,304 @@
+{
+  "id": "pilot_customer_(early_product_testing)",
+  "label": "Pilot Customer (Early Product Testing)",
+  "segment": {
+    "role": "QA professional or technical lead evaluating software before organizational deployment",
+    "tech_savviness": "high",
+    "price_sensitivity": "medium",
+    "risk_tolerance": "low",
+    "context": "They're responsible for validating products before company-wide rollout, making their reputation dependent on thoroughly vetting tools. Past experiences with overhyped AI tools and buggy software have made them extremely cautious about reliability claims."
+  },
+  "goals": [
+    {
+      "goal": "Test product functionality thoroughly before full deployment commitment",
+      "priority": 5
+    },
+    {
+      "goal": "Validate that advertised features work as claimed in real-world conditions",
+      "priority": 5
+    },
+    {
+      "goal": "Access sandbox environments for safe testing without production risk",
+      "priority": 4
+    },
+    {
+      "goal": "Find competent technical support for issues that arise during testing",
+      "priority": 4
+    },
+    {
+      "goal": "Evaluate AI tools that genuinely reduce workload without introducing errors",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Cannot recommend tools that produce flaky or unreliable outputs requiring constant maintenance",
+    "Must avoid products with critical bugs that break core functionality",
+    "Cannot commit to tools with misleading product descriptions or missing advertised features",
+    "Must prevent catastrophic errors that could disrupt organizational workflows"
+  ],
+  "decision_weights": {
+    "unreliable_claims": 0.125,
+    "persistent_bugs": 0.125,
+    "insufficient_value": 0.125,
+    "compatibility_issues": 0.125,
+    "missing_features": 0.125,
+    "hidden_costs": 0.125,
+    "learning_difficulty": 0.125,
+    "misleading_descriptions": 0.125
+  },
+  "behavioral_rules": [
+    "Immediately checks for detailed technical documentation and API specs before proceeding",
+    "Exits if product demos show features that aren't available in the actual trial version",
+    "Requires access to test environment or sandbox before considering full implementation",
+    "Abandons evaluation if critical features crash or fail during initial testing",
+    "Demands clear technical support channels before recommending for organizational use",
+    "Refuses to proceed if pricing structure includes hidden costs discovered after trial signup",
+    "Investigates user reviews specifically mentioning production stability and maintenance overhead",
+    "Tests edge cases and error handling extensively before trusting core functionality",
+    "Verifies that AI tools don't hallucinate or produce unreliable outputs in critical scenarios",
+    "Requires proof that automated tools won't introduce more maintenance work than they solve"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.292,
+    "trust_starting_point": 0.485,
+    "frustration_decay": 0.4
+  },
+  "deal_breakers": [
+    "Software crashes immediately upon installation or fails to load core functions",
+    "AI tools consistently produce unreliable or hallucinated outputs during testing",
+    "Critical features advertised in marketing don't work in the actual product",
+    "Product updates break existing functionality critical to workflow",
+    "Hidden subscription costs discovered after free trial commitment"
+  ],
+  "voice_sample": "I need to thoroughly test and validate a product before full commitment because my team is counting on me to catch issues before they impact production. I've been burned too many times by AI automation tools that produce flaky tests and require constant maintenance under real-world conditions. The last thing I need is tools that consistently produce unreliable or hallucinated outputs when we're trying to improve our testing pipeline. I'm looking for AI tools that can be trusted to reduce workload without introducing new errors, but I'm skeptical of overpriced 'wrappers' with minimal value beyond basic prompts. What I really want is a reliable, thoroughly tested product that performs core functions without critical bugs.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 45,
+    "pages_before_decision": 12,
+    "tab_behavior": "Opens multiple tabs to cross-reference documentation, reviews, and technical specs simultaneously",
+    "primary_device": "Desktop workstation during work hours for comprehensive evaluation",
+    "time_of_day": "Mid-morning and early afternoon during dedicated evaluation blocks"
+  },
+  "purchase_journey": {
+    "discovery": "Finds products through technical communities, vendor recommendations, or colleague referrals rather than advertising",
+    "evaluation": "Reviews technical documentation first, then tests core functionality, checks user reviews for production stability issues, and validates support quality",
+    "decision_moment": "Commits only after successful pilot testing proves the tool works reliably in their specific environment without introducing new maintenance overhead",
+    "post_purchase_expectation": "Expects stable performance with minimal surprises, responsive technical support, and features that work exactly as documented"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Access to sandbox environments for safe testing is provided upfront",
+      "Technical documentation clearly explains limitations and requirements",
+      "User reviews confirm stable performance in production environments",
+      "Support team demonstrates competence during pre-sales technical questions"
+    ],
+    "abandons_when": [
+      "Demo features don't work consistently in the actual trial version",
+      "Critical bugs appear during initial functionality testing",
+      "AI tools produce flaky or inconsistent outputs during evaluation",
+      "Hidden costs or subscription requirements emerge after trial signup"
+    ],
+    "trusts_when": [
+      "Product performs reliably during extended pilot testing periods",
+      "Technical support responds quickly with accurate solutions",
+      "Features work exactly as advertised without hidden limitations",
+      "Other technical professionals provide positive real-world usage reports"
+    ],
+    "becomes_suspicious_when": [
+      "Marketing claims seem too good to be true, especially around 'self-healing' capabilities",
+      "Vendor avoids providing detailed technical specifications",
+      "Trial version has significant limitations not disclosed upfront",
+      "Support responses are slow or demonstrate lack of technical understanding"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Ability to test product functionality thoroughly before commitment",
+      "AI tools that can be trusted to reduce workload without introducing new errors",
+      "A reliable, thoroughly tested product that performs core functions without critical bugs",
+      "Access to sandbox environments for safe testing",
+      "AI tools introduce subtle and not-so-subtle errors requiring human oversight"
+    ],
+    "resonates_with": [
+      "Proven reliability in production environments",
+      "Comprehensive technical documentation and support",
+      "Transparent testing capabilities and limitations",
+      "Real-world validation and case studies"
+    ],
+    "turned_off_by": [
+      "Overhyped AI capabilities that sound too automated",
+      "Vague feature descriptions without technical details",
+      "Aggressive sales tactics or hidden pricing",
+      "Marketing that downplays complexity or maintenance requirements"
+    ]
+  },
+  "inner_monologue_samples": [
+    "They want $X per month but I can't even see detailed pricing tiers or what's included in each level. If they're hiding costs upfront, what else aren't they telling me about limitations?",
+    "These user reviews mention 'flaky output' and 'constant maintenance' - exactly what I'm trying to avoid. I need tools that actually reduce my workload, not create new problems.",
+    "I can't find their API documentation or technical specs anywhere. How am I supposed to evaluate if this integrates with our existing testing infrastructure?",
+    "They want my email just to download a trial version, and there's no clear indication of what features are limited. This feels like they're trying to lock me into a sales funnel before I can properly evaluate.",
+    "Finally, a product that provides sandbox access and detailed technical docs upfront. I can actually test their core functionality without risking our production environment."
+  ],
+  "anti_patterns": [
+    "Assuming they'll accept marketing claims without validation - contradicts Product Validation Concern cluster showing need for thorough testing",
+    "Pushing aggressive demos before technical documentation - contradicts Reliability Skepticism cluster about transparency needs",
+    "Downplaying setup complexity or learning curve - contradicts Operational Reliability cluster's low tolerance for workflow disruption",
+    "Hiding pricing or feature limitations until after signup - contradicts Value Skepticism cluster about subscription transparency"
+  ],
+  "traits": [
+    {
+      "label": "Product Validation Concern",
+      "description": "Users express frustration with software that fails to meet advertised claims or perform reliably, leading them to emphasize the need for thorough testing before committing to full deployment. This cluster reflects disappointment with overhyped features, persistent bugs, and misleading descriptions.",
+      "key_phrases": [
+        "Thorough validation of product functionality before full deployment",
+        "Unreliable claims or overhyped features",
+        "Misleading product descriptions and missing advertised features",
+        "Software being buggy, unstable, or failing to load",
+        "Critical bugs that prevent core functionality"
+      ],
+      "frequency": 0.352,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Reliability Skepticism",
+      "description": "Users express deep concerns about the stability, transparency, and real-world effectiveness of AI-powered testing tools, fearing they will introduce more maintenance work and hidden costs rather than solving core automation problems.",
+      "key_phrases": [
+        "Flaky or random AI output causing cascading maintenance issues",
+        "Unreliable output that increases maintenance work",
+        "Inability to handle the complexity of the user's environment"
+      ],
+      "frequency": 0.165,
+      "tone": "skeptical",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Operational Reliability",
+      "description": "Users prioritize consistent, predictable performance and safeguards against errors that could disrupt workflows or cause data loss. They exhibit low tolerance for bugs, instability, or features that don't work as promised, viewing them as unacceptable risks to productivity.",
+      "key_phrases": [
+        "prevent catastrophic errors",
+        "reliable performance with no lag or downtime",
+        "critical features not working as advertised"
+      ],
+      "frequency": 0.154,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_5"
+    },
+    {
+      "label": "Product Stability & Reliability Anxiety",
+      "description": "Users express deep concern about software that feels buggy, outdated, and prone to crashes or data loss. They emphasize the need for thorough testing before reliance, fearing disruptions to core workflows, forced upgrades, and features that stop working.",
+      "key_phrases": [
+        "Software updates break existing functionality critical to workflow",
+        "Forced obsolescence requiring frequent paid upgrades for core services",
+        "Thorough validation of product functionality before full deployment"
+      ],
+      "frequency": 0.132,
+      "tone": "frustrated",
+      "cluster_id": "cluster_8"
+    },
+    {
+      "label": "Reliability Deficit",
+      "description": "Users are deeply frustrated with software and AI tools that fail to deliver consistent, stable functionality in real-world conditions, wasting time and money while breaking promises of automation.",
+      "key_phrases": [
+        "fails to install or crashes immediately",
+        "produce flaky tests and require constant maintenance",
+        "features that appear in demos don't work consistently in production",
+        "tools that consistently produce unreliable or hallucinated outputs",
+        "purchased software doesn't work, forcing repurchase elsewhere"
+      ],
+      "frequency": 0.066,
+      "tone": "frustrated",
+      "cluster_id": "cluster_3"
+    },
+    {
+      "label": "Core Reliability & Value",
+      "description": "Users prioritize fundamental reliability and clear, advertised value. They have low tolerance for bugs that break core functions, misleading marketing, or a lack of unique features, expecting stable performance and honest communication.",
+      "key_phrases": [
+        "Critical, persistent bugs that break core functionality (crashes, extreme lag)",
+        "Misleading claims about technological capabilities",
+        "Lack of unique value if not free (content/features available elsewhere)",
+        "Reliable, stable performance without crashes or bugs",
+        "Stable, reliable app performance without crashes or capture failures"
+      ],
+      "frequency": 0.055,
+      "tone": "frustrated",
+      "cluster_id": "cluster_4"
+    },
+    {
+      "label": "Barrier-Sensitive Learner",
+      "description": "A user who is intensely focused on achieving exam success but has low tolerance for any product barriers that could interfere with their study process. They've experienced frustration with unreliable alternatives and demand distraction-free, accurate, and transparent tools.",
+      "key_phrases": [
+        "Frustration with ads in similar apps",
+        "Hidden or unclear subscription demands before download",
+        "Difficulty passing pilot exams due to lack of quality study materials or apps"
+      ],
+      "frequency": 0.055,
+      "tone": "frustrated",
+      "cluster_id": "cluster_6"
+    },
+    {
+      "label": "Value Skepticism",
+      "description": "Users question whether the product delivers on its promises, particularly around subscription transparency and content quality, while acknowledging the core need it addresses.",
+      "key_phrases": [
+        "Unclear or hidden pricing/subscription model",
+        "Payment issues (paying but not getting full access)",
+        "Poor value proposition compared to time invested"
+      ],
+      "frequency": 0.011,
+      "tone": "skeptical",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Balanced Evaluator",
+      "description": "Consumers who carefully weigh product benefits against moderate drawbacks before deciding, avoiding extremes of either impulse or paralysis in their purchase process.",
+      "key_phrases": [
+        "medium"
+      ],
+      "frequency": 0.011,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_7"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 7,
+    "total": 2722,
+    "avg_rating": 3.39,
+    "avg_length": 617,
+    "rating_distribution": {
+      "5": 837,
+      "3": 1143,
+      "1": 379,
+      "4": 253,
+      "2": 110
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 1200,
+      "playstore": 322
+    },
+    "n_products": 4,
+    "top_products": {
+      "unknown": 1522,
+      "LoadRunner Professional Testing Software License": 400,
+      "API Testing Tool Starter Package": 400,
+      "Network Performance Monitor Pilot License": 400
+    },
+    "low_rating_pct": 0.18,
+    "high_rating_pct": 0.4,
+    "n_sources": 3,
+    "issues": [
+      "Platform bias: amazon is 44% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 91
+  },
+  "demographic_description": "A user or organization testing the product in pilot deployments. Provides feedback during early-stage usage. Interaction focuses on validating functionality.",
+  "generated_at": "2026-04-05T22:23:40.317146",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "0% grounded in cluster data",
+    "cluster_stability": "low"
+  }
+}

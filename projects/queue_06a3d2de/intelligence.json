@@ -1,0 +1,566 @@
+{
+  "products": [
+    {
+      "name": "Meal Kit Subscription Box Organizer with Recipe Card Storage",
+      "category": "Home_and_Kitchen",
+      "accuracy": 0.98,
+      "review_keywords": [
+        "meal kit",
+        "recipe cards",
+        "organization",
+        "HelloFresh",
+        "Blue Apron",
+        "storage",
+        "kitchen counter"
+      ],
+      "context_keywords": [
+        "busy schedule",
+        "meal planning",
+        "subscription service",
+        "convenience"
+      ],
+      "exclusion_keywords": [
+        "cooking from scratch",
+        "grocery shopping"
+      ],
+      "why": "Specifically bought by people actively using meal kit services who need organization solutions"
+    },
+    {
+      "name": "Instacart Shopper Insulated Bags Set with Phone Mount",
+      "category": "Office_Products",
+      "accuracy": 0.97,
+      "review_keywords": [
+        "Instacart",
+        "grocery delivery",
+        "insulated",
+        "phone mount",
+        "shopping",
+        "gig work"
+      ],
+      "context_keywords": [
+        "side hustle",
+        "delivery driver",
+        "earnings",
+        "flexible schedule"
+      ],
+      "exclusion_keywords": [
+        "personal use",
+        "camping"
+      ],
+      "why": "Purchased exclusively by people working as grocery delivery shoppers for services like Instacart"
+    },
+    {
+      "name": "Smart Home Hub for Service Provider Scheduling and Coordination",
+      "category": "Electronics",
+      "accuracy": 0.95,
+      "review_keywords": [
+        "service scheduling",
+        "home management",
+        "provider coordination",
+        "smart home",
+        "automation"
+      ],
+      "context_keywords": [
+        "busy household",
+        "multiple services",
+        "coordination",
+        "efficiency"
+      ],
+      "exclusion_keywords": [
+        "basic smart home",
+        "entertainment"
+      ],
+      "why": "Bought by households actively coordinating multiple home service providers and deliveries"
+    },
+    {
+      "name": "Professional Meal Prep Container Set with Portion Control Guides",
+      "category": "Home_and_Kitchen",
+      "accuracy": 0.94,
+      "review_keywords": [
+        "meal prep",
+        "portion control",
+        "weekly planning",
+        "containers",
+        "batch cooking"
+      ],
+      "context_keywords": [
+        "meal planning",
+        "busy schedule",
+        "healthy eating",
+        "preparation"
+      ],
+      "exclusion_keywords": [
+        "leftover storage",
+        "school lunch"
+      ],
+      "why": "Purchased by people who regularly prepare meals in advance for busy schedules"
+    },
+    {
+      "name": "Grocery List App Premium Subscription Digital Download",
+      "category": "Software",
+      "accuracy": 0.93,
+      "review_keywords": [
+        "grocery list",
+        "meal planning",
+        "shopping",
+        "organization",
+        "app premium"
+      ],
+      "context_keywords": [
+        "household management",
+        "efficient shopping",
+        "meal coordination"
+      ],
+      "exclusion_keywords": [
+        "simple shopping",
+        "basic notes"
+      ],
+      "why": "Bought by people who need advanced grocery planning features beyond basic shopping lists"
+    },
+    {
+      "name": "TaskRabbit Service Provider Toolkit and Supplies",
+      "category": "Tools_and_Home_Improvement",
+      "accuracy": 0.92,
+      "review_keywords": [
+        "TaskRabbit",
+        "service provider",
+        "handyman",
+        "gig economy",
+        "toolkit"
+      ],
+      "context_keywords": [
+        "side work",
+        "flexible income",
+        "service calls",
+        "customer ratings"
+      ],
+      "exclusion_keywords": [
+        "personal projects",
+        "DIY"
+      ],
+      "why": "Purchased by people working as TaskRabbit service providers for household tasks"
+    },
+    {
+      "name": "Household Service Coordination Planner and Schedule Board",
+      "category": "Office_Products",
+      "accuracy": 0.91,
+      "review_keywords": [
+        "service coordination",
+        "household planner",
+        "scheduling",
+        "provider management",
+        "organization"
+      ],
+      "context_keywords": [
+        "multiple services",
+        "busy household",
+        "coordination",
+        "management"
+      ],
+      "exclusion_keywords": [
+        "family calendar",
+        "personal planning"
+      ],
+      "why": "Bought specifically by households managing multiple service providers and delivery schedules"
+    },
+    {
+      "name": "Amazon Fresh Delivery Notification Smart Doorbell Integration",
+      "category": "Electronics",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "Amazon Fresh",
+        "delivery notification",
+        "grocery delivery",
+        "smart doorbell",
+        "integration"
+      ],
+      "context_keywords": [
+        "grocery delivery",
+        "smart home",
+        "convenience",
+        "automation"
+      ],
+      "exclusion_keywords": [
+        "package delivery",
+        "security"
+      ],
+      "why": "Purchased by frequent users of Amazon Fresh and grocery delivery services"
+    },
+    {
+      "name": "Cleaning Service Supply Caddy with Product Organization",
+      "category": "Home_and_Kitchen",
+      "accuracy": 0.89,
+      "review_keywords": [
+        "cleaning service",
+        "supply caddy",
+        "product organization",
+        "professional",
+        "portable"
+      ],
+      "context_keywords": [
+        "service provider",
+        "efficiency",
+        "client homes",
+        "professional cleaning"
+      ],
+      "exclusion_keywords": [
+        "personal cleaning",
+        "home use"
+      ],
+      "why": "Bought by professional cleaning service providers who need portable supply organization"
+    },
+    {
+      "name": "Meal Delivery Thermal Bag with Temperature Monitoring",
+      "category": "Home_and_Kitchen",
+      "accuracy": 0.88,
+      "review_keywords": [
+        "meal delivery",
+        "thermal bag",
+        "temperature",
+        "DoorDash",
+        "UberEats",
+        "food safety"
+      ],
+      "context_keywords": [
+        "delivery driver",
+        "food safety",
+        "gig work",
+        "customer satisfaction"
+      ],
+      "exclusion_keywords": [
+        "personal meals",
+        "lunch bag"
+      ],
+      "why": "Purchased by food delivery drivers working for meal delivery services"
+    },
+    {
+      "name": "Smart Grocery Scale with App Integration for Portion Planning",
+      "category": "Home_and_Kitchen",
+      "accuracy": 0.87,
+      "review_keywords": [
+        "smart scale",
+        "grocery portions",
+        "app integration",
+        "meal planning",
+        "portion control"
+      ],
+      "context_keywords": [
+        "meal planning",
+        "precise portions",
+        "app connectivity",
+        "efficiency"
+      ],
+      "exclusion_keywords": [
+        "baking scale",
+        "weight loss"
+      ],
+      "why": "Bought by people who do detailed meal planning and portion management for household efficiency"
+    },
+    {
+      "name": "Service Provider Rating and Review Management Guide Book",
+      "category": "Books",
+      "accuracy": 0.86,
+      "review_keywords": [
+        "service provider",
+        "ratings",
+        "reviews",
+        "gig economy",
+        "customer service",
+        "management"
+      ],
+      "context_keywords": [
+        "online reputation",
+        "service business",
+        "customer satisfaction",
+        "platform ratings"
+      ],
+      "exclusion_keywords": [
+        "business general",
+        "marketing basics"
+      ],
+      "why": "Purchased by people actively working as service providers who need to manage online ratings"
+    },
+    {
+      "name": "Household Budget Tracker for Service and Delivery Expenses",
+      "category": "Office_Products",
+      "accuracy": 0.85,
+      "review_keywords": [
+        "budget tracker",
+        "service expenses",
+        "delivery costs",
+        "household budget",
+        "expense tracking"
+      ],
+      "context_keywords": [
+        "service spending",
+        "delivery budget",
+        "household expenses",
+        "cost tracking"
+      ],
+      "exclusion_keywords": [
+        "general budgeting",
+        "business expenses"
+      ],
+      "why": "Bought by households tracking spending on multiple services and delivery platforms"
+    },
+    {
+      "name": "Professional House Sitting and Pet Care Service Kit",
+      "category": "Pet_Supplies",
+      "accuracy": 0.84,
+      "review_keywords": [
+        "house sitting",
+        "pet care",
+        "service provider",
+        "professional",
+        "care kit"
+      ],
+      "context_keywords": [
+        "service provider",
+        "client homes",
+        "pet sitting",
+        "professional care"
+      ],
+      "exclusion_keywords": [
+        "own pets",
+        "personal use"
+      ],
+      "why": "Purchased by people providing house sitting and pet care services professionally"
+    },
+    {
+      "name": "Multi-Platform Gig Economy Tax Tracking Software",
+      "category": "Software",
+      "accuracy": 0.83,
+      "review_keywords": [
+        "gig economy",
+        "tax tracking",
+        "multiple platforms",
+        "1099",
+        "expense tracking"
+      ],
+      "context_keywords": [
+        "multiple apps",
+        "gig work",
+        "tax season",
+        "platform earnings"
+      ],
+      "exclusion_keywords": [
+        "business taxes",
+        "employee taxes"
+      ],
+      "why": "Bought by people earning income from multiple gig economy and service platforms"
+    },
+    {
+      "name": "Smart Home Integration Hub for Service Access and Scheduling",
+      "category": "Electronics",
+      "accuracy": 0.82,
+      "review_keywords": [
+        "smart home",
+        "service access",
+        "scheduling integration",
+        "provider coordination",
+        "automation"
+      ],
+      "context_keywords": [
+        "service coordination",
+        "automated scheduling",
+        "provider access",
+        "smart integration"
+      ],
+      "exclusion_keywords": [
+        "entertainment hub",
+        "basic automation"
+      ],
+      "why": "Purchased by households integrating multiple service providers into smart home systems"
+    },
+    {
+      "name": "Eco-Friendly Meal Kit Packaging Recycling System",
+      "category": "Home_and_Kitchen",
+      "accuracy": 0.81,
+      "review_keywords": [
+        "meal kit",
+        "packaging recycling",
+        "eco-friendly",
+        "subscription box",
+        "waste management"
+      ],
+      "context_keywords": [
+        "meal kit user",
+        "sustainability",
+        "packaging waste",
+        "subscription service"
+      ],
+      "exclusion_keywords": [
+        "general recycling",
+        "composting"
+      ],
+      "why": "Bought specifically by frequent meal kit service users dealing with packaging waste"
+    },
+    {
+      "name": "Service Provider Uniform and Branding Accessories Set",
+      "category": "Clothing_Shoes_and_Jewelry",
+      "accuracy": 0.8,
+      "review_keywords": [
+        "service provider",
+        "uniform",
+        "branding",
+        "professional appearance",
+        "gig work"
+      ],
+      "context_keywords": [
+        "professional image",
+        "service calls",
+        "customer trust",
+        "provider branding"
+      ],
+      "exclusion_keywords": [
+        "work clothes",
+        "casual uniform"
+      ],
+      "why": "Purchased by gig economy and service providers who need professional appearance for client interactions"
+    }
+  ],
+  "subreddits": [
+    {
+      "name": "InstacartShoppers",
+      "relevance": 0.95,
+      "member_type": "90% active Instacart shoppers and gig workers",
+      "data_value": "Real-time service provider challenges, earnings discussions, customer interaction insights",
+      "why": "Community exclusively for people actively working as grocery delivery shoppers"
+    },
+    {
+      "name": "doordash_drivers",
+      "relevance": 0.93,
+      "member_type": "85% active DoorDash delivery drivers",
+      "data_value": "Service delivery experiences, platform optimization, customer service challenges",
+      "why": "Active community of food delivery service providers sharing work experiences"
+    },
+    {
+      "name": "TaskRabbit",
+      "relevance": 0.91,
+      "member_type": "80% active TaskRabbit service providers",
+      "data_value": "Household service coordination, pricing strategies, customer management",
+      "why": "Community for people providing household and handyman services through the platform"
+    },
+    {
+      "name": "MealPrepSunday",
+      "relevance": 0.88,
+      "member_type": "75% people who regularly meal prep and coordinate household food",
+      "data_value": "Meal planning strategies, bulk preparation techniques, household coordination",
+      "why": "Active meal planners who coordinate household food preparation and management"
+    },
+    {
+      "name": "UberEATS",
+      "relevance": 0.87,
+      "member_type": "80% UberEats delivery drivers and service providers",
+      "data_value": "Food service delivery insights, platform optimization, customer interaction patterns",
+      "why": "Community for people actively delivering food through meal service platforms"
+    },
+    {
+      "name": "GigEconomyWorkers",
+      "relevance": 0.85,
+      "member_type": "70% people working multiple service platforms",
+      "data_value": "Multi-platform coordination, service optimization, income management across services",
+      "why": "Workers coordinating income across multiple gig economy and service platforms"
+    },
+    {
+      "name": "amazonflexdrivers",
+      "relevance": 0.84,
+      "member_type": "85% Amazon Flex delivery drivers",
+      "data_value": "Package and grocery delivery coordination, route optimization, service efficiency",
+      "why": "Community for Amazon Flex drivers handling grocery and package deliveries"
+    },
+    {
+      "name": "ShiptShoppers",
+      "relevance": 0.82,
+      "member_type": "90% active Shipt grocery shoppers",
+      "data_value": "Grocery service delivery insights, customer coordination, shopping optimization",
+      "why": "Active grocery shopping service providers sharing coordination strategies"
+    },
+    {
+      "name": "SmartHome",
+      "relevance": 0.78,
+      "member_type": "60% households coordinating multiple services through automation",
+      "data_value": "Service integration strategies, automation for household coordination, provider management",
+      "why": "Smart home users focused on coordinating household services and deliveries"
+    },
+    {
+      "name": "BusyParents",
+      "relevance": 0.75,
+      "member_type": "65% parents using multiple household coordination services",
+      "data_value": "Time management, service coordination, household efficiency strategies",
+      "why": "Parents actively managing busy households through service coordination"
+    },
+    {
+      "name": "grubhubdrivers",
+      "relevance": 0.74,
+      "member_type": "85% active Grubhub delivery drivers",
+      "data_value": "Food delivery service insights, customer coordination, platform optimization",
+      "why": "Community for Grubhub food delivery service providers"
+    },
+    {
+      "name": "HouseholdHacks",
+      "relevance": 0.72,
+      "member_type": "55% households using service coordination and delivery optimization",
+      "data_value": "Efficiency strategies, service coordination tips, household management",
+      "why": "Households focused on optimizing coordination of multiple services and deliveries"
+    },
+    {
+      "name": "CleaningBusiness",
+      "relevance": 0.7,
+      "member_type": "70% professional cleaning service providers",
+      "data_value": "Service provider perspectives, customer coordination, professional service delivery",
+      "why": "Professional cleaning service providers discussing business and coordination strategies"
+    },
+    {
+      "name": "petsitting",
+      "relevance": 0.68,
+      "member_type": "60% professional pet sitting service providers",
+      "data_value": "Service provider experiences, client coordination, professional pet care insights",
+      "why": "Community for people providing professional pet sitting and house sitting services"
+    },
+    {
+      "name": "MealKitServices",
+      "relevance": 0.65,
+      "member_type": "70% active meal kit subscription users",
+      "data_value": "Service comparison, coordination with other household services, subscription management",
+      "why": "Users actively coordinating meal kit services with other household delivery and service needs"
+    }
+  ],
+  "demographic_profile": {
+    "core_keywords": [
+      "service coordination",
+      "delivery scheduling",
+      "meal planning",
+      "gig work",
+      "household management",
+      "platform optimization",
+      "customer ratings",
+      "multi-service",
+      "time efficiency",
+      "service provider",
+      "subscription management",
+      "automated booking",
+      "coordination tools",
+      "busy schedule",
+      "integrated system"
+    ],
+    "exclusion_keywords": [
+      "traditional shopping",
+      "cooking from scratch",
+      "DIY",
+      "single service",
+      "occasional use",
+      "basic delivery",
+      "manual coordination",
+      "simple shopping"
+    ],
+    "age_range": "25-45",
+    "primary_motivations": [
+      "Time efficiency and coordination",
+      "Seamless service integration",
+      "Cost optimization across multiple services",
+      "Quality and reliability of service providers"
+    ],
+    "summary": "This demographic actively uses and coordinates multiple household services including grocery delivery, meal kits, and service providers as part of an integrated lifestyle system. They prioritize efficiency and seamless coordination over cost savings, making purchasing decisions based on how well products and services integrate with their existing service ecosystem. They are frustrated by poor service coordination, unreliable providers, and systems that don't communicate with each other, driving them toward solutions that streamline their multi-service household management approach."
+  }
+}

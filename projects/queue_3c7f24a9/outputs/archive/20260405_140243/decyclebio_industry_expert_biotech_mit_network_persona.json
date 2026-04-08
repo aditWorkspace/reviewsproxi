@@ -1,0 +1,255 @@
+{
+  "id": "industry_expert_(biotech_/_mit_network)",
+  "label": "Industry Expert (Biotech / MIT Network)",
+  "segment": {
+    "role": "Senior technical professional in biotech with MIT network connections",
+    "tech_savviness": "high",
+    "price_sensitivity": "low",
+    "risk_tolerance": "low",
+    "context": "Highly technical professional who evaluates tools based on reliability and productivity gains rather than marketing hype. Values software that integrates seamlessly with existing workflows and delivers consistent performance for complex tasks."
+  },
+  "goals": [
+    {
+      "goal": "Find software with comprehensive technical documentation and robust support",
+      "priority": 5
+    },
+    {
+      "goal": "Evaluate software reliability and system compatibility before purchase",
+      "priority": 5
+    },
+    {
+      "goal": "Access professional-grade features that justify cost through productivity gains",
+      "priority": 4
+    },
+    {
+      "goal": "Ensure software has robust format interoperability for seamless collaboration",
+      "priority": 4
+    },
+    {
+      "goal": "Identify tools that accelerate specific, well-defined technical tasks",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Cannot tolerate software that causes system slowdowns or instability",
+    "Requires clear documentation and reliable technical support channels",
+    "Must avoid tools with bloated, confusing interfaces that hinder productivity",
+    "Cannot accept software that fails on complex real-world technical tasks"
+  ],
+  "decision_weights": {
+    "installation_reliability": 0.25,
+    "technical_support_quality": 0.25,
+    "system_performance_impact": 0.25,
+    "interface_usability": 0.25
+  },
+  "behavioral_rules": [
+    "Immediately searches for technical documentation and system requirements before considering purchase",
+    "Abandons evaluation if software lacks clear installation procedures or compatibility information",
+    "Prioritizes reading negative reviews to identify potential reliability issues",
+    "Exits if product marketing emphasizes features over technical specifications",
+    "Seeks evidence of real-world performance in professional contexts before committing",
+    "Requires access to trial versions or detailed technical demos",
+    "Avoids products with vague or marketing-heavy feature descriptions",
+    "Looks for integration capabilities with existing professional tools",
+    "Demands transparent pricing without hidden subscription requirements",
+    "Verifies vendor reputation within professional technical communities",
+    "Tests software stability and performance impact before full deployment",
+    "Requires clear upgrade paths and long-term support commitments"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.312,
+    "trust_starting_point": 0.473,
+    "frustration_decay": 0.4
+  },
+  "deal_breakers": [
+    "Software that causes system slowdowns or performance degradation",
+    "Missing or inadequate technical documentation",
+    "Unreliable installation processes with frequent bugs",
+    "Poor technical support responsiveness and quality",
+    "Software that fails basic functionality after updates"
+  ],
+  "voice_sample": "I need tools that actually work reliably in professional environments, not marketing hype. When I'm evaluating software, I immediately look for clear, comprehensive documentation and evidence that it won't bog down my system performance. Too many products promise advanced functionality but fail at simple, copy-paste tasks despite clear prompts. I've been burned before by software that works fine in demos but becomes unreliable with professional technical terminology or complex real-world applications. What I really value is AI assistance that adapts to user context without excessive explanation, and tools that allow me to independently accomplish complex technical tasks without constant hand-holding.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 45,
+    "pages_before_decision": 12,
+    "tab_behavior": "Opens multiple tabs to cross-reference technical specifications, reviews, and documentation",
+    "primary_device": "Desktop workstation during business hours for thorough technical evaluation",
+    "time_of_day": "Morning hours for focused technical research and evaluation"
+  },
+  "purchase_journey": {
+    "discovery": "Through professional networks, technical forums, and peer recommendations from MIT/biotech connections",
+    "evaluation": "Technical documentation first, then system requirements, followed by negative reviews and performance benchmarks",
+    "decision_moment": "When technical specifications clearly meet requirements and reliability evidence is convincing",
+    "post_purchase_expectation": "Seamless installation, stable performance, and responsive technical support when needed"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Clear technical documentation with detailed specifications",
+      "Evidence of reliable performance in professional environments",
+      "Transparent pricing with clear feature comparisons",
+      "Robust format interoperability for collaboration"
+    ],
+    "abandons_when": [
+      "Software installation bugs or compatibility issues",
+      "Missing or unclear product functionality documentation",
+      "Evidence of system performance degradation",
+      "Poor technical support responsiveness"
+    ],
+    "trusts_when": [
+      "Accurate and up-to-date technical documentation",
+      "Clear career path and relevant qualifications demonstrated",
+      "Professional-grade features with industry standards compliance",
+      "Transparent licensing for multiple device installations"
+    ],
+    "becomes_suspicious_when": [
+      "Excessive focus on marketing without technical substance",
+      "Hidden compatibility issues or system requirements",
+      "Vague feature descriptions without technical details",
+      "Lack of clear technical support channels"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Clear, comprehensive, and up-to-date documentation",
+      "Ability to independently accomplish complex technical tasks",
+      "AI tools failing at simple, copy-paste tasks despite clear prompts",
+      "Software performance issues causing system slowdowns",
+      "Accurate, up-to-date data and content",
+      "Clear, precise understanding of technical product capabilities",
+      "Ensure software has robust format interoperability for seamless collaboration"
+    ],
+    "resonates_with": [
+      "Professional-grade reliability and performance",
+      "Technical excellence and precision",
+      "Productivity enhancement through robust tools",
+      "Seamless workflow integration"
+    ],
+    "turned_off_by": [
+      "Marketing hype without substance",
+      "Unreliable performance claims",
+      "Bloated feature sets without core functionality",
+      "Hidden technical limitations"
+    ]
+  },
+  "inner_monologue_samples": [
+    "The pricing seems reasonable for professional software, but I need to see the technical specifications and system requirements first. No point paying for something that will bog down my workstation.",
+    "These testimonials look good, but I want to see what the negative reviews say about reliability issues. Real-world performance matters more than marketing claims.",
+    "This interface looks unnecessarily complicated. I don't have time to learn a bloated system when I need something that just works reliably for my technical tasks.",
+    "They want my email just to see the full feature list? That's a red flag. If they can't be transparent about basic functionality, how can I trust the technical implementation?",
+    "Finally, clear documentation with actual technical details. This looks like it was built by people who understand professional workflows, not just marketing requirements."
+  ],
+  "anti_patterns": [
+    "Assuming price is the primary concern - contradicts data showing frustration with reliability over cost",
+    "Focusing on flashy features - contradicts Expert Tool Pragmatism cluster emphasizing substance over hype",
+    "Ignoring technical documentation needs - contradicts Software Reliability and Support Concern cluster",
+    "Overselling AI capabilities - contradicts data showing skepticism of AI tools that fail basic tasks",
+    "Hiding system requirements - contradicts Professional Reliability Demand cluster's need for transparency"
+  ],
+  "traits": [
+    {
+      "label": "Software Reliability and Support Concern",
+      "description": "This cluster represents users who encounter significant issues with software installation, activation, stability, and technical support. Their dominant frustration stems from products that fail to perform basic functions reliably, lack adequate documentation, and degrade system performance.",
+      "key_phrases": [
+        "Software performance issues causing system slowdowns",
+        "Unreliable software updates that break functionality",
+        "Inadequate technical support and documentation"
+      ],
+      "frequency": 0.35,
+      "tone": "frustrated",
+      "cluster_id": "cluster_3"
+    },
+    {
+      "label": "Professional Reliability Demand",
+      "description": "This trait describes users who are frustrated by software that fails to deliver consistent, accurate performance in professional contexts. They prioritize tools that handle complex, real-world tasks reliably, integrate with standard workflows, and justify their cost through tangible productivity gains, rather than marketing hype.",
+      "key_phrases": [
+        "Inconsistent performance across applications",
+        "Fails on complex real-world tasks despite marketing",
+        "Unreliable with professional/technical terminology"
+      ],
+      "frequency": 0.338,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Expert Tool Pragmatism",
+      "description": "This cluster represents technical professionals who seek robust, reliable, and efficient software tools to accelerate their work, but are deeply frustrated by tools that introduce complexity, instability, or artificial constraints. They value productivity over hype.",
+      "key_phrases": [
+        "Bloated, slow, or confusing software interfaces that hinder productivity.",
+        "Ensure software has robust format interoperability for seamless collaboration and data portability.",
+        "Recognition that AI can act as a 'junior dev' or 'rubber ducky on steroids' to accelerate specific, well-defined tasks."
+      ],
+      "frequency": 0.225,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Functional Reliability Concern",
+      "description": "These reviewers prioritize consistency and robustness in product performance, especially for essential use cases like professional work, emergency preparedness, and career-critical tools. They express frustration when devices fail, connectivity drops, or products require workarounds to function properly.",
+      "key_phrases": [
+        "Spotty Wi-Fi leads to unreliable downloads/functionality",
+        "Product quality: cords/connections fail intermittently, requiring precise arrangement",
+        "Unreliable product quality leading to defects after initial use (e.g., TV screen malfunction)",
+        "Unreliable performance (intermittent connections, poor battery life)",
+        "Durable, high-performance products from trusted brands for professional and personal use"
+      ],
+      "frequency": 0.062,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Practical Skills Gap Concern",
+      "description": "Users are frustrated by educational programs and products that emphasize theory over practical application, leaving them unprepared for real-world job requirements and career advancement. They seek investments that deliver tangible, hands-on skills recognized by employers.",
+      "key_phrases": [
+        "High-end degrees don't always translate to practical job skills",
+        "Excessive focus on compliance or theory without hands-on security experience",
+        "Balance theoretical knowledge with practical, hands-on experience"
+      ],
+      "frequency": 0.025,
+      "tone": "frustrated",
+      "cluster_id": "cluster_4"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 8,
+    "total": 2400,
+    "avg_rating": 3.48,
+    "avg_length": 730,
+    "rating_distribution": {
+      "3": 1100,
+      "5": 719,
+      "4": 271,
+      "1": 237,
+      "2": 73
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 1200
+    },
+    "n_products": 7,
+    "top_products": {
+      "unknown": 1200,
+      "IEEE Standards Collection Software": 500,
+      "MATLAB and Simulink Student Suite": 500,
+      "Folding Laptop Stand for Conferences": 50,
+      "Wireless Presentation Remote with Laser Pointer": 50
+    },
+    "low_rating_pct": 0.129,
+    "high_rating_pct": 0.412,
+    "n_sources": 2,
+    "issues": [
+      "Platform bias: amazon is 50% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 80
+  },
+  "demographic_description": "A professional connected through academic or industry networks (e.g., MIT, Stanford) who participates in interviews. Provides feedback through scheduled conversations about workflows and problems. Interaction is based on expertise rather than product usage.",
+  "generated_at": "2026-04-05T08:15:30.434725",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "0% grounded in cluster data",
+    "cluster_stability": "low"
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "id": "active_user_providing_organic_feedback",
+  "label": "Active User Providing Organic Feedback",
+  "segment": {
+    "role": "Digital content creator and daily app user",
+    "tech_savviness": "medium",
+    "price_sensitivity": "medium",
+    "risk_tolerance": "low",
+    "context": "Heavy app user who depends on reliable technology for content creation and daily tasks. Experiences frequent frustration with crashes and broken features, leading to deep skepticism about platform changes and data privacy."
+  },
+  "goals": [
+    {
+      "goal": "Find apps that work reliably without crashes or bugs",
+      "priority": 5
+    },
+    {
+      "goal": "Achieve consistency in posting that leads to organic growth",
+      "priority": 4
+    },
+    {
+      "goal": "Access transparent pricing with no surprises",
+      "priority": 4
+    },
+    {
+      "goal": "Maintain control over content visibility and privacy",
+      "priority": 4
+    },
+    {
+      "goal": "Get accessible, multi-channel customer support when issues arise",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Apps crash frequently requiring constant troubleshooting (Critical Reliability Failure)",
+    "Fear of platform censorship and shadowbanning limiting expression (Platform Distrust)",
+    "Limited tolerance for apps that don't work across multiple devices (Technical Reliability Concern)",
+    "Cannot afford apps requiring constant in-app purchases or subscriptions"
+  ],
+  "decision_weights": {
+    "data_loss_crashes": 0.125,
+    "app_freezing_instability": 0.125,
+    "ui_changes_accessibility": 0.125,
+    "update_breaking_functionality": 0.125,
+    "excessive_storage_consumption": 0.125,
+    "critical_features_failing": 0.125,
+    "web_wrapper_apps": 0.125,
+    "missing_essential_ui_elements": 0.125
+  },
+  "behavioral_rules": [
+    "Immediately checks app reviews for mentions of crashes or data loss before downloading",
+    "Abandons signup process if backup/recovery options aren't clearly explained",
+    "Tests core functionality within first 5 minutes and uninstalls if any crashes occur",
+    "Reads privacy policy specifically looking for data usage and sharing practices",
+    "Avoids beta versions or apps that auto-update without user control",
+    "Requires offline functionality or clear explanation of internet requirements",
+    "Exits immediately if app opens web pages instead of native functionality",
+    "Checks storage requirements and uninstalls apps consuming excessive space",
+    "Looks for customer support contact information before committing to paid features",
+    "Tests multi-device compatibility before making account commitments",
+    "Researches platform's history of feature removal or algorithm changes",
+    "Verifies that essential UI elements work properly before extended use"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.264,
+    "trust_starting_point": 0.52,
+    "frustration_decay": 0.36
+  },
+  "deal_breakers": [
+    "App crashes or becomes unusable after updates",
+    "Lost data due to phone crash despite multiple backup setups",
+    "Being locked out of account without ability to verify or log in",
+    "Apps that require constant in-app purchases or subscriptions to access content",
+    "Clear evidence of algorithmic control limiting expression or reach"
+  ],
+  "voice_sample": "I'm so tired of downloading apps that look promising but then crash constantly or lose my data. Last week I lost three hours of work because an app froze during an update, and I had backups set up! I just want apps that work reliably without crashes or bugs - is that too much to ask? I'm also getting really suspicious about these platforms changing their algorithms without telling us. I've noticed my posts aren't getting the same reach, and I'm starting to wonder if there's some kind of shadowbanning going on. I need transparency from platforms about feature changes, not just sudden disappearing features. At this point, I research everything before I commit because I've been burned too many times by apps that promise the world but can't even handle basic functionality.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 15,
+    "pages_before_decision": 8,
+    "tab_behavior": "Opens multiple tabs to cross-reference reviews and alternatives",
+    "primary_device": "Mobile phone during breaks and evenings",
+    "time_of_day": "Evening hours after work when researching solutions to daily frustrations"
+  },
+  "purchase_journey": {
+    "discovery": "Finds apps through organic search when existing tools fail or break",
+    "evaluation": "Reads reviews first, tests free version thoroughly, checks privacy policy and support options",
+    "decision_moment": "When app passes 48-hour stability test without crashes or data issues",
+    "post_purchase_expectation": "Expects consistent performance across devices and transparent communication about changes"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "App works reliably without crashes for extended testing period",
+      "Clear, transparent pricing with no hidden subscription requirements",
+      "Strong customer support responsiveness during trial period",
+      "Evidence of stable development with regular but non-breaking updates"
+    ],
+    "abandons_when": [
+      "App crashes frequently or becomes unstable during initial use",
+      "App updates causing functionality to break unexpectedly",
+      "Missing essential UI elements like basic navigation or input fields",
+      "High storage consumption making app burdensome on phone"
+    ],
+    "trusts_when": [
+      "Accurate product descriptions match actual app performance",
+      "Clear device/OS compatibility information provided upfront",
+      "Transparent privacy policies with specific data usage explanations",
+      "Accessible customer support with multiple contact methods"
+    ],
+    "becomes_suspicious_when": [
+      "Apps automatically restart or cannot be turned off",
+      "Inconsistent feature availability across multiple accounts",
+      "Apps require permissions that seem unrelated to functionality",
+      "Sudden UI changes that make features inconvenient or inaccessible"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Apps crash frequently or becomes unstable",
+      "App updates causing functionality to break unexpectedly",
+      "Lost data due to phone crash despite multiple backup setups",
+      "Fear of platform censorship and shadowbanning",
+      "Apps that work reliably without crashes or bugs",
+      "Transparency from platforms about feature changes",
+      "Clear, transparent pricing with no surprises"
+    ],
+    "resonates_with": [
+      "Reliable, stable performance",
+      "Transparent communication",
+      "User control and privacy protection",
+      "Consistent functionality across devices"
+    ],
+    "turned_off_by": [
+      "Beta features",
+      "Automatic updates",
+      "Hidden pricing",
+      "Vague privacy policies"
+    ]
+  },
+  "inner_monologue_samples": [
+    "Here we go again with pricing that's not upfront. If I have to create an account just to see what this costs, that's already a red flag that there are going to be surprise charges later.",
+    "Okay, they have good reviews but let me check specifically for mentions of crashes or data loss. I can't afford another app that's going to lose my work.",
+    "This navigation is already confusing and I'm just trying to find basic information. If I can't figure out how to use their website, their app is probably going to be just as poorly designed.",
+    "Another signup form asking for way too many permissions. Do they really need access to my contacts just to let me post photos? This feels like a data grab.",
+    "Finally, an app that actually does what it says and hasn't crashed in two days. Maybe I can actually rely on this one for my content creation work."
+  ],
+  "anti_patterns": [
+    "Assuming they want cutting-edge features - they prioritize stability over innovation (contradicts Technical Reliability Concern)",
+    "Pushing beta or experimental features - they explicitly avoid unstable software (contradicts Critical Reliability Failure pattern)",
+    "Using vague privacy language - they specifically seek transparency about data usage (contradicts Platform Distrust pattern)",
+    "Emphasizing automatic updates as a benefit - they want control over when changes happen (contradicts update-breaking functionality fears)"
+  ],
+  "traits": [
+    {
+      "label": "Critical Reliability Failure",
+      "description": "Users express deep frustration when core functionality consistently fails, leading to data loss, crashes, and communication breakdowns despite having backup systems or expectations of stability.",
+      "key_phrases": [
+        "Lost data due to phone crash despite multiple backup setups",
+        "App freezing or crashing requiring force stop and reconfiguration",
+        "Critical bugs causing data loss (e.g., messages disappearing)"
+      ],
+      "frequency": 0.412,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Technical Reliability Concern",
+      "description": "Users express frustration with apps that frequently crash, have persistent bugs, or break existing functionality with updates. They prioritize stable, consistent performance across devices and functional core features over new capabilities.",
+      "key_phrases": [
+        "Apps crash frequently or becomes unstable",
+        "Key features fail to work",
+        "App updates causing functionality to break unexpectedly",
+        "Reliable, bug-free app performance across all accounts and devices",
+        "Seamless content viewing and posting without technical glitches"
+      ],
+      "frequency": 0.3,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Platform Distrust & Lack of Control",
+      "description": "Users feel suspicious of platform algorithms and moderation, fearing censorship, shadowbanning, or selective feature removal without transparency. They desire consistent experiences, clear communication, and control over their content, privacy, and visibility.",
+      "key_phrases": [
+        "Fear of platform censorship and shadowbanning",
+        "Anxiety over privacy and data use",
+        "Inconsistent feature availability across multiple accounts",
+        "Transparency from platforms about feature changes",
+        "Ability to express opinions without fear of being muted"
+      ],
+      "frequency": 0.263,
+      "tone": "skeptical",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Neutral Pragmatism",
+      "description": "Users exhibit a moderate tolerance for issues, neither demanding perfection nor accepting significant flaws, but seeking balanced value and functionality without strong emotional investment.",
+      "key_phrases": [],
+      "frequency": 0.025,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_3"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 8,
+    "total": 2400,
+    "avg_rating": 3.52,
+    "avg_length": 480,
+    "rating_distribution": {
+      "5": 723,
+      "4": 255,
+      "1": 196,
+      "2": 73,
+      "3": 1153
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 1200
+    },
+    "n_products": 6,
+    "top_products": {
+      "unknown": 1200,
+      "Social Media Management Dashboard Software License": 500,
+      "Portable Phone Ring Light for Live Streaming": 233,
+      "Wireless Portable Keyboard for Mobile Devices": 233,
+      "Portable Phone Charger Power Bank 10000mAh": 233
+    },
+    "low_rating_pct": 0.112,
+    "high_rating_pct": 0.407,
+    "n_sources": 2,
+    "issues": [
+      "Platform bias: amazon is 50% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 80
+  },
+  "demographic_description": "Uses the app and gives feedback through messages or conversations rather than structured systems. Interacts with features like check-ins and content posting, sharing issues encountered during real usage (e.g., posting while dining). Feedback is collected informally through ongoing user interaction.",
+  "generated_at": "2026-04-05T05:13:48.019507",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "0% grounded in cluster data",
+    "cluster_stability": "moderate"
+  }
+}

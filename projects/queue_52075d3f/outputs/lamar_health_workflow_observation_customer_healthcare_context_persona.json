@@ -1,0 +1,323 @@
+{
+  "id": "workflow_observation_customer_(healthcare_context)",
+  "label": "Workflow Observation Customer (Healthcare Context)",
+  "segment": {
+    "role": "Healthcare operations professional managing process documentation and analysis",
+    "tech_savviness": "medium",
+    "price_sensitivity": "medium",
+    "risk_tolerance": "low",
+    "context": "Works in healthcare environments where workflow documentation and process analysis are critical for compliance and efficiency. Has been burned by unreliable software that crashes during important work and creates more problems than it solves, making them extremely cautious about new tools."
+  },
+  "goals": [
+    {
+      "goal": "Find reliable software that accurately captures and documents healthcare workflows without crashes or data loss",
+      "priority": 5
+    },
+    {
+      "goal": "Identify tools that integrate seamlessly with existing hospital systems and ERP/MES platforms",
+      "priority": 4
+    },
+    {
+      "goal": "Locate workflow analysis software that works 'out of the box' with minimal configuration and setup",
+      "priority": 4
+    },
+    {
+      "goal": "Find time tracking solutions that handle multiple concurrent projects with accurate billing exports",
+      "priority": 3
+    },
+    {
+      "goal": "Discover process documentation tools with clear trial access before committing to purchase",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Cannot afford software that slows down system performance or interferes with critical healthcare operations",
+    "Must avoid tools with complex installation processes that could disrupt existing workflows",
+    "Cannot use software with poor uninstall processes that might damage hospital systems",
+    "Must have reliable data export capabilities to maintain compliance records",
+    "Cannot accept tools that require extensive manual correction of automated features"
+  ],
+  "decision_weights": {
+    "functionality_gaps": 0.222,
+    "resource_consumption": 0.111,
+    "learning_curve": 0.111,
+    "reliability_issues": 0.111,
+    "support_quality": 0.111,
+    "interface_problems": 0.111,
+    "setup_complexity": 0.111,
+    "automation_trust": 0.111
+  },
+  "behavioral_rules": [
+    "Immediately checks system requirements and compatibility before reading any features",
+    "Abandons pages that don't clearly show trial access or demo options within first 30 seconds",
+    "Scrolls directly to reliability/uptime guarantees and looks for crash/bug mentions in reviews",
+    "Opens multiple tabs to cross-reference user reviews on different platforms for the same product",
+    "Exits immediately if installation requires system restart or mentions 'background processes'",
+    "Always looks for data export formats and backup options before considering features",
+    "Searches page for 'uninstall' or 'removal' information before proceeding",
+    "Abandons if premium features are required for basic time tracking or data export functionality",
+    "Checks for explicit mentions of hospital/healthcare compliance or integration capabilities",
+    "Looks for specific technical support contact methods (phone numbers, not just chat or email)",
+    "Abandons if AI or automation features are prominently marketed without reliability guarantees",
+    "Always searches for 'bugs', 'crashes', or 'stability' in user reviews section first"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.3,
+    "trust_starting_point": 0.472,
+    "frustration_decay": 0.4
+  },
+  "deal_breakers": [
+    "Software that requires subscription for basic data export functionality",
+    "Tools with poor uninstall processes that damage systems",
+    "Applications with intrusive background processes that interfere with work",
+    "Software that slows down system performance significantly",
+    "AI tools that produce more work than they save through extensive manual correction needs",
+    "Complex installation processes that risk disrupting existing hospital workflows",
+    "Inability to export data in usable formats for compliance documentation",
+    "Software updates that frequently cause issues requiring customer support contact"
+  ],
+  "voice_sample": "I need workflow documentation software that just works reliably without creating more headaches. Last time we tried a 'comprehensive' solution, it crashed three times during a critical process mapping session and we lost hours of work because the auto-save was unreliable. The IT team spent two days trying to get it properly uninstalled without breaking our existing systems. Now I'm gun-shy about anything that promises advanced AI features or automation - too often these tools end up requiring more manual review and correction than doing the work manually in the first place. I just want something that integrates seamlessly with our current setup, captures accurate time tracking data for multiple concurrent projects, and exports everything in formats our compliance team can actually use. Is that too much to ask?",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 25,
+    "pages_before_decision": 8,
+    "tab_behavior": "Opens 4-6 tabs to compare solutions and cross-reference reviews",
+    "primary_device": "Desktop computer at work during business hours",
+    "time_of_day": "Mid-morning or early afternoon between patient workflow observations"
+  },
+  "purchase_journey": {
+    "discovery": "Searches for solutions during crisis moments when current tools fail or when mandated to find new documentation software by administration",
+    "evaluation": "Checks system requirements first, then reliability reviews, then trial availability, finally features - prioritizes stability over functionality",
+    "decision_moment": "When finds software with proven healthcare integration, clear trial period, and multiple positive reviews mentioning reliability and ease of uninstall",
+    "post_purchase_expectation": "Expects seamless integration into existing workflow, reliable worry-free operation, and responsive technical support when needed"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Sees explicit healthcare/hospital integration testimonials",
+      "Finds clear trial access without complex signup processes",
+      "Reviews mention stable software that doesn't crash and works predictably",
+      "Technical specifications show minimal system resource requirements"
+    ],
+    "abandons_when": [
+      "Installation process appears complex or mentions system restarts",
+      "Premium features are required for basic time tracking functionality",
+      "No clear information about data export formats or backup capabilities",
+      "Reviews mention frequent bugs or crashes in core functionality"
+    ],
+    "trusts_when": [
+      "Multiple healthcare organizations mentioned as existing customers",
+      "Clear technical support contact information prominently displayed",
+      "Detailed system compatibility information provided upfront",
+      "Explicit guarantees about reliable save/export functionality"
+    ],
+    "becomes_suspicious_when": [
+      "Heavy emphasis on AI automation without reliability guarantees",
+      "Vague or missing uninstall/removal information",
+      "Required subscription for basic data export capabilities",
+      "Background processes or system integration mentioned prominently"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Reliable, worry-free operation",
+      "Seamless integration into existing workflow/system",
+      "Accurate and reliable time tracking for workflow studies",
+      "Stable software that doesn't crash and works predictably",
+      "Unreliable save/export causing data loss",
+      "Software updates causing issues requiring customer support contact"
+    ],
+    "resonates_with": [
+      "Hospital-grade reliability and uptime",
+      "Proven healthcare integration",
+      "Out-of-the-box functionality",
+      "Comprehensive technical support"
+    ],
+    "turned_off_by": [
+      "Advanced AI-powered automation",
+      "Complex setup and configuration",
+      "Background system optimization",
+      "Premium subscription requirements"
+    ]
+  },
+  "inner_monologue_samples": [
+    "The pricing seems reasonable, but I need to see if there's a real trial period. Can't afford another expensive mistake like the last workflow software that promised everything and delivered crashes.",
+    "These testimonials look good, but are any of them actually from healthcare facilities? I need to know this works in our regulated environment, not just generic office settings.",
+    "This interface looks clean, but I've learned not to trust first impressions. Let me dig into the reviews and see if people mention stability issues or data loss problems.",
+    "They're asking for a lot of information just to download a trial. That's usually a red flag - either they're going to spam me or the software isn't confident enough to let people actually test it properly.",
+    "Finally, something that explicitly mentions reliable data export and doesn't require a subscription for basic functionality. Now let me verify they have real technical support, not just chatbots."
+  ],
+  "anti_patterns": [
+    "Assuming they want the most feature-rich solution - contradicts their preference for reliable, simple tools that work out of the box",
+    "Leading with AI/automation capabilities - contradicts their frustration with unreliable automation that creates more work",
+    "Requiring lengthy signup before trial access - contradicts their need to evaluate software reliability quickly",
+    "Emphasizing advanced customization options - contradicts their desire for tools that work without complex configuration",
+    "Marketing complex integration capabilities - contradicts their preference for seamless, worry-free operation"
+  ],
+  "traits": [
+    {
+      "label": "Software Reliability & Usability Frustration",
+      "description": "Users express frustration with software that fails to work as promised, suffers from bugs and crashes, and creates excessive friction through complex installation, steep learning curves, and poor support. They desire reliable, intuitive software that works 'out of the box' with minimal configuration and disruption.",
+      "key_phrases": [
+        "Unreliable software with crashes and lost projects",
+        "Steep learning curve for specialized software",
+        "Software that works reliably 'out of the box' with minimal configuration"
+      ],
+      "frequency": 0.333,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Unreliable Automation Burden",
+      "description": "Users express frustration when AI-powered tools or automated features create more work than they save, requiring extensive manual correction, breaking frequently, and imposing high maintenance overhead.",
+      "key_phrases": [
+        "AI tools produce more work than they save",
+        "Automation maintenance becomes overwhelming",
+        "AI-generated tests require extensive manual review and correction",
+        "Unreliable automation breaking tests"
+      ],
+      "frequency": 0.131,
+      "tone": "frustrated",
+      "cluster_id": "cluster_3"
+    },
+    {
+      "label": "Reliability & Integration Concern",
+      "description": "Users are frustrated by complex, buggy software and unclear certification processes that disrupt workflows and cause costly errors. They want stable, seamless products that integrate well with their existing systems and provide clear value without unnecessary complexity.",
+      "key_phrases": [
+        "Complex and unreliable installation/uninstallation processes",
+        "Software bugs cause critical workflow failures",
+        "Difficulty in comparing and evaluating complex products due to lack of trial access",
+        "Unnecessary or poorly-managed ERP/MES upgrades disrupt workflows and create errors",
+        "Seamless interoperability and data handoff between systems"
+      ],
+      "frequency": 0.119,
+      "tone": "frustrated",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "System Integrity & Workflow Disruption",
+      "description": "Users express deep frustration when software compromises their system's performance, stability, or their own workflow efficiency, often feeling the product creates more problems than it solves.",
+      "key_phrases": [
+        "Software that slows down system performance significantly",
+        "Intrusive background processes that interfere with work",
+        "Poor uninstall processes that damage systems"
+      ],
+      "frequency": 0.119,
+      "tone": "frustrated",
+      "cluster_id": "cluster_6"
+    },
+    {
+      "label": "Core Workflow Disruption",
+      "description": "Users experience fundamental breakdowns in essential time tracking functionality due to technical bugs, restrictive features, and poor data management, which directly threatens their ability to invoice clients and maintain professional records.",
+      "key_phrases": [
+        "Premium features locked behind paywall for basic functionality",
+        "App bugs causing data loss or syncing failures despite Pro purchase",
+        "Inability to export data in usable formats"
+      ],
+      "frequency": 0.083,
+      "tone": "frustrated",
+      "cluster_id": "cluster_7"
+    },
+    {
+      "label": "Reliability-Seeking Pragmatist",
+      "description": "A user who values seamless integration and dependable performance above all else; they are highly sensitive to hidden costs, compatibility issues, and any friction that threatens the core promise of reliable, worry-free operation.",
+      "key_phrases": [
+        "Reliable, worry-free operation",
+        "Seamless integration into existing workflow/system",
+        "Critical compatibility issues with existing gear"
+      ],
+      "frequency": 0.071,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_8"
+    },
+    {
+      "label": "Core Reliability Deficit",
+      "description": "Users are primarily frustrated by software instability that threatens their core work, such as bugs that break functionality, data loss, and unreliable saving/exporting, making the product feel fundamentally untrustworthy.",
+      "key_phrases": [
+        "Persistent bugs that break core functionality (e.g., saving, element selection).",
+        "Losing work due to software glitches or lack of robust auto-save/recovery.",
+        "Unreliable save/export causing data loss"
+      ],
+      "frequency": 0.06,
+      "tone": "frustrated",
+      "cluster_id": "cluster_4"
+    },
+    {
+      "label": "Role Ambiguity",
+      "description": "Users experience frustration from unclear job definitions, being forced to perform multiple overlapping roles (BA, QA, PM), and feeling undervalued despite being expected to carry excessive responsibilities.",
+      "key_phrases": [
+        "Role confusion and unclear responsibilities",
+        "Being overloaded with multiple roles (e.g., BA, SM, PO, QA)",
+        "Feeling undervalued until information is needed"
+      ],
+      "frequency": 0.036,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Process and Reliability Frustration",
+      "description": "Users express frustration with unstable software, poor project management, and being excluded from critical project phases, leading to workflow disruptions and quality compromises. They desire stable, predictable tools with clear processes and early involvement in development cycles.",
+      "key_phrases": [
+        "Software updates causing issues requiring customer support contact",
+        "Being last in the chain and receiving pressure from delays caused by other teams",
+        "Stable software that doesn't crash and works predictably"
+      ],
+      "frequency": 0.036,
+      "tone": "frustrated",
+      "cluster_id": "cluster_5"
+    },
+    {
+      "label": "Practical Compromise Acceptance",
+      "description": "Users acknowledge and accept minor functional limitations in exchange for portability and versatility, viewing these trade-offs as inherent to compact, multi-purpose devices.",
+      "key_phrases": [
+        "Limited on-device storage capacity requiring frequent external backups",
+        "Slight delay in communication between keyboard and display during fast typing",
+        "Portable speaker needing regular recharging, making it a temporary solution"
+      ],
+      "frequency": 0.012,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_9"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 7,
+    "total": 2508,
+    "avg_rating": 3.5,
+    "avg_length": 707,
+    "rating_distribution": {
+      "5": 840,
+      "3": 886,
+      "4": 343,
+      "1": 319,
+      "2": 120
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 902,
+      "playstore": 406
+    },
+    "n_products": 4,
+    "top_products": {
+      "unknown": 1308,
+      "Time Tracking Software for Business Process Documentation": 500,
+      "Business Process Modeling Software Professional License": 500,
+      "Digital Workflow Documentation Camera for Process Recording": 200
+    },
+    "low_rating_pct": 0.175,
+    "high_rating_pct": 0.472,
+    "n_sources": 3,
+    "issues": [
+      "Platform bias: amazon is 48% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 84
+  },
+  "demographic_description": "A customer whose workflows are recorded and analyzed to understand operational processes. Interacts by demonstrating real processes rather than describing them abstractly. Feedback is validated through confirmation of observed workflows.",
+  "generated_at": "2026-04-06T00:02:38.700052",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "50% grounded in cluster data",
+    "cluster_stability": "low"
+  }
+}

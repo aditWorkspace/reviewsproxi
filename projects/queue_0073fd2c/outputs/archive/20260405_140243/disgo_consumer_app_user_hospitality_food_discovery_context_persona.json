@@ -1,0 +1,261 @@
+{
+  "id": "consumer_app_user_(hospitality_/_food_discovery_context)",
+  "label": "Consumer App User (Hospitality / Food Discovery Context)",
+  "segment": {
+    "role": "food enthusiast",
+    "tech_savviness": "medium",
+    "price_sensitivity": "medium",
+    "risk_tolerance": "low",
+    "context": "This user is passionate about discovering authentic and high-quality food and drink experiences. They rely on apps to find trustworthy recommendations but are often frustrated by unreliable information and poor-quality content."
+  },
+  "goals": [
+    {
+      "goal": "Find authentic, high-quality food and drink recommendations",
+      "priority": 5
+    },
+    {
+      "goal": "Access detailed, honest reviews from trusted sources",
+      "priority": 4
+    },
+    {
+      "goal": "Achieve reliable, satisfying results when trying new foods or drinks",
+      "priority": 4
+    },
+    {
+      "goal": "Connect food/drink experiences to cultural heritage, travel memories, or personal stories",
+      "priority": 3
+    },
+    {
+      "goal": "Build a personal knowledge base or 'arsenal' of recipes/cooking techniques",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Difficulty assessing product quality/value before purchase (from Quality and Value Verification cluster)",
+    "Frustration with inconsistent availability or distribution of favored products (from Reliable Authenticity cluster)",
+    "Food photos lacking visual appeal due to poor composition, lighting, and editing (from Quality Expectation cluster)",
+    "Difficulty organizing and keeping track of important physical items (from Practical System Failure cluster)",
+    "Difficulty finding specific beer styles like Black IPA / Cascadian Dark Ale (from Specialized Taste Seeker cluster)"
+  ],
+  "decision_weights": {
+    "detailed_pricing": 0.125,
+    "confusing_navigation": 0.125,
+    "poor_content_quality": 0.125,
+    "too_many_options": 0.125,
+    "irrelevant_recommendations": 0.125,
+    "lack_of_transparency": 0.125,
+    "overwhelming_notifications": 0.125,
+    "outdated_venue_info": 0.125
+  },
+  "behavioral_rules": [
+    "Immediately exits if pricing page requires signup before showing prices (from pain point: hidden pricing)",
+    "Spends extra time verifying reviews from multiple sources before trusting them (from pain point: lack of transparency in reviews)",
+    "Skips venues with poorly composed or unappetizing photos (from pain point: food photos lacking visual appeal)",
+    "Abandons app if navigation is confusing or poorly explained (from pain point: app navigation or online feature access is confusing)",
+    "Prefers apps with clear, well-tested recipes and instructions (from desired outcome: access clear, well-tested recipes)",
+    "Avoids venues with generic or irrelevant recommendations (from pain point: frustration with irrelevant or generic recommendations)",
+    "Expects high-quality, professional photos for food recommendations (from desired outcome: achieve warm, inviting, and professional-quality food photos)",
+    "Seeks out niche or specialized food/drink options (from desired outcome: access to exclusive, rare, or highly-regarded products)",
+    "Frustrated by apps that crash or lose information (from pain point: annoyance with digital tools failing)",
+    "Values apps that provide cultural context for food/drink recommendations (from desired outcome: authentic, educational culinary experiences tied to culture/tradition)"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.352,
+    "trust_starting_point": 0.533,
+    "frustration_decay": 0.4
+  },
+  "deal_breakers": [
+    "App not showing detailed pricing or auction price history for collectible items like antique jewelry",
+    "App navigation or online feature access is confusing or poorly explained",
+    "Dissatisfaction with content quality (e.g., photos appear unprofessional, poorly composed, or unedited; books lack new or expected content)",
+    "Difficulty navigating crowded apps with too many options",
+    "Frustration with irrelevant or generic recommendations"
+  ],
+  "voice_sample": "I just want to find authentic, high-quality dining recommendations without having to sift through low-quality content. It's so frustrating when the photos look unappetizing or the reviews seem fake. I need clear, reliable information about food and drink products, like brewing details or recipe instructions. Why is it so hard to find trustworthy, expert-level insights? I miss the days when you could just walk into a place and know it was good based on word of mouth. Now, it feels like every app is just pushing the same generic spots. I want to connect with food heritage and create meaningful food memories, not just scroll through endless options that don't meet my standards.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 15,
+    "pages_before_decision": 5,
+    "tab_behavior": "opens multiple tabs to compare options side-by-side",
+    "primary_device": "smartphone while on the go or at home",
+    "time_of_day": "evening, when planning meals or outings"
+  },
+  "purchase_journey": {
+    "discovery": "Finds products/services through social media or word-of-mouth recommendations, then verifies on multiple platforms",
+    "evaluation": "Looks at reviews, photos, and pricing in detail, prioritizing transparency and quality",
+    "decision_moment": "Commits when they find a venue with high-quality photos, detailed reviews, and authentic descriptions",
+    "post_purchase_expectation": "Expects the experience to match the app's description and photos, with no surprises"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Finds authentic, high-quality food and drink recommendations",
+      "Accesses detailed, honest reviews from trusted sources",
+      "Achieves reliable, satisfying results when trying new foods or drinks",
+      "Connects food/drink experiences to cultural heritage, travel memories, or personal stories"
+    ],
+    "abandons_when": [
+      "Difficulty assessing product quality/value before purchase",
+      "Frustration with inconsistent availability or distribution of favored products",
+      "Food photos lacking visual appeal due to poor composition, lighting, and editing",
+      "Difficulty organizing and keeping track of important physical items"
+    ],
+    "trusts_when": [
+      "Access clear, reliable information about food/drink products",
+      "Achieve authentic, restaurant-quality or traditional homemade results",
+      "Access trustworthy, expert-level insights and reviews about food and dining",
+      "Achieve warm, inviting, and professional-quality food photos that convey the dining experience"
+    ],
+    "becomes_suspicious_when": [
+      "App not showing detailed pricing or auction price history for collectible items like antique jewelry",
+      "App navigation or online feature access is confusing or poorly explained",
+      "Dissatisfaction with content quality",
+      "Difficulty navigating crowded apps with too many options"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Access clear, reliable information about food/drink products",
+      "Achieve authentic, restaurant-quality or traditional homemade results",
+      "Access trustworthy, expert-level insights and reviews about food and dining",
+      "Connect food/drink experiences to cultural heritage, travel memories, or personal stories",
+      "Difficulty assessing product quality/value before purchase"
+    ],
+    "resonates_with": [
+      "Authentic culinary experiences and recipes from specific regions/cultures",
+      "Clear, actionable feedback to improve photo skills",
+      "Consistent, themed photo sets that reflect the venue's character",
+      "Curate a personal repertoire of 'favorite' or 'go-to' recipes and products"
+    ],
+    "turned_off_by": [
+      "Difficulty finding authentic recipes for specific cuisines or dishes",
+      "Frustration with inconsistent availability or distribution of favored products",
+      "Food photos lacking visual appeal due to poor composition, lighting, and editing",
+      "Annoyance with digital tools failing (e.g., apps crashing, losing info) compared to reliable physical alternatives"
+    ]
+  },
+  "inner_monologue_samples": [
+    "Why can't I see the prices without signing up? This feels like a scam. (from pain point: hidden pricing)",
+    "These reviews seem too positive\u2014are they even real? I need to check another site. (from pain point: lack of transparency in reviews)",
+    "The photos look so unappetizing. I can't trust this place. (from pain point: food photos lacking visual appeal)",
+    "This app is so confusing to navigate. I give up. (from pain point: app navigation or online feature access is confusing)",
+    "Finally, a place with high-quality photos and detailed reviews. This looks trustworthy. (from desired outcome: achieve warm, inviting, and professional-quality food photos)"
+  ],
+  "anti_patterns": [
+    "Using generic stock photos for food recommendations (contradicts Quality Expectation cluster)",
+    "Hiding pricing information behind signup walls (contradicts Quality and Value Verification cluster)",
+    "Overloading the app with too many options (contradicts Practical System Failure cluster)",
+    "Failing to provide cultural context for food/drink recommendations (contradicts Reliable Authenticity cluster)",
+    "Ignoring niche or specialized food/drink preferences (contradicts Specialized Taste Seeker cluster)"
+  ],
+  "traits": [
+    {
+      "label": "Quality and Value Verification",
+      "description": "These users are frustrated by difficulties in assessing product quality and true value before purchase. They desire more transparency, detailed information, and trustworthy content to validate that their purchases will meet expectations and justify the cost.",
+      "key_phrases": [
+        "Difficulty assessing product quality/value before purchase",
+        "Access detailed, honest reviews from trusted sources",
+        "Feeling the subscription lacks value or is overpriced for the quality/quantity of items received"
+      ],
+      "frequency": 0.466,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Reliable Authenticity",
+      "description": "This cluster represents consumers who prioritize finding authentic, high-quality cultural or niche experiences, but are frustrated by unreliable sourcing, inconsistent quality, or inaccessible instructions. They seek trustworthy sources and verifiable results across books, beverages, and cuisine.",
+      "key_phrases": [
+        "Difficulty finding authentic recipes for specific cuisines or dishes",
+        "Frustration with inconsistent availability or distribution of favored products",
+        "Cookbooks being misleading or requiring specialized, expensive equipment not owned"
+      ],
+      "frequency": 0.233,
+      "tone": "frustrated",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Quality Expectation",
+      "description": "Consumers express frustration when content (especially photography) lacks professional quality, feels amateurish, and fails to meet their visual or informational standards, while actively seeking high-quality, trustworthy resources.",
+      "key_phrases": [
+        "Food photos lacking visual appeal due to poor composition, lighting, and editing",
+        "Difficulty finding trustworthy, high-quality dining recommendations amidst low-quality content",
+        "Frustration with poorly composed, lit, or styled food photos that look unnatural or unappetizing"
+      ],
+      "frequency": 0.137,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Practical System Failure",
+      "description": "Users experience frustration when physical or digital organizational systems fail, causing disarray, wasted time, or unmet expectations for reliability and ease.",
+      "key_phrases": [
+        "Difficulty organizing and keeping track of important physical items",
+        "Disappointment when product features or quality don't meet expectations",
+        "Have a reliable, crash-proof system for tracking contacts and information"
+      ],
+      "frequency": 0.096,
+      "tone": "frustrated",
+      "cluster_id": "cluster_4"
+    },
+    {
+      "label": "Specialized Taste Seeker",
+      "description": "Driven by niche interests and refined palates, these consumers actively seek authentic, high-quality versions of specific food/drink styles or cuisines. They experience significant frustration when products don't deliver on their specialized expectations or when finding niche items proves difficult.",
+      "key_phrases": [
+        "Difficulty finding specific beer styles like Black IPA / Cascadian Dark Ale",
+        "Discover and enjoy niche beer styles that are flavorful and balanced",
+        "Frustration with inaccurate or inconsistent product naming/labeling (e.g., 'Black IPA' vs. 'Cascadian Dark Ale')"
+      ],
+      "frequency": 0.055,
+      "tone": "frustrated",
+      "cluster_id": "cluster_5"
+    },
+    {
+      "label": "Balanced Consumer",
+      "description": "A pragmatic consumer who expects a reasonable level of product performance and quality, willing to tolerate minor issues but not major flaws.",
+      "key_phrases": [],
+      "frequency": 0.014,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_3"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 7,
+    "total": 2173,
+    "avg_rating": 3.68,
+    "avg_length": 781,
+    "rating_distribution": {
+      "1": 166,
+      "5": 829,
+      "3": 880,
+      "4": 226,
+      "2": 72
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 973
+    },
+    "n_products": 4,
+    "top_products": {
+      "unknown": 973,
+      "Cocktail Recipe Cards - 50 Classic Drink Recipes for Home Bar": 500,
+      "Food & Wine Magazine Subscription": 500,
+      "Moleskine Food Journal - Recipe and Restaurant Diary": 200
+    },
+    "low_rating_pct": 0.11,
+    "high_rating_pct": 0.486,
+    "n_sources": 2,
+    "issues": [
+      "Platform bias: amazon is 55% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 73
+  },
+  "demographic_description": "A user of a consumer app focused on food and bar recommendations, interacting with features related to check-ins and personalized suggestions. Provides feedback through surveys (\u224850 users) on feature design, naming, and functionality. Engages with the product by comparing it to platforms like TikTok or Yelp.",
+  "generated_at": "2026-04-05T05:01:28.170221",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "0% grounded in cluster data",
+    "cluster_stability": "moderate"
+  }
+}

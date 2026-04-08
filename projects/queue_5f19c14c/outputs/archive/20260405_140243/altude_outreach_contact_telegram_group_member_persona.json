@@ -1,0 +1,302 @@
+{
+  "id": "outreach_contact_(telegram_group_member)",
+  "label": "Outreach Contact (Telegram Group Member)",
+  "segment": {
+    "role": "crypto-curious investor seeking market timing guidance",
+    "tech_savviness": "medium",
+    "price_sensitivity": "high",
+    "risk_tolerance": "low",
+    "context": "Someone who joined crypto Telegram groups to learn but remains paralyzed by FOMO and security fears. They want to participate in crypto gains but are overwhelmed by technical complexity and scam risks."
+  },
+  "goals": [
+    {
+      "goal": "identify legitimate cryptocurrency projects and avoid scams",
+      "priority": 5
+    },
+    {
+      "goal": "understand tax implications of crypto trading before investing",
+      "priority": 4
+    },
+    {
+      "goal": "find reliable crypto wallet with minimal technical setup",
+      "priority": 4
+    },
+    {
+      "goal": "access real-time market data without security risks",
+      "priority": 3
+    },
+    {
+      "goal": "learn basic blockchain concepts without paying for courses",
+      "priority": 3
+    },
+    {
+      "goal": "connect with trustworthy crypto community members",
+      "priority": 2
+    }
+  ],
+  "constraints": [
+    "limited technical knowledge creates setup anxiety (from Technical Reliability cluster)",
+    "fear of financial loss prevents quick decisions (from Investment Risk Avoidance cluster)",
+    "distrust of paid services after hearing scam stories (from Security & Legitimacy Anxiety cluster)",
+    "tax uncertainty blocks major investment moves (from Tax Anxiety cluster)"
+  ],
+  "decision_weights": {
+    "market_timing_stress": 0.125,
+    "early_investment_fomo": 0.125,
+    "bitcoin_regret_feelings": 0.125,
+    "social_crypto_dismissal": 0.125,
+    "transaction_verification_complexity": 0.125,
+    "traditional_market_fears": 0.125,
+    "volatility_wreck_fear": 0.125,
+    "manipulation_frustration": 0.125
+  },
+  "emotional_profile": {
+    "baseline_patience": 0.365,
+    "trust_starting_point": 0.484,
+    "frustration_decay": 0.4
+  },
+  "behavioral_rules": [
+    "Immediately closes tab if wallet setup requires command line interface",
+    "Abandons signup if KYC verification asks for multiple documents upfront",
+    "Exits pricing page if Pro features are required for basic security",
+    "Scrolls directly to user reviews before reading product descriptions",
+    "Opens new tab to cross-reference any project mentioned on suspicious domains",
+    "Saves bookmarks but delays purchases for minimum 24 hours",
+    "Screenshots security warnings to research later in Telegram groups",
+    "Refuses to connect wallet to any DeFi protocol without community validation",
+    "Closes browser if site requests private key or seed phrase input",
+    "Abandons tutorial if documentation is incomplete or poorly written",
+    "Seeks multiple confirmation sources before downloading any crypto software",
+    "Immediately suspicious of any guaranteed returns or time-limited offers"
+  ],
+  "deal_breakers": [
+    "requests private keys or seed phrases through web interface",
+    "requires upfront payment before showing core features",
+    "lacks clear documentation or setup instructions",
+    "shows inconsistent security certificates or suspicious domains",
+    "demands immediate investment decisions without research time",
+    "missing user reviews or community discussions about legitimacy",
+    "forces firmware updates without explaining security implications"
+  ],
+  "voice_sample": "I keep seeing people in the Telegram groups talking about massive gains, but I'm terrified of getting rekt by market volatility. Everyone says I should have bought Bitcoin years ago, but how was I supposed to know? Now I'm stuck with this constant FOMO while also being paranoid about every crypto project being a rug pull. I want to achieve significant financial gains from cryptocurrency investments, but the complexity of verifying blockchain transactions makes my head spin. Every time I think about investing, I remember stories of people losing everything to scams or technical failures. I need access to reliable, data-driven insights but I don't know who to trust anymore.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 45,
+    "pages_before_decision": 12,
+    "tab_behavior": "opens 8-10 tabs to cross-reference information, rarely closes them",
+    "primary_device": "desktop computer for serious research, mobile for Telegram groups",
+    "time_of_day": "evenings after work and weekend mornings during market analysis"
+  },
+  "purchase_journey": {
+    "discovery": "finds products through Telegram group recommendations and member discussions about tools",
+    "evaluation": "reads reviews obsessively, searches for scam reports, checks Reddit for community consensus, looks for setup tutorials",
+    "decision_moment": "when multiple trusted community members vouch for security and someone provides step-by-step guidance",
+    "post_purchase_expectation": "expects immediate customer support access and clear documentation for every feature"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "multiple Telegram members confirm product legitimacy",
+      "sees detailed security audit reports",
+      "finds comprehensive setup tutorials with screenshots",
+      "discovers tax compliance features built-in"
+    ],
+    "abandons_when": [
+      "encounters technical compatibility issues during setup",
+      "sees aggressive upgrade prompts before trying basic features",
+      "finds incomplete or missing documentation",
+      "discovers hidden fees or surprise payment requirements"
+    ],
+    "trusts_when": [
+      "sees transparent security practices and audit history",
+      "finds active community support and responsive developers",
+      "discovers integration with established platforms they already use",
+      "sees clear regulatory compliance and tax reporting features"
+    ],
+    "becomes_suspicious_when": [
+      "site requests unnecessary personal information upfront",
+      "promised features fail to activate after payment",
+      "encounters severe app lag or technical glitches",
+      "sees inconsistent pricing or sudden fee changes"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Fear of missing out (FOMO) from not investing earlier when prices were low",
+      "Fear of market volatility and getting financially wrecked",
+      "Distrust in the security and reliability of exchanges/transactions",
+      "Uncertainty about tax implications and rules for cryptocurrency gains and losses",
+      "Ability to identify and exit risky positions before a collapse",
+      "Access to reliable, data-driven insights for cryptocurrency investment decisions",
+      "Achieve significant financial gains from cryptocurrency investments"
+    ],
+    "resonates_with": [
+      "battle-tested security protocols",
+      "community-verified legitimacy",
+      "transparent fee structure",
+      "beginner-friendly setup process",
+      "tax compliance built-in"
+    ],
+    "turned_off_by": [
+      "guaranteed returns",
+      "limited-time offers",
+      "technical jargon without explanation",
+      "hidden pricing",
+      "aggressive sales tactics"
+    ]
+  },
+  "inner_monologue_samples": [
+    "Another $99/month subscription? I'm already worried about tax implications on crypto gains and now they want me to pay this much just to track my portfolio safely?",
+    "Okay, 47 five-star reviews but I need to check if any of my Telegram group members have actually used this wallet without getting hacked.",
+    "This setup guide is missing half the screenshots and doesn't explain what happens if the firmware update fails - I can't risk losing access to my crypto.",
+    "They want my email, phone, and ID verification just to see the basic features? This feels like a data collection scam waiting to happen.",
+    "Finally, a crypto tax tool that actually explains unrealized gains properly - this might help me stop being paralyzed by fear and actually start investing."
+  ],
+  "anti_patterns": [
+    "assuming they want complex trading features (contradicts their setup anxiety from Technical Reliability cluster)",
+    "pushing aggressive investment strategies (contradicts their risk avoidance from Investment Risk cluster)",
+    "hiding security information (contradicts their legitimacy concerns from Security & Legitimacy cluster)",
+    "requiring immediate payment decisions (contradicts their need for research time from Market Cycle Anxiety)",
+    "using technical jargon without explanation (contradicts their documentation needs from Setup & Compatibility cluster)"
+  ],
+  "traits": [
+    {
+      "label": "Market Cycle Anxiety",
+      "description": "Investors are grappling with fear, regret, and FOMO tied to cryptocurrency market volatility and timing, seeking tools and insights to navigate bear markets and capitalize on cyclical opportunities without suffering significant losses.",
+      "key_phrases": [
+        "Fear of missing out (FOMO) from not investing earlier",
+        "Fear of market volatility and getting financially wrecked",
+        "Navigate bear markets successfully and anticipate recovery periods"
+      ],
+      "frequency": 0.255,
+      "tone": "cautious",
+      "cluster_id": "cluster_3"
+    },
+    {
+      "label": "Technical Reliability & Stability Concerns",
+      "description": "Users are deeply concerned about the persistent technical flaws that directly impact core functionality, security, and access to their assets. These issues include app crashes, severe lag, failed connections, and unreliable transactions, which are compounded by poor customer support and create a frustrating, high-risk user experience.",
+      "key_phrases": [
+        "Severe click/tap lag causing unintended navigation and app crashes",
+        "App crashes or fails to synchronize transactions, leaving pending states",
+        "Firmware updates often fail, potentially leading to lost funds"
+      ],
+      "frequency": 0.147,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Investment Risk Avoidance",
+      "description": "This cluster represents consumers who are highly concerned about potential losses and scams in their investments, particularly in cryptocurrency, and demand security, control, and reliability in both financial and tech products.",
+      "key_phrases": [
+        "Fear of cryptocurrency projects being rug pulls or scams",
+        "Identify legitimate cryptocurrency projects and avoid scams/rug pulls",
+        "Unacceptable risk of financial loss in investments"
+      ],
+      "frequency": 0.147,
+      "tone": "cautious",
+      "cluster_id": "cluster_4"
+    },
+    {
+      "label": "Crypto/Technical Security Anxiety",
+      "description": "A heightened state of worry and caution driven by the fear of losing significant digital assets through technical failures, security breaches, or platform unreliability. These individuals seek financial gains from crypto investments but are acutely aware of and stressed by the technical risks involved.",
+      "key_phrases": [
+        "Fear of security failures or losing assets due to technical errors",
+        "Anxiety about financial losses from mistakes in crypto transactions",
+        "Secure and reliable storage/access to digital assets",
+        "Technical incompetence leading to asset loss",
+        "Fear of technological failure or loss of access to crypto assets"
+      ],
+      "frequency": 0.147,
+      "tone": "cautious",
+      "cluster_id": "cluster_7"
+    },
+    {
+      "label": "Setup & Compatibility Frustration",
+      "description": "Users are frustrated by products that are not ready-to-use out of the box, often due to missing parts, unclear instructions, or compatibility issues with their existing setup. They seek a seamless, plug-and-play experience with reliable performance and minimal technical hurdles.",
+      "key_phrases": [
+        "Incomplete product packages requiring additional costly accessories",
+        "Poor or missing documentation making setup difficult",
+        "Technical compatibility issues (e.g., non-standard ports, network interference)"
+      ],
+      "frequency": 0.108,
+      "tone": "frustrated",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Security & Legitimacy Anxiety",
+      "description": "Investors express deep skepticism and fear about the crypto ecosystem's integrity, focusing on the risk of scams, rug pulls, and projects lacking utility. They desire clear mechanisms to identify legitimate, decentralized opportunities and participate in trustworthy communities.",
+      "key_phrases": [
+        "Distrust in the security and reliability of exchanges/transactions",
+        "Exposed to scams and rug pulls in many cryptocurrency projects",
+        "Invest in legitimate, decentralized projects with real utility"
+      ],
+      "frequency": 0.078,
+      "tone": "skeptical",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Paid Feature Access Failure",
+      "description": "Users experience fundamental breakdowns after payment, where purchased Pro/lifetime features fail to activate, support is unresponsive, and technical bugs prevent access to promised content and certificates. This creates a strong sense of being scammed.",
+      "key_phrases": [
+        "Pro version purchase fails to activate or unlock content",
+        "Payment taken but Pro features fail to activate with no support resolution",
+        "Technical glitches and bugs blocking learning progress"
+      ],
+      "frequency": 0.069,
+      "tone": "frustrated",
+      "cluster_id": "cluster_6"
+    },
+    {
+      "label": "Tax Anxiety",
+      "description": "Users express significant confusion, frustration, and anxiety regarding complex and perceived unfair tax regulations for cryptocurrency, particularly around taxation of unrealized gains and loss carry-forwards.",
+      "key_phrases": [
+        "Uncertainty about tax implications and rules for cryptocurrency gains and losses",
+        "Taxation on unrealized gains creating risk of owing taxes on 'profits' that can be lost",
+        "Need to understand tax rules after making gains or losses in crypto trading"
+      ],
+      "frequency": 0.049,
+      "tone": "frustrated",
+      "cluster_id": "cluster_5"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 8,
+    "total": 3037,
+    "avg_rating": 3.52,
+    "avg_length": 738,
+    "rating_distribution": {
+      "5": 993,
+      "3": 1203,
+      "4": 390,
+      "1": 356,
+      "2": 95
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 1200,
+      "playstore": 637
+    },
+    "n_products": 5,
+    "top_products": {
+      "unknown": 1837,
+      "Crypto Hardware Wallet - Ledger Nano S Plus": 500,
+      "Cryptocurrency Mining USB ASIC Miner": 500,
+      "Blockchain Programming Books - Mastering Bitcoin": 100,
+      "Crypto Trading Technical Analysis Books": 100
+    },
+    "low_rating_pct": 0.149,
+    "high_rating_pct": 0.455,
+    "n_sources": 3,
+    "issues": [],
+    "batches_estimate": 102
+  },
+  "demographic_description": "A user contacted in blockchain-related Telegram groups who shows initial interest when approached. Interaction is brief and often does not progress beyond initial conversations. Provides minimal or no actionable feedback.",
+  "generated_at": "2026-04-05T21:02:02.642537",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "0% grounded in cluster data",
+    "cluster_stability": "moderate"
+  }
+}

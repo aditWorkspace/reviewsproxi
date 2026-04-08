@@ -1,0 +1,2092 @@
+{
+  "chosen_n_clusters": 3,
+  "sweep_results": [
+    {
+      "k": 3,
+      "silhouette": 0.12029429525136948,
+      "intra_similarity": 0.7216945290565491,
+      "inter_distance": 0.6591800451278687,
+      "combined_score": 0.4084915153682232
+    },
+    {
+      "k": 4,
+      "silhouette": 0.12343688309192657,
+      "intra_similarity": 0.7071977108716965,
+      "inter_distance": 0.5822614431381226,
+      "combined_score": 0.39033004343509675
+    },
+    {
+      "k": 5,
+      "silhouette": 0.10262227058410645,
+      "intra_similarity": 0.6941783666610718,
+      "inter_distance": 0.4991217255592346,
+      "combined_score": 0.3593889904022217
+    },
+    {
+      "k": 6,
+      "silhouette": 0.09421192109584808,
+      "intra_similarity": 0.6826855838298798,
+      "inter_distance": 0.4447219967842102,
+      "combined_score": 0.34085603505373
+    },
+    {
+      "k": 7,
+      "silhouette": 0.08336693793535233,
+      "intra_similarity": 0.6953749145780291,
+      "inter_distance": 0.4656297564506531,
+      "combined_score": 0.34342189463121553
+    },
+    {
+      "k": 8,
+      "silhouette": 0.07814672589302063,
+      "intra_similarity": 0.6860190033912659,
+      "inter_distance": 0.42983144521713257,
+      "combined_score": 0.33084535300731654
+    },
+    {
+      "k": 9,
+      "silhouette": 0.069771908223629,
+      "intra_similarity": 0.6767694618966844,
+      "inter_distance": 0.4208008050918579,
+      "combined_score": 0.3220769536991914
+    },
+    {
+      "k": 10,
+      "silhouette": 0.08299880474805832,
+      "intra_similarity": 0.6774462461471558,
+      "inter_distance": 0.41210901737213135,
+      "combined_score": 0.32715507969260216
+    }
+  ],
+  "quality_metrics": {
+    "silhouette": 0.12029429525136948,
+    "intra_similarity": 0.7216945290565491,
+    "inter_distance": 0.6591800451278687,
+    "combined_score": 0.4084915153682232,
+    "stability_ari": 0.7408,
+    "stability_label": "moderate"
+  },
+  "cluster_0": {
+    "member_count": 2,
+    "representative_batches": [
+      {
+        "pain_points": [],
+        "desired_outcomes": [],
+        "purchase_triggers": [],
+        "objections": [],
+        "switching_triggers": [],
+        "decision_factors_ranked": [],
+        "deal_breakers": [],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [],
+        "desired_outcomes": [],
+        "purchase_triggers": [],
+        "objections": [],
+        "switching_triggers": [],
+        "decision_factors_ranked": [],
+        "deal_breakers": [],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.5,
+      "reddit": 0.5,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [],
+      "top_desired_outcomes": [],
+      "top_deal_breakers": [],
+      "top_purchase_triggers": [],
+      "dominant_friction_tolerance": "medium",
+      "friction_tolerance_distribution": {
+        "medium": 1.0
+      }
+    }
+  },
+  "cluster_1": {
+    "member_count": 49,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Frustration with software that changes/downgrades features without clear communication",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Frustration with customer support providing canned responses and runaround",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Annoyance with user interface limitations (e.g., orientation locking, multi-step processes)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Annoyance with software/app crashes, freezes, and instability",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Irritation with non-functional or annoying UI elements (e.g., music in yoga exercises)",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Frustration with delayed or outdated data/status updates",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Concern about software requiring upgrades for core features previously included",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Perceived bias or lack of balance in news/network reporting",
+            "emotional_intensity": 0.75
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Seamless integration across platforms (mobile, desktop)",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Consistent, reliable performance without crashes or freezes",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Clear communication of product changes and feature sets",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Intuitive, efficient UI with favorite/quick-select options",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Real-time, accurate data updates",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Software that delivers tangible value and does not feel like a downgrade",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Effective customer support that resolves issues directly",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Flexible orientation modes (landscape/portrait) as needed",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Ability to break down large software features into smaller, valuable increments",
+            "priority": 0.65
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Recommendation from trusted source",
+            "context": "Social or professional network"
+          },
+          {
+            "trigger": "Need for specific, reliable functionality (e.g., hurricane tracking, medication reminders)",
+            "context": "Professional or personal necessity"
+          },
+          {
+            "trigger": "Child behavioral management or habit formation",
+            "context": "Parenting need"
+          },
+          {
+            "trigger": "Bank/compatibility requirement forcing upgrade",
+            "context": "Technical compatibility"
+          },
+          {
+            "trigger": "Desire for ad-free experience",
+            "context": "User experience improvement"
+          },
+          {
+            "trigger": "Dissatisfaction with current solution",
+            "context": "Seeking alternative"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Feature removal or downgrade in new version",
+            "severity": 0.9
+          },
+          {
+            "objection": "Poor or unresponsive customer support",
+            "severity": 0.95
+          },
+          {
+            "objection": "Buggy, unstable, or freezing software",
+            "severity": 0.85
+          },
+          {
+            "objection": "Lack of clear value in upgrade",
+            "severity": 0.7
+          },
+          {
+            "objection": "Insufficient information depth for intended use",
+            "severity": 0.6
+          },
+          {
+            "objection": "Perceived political bias in content",
+            "severity": 0.65
+          },
+          {
+            "objection": "UI/UX annoyances (orientation switching, multi-step processes)",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "TurboTax Deluxe",
+            "reason": "Feature removal (Schedule C, D, E, F) requiring paid upgrade",
+            "threshold": "Material downgrade without warning"
+          },
+          {
+            "from_product": "Current fitness/diet tracker app",
+            "reason": "Lack of updates addressing UI/performance issues",
+            "threshold": "Persistent annoyances with no fix in sight"
+          },
+          {
+            "from_product": "Current news/social app",
+            "reason": "Perceived bias or unsatisfactory content",
+            "threshold": "Loss of trust in balance"
+          },
+          {
+            "from_product": "Cyberlink software",
+            "reason": "Failed installation and unresolved support",
+            "threshold": "Financial loss and complete failure"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and Stability",
+          "Feature Set and Functionality",
+          "Customer Support Quality",
+          "Clear Communication of Changes",
+          "Value for Money",
+          "User Interface and Experience",
+          "Integration and Compatibility",
+          "Timely Updates and Data Accuracy"
+        ],
+        "deal_breakers": [
+          "Critical features removed without warning",
+          "Complete failure to install or run",
+          "Abysmal customer support with no resolution",
+          "Chronic crashes or data loss",
+          "Mandatory upgrade for previously core features"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Installation failures due to file registration errors and broken repair/uninstall processes",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Inadequate or poorly accessible documentation/help system, missing quick reference resources",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Unintuitive UI/UX causing accidental taps or blocked functionality",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Technical issues disrupting core function: ads interrupting gameplay, software crashes, streaming failures",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Poor or inaccessible customer support via official channels",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Lack of integration between related software products",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Unwanted software behavior like unexpected activation pop-ups, forced installation attempts",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Inflexible software design preventing simple edits like updating ID numbers",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Content/feature dissatisfaction: insufficient variety, outdated content, poor coverage",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Misleading or unclear product tiering leading to missed features/deductions",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Smooth, error-free installation and setup process",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Clear, comprehensive, and easily accessible documentation/help",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Intuitive, reliable UI without interruptions or accidental triggers",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Robust, accurate, and seamless core functionality",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Accessible and effective technical support",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Software that integrates well with related tools/data sources",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Complete, up-to-date, and well-structured content coverage",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Software flexibility allowing easy data updates and configuration changes",
+            "priority": 0.75
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to replace a discontinued or broken product",
+            "context": "AP news app stopped working"
+          },
+          {
+            "trigger": "Seeking more affordable alternative to incumbent product",
+            "context": "Switching from TurboTax to HR Block due to price"
+          },
+          {
+            "trigger": "Product now supports required use cases at acceptable price",
+            "context": "TurboTax adds needed forms at lower cost"
+          },
+          {
+            "trigger": "Positive word-of-mouth or credible recommendation",
+            "context": "Seeing others succeed with a simple process"
+          },
+          {
+            "trigger": "Need to manage complex financial/tax data with detailed reporting",
+            "context": "Complex personal finances and tax preparation"
+          },
+          {
+            "trigger": "Desire for educational or skill-building tool",
+            "context": "Learning geography, photography, financial management"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Complex installation/technical problems",
+            "severity": 0.9
+          },
+          {
+            "objection": "Poor or missing customer support",
+            "severity": 0.85
+          },
+          {
+            "objection": "Insufficient or inaccurate content/features",
+            "severity": 0.75
+          },
+          {
+            "objection": "Lack of transparency in product tiers/feature segmentation",
+            "severity": 0.6
+          },
+          {
+            "objection": "Privacy/data collection concerns",
+            "severity": 0.65
+          },
+          {
+            "objection": "Unreliable performance (crashes, errors, bad data)",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "AP News",
+            "reason": "App discontinued/stopped working",
+            "threshold": "Product no longer functional"
+          },
+          {
+            "from_product": "HR Block",
+            "reason": "Software had a known bug with W2, poor support response",
+            "threshold": "Critical error with no support fix"
+          },
+          {
+            "from_product": "WeatherBug",
+            "reason": "Provided completely wrong location data",
+            "threshold": "Core data accuracy failed"
+          },
+          {
+            "from_product": "Local newspaper",
+            "reason": "App provides superior breadth/depth of coverage",
+            "threshold": "Better content source available"
+          },
+          {
+            "from_product": "TurboTax",
+            "reason": "Competitor offered same forms at half the price",
+            "threshold": "Significant price advantage for same features"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability (installation, core function, data accuracy)",
+          "Quality of customer support",
+          "Completeness and accuracy of content/features",
+          "Ease of use/UI clarity",
+          "Price relative to features",
+          "Compatibility with other tools/data sources",
+          "Quality of documentation/help resources",
+          "Privacy/data handling policies"
+        ],
+        "deal_breakers": [
+          "Critical installation or runtime failures",
+          "Complete lack of accessible customer support",
+          "Catastrophic data inaccuracy in core function",
+          "Missing documentation for essential tasks",
+          "Security/privacy violations"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Frustration with stories that can't be broken down due to team resistance or poor definition",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Annoyance at discovering hidden dependencies after work starts, leading to multiple stories becoming one feature branch",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Irritation with software that lacks necessary features for complex/unusual cases (e.g., tax scenarios)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Frustration with non-intuitive user interfaces and poor customer service in software",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Anger over software bugs that persist despite support interactions (e.g., crash-on-close errors)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Dislike of excessive bureaucratic processes that interfere with engineering work",
+            "emotional_intensity": 0.8
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Cross-platform compatibility (works on both PC and Mac)",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Multi-device access/sync (works on up to 3 devices simultaneously)",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Comprehensive feature set that handles complex cases without workarounds",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Intuitive user interface suitable for beginners yet powerful for experts",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Reliable software that works correctly without crashes or data corruption",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Well-defined stories that can be properly broken down during sprint planning",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Platform switch requiring new software (PC to Mac transition)",
+            "context": "Needing replacement software when switching operating systems"
+          },
+          {
+            "trigger": "Need to share data/access across multiple devices",
+            "context": "Family use or personal multi-device workflows"
+          },
+          {
+            "trigger": "Search for easier alternative to existing tools",
+            "context": "Finding simpler solutions after testing multiple options"
+          },
+          {
+            "trigger": "Need for specialized functionality not available in current tools",
+            "context": "Requiring specific features like speech recognition or PDF creation"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Software becomes tricky with even one unusual case or complexity",
+            "severity": 0.8
+          },
+          {
+            "objection": "Fear of data corruption or inability to read files with older versions",
+            "severity": 0.9
+          },
+          {
+            "objection": "Poor customer support that provides irrelevant solutions",
+            "severity": 0.85
+          },
+          {
+            "objection": "Resistance to bureaucratic processes that don't respect technical expertise",
+            "severity": 0.75
+          },
+          {
+            "objection": "Concern about software claiming compatibility that doesn't actually work",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Platform-specific software",
+            "reason": "Operating system change requiring cross-platform solution",
+            "threshold": "Platform migration necessitates replacement"
+          },
+          {
+            "from_product": "Complex or buggy software",
+            "reason": "Persistent crashes, poor support, or data corruption issues",
+            "threshold": "Critical failures that interfere with core functionality"
+          },
+          {
+            "from_product": "Software with poor reviews for new platform",
+            "reason": "Negative feedback steering away from platform-specific versions",
+            "threshold": "Overwhelmingly negative reviews indicating systemic issues"
+          },
+          {
+            "from_product": "Software lacking multi-device support",
+            "reason": "Need to access application/data across multiple devices",
+            "threshold": "Workflow requires simultaneous multi-device access"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and lack of bugs",
+          "Cross-platform compatibility",
+          "Multi-device access/sync",
+          "Ease of use/intuitive interface",
+          "Comprehensive feature coverage",
+          "Quality of customer support",
+          "Ability to handle complex/edge cases",
+          "Value for price"
+        ],
+        "deal_breakers": [
+          "Persistent crashes or data corruption",
+          "Inability to handle essential complex cases",
+          "Terrible customer support",
+          "Platform incompatibility when needed",
+          "False claims about compatibility/features"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Bugs causing data loss or erratic behavior (e.g., comment deletion, tagging issues)",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Poor search functionality or discoverability",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Missing core desktop features on mobile (e.g., worklogs, timesheets, timelines, project pages)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Unintuitive UI causing workflow errors (e.g., scroll closes window, search bar hidden)",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Long load times and performance issues",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Lack of customer support or bug reporting channels",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Platform incompatibility (e.g., device, OS, Jira edition confusion)",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Hidden or unexpected costs (e.g., automation run limits)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Missing language support (e.g., Arabic)",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable, bug-free core functionality (commenting, search, assignment)",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Mobile app parity with desktop/web features (timesheets, worklogs, timelines, project pages, plugins)",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Intuitive and consistent UI across platforms",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Fast and stable performance",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Responsive customer support and clear communication on issues",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Transparent pricing and feature limits",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Platform accessibility and compatibility",
+            "priority": 0.65
+          },
+          {
+            "outcome": "Customizable notifications (e.g., ringtones)",
+            "priority": 0.5
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Seamless integration into existing agile/development ecosystem",
+            "context": "Positive review highlighting third-party integrations and automation."
+          },
+          {
+            "trigger": "Support for global, distributed team workflows",
+            "context": "Company reliance on Jira for global operations, despite mobile shortcomings."
+          },
+          {
+            "trigger": "Core functionality restored after support intervention",
+            "context": "Improved rating after customer service fixed login or bug issues."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Mobile app is too buggy and unreliable for professional use",
+            "severity": 0.9
+          },
+          {
+            "objection": "Critical features missing on mobile vs. desktop, limiting utility",
+            "severity": 0.85
+          },
+          {
+            "objection": "Poor customer support and lack of response to bug reports",
+            "severity": 0.8
+          },
+          {
+            "objection": "Hidden costs and unexpected limitations disrupt workflows",
+            "severity": 0.8
+          },
+          {
+            "objection": "UI is confusing, clunky, and causes workflow errors",
+            "severity": 0.75
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Jira mobile app",
+            "reason": "Persistent bugs and missing features make mobile app unusable",
+            "threshold": "Prefer using mobile web or abandoning mobile use entirely"
+          },
+          {
+            "from_product": "Jira mobile app",
+            "reason": "Consideration of alternatives (e.g., Salesforce app) due to core functionality failures",
+            "threshold": "When the app breaks company processes or blocks work"
+          },
+          {
+            "from_product": "Jira platform",
+            "reason": "Hidden costs and budget constraints for startups/small businesses",
+            "threshold": "Unexpected charges that exceed limited budget"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and absence of critical bugs",
+          "Feature parity with desktop/web version",
+          "Intuitive and consistent user interface",
+          "Performance and load times",
+          "Customer support responsiveness",
+          "Transparent pricing and cost control",
+          "Platform compatibility and accessibility"
+        ],
+        "deal_breakers": [
+          "Bugs that cause data loss or block core workflows (e.g., login, assignment, saving)",
+          "Missing essential features required for daily work (e.g., timesheets, worklogs, search)",
+          "Unresponsive customer support when critical issues arise"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Frustration with unclear installation/download processes",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Incompatibility with specific devices/platforms",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poorly designed user interfaces (UI) and navigation",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Software bugs causing data corruption (e.g., duplicate entries, truncation)",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Inadequate or hidden advertising within paid/utility apps",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Weak or unhelpful customer support and documentation",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Features missing compared to other versions/platforms",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Unreliable software with regression issues over time",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Difficulty locating support or contact information",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Fear of data loss or privacy invasion",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Steep learning curve for complex software",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Job market anxiety for QA professionals",
+            "emotional_intensity": 0.65
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable, bug-free software operation",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Clear, straightforward installation and setup",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Cross-platform/device compatibility",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Intuitive and responsive user interface",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Comprehensive and accessible support/documentation",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Feature parity across different versions/platforms",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Software that respects user privacy (no hidden ads/tracking)",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Stable job opportunities and career progression in QA",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Tools to increase QA efficiency (e.g., agentic QA tools)",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Seamless data synchronization and integrity",
+            "priority": 0.9
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to replace or enhance default software (e.g., browser)",
+            "context": "User dissatisfied with pre-installed option"
+          },
+          {
+            "trigger": "Annual renewal requirement (e.g., antivirus subscription)",
+            "context": "Existing subscription expires"
+          },
+          {
+            "trigger": "Seeking a cheaper alternative to direct vendor purchase",
+            "context": "Cost-saving measure"
+          },
+          {
+            "trigger": "Desire for specialized functionality (e.g., video editing, tax prep)",
+            "context": "New project or recurring need"
+          },
+          {
+            "trigger": "Looking for a tool to solve a specific data sync problem",
+            "context": "Frustration with existing solution"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product appears to have fundamental, unresolved bugs",
+            "severity": 0.9
+          },
+          {
+            "objection": "Incompatibility with user's specific device",
+            "severity": 0.8
+          },
+          {
+            "objection": "Installation/download process is opaque or broken",
+            "severity": 0.85
+          },
+          {
+            "objection": "UI is frustratingly non-intuitive or unresponsive",
+            "severity": 0.7
+          },
+          {
+            "objection": "Software seems to have regressed in quality over time",
+            "severity": 0.75
+          },
+          {
+            "objection": "Perception of hidden costs (ads, data collection) in 'free' apps",
+            "severity": 0.9
+          },
+          {
+            "objection": "Fear of job obsolescence due to AI/automation in QA",
+            "severity": 0.6
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "DejaOffice/CompanionLink",
+            "reason": "Persistent data corruption bugs and poor support",
+            "threshold": "Days wasted trying to fix issues"
+          },
+          {
+            "from_product": "Default browser (e.g., Silk)",
+            "reason": "Desire for better features/performance",
+            "threshold": "Dissatisfaction with baseline experience"
+          },
+          {
+            "from_product": "TurboTax",
+            "reason": "Increasing unreliability and glitches",
+            "threshold": "Discovery of significant tax form errors"
+          },
+          {
+            "from_product": "Fitness tracker app",
+            "reason": "Lack of device compatibility and missing features",
+            "threshold": "Cannot use core hardware accessory"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and absence of critical bugs",
+          "Ease of installation and initial setup",
+          "Compatibility with existing devices/platforms",
+          "Quality of customer support and documentation",
+          "User interface clarity and responsiveness",
+          "Value for money / cost-effectiveness",
+          "Privacy and data security",
+          "Feature set completeness",
+          "Long-term software stability and updates"
+        ],
+        "deal_breakers": [
+          "Critical data loss or corruption bugs",
+          "Incompatibility with primary device(s)",
+          "Impossible or overly complex installation",
+          "Unacceptable privacy violations (e.g., hidden ads/tracking)",
+          "Complete lack of functional customer support"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.637,
+      "reddit": 0.363,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Slow software that bogs down the system",
+          "count": 1,
+          "frequency": 0.0025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0098
+        },
+        {
+          "signal": "Frustrating registration or activation issues",
+          "count": 1,
+          "frequency": 0.0025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0074
+        },
+        {
+          "signal": "Annoying notifications (pop-ups, ads) interrupt workflow",
+          "count": 1,
+          "frequency": 0.0025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0074
+        },
+        {
+          "signal": "Software not user-friendly or intuitive",
+          "count": 1,
+          "frequency": 0.0025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0074
+        },
+        {
+          "signal": "Inconsistent performance across hardware configurations",
+          "count": 1,
+          "frequency": 0.0025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0098
+        },
+        {
+          "signal": "Poor technical support with slow, ineffective help",
+          "count": 1,
+          "frequency": 0.0025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0074
+        },
+        {
+          "signal": "New version degrades older versions when rolling back",
+          "count": 1,
+          "frequency": 0.0025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0074
+        },
+        {
+          "signal": "Misleading features (e.g., advertised Wi-Fi multiplayer not working)",
+          "count": 1,
+          "frequency": 0.0025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0074
+        },
+        {
+          "signal": "Misleading advertisements that do not reflect actual product functionality",
+          "count": 1,
+          "frequency": 0.0025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0074
+        },
+        {
+          "signal": "Product fails to load or requires constant updates, preventing use",
+          "count": 1,
+          "frequency": 0.0025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0074
+        },
+        {
+          "signal": "Lack of offline access for products advertised as usable offline",
+          "count": 1,
+          "frequency": 0.0025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0074
+        },
+        {
+          "signal": "Concern over career obsolescence due to automation/AI, causing anxiety",
+          "count": 1,
+          "frequency": 0.0025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0074
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Fast, responsive performance",
+          "count": 2,
+          "frequency": 0.0055,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0137
+        },
+        {
+          "signal": "Responsive and effective customer support",
+          "count": 2,
+          "frequency": 0.0055,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0137
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Unresponsive or incompetent customer support",
+          "count": 2,
+          "frequency": 0.0091,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0228
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Recommendation from trusted source",
+          "count": 2,
+          "frequency": 0.0094,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0236
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "low": 0.918,
+        "medium": 0.082
+      }
+    }
+  },
+  "cluster_2": {
+    "member_count": 32,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Stress from unrealistic expectations and KPIs, especially as a one-man QA team.",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Feeling rushed due to pressure to avoid clogging the CICD pipeline, leading to compromised testing quality.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Frustration with 'shift left' mentality leading to testing pieces instead of wholes and an increase in public-facing defects.",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Difficulty keeping up with rapid technological changes and lack of team support in education/facilitation.",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Frustration with low salary ceiling compared to software developers.",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Struggling with maintaining flaky legacy test automation frameworks and dead locators.",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Proper quality planning to avoid constant firefighting and reduce mental strain.",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Testing frameworks and automation that provide measurable coverage.",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Clear, upfront communication of software limitations and rules.",
+            "priority": 0.6
+          },
+          {
+            "outcome": "A stable product with rich features that justifies its price.",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to streamline business operations and gain financial clarity.",
+            "context": "Professional accounting and time-tracking software."
+          },
+          {
+            "trigger": "Desire for top-notch security across multiple business devices.",
+            "context": "Security software suite."
+          },
+          {
+            "trigger": "Need for easy, feature-rich tools for professional documentation and presentations.",
+            "context": "Office productivity software."
+          },
+          {
+            "trigger": "Requirement for software that integrates seamlessly with other commonly used tools.",
+            "context": "General professional software."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Software updates degrade usability and break core features (e.g., UI, integration).",
+            "severity": 0.9
+          },
+          {
+            "objection": "Hidden or suddenly changed software limits that waste user time and cause confusion.",
+            "severity": 0.8
+          },
+          {
+            "objection": "High price point for software when free alternatives exist.",
+            "severity": 0.6
+          },
+          {
+            "objection": "Software is difficult to learn without sufficient training resources.",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Legacy system (e.g., custom Excel sheets)",
+            "reason": "Need for better reporting, organization, and multi-user capability.",
+            "threshold": "Complexity of legacy system outweighs benefits."
+          },
+          {
+            "from_product": "Previous software version",
+            "reason": "Critical degradation in user interface and functionality.",
+            "threshold": "Product becomes unusable."
+          },
+          {
+            "from_product": "Competitor service",
+            "reason": "Better value (features vs. cost), higher quality, or fewer hidden fees.",
+            "threshold": "Significant cost savings and quality improvement."
+          }
+        ],
+        "decision_factors_ranked": [
+          "Feature Richness",
+          "Ease of Use / Learning Curve",
+          "Integration Capabilities",
+          "Stability / Reliability",
+          "Cost/Value",
+          "Support and Training"
+        ],
+        "deal_breakers": [
+          "Software updates that break core functionality",
+          "Unrealistic hidden limits or rule changes",
+          "Unusable user interface"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Unrealistic deadlines and constant pressure from stakeholders",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Poor project management leading to delays and lack of communication",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Pressure to release features without adequate testing, then being blamed for issues",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Lack of recognition or rewards for learning new technologies like automation",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Devs not providing proper access for testing (e.g., decryption keys)",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Stakeholders with no tech experience making decisions that waste time and delay delivery",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Company not valuing QA, leading to job searches",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Being forced into manual testing-only projects with no room for automation",
+            "emotional_intensity": 0.65
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Software that works as advertised with no glitches or response lags",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Enough time to thoroughly test features and cover edge cases",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Respect for QA processes and realistic deadlines from stakeholders",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Software that is easy to use, intuitive, and guides users through complex tasks",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Rewards or career advancement for learning new automation technologies",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Stable automation environments without flaky selectors",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Proper documentation and requirements reviewed before development",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to validate software features in a controlled environment before production",
+            "context": "Professional UAT role"
+          },
+          {
+            "trigger": "Fun and enjoyment in finding bugs and testing software",
+            "context": "Beta testing for personal satisfaction"
+          },
+          {
+            "trigger": "Replacing a problematic tool that causes data corruption or frequent bugs",
+            "context": "Frustration with current software like QuickBooks"
+          },
+          {
+            "trigger": "Requirement for a tool to set up or integrate with a hardware product",
+            "context": "Necessity for initial setup (e.g., Withings tracker)"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Software has frequent bugs, data corruption, and poor customer support",
+            "severity": 0.95
+          },
+          {
+            "objection": "Installation issues, especially on specific OS versions like Mac Mavericks",
+            "severity": 0.8
+          },
+          {
+            "objection": "Lack of auto-start or admin rights requirements hindering usage",
+            "severity": 0.7
+          },
+          {
+            "objection": "Forced obsolescence requiring frequent paid upgrades without real value",
+            "severity": 0.85
+          },
+          {
+            "objection": "Unstable environments and changing selectors breaking automation",
+            "severity": 0.75
+          },
+          {
+            "objection": "Stakeholders pushing back on testing time, compromising quality",
+            "severity": 0.9
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "QuickBooks",
+            "reason": "Persistent data corruption, bugs never fixed, and poor support",
+            "threshold": "Years of frustration and gritted teeth"
+          },
+          {
+            "from_product": "PaperPort",
+            "reason": "Critical feature (COPY TEXT) locks up consistently and no support resolution",
+            "threshold": "Multiple failed attempts and known unresolved issue"
+          },
+          {
+            "from_product": "Current employer",
+            "reason": "Company doesn't value QA, leading to lack of motivation and career growth",
+            "threshold": "Seeking new job opportunities"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Software reliability and lack of bugs",
+          "Ease of use and intuitiveness",
+          "Adequate time for thorough testing",
+          "Respect for QA processes",
+          "Customer support quality",
+          "Automation stability",
+          "Career growth opportunities"
+        ],
+        "deal_breakers": [
+          "Persistent data corruption",
+          "Unrealistic deadlines forcing compromised testing",
+          "Lack of support for critical OS versions",
+          "Forced obsolescence without real improvements",
+          "Company not valuing QA role"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Fear of job obsolescence due to AI and automation",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Lack of leadership recognition of QA value",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Limited tool functionality (e.g., only tests download speed/bandwidth)",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Poor support experiences (canned responses, difficult to explain problems)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Installation and compatibility issues (e.g., business app won't install, video card detection problems)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Uncertainty about skill relevance and career trajectory",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Difficulty translating testing needs into effective automation or results",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Comprehensive testing capabilities beyond basic functions",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Career evolution through AI-assisted testing and quality ownership",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Reliable, easy-to-use software with intuitive interfaces",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Effective support and community resources for problem-solving",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Tools that enhance productivity and empower contribution (e.g., fixing bugs, launching features)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Clear demonstration of QA value to organizational leadership",
+            "priority": 0.75
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for industry-standard software (e.g., Microsoft Office for compatibility)",
+            "context": "Business and home office use"
+          },
+          {
+            "trigger": "Price competitiveness and savings (e.g., student/teacher edition)",
+            "context": "Budget-conscious purchasing"
+          },
+          {
+            "trigger": "Positive trial experience leading to purchase",
+            "context": "Software evaluation"
+          },
+          {
+            "trigger": "Annual requirement (e.g., tax software)",
+            "context": "Recurring need"
+          },
+          {
+            "trigger": "Dissatisfaction with previous solutions (e.g., failed VHS transfers)",
+            "context": "Seeking reliable alternative"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Tools are limited in scope and functionality",
+            "severity": 0.6
+          },
+          {
+            "objection": "AI may not replace QA but companies might offload QA tasks to developers",
+            "severity": 0.7
+          },
+          {
+            "objection": "Poor installation and technical support experiences",
+            "severity": 0.8
+          },
+          {
+            "objection": "Lack of upgrade capacity or new features in newer versions",
+            "severity": 0.5
+          },
+          {
+            "objection": "Device compatibility issues (e.g., not working on Galaxy Tab)",
+            "severity": 0.6
+          },
+          {
+            "objection": "High cost without corresponding value or new features",
+            "severity": 0.65
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Quicken",
+            "reason": "Persistent software quirks and poor performance over years",
+            "threshold": "Multiple failed attempts to resolve issues, high upgrade cost without value"
+          },
+          {
+            "from_product": "Professional VHS transfer services",
+            "reason": "Consistently poor quality results",
+            "threshold": "Repeated failures with precious content"
+          },
+          {
+            "from_product": "MS Works",
+            "reason": "Compatibility issues and hassle",
+            "threshold": "Interferes with basic productivity needs"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and performance",
+          "Ease of use and learning curve",
+          "Cost-effectiveness",
+          "Compatibility and industry standard",
+          "Support and community resources",
+          "Career relevance and skill development"
+        ],
+        "deal_breakers": [
+          "Critical installation failures",
+          "Persistent technical issues unresolved by support",
+          "Lack of compatibility with essential devices/workflows",
+          "Prohibitive cost without clear value"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Fragile test environments cause frequent breaks and high maintenance costs.",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Difficulty quantifying QA's value to leadership, leading to lack of support for automation.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Known bugs and compatibility issues cause significant wasted time and frustration.",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Unstable UI tests with brittle locators increase churn and reduce confidence.",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Inability to fully uninstall or remove a product, causing system issues and requiring expert intervention.",
+            "emotional_intensity": 1.0
+          },
+          {
+            "signal": "Inadequate customer support for resolving known issues.",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Diminishing returns on automation investment when not implemented strategically.",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Limited product functionality or geographic restrictions reduce usefulness.",
+            "emotional_intensity": 0.65
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Achieve fast, safe software releases with high confidence and low risk.",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Establish resilient test automation with low maintenance overhead and high stability.",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Connect quality metrics directly to business outcomes to demonstrate clear ROI.",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Have a test system that is well-structured, predictable, and easy to maintain.",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Ensure product reliability and data integrity, even in buggy versions.",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Gain the ability to confidently change software without fear of breaking things.",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for a thorough, easy-to-use, and reliable solution for recurring professional tasks (e.g., tax software).",
+            "context": "Established annual use case with high trust in the product's core functionality."
+          },
+          {
+            "trigger": "Desire to replace an existing, inferior product with a better-performing alternative.",
+            "context": "Dissatisfaction with current service prompts search for improved quality and user experience."
+          },
+          {
+            "trigger": "Availability of a 'no questions asked' replacement guarantee or strong product assurance.",
+            "context": "Mitigates perceived risk and builds confidence in the purchase decision."
+          },
+          {
+            "trigger": "Seeking to implement structured automation to solve chronic maintenance pain.",
+            "context": "Driven by long-term QA experience and the need for sustainable, low-maintenance systems."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Automation is not a silver bullet and may not be worth the investment for all projects.",
+            "severity": 0.6
+          },
+          {
+            "objection": "Product has severe compatibility issues (e.g., with Windows 10) that are known but not resolved.",
+            "severity": 0.9
+          },
+          {
+            "objection": "Product is unacceptably difficult or dangerous to uninstall, behaving like malware.",
+            "severity": 1.0
+          },
+          {
+            "objection": "UI is unstable or changes too frequently, making automation fragile and costly.",
+            "severity": 0.8
+          },
+          {
+            "objection": "Lack of clear ROI or business value makes it hard to justify automation efforts to leadership.",
+            "severity": 0.7
+          },
+          {
+            "objection": "Geographic or platform restrictions limit the product's accessibility and utility.",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Tax software (e.g., TurboTax)",
+            "reason": "Repeated, unresolved compatibility bugs and poor support experience.",
+            "threshold": "Known bug causes significant wasted time; support fails to resolve."
+          },
+          {
+            "from_product": "Security software (e.g., Norton)",
+            "reason": "Product is nearly impossible to uninstall without damaging the system.",
+            "threshold": "Uninstall process cripples the OS, requiring expert intervention or a clean install."
+          },
+          {
+            "from_product": "VPN service (e.g., HMA)",
+            "reason": "Causes browsing problems and site blocks, degrading core functionality.",
+            "threshold": "Service interferes with regular website access to the point of being unusable on primary device."
+          },
+          {
+            "from_product": "Manual testing processes",
+            "reason": "Need for scalable, reliable regression testing to sustain high software quality.",
+            "threshold": "Manual regression becomes impractical; automation is seen as the only sustainable path."
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and stability of the product/test suite",
+          "Ease of use and maintenance",
+          "Quality of support and issue resolution",
+          "Clear value/ROI demonstrable to business",
+          "Compatibility with existing systems/environments",
+          "Comprehensiveness and thoroughness of features",
+          "Learning curve and initial setup complexity",
+          "Cost and licensing terms"
+        ],
+        "deal_breakers": [
+          "Critical, known bugs that go unfixed and waste user time",
+          "Product that cannot be cleanly uninstalled without system damage",
+          "Complete lack of support or accountability for serious issues",
+          "Automation framework that is inherently brittle and high-maintenance",
+          "Geographic restrictions that prevent core usage"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "The feeling of being treated as the \"last in chain\" under pressure when delays accumulate before testing",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Automation maintenance becoming overwhelming and time-consuming",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Requirement changes during development cycles breaking test automation",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Spending excessive time clarifying poorly documented requirements",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Stakeholders misunderstanding automation as a \"magic wand\" that eliminates all manual testing",
+            "emotional_intensity": 0.75
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Remove human judgment and variability through consistent, trusted automated testing",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Achieve predictable, high-quality releases through structured testing processes",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Maintain sanity by managing test suite size and execution frequency effectively",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Enable 100% manual testers to gradually adopt automation through accessible tools",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Shift team mindset from linear manual testing to fluid, big-picture quality assurance",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to teach manual testers automation through click-and-record functionality",
+            "context": "When adopting tools like TestIM for Salesforce testing to enable team learning"
+          },
+          {
+            "trigger": "Need to reduce regression testing time significantly",
+            "context": "When scheduling weekend executions of 1600+ scripts to save ~60 hours"
+          },
+          {
+            "trigger": "Need to handle frequent requirement changes without breaking test suites",
+            "context": "When QA raises questions during reviews that frequently lead to requirement changes"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Automation takes significant time to design, build, stabilize and maintain",
+            "severity": 0.8
+          },
+          {
+            "objection": "Premature automation can actually slow down delivery compared to meaningful exploratory testing",
+            "severity": 0.7
+          },
+          {
+            "objection": "The fantasy of \"100% automation\" is unrealistic and leads to flaky pipelines",
+            "severity": 0.75
+          },
+          {
+            "objection": "Test automation requires manual testing first to understand steps and user behavior",
+            "severity": 0.65
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Existing testing approach",
+            "reason": "Automation becomes nonstop maintenance burden",
+            "threshold": "When maintenance creates noise and reduces testing effectiveness"
+          },
+          {
+            "from_product": "Manual-only testing processes",
+            "reason": "Need to scale testing coverage and consistency",
+            "threshold": "When regression testing becomes unsustainable with manual efforts"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Ability to minimize refactoring when UI changes (e.g., Page Object Model)",
+          "Tool accessibility for manual testers transitioning to automation",
+          "Integration with existing development workflows and processes",
+          "Maintenance overhead and noise reduction capabilities",
+          "Collaboration features for working with DEV and PRODUCT teams"
+        ],
+        "deal_breakers": [
+          "Tools that cannot handle frequent requirement changes without extensive rework",
+          "Automation approaches that require constant maintenance exceeding benefits",
+          "Testing processes that treat QA as \"last in chain\" with unrealistic time pressures"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.5,
+      "reddit": 0.5,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Unrealistic expectations from management regarding AI automation",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0126
+        },
+        {
+          "signal": "Test frameworks built without senior guidance are unmaintainable",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0126
+        },
+        {
+          "signal": "Lack of proper tooling and environment reliability",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0126
+        },
+        {
+          "signal": "Difficulty in achieving reliable test flows at scale",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0126
+        },
+        {
+          "signal": "AI-generated code can be wrong and cause future issues",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0167
+        },
+        {
+          "signal": "QA is undervalued and seen as a cost",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0126
+        },
+        {
+          "signal": "Products with broken GUIs or poor accessibility",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0127
+        },
+        {
+          "signal": "Unresponsive or poor customer support",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0126
+        },
+        {
+          "signal": "Poor error messaging prevents debugging; users must guess at invalid input.",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0127
+        },
+        {
+          "signal": "Automated testing mandates without analysis lead to wasted effort and fragile tests.",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0126
+        },
+        {
+          "signal": "Hidden or misleading product capabilities waste download and evaluation time.",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0126
+        },
+        {
+          "signal": "Excessive advertising for paid versions in free software creates immediate distrust.",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0126
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Automate everything with reliable and maintainable tests",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0144
+        },
+        {
+          "signal": "AI as a force multiplier for efficiency, not a replacement",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0144
+        },
+        {
+          "signal": "Have a senior engineer guide the automation process",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0145
+        },
+        {
+          "signal": "Step-by-step approach with reevaluation and adjustments",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0144
+        },
+        {
+          "signal": "Products that are easy to install and set up",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0144
+        },
+        {
+          "signal": "Comprehensive and effective security or testing solutions",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0144
+        },
+        {
+          "signal": "Clear, upfront communication of software limitations to avoid wasted downloads.",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0144
+        },
+        {
+          "signal": "Immediate, field-level validation with specific error messages.",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0144
+        },
+        {
+          "signal": "Strategic automation focused on high-impact, stable, and maintainable test cases.",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0144
+        },
+        {
+          "signal": "Software that works reliably without excessive memory/space consumption.",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0144
+        },
+        {
+          "signal": "Testing processes that balance automation with necessary manual validation for complex or visual scenarios.",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0144
+        },
+        {
+          "signal": "Accurate and reliable software performance with no calculation or data loss errors",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0144
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Broken GUIs or inaccessible functionality",
+          "count": 1,
+          "frequency": 0.0071,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0213
+        },
+        {
+          "signal": "Unresponsive customer support",
+          "count": 1,
+          "frequency": 0.0071,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0213
+        },
+        {
+          "signal": "Unrealistic expectations without senior input",
+          "count": 1,
+          "frequency": 0.0071,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0213
+        },
+        {
+          "signal": "Hidden costs or aggressive upsells",
+          "count": 1,
+          "frequency": 0.0071,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0213
+        },
+        {
+          "signal": "Critical functionality failures with no workaround (e.g., activation, core features)",
+          "count": 1,
+          "frequency": 0.0071,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0213
+        },
+        {
+          "signal": "Extremely misleading or deceptive advertising of capabilities",
+          "count": 1,
+          "frequency": 0.0071,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0213
+        },
+        {
+          "signal": "Software that provides no utility over simpler, standard alternatives",
+          "count": 1,
+          "frequency": 0.0071,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0213
+        },
+        {
+          "signal": "Software that crashes or corrupts the user's system",
+          "count": 1,
+          "frequency": 0.0071,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0213
+        },
+        {
+          "signal": "Management that sets impossible goals without technical justification",
+          "count": 1,
+          "frequency": 0.0071,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0213
+        },
+        {
+          "signal": "Critical core features that do not work as advertised",
+          "count": 1,
+          "frequency": 0.0071,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0213
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Need for a specific, reliable solution (e.g., convert PDF to JPG)",
+          "count": 1,
+          "frequency": 0.0076,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0227
+        },
+        {
+          "signal": "Easy installation and setup process",
+          "count": 1,
+          "frequency": 0.0076,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0227
+        },
+        {
+          "signal": "Product works perfectly and integrates well",
+          "count": 1,
+          "frequency": 0.0076,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0227
+        },
+        {
+          "signal": "Protection for multiple devices",
+          "count": 1,
+          "frequency": 0.0076,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0227
+        },
+        {
+          "signal": "Multi-device licensing/value for subscription price.",
+          "count": 1,
+          "frequency": 0.0076,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0303
+        },
+        {
+          "signal": "Proven, long-term reliability and ease of use.",
+          "count": 1,
+          "frequency": 0.0076,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0227
+        },
+        {
+          "signal": "Free availability and positive initial impression.",
+          "count": 1,
+          "frequency": 0.0076,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0227
+        },
+        {
+          "signal": "Need for a specific professional function (tax preparation, legal documents, 3D animation)",
+          "count": 1,
+          "frequency": 0.0076,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0229
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "low": 0.781,
+        "medium": 0.219
+      }
+    }
+  }
+}

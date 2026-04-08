@@ -1,0 +1,549 @@
+{
+  "products": [
+    {
+      "name": "Google Analytics Individual Qualification Study Guide",
+      "category": "Books",
+      "accuracy": 0.95,
+      "review_keywords": [
+        "data",
+        "metrics",
+        "conversion",
+        "tracking",
+        "analytics",
+        "dashboard",
+        "KPI",
+        "funnel"
+      ],
+      "context_keywords": [
+        "scale",
+        "users",
+        "retention",
+        "optimization"
+      ],
+      "exclusion_keywords": [
+        "beginner",
+        "first-time"
+      ],
+      "why": "Data analysts and product managers analyzing user behavior at scale buy this for certification"
+    },
+    {
+      "name": "Mixpanel Analytics Platform Subscription",
+      "category": "Software",
+      "accuracy": 0.94,
+      "review_keywords": [
+        "user-behavior",
+        "event-tracking",
+        "cohort",
+        "retention",
+        "segmentation",
+        "attribution"
+      ],
+      "context_keywords": [
+        "DAU",
+        "churn",
+        "conversion"
+      ],
+      "exclusion_keywords": [
+        "small-business",
+        "startup"
+      ],
+      "why": "Product teams at scale companies purchase this to track user engagement patterns across large user bases"
+    },
+    {
+      "name": "Amplitude Behavioral Analytics Software License",
+      "category": "Software",
+      "accuracy": 0.93,
+      "review_keywords": [
+        "behavioral-analytics",
+        "user-journeys",
+        "product-analytics",
+        "engagement",
+        "feature-adoption"
+      ],
+      "context_keywords": [
+        "enterprise",
+        "scale",
+        "millions"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "hobby"
+      ],
+      "why": "Data scientists at large tech companies buy this to analyze user behavior patterns across massive user bases"
+    },
+    {
+      "name": "Tableau Desktop Professional License",
+      "category": "Software",
+      "accuracy": 0.92,
+      "review_keywords": [
+        "data-visualization",
+        "dashboards",
+        "business-intelligence",
+        "metrics",
+        "reporting"
+      ],
+      "context_keywords": [
+        "enterprise",
+        "stakeholders",
+        "KPIs"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "learning"
+      ],
+      "why": "Business analysts at enterprise companies purchase this to visualize user behavior data and conversion metrics"
+    },
+    {
+      "name": "SQL Performance Tuning for Large Datasets",
+      "category": "Books",
+      "accuracy": 0.91,
+      "review_keywords": [
+        "optimization",
+        "performance",
+        "queries",
+        "database",
+        "scaling",
+        "indexing"
+      ],
+      "context_keywords": [
+        "millions",
+        "users",
+        "production"
+      ],
+      "exclusion_keywords": [
+        "tutorial",
+        "basics"
+      ],
+      "why": "Database engineers handling massive user data at scale buy this for query optimization techniques"
+    },
+    {
+      "name": "Adobe Analytics Premium Subscription",
+      "category": "Software",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "web-analytics",
+        "attribution",
+        "segments",
+        "pathing",
+        "enterprise"
+      ],
+      "context_keywords": [
+        "traffic",
+        "conversions",
+        "enterprise"
+      ],
+      "exclusion_keywords": [
+        "small",
+        "personal"
+      ],
+      "why": "Digital marketing teams at large corporations purchase this to analyze user acquisition and conversion funnels"
+    },
+    {
+      "name": "Ergonomic Standing Desk Converter with Monitor Arms",
+      "category": "Office_Products",
+      "accuracy": 0.89,
+      "review_keywords": [
+        "ergonomic",
+        "multiple-monitors",
+        "productivity",
+        "workspace",
+        "adjustable"
+      ],
+      "context_keywords": [
+        "dashboards",
+        "screens",
+        "analytics"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "creative"
+      ],
+      "why": "Data analysts who spend hours monitoring multiple dashboards buy these for better workspace ergonomics"
+    },
+    {
+      "name": "Blue Light Blocking Glasses for Computer Work",
+      "category": "Health_and_Household",
+      "accuracy": 0.88,
+      "review_keywords": [
+        "eye-strain",
+        "computer",
+        "long-hours",
+        "dashboard",
+        "monitoring"
+      ],
+      "context_keywords": [
+        "screens",
+        "data",
+        "hours"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "fashion"
+      ],
+      "why": "Analysts spending long hours looking at data dashboards and metrics buy these to reduce eye strain"
+    },
+    {
+      "name": "Machine Learning for Business Analytics Textbook",
+      "category": "Books",
+      "accuracy": 0.87,
+      "review_keywords": [
+        "predictive",
+        "algorithms",
+        "business-applications",
+        "modeling",
+        "analytics"
+      ],
+      "context_keywords": [
+        "enterprise",
+        "scale",
+        "patterns"
+      ],
+      "exclusion_keywords": [
+        "academic",
+        "theoretical"
+      ],
+      "why": "Data scientists at corporations buy this to apply ML techniques to large-scale user behavior analysis"
+    },
+    {
+      "name": "Noise-Cancelling Headphones for Open Office",
+      "category": "Electronics",
+      "accuracy": 0.86,
+      "review_keywords": [
+        "focus",
+        "concentration",
+        "open-office",
+        "productivity",
+        "noise-cancelling"
+      ],
+      "context_keywords": [
+        "meetings",
+        "calls",
+        "corporate"
+      ],
+      "exclusion_keywords": [
+        "music",
+        "entertainment"
+      ],
+      "why": "Corporate analysts in open offices buy these to focus on complex data analysis without distractions"
+    },
+    {
+      "name": "Multi-Port USB Hub with Fast Charging",
+      "category": "Electronics",
+      "accuracy": 0.85,
+      "review_keywords": [
+        "multiple-devices",
+        "charging",
+        "productivity",
+        "workspace",
+        "connectivity"
+      ],
+      "context_keywords": [
+        "laptop",
+        "monitors",
+        "setup"
+      ],
+      "exclusion_keywords": [
+        "travel",
+        "portable"
+      ],
+      "why": "Data professionals with multiple work devices and monitoring equipment buy these for desk organization"
+    },
+    {
+      "name": "Statistical Analysis with R for Business Intelligence",
+      "category": "Books",
+      "accuracy": 0.84,
+      "review_keywords": [
+        "statistical-analysis",
+        "R-programming",
+        "business-intelligence",
+        "data-science"
+      ],
+      "context_keywords": [
+        "corporate",
+        "analytics",
+        "enterprise"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "academic"
+      ],
+      "why": "Business intelligence analysts at corporations buy this to improve their statistical analysis of user data"
+    },
+    {
+      "name": "Large Format Monitor 32-inch 4K for Data Visualization",
+      "category": "Electronics",
+      "accuracy": 0.83,
+      "review_keywords": [
+        "data-visualization",
+        "dashboards",
+        "multiple-windows",
+        "productivity",
+        "analytics"
+      ],
+      "context_keywords": [
+        "workspace",
+        "monitoring",
+        "metrics"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "entertainment"
+      ],
+      "why": "Analysts managing multiple dashboards and large datasets buy these for better data visualization workspace"
+    },
+    {
+      "name": "Python for Data Analysis Professional Edition",
+      "category": "Books",
+      "accuracy": 0.82,
+      "review_keywords": [
+        "pandas",
+        "data-manipulation",
+        "analysis",
+        "professional",
+        "workflows"
+      ],
+      "context_keywords": [
+        "enterprise",
+        "scale",
+        "production"
+      ],
+      "exclusion_keywords": [
+        "beginner",
+        "tutorial"
+      ],
+      "why": "Senior data analysts at tech companies buy this for advanced techniques in handling large-scale user datasets"
+    },
+    {
+      "name": "Microsoft Power BI Pro License",
+      "category": "Software",
+      "accuracy": 0.81,
+      "review_keywords": [
+        "business-intelligence",
+        "dashboards",
+        "enterprise",
+        "reporting",
+        "analytics"
+      ],
+      "context_keywords": [
+        "corporate",
+        "teams",
+        "stakeholders"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "small"
+      ],
+      "why": "Business analysts at enterprise companies purchase this to create executive dashboards from user behavior data"
+    },
+    {
+      "name": "Mechanical Keyboard for Heavy Data Entry",
+      "category": "Electronics",
+      "accuracy": 0.8,
+      "review_keywords": [
+        "durability",
+        "typing",
+        "productivity",
+        "professional",
+        "ergonomic"
+      ],
+      "context_keywords": [
+        "queries",
+        "coding",
+        "analysis"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "RGB"
+      ],
+      "why": "Data analysts who type extensive SQL queries and analysis reports daily buy these for durability and comfort"
+    },
+    {
+      "name": "Corporate Finance Analytics and Metrics Handbook",
+      "category": "Books",
+      "accuracy": 0.79,
+      "review_keywords": [
+        "financial-metrics",
+        "KPIs",
+        "corporate",
+        "analytics",
+        "performance"
+      ],
+      "context_keywords": [
+        "enterprise",
+        "business",
+        "metrics"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "investment"
+      ],
+      "why": "Financial analysts at large corporations buy this to understand which metrics matter for business performance"
+    },
+    {
+      "name": "Enterprise VPN Software License for Remote Analytics",
+      "category": "Software",
+      "accuracy": 0.78,
+      "review_keywords": [
+        "security",
+        "enterprise",
+        "remote-access",
+        "corporate",
+        "professional"
+      ],
+      "context_keywords": [
+        "data",
+        "access",
+        "corporate"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "streaming"
+      ],
+      "why": "Corporate data analysts buy this to securely access company analytics platforms and databases remotely"
+    }
+  ],
+  "subreddits": [
+    {
+      "name": "analytics",
+      "relevance": 0.95,
+      "member_type": "80% professional data analysts at scale companies",
+      "data_value": "Tools, techniques, and frustrations with large-scale data analysis",
+      "why": "Professional analysts discussing enterprise analytics challenges and solutions"
+    },
+    {
+      "name": "ProductManagement",
+      "relevance": 0.92,
+      "member_type": "70% PMs at tech companies analyzing user behavior",
+      "data_value": "How product decisions are made based on user data and metrics",
+      "why": "Product managers sharing insights on user behavior analysis and feature performance"
+    },
+    {
+      "name": "datascience",
+      "relevance": 0.9,
+      "member_type": "75% professional data scientists at corporations",
+      "data_value": "Advanced techniques for analyzing large user datasets and behavioral patterns",
+      "why": "Industry professionals discussing real-world applications of data science to user behavior"
+    },
+    {
+      "name": "BusinessIntelligence",
+      "relevance": 0.89,
+      "member_type": "85% BI analysts at enterprise companies",
+      "data_value": "Corporate decision-making processes based on user data and KPIs",
+      "why": "BI professionals sharing enterprise analytics strategies and dashboard insights"
+    },
+    {
+      "name": "userexperience",
+      "relevance": 0.87,
+      "member_type": "60% UX researchers using behavioral data",
+      "data_value": "How user behavior data influences design decisions at scale",
+      "why": "UX professionals discussing data-driven design decisions and user research methods"
+    },
+    {
+      "name": "marketing",
+      "relevance": 0.85,
+      "member_type": "50% digital marketers analyzing conversion funnels",
+      "data_value": "Attribution models, conversion optimization, and user acquisition insights",
+      "why": "Marketing professionals sharing funnel optimization and user acquisition strategies"
+    },
+    {
+      "name": "ABtesting",
+      "relevance": 0.84,
+      "member_type": "80% professionals running experiments at scale",
+      "data_value": "Experimentation methodologies and statistical significance in user testing",
+      "why": "Analysts and PMs discussing A/B testing strategies for large user bases"
+    },
+    {
+      "name": "SQL",
+      "relevance": 0.82,
+      "member_type": "70% analysts querying large user databases",
+      "data_value": "Query optimization techniques for large-scale user data analysis",
+      "why": "Database professionals sharing techniques for analyzing massive user datasets"
+    },
+    {
+      "name": "tableau",
+      "relevance": 0.81,
+      "member_type": "75% business analysts creating enterprise dashboards",
+      "data_value": "Visualization strategies for executive reporting and stakeholder communication",
+      "why": "Corporate analysts sharing dashboard design for business intelligence"
+    },
+    {
+      "name": "MachineLearning",
+      "relevance": 0.78,
+      "member_type": "60% ML engineers applying models to user behavior",
+      "data_value": "Predictive modeling techniques for user behavior and churn analysis",
+      "why": "ML professionals discussing behavioral prediction and recommendation systems"
+    },
+    {
+      "name": "PowerBI",
+      "relevance": 0.77,
+      "member_type": "80% corporate analysts using Microsoft BI stack",
+      "data_value": "Enterprise reporting workflows and stakeholder communication strategies",
+      "why": "Business analysts sharing Power BI implementations for corporate analytics"
+    },
+    {
+      "name": "bigdata",
+      "relevance": 0.75,
+      "member_type": "65% engineers handling massive user datasets",
+      "data_value": "Infrastructure and tools for processing large-scale user behavior data",
+      "why": "Data engineers discussing technologies for handling millions of user interactions"
+    },
+    {
+      "name": "growth",
+      "relevance": 0.74,
+      "member_type": "55% growth analysts at tech companies",
+      "data_value": "User acquisition, retention, and monetization strategies based on behavioral data",
+      "why": "Growth professionals sharing data-driven user acquisition and retention strategies"
+    },
+    {
+      "name": "GoogleAnalytics",
+      "relevance": 0.72,
+      "member_type": "70% digital analysts tracking user behavior",
+      "data_value": "Web analytics implementation and user journey analysis techniques",
+      "why": "Digital analysts discussing user tracking and conversion funnel optimization"
+    },
+    {
+      "name": "startups",
+      "relevance": 0.68,
+      "member_type": "40% startup employees focused on growth metrics",
+      "data_value": "Early-stage company approaches to user behavior analysis and product-market fit",
+      "why": "Startup team members sharing lean analytics and user validation approaches"
+    }
+  ],
+  "demographic_profile": {
+    "core_keywords": [
+      "analytics",
+      "metrics",
+      "conversion",
+      "funnel",
+      "retention",
+      "engagement",
+      "scale",
+      "enterprise",
+      "dashboards",
+      "KPIs",
+      "behavioral",
+      "patterns",
+      "attribution",
+      "segmentation",
+      "optimization"
+    ],
+    "exclusion_keywords": [
+      "personal",
+      "hobby",
+      "beginner",
+      "student",
+      "tutorial",
+      "small-business",
+      "DIY",
+      "casual"
+    ],
+    "age_range": "25-45",
+    "primary_motivations": [
+      "Data accuracy and reliability",
+      "Scalable analysis tools",
+      "Stakeholder communication",
+      "Performance optimization"
+    ],
+    "summary": "Professional data analysts, product managers, and business intelligence specialists who analyze user behavior patterns across large user bases at enterprise companies. They are driven by the need to extract actionable insights from massive datasets to inform business decisions and optimize user experiences. Their primary frustrations include data quality issues, tool limitations at scale, and translating complex behavioral patterns into clear business recommendations for stakeholders."
+  }
+}

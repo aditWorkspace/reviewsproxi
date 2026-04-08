@@ -1,0 +1,229 @@
+{
+  "id": "active_user_providing_organic_feedback",
+  "label": "Active User Providing Organic Feedback",
+  "segment": {
+    "role": "Daily app user and informal tester",
+    "tech_savviness": "medium",
+    "price_sensitivity": "high",
+    "risk_tolerance": "low",
+    "context": "Uses multiple apps regularly and encounters frequent technical issues that disrupt their workflow. Provides detailed feedback about bugs and usability problems through conversations rather than formal channels, expecting developers to be responsive to user concerns."
+  },
+  "goals": [
+    {
+      "goal": "Find apps that work consistently without crashes or freezing",
+      "priority": 5
+    },
+    {
+      "goal": "Establish reliable Bluetooth connections with devices",
+      "priority": 4
+    },
+    {
+      "goal": "Access responsive customer support when issues arise",
+      "priority": 4
+    },
+    {
+      "goal": "Verify app compatibility before downloading",
+      "priority": 3
+    },
+    {
+      "goal": "Share feedback about real-world usage problems",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Limited tolerance for apps that crash frequently after updates",
+    "Cannot rely on Bluetooth devices that disconnect randomly during use",
+    "Frustrated by unresponsive developer support despite repeated contact attempts",
+    "Needs seamless integration with standard phone cases and accessories"
+  ],
+  "decision_weights": {
+    "interface_disruption": 0.125,
+    "device_compatibility": 0.125,
+    "persistent_bugs": 0.125,
+    "connectivity_requirements": 0.125,
+    "ad_intrusiveness": 0.125,
+    "content_value": 0.125,
+    "navigation_usability": 0.125,
+    "stability_issues": 0.125
+  },
+  "behavioral_rules": [
+    "Immediately checks app reviews for mentions of crashes on their specific device model",
+    "Tests Bluetooth connectivity within first 5 minutes of setup and abandons if pairing fails twice",
+    "Looks for developer response timestamps in app store reviews to gauge support responsiveness",
+    "Reinstalls apps once after encountering bugs, but uninstalls permanently if issues persist",
+    "Avoids apps requiring constant internet connection for basic offline functionality",
+    "Closes apps immediately when encountering excessive ads that disrupt core features",
+    "Searches for alternative apps when navigation requires excessive manual scrolling",
+    "Takes screenshots of error messages to document issues for feedback",
+    "Checks compatibility with phone case before purchasing physical accessories",
+    "Monitors app performance for first week after updates before trusting stability"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.278,
+    "trust_starting_point": 0.556,
+    "frustration_decay": 0.32
+  },
+  "deal_breakers": [
+    "App crashes repeatedly on their device after multiple reinstall attempts",
+    "Bluetooth devices that randomly disconnect during active use",
+    "Developer support that remains unresponsive after multiple contact attempts",
+    "Apps that stop working completely after previously functioning well",
+    "Subscription services with insufficient content libraries to justify cost"
+  ],
+  "voice_sample": "I'm so tired of apps that work perfectly for a few weeks and then suddenly start crashing after an update. I've been trying to get my Bluetooth earbuds to stay connected for more than 10 minutes, but they keep randomly disconnecting right in the middle of calls. I've sent three messages to the developer about this bug where the app freezes when I try to post content, but I haven't heard back from anyone. It's incredibly frustrating because I was actually enjoying using the app before these issues started. I shouldn't have to troubleshoot basic functionality every single day just to use something that worked fine yesterday.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 15,
+    "pages_before_decision": 8,
+    "tab_behavior": "Opens multiple tabs to compare app reviews and check compatibility",
+    "primary_device": "Smartphone while actively using apps in real-world situations",
+    "time_of_day": "Evening after encountering daily app frustrations"
+  },
+  "purchase_journey": {
+    "discovery": "Finds new apps when current ones fail or through organic conversations about alternatives",
+    "evaluation": "Checks recent reviews first, then compatibility notes, then developer response patterns",
+    "decision_moment": "Downloads after confirming no recent crash reports for their device model",
+    "post_purchase_expectation": "Expects consistent performance and responsive support when issues arise"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Recent reviews confirm app stability on their device",
+      "Developer actively responds to user feedback in app store",
+      "Clear compatibility information provided upfront",
+      "Free trial allows testing core functionality first"
+    ],
+    "abandons_when": [
+      "Multiple recent reviews mention crashes on similar devices",
+      "App requires excessive storage space without explanation",
+      "Bluetooth pairing fails during initial setup",
+      "No visible developer support or response to user issues"
+    ],
+    "trusts_when": [
+      "Apps maintain core functionality without constant disruptive changes",
+      "Developers acknowledge and fix reported bugs in timely updates",
+      "Accessible multi-channel customer support is clearly available",
+      "Accurate product descriptions match actual app performance"
+    ],
+    "becomes_suspicious_when": [
+      "Apps use excessive storage or data without clear explanation",
+      "Bluetooth connection becomes unreliable after working initially",
+      "Updates remove features that were working properly",
+      "Developer support becomes unresponsive after initial contact"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "App crashes, freezes, or shuts down unexpectedly on multiple devices",
+      "Apps have bugs or glitches that persist after updates/reinstalls",
+      "Unresponsive developer support despite repeated contact attempts",
+      "Bluetooth connection instability requiring frequent repair/reconnection",
+      "App stops working after previously functioning well",
+      "Accessible, multi-channel customer support"
+    ],
+    "resonates_with": [
+      "Reliable performance across device updates",
+      "Responsive developer community",
+      "Seamless device integration",
+      "Consistent functionality"
+    ],
+    "turned_off_by": [
+      "Persistent technical issues",
+      "Unresponsive support teams",
+      "Disruptive interface changes",
+      "Connectivity problems"
+    ]
+  },
+  "inner_monologue_samples": [
+    "Another subscription? I need to see if this actually has enough content to justify the cost, especially since my last streaming app barely had anything worth watching.",
+    "Okay, this has good ratings, but I need to check if anyone with my phone model is reporting crashes - I'm not going through that headache again.",
+    "This navigation is already annoying me and I haven't even tried to find what I need yet. If I have to scroll through pages of stuff just to get to basic features, I'm out.",
+    "They want my email just to see pricing? That's exactly the kind of thing that makes me think they're hiding something expensive.",
+    "Finally, an app that actually does what it says it will do. No crashes, connects to my earbuds right away, and when I had a question they actually responded within a day."
+  ],
+  "anti_patterns": [
+    "Assuming they want cutting-edge features over basic reliability - contradicts their focus on apps that maintain core functionality",
+    "Pushing complex setup processes - contradicts frustration with Bluetooth pairing difficulties and preference for seamless integration",
+    "Hiding support channels or making them hard to find - contradicts their need for accessible multi-channel customer support",
+    "Marketing disruptive updates as improvements - contradicts their frustration with interface changes that disrupt established usage patterns",
+    "Downplaying compatibility concerns - contradicts their specific focus on device-specific performance issues"
+  ],
+  "traits": [
+    {
+      "label": "Reliability and Functionality Frustration",
+      "description": "Users express frustration with apps that are buggy, crash frequently, have persistent glitches, and suffer from poor usability or missing features, often compounded by unresponsive developer support and disruptive updates.",
+      "key_phrases": [
+        "App crashes, freezes, or shuts down unexpectedly on multiple devices",
+        "Apps have bugs or glitches that persist after updates/reinstalls",
+        "Unresponsive developer support despite repeated contact attempts"
+      ],
+      "frequency": 0.769,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Unreliable Connectivity & Integration",
+      "description": "Users experience frustration with inconsistent Bluetooth connections, compatibility issues, and technical flaws that disrupt seamless device integration and basic functionality.",
+      "key_phrases": [
+        "Bluetooth devices randomly disconnecting",
+        "Slow connection/pairing time with newer phone models",
+        "Seamless integration and compatibility with standard phone cases/accessories"
+      ],
+      "frequency": 0.194,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Balanced Skepticism",
+      "description": "Consumers in this cluster are moderately critical and evaluate purchases with a balanced approach, neither dismissing products outright nor making impulsive decisions. They tolerate some friction but require evidence of value before committing.",
+      "key_phrases": [
+        "moderate skepticism",
+        "balanced evaluation",
+        "requires evidence of value"
+      ],
+      "frequency": 0.037,
+      "tone": "cautious",
+      "cluster_id": "cluster_2"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 8,
+    "total": 3219,
+    "avg_rating": 3.56,
+    "avg_length": 445,
+    "rating_distribution": {
+      "5": 1116,
+      "4": 383,
+      "1": 329,
+      "2": 141,
+      "3": 1250
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 1200,
+      "playstore": 819
+    },
+    "n_products": 6,
+    "top_products": {
+      "unknown": 2019,
+      "Social Media Management Dashboard Software License": 500,
+      "Portable Phone Ring Light for Live Streaming": 233,
+      "Wireless Portable Keyboard for Mobile Devices": 233,
+      "Portable Phone Charger Power Bank 10000mAh": 233
+    },
+    "low_rating_pct": 0.146,
+    "high_rating_pct": 0.466,
+    "n_sources": 3,
+    "issues": [],
+    "batches_estimate": 108
+  },
+  "demographic_description": "Uses the app and gives feedback through messages or conversations rather than structured systems. Interacts with features like check-ins and content posting, sharing issues encountered during real usage (e.g., posting while dining). Feedback is collected informally through ongoing user interaction.",
+  "generated_at": "2026-04-05T21:12:40.515432",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "0% grounded in cluster data",
+    "cluster_stability": "low"
+  }
+}

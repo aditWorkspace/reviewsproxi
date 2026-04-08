@@ -1,0 +1,309 @@
+{
+  "id": "cross_functional_pm_(design_+_engineering_collaboration)",
+  "label": "Cross-Functional PM (Design + Engineering Collaboration)",
+  "segment": {
+    "role": "Mid-level product manager at tech company",
+    "tech_savviness": "high",
+    "price_sensitivity": "medium",
+    "risk_tolerance": "low",
+    "context": "Works in cross-functional teams using collaborative tools like Notion, Slack, and whiteboarding platforms daily. Frustrated by organizational bottlenecks, lack of backup support, and tools that create friction rather than enabling seamless collaboration between product, design, and engineering teams."
+  },
+  "goals": [
+    {
+      "goal": "Find tools that enable seamless collaboration between PMs, designers, and engineers",
+      "priority": 5
+    },
+    {
+      "goal": "Evaluate products that offer clear governance and dedicated ownership models",
+      "priority": 4
+    },
+    {
+      "goal": "Research solutions that provide backup and coverage for specialized roles",
+      "priority": 4
+    },
+    {
+      "goal": "Assess platforms that maintain clear role definitions and reduce cross-functional friction",
+      "priority": 4
+    },
+    {
+      "goal": "Find agile tools that focus on value delivery over process compliance",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Limited time due to sole domain ownership with no coverage (Support and Coverage Deficiency)",
+    "Must evaluate tools without revealing personal information to managers (Workplace Trust Barrier)",
+    "Cannot implement solutions that require extensive cross-team alignment (Cross-Functional Friction)",
+    "Must avoid tools that lack dedicated ownership and maintenance (Systemic Collaboration Struggle)"
+  ],
+  "decision_weights": {
+    "managerial_confidentiality_concerns": 0.125,
+    "employer_resource_privacy_fears": 0.125,
+    "workload_capacity_management": 0.125,
+    "specialized_role_isolation": 0.125,
+    "leadership_dependency_pressure": 0.125,
+    "backup_support_absence": 0.125,
+    "insufficient_guidance": 0.125,
+    "sole_ownership_pressure": 0.125
+  },
+  "behavioral_rules": [
+    "Immediately checks for clear ownership and maintenance documentation before evaluating any collaborative tool",
+    "Abandons product pages that don't clearly explain governance and contribution rules",
+    "Prioritizes reading case studies about cross-functional team implementations",
+    "Searches specifically for backup and coverage features in role management tools",
+    "Exits immediately if privacy policy suggests personal data sharing with employers",
+    "Looks for evidence of living, maintained systems rather than one-time deliverables",
+    "Skips products that emphasize rigid process compliance over flexible value delivery",
+    "Validates whether tools reduce rather than increase cross-functional friction",
+    "Checks for dedicated team support and ongoing investment in product maintenance",
+    "Avoids solutions that require extensive onboarding for backup coverage"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.271,
+    "trust_starting_point": 0.467,
+    "frustration_decay": 0.4
+  },
+  "deal_breakers": [
+    "Tools that require sharing personal information with managers",
+    "Products with no clear governance or contribution rules",
+    "Solutions that lack dedicated ownership and maintenance",
+    "Platforms that increase rather than reduce cross-functional friction",
+    "Systems that treat collaboration tools as one-time deliverables rather than living products"
+  ],
+  "voice_sample": "I'm so tired of design systems that get built once and then just decay because nobody owns them. We need a living, well-maintained design system that serves as a single source of truth and actually has a real backlog and dedicated team behind it. The lack of seamless collaboration between design and engineering is killing our velocity, and I can't be the only one trying to bridge these gaps without any backup support. Every time I try to take time off, the workload just accumulates because there's no coverage for my specialized role. What we really need is a tool that simplifies and clarifies the process, reducing overhead and fostering real team conversations instead of ticket chasing and cargo cult agile rituals.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 45,
+    "pages_before_decision": 8,
+    "tab_behavior": "Opens multiple tabs to compare governance models and maintenance approaches",
+    "primary_device": "Laptop during work hours",
+    "time_of_day": "Late afternoon between meetings when researching solutions"
+  },
+  "purchase_journey": {
+    "discovery": "Finds products through team recommendations in Slack channels and cross-functional collaboration communities",
+    "evaluation": "First checks ownership model, then governance documentation, then looks for case studies of cross-functional implementations",
+    "decision_moment": "When they see evidence of dedicated team support and clear governance rules that reduce friction",
+    "post_purchase_expectation": "Expects seamless design system management with easy implementation and ongoing maintenance support"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Sees clear documentation of dedicated ownership and maintenance",
+      "Finds evidence of seamless collaboration between product managers, designers, and engineers",
+      "Discovers governance rules and contribution guidelines",
+      "Views case studies showing reduced cross-functional friction"
+    ],
+    "abandons_when": [
+      "No backup system for specialized roles leading to fake rest",
+      "Pressure from having sole domain ownership with no coverage",
+      "Lack of seamless collaboration between design and engineering",
+      "Difficulty in cross-functional collaboration and unrealistic expectations from leadership"
+    ],
+    "trusts_when": [
+      "Design system treated as a living product, not a one-time deliverable",
+      "Clear governance, contribution rules, and versioning are documented",
+      "Seamless collaboration and clear role definitions between PMs, designers, and engineers",
+      "Tools that enable shared understanding of value beyond just user-facing impact"
+    ],
+    "becomes_suspicious_when": [
+      "Fear that personal disclosure could be weaponized against them",
+      "Anxiety about personal privacy and boundaries with managers",
+      "Cargo cult rituals without real value",
+      "Process compliance over value delivery"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "A living, well-maintained design system that serves as a single source of truth",
+      "Seamless collaboration between product managers, designers, and engineers",
+      "A design system that is actively maintained, with a real backlog and dedicated team",
+      "Clear governance, contribution rules, and versioning",
+      "Ability to slice large, complex stories into smaller, integrable increments",
+      "A tool that simplifies and clarifies the process, reducing overhead and fostering real team conversations"
+    ],
+    "resonates_with": [
+      "Dedicated ownership and maintenance",
+      "Cross-functional collaboration enablement",
+      "Living systems with ongoing investment",
+      "Clear role definitions and governance"
+    ],
+    "turned_off_by": [
+      "One-time deliverables",
+      "Rigid process compliance",
+      "Cargo cult rituals",
+      "Privacy boundary violations"
+    ]
+  },
+  "inner_monologue_samples": [
+    "Another tool with no clear pricing for teams... I don't have time to jump through sales hoops when I'm already covering three different domains with no backup.",
+    "This looks promising but where's the documentation about ongoing maintenance? I've been burned too many times by design systems that get abandoned after the initial implementation.",
+    "The interface seems intuitive but I need to see evidence this actually reduces friction between design and engineering rather than adding another layer of complexity.",
+    "They're asking for way too much personal information in this signup form - I can't risk this getting back to management given how they've handled employee data before.",
+    "Finally, a tool that actually shows clear governance rules and contribution guidelines. This might actually help us avoid the political maneuvering that's been valued over actual product delivery."
+  ],
+  "anti_patterns": [
+    "Assuming they want more process and meetings (contradicts Agile Process Frustration cluster)",
+    "Focusing on individual productivity over team collaboration (contradicts Cross-Functional Friction focus)",
+    "Treating them as decision makers who don't need backup support (contradicts Support and Coverage Deficiency)",
+    "Suggesting tools that require personal data sharing with employers (contradicts Workplace Trust Barrier)",
+    "Promoting one-time implementation without ongoing maintenance (contradicts Systemic Collaboration & Maintenance Struggle)"
+  ],
+  "traits": [
+    {
+      "label": "Support and Coverage Deficiency",
+      "description": "This cluster expresses frustration about the absence of reliable backup and managerial support for specialized roles, leading to burnout and an inability to take proper time off.",
+      "key_phrases": [
+        "no backup system for specialized roles leading to fake rest",
+        "pressure from having sole domain ownership with no coverage",
+        "lack of backup/support leading to workload accumulation when absent",
+        "high onboarding time for backup coverage",
+        "managerial guidance is absent or insufficient for decision-making"
+      ],
+      "frequency": 0.237,
+      "tone": "frustrated",
+      "cluster_id": "cluster_3"
+    },
+    {
+      "label": "Workplace Trust Barrier",
+      "description": "Users express frustration with workplace tools and dynamics that erode trust, violate boundaries, or create psychological safety concerns, particularly regarding management's handling of personal information and team collaboration challenges.",
+      "key_phrases": [
+        "Fear that personal disclosure could be weaponized against them",
+        "Anxiety about personal privacy and boundaries with managers",
+        "Lack of trust in management's intentions regarding personal life"
+      ],
+      "frequency": 0.225,
+      "tone": "cautious",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Cross-Functional Friction",
+      "description": "Users are frustrated by misaligned roles, organizational bottlenecks, and unrealistic expectations that disrupt collaboration between product, design, and engineering teams. They desire clear boundaries, reliable support, and tools that facilitate\u2014not hinder\u2014efficient teamwork.",
+      "key_phrases": [
+        "Lack of seamless collaboration between design and engineering",
+        "Difficulty in cross-functional collaboration and unrealistic expectations from leadership",
+        "Seamless collaboration and clear role definitions between PMs, designers, and engineers"
+      ],
+      "frequency": 0.175,
+      "tone": "frustrated",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Systemic Collaboration & Maintenance Struggle",
+      "description": "Users experience frustration when cross-functional tools or systems (like design systems) lack dedicated ownership, clear governance, and ongoing investment, leading to decay, misalignment, and workflow friction rather than enabling seamless collaboration.",
+      "key_phrases": [
+        "lack of dedicated ownership and maintenance",
+        "seamless collaboration between product managers, designers, and engineers",
+        "clear governance, contribution rules, and versioning",
+        "design system treated as a living product, not a one-time deliverable",
+        "misaligned expectations between PMs and engineers about efficiency gains"
+      ],
+      "frequency": 0.087,
+      "tone": "frustrated",
+      "cluster_id": "cluster_4"
+    },
+    {
+      "label": "Agile Process Frustration",
+      "description": "Users are frustrated with rigid, bureaucratic implementations of agile frameworks that prioritize process compliance over actual value delivery, leading to inefficiency and team demoralization.",
+      "key_phrases": [
+        "cargo cult rituals without real value",
+        "waterfall lite or scammy",
+        "dogmatic application of agile/scrum rules that block progress",
+        "process compliance over value delivery"
+      ],
+      "frequency": 0.075,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Usability Friction",
+      "description": "A cluster focused on frustration with poor user experience, including confusing interfaces, slow performance, intrusive ads, and features that are difficult to find or use.",
+      "key_phrases": [
+        "Difficulty figuring out how to use a product",
+        "Unintuitive, confusing interfaces",
+        "Poor search functionality",
+        "Low user-friendliness causing frustration",
+        "Slow performance/loading times"
+      ],
+      "frequency": 0.062,
+      "tone": "frustrated",
+      "cluster_id": "cluster_5"
+    },
+    {
+      "label": "Political Navigation Frustration",
+      "description": "A cluster expressing frustration with workplace cultures where self-promotion and political maneuvering are perceived as more valued than actual product delivery and execution. Reviewers feel their technical contributions are overlooked in favor of visibility and managing upward.",
+      "key_phrases": [
+        "Political maneuvering valued over actual product delivery",
+        "Culture where marketing oneself outweighs building good products",
+        "Being outmaneuvered by executives/politics despite shipping good work"
+      ],
+      "frequency": 0.062,
+      "tone": "frustrated",
+      "cluster_id": "cluster_6"
+    },
+    {
+      "label": "Polished Product Expectation",
+      "description": "Users expect comprehensive, seamless functionality across platforms with intuitive interfaces and no hidden costs, showing frustration when technical debt or usability issues create friction.",
+      "key_phrases": [
+        "Difficulty implementing design changes across legacy systems and token-code mappings",
+        "Seamless design system management with easy recoloring and token swapping",
+        "UI so unintuitive it hinders basic tasks"
+      ],
+      "frequency": 0.037,
+      "tone": "frustrated",
+      "cluster_id": "cluster_7"
+    },
+    {
+      "label": "Frustrated Professional",
+      "description": "Users express frustration with workplace tools and processes that create obstacles to collaboration, visibility, and recognition. They feel blocked by ineffective systems, poor communication, and tools that complicate rather than simplify their professional work.",
+      "key_phrases": [
+        "Being blocked because nobody sees the 'why' behind the work",
+        "Execution without visibility keeps you invisible, leading to guilt and feeling like self-promotion",
+        "Seamless cross-functional collaboration and clear communication of project 'why'"
+      ],
+      "frequency": 0.037,
+      "tone": "frustrated",
+      "cluster_id": "cluster_8"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 8,
+    "total": 2400,
+    "avg_rating": 3.44,
+    "avg_length": 627,
+    "rating_distribution": {
+      "5": 686,
+      "1": 259,
+      "4": 315,
+      "2": 101,
+      "3": 1039
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 1200
+    },
+    "n_products": 5,
+    "top_products": {
+      "unknown": 1200,
+      "Notion Personal Pro Annual Plan": 300,
+      "Figma Professional Team Plan": 300,
+      "Slack Pro Plan Team Subscription": 300,
+      "Miro Online Whiteboard Annual Subscription": 300
+    },
+    "low_rating_pct": 0.15,
+    "high_rating_pct": 0.417,
+    "n_sources": 2,
+    "issues": [
+      "Platform bias: amazon is 50% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 80
+  },
+  "demographic_description": "Works closely with design and engineering teams using tools like Notion, Slack, and whiteboarding platforms. Participates in collaborative sessions to define solutions and execute features. Interaction is team-based and iterative.",
+  "generated_at": "2026-04-05T09:41:05.278514",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "0% grounded in cluster data",
+    "cluster_stability": "low"
+  }
+}

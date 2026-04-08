@@ -1,0 +1,55 @@
+{"review_id": "cluster_1_b0_pp0", "trait_label": "Technical Reliability Issues", "text": "Buggy performance and unreliable functionality", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp1", "trait_label": "Technical Reliability Issues", "text": "Poorly designed, non-intuitive interface", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp2", "trait_label": "Technical Reliability Issues", "text": "Features are hidden or require extensive manual reading to discover", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_do0", "trait_label": "Technical Reliability Issues", "text": "Smooth, stable, and bug-free performance", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_do1", "trait_label": "Technical Reliability Issues", "text": "Intuitive, easy-to-use interface with discoverable features", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp0", "trait_label": "Technical Reliability Issues", "text": "Unreliable software with frequent crashes, freezes, or high CPU usage", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp1", "trait_label": "Technical Reliability Issues", "text": "Poorly tested updates or upgrades that break existing functionality", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp2", "trait_label": "Technical Reliability Issues", "text": "Ineffective or unresponsive customer support with long wait times or scripted responses", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_do0", "trait_label": "Technical Reliability Issues", "text": "Reliable, consistent performance without crashes or freezes", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_do1", "trait_label": "Technical Reliability Issues", "text": "Software that delivers advertised features as promised", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp0", "trait_label": "Technical Reliability Issues", "text": "Persistent, unresolved bugs causing app crashes or preventing core functionality", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp1", "trait_label": "Technical Reliability Issues", "text": "Aggressive monetization (excessive in-app purchases, ads in paid software) feels greedy", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp2", "trait_label": "Technical Reliability Issues", "text": "Poor cross-platform or cross-device sync/consistency", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_do0", "trait_label": "Technical Reliability Issues", "text": "Reliable, bug-free performance across all platforms", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_do1", "trait_label": "Technical Reliability Issues", "text": "Clear value for money (fair pricing, no excessive nickel-and-diming)", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp0", "trait_label": "Technical Reliability Issues", "text": "Frustration with forced software upgrades to maintain basic functionality (e.g., online banking)", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp1", "trait_label": "Technical Reliability Issues", "text": "Disappointment with buggy, unfinished, or beta-quality software being sold as final", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp2", "trait_label": "Technical Reliability Issues", "text": "Anger over software that corrupts data, crashes, or fails during critical tasks (e.g., backups, cloning)", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_do0", "trait_label": "Technical Reliability Issues", "text": "Reliable, consistent performance without crashes or data corruption", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_do1", "trait_label": "Technical Reliability Issues", "text": "Stable, thoroughly tested software releases, not 'beta' quality", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp0", "trait_label": "Technical Reliability Issues", "text": "Software crashes frequently leading to data loss", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp1", "trait_label": "Technical Reliability Issues", "text": "Poor customer support with impersonal, ineffective responses", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp2", "trait_label": "Technical Reliability Issues", "text": "Forced upgrades with artificial kill-switches on older versions", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_do0", "trait_label": "Technical Reliability Issues", "text": "Stable, reliable software without crashes or data corruption", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_do1", "trait_label": "Technical Reliability Issues", "text": "Effective, responsive customer support that solves problems", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp0", "trait_label": "Platform Frustration", "text": "Frustration with clunky, outdated, or overly complex test management tools", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp1", "trait_label": "Platform Frustration", "text": "Anger at being forced into in-app purchases due to unreasonable design (e.g., tasks taking too long, forced coin use)", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp2", "trait_label": "Platform Frustration", "text": "Deep disappointment and financial loss from restrictive licensing/activation (e.g., program locked to one computer)", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_do0", "trait_label": "Platform Frustration", "text": "Fast, intuitive, and scalable test/requirement management with good traceability", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_do1", "trait_label": "Platform Frustration", "text": "Software that is easy to install, set up, and use without technical hassle", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp0", "trait_label": "Platform Frustration", "text": "Buggy, unstable software that crashes frequently or performs unreliably", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp1", "trait_label": "Platform Frustration", "text": "Poor product support and infrequent updates, especially for premium-priced software", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp2", "trait_label": "Platform Frustration", "text": "Frustration with basic design flaws (e.g., missing keyboard)", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_do0", "trait_label": "Platform Frustration", "text": "Stable, bug-free software that performs reliably", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_do1", "trait_label": "Platform Frustration", "text": "Responsive, consistent product support and regular updates", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp0", "trait_label": "Platform Frustration", "text": "Unreliable AI-generated test cases requiring manual correction", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp1", "trait_label": "Platform Frustration", "text": "Software being buggy, crashing frequently, or having stability issues", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp2", "trait_label": "Platform Frustration", "text": "Poor or absent documentation and user guides", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_do0", "trait_label": "Platform Frustration", "text": "Generate realistic test cases from actual user interactions (e.g., captured traffic)", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_do1", "trait_label": "Platform Frustration", "text": "Save significant time on repetitive, boring test case creation", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp0", "trait_label": "Platform Frustration", "text": "Inconsistent or unfair payment and rating systems causing tester distrust", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp1", "trait_label": "Platform Frustration", "text": "Frustration with technical glitches causing repeated reinstalls and syncing failures", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp2", "trait_label": "Platform Frustration", "text": "Geographic exclusion leading to zero test opportunities", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_do0", "trait_label": "Platform Frustration", "text": "To earn supplemental income through consistent testing opportunities", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_do1", "trait_label": "Platform Frustration", "text": "To see their feedback directly influence product development", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp0", "trait_label": "Platform Frustration", "text": "Unreliable or buggy testing software/recorder that fails and wastes time without compensation", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp1", "trait_label": "Platform Frustration", "text": "Poorly designed, overly long screeners that ask repetitive or irrelevant demographic questions", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp2", "trait_label": "Platform Frustration", "text": "Tests that are misaligned with compensation\u2014too long, too many questions, or poorly estimated time", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_do0", "trait_label": "Platform Frustration", "text": "Fair compensation for time and effort\u2014clear pay for work done without risk of non-payment", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_do1", "trait_label": "Platform Frustration", "text": "Well-designed, efficient tests with clear instructions, working prototypes, and logical flow", "tone": "frustrated"}
+{"review_id": "monologue_cfde36", "trait_label": "Inner Monologue", "text": "The pricing looks reasonable, but I need to make sure there aren't any hidden fees or forced upgrade requirements that will hit me later when I'm in the middle of a project.", "tone": "authentic_voice"}
+{"review_id": "monologue_a20f25", "trait_label": "Inner Monologue", "text": "These reviews from other testers are encouraging - they specifically mention the software being stable and the support team actually responding to technical issues quickly.", "tone": "authentic_voice"}
+{"review_id": "monologue_74bb02", "trait_label": "Inner Monologue", "text": "This interface looks way too complicated for what should be a simple testing tool. If I can't figure out the navigation easily, it's going to waste time I should be spending on actual feedback.", "tone": "authentic_voice"}
+{"review_id": "monologue_85e9f0", "trait_label": "Inner Monologue", "text": "They want way too much personal information just to see the platform. I'm not filling out lengthy, inefficient screening processes that waste my time before I even know if this is worth it.", "tone": "authentic_voice"}
+{"review_id": "monologue_a65f5a", "trait_label": "Inner Monologue", "text": "Finally, a tool that actually does what it says it will do. Clear features, reliable performance, and the customer support actually helped when I had that configuration issue last week.", "tone": "authentic_voice"}

@@ -1,0 +1,265 @@
+{
+  "id": "pm_using_ai_tools_(claude_/_chatgpt)",
+  "label": "PM Using AI Tools (Claude / ChatGPT)",
+  "segment": {
+    "role": "mid-career product manager using AI for data analysis",
+    "tech_savviness": "high",
+    "price_sensitivity": "medium",
+    "risk_tolerance": "low",
+    "context": "They leverage AI tools like Claude and ChatGPT to process feedback and identify patterns, but maintain strict validation protocols due to deep concerns about analytical integrity. Their purchasing decisions are heavily influenced by software reliability and the ability to maintain rigorous manual oversight of automated outputs."
+  },
+  "goals": [
+    {
+      "goal": "find software that automates data processing while maintaining high accuracy through rigorous validation",
+      "priority": 5
+    },
+    {
+      "goal": "access comprehensive documentation and tutorials for new analytical tools",
+      "priority": 4
+    },
+    {
+      "goal": "validate that AI tool outputs can be manually verified and audited",
+      "priority": 5
+    },
+    {
+      "goal": "ensure software performs core functionality reliably without critical failures",
+      "priority": 5
+    },
+    {
+      "goal": "process large datasets efficiently while identifying meaningful patterns",
+      "priority": 4
+    },
+    {
+      "goal": "maintain professional accountability when using automated analysis tools",
+      "priority": 4
+    }
+  ],
+  "constraints": [
+    "requires ability to manually validate all automated outputs due to analytical integrity concerns",
+    "needs software that provides clear error messages to avoid wasting time troubleshooting",
+    "cannot tolerate software that crashes during critical analysis tasks",
+    "must have access to comprehensive documentation before committing to new tools"
+  ],
+  "decision_weights": {
+    "trusted_colleague_recommendation": 0.207,
+    "large_dataset_processing_capability": 0.173,
+    "clear_error_messaging": 0.103,
+    "manual_validation_support": 0.103,
+    "critical_task_reliability": 0.103,
+    "data_cleaning_efficiency": 0.103,
+    "comprehensive_documentation": 0.103,
+    "smooth_installation_process": 0.103
+  },
+  "behavioral_rules": [
+    "immediately checks for manual validation capabilities when evaluating AI-powered analytics tools",
+    "abandons software demos that crash or freeze during core functionality testing",
+    "requires seeing comprehensive documentation before starting any trial or purchase process",
+    "validates error handling by intentionally testing edge cases during software evaluation",
+    "seeks out colleague recommendations before considering new analytical tools",
+    "tests data export and audit trail capabilities before committing to purchase",
+    "exits immediately if software fails to perform basic functions during initial testing",
+    "requires clear pricing for enterprise features needed for large dataset processing",
+    "validates that AI tools provide traceability for debugging and error auditing",
+    "checks for data security and privacy policies before uploading sensitive datasets",
+    "tests software stability under high data volume loads before purchase decision",
+    "verifies compatibility with existing data infrastructure and semantic models"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.301,
+    "trust_starting_point": 0.451,
+    "frustration_decay": 0.384
+  },
+  "deal_breakers": [
+    "software crashes during critical analysis tasks",
+    "AI tool outputs lack traceability for auditing and debugging",
+    "tools failing silently or producing empty outputs without clear error messages",
+    "inability to validate AI-generated results manually",
+    "unclear data security and privacy policies for sensitive business data",
+    "software fails to deliver core functionality when needed most",
+    "missing comprehensive user guides and documentation",
+    "poor installation experience with component failures"
+  ],
+  "voice_sample": "I need to be absolutely certain that any AI tool I recommend can be validated manually - my professional reputation depends on the accuracy of my analysis. When AI tools misinterpret ambiguous user instructions or produce silent errors, it creates a nightmare scenario where bad insights compound across our entire decision-making pipeline. I've seen too many cases where AI tools lack context and struggle with business interpretation, requiring constant human oversight just to catch basic mistakes. The ability to validate and manually verify automated results isn't just nice to have - it's essential for maintaining analytical integrity. I can't afford to have tools that give false confidence and then fail during critical presentations.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 45,
+    "pages_before_decision": 12,
+    "tab_behavior": "opens multiple tabs to cross-reference documentation, reviews, and technical specifications",
+    "primary_device": "laptop during work hours for thorough evaluation",
+    "time_of_day": "mid-morning when focused on tool evaluation and vendor research"
+  },
+  "purchase_journey": {
+    "discovery": "recommendation from trusted colleague or friend triggers initial research",
+    "evaluation": "immediately seeks comprehensive documentation, tests core functionality reliability, validates manual oversight capabilities",
+    "decision_moment": "when software demonstrates reliable performance on large datasets with clear error messaging and manual validation options",
+    "post_purchase_expectation": "accurate automated data processing with rigorous validation capabilities and comprehensive support documentation"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "trusted colleague provides strong recommendation with specific use case",
+      "software demonstrates reliable performance on large dataset processing",
+      "clear documentation shows manual validation and audit capabilities",
+      "tool provides accurate automated processing with minimal manual correction needed"
+    ],
+    "abandons_when": [
+      "software crashes during critical functionality testing",
+      "unclear error messages waste time during troubleshooting",
+      "AI tools produce outputs that cannot be manually validated",
+      "poor installation experience with component failures"
+    ],
+    "trusts_when": [
+      "comprehensive documentation clearly explains validation processes",
+      "software provides accurate and reliable automated processing",
+      "clear data security and privacy policies are prominently displayed",
+      "manual validation capabilities are prominently featured"
+    ],
+    "becomes_suspicious_when": [
+      "AI tool outputs lack traceability for debugging",
+      "software fails silently or produces empty outputs",
+      "unclear data retention and security policies",
+      "inability to validate automated results manually"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "AI tool outputs lack traceability, making it hard to audit and debug errors",
+      "Ability to validate and manually verify automated results",
+      "Accurate, automated data processing with rigorous validation to ensure reliability",
+      "AI tools make mistakes or suggest overly complex/inaccurate solutions, requiring expert validation",
+      "Need to process large datasets and identify patterns efficiently",
+      "Software crashes during critical tasks",
+      "AI lacks context and struggles with business interpretation, requiring human oversight"
+    ],
+    "resonates_with": [
+      "rigorous accuracy and professional accountability",
+      "comprehensive validation and audit capabilities",
+      "reliable performance under critical business conditions",
+      "transparent error handling and debugging support"
+    ],
+    "turned_off_by": [
+      "black box AI solutions without transparency",
+      "software that promises automation without validation options",
+      "tools that prioritize speed over accuracy",
+      "unclear or missing documentation for critical features"
+    ]
+  },
+  "inner_monologue_samples": [
+    "I need to see the actual pricing for enterprise features upfront - if they're hiding costs for the manual validation capabilities I need, that's a red flag about transparency",
+    "These customer reviews mention reliability issues, but I need to hear from someone I trust who's actually used this for large dataset analysis in a business context",
+    "This interface looks clean, but can I actually trace back through the AI's decision-making process when I need to validate results for my quarterly review?",
+    "Another signup form asking for company data before I can even see the documentation - I'm not sharing sensitive information until I know their data policies",
+    "Finally, a tool that explicitly shows manual validation workflows and audit trails - this is exactly what I need to maintain analytical integrity"
+  ],
+  "anti_patterns": [
+    "assuming they want fully automated solutions without human oversight - contradicts analytical integrity anxiety cluster",
+    "emphasizing speed over accuracy - contradicts their core concern about reliable data processing",
+    "hiding documentation behind signup walls - contradicts their need for comprehensive user guides",
+    "promoting black box AI solutions - contradicts their requirement for manual validation capabilities",
+    "downplaying the importance of error handling - contradicts their frustration with unclear error messages"
+  ],
+  "traits": [
+    {
+      "label": "Core Functionality & Reliability Concern",
+      "description": "Users are frustrated by software that fails to perform its fundamental purpose reliably, leading to wasted time, critical failures, and a loss of trust.",
+      "key_phrases": [
+        "Software fails to deliver core functionality when needed (restore)",
+        "Software gives a false sense of security and then fails",
+        "Software crashes during critical tasks"
+      ],
+      "frequency": 0.439,
+      "tone": "frustrated",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Analytical Integrity Anxiety",
+      "description": "Data analysts and professionals express deep concern about maintaining rigorous accuracy and control in their work while navigating unreliable tools, ambiguous requirements, and pressure to adopt AI/automation. Their core fear is that system fragility and output inscrutability will compromise their professional judgment and accountability.",
+      "key_phrases": [
+        "Tools failing silently or producing empty outputs",
+        "Maintain rigorous manual validation to ensure accuracy",
+        "Inability to validate outputs manually",
+        "AI tools generate code that requires debugging"
+      ],
+      "frequency": 0.367,
+      "tone": "cautious",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Core Functionality Failure",
+      "description": "Users experience fundamental breakdowns in the mobile app's essential operations\u2014like login, stability, rendering, and basic report access\u2014that prevent them from completing core tasks. The frustration stems from the app failing at its most basic promises of access and reliability.",
+      "key_phrases": [
+        "Cannot log in at all despite valid credentials",
+        "App crashes immediately on launch",
+        "App freezes or crashes during loading or when accessing dashboards"
+      ],
+      "frequency": 0.102,
+      "tone": "frustrated",
+      "cluster_id": "cluster_4"
+    },
+    {
+      "label": "Core Functionality Failure",
+      "description": "Users experience fundamental failures in the app's primary purpose, such as unreliable Bluetooth connections, missing critical keys, and erratic mouse behavior, which prevent the app from being a usable tool.",
+      "key_phrases": [
+        "Frequent Bluetooth connection drops and pairing instability",
+        "Critical keys missing from keyboard (e.g., Scroll Lock, Alt, F-keys, Tab)",
+        "Mouse pointer imprecision and erratic behavior (tap interpreted as right-click, scrolls too fast)"
+      ],
+      "frequency": 0.071,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Balanced Pragmatism",
+      "description": "This cluster represents a pragmatic decision-making style where users are willing to tolerate a moderate level of friction or imperfection in exchange for core value. They evaluate purchases based on a net-benefit calculation rather than seeking flawless experiences.",
+      "key_phrases": [
+        "dominant_friction_tolerance: medium",
+        "friction_tolerance_distribution: medium 1.0",
+        "no strong deal-breakers"
+      ],
+      "frequency": 0.02,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_3"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 7,
+    "total": 2913,
+    "avg_rating": 3.32,
+    "avg_length": 693,
+    "rating_distribution": {
+      "5": 804,
+      "1": 431,
+      "2": 161,
+      "4": 350,
+      "3": 1167
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 1200,
+      "playstore": 513
+    },
+    "n_products": 4,
+    "top_products": {
+      "unknown": 1713,
+      "NVivo Qualitative Data Analysis Software": 400,
+      "SPSS Statistics Premium Grad Pack": 400,
+      "Tableau Desktop Professional Edition Software License": 400
+    },
+    "low_rating_pct": 0.203,
+    "high_rating_pct": 0.396,
+    "n_sources": 3,
+    "issues": [
+      "Platform bias: amazon is 41% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 98
+  },
+  "demographic_description": "Uses AI tools to summarize feedback and identify patterns across datasets. Still reviews raw interviews or source material for validation. Interaction combines automated and manual analysis.",
+  "generated_at": "2026-04-05T22:43:09.875045",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "0% grounded in cluster data",
+    "cluster_stability": "moderate"
+  }
+}

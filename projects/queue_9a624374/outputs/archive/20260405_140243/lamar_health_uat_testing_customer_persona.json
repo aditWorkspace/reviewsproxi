@@ -1,0 +1,223 @@
+{
+  "id": "uat_testing_customer",
+  "label": "UAT Testing Customer",
+  "segment": {
+    "role": "Software testing professional evaluating tools and platforms during controlled testing phases",
+    "tech_savviness": "high",
+    "price_sensitivity": "medium",
+    "risk_tolerance": "low",
+    "context": "Quality assurance professionals who test software features before full rollout, providing critical feedback based on hands-on interaction. Their purchasing decisions are heavily influenced by software reliability, testing methodology quality, and the ability to demonstrate clear ROI to leadership."
+  },
+  "goals": [
+    {
+      "goal": "Evaluate software testing tools that provide stable, maintainable automation frameworks",
+      "priority": 5
+    },
+    {
+      "goal": "Find platforms with comprehensive testing capabilities beyond basic functions",
+      "priority": 4
+    },
+    {
+      "goal": "Identify solutions that help demonstrate QA value to organizational leadership",
+      "priority": 4
+    },
+    {
+      "goal": "Access clear documentation and support resources for problem-solving",
+      "priority": 3
+    },
+    {
+      "goal": "Locate tools that enable gradual automation adoption for manual testers",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Must avoid tools built without senior guidance that become unmaintainable (from Structural Quality Concern cluster)",
+    "Cannot invest in automation mandates without proper analysis that lead to wasted effort (from Structural Quality Concern cluster)",
+    "Requires reliable installation processes that won't corrupt systems (from Software Usability Frustration cluster)",
+    "Needs resizable, functional user interfaces without orientation limitations (from Software Usability Frustration cluster)"
+  ],
+  "decision_weights": {
+    "trusted_source_recommendation": 0.222,
+    "installation_reliability": 0.111,
+    "update_efficiency": 0.111,
+    "feature_transparency": 0.111,
+    "search_functionality": 0.111,
+    "interface_usability": 0.111,
+    "engine_compatibility": 0.111,
+    "trial_availability": 0.111
+  },
+  "behavioral_rules": [
+    "Immediately seeks out documentation quality and completeness before evaluating features",
+    "Abandons evaluation if installation process shows file registration errors or broken repair options",
+    "Prioritizes testing tools that demonstrate strategic automation over mandate-driven approaches",
+    "Exits immediately if software changes or downgrades features without clear communication",
+    "Requires evidence of maintainable test frameworks before considering purchase",
+    "Refuses to proceed if user interface has orientation locking or multi-step process limitations",
+    "Demands trial versions or demos before making any purchasing decisions",
+    "Seeks proof that automation tools focus on high-impact, stable, and maintainable test cases",
+    "Abandons if software lacks comprehensive testing capabilities beyond basic functions",
+    "Requires clear demonstration of how tool connects quality metrics to business outcomes"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.251,
+    "trust_starting_point": 0.47,
+    "frustration_decay": 0.32
+  },
+  "deal_breakers": [
+    "Test frameworks built without senior guidance are unmaintainable",
+    "Installation failures due to file registration errors and broken repair/uninstall processes",
+    "Frustration with software that changes/downgrades features without clear communication",
+    "Automated testing mandates without analysis lead to wasted effort and fragile tests",
+    "Annoyance with user interface limitations (e.g., orientation locking, multi-step processes)"
+  ],
+  "voice_sample": "I'm so tired of evaluating testing tools that promise the world but deliver fragile automation that breaks under real conditions. The last platform I tested had AI self-healing features that actually introduced more bugs than they fixed - completely unpredictable failures that made our testing pipeline unreliable. What I really need is a stable product with rich features that justifies its price, not another tool where automation maintenance becomes overwhelming and time-consuming.\n\nThe biggest challenge I face is difficulty quantifying QA's value to leadership, leading to lack of support for automation. Management keeps pushing for automated testing mandates without proper analysis, which just leads to wasted effort and fragile tests. I need something that helps me connect quality metrics directly to business outcomes to demonstrate clear ROI. Clean, intuitive user interfaces are non-negotiable - I can't deal with more software that has orientation locking or forces me through multi-step processes for simple tasks.\n\nWhat really frustrates me is when companies don't provide clear, upfront communication of software limitations and rules. I've been burned too many times by incomplete or misleading feature listings where parental controls were advertised but not included, or where core features suddenly required upgrades. I need accessible and effective technical support from people who actually understand testing, not generic responses from overseas call centers.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 45,
+    "pages_before_decision": 12,
+    "tab_behavior": "Opens multiple tabs to compare documentation quality, feature lists, and pricing across competing tools",
+    "primary_device": "Desktop workstation during business hours for thorough evaluation",
+    "time_of_day": "Mid-morning and early afternoon during work hours when can focus on evaluation"
+  },
+  "purchase_journey": {
+    "discovery": "Finds tools through trusted source recommendations from testing communities, conferences, and peer networks",
+    "evaluation": "Examines documentation first, then tests installation reliability, evaluates UI usability, and seeks trial versions before considering purchase",
+    "decision_moment": "Commits when tool demonstrates clear connection between quality metrics and business outcomes with reliable, maintainable automation framework",
+    "post_purchase_expectation": "Expects bug-free, stable software performance with comprehensive testing capabilities and effective customer support that resolves issues directly"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Clear demonstration of QA value to organizational leadership",
+      "Strategic automation focused on high-impact, stable, and maintainable test cases",
+      "Comprehensive testing capabilities beyond basic functions",
+      "Clear, comprehensive, and easily accessible documentation/help"
+    ],
+    "abandons_when": [
+      "Installation failures due to file registration errors and broken repair/uninstall processes",
+      "Frustration with software that changes/downgrades features without clear communication",
+      "Annoyance with user interface limitations (e.g., orientation locking, multi-step processes)",
+      "Automated testing mandates without analysis lead to wasted effort and fragile tests"
+    ],
+    "trusts_when": [
+      "Bug-free, stable software performance",
+      "Clear, upfront communication of software limitations and rules",
+      "Effective customer support that resolves issues directly",
+      "A stable product with rich features that justifies its price"
+    ],
+    "becomes_suspicious_when": [
+      "Test frameworks built without senior guidance are unmaintainable",
+      "AI/automation tools are unreliable, flaky, hallucinate, or break under real conditions",
+      "Incomplete or misleading feature listings (e.g., parental controls advertised but not included)",
+      "Forced subscription models instead of one-time purchase"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Strategic automation focused on high-impact, stable, and maintainable test cases",
+      "Test frameworks built without senior guidance are unmaintainable",
+      "Clear demonstration of QA value to organizational leadership",
+      "Comprehensive testing capabilities beyond basic functions",
+      "Establish resilient test automation with low maintenance overhead and high stability"
+    ],
+    "resonates_with": [
+      "Achieve predictable, high-quality releases through structured testing processes",
+      "Connect quality metrics directly to business outcomes to demonstrate clear ROI",
+      "Enable 100% manual testers to gradually adopt automation through accessible tools"
+    ],
+    "turned_off_by": [
+      "AI-powered magic solutions",
+      "One-size-fits-all automation",
+      "Mandate-driven testing approaches",
+      "Marketing claims without technical substance"
+    ]
+  },
+  "inner_monologue_samples": [
+    "Another tool claiming enterprise pricing but no trial version? I'm not spending budget on something I can't test first - too many times I've been stuck with software that looked good in demos but failed during real implementation.",
+    "These customer testimonials look generic, but if they have documentation from actual testing teams showing ROI metrics, that might be worth investigating further.",
+    "This interface already feels clunky and I'm just on the landing page - if I can't resize windows or it locks orientation like the last tool, I'm out immediately.",
+    "They want my email before showing pricing? That's a red flag - clear, upfront communication of software limitations and rules should include transparent pricing.",
+    "Finally, a platform that shows actual test automation frameworks with senior oversight and maintenance considerations - this might actually help me demonstrate QA value to leadership instead of just promising magic AI solutions."
+  ],
+  "anti_patterns": [
+    "Assuming they want the latest AI-powered features - they prioritize stability over innovation (contradicts Software Usability Frustration cluster)",
+    "Leading with automation benefits for speed - they care more about maintainability and strategic implementation (contradicts Structural Quality Concern cluster)",
+    "Hiding pricing or requiring lengthy demos - they have low patience and need upfront transparency (contradicts baseline_patience: 0.251)",
+    "Promoting mandate-driven testing approaches - they specifically reject top-down automation mandates without analysis (contradicts Structural Quality Concern cluster)"
+  ],
+  "traits": [
+    {
+      "label": "Software Usability Frustration",
+      "description": "Users experience significant frustration with software that is unreliable, difficult to use, and lacks expected features, often feeling misled by marketing claims and hindered by poor design.",
+      "key_phrases": [
+        "Frustration with software that changes/downgrades features without clear communication",
+        "Annoyance with user interface limitations (e.g., orientation locking, multi-step processes)",
+        "Installation failures due to file registration errors and broken repair/uninstall processes"
+      ],
+      "frequency": 0.634,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Structural Quality Concern",
+      "description": "Users express frustration with superficial or poorly-implemented testing and automation strategies that compromise software quality, preferring methodical, maintainable solutions with proper oversight.",
+      "key_phrases": [
+        "Test frameworks built without senior guidance are unmaintainable",
+        "Automated testing mandates without analysis lead to wasted effort and fragile tests",
+        "Strategic automation focused on high-impact, stable, and maintainable test cases"
+      ],
+      "frequency": 0.338,
+      "tone": "frustrated",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Balanced Consideration",
+      "description": "Customers exhibit moderate patience with minor obstacles and lack strong immediate pain points or urgent desires, leading to deliberate, thoughtful evaluations.",
+      "key_phrases": [],
+      "frequency": 0.028,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_0"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 8,
+    "total": 2104,
+    "avg_rating": 3.4,
+    "avg_length": 730,
+    "rating_distribution": {
+      "5": 619,
+      "1": 271,
+      "4": 242,
+      "2": 104,
+      "3": 868
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 904
+    },
+    "n_products": 6,
+    "top_products": {
+      "unknown": 904,
+      "BrowserStack Cross-Browser Testing Platform": 240,
+      "LoadRunner Professional Performance Testing Software": 240,
+      "TestRail Test Case Management Software": 240,
+      "JIRA Test Management Plugin License": 240
+    },
+    "low_rating_pct": 0.178,
+    "high_rating_pct": 0.409,
+    "n_sources": 2,
+    "issues": [
+      "Platform bias: amazon is 57% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 71
+  },
+  "demographic_description": "A customer testing features in a user acceptance testing environment before full rollout. Provides feedback based on hands-on interaction with test versions. Interaction occurs during controlled testing phases.",
+  "generated_at": "2026-04-05T11:25:51.647407",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "0% grounded in cluster data",
+    "cluster_stability": "low"
+  }
+}

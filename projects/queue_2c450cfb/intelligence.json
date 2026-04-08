@@ -1,0 +1,581 @@
+{
+  "products": [
+    {
+      "name": "Social Media Management Tools - Hootsuite Business Plan",
+      "category": "Software",
+      "accuracy": 0.95,
+      "review_keywords": [
+        "trial",
+        "setup",
+        "interface",
+        "overwhelming",
+        "cancelled",
+        "complicated",
+        "confusing"
+      ],
+      "context_keywords": [
+        "signed up",
+        "free trial",
+        "didn't use",
+        "too complex"
+      ],
+      "exclusion_keywords": [
+        "team",
+        "implemented"
+      ],
+      "why": "Marketing enthusiasts sign up for professional tools but abandon them due to complexity"
+    },
+    {
+      "name": "Project Management Software - Asana Premium",
+      "category": "Software",
+      "accuracy": 0.94,
+      "review_keywords": [
+        "trial",
+        "features",
+        "unused",
+        "basic",
+        "overkill",
+        "subscription",
+        "cancelled"
+      ],
+      "context_keywords": [
+        "free version",
+        "didn't need",
+        "too advanced"
+      ],
+      "exclusion_keywords": [
+        "workflow",
+        "team collaboration"
+      ],
+      "why": "Solo entrepreneurs sign up for advanced project tools but revert to simpler solutions"
+    },
+    {
+      "name": "Email Marketing Software - Mailchimp Paid Plans",
+      "category": "Software",
+      "accuracy": 0.93,
+      "review_keywords": [
+        "upgrade",
+        "trial",
+        "expensive",
+        "unused",
+        "downgraded",
+        "features",
+        "complicated"
+      ],
+      "context_keywords": [
+        "free plan",
+        "didn't utilize",
+        "went back"
+      ],
+      "exclusion_keywords": [
+        "campaigns",
+        "automated"
+      ],
+      "why": "Small business owners upgrade email tools but don't implement advanced features"
+    },
+    {
+      "name": "Adobe Creative Cloud Individual Plan",
+      "category": "Software",
+      "accuracy": 0.92,
+      "review_keywords": [
+        "subscription",
+        "expensive",
+        "barely",
+        "used",
+        "cancelled",
+        "trial",
+        "complex"
+      ],
+      "context_keywords": [
+        "signed up",
+        "didn't learn",
+        "too expensive"
+      ],
+      "exclusion_keywords": [
+        "professional",
+        "client work"
+      ],
+      "why": "Creative hobbyists subscribe but don't invest time to learn the complex software"
+    },
+    {
+      "name": "Salesforce CRM Essentials",
+      "category": "Software",
+      "accuracy": 0.91,
+      "review_keywords": [
+        "setup",
+        "complicated",
+        "trial",
+        "unused",
+        "overwhelmed",
+        "cancelled",
+        "difficult"
+      ],
+      "context_keywords": [
+        "free trial",
+        "too complex",
+        "didn't implement"
+      ],
+      "exclusion_keywords": [
+        "customized",
+        "implemented"
+      ],
+      "why": "Small business owners sign up for CRM but abandon due to implementation complexity"
+    },
+    {
+      "name": "Online Course Creation Software - Teachable Pro",
+      "category": "Software",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "trial",
+        "course",
+        "upload",
+        "didn't",
+        "finish",
+        "cancelled",
+        "unused"
+      ],
+      "context_keywords": [
+        "signed up",
+        "never launched",
+        "didn't complete"
+      ],
+      "exclusion_keywords": [
+        "students",
+        "published"
+      ],
+      "why": "Aspiring course creators sign up but never complete course development"
+    },
+    {
+      "name": "Webinar Software - GoToWebinar Professional",
+      "category": "Software",
+      "accuracy": 0.89,
+      "review_keywords": [
+        "trial",
+        "webinar",
+        "didn't",
+        "use",
+        "expensive",
+        "cancelled",
+        "complicated"
+      ],
+      "context_keywords": [
+        "free trial",
+        "never hosted",
+        "didn't need"
+      ],
+      "exclusion_keywords": [
+        "attendees",
+        "hosted"
+      ],
+      "why": "Entrepreneurs sign up planning webinars but never execute them"
+    },
+    {
+      "name": "SEO Tools - SEMrush Pro Subscription",
+      "category": "Software",
+      "accuracy": 0.88,
+      "review_keywords": [
+        "trial",
+        "data",
+        "overwhelming",
+        "expensive",
+        "cancelled",
+        "unused",
+        "complex"
+      ],
+      "context_keywords": [
+        "free trial",
+        "didn't understand",
+        "too advanced"
+      ],
+      "exclusion_keywords": [
+        "rankings",
+        "implemented"
+      ],
+      "why": "Website owners sign up for SEO tools but don't understand how to use the data"
+    },
+    {
+      "name": "Accounting Software - QuickBooks Online Plus",
+      "category": "Software",
+      "accuracy": 0.87,
+      "review_keywords": [
+        "trial",
+        "bookkeeping",
+        "complicated",
+        "unused",
+        "expensive",
+        "cancelled",
+        "confusing"
+      ],
+      "context_keywords": [
+        "signed up",
+        "too complex",
+        "didn't set up"
+      ],
+      "exclusion_keywords": [
+        "integrated",
+        "accounting"
+      ],
+      "why": "Small business owners upgrade accounting software but stick with basic spreadsheets"
+    },
+    {
+      "name": "Marketing Automation - HubSpot Starter Plan",
+      "category": "Software",
+      "accuracy": 0.86,
+      "review_keywords": [
+        "trial",
+        "automation",
+        "setup",
+        "complicated",
+        "unused",
+        "cancelled",
+        "overwhelming"
+      ],
+      "context_keywords": [
+        "free trial",
+        "didn't implement",
+        "too advanced"
+      ],
+      "exclusion_keywords": [
+        "workflows",
+        "leads"
+      ],
+      "why": "Marketers sign up for automation tools but don't set up complex workflows"
+    },
+    {
+      "name": "Video Editing Software - Final Cut Pro",
+      "category": "Software",
+      "accuracy": 0.85,
+      "review_keywords": [
+        "expensive",
+        "complicated",
+        "learning",
+        "curve",
+        "unused",
+        "returned",
+        "difficult"
+      ],
+      "context_keywords": [
+        "bought",
+        "didn't learn",
+        "too complex"
+      ],
+      "exclusion_keywords": [
+        "professional",
+        "projects"
+      ],
+      "why": "Content creators buy professional video software but abandon due to complexity"
+    },
+    {
+      "name": "Website Builder - Squarespace Commerce Plan",
+      "category": "Software",
+      "accuracy": 0.84,
+      "review_keywords": [
+        "trial",
+        "website",
+        "didn't",
+        "launch",
+        "expensive",
+        "cancelled",
+        "unused"
+      ],
+      "context_keywords": [
+        "signed up",
+        "never published",
+        "didn't finish"
+      ],
+      "exclusion_keywords": [
+        "live site",
+        "customers"
+      ],
+      "why": "Aspiring entrepreneurs sign up for e-commerce plans but never launch stores"
+    },
+    {
+      "name": "Survey Software - SurveyMonkey Premier",
+      "category": "Software",
+      "accuracy": 0.83,
+      "review_keywords": [
+        "trial",
+        "survey",
+        "didn't",
+        "send",
+        "expensive",
+        "cancelled",
+        "unused"
+      ],
+      "context_keywords": [
+        "free trial",
+        "never used",
+        "didn't need"
+      ],
+      "exclusion_keywords": [
+        "responses",
+        "data"
+      ],
+      "why": "Researchers sign up for advanced survey tools but never conduct surveys"
+    },
+    {
+      "name": "Password Manager - 1Password Business",
+      "category": "Software",
+      "accuracy": 0.82,
+      "review_keywords": [
+        "trial",
+        "setup",
+        "complicated",
+        "didn't",
+        "migrate",
+        "cancelled",
+        "unused"
+      ],
+      "context_keywords": [
+        "signed up",
+        "didn't set up",
+        "too complex"
+      ],
+      "exclusion_keywords": [
+        "team",
+        "implemented"
+      ],
+      "why": "Security-conscious users sign up but don't complete password migration process"
+    },
+    {
+      "name": "Cloud Storage - Dropbox Professional Plan",
+      "category": "Software",
+      "accuracy": 0.81,
+      "review_keywords": [
+        "trial",
+        "storage",
+        "expensive",
+        "didn't",
+        "need",
+        "cancelled",
+        "unused"
+      ],
+      "context_keywords": [
+        "free trial",
+        "basic plan",
+        "downgraded"
+      ],
+      "exclusion_keywords": [
+        "collaboration",
+        "synced"
+      ],
+      "why": "Users upgrade cloud storage but realize basic free plans meet their needs"
+    },
+    {
+      "name": "Time Tracking Software - Toggl Track Pro",
+      "category": "Software",
+      "accuracy": 0.8,
+      "review_keywords": [
+        "trial",
+        "tracking",
+        "forgot",
+        "use",
+        "cancelled",
+        "habit",
+        "unused"
+      ],
+      "context_keywords": [
+        "signed up",
+        "didn't stick",
+        "forgot"
+      ],
+      "exclusion_keywords": [
+        "billable",
+        "productivity"
+      ],
+      "why": "Freelancers sign up for time tracking but fail to develop consistent usage habits"
+    },
+    {
+      "name": "Social Listening Tools - Brandwatch Consumer Research",
+      "category": "Software",
+      "accuracy": 0.79,
+      "review_keywords": [
+        "trial",
+        "data",
+        "overwhelming",
+        "expensive",
+        "cancelled",
+        "complicated",
+        "unused"
+      ],
+      "context_keywords": [
+        "free trial",
+        "too advanced",
+        "didn't understand"
+      ],
+      "exclusion_keywords": [
+        "insights",
+        "monitoring"
+      ],
+      "why": "Marketers sign up for social listening but don't understand complex analytics"
+    },
+    {
+      "name": "Business Intelligence - Tableau Creator License",
+      "category": "Software",
+      "accuracy": 0.78,
+      "review_keywords": [
+        "trial",
+        "complex",
+        "learning",
+        "expensive",
+        "cancelled",
+        "difficult",
+        "unused"
+      ],
+      "context_keywords": [
+        "signed up",
+        "too advanced",
+        "didn't learn"
+      ],
+      "exclusion_keywords": [
+        "dashboards",
+        "analytics"
+      ],
+      "why": "Data enthusiasts sign up for BI tools but lack skills for complex visualization"
+    }
+  ],
+  "subreddits": [
+    {
+      "name": "Entrepreneur",
+      "relevance": 0.92,
+      "member_type": "80% aspiring entrepreneurs who research but don't execute",
+      "data_value": "Patterns of enthusiasm followed by analysis paralysis",
+      "why": "Heavy on idea discussion, light on execution posts"
+    },
+    {
+      "name": "startups",
+      "relevance": 0.9,
+      "member_type": "75% wannabe founders researching startup life",
+      "data_value": "Shows interest in startup culture without actual startup experience",
+      "why": "Lots of questions about starting, few posts about actually running businesses"
+    },
+    {
+      "name": "marketing",
+      "relevance": 0.88,
+      "member_type": "70% marketing enthusiasts without implementation experience",
+      "data_value": "Interest in marketing tactics without execution stories",
+      "why": "Theory-heavy discussions with limited practical implementation"
+    },
+    {
+      "name": "digitalnomad",
+      "relevance": 0.85,
+      "member_type": "60% aspiring nomads researching the lifestyle",
+      "data_value": "Planning and dreaming posts without location independence",
+      "why": "More posts about wanting the lifestyle than living it"
+    },
+    {
+      "name": "passive_income",
+      "relevance": 0.87,
+      "member_type": "85% seeking passive income without building systems",
+      "data_value": "High interest in income streams, low follow-through",
+      "why": "Constant searching for opportunities without execution"
+    },
+    {
+      "name": "webdev",
+      "relevance": 0.83,
+      "member_type": "65% learning web development but not building projects",
+      "data_value": "Tutorial consumption without portfolio development",
+      "why": "Many questions about learning, fewer posts about shipping projects"
+    },
+    {
+      "name": "freelance",
+      "relevance": 0.81,
+      "member_type": "70% considering freelancing without client acquisition",
+      "data_value": "Preparation focus without actual freelancing activity",
+      "why": "Lots of setup questions, minimal client work stories"
+    },
+    {
+      "name": "ecommerce",
+      "relevance": 0.79,
+      "member_type": "75% researching e-commerce without launching stores",
+      "data_value": "Platform comparison without actual store creation",
+      "why": "Heavy research phase without store launches"
+    },
+    {
+      "name": "socialmediamarketing",
+      "relevance": 0.84,
+      "member_type": "70% interested in SMM without managing accounts",
+      "data_value": "Strategy interest without campaign execution",
+      "why": "Tool research and strategy posts without implementation"
+    },
+    {
+      "name": "dropship",
+      "relevance": 0.82,
+      "member_type": "80% researching dropshipping without starting",
+      "data_value": "Heavy research phase with minimal actual store launches",
+      "why": "Endless product research without store creation"
+    },
+    {
+      "name": "SEO",
+      "relevance": 0.8,
+      "member_type": "65% learning SEO without implementing strategies",
+      "data_value": "Tool research without actual optimization work",
+      "why": "Theory and tool discussions without ranking improvements"
+    },
+    {
+      "name": "podcasting",
+      "relevance": 0.78,
+      "member_type": "70% planning podcasts without launching shows",
+      "data_value": "Equipment and planning posts without actual episodes",
+      "why": "Lots of preparation posts, fewer actual podcast launches"
+    },
+    {
+      "name": "coursecreators",
+      "relevance": 0.77,
+      "member_type": "75% planning online courses without creating content",
+      "data_value": "Course planning without actual course launches",
+      "why": "Platform research and planning without content creation"
+    },
+    {
+      "name": "AffiliateMarketing",
+      "relevance": 0.76,
+      "member_type": "80% researching affiliate marketing without promoting products",
+      "data_value": "Strategy research without actual promotion campaigns",
+      "why": "Lots of program research, minimal promotion activity"
+    },
+    {
+      "name": "bloggingtips",
+      "relevance": 0.75,
+      "member_type": "70% wanting to start blogs without consistent posting",
+      "data_value": "Setup and strategy interest without content creation habits",
+      "why": "Platform setup discussions without consistent publishing"
+    }
+  ],
+  "demographic_profile": {
+    "core_keywords": [
+      "sign-up",
+      "trial",
+      "interested",
+      "researching",
+      "planning",
+      "considering",
+      "thinking about",
+      "want to",
+      "hoping to",
+      "someday",
+      "eventually",
+      "when I",
+      "overwhelmed",
+      "complicated",
+      "didn't have time"
+    ],
+    "exclusion_keywords": [
+      "implemented",
+      "launched",
+      "live",
+      "customers",
+      "revenue",
+      "team",
+      "scaling",
+      "automated"
+    ],
+    "age_range": "25-45",
+    "primary_motivations": [
+      "learning and improving",
+      "finding easier solutions",
+      "avoiding complexity",
+      "maintaining optionality"
+    ],
+    "summary": "This demographic consists of motivated individuals who actively seek tools and opportunities for improvement but struggle with follow-through due to complexity, time constraints, or analysis paralysis. They are genuine in their initial interest and often invest time in research and sign-ups, but lack the sustained commitment or technical confidence needed for implementation. Their behavior reflects a pattern of enthusiasm followed by abandonment when faced with real-world complexity or time investment requirements."
+  }
+}

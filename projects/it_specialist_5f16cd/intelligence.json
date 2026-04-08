@@ -1,0 +1,598 @@
+{
+  "products": [
+    {
+      "name": "CompTIA Network+ Certification Study Guide",
+      "category": "Books",
+      "accuracy": 0.95,
+      "review_keywords": [
+        "certification",
+        "exam",
+        "networking",
+        "study",
+        "practice",
+        "questions",
+        "career"
+      ],
+      "context_keywords": [
+        "work",
+        "corporate",
+        "enterprise",
+        "infrastructure"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "beginner"
+      ],
+      "why": "IT specialists buy these for professional certification advancement and career growth"
+    },
+    {
+      "name": "Cable Matters 24 Port Cat6 Patch Panel",
+      "category": "Electronics",
+      "accuracy": 0.94,
+      "review_keywords": [
+        "rack",
+        "datacenter",
+        "installation",
+        "wiring",
+        "professional",
+        "network",
+        "enterprise"
+      ],
+      "context_keywords": [
+        "server",
+        "infrastructure",
+        "deployment",
+        "client"
+      ],
+      "exclusion_keywords": [
+        "home",
+        "personal"
+      ],
+      "why": "Network infrastructure equipment purchased by IT professionals for business deployments"
+    },
+    {
+      "name": "VMware vSphere 8 Administration Training",
+      "category": "Software",
+      "accuracy": 0.93,
+      "review_keywords": [
+        "virtualization",
+        "vmware",
+        "training",
+        "professional",
+        "certification",
+        "enterprise",
+        "datacenter"
+      ],
+      "context_keywords": [
+        "work",
+        "company",
+        "infrastructure",
+        "production"
+      ],
+      "exclusion_keywords": [
+        "hobby",
+        "home"
+      ],
+      "why": "Enterprise virtualization training specifically for working IT professionals"
+    },
+    {
+      "name": "Fluke Networks Cable Tester Pro",
+      "category": "Electronics",
+      "accuracy": 0.92,
+      "review_keywords": [
+        "testing",
+        "cable",
+        "network",
+        "troubleshooting",
+        "professional",
+        "certification",
+        "installation"
+      ],
+      "context_keywords": [
+        "job",
+        "client",
+        "site",
+        "deployment"
+      ],
+      "exclusion_keywords": [
+        "learning",
+        "school"
+      ],
+      "why": "Professional network testing equipment used by working IT specialists"
+    },
+    {
+      "name": "ITIL 4 Foundation Certification Guide",
+      "category": "Books",
+      "accuracy": 0.91,
+      "review_keywords": [
+        "ITIL",
+        "service",
+        "management",
+        "framework",
+        "certification",
+        "best",
+        "practices"
+      ],
+      "context_keywords": [
+        "workplace",
+        "processes",
+        "enterprise",
+        "operations"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "beginner"
+      ],
+      "why": "IT service management certification for experienced IT professionals"
+    },
+    {
+      "name": "Cisco ASA Firewall Configuration Commands Reference",
+      "category": "Books",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "cisco",
+        "firewall",
+        "configuration",
+        "commands",
+        "security",
+        "ASA",
+        "network"
+      ],
+      "context_keywords": [
+        "production",
+        "enterprise",
+        "infrastructure",
+        "deployment"
+      ],
+      "exclusion_keywords": [
+        "learning",
+        "student"
+      ],
+      "why": "Technical reference for IT professionals managing Cisco security infrastructure"
+    },
+    {
+      "name": "Dell PowerEdge Server Rack Rails Kit",
+      "category": "Electronics",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "server",
+        "rack",
+        "installation",
+        "datacenter",
+        "mounting",
+        "enterprise",
+        "hardware"
+      ],
+      "context_keywords": [
+        "deployment",
+        "infrastructure",
+        "production",
+        "work"
+      ],
+      "exclusion_keywords": [
+        "home",
+        "learning"
+      ],
+      "why": "Enterprise server hardware accessories for professional IT deployments"
+    },
+    {
+      "name": "Microsoft Azure Administrator Certification AZ-104",
+      "category": "Software",
+      "accuracy": 0.89,
+      "review_keywords": [
+        "azure",
+        "cloud",
+        "microsoft",
+        "certification",
+        "administrator",
+        "professional",
+        "exam"
+      ],
+      "context_keywords": [
+        "career",
+        "workplace",
+        "enterprise",
+        "production"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "personal"
+      ],
+      "why": "Cloud certification for working IT professionals managing Azure environments"
+    },
+    {
+      "name": "APC Smart-UPS 1500VA Rackmount",
+      "category": "Electronics",
+      "accuracy": 0.89,
+      "review_keywords": [
+        "UPS",
+        "power",
+        "backup",
+        "server",
+        "rackmount",
+        "enterprise",
+        "reliability"
+      ],
+      "context_keywords": [
+        "datacenter",
+        "production",
+        "infrastructure",
+        "business"
+      ],
+      "exclusion_keywords": [
+        "home",
+        "personal"
+      ],
+      "why": "Enterprise power protection equipment for professional server environments"
+    },
+    {
+      "name": "Wireshark Network Protocol Analyzer Cookbook",
+      "category": "Books",
+      "accuracy": 0.88,
+      "review_keywords": [
+        "wireshark",
+        "protocol",
+        "analysis",
+        "troubleshooting",
+        "network",
+        "packets",
+        "debugging"
+      ],
+      "context_keywords": [
+        "work",
+        "enterprise",
+        "production",
+        "issues"
+      ],
+      "exclusion_keywords": [
+        "learning",
+        "school"
+      ],
+      "why": "Advanced network troubleshooting reference for working network administrators"
+    },
+    {
+      "name": "Panduit Cable Management System",
+      "category": "Electronics",
+      "accuracy": 0.87,
+      "review_keywords": [
+        "cable",
+        "management",
+        "rack",
+        "organization",
+        "professional",
+        "installation",
+        "datacenter"
+      ],
+      "context_keywords": [
+        "deployment",
+        "infrastructure",
+        "client",
+        "project"
+      ],
+      "exclusion_keywords": [
+        "home",
+        "personal"
+      ],
+      "why": "Professional cable management for enterprise IT installations"
+    },
+    {
+      "name": "Red Hat Enterprise Linux Administration Guide",
+      "category": "Books",
+      "accuracy": 0.87,
+      "review_keywords": [
+        "linux",
+        "redhat",
+        "administration",
+        "enterprise",
+        "server",
+        "management",
+        "professional"
+      ],
+      "context_keywords": [
+        "production",
+        "enterprise",
+        "infrastructure",
+        "operations"
+      ],
+      "exclusion_keywords": [
+        "hobby",
+        "learning"
+      ],
+      "why": "Enterprise Linux administration reference for professional system administrators"
+    },
+    {
+      "name": "HPE ProLiant Server Memory Upgrade Kit",
+      "category": "Electronics",
+      "accuracy": 0.86,
+      "review_keywords": [
+        "server",
+        "memory",
+        "RAM",
+        "upgrade",
+        "enterprise",
+        "performance",
+        "HPE"
+      ],
+      "context_keywords": [
+        "production",
+        "infrastructure",
+        "deployment",
+        "client"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "personal"
+      ],
+      "why": "Enterprise server hardware upgrades for professional IT environments"
+    },
+    {
+      "name": "Kubernetes Administrator Certification Study Guide",
+      "category": "Books",
+      "accuracy": 0.85,
+      "review_keywords": [
+        "kubernetes",
+        "container",
+        "orchestration",
+        "certification",
+        "devops",
+        "cloud",
+        "administration"
+      ],
+      "context_keywords": [
+        "work",
+        "enterprise",
+        "production",
+        "deployment"
+      ],
+      "exclusion_keywords": [
+        "hobby",
+        "personal"
+      ],
+      "why": "Container orchestration certification for professional DevOps and IT specialists"
+    },
+    {
+      "name": "Juniper Networks Router Configuration Manual",
+      "category": "Books",
+      "accuracy": 0.85,
+      "review_keywords": [
+        "juniper",
+        "router",
+        "configuration",
+        "networking",
+        "enterprise",
+        "BGP",
+        "OSPF"
+      ],
+      "context_keywords": [
+        "production",
+        "enterprise",
+        "infrastructure",
+        "deployment"
+      ],
+      "exclusion_keywords": [
+        "learning",
+        "home"
+      ],
+      "why": "Professional networking equipment configuration guide for enterprise IT specialists"
+    },
+    {
+      "name": "Splunk Enterprise Security Implementation Guide",
+      "category": "Software",
+      "accuracy": 0.84,
+      "review_keywords": [
+        "splunk",
+        "security",
+        "SIEM",
+        "monitoring",
+        "enterprise",
+        "logs",
+        "analysis"
+      ],
+      "context_keywords": [
+        "production",
+        "enterprise",
+        "security",
+        "operations"
+      ],
+      "exclusion_keywords": [
+        "learning",
+        "personal"
+      ],
+      "why": "Enterprise security monitoring software for professional security and IT teams"
+    },
+    {
+      "name": "Terraform Infrastructure as Code Cookbook",
+      "category": "Books",
+      "accuracy": 0.83,
+      "review_keywords": [
+        "terraform",
+        "infrastructure",
+        "code",
+        "automation",
+        "cloud",
+        "devops",
+        "deployment"
+      ],
+      "context_keywords": [
+        "work",
+        "production",
+        "enterprise",
+        "automation"
+      ],
+      "exclusion_keywords": [
+        "hobby",
+        "learning"
+      ],
+      "why": "Infrastructure automation guide for professional DevOps and cloud engineers"
+    },
+    {
+      "name": "StarTech 42U Server Rack Cabinet",
+      "category": "Electronics",
+      "accuracy": 0.82,
+      "review_keywords": [
+        "rack",
+        "server",
+        "cabinet",
+        "datacenter",
+        "mounting",
+        "enterprise",
+        "installation"
+      ],
+      "context_keywords": [
+        "datacenter",
+        "infrastructure",
+        "deployment",
+        "business"
+      ],
+      "exclusion_keywords": [
+        "home",
+        "personal"
+      ],
+      "why": "Professional server rack equipment for enterprise datacenter deployments"
+    }
+  ],
+  "subreddits": [
+    {
+      "name": "sysadmin",
+      "relevance": 0.95,
+      "member_type": "90% working system administrators and IT professionals",
+      "data_value": "Real workplace IT problems, solutions, and professional frustrations",
+      "why": "Primary community for working system administrators sharing professional experiences"
+    },
+    {
+      "name": "vmware",
+      "relevance": 0.92,
+      "member_type": "85% enterprise IT professionals using VMware",
+      "data_value": "Enterprise virtualization troubleshooting and deployment strategies",
+      "why": "Professional VMware administrators discussing production environment issues"
+    },
+    {
+      "name": "networking",
+      "relevance": 0.9,
+      "member_type": "80% working network engineers and administrators",
+      "data_value": "Enterprise networking problems, configurations, and best practices",
+      "why": "Network professionals sharing real-world infrastructure challenges and solutions"
+    },
+    {
+      "name": "PowerShell",
+      "relevance": 0.88,
+      "member_type": "75% IT professionals using PowerShell for automation",
+      "data_value": "Workplace automation scripts and Windows administration techniques",
+      "why": "IT professionals sharing PowerShell solutions for enterprise environments"
+    },
+    {
+      "name": "kubernetes",
+      "relevance": 0.87,
+      "member_type": "80% DevOps engineers and platform administrators",
+      "data_value": "Production Kubernetes deployment patterns and troubleshooting",
+      "why": "Professional container orchestration administrators sharing enterprise experiences"
+    },
+    {
+      "name": "Cisco",
+      "relevance": 0.86,
+      "member_type": "75% network engineers working with Cisco equipment",
+      "data_value": "Enterprise Cisco configuration and troubleshooting scenarios",
+      "why": "Professional network engineers managing Cisco enterprise infrastructure"
+    },
+    {
+      "name": "homelab",
+      "relevance": 0.85,
+      "member_type": "70% IT professionals building personal labs",
+      "data_value": "Professional IT specialists experimenting with enterprise technologies at home",
+      "why": "IT professionals building home laboratories to test enterprise technologies"
+    },
+    {
+      "name": "ITCareerQuestions",
+      "relevance": 0.84,
+      "member_type": "60% current IT professionals, 40% aspiring",
+      "data_value": "Career progression paths and workplace challenges in IT",
+      "why": "IT professionals discussing career advancement and workplace situations"
+    },
+    {
+      "name": "linuxadmin",
+      "relevance": 0.83,
+      "member_type": "80% professional Linux system administrators",
+      "data_value": "Enterprise Linux administration challenges and solutions",
+      "why": "Professional Linux administrators managing production enterprise systems"
+    },
+    {
+      "name": "aws",
+      "relevance": 0.82,
+      "member_type": "75% cloud professionals using AWS",
+      "data_value": "Production AWS deployment patterns and cost optimization strategies",
+      "why": "Cloud professionals managing enterprise AWS environments and services"
+    },
+    {
+      "name": "CompTIA",
+      "relevance": 0.8,
+      "member_type": "65% working IT professionals pursuing certifications",
+      "data_value": "Professional development and certification experiences in IT",
+      "why": "IT professionals advancing careers through industry certifications"
+    },
+    {
+      "name": "msp",
+      "relevance": 0.79,
+      "member_type": "85% managed service provider IT staff",
+      "data_value": "Multi-client IT management strategies and business insights",
+      "why": "IT professionals working at managed service providers serving multiple clients"
+    },
+    {
+      "name": "cybersecurity",
+      "relevance": 0.78,
+      "member_type": "70% working security professionals",
+      "data_value": "Enterprise security challenges, threats, and defensive strategies",
+      "why": "Security professionals discussing real-world enterprise threat landscapes"
+    },
+    {
+      "name": "devops",
+      "relevance": 0.77,
+      "member_type": "75% DevOps engineers and platform teams",
+      "data_value": "Enterprise CI/CD pipelines, automation, and deployment strategies",
+      "why": "DevOps professionals sharing enterprise automation and deployment experiences"
+    },
+    {
+      "name": "activedirectory",
+      "relevance": 0.76,
+      "member_type": "80% Windows system administrators",
+      "data_value": "Enterprise Active Directory management and troubleshooting",
+      "why": "Windows administrators managing enterprise Active Directory environments"
+    }
+  ],
+  "demographic_profile": {
+    "core_keywords": [
+      "infrastructure",
+      "enterprise",
+      "deployment",
+      "production",
+      "certification",
+      "troubleshooting",
+      "automation",
+      "security",
+      "monitoring",
+      "scalability",
+      "compliance",
+      "optimization",
+      "integration",
+      "administration",
+      "configuration"
+    ],
+    "exclusion_keywords": [
+      "student",
+      "learning",
+      "beginner",
+      "hobby",
+      "personal",
+      "gaming",
+      "consumer",
+      "casual"
+    ],
+    "age_range": "25-55",
+    "primary_motivations": [
+      "Professional certification advancement",
+      "Enterprise infrastructure reliability",
+      "Automation and efficiency optimization",
+      "Security and compliance requirements"
+    ],
+    "summary": "IT Specialists are experienced technology professionals responsible for maintaining, securing, and optimizing enterprise infrastructure and systems. They are driven by the need to ensure business continuity, meet compliance requirements, and advance their careers through continuous learning and certification. They are frustrated by budget constraints, legacy system limitations, and the constant pressure to do more with less while maintaining 24/7 system availability."
+  }
+}

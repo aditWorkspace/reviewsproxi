@@ -1,0 +1,1997 @@
+{
+  "chosen_n_clusters": 3,
+  "sweep_results": [
+    {
+      "k": 3,
+      "silhouette": 0.5328208804130554,
+      "intra_similarity": 0.7342501878738403,
+      "inter_distance": 0.8146849870681763,
+      "combined_score": 0.649622493982315
+    },
+    {
+      "k": 4,
+      "silhouette": 0.4317598044872284,
+      "intra_similarity": 0.7481942027807236,
+      "inter_distance": 0.6921170949935913,
+      "combined_score": 0.5787615820765495
+    },
+    {
+      "k": 5,
+      "silhouette": 0.39631620049476624,
+      "intra_similarity": 0.7575921535491943,
+      "inter_distance": 0.6113505363464355,
+      "combined_score": 0.5477058535814285
+    },
+    {
+      "k": 6,
+      "silhouette": 0.3832882046699524,
+      "intra_similarity": 0.7661749958992005,
+      "inter_distance": 0.6392310857772827,
+      "combined_score": 0.5493428182601928
+    },
+    {
+      "k": 7,
+      "silhouette": 0.3856303095817566,
+      "intra_similarity": 0.8064171075820923,
+      "inter_distance": 0.6447099447250366,
+      "combined_score": 0.5636822760105132
+    },
+    {
+      "k": 8,
+      "silhouette": 0.36277422308921814,
+      "intra_similarity": 0.7724046011765798,
+      "inter_distance": 0.5707222819328308,
+      "combined_score": 0.5272529482841493
+    },
+    {
+      "k": 9,
+      "silhouette": 0.3638845384120941,
+      "intra_similarity": 0.8307318240404129,
+      "inter_distance": 0.608199954032898,
+      "combined_score": 0.5528018072247505
+    },
+    {
+      "k": 10,
+      "silhouette": 0.36241307854652405,
+      "intra_similarity": 0.8193844386509487,
+      "inter_distance": 0.5783306360244751,
+      "combined_score": 0.5426879980734416
+    }
+  ],
+  "quality_metrics": {
+    "silhouette": 0.5328208804130554,
+    "intra_similarity": 0.7342501878738403,
+    "inter_distance": 0.8146849870681763,
+    "combined_score": 0.649622493982315,
+    "stability_ari": 0.9144,
+    "stability_label": "high"
+  },
+  "cluster_0": {
+    "member_count": 3,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Over-reliance on exotic or hard-to-find ingredients",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Complicated or time-consuming preparation processes",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Unclear or hard-to-follow recipes",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Lack of accurate or helpful visuals",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Insufficient depth in core subject matter",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Disconnect between promises and actual content",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Poor editing or factual errors",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Clear, easy-to-follow guidance",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Versatile and practical content",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Comprehensive coverage of a specific topic",
+            "priority": 0.8
+          },
+          {
+            "outcome": "High-quality visual aids and photography",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Reliability and accuracy of information",
+            "priority": 0.9
+          },
+          {
+            "outcome": "New or innovative ideas to solve problems",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Cultural or historical authenticity",
+            "priority": 0.75
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Solves a specific problem or need",
+            "context": "Looking for pizza dough recipes or need a travel guide for Paris"
+          },
+          {
+            "trigger": "Expands on a successful previous purchase",
+            "context": "Follow-up to a book in a series or by the same author"
+          },
+          {
+            "trigger": "Recommended for beginners or as a gift",
+            "context": "Book is described as good for new bakers or college students"
+          },
+          {
+            "trigger": "High perceived value and utility",
+            "context": "Book is seen as a go-to reference or comprehensive guide"
+          },
+          {
+            "trigger": "Nostalgia or personal connection",
+            "context": "Personal memories of a place or cuisine"
+          },
+          {
+            "trigger": "Positive reviews or word-of-mouth",
+            "context": "Comparison to other popular works in the genre"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Content lacks depth or is too narrow",
+            "severity": 0.7
+          },
+          {
+            "objection": "Ingredients are inaccessible to average user",
+            "severity": 0.8
+          },
+          {
+            "objection": "Product is overpriced or poor value",
+            "severity": 0.6
+          },
+          {
+            "objection": "Information is outdated or incorrect",
+            "severity": 0.75
+          },
+          {
+            "objection": "Overly commercial with constant upselling",
+            "severity": 0.65
+          },
+          {
+            "objection": "Design hinders usability",
+            "severity": 0.6
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "General cookbooks",
+            "reason": "Need specialized content for a niche",
+            "threshold": "Lack of specific recipes or techniques"
+          },
+          {
+            "from_product": "Previous book in a series",
+            "reason": "Quality or focus has declined",
+            "threshold": "Plot becomes implausible or characters become unlikable"
+          },
+          {
+            "from_product": "Basic reference guides",
+            "reason": "Need more advanced or detailed information",
+            "threshold": "Insufficient depth in concept review"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Accuracy and reliability of content",
+          "Practicality and ease of use",
+          "Depth and comprehensiveness",
+          "Value for money",
+          "Visual quality and design",
+          "Authenticity and cultural relevance",
+          "Novelty and uniqueness of ideas"
+        ],
+        "deal_breakers": [
+          "Critical factual errors or poor editing",
+          "Inaccessible core ingredients or requirements",
+          "Misleading marketing or false promises",
+          "Extremely poor usability or design",
+          "Complete lack of value for the price"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Inaccuracy and lack of trust in the source material",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Insufficient or misleading practical guidance and training techniques",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Missing or outdated supplemental materials (e.g., CD)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Confusing, unclear, or conflicting instructions",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Content that is unrealistic, over-the-top, or not reflective of current experience",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Use of unhealthy or non-organic ingredients in health-focused books",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Recipes that are time-consuming, impractical, or yield insufficient portions",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Lack of critical information (e.g., sodium content, sugar alternatives)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Poor visual aids: lack of pictures, color, or clear weed/plant identification",
+            "emotional_intensity": 0.55
+          },
+          {
+            "signal": "Reliance on potentially toxic materials (plastic, aluminum, newspaper with lead) in organic gardening",
+            "emotional_intensity": 0.85
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Accurate, trustworthy, and well-researched information",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Clear, concise, and practical step-by-step guidance",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Easy-to-follow recipes and techniques using accessible ingredients",
+            "priority": 0.85
+          },
+          {
+            "outcome": "In-depth reference material that is comprehensive and well-organized",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Health-focused content promoting organic, non-toxic, and sustainable practices",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Visually appealing materials with color pictures and clear illustrations",
+            "priority": 0.65
+          },
+          {
+            "outcome": "Time-efficient and practical solutions with adequate yields",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Materials that enhance learning and motivation, not just theory",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for a comprehensive reference or resource",
+            "context": "Professional or personal use (e.g., nurse practitioner, dog boarder, developer)"
+          },
+          {
+            "trigger": "Positive reviews and recommendations",
+            "context": "Researching books with good feedback before purchase"
+          },
+          {
+            "trigger": "Updated or new edition of a trusted resource",
+            "context": "Seeking current information in a field"
+          },
+          {
+            "trigger": "Specific topic interest (e.g., gut-brain connection, zero waste, Tudor history)",
+            "context": "Personal passion or lifestyle alignment"
+          },
+          {
+            "trigger": "Desire for healthy, organic, or sustainable living guidance",
+            "context": "Health concerns or environmental values"
+          },
+          {
+            "trigger": "Need for easy-to-understand, beginner-friendly material",
+            "context": "Starting a new hobby or learning a new skill"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Content is inaccurate or misleading",
+            "severity": 0.9
+          },
+          {
+            "objection": "Lacks practical, actionable techniques",
+            "severity": 0.8
+          },
+          {
+            "objection": "Missing critical supplemental materials (CD, pictures)",
+            "severity": 0.85
+          },
+          {
+            "objection": "Promotes unhealthy ingredients (e.g., sugar, salt, processed foods) in health contexts",
+            "severity": 0.75
+          },
+          {
+            "objection": "Confusing or contradictory instructions",
+            "severity": 0.7
+          },
+          {
+            "objection": "Unrealistic or outdated content",
+            "severity": 0.65
+          },
+          {
+            "objection": "Insufficient portion sizes or time-consuming recipes",
+            "severity": 0.6
+          },
+          {
+            "objection": "Poor visual presentation (no color, few pictures)",
+            "severity": 0.55
+          },
+          {
+            "objection": "Uses non-organic or toxic materials in organic guidance",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Books with inaccurate content",
+            "reason": "Loss of trust and need for reliable information",
+            "threshold": "Immediate upon identifying inaccuracies"
+          },
+          {
+            "from_product": "Books lacking practical guidance",
+            "reason": "Need actionable steps over theory",
+            "threshold": "After initial assessment reveals insufficient techniques"
+          },
+          {
+            "from_product": "Health books promoting unhealthy ingredients",
+            "reason": "Contradiction with personal health values",
+            "threshold": "Upon discovery of incompatible recommendations"
+          },
+          {
+            "from_product": "Books with confusing instructions",
+            "reason": "Frustration and inability to apply content",
+            "threshold": "After repeated attempts to follow unclear guidance"
+          },
+          {
+            "from_product": "Books missing critical supplements (e.g., CD)",
+            "reason": "Rendered useless without key components",
+            "threshold": "Immediate upon realizing material is unavailable"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Accuracy and trustworthiness",
+          "Practicality and actionable guidance",
+          "Comprehensiveness and depth of information",
+          "Health and safety alignment (organic, non-toxic)",
+          "Clarity and organization",
+          "Visual appeal and presentation",
+          "Portion size and time efficiency",
+          "Price and value"
+        ],
+        "deal_breakers": [
+          "Inaccurate or misleading information",
+          "Missing critical supplemental materials",
+          "Promotion of unhealthy practices in health contexts",
+          "Use of toxic materials in organic guidance",
+          "Complete lack of practical application"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Complicated, non-linear narratives requiring excessive cognitive effort to follow",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Slow-moving plots that feel like a chore to read",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Unclear or shallow explanations that fail to impart useful knowledge",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Excessive character angst and internal monologue detracting from plot",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Poor editing, wordiness, and lack of conciseness wasting reader's time",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Genre or content misclassification leading to mismatched expectations",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Unbelievable plot points and coincidences breaking suspension of disbelief",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Lack of likeable or memorable characters reducing engagement",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Repetitive or derivative content lacking originality",
+            "emotional_intensity": 0.55
+          },
+          {
+            "signal": "Inadequate illustrations or definitions failing to clarify concepts",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Entertaining, easy-to-read escape reading with straightforward narratives",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Clear, concise explanations that impart practical knowledge or skills",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Well-developed, engaging characters and professional writing",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Satisfying, logical endings with solid motives and plot coherence",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Fast-moving, page-turning plots that hold reader's interest",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Innovative, memorable stories with twisty, surprising plots",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Accurate genre classification meeting specific reading preferences",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Useful reference material with detailed, factual information and good indexing",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Inspiring ideas and creative building instructions for hands-on projects",
+            "priority": 0.65
+          },
+          {
+            "outcome": "Pleasant, low-key humor and immersive setting details",
+            "priority": 0.55
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Positive reviews or labels (e.g., 'funniest mystery of the year')",
+            "context": "External recommendation or award"
+          },
+          {
+            "trigger": "Interest in specific genres (e.g., cozy mystery, police procedural, supernatural thriller)",
+            "context": "Genre preference"
+          },
+          {
+            "trigger": "New entry in a beloved series by a favorite author",
+            "context": "Series loyalty"
+          },
+          {
+            "trigger": "Promise of practical knowledge (e.g., coding, building, historical insight)",
+            "context": "Skill or knowledge acquisition"
+          },
+          {
+            "trigger": "Fascination with specific topics (e.g., Star Wars, LEGO, sports fandom)",
+            "context": "Topic enthusiasm"
+          },
+          {
+            "trigger": "Standalone capability despite being part of a series",
+            "context": "Accessibility without prior commitment"
+          },
+          {
+            "trigger": "Professional writing and well-developed characters praised in descriptions",
+            "context": "Quality assurance"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Multiple viewpoint characters and shifting timelines making narrative confusing",
+            "severity": 0.85
+          },
+          {
+            "objection": "Slow pacing and excessive description causing boredom",
+            "severity": 0.8
+          },
+          {
+            "objection": "Shallow, elementary content failing to deliver promised depth",
+            "severity": 0.7
+          },
+          {
+            "objection": "Unbelievable plots with too many coincidences",
+            "severity": 0.75
+          },
+          {
+            "objection": "Excessive character angst and internal monologue",
+            "severity": 0.7
+          },
+          {
+            "objection": "Poor editing, wordiness, and unnecessary length",
+            "severity": 0.65
+          },
+          {
+            "objection": "Misclassification as mystery/thriller when actually literary fiction",
+            "severity": 0.8
+          },
+          {
+            "objection": "Lack of likeable characters reducing emotional investment",
+            "severity": 0.6
+          },
+          {
+            "objection": "Inadequate illustrations or definitions in reference works",
+            "severity": 0.55
+          },
+          {
+            "objection": "Derivative content rehashing previous plots without innovation",
+            "severity": 0.6
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Complex literary fiction",
+            "reason": "Preference for straightforward, entertaining narratives",
+            "threshold": "When reading feels like a demanding job"
+          },
+          {
+            "from_product": "Shallow reference books",
+            "reason": "Need for substantive, well-illustrated knowledge sources",
+            "threshold": "When definitions are unhelpful or overly basic"
+          },
+          {
+            "from_product": "Slow-paced cozies",
+            "reason": "Desire for faster-moving, engaging plots",
+            "threshold": "When boredom sets in due to lack of action"
+          },
+          {
+            "from_product": "Angst-heavy dramas",
+            "reason": "Preference for plot-driven stories over character introspection",
+            "threshold": "When internal monologue overwhelms the story"
+          },
+          {
+            "from_product": "Poorly edited lengthy novels",
+            "reason": "Frustration with wordiness and lack of conciseness",
+            "threshold": "When pacing suffers and confusion increases"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Plot coherence and narrative clarity",
+          "Pacing and entertainment value",
+          "Character development and likeability",
+          "Genre accuracy and meeting expectations",
+          "Writing quality and professionalism",
+          "Originality and innovation in storytelling",
+          "Practical utility and knowledge gain",
+          "Satisfying and logical conclusion",
+          "Humor and pleasant tone",
+          "Reference quality and detailed information"
+        ],
+        "deal_breakers": [
+          "Extremely confusing non-linear narratives with multiple timelines",
+          "Extremely slow pacing with minimal plot advancement",
+          "Complete genre misclassification (e.g., literary fiction sold as thriller)",
+          "Unbelievable plots reliant on excessive coincidences",
+          "Excessive length with poor editing and wordiness",
+          "Total lack of likeable or engaging characters",
+          "Shallow content failing to deliver on its promise"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 1.0,
+      "reddit": 0.0,
+      "csv": 0.0
+    },
+    "single_source_warning": true,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Over-reliance on exotic or hard-to-find ingredients",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "Complicated or time-consuming preparation processes",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "Unclear or hard-to-follow recipes",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "Lack of accurate or helpful visuals",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "Insufficient depth in core subject matter",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "Disconnect between promises and actual content",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "Poor editing or factual errors",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "Inaccuracy and lack of trust in the source material",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "Insufficient or misleading practical guidance and training techniques",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "Missing or outdated supplemental materials (e.g., CD)",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "Confusing, unclear, or conflicting instructions",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "Content that is unrealistic, over-the-top, or not reflective of current experience",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Clear, easy-to-follow guidance",
+          "count": 1,
+          "frequency": 0.04,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.12
+        },
+        {
+          "signal": "Versatile and practical content",
+          "count": 1,
+          "frequency": 0.04,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.12
+        },
+        {
+          "signal": "Comprehensive coverage of a specific topic",
+          "count": 1,
+          "frequency": 0.04,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.12
+        },
+        {
+          "signal": "High-quality visual aids and photography",
+          "count": 1,
+          "frequency": 0.04,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.12
+        },
+        {
+          "signal": "Reliability and accuracy of information",
+          "count": 1,
+          "frequency": 0.04,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.12
+        },
+        {
+          "signal": "New or innovative ideas to solve problems",
+          "count": 1,
+          "frequency": 0.04,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.12
+        },
+        {
+          "signal": "Cultural or historical authenticity",
+          "count": 1,
+          "frequency": 0.04,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.12
+        },
+        {
+          "signal": "Accurate, trustworthy, and well-researched information",
+          "count": 1,
+          "frequency": 0.04,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.12
+        },
+        {
+          "signal": "Clear, concise, and practical step-by-step guidance",
+          "count": 1,
+          "frequency": 0.04,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.12
+        },
+        {
+          "signal": "Easy-to-follow recipes and techniques using accessible ingredients",
+          "count": 1,
+          "frequency": 0.04,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.12
+        },
+        {
+          "signal": "In-depth reference material that is comprehensive and well-organized",
+          "count": 1,
+          "frequency": 0.04,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.12
+        },
+        {
+          "signal": "Health-focused content promoting organic, non-toxic, and sustainable practices",
+          "count": 1,
+          "frequency": 0.04,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.12
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Critical factual errors or poor editing",
+          "count": 1,
+          "frequency": 0.0588,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1765
+        },
+        {
+          "signal": "Inaccessible core ingredients or requirements",
+          "count": 1,
+          "frequency": 0.0588,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1765
+        },
+        {
+          "signal": "Misleading marketing or false promises",
+          "count": 1,
+          "frequency": 0.0588,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1765
+        },
+        {
+          "signal": "Extremely poor usability or design",
+          "count": 1,
+          "frequency": 0.0588,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1765
+        },
+        {
+          "signal": "Complete lack of value for the price",
+          "count": 1,
+          "frequency": 0.0588,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1765
+        },
+        {
+          "signal": "Inaccurate or misleading information",
+          "count": 1,
+          "frequency": 0.0588,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1765
+        },
+        {
+          "signal": "Missing critical supplemental materials",
+          "count": 1,
+          "frequency": 0.0588,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1765
+        },
+        {
+          "signal": "Promotion of unhealthy practices in health contexts",
+          "count": 1,
+          "frequency": 0.0588,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1765
+        },
+        {
+          "signal": "Use of toxic materials in organic guidance",
+          "count": 1,
+          "frequency": 0.0588,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1765
+        },
+        {
+          "signal": "Complete lack of practical application",
+          "count": 1,
+          "frequency": 0.0588,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1765
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Solves a specific problem or need",
+          "count": 1,
+          "frequency": 0.0526,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1579
+        },
+        {
+          "signal": "Expands on a successful previous purchase",
+          "count": 1,
+          "frequency": 0.0526,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1579
+        },
+        {
+          "signal": "Recommended for beginners or as a gift",
+          "count": 1,
+          "frequency": 0.0526,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1579
+        },
+        {
+          "signal": "High perceived value and utility",
+          "count": 1,
+          "frequency": 0.0526,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1579
+        },
+        {
+          "signal": "Nostalgia or personal connection",
+          "count": 1,
+          "frequency": 0.0526,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1579
+        },
+        {
+          "signal": "Positive reviews or word-of-mouth",
+          "count": 1,
+          "frequency": 0.0526,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1579
+        },
+        {
+          "signal": "Need for a comprehensive reference or resource",
+          "count": 1,
+          "frequency": 0.0526,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1579
+        },
+        {
+          "signal": "Positive reviews and recommendations",
+          "count": 1,
+          "frequency": 0.0526,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1579
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "medium": 0.333,
+        "low": 0.667
+      }
+    }
+  },
+  "cluster_1": {
+    "member_count": 25,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Complexity of regulatory requirements and compliance workflows",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Fear of errors leading to audits or fines",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Being locked into a vendor with forced upgrades",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Poor performance and bugginess in software",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Inadequate or non-existent technical documentation",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Poor or unhelpful customer support",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Software not intuitive, with steep learning curves",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Data integrity issues or errors in automated tracking",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Difficulty in migrating data between systems or versions",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Accurate and error-free compliance reporting",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Efficient and streamlined workflow automation",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Robust audit trail and documentation capabilities",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Software that is easy to learn and use",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Reliable performance and stability",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Ability to grow and adapt with changing business needs",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Trustworthy data handling and financial tracking",
+            "priority": 0.9
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to improve accuracy and reduce manual effort in compliance tasks",
+            "context": "Seeking to replace error-prone manual processes or outdated systems."
+          },
+          {
+            "trigger": "Previous vendor's product becomes obsolete or support ends",
+            "context": "Forced to upgrade or switch due to end-of-life or broken functionality."
+          },
+          {
+            "trigger": "Business expansion into new markets with different regulations",
+            "context": "Requiring new capabilities to handle increased regulatory complexity."
+          },
+          {
+            "trigger": "Negative audit finding or near-miss",
+            "context": "Reactive need to implement stronger compliance controls."
+          },
+          {
+            "trigger": "Recommendation from industry peer or consultant",
+            "context": "Seeking a proven solution trusted by other enterprises."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "High cost of ownership, including forced annual upgrades",
+            "severity": 0.8
+          },
+          {
+            "objection": "Poor or non-existent technical support",
+            "severity": 0.75
+          },
+          {
+            "objection": "Software is buggy and unstable",
+            "severity": 0.85
+          },
+          {
+            "objection": "Lack of adequate documentation or training materials",
+            "severity": 0.7
+          },
+          {
+            "objection": "Vendor lock-in with difficulty exporting data",
+            "severity": 0.8
+          },
+          {
+            "objection": "Steep learning curve and non-intuitive interface",
+            "severity": 0.65
+          },
+          {
+            "objection": "Inability to handle complex, non-standard scenarios",
+            "severity": 0.6
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Manual processes/spreadsheets",
+            "reason": "Errors, inefficiency, lack of audit trail",
+            "threshold": "Scale or regulatory scrutiny increases"
+          },
+          {
+            "from_product": "Legacy compliance software",
+            "reason": "Outdated, unsupported, lacks modern features",
+            "threshold": "Upgrade path is forced or cost-prohibitive"
+          },
+          {
+            "from_product": "Competitor product",
+            "reason": "Poor performance, bugs, bad support",
+            "threshold": "Loss of trust, critical failure"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Accuracy and reliability of compliance outputs",
+          "Ease of use and learning curve",
+          "Quality of technical support and documentation",
+          "Total cost of ownership and upgrade policy",
+          "Software stability and performance",
+          "Ability to automate and streamline workflows",
+          "Vendor reputation and industry trust",
+          "Data portability and avoidance of lock-in"
+        ],
+        "deal_breakers": [
+          "Critical data errors or loss of data integrity",
+          "Complete lack of responsive technical support",
+          "Inability to handle essential compliance workflows",
+          "Prohibitive or deceptive ongoing costs (forced upgrades)",
+          "Software is unusably slow or buggy"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Frustration with complex and non-intuitive initial setup",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Anxiety about data accuracy and avoiding audits",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Fear of missing regulatory updates or making compliance errors",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Disruption to existing workflows during integration",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Overwhelmed by volume and complexity of trade data to manage",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Difficulty in getting timely and effective technical support",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Concern about software being a 'black box' with unclear logic",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Inability to customize software to specific enterprise processes",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Absolute accuracy and reduction of compliance risk",
+            "priority": 1.0
+          },
+          {
+            "outcome": "Improved efficiency and time savings in daily workflows",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Clear audit trails and defensible documentation",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Seamless integration with existing enterprise systems",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Reliable, proactive customer support and training",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Staying current with changing global trade regulations",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Scalability to handle growing transaction volume",
+            "priority": 0.75
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Major audit finding or compliance failure with current process",
+            "context": "Post-audit review"
+          },
+          {
+            "trigger": "Expansion into new markets with unfamiliar regulations",
+            "context": "Geographic business expansion"
+          },
+          {
+            "trigger": "Increase in shipment/transaction volume overwhelming manual methods",
+            "context": "Business growth milestone"
+          },
+          {
+            "trigger": "Merger or acquisition requiring process standardization",
+            "context": "Corporate restructuring"
+          },
+          {
+            "trigger": "Upgrade cycle of a legacy or unsupported compliance system",
+            "context": "IT lifecycle management"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "High cost of implementation and ongoing licensing",
+            "severity": 0.8
+          },
+          {
+            "objection": "Perceived complexity and steep learning curve for team adoption",
+            "severity": 0.7
+          },
+          {
+            "objection": "Doubt about software's ability to handle company's specific, complex edge cases",
+            "severity": 0.8
+          },
+          {
+            "objection": "Concern about data security and sovereignty when using cloud features",
+            "severity": 0.9
+          },
+          {
+            "objection": "Fear of vendor lock-in and difficulty switching later",
+            "severity": 0.6
+          },
+          {
+            "objection": "Integration challenges with legacy ERP or logistics systems",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Manual Processes/Spreadsheets",
+            "reason": "Errors and inability to scale",
+            "threshold": "Critical error or missed deadline"
+          },
+          {
+            "from_product": "Previous Vendor Software",
+            "reason": "Poor customer support and lack of updates",
+            "threshold": "Repeated failure to resolve issues"
+          },
+          {
+            "from_product": "Previous Vendor Software",
+            "reason": "Lack of needed features (e.g., better reporting, specific regulation coverage)",
+            "threshold": "Feature gap causing operational inefficiency"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Accuracy and Reliability of Compliance Logic",
+          "Quality and Availability of Customer Support",
+          "Ease of Integration with Existing Systems",
+          "Depth of Feature Set for Specific Regulations",
+          "Total Cost of Ownership",
+          "User Interface and Ease of Training",
+          "Vendor Reputation and Stability",
+          "Scalability and Performance"
+        ],
+        "deal_breakers": [
+          "Inability to pass a rigorous compliance audit using the software's output",
+          "Lack of reliable, timely regulatory updates",
+          "Poor data security or non-compliance with enterprise IT policies",
+          "Exorbitant hidden costs or unpredictable pricing model"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Fear of tax audits and compliance failures causing financial/legal consequences",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Frustration with complex, inefficient compliance workflows slowing down business operations",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Anxiety about regulatory changes creating constant uncertainty",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Dissatisfaction with poor customer support when facing technical or compliance issues",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Distrust in software accuracy leading to manual verification efforts",
+            "emotional_intensity": 0.65
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Accurate compliance with regulatory requirements without manual intervention",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Efficient workflow automation that saves time and reduces errors",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Peace of mind through audit protection and reliable documentation",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Easy integration with existing financial systems and data sources",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Clear, actionable insights from compliance data to inform business decisions",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Switching from competitors due to poor user experience or reliability issues",
+            "context": "After experiencing repeated failures with existing compliance software"
+          },
+          {
+            "trigger": "Annual renewal or upgrade cycle for compliance tools",
+            "context": "When preparing for new fiscal year or regulatory changes"
+          },
+          {
+            "trigger": "Experiencing compliance scare or near-audit situation",
+            "context": "After discovering potential regulatory violations"
+          },
+          {
+            "trigger": "Company growth requiring more robust compliance solutions",
+            "context": "When expanding into new markets or product lines"
+          },
+          {
+            "trigger": "Recommendation from trusted professional network",
+            "context": "When colleagues or industry peers validate effectiveness"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Cost concerns compared to free or lower-priced alternatives",
+            "severity": 0.6
+          },
+          {
+            "objection": "Complex installation and integration with existing systems",
+            "severity": 0.55
+          },
+          {
+            "objection": "Poor customer support and minimal documentation",
+            "severity": 0.5
+          },
+          {
+            "objection": "Software bugs or glitches causing workflow disruptions",
+            "severity": 0.7
+          },
+          {
+            "objection": "Overly restrictive licensing terms and DRM issues",
+            "severity": 0.4
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Competitor compliance software",
+            "reason": "Poor user interface or difficult operation",
+            "threshold": "When daily workflow becomes significantly hampered"
+          },
+          {
+            "from_product": "Manual processes or spreadsheets",
+            "reason": "Increasing complexity and risk of human error",
+            "threshold": "When regulatory requirements exceed manual capacity"
+          },
+          {
+            "from_product": "Legacy systems",
+            "reason": "Inability to handle current regulatory changes",
+            "threshold": "When system cannot accommodate new compliance requirements"
+          },
+          {
+            "from_product": "Free alternatives",
+            "reason": "Lack of advanced features and audit protection",
+            "threshold": "When business growth requires professional-grade solutions"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Accuracy and reliability",
+          "Ease of use and workflow efficiency",
+          "Customer support quality",
+          "Integration capabilities",
+          "Cost-effectiveness",
+          "Audit protection features",
+          "Regulatory update frequency"
+        ],
+        "deal_breakers": [
+          "Software instability or frequent crashes",
+          "Inability to handle complex compliance scenarios",
+          "Poor data import/export functionality",
+          "Excessive hardware resource consumption",
+          "Unresponsive customer support"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Software compatibility issues and bugs disrupt workflow",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Complex pricing with hidden or add-on fees",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Software is unintuitive and not user-friendly for core tasks",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Poor quality or unresponsive technical support",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Difficult installation, activation, or upgrade processes",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Software is perceived as bloated, slow, or unstable",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Lack of adequate training or documentation for new users",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Guaranteed accuracy and compliance to avoid audits/penalties",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Efficiency and time savings in completing complex workflows",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Reliable, consistent performance with minimal bugs",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Clear, predictable, and justifiable total cost",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Seamless data import/export and system integration",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Accessible, knowledgeable support when needed",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Intuitive interface that reduces learning curve",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Mandated regulatory changes requiring updated software",
+            "context": "Annual compliance cycle"
+          },
+          {
+            "trigger": "System upgrade or replacement necessitating new compatible software",
+            "context": "IT infrastructure change"
+          },
+          {
+            "trigger": "Dissatisfaction with current vendor due to cost or performance issues",
+            "context": "Contract renewal period"
+          },
+          {
+            "trigger": "Recommendation from trusted professional network or positive long-term reviews",
+            "context": "Seeking proven solution"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Total cost of ownership is too high compared to value or alternatives",
+            "severity": 0.85
+          },
+          {
+            "objection": "Product is not compatible with existing enterprise systems (e.g., QuickBooks)",
+            "severity": 0.8
+          },
+          {
+            "objection": "Software changes are made without considering core professional user needs",
+            "severity": 0.75
+          },
+          {
+            "objection": "Concerns about data privacy, security, or excessive permissions",
+            "severity": 0.7
+          },
+          {
+            "objection": "Fear of being locked into a complex, buggy product with poor support",
+            "severity": 0.65
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Legacy or manual processes",
+            "reason": "Need for greater efficiency, accuracy, and audit trails",
+            "threshold": "Workload exceeds manual capacity or error rate becomes unacceptable"
+          },
+          {
+            "from_product": "Competitor product",
+            "reason": "Persistent bugs, rising costs, or poor support",
+            "threshold": "Frustration impacts core job performance or financials"
+          },
+          {
+            "from_product": "Lower-tier software",
+            "reason": "Need for more advanced features or enterprise-level integration",
+            "threshold": "Business growth or complexity outpaces current tool's capabilities"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Accuracy & Compliance Guarantee",
+          "Reliability & Stability",
+          "Total Cost of Ownership",
+          "Ease of Use & Implementation",
+          "Quality of Support",
+          "Integration Capabilities",
+          "Scalability for Growth"
+        ],
+        "deal_breakers": [
+          "Critical software bugs that prevent core functionality",
+          "Exorbitant or deceptive pricing model",
+          "Lack of compatibility with key enterprise systems",
+          "Poor data security or privacy practices",
+          "Unresponsive or unhelpful technical support"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Frustration with overly complex and expensive licensing/copy protection schemes",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "High time and effort required to uninstall/reconfigure competing products",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Fear of audits and penalties due to compliance errors",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Unclear or hidden subscription/expiration terms causing unexpected costs",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Difficulty integrating or syncing across platforms/systems",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Lack of adequate documentation or support for complex tasks",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Slow performance or system sluggishness during use",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Learning curve due to unfamiliar commands or interfaces",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Accuracy and reliability in compliance to avoid audits/penalties",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Efficiency through streamlined, automated workflows",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Integration with existing systems (e.g., accounting, ERP) for seamless data flow",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Comprehensive logging and reporting for audit trails and verification",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Simplicity and ease of use to minimize training time",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Transparent, predictable pricing without hidden fees",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Strong customer support and responsive technical assistance",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Dissatisfaction with current vendor's complexity, cost, or reliability",
+            "context": "Considering alternatives after negative experiences"
+          },
+          {
+            "trigger": "Need to comply with new or updated regulatory requirements",
+            "context": "Regulatory changes mandating system upgrades"
+          },
+          {
+            "trigger": "Recommendation from trusted professional network or reviews",
+            "context": "Seeking proven solutions in enterprise environments"
+          },
+          {
+            "trigger": "Desire for better integration with existing software ecosystem",
+            "context": "Inefficiencies from disjointed systems"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "High cost or unclear subscription/pricing model",
+            "severity": 0.8
+          },
+          {
+            "objection": "Complex installation, migration, or uninstallation processes",
+            "severity": 0.7
+          },
+          {
+            "objection": "Lack of backward compatibility with older systems/formats",
+            "severity": 0.6
+          },
+          {
+            "objection": "Inadequate documentation or support for enterprise needs",
+            "severity": 0.7
+          },
+          {
+            "objection": "Perceived risk of switching due to potential data loss or errors",
+            "severity": 0.75
+          },
+          {
+            "objection": "Requires significant training or change management",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Microsoft Office/legacy systems",
+            "reason": "Excessive cost, complex licensing, and privacy concerns",
+            "threshold": "Cost outweighs benefits; seeks simpler alternatives"
+          },
+          {
+            "from_product": "Competing compliance/tax software",
+            "reason": "Unreliable performance, hidden fees, or poor integration",
+            "threshold": "Critical failure or unmet core functionality"
+          },
+          {
+            "from_product": "Manual processes/spreadsheets",
+            "reason": "Risk of errors, inefficiency, and lack of audit trails",
+            "threshold": "Compliance demands exceed manual capability"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Accuracy and reliability",
+          "Integration capabilities",
+          "Cost transparency and value",
+          "Ease of use and learning curve",
+          "Quality of support and documentation",
+          "Performance and speed",
+          "Customization and flexibility"
+        ],
+        "deal_breakers": [
+          "Inability to ensure regulatory compliance accuracy",
+          "Hidden or unpredictable costs/subscriptions",
+          "Lack of integration with critical existing systems",
+          "Unreliable performance or frequent crashes",
+          "Poor customer support and documentation"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 1.0,
+      "reddit": 0.0,
+      "csv": 0.0
+    },
+    "single_source_warning": true,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Software fails to work as advertised or is completely unusable due to bugs, poor GUI design, or lack of support.",
+          "count": 1,
+          "frequency": 0.0057,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0171
+        },
+        {
+          "signal": "Hidden or unclear pricing, especially unexpected fees for essential features (e.g., state filing, Blu-ray creation).",
+          "count": 1,
+          "frequency": 0.0057,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0171
+        },
+        {
+          "signal": "Complex software requires significant expertise, creating a steep learning curve and high risk of user error.",
+          "count": 1,
+          "frequency": 0.0057,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0171
+        },
+        {
+          "signal": "Poor or non-existent customer support, especially when critical issues arise (e.g., activation failures, system crashes).",
+          "count": 1,
+          "frequency": 0.0057,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0171
+        },
+        {
+          "signal": "Software is unreliable, crashes frequently, corrupts files, or requires constant bug fixes and updates.",
+          "count": 1,
+          "frequency": 0.0057,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0171
+        },
+        {
+          "signal": "Forced, expensive upgrades that offer little new value, coupled with aggressive licensing/activation restrictions.",
+          "count": 1,
+          "frequency": 0.0057,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0171
+        },
+        {
+          "signal": "Software lacks interoperability, struggling with import/export of common file formats or data from other systems.",
+          "count": 1,
+          "frequency": 0.0057,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0171
+        },
+        {
+          "signal": "Software requires an internet connection to function, limiting usability in offline environments.",
+          "count": 1,
+          "frequency": 0.0057,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0171
+        },
+        {
+          "signal": "Frustration with overly complex and expensive licensing/copy protection schemes",
+          "count": 1,
+          "frequency": 0.0057,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0171
+        },
+        {
+          "signal": "High time and effort required to uninstall/reconfigure competing products",
+          "count": 1,
+          "frequency": 0.0057,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0171
+        },
+        {
+          "signal": "Fear of audits and penalties due to compliance errors",
+          "count": 1,
+          "frequency": 0.0057,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0229
+        },
+        {
+          "signal": "Unclear or hidden subscription/expiration terms causing unexpected costs",
+          "count": 1,
+          "frequency": 0.0057,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0171
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Seamless integration with existing enterprise systems",
+          "count": 2,
+          "frequency": 0.0124,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0311
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Poor data security and compliance certifications",
+          "count": 3,
+          "frequency": 0.0256,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0598
+        },
+        {
+          "signal": "Unreliable performance or frequent crashes",
+          "count": 2,
+          "frequency": 0.0171,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0427
+        },
+        {
+          "signal": "Unresponsive or ineffective customer support",
+          "count": 2,
+          "frequency": 0.0171,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0427
+        },
+        {
+          "signal": "Complete lack of responsive technical support",
+          "count": 2,
+          "frequency": 0.0171,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0427
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Dissatisfaction with current solution due to rising costs, hidden fees, or declining performance.",
+          "count": 1,
+          "frequency": 0.0084,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0252
+        },
+        {
+          "signal": "Need to solve a specific, high-stakes problem (e.g., tax filing, data recovery, security threat).",
+          "count": 1,
+          "frequency": 0.0084,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0252
+        },
+        {
+          "signal": "Positive reputation, reviews, or lab results indicating superior accuracy or reliability.",
+          "count": 1,
+          "frequency": 0.0084,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0252
+        },
+        {
+          "signal": "Availability of a free trial, discounted copy, or special offer to test the product.",
+          "count": 1,
+          "frequency": 0.0084,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0252
+        },
+        {
+          "signal": "Recommendation from trusted sources or professional recognition (e.g., industry standard).",
+          "count": 1,
+          "frequency": 0.0084,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0252
+        },
+        {
+          "signal": "Need for a permanent license over a subscription model to ensure long-term access and cost control.",
+          "count": 1,
+          "frequency": 0.0084,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0336
+        },
+        {
+          "signal": "Dissatisfaction with current vendor's complexity, cost, or reliability",
+          "count": 1,
+          "frequency": 0.0084,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0336
+        },
+        {
+          "signal": "Need to comply with new or updated regulatory requirements",
+          "count": 1,
+          "frequency": 0.0084,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0336
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "low": 1.0
+      }
+    }
+  },
+  "cluster_2": {
+    "member_count": 13,
+    "representative_batches": [
+      {
+        "signals": [
+          {
+            "signal_name": "Signal name (must be unique, descriptive, and concise)",
+            "evidence": [
+              "Exact quote from a review that supports this signal",
+              "Another exact quote from a different review that supports this signal"
+            ],
+            "confidence": "high/medium/low (based on strength and frequency of evidence)"
+          }
+        ],
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [],
+        "desired_outcomes": [],
+        "purchase_triggers": [],
+        "objections": [],
+        "switching_triggers": [],
+        "decision_factors_ranked": [],
+        "deal_breakers": [],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [],
+        "desired_outcomes": [],
+        "purchase_triggers": [],
+        "objections": [],
+        "switching_triggers": [],
+        "decision_factors_ranked": [],
+        "deal_breakers": [],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [],
+        "desired_outcomes": [],
+        "purchase_triggers": [],
+        "objections": [],
+        "switching_triggers": [],
+        "decision_factors_ranked": [],
+        "deal_breakers": [],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [],
+        "desired_outcomes": [],
+        "purchase_triggers": [],
+        "objections": [],
+        "switching_triggers": [],
+        "decision_factors_ranked": [],
+        "deal_breakers": [],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 1.0,
+      "reddit": 0.0,
+      "csv": 0.0
+    },
+    "single_source_warning": true,
+    "aggregate_signals": {
+      "top_pain_points": [],
+      "top_desired_outcomes": [],
+      "top_deal_breakers": [],
+      "top_purchase_triggers": [],
+      "dominant_friction_tolerance": "medium",
+      "friction_tolerance_distribution": {
+        "medium": 0.846,
+        "low": 0.154
+      }
+    }
+  }
+}

@@ -1,0 +1,565 @@
+{
+  "products": [
+    {
+      "name": "Fluke 87V True RMS Digital Multimeter",
+      "category": "Industrial_and_Scientific",
+      "accuracy": 0.97,
+      "review_keywords": [
+        "hazardous locations",
+        "ATEX rated",
+        "explosion proof",
+        "field testing",
+        "wellhead",
+        "downhole",
+        "electrical safety"
+      ],
+      "context_keywords": [
+        "rig",
+        "wellsite",
+        "upstream",
+        "drilling"
+      ],
+      "exclusion_keywords": [
+        "hobbyist",
+        "DIY"
+      ],
+      "why": "Professional-grade multimeters for hazardous oil/gas environments are almost exclusively purchased by field technicians and operators"
+    },
+    {
+      "name": "MSA Altair 4X Multi-Gas Detector",
+      "category": "Industrial_and_Scientific",
+      "accuracy": 0.96,
+      "review_keywords": [
+        "H2S detection",
+        "LEL monitoring",
+        "confined space",
+        "gas leak",
+        "calibration",
+        "bump test",
+        "OSHA compliant"
+      ],
+      "context_keywords": [
+        "wellhead",
+        "production",
+        "safety meeting",
+        "permit"
+      ],
+      "exclusion_keywords": [
+        "home use",
+        "general"
+      ],
+      "why": "Multi-gas detectors for petroleum environments are mandatory safety equipment bought by oil and gas workers"
+    },
+    {
+      "name": "Nomex IIIA FR Coveralls",
+      "category": "Clothing_Shoes_and_Jewelry",
+      "accuracy": 0.95,
+      "review_keywords": [
+        "flame resistant",
+        "arc rated",
+        "CAT 2",
+        "NFPA 2112",
+        "oil stains",
+        "durability",
+        "washing"
+      ],
+      "context_keywords": [
+        "field work",
+        "safety regulations",
+        "company requirements"
+      ],
+      "exclusion_keywords": [
+        "costume",
+        "mechanic"
+      ],
+      "why": "FR coveralls meeting petroleum industry standards are primarily purchased by oil and gas field workers for compliance"
+    },
+    {
+      "name": "Red Wing 2408 Steel Toe Work Boots",
+      "category": "Clothing_Shoes_and_Jewelry",
+      "accuracy": 0.93,
+      "review_keywords": [
+        "oil resistant sole",
+        "steel toe",
+        "slip resistant",
+        "long shifts",
+        "mud",
+        "chemical resistant",
+        "ASTM rated"
+      ],
+      "context_keywords": [
+        "rig work",
+        "twelve hour shifts",
+        "wellsite"
+      ],
+      "exclusion_keywords": [
+        "construction",
+        "warehouse"
+      ],
+      "why": "Heavy-duty work boots with oil-resistant features are essential gear purchased by field operations personnel"
+    },
+    {
+      "name": "Pelican 7600 Rechargeable Tactical Flashlight",
+      "category": "Tools_and_Home_Improvement",
+      "accuracy": 0.92,
+      "review_keywords": [
+        "intrinsically safe",
+        "explosion proof",
+        "night operations",
+        "inspection",
+        "bright beam",
+        "rechargeable",
+        "durable"
+      ],
+      "context_keywords": [
+        "night shift",
+        "equipment inspection",
+        "wellhead"
+      ],
+      "exclusion_keywords": [
+        "camping",
+        "security guard"
+      ],
+      "why": "Explosion-proof flashlights are specialized safety equipment required for oil and gas field operations"
+    },
+    {
+      "name": "Klein Tools 1000V Insulated Tool Set",
+      "category": "Tools_and_Home_Improvement",
+      "accuracy": 0.91,
+      "review_keywords": [
+        "high voltage",
+        "insulated",
+        "electrical work",
+        "safety rated",
+        "field maintenance",
+        "power systems"
+      ],
+      "context_keywords": [
+        "electrical maintenance",
+        "control systems",
+        "motor control"
+      ],
+      "exclusion_keywords": [
+        "residential",
+        "hobbyist"
+      ],
+      "why": "High-voltage insulated tools are professional equipment purchased by electrical technicians in oil and gas facilities"
+    },
+    {
+      "name": "Condor Tactical Rigger Belt",
+      "category": "Clothing_Shoes_and_Jewelry",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "tool belt",
+        "heavy duty",
+        "quick release",
+        "carabiner attachment",
+        "field gear",
+        "utility belt"
+      ],
+      "context_keywords": [
+        "rig work",
+        "tool carry",
+        "safety harness"
+      ],
+      "exclusion_keywords": [
+        "military",
+        "airsoft"
+      ],
+      "why": "Heavy-duty utility belts for carrying field tools and safety equipment are purchased by oil and gas workers"
+    },
+    {
+      "name": "Grundfos Submersible Water Pump Repair Manual",
+      "category": "Books",
+      "accuracy": 0.89,
+      "review_keywords": [
+        "pump maintenance",
+        "troubleshooting",
+        "field repair",
+        "downhole pumps",
+        "ESP systems",
+        "technical reference"
+      ],
+      "context_keywords": [
+        "production optimization",
+        "equipment failure",
+        "field service"
+      ],
+      "exclusion_keywords": [
+        "residential",
+        "pool"
+      ],
+      "why": "Specialized pump repair manuals for downhole equipment are purchased by production and maintenance technicians"
+    },
+    {
+      "name": "Toughbook CF-33 Rugged Tablet",
+      "category": "Electronics",
+      "accuracy": 0.88,
+      "review_keywords": [
+        "rugged",
+        "oil resistant",
+        "outdoor use",
+        "bright screen",
+        "glove compatible",
+        "field documentation"
+      ],
+      "context_keywords": [
+        "data collection",
+        "field reports",
+        "well logs"
+      ],
+      "exclusion_keywords": [
+        "office use",
+        "gaming"
+      ],
+      "why": "Rugged tablets for harsh outdoor environments are purchased by field personnel for data collection and documentation"
+    },
+    {
+      "name": "API RP 14C Recommended Practice Manual",
+      "category": "Books",
+      "accuracy": 0.87,
+      "review_keywords": [
+        "safety systems",
+        "API standards",
+        "process control",
+        "field operations",
+        "compliance",
+        "technical standards"
+      ],
+      "context_keywords": [
+        "regulatory compliance",
+        "safety systems",
+        "operations"
+      ],
+      "exclusion_keywords": [
+        "academic",
+        "general"
+      ],
+      "why": "API technical standards manuals are purchased by operations personnel for regulatory compliance and technical reference"
+    },
+    {
+      "name": "Draeger Tube Sampling Kit",
+      "category": "Industrial_and_Scientific",
+      "accuracy": 0.86,
+      "review_keywords": [
+        "gas detection",
+        "field sampling",
+        "chemical analysis",
+        "atmospheric testing",
+        "safety protocols"
+      ],
+      "context_keywords": [
+        "confined space entry",
+        "air monitoring",
+        "safety check"
+      ],
+      "exclusion_keywords": [
+        "laboratory",
+        "research"
+      ],
+      "why": "Field gas sampling equipment is purchased by safety personnel and operators for atmospheric monitoring"
+    },
+    {
+      "name": "Carhartt Insulated FR Jacket",
+      "category": "Clothing_Shoes_and_Jewelry",
+      "accuracy": 0.85,
+      "review_keywords": [
+        "flame resistant",
+        "warm",
+        "durable",
+        "outdoor work",
+        "oil field",
+        "winter conditions"
+      ],
+      "context_keywords": [
+        "cold weather operations",
+        "northern operations",
+        "winter shifts"
+      ],
+      "exclusion_keywords": [
+        "casual wear",
+        "hunting"
+      ],
+      "why": "FR-rated winter workwear is purchased by field workers in cold climate oil and gas operations"
+    },
+    {
+      "name": "Enerpac Hydraulic Hand Pump",
+      "category": "Tools_and_Home_Improvement",
+      "accuracy": 0.84,
+      "review_keywords": [
+        "high pressure",
+        "valve maintenance",
+        "field service",
+        "portable",
+        "hydraulic testing",
+        "pressure testing"
+      ],
+      "context_keywords": [
+        "valve repair",
+        "pressure testing",
+        "maintenance"
+      ],
+      "exclusion_keywords": [
+        "automotive",
+        "general"
+      ],
+      "why": "High-pressure hydraulic tools for valve and equipment maintenance are purchased by field service technicians"
+    },
+    {
+      "name": "Garmin inReach Satellite Communicator",
+      "category": "Electronics",
+      "accuracy": 0.83,
+      "review_keywords": [
+        "remote locations",
+        "emergency communication",
+        "GPS tracking",
+        "no cell service",
+        "safety device"
+      ],
+      "context_keywords": [
+        "remote wellsites",
+        "safety protocol",
+        "emergency contact"
+      ],
+      "exclusion_keywords": [
+        "hiking",
+        "adventure"
+      ],
+      "why": "Satellite communication devices are purchased by field workers operating in remote oil and gas locations"
+    },
+    {
+      "name": "Brady Lockout/Tagout Kit",
+      "category": "Industrial_and_Scientific",
+      "accuracy": 0.82,
+      "review_keywords": [
+        "LOTO",
+        "safety procedures",
+        "equipment lockout",
+        "maintenance safety",
+        "OSHA compliance"
+      ],
+      "context_keywords": [
+        "maintenance work",
+        "safety procedures",
+        "equipment isolation"
+      ],
+      "exclusion_keywords": [
+        "general industrial",
+        "manufacturing"
+      ],
+      "why": "LOTO safety equipment for energy isolation during maintenance is purchased by operations and maintenance personnel"
+    },
+    {
+      "name": "Bullard Hard Hat with Face Shield",
+      "category": "Industrial_and_Scientific",
+      "accuracy": 0.81,
+      "review_keywords": [
+        "impact protection",
+        "chemical splash",
+        "face protection",
+        "ANSI rated",
+        "adjustable",
+        "comfortable"
+      ],
+      "context_keywords": [
+        "safety requirements",
+        "PPE",
+        "head protection"
+      ],
+      "exclusion_keywords": [
+        "construction",
+        "general"
+      ],
+      "why": "Specialized hard hats with chemical protection are purchased by workers in oil and gas processing facilities"
+    },
+    {
+      "name": "Flowline Level Transmitter",
+      "category": "Industrial_and_Scientific",
+      "accuracy": 0.8,
+      "review_keywords": [
+        "tank gauging",
+        "level measurement",
+        "process control",
+        "field installation",
+        "calibration"
+      ],
+      "context_keywords": [
+        "tank farm",
+        "production monitoring",
+        "instrumentation"
+      ],
+      "exclusion_keywords": [
+        "water treatment",
+        "general"
+      ],
+      "why": "Specialized level measurement instruments for hydrocarbon storage are purchased by instrumentation technicians"
+    },
+    {
+      "name": "Salisbury Electrical Safety Gloves",
+      "category": "Industrial_and_Scientific",
+      "accuracy": 0.79,
+      "review_keywords": [
+        "electrical protection",
+        "high voltage",
+        "safety rated",
+        "insulated",
+        "electrical work",
+        "arc protection"
+      ],
+      "context_keywords": [
+        "electrical maintenance",
+        "power systems",
+        "motor control"
+      ],
+      "exclusion_keywords": [
+        "general electrical",
+        "residential"
+      ],
+      "why": "High-voltage electrical safety gloves are purchased by electrical technicians working on oil and gas facility power systems"
+    }
+  ],
+  "subreddits": [
+    {
+      "name": "oilandgasworkers",
+      "relevance": 0.95,
+      "member_type": "90% active field operations personnel",
+      "data_value": "Real-world operational challenges, equipment failures, safety incidents, and field-tested solutions",
+      "why": "Direct community of oil and gas field workers sharing operational experiences and technical advice"
+    },
+    {
+      "name": "roughnecks",
+      "relevance": 0.92,
+      "member_type": "85% drilling and production workers",
+      "data_value": "Drilling operations insights, rig life experiences, equipment performance in harsh conditions",
+      "why": "Drilling crew members and rig workers discussing day-to-day operations and equipment challenges"
+    },
+    {
+      "name": "upstream",
+      "relevance": 0.88,
+      "member_type": "80% upstream operations personnel",
+      "data_value": "Production optimization discussions, well performance issues, field development strategies",
+      "why": "Upstream oil and gas professionals sharing production operations and technical challenges"
+    },
+    {
+      "name": "instrumentation",
+      "relevance": 0.85,
+      "member_type": "70% process control technicians in oil/gas",
+      "data_value": "Control system troubleshooting, instrument calibration issues, automation challenges",
+      "why": "Instrumentation technicians frequently work in oil and gas facilities with specialized equipment"
+    },
+    {
+      "name": "industrialmaintenance",
+      "relevance": 0.8,
+      "member_type": "60% oil/gas maintenance workers",
+      "data_value": "Equipment reliability issues, maintenance strategies, parts sourcing challenges",
+      "why": "Maintenance professionals with significant representation from oil and gas operations"
+    },
+    {
+      "name": "fieldservice",
+      "relevance": 0.78,
+      "member_type": "55% serving oil/gas industry",
+      "data_value": "Remote work challenges, equipment mobility issues, customer site experiences",
+      "why": "Field service technicians with many serving oil and gas customers in remote locations"
+    },
+    {
+      "name": "workplacesafety",
+      "relevance": 0.75,
+      "member_type": "50% from high-hazard industries including oil/gas",
+      "data_value": "Safety protocol discussions, incident analysis, PPE effectiveness reviews",
+      "why": "Safety professionals with strong representation from oil and gas due to industry hazards"
+    },
+    {
+      "name": "electricians",
+      "relevance": 0.72,
+      "member_type": "40% industrial electricians including oil/gas",
+      "data_value": "Electrical system challenges, motor control issues, hazardous location equipment",
+      "why": "Industrial electricians frequently work in oil and gas facilities with specialized requirements"
+    },
+    {
+      "name": "ProcessControl",
+      "relevance": 0.7,
+      "member_type": "45% from oil/gas process facilities",
+      "data_value": "Control system optimization, process automation challenges, operator interface issues",
+      "why": "Process control engineers and operators with significant oil and gas industry participation"
+    },
+    {
+      "name": "machinists",
+      "relevance": 0.68,
+      "member_type": "35% serving oil/gas equipment manufacturing",
+      "data_value": "Custom part fabrication, equipment modification challenges, precision machining for critical components",
+      "why": "Machinists frequently manufacture and repair specialized oil and gas equipment components"
+    },
+    {
+      "name": "welding",
+      "relevance": 0.65,
+      "member_type": "40% pipeline and facility welders",
+      "data_value": "Pipeline welding challenges, pressure vessel repairs, field welding conditions",
+      "why": "Welders with significant participation from pipeline and facility construction/maintenance"
+    },
+    {
+      "name": "OSHA",
+      "relevance": 0.62,
+      "member_type": "30% from oil/gas industry",
+      "data_value": "Regulatory compliance challenges, inspection experiences, safety program development",
+      "why": "Safety professionals dealing with OSHA regulations heavily relevant to oil and gas operations"
+    },
+    {
+      "name": "remotework",
+      "relevance": 0.6,
+      "member_type": "25% from remote industrial operations",
+      "data_value": "Remote location challenges, communication issues, logistics and supply problems",
+      "why": "Remote workers including those at isolated oil and gas production sites"
+    },
+    {
+      "name": "BlueCollarWomen",
+      "relevance": 0.58,
+      "member_type": "20% from oil/gas operations",
+      "data_value": "Gender-specific workplace challenges, career development in male-dominated field environments",
+      "why": "Women working in blue-collar industries including oil and gas field operations"
+    },
+    {
+      "name": "WorkBoots",
+      "relevance": 0.55,
+      "member_type": "30% oil/gas workers due to specialized footwear needs",
+      "data_value": "Safety footwear performance, durability in harsh conditions, slip resistance on oily surfaces",
+      "why": "Workers requiring specialized safety footwear with oil and gas field workers being heavy participants"
+    }
+  ],
+  "demographic_profile": {
+    "core_keywords": [
+      "wellhead",
+      "production",
+      "field operations",
+      "safety procedures",
+      "equipment maintenance",
+      "downhole",
+      "upstream",
+      "rig work",
+      "hazardous locations",
+      "pressure testing",
+      "instrumentation",
+      "LOTO",
+      "confined space",
+      "API standards",
+      "PPE"
+    ],
+    "exclusion_keywords": [
+      "office",
+      "desk job",
+      "academic",
+      "theoretical",
+      "residential",
+      "hobby",
+      "DIY",
+      "student"
+    ],
+    "age_range": "25-55",
+    "primary_motivations": [
+      "safety and regulatory compliance",
+      "equipment reliability and durability",
+      "performance in harsh environmental conditions",
+      "cost-effectiveness over long service life"
+    ],
+    "summary": "Oil and gas field operations workers are hands-on professionals who work directly with production equipment, safety systems, and instrumentation in challenging outdoor environments across multiple geographic regions. They prioritize proven reliability, safety compliance, and durability when purchasing equipment, as equipment failure can result in safety hazards, environmental incidents, or costly production downtime. They are frustrated by equipment that fails prematurely in harsh conditions, lacks proper safety certifications, or requires frequent maintenance that disrupts operations."
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "id": "oil_&_gas_engineer_(exploration_&_production_offices)",
+  "label": "Oil & Gas Engineer (Exploration & Production Offices)",
+  "segment": {
+    "role": "Mid-career technical professional in high-stakes operations",
+    "tech_savviness": "medium",
+    "price_sensitivity": "low",
+    "risk_tolerance": "low",
+    "context": "Works in office environments tied to field operations where safety-critical decisions directly impact lives and multi-million dollar equipment. Operates under constant pressure to maintain operational excellence while navigating career uncertainty and industry outsourcing threats."
+  },
+  "goals": [
+    {
+      "goal": "Find reliable technical reference materials for quick troubleshooting decisions",
+      "priority": 5
+    },
+    {
+      "goal": "Identify clear career advancement pathways within oil & gas industry",
+      "priority": 4
+    },
+    {
+      "goal": "Access specialized training for complex process units like SRU and sour water strippers",
+      "priority": 4
+    },
+    {
+      "goal": "Research safety protocols and PPE requirements for different operational units",
+      "priority": 5
+    },
+    {
+      "goal": "Connect with industry professionals for networking and mentorship opportunities",
+      "priority": 3
+    },
+    {
+      "goal": "Stay updated on industry standards and best practices to maintain competitiveness",
+      "priority": 4
+    }
+  ],
+  "constraints": [
+    "Limited time during operational emergencies requiring immediate technical solutions",
+    "Geographic job scarcity requiring careful evaluation of relocation requirements",
+    "Lack of direct industry connections limiting access to insider knowledge",
+    "Uncertainty about transferable skills between different plants and operational scales"
+  ],
+  "decision_weights": {
+    "technical_knowledge_access": 0.125,
+    "career_entry_barriers": 0.125,
+    "geographic_mobility_requirements": 0.125,
+    "career_specialization_clarity": 0.125,
+    "operational_safety_information": 0.125,
+    "career_progression_pathways": 0.125,
+    "skills_transferability": 0.125,
+    "education_certification_requirements": 0.125
+  },
+  "behavioral_rules": [
+    "Immediately searches for author credentials and industry experience when evaluating technical content",
+    "Cross-references safety recommendations with multiple authoritative sources before implementation",
+    "Abandons resources that don't provide specific operational details like equipment configurations",
+    "Prioritizes content that addresses unit-specific scenarios over generic industry overviews",
+    "Seeks detailed compensation data and geographic requirements when researching career moves",
+    "Validates technical advice against personal experience with similar process upsets",
+    "Focuses on recent publication dates for regulatory and safety information",
+    "Compares training programs based on hands-on operational experience rather than classroom theory",
+    "Investigates company stability and offshoring policies before considering employment opportunities",
+    "Reviews peer feedback from engineers with similar operational backgrounds"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.367,
+    "trust_starting_point": 0.467,
+    "frustration_decay": 0.36
+  },
+  "deal_breakers": [
+    "Technical content that lacks specific operational context or real-world application",
+    "Career advice from sources without direct oil & gas industry experience",
+    "Safety recommendations that appear to prioritize cost-cutting over operational reliability",
+    "Training programs that emphasize computer-based learning over hands-on unit exploration",
+    "Resources that don't address the realities of offshore outsourcing impact on job security"
+  ],
+  "voice_sample": "I need access to reliable, hands-on engineering support and troubleshooting guidance because when we have a process upset in the SRU, there's no time to figure things out through trial and error. The dangerous work environment with toxic chemicals and high pressure means every decision has to be right the first time. I'm constantly worried about career progression and job security in this industry, especially with companies requiring engineering work without degree credentials and the ongoing concerns about offshoring jobs to India affecting plant safety. The fear of potential emergencies keeps me focused on finding clear procedures and communication to prevent mistakes, but it's frustrating when you can't find reliable technical information that applies to your specific unit configuration.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 25,
+    "pages_before_decision": 8,
+    "tab_behavior": "Opens multiple tabs to cross-reference technical information and verify sources",
+    "primary_device": "Desktop computer during office hours for detailed technical research",
+    "time_of_day": "Early morning before shift start and during scheduled maintenance windows"
+  },
+  "purchase_journey": {
+    "discovery": "Finds resources through industry forums during troubleshooting sessions or when facing specific operational challenges",
+    "evaluation": "Reviews technical depth first, then author credentials, followed by peer reviews from similar operational backgrounds",
+    "decision_moment": "Commits when content demonstrates clear applicability to specific process units and safety scenarios",
+    "post_purchase_expectation": "Expects immediate access to actionable technical guidance that prevents operational errors and supports career advancement"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Content provides specific operational details for complex process units",
+      "Author demonstrates direct experience with similar safety-critical operations",
+      "Resources offer clear career progression pathways with realistic requirements",
+      "Training emphasizes hands-on operational experience over theoretical knowledge"
+    ],
+    "abandons_when": [
+      "Technical content lacks specific unit configurations and troubleshooting scenarios",
+      "Career advice ignores geographic job scarcity and relocation realities",
+      "Safety information appears to prioritize cost efficiency over operational reliability",
+      "Resources don't address offshore outsourcing impact on job security"
+    ],
+    "trusts_when": [
+      "Technical expertise comes from engineers with proven operational track records",
+      "Safety recommendations prioritize zero incidents over cost considerations",
+      "Career guidance acknowledges industry barriers and provides realistic pathways",
+      "Training programs emphasize physical unit exploration and hands-on learning"
+    ],
+    "becomes_suspicious_when": [
+      "Technical advice seems to oversimplify complex safety-critical processes",
+      "Career guidance promises easy entry without acknowledging industry connection requirements",
+      "Safety recommendations appear to compromise engineering quality for cost savings",
+      "Training programs rely heavily on computer-based learning without operational context"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Access to reliable, hands-on engineering support and troubleshooting",
+      "Dangerous work environment with toxic chemicals, high pressure, and extreme heat",
+      "Clear career progression and job security in the oil & gas engineering field",
+      "Concerns about offshoring and outsourcing of engineering jobs to India affecting plant safety",
+      "Efficient, hands-on learning with minimal reliance on computer-based training",
+      "Clear procedures and communication to prevent mistakes",
+      "Fear of potential emergencies and uncertainty during critical incidents"
+    ],
+    "resonates_with": [
+      "Operational excellence and zero incidents",
+      "Technical reliability and proven expertise",
+      "Career stability with growth opportunities",
+      "Safety-first operational culture"
+    ],
+    "turned_off_by": [
+      "Cost-cutting that compromises safety",
+      "Generic training without operational context",
+      "Career advice that ignores industry barriers",
+      "Technical solutions that seem oversimplified"
+    ]
+  },
+  "inner_monologue_samples": [
+    "The price isn't the issue - if this training can help me handle SRU upsets more effectively, it's worth whatever it costs because mistakes in my job can literally kill people.",
+    "I see they have good reviews, but are these from actual field engineers who've dealt with H2S leaks and high-pressure situations, or just people who liked the presentation format?",
+    "This navigation is confusing and I don't have time to hunt around - when I'm researching emergency procedures, I need to find information fast and get back to monitoring the unit.",
+    "They want my personal information before showing me what training modules they offer? That's a red flag - legitimate technical resources should be transparent about their content.",
+    "Finally, someone who actually explains the specific PPE requirements for different units and why steel toes matter in certain configurations - this is exactly what I need."
+  ],
+  "anti_patterns": [
+    "Assuming they prioritize low cost over technical quality (contradicts low price sensitivity and safety focus from High-Risk Operational Stress cluster)",
+    "Offering generic career advice without industry context (contradicts Career Ambiguity cluster showing need for oil & gas specific guidance)",
+    "Presenting theoretical training without operational application (contradicts emphasis on hands-on learning from vocabulary data)",
+    "Ignoring safety concerns in favor of efficiency (contradicts High-Risk Operational Stress cluster priorities)",
+    "Dismissing offshore outsourcing concerns as unimportant (contradicts Offshoring Concern cluster representing 27.8% of behavioral patterns)"
+  ],
+  "traits": [
+    {
+      "label": "Career Ambiguity",
+      "description": "Individuals are uncertain about how to enter, advance, or navigate the technical and geographical complexities of the oil & gas operational field. They seek clarity on pathways, training, and stable, well-compensated roles but are frustrated by unclear requirements and barriers to entry.",
+      "key_phrases": [
+        "Uncertainty about optimal career paths",
+        "Difficulty breaking into the industry without prior oil field experience",
+        "Lack of clear pathways for entry or advancement without personal connections"
+      ],
+      "frequency": 0.5,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Offshoring Concern",
+      "description": "Users express frustration and skepticism about the impact of outsourcing engineering work to India and other offshore locations, citing concerns about safety risks, operational inefficiency, decreased technical quality, and personal job insecurity.",
+      "key_phrases": [
+        "Concerns about offshoring and outsourcing of engineering jobs to India affecting plant safety and operational effectiveness",
+        "Frustration with explaining basic engineering concepts to offshore staff, leading to errors",
+        "Feeling of job insecurity due to offshoring of engineering roles to India"
+      ],
+      "frequency": 0.278,
+      "tone": "frustrated",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "High-Risk Operational Stress",
+      "description": "This cluster reflects extreme concerns about dangerous work environments involving toxic chemicals, high pressure, and potential for fatal accidents, combined with stress from management pressure, poor communication, and dysfunctional team dynamics. Users are fundamentally driven by a need for absolute safety and reliability in life-or-death scenarios.",
+      "key_phrases": [
+        "Dangerous work environment with toxic chemicals, high pressure, and extreme heat",
+        "Potential for fatal accidents due to chemical exposure (e.g., HF acid, H2S leaks)",
+        "Operational safety with zero incidents or fatalities"
+      ],
+      "frequency": 0.167,
+      "tone": "frustrated",
+      "cluster_id": "cluster_3"
+    },
+    {
+      "label": "Balanced Evaluator",
+      "description": "This reviewer demonstrates a moderate willingness to tolerate minor product imperfections or process inconveniences, but expects a baseline level of quality and performance without a specific, overriding pain point or aspirational goal driving their decision.",
+      "key_phrases": [
+        "Aggregate signals:",
+        "dominant_friction_tolerance: medium",
+        "friction_tolerance_distribution: medium: 1.0"
+      ],
+      "frequency": 0.056,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_1"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 7,
+    "total": 1457,
+    "avg_rating": 4.17,
+    "avg_length": 1774,
+    "rating_distribution": {
+      "1": 23,
+      "5": 718,
+      "3": 347,
+      "2": 27,
+      "4": 342
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 257
+    },
+    "n_products": 5,
+    "top_products": {
+      "Drilling Fluids Technical Manual SPE": 300,
+      "Schlumberger Drilling Engineering Technology Handbook": 300,
+      "Weatherford Completion Tools Catalog 2024": 300,
+      "Halliburton Cementing Technology Manual": 300,
+      "unknown": 257
+    },
+    "low_rating_pct": 0.034,
+    "high_rating_pct": 0.728,
+    "n_sources": 2,
+    "issues": [
+      "Very few negative reviews \u2014 pain points may be underrepresented",
+      "Platform bias: amazon is 82% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 49
+  },
+  "demographic_description": "Holds roles like drilling engineer or completions engineer within exploration and production companies. Works in office environments tied to field operations and reviews product outputs after demonstrations or deployments. Provides feedback by suggesting additional use cases and improvements after seeing product capabilities.",
+  "generated_at": "2026-04-05T11:05:51.399205",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "0% grounded in cluster data",
+    "cluster_stability": "moderate"
+  }
+}

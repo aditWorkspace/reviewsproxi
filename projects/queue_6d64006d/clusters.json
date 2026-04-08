@@ -1,0 +1,2896 @@
+{
+  "chosen_n_clusters": 4,
+  "sweep_results": [
+    {
+      "k": 3,
+      "silhouette": 0.1574726551771164,
+      "intra_similarity": 0.5548282365004221,
+      "inter_distance": 0.5588365793228149,
+      "combined_score": 0.3569521144032478
+    },
+    {
+      "k": 4,
+      "silhouette": 0.18601197004318237,
+      "intra_similarity": 0.705672025680542,
+      "inter_distance": 0.7604315876960754,
+      "combined_score": 0.45679391026496885
+    },
+    {
+      "k": 5,
+      "silhouette": 0.1456928849220276,
+      "intra_similarity": 0.6887016057968139,
+      "inter_distance": 0.6651707887649536,
+      "combined_score": 0.41249108195304873
+    },
+    {
+      "k": 6,
+      "silhouette": 0.16041481494903564,
+      "intra_similarity": 0.6771160463492075,
+      "inter_distance": 0.6043100357055664,
+      "combined_score": 0.4042042285203934
+    },
+    {
+      "k": 7,
+      "silhouette": 0.16272442042827606,
+      "intra_similarity": 0.6815172944750104,
+      "inter_distance": 0.5663182735443115,
+      "combined_score": 0.3990810532655034
+    },
+    {
+      "k": 8,
+      "silhouette": 0.16943871974945068,
+      "intra_similarity": 0.6954211667180061,
+      "inter_distance": 0.5589163899421692,
+      "combined_score": 0.40512898787856105
+    },
+    {
+      "k": 9,
+      "silhouette": 0.16170969605445862,
+      "intra_similarity": 0.7073377701971266,
+      "inter_distance": 0.5695846080780029,
+      "combined_score": 0.40697310070196785
+    },
+    {
+      "k": 10,
+      "silhouette": 0.14941172301769257,
+      "intra_similarity": 0.6884558141231537,
+      "inter_distance": 0.5234087705612183,
+      "combined_score": 0.3859243598580361
+    }
+  ],
+  "quality_metrics": {
+    "silhouette": 0.18601197004318237,
+    "intra_similarity": 0.705672025680542,
+    "inter_distance": 0.7604315876960754,
+    "combined_score": 0.45679391026496885,
+    "stability_ari": 0.5574,
+    "stability_label": "moderate"
+  },
+  "cluster_0": {
+    "member_count": 8,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Entry-level supply chain roles are scarce and competitive, making career entry difficult",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Feeling overqualified for entry-level warehouse/associate roles after obtaining certifications/degrees",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "High turnover and poor job stability in freight brokerage roles",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Companies replacing full-time roles with temporary contracts",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Industry uncertainty and potential instability due to tariff changes",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Obtain logistics experience to advance in supply chain career",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Find an entry point that provides relevant experience without starting at warehouse level",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Secure stable employment with growth opportunities in logistics/operations",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Gain practical, hands-on experience to complement theoretical knowledge",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Build career credibility through frontline operational experience",
+            "priority": 0.75
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Career advancement opportunities",
+            "context": "Looking to move into logistics/operations roles from entry-level positions"
+          },
+          {
+            "trigger": "Need for practical industry experience",
+            "context": "Recent graduates or certification holders seeking hands-on experience"
+          },
+          {
+            "trigger": "Desire to enter supply chain field with limited opportunities",
+            "context": "Job seekers facing competitive entry-level market"
+          },
+          {
+            "trigger": "Seeking alternative to warehouse work",
+            "context": "Professionals looking for non-physical entry points into logistics"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Having to accept roles perceived as beneath qualification level",
+            "severity": 0.7
+          },
+          {
+            "objection": "Low starting pay in logistics entry-level positions",
+            "severity": 0.6
+          },
+          {
+            "objection": "Grinding nature of freight brokerage/sales roles with high pressure",
+            "severity": 0.65
+          },
+          {
+            "objection": "Physical demands of warehouse work for those seeking analytical roles",
+            "severity": 0.5
+          },
+          {
+            "objection": "Temporary/contract nature of available positions",
+            "severity": 0.6
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Traditional warehouse roles",
+            "reason": "Seek roles with better career progression and less physical labor",
+            "threshold": "When certification/education completed"
+          },
+          {
+            "from_product": "Freight brokerage",
+            "reason": "High turnover and pressure, seek more stable operations roles",
+            "threshold": "After gaining initial experience"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Career growth potential",
+          "Practical experience gained",
+          "Job stability",
+          "Work environment/culture",
+          "Compensation",
+          "Work-life balance",
+          "Physical demands"
+        ],
+        "deal_breakers": [
+          "No clear career progression path",
+          "Purely physical labor with no analytical component",
+          "Extremely high turnover environment",
+          "Temporary/contract-only positions",
+          "Unethical business practices"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Difficulty finding a job after obtaining certification, feeling unprepared for the labor market",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Frustration with expectations to start in warehouse or manual labor roles despite certification",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Concern about the value of certifications without practical experience",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Anxiety about the lack of clarity on career path and advancement opportunities",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Need to understand the importance of gaining experience on the shop floor",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Secure a role that leverages certification and avoids physical manual labor",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Find a career path in supply chain with growth potential",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Gain respect from peers and team members in the industry",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Identify specialized niches within SCMA that align with interests",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Obtain a role that involves cognitive effort rather than manual labor",
+            "priority": 0.9
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for practical knowledge and experience to complement certification",
+            "context": "Entry-level job search in supply chain and logistics"
+          },
+          {
+            "trigger": "Advice from experienced professionals to start with warehouse or operational roles",
+            "context": "Career planning post-certification"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Certification alone does not guarantee job placement or bypass manual labor roles",
+            "severity": 0.8
+          },
+          {
+            "objection": "Lack of experience can lead to underemployment and starting at the bottom",
+            "severity": 0.7
+          },
+          {
+            "objection": "Industry values practical experience over certifications and degrees",
+            "severity": 0.75
+          },
+          {
+            "objection": "Unwillingness to start in warehouse roles limits opportunities",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Certification as primary qualification",
+            "reason": "Lack of job opportunities and expectation mismatch",
+            "threshold": "After realizing certification alone doesn't open doors"
+          },
+          {
+            "from_product": "Expectation for clerical roles post-certification",
+            "reason": "Advice to consider warehouse roles for experience",
+            "threshold": "When advised by industry professionals on necessity of shop floor experience"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Practical experience in logistics operations",
+          "Ability to gain respect from team members",
+          "Clarity on career advancement path",
+          "Alignment of role with certification knowledge",
+          "Need for mentorship and on-the-job learning"
+        ],
+        "deal_breakers": [
+          "Starting in a role that involves only manual labor with no growth path",
+          "Industry expectation to work in a warehouse without leveraging certification",
+          "Lack of respect or acknowledgment of certification efforts"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Competition with over-qualified candidates (MBAs, multiple certifications, degrees) in a tough job market",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Lack of practical, hands-on logistics/supply chain experience despite education/certifications",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Difficulty getting a foot in the door for office/strategic roles without prior warehouse/floor experience",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Certifications (like CSCP) not translating to job offers without real-world experience",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Need to start in manual labor/warehouse roles (e.g., forklift, box handling) to build credibility",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Frustration with unclear career progression from entry-level to strategic roles",
+            "emotional_intensity": 0.55
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Secure a strategic, data-driven role in supply chain (e.g., planner, analyst, manager)",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Gain respect and credibility by understanding ground-level operations",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Leverage education (MBA, certifications) effectively in hiring/promotions",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Transition from operational/warehouse roles to corporate/office positions within 1-2 years",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Build a versatile career with job security in logistics/supply chain",
+            "priority": 0.75
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Data-driven decision-making requiring practical tools/software",
+            "context": "When needing to optimize daily operational decisions with reliable data"
+          },
+          {
+            "trigger": "Need to replace inefficient or outdated logistics tools",
+            "context": "When current solutions cause delays, errors, or lack integration"
+          },
+          {
+            "trigger": "Expansion into new markets/regions requiring adaptable systems",
+            "context": "When scaling operations globally or entering new locales"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "High cost or complex implementation of new logistics software/platforms",
+            "severity": 0.7
+          },
+          {
+            "objection": "Integration challenges with existing legacy systems",
+            "severity": 0.8
+          },
+          {
+            "objection": "Lack of proven ROI or tangible efficiency gains",
+            "severity": 0.65
+          },
+          {
+            "objection": "Steep learning curve for teams adapting to new tools",
+            "severity": 0.6
+          },
+          {
+            "objection": "Concerns about data security and reliability in third-party solutions",
+            "severity": 0.75
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Legacy logistics software",
+            "reason": "Fails to provide real-time data or integration with modern systems",
+            "threshold": "When inefficiencies cause significant delays or cost overruns"
+          },
+          {
+            "from_product": "Manual/paper-based processes",
+            "reason": "Inability to scale or meet accuracy demands",
+            "threshold": "When error rates exceed acceptable limits or regulatory compliance is at risk"
+          },
+          {
+            "from_product": "Outdated tracking/visibility tools",
+            "reason": "Poor reliability leading to shipment delays or lost inventory",
+            "threshold": "When customer satisfaction drops due to tracking failures"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Real-world proven reliability and uptime",
+          "Integration capability with existing systems (ERP, TMS, etc.)",
+          "Data accuracy and real-time visibility",
+          "Cost-effectiveness and clear ROI",
+          "Scalability for global/regional operations",
+          "Ease of use and team adoption",
+          "Vendor support and training"
+        ],
+        "deal_breakers": [
+          "Inability to integrate with core legacy systems",
+          "Frequent downtime or unreliable data feeds",
+          "Lack of compliance with industry regulations (e.g., customs, safety)",
+          "Poor customer support or slow issue resolution",
+          "Hidden costs or unclear pricing structure"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Unclear career path or entry requirements",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Difficulty standing out to recruiters despite significant experience",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Frustration with lack of local entry-level opportunities (beyond warehouse labor)",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Concern about AI automating entry-level roles and impacting long-term career progression",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Transition from military logistics to civilian supply chain roles",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Enter the field without a college degree via certifications/alternative pathways",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Secure a mid-level career position after military/veteran experience",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Understand how to get noticed by recruiters and bypass automated filtering systems (ATS)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Gauge future job market stability and growth for supply chain/logistics roles",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [],
+        "objections": [],
+        "switching_triggers": [],
+        "decision_factors_ranked": [],
+        "deal_breakers": [],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Frustration with lack of job opportunities despite qualifications and willingness to learn",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Anxiety about career relevance due to AI and automation",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Difficulty transitioning roles or industries without relevant experience",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Skepticism about the value of formal networking and certifications compared to proven, practical results",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Feeling undervalued and filtered out by automated hiring systems (ATS) favoring degrees over deep experience",
+            "emotional_intensity": 0.9
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Secure a stable, data-driven role in supply chain/logistics (e.g., analyst, project management)",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Develop skills that remain strategically relevant amid AI/automation trends",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Build a lucrative freelance/consulting practice based on proven problem-solving ability",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Achieve career progression or transition (e.g., from procurement to demand planning)",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Gain recognition for practical, cost-saving solutions over theoretical credentials",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to solve a specific, immediate operational problem (e.g., RFID system integration)",
+            "context": "Initiating a project to correct years of losses."
+          },
+          {
+            "trigger": "Investment in skill development (certifications, advanced degrees) for career advancement",
+            "context": "Considering a Masters to enter the industry or transition roles."
+          },
+          {
+            "trigger": "Seeking tools that enhance data-driven decision-making (e.g., analytics software, AI tools)",
+            "context": "Preparing for strategic roles as tactical tasks are automated."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "High cost and complexity of integrating new technology (like AI) with existing business infrastructure",
+            "severity": 0.7
+          },
+          {
+            "objection": "Skepticism about AI's current capability to independently learn, adapt, and replace human roles",
+            "severity": 0.6
+          },
+          {
+            "objection": "Perceived inefficacy of formal networking events versus organic, reputation-based referrals",
+            "severity": 0.5
+          },
+          {
+            "objection": "Doubts that a single supplemental course will significantly impact hirability versus broad experience",
+            "severity": 0.4
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Traditional career pathways/certifications",
+            "reason": "Lack of tangible results/job leads; preference for proven, reputation-based work",
+            "threshold": "After repeated failure to gain traction despite credentials."
+          },
+          {
+            "from_product": "Manual/legacy operational systems",
+            "reason": "Need for efficiency, cost savings, and data integration",
+            "threshold": "When current processes cause sustained losses or inefficiency."
+          },
+          {
+            "from_product": "Current employer/role",
+            "reason": "Lack of internal mobility or strategic relevance",
+            "threshold": "When unable to transition to desired function (e.g., demand planning) internally."
+          }
+        ],
+        "decision_factors_ranked": [
+          "Proven problem-solving ability and results",
+          "Strategic relevance/future-proofing against automation",
+          "Cost-effectiveness and ROI of solution",
+          "Practical, hands-on experience",
+          "Data/AI integration capability",
+          "Professional network/referrals",
+          "Formal education/certifications"
+        ],
+        "deal_breakers": [
+          "Solutions that cannot integrate with existing, convoluted business infrastructure",
+          "Roles that are purely tactical/automation-prone without strategic upside",
+          "Hiring processes that filter out deep experience based solely on degree requirements",
+          "High-cost, low-ROI technology implementations"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.5,
+      "reddit": 0.5,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Need to transition career but lack clear path",
+          "count": 1,
+          "frequency": 0.0233,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0698
+        },
+        {
+          "signal": "Difficulty translating experience to other industries",
+          "count": 1,
+          "frequency": 0.0233,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.093
+        },
+        {
+          "signal": "Recruiters don't understand or value their skills properly",
+          "count": 1,
+          "frequency": 0.0233,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0698
+        },
+        {
+          "signal": "Industry-specific knowledge traps them in one sector",
+          "count": 1,
+          "frequency": 0.0233,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0698
+        },
+        {
+          "signal": "Hard skills like data engineering get less recognition than soft skills",
+          "count": 1,
+          "frequency": 0.0233,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0698
+        },
+        {
+          "signal": "Worried corporate may doubt their ability to follow through on projects",
+          "count": 1,
+          "frequency": 0.0233,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.093
+        },
+        {
+          "signal": "Frustration with lack of job opportunities despite qualifications and willingness to learn",
+          "count": 1,
+          "frequency": 0.0233,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0698
+        },
+        {
+          "signal": "Anxiety about career relevance due to AI and automation",
+          "count": 1,
+          "frequency": 0.0233,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0698
+        },
+        {
+          "signal": "Difficulty transitioning roles or industries without relevant experience",
+          "count": 1,
+          "frequency": 0.0233,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0698
+        },
+        {
+          "signal": "Skepticism about the value of formal networking and certifications compared to proven, practical results",
+          "count": 1,
+          "frequency": 0.0233,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0698
+        },
+        {
+          "signal": "Feeling undervalued and filtered out by automated hiring systems (ATS) favoring degrees over deep experience",
+          "count": 1,
+          "frequency": 0.0233,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0698
+        },
+        {
+          "signal": "Unclear career path or entry requirements",
+          "count": 1,
+          "frequency": 0.0233,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0698
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Career progression to regional/strategic roles",
+          "count": 1,
+          "frequency": 0.0238,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0714
+        },
+        {
+          "signal": "Transition to different industry while maintaining seniority",
+          "count": 1,
+          "frequency": 0.0238,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0714
+        },
+        {
+          "signal": "Get recognized and headhunted by recruiters",
+          "count": 1,
+          "frequency": 0.0238,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0714
+        },
+        {
+          "signal": "Gain visibility and thought leadership in procurement/SCM",
+          "count": 1,
+          "frequency": 0.0238,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0714
+        },
+        {
+          "signal": "Master universal SCM skills that transfer across industries",
+          "count": 1,
+          "frequency": 0.0238,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0714
+        },
+        {
+          "signal": "Prove ability to execute projects from start to finish",
+          "count": 1,
+          "frequency": 0.0238,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0714
+        },
+        {
+          "signal": "Secure a stable, data-driven role in supply chain/logistics (e.g., analyst, project management)",
+          "count": 1,
+          "frequency": 0.0238,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0714
+        },
+        {
+          "signal": "Develop skills that remain strategically relevant amid AI/automation trends",
+          "count": 1,
+          "frequency": 0.0238,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0714
+        },
+        {
+          "signal": "Build a lucrative freelance/consulting practice based on proven problem-solving ability",
+          "count": 1,
+          "frequency": 0.0238,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0714
+        },
+        {
+          "signal": "Achieve career progression or transition (e.g., from procurement to demand planning)",
+          "count": 1,
+          "frequency": 0.0238,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0714
+        },
+        {
+          "signal": "Gain recognition for practical, cost-saving solutions over theoretical credentials",
+          "count": 1,
+          "frequency": 0.0238,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0714
+        },
+        {
+          "signal": "Transition from military logistics to civilian supply chain roles",
+          "count": 1,
+          "frequency": 0.0238,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0714
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Roles that don't allow use of data/analytics skills",
+          "count": 1,
+          "frequency": 0.0345,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1034
+        },
+        {
+          "signal": "Positions requiring 90% hands-on work without strategic component",
+          "count": 1,
+          "frequency": 0.0345,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1034
+        },
+        {
+          "signal": "Companies that don't recognize transferable skills",
+          "count": 1,
+          "frequency": 0.0345,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1034
+        },
+        {
+          "signal": "Having to start over from entry-level when switching industries",
+          "count": 1,
+          "frequency": 0.0345,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1034
+        },
+        {
+          "signal": "Solutions that cannot integrate with existing, convoluted business infrastructure",
+          "count": 1,
+          "frequency": 0.0345,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1034
+        },
+        {
+          "signal": "Roles that are purely tactical/automation-prone without strategic upside",
+          "count": 1,
+          "frequency": 0.0345,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1034
+        },
+        {
+          "signal": "Hiring processes that filter out deep experience based solely on degree requirements",
+          "count": 1,
+          "frequency": 0.0345,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1034
+        },
+        {
+          "signal": "High-cost, low-ROI technology implementations",
+          "count": 1,
+          "frequency": 0.0345,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1034
+        },
+        {
+          "signal": "Gender discrimination in role assignments",
+          "count": 1,
+          "frequency": 0.0345,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1034
+        },
+        {
+          "signal": "Pay cuts for experienced professionals",
+          "count": 1,
+          "frequency": 0.0345,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1034
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Need to upgrade data/analytics capabilities",
+          "count": 1,
+          "frequency": 0.0455,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1364
+        },
+        {
+          "signal": "Career transition opportunity",
+          "count": 1,
+          "frequency": 0.0455,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1364
+        },
+        {
+          "signal": "Industry expansion",
+          "count": 1,
+          "frequency": 0.0455,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1364
+        },
+        {
+          "signal": "Skill gap identified",
+          "count": 1,
+          "frequency": 0.0455,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1364
+        },
+        {
+          "signal": "Need to solve a specific, immediate operational problem (e.g., RFID system integration)",
+          "count": 1,
+          "frequency": 0.0455,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1364
+        },
+        {
+          "signal": "Investment in skill development (certifications, advanced degrees) for career advancement",
+          "count": 1,
+          "frequency": 0.0455,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1364
+        },
+        {
+          "signal": "Seeking tools that enhance data-driven decision-making (e.g., analytics software, AI tools)",
+          "count": 1,
+          "frequency": 0.0455,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1375
+        },
+        {
+          "signal": "Product failure (headset failed, trackball wore out, phone holder broke)",
+          "count": 1,
+          "frequency": 0.0455,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1364
+        }
+      ],
+      "dominant_friction_tolerance": "medium",
+      "friction_tolerance_distribution": {
+        "medium": 0.875,
+        "low": 0.125
+      }
+    }
+  },
+  "cluster_1": {
+    "member_count": 17,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Bluetooth connection instability, frequent disconnects, and inability to reconnect without complex troubleshooting (uninstall/reinstall, force stop, device forgetting, power cycling)",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "App performance degraded or features broken after software/firmware updates",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "App interferes with other Bluetooth devices (e.g., headsets) or phone settings (e.g., volume)",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Address/location search and sending functionality is unreliable or changed to be less useful (e.g., returns incorrect local results instead of desired coordinates)",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "App login, authentication, and UI are frustrating (password issues, page reloads, lockouts)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "App lacks critical commercial driving features (e.g., adding stops to existing route, proper dispatch/tracking, reliable Pilot/Flying J rewards display)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Excessive, unwanted notifications or permissions requests",
+            "emotional_intensity": 0.65
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Stable, persistent Bluetooth connection that auto-reconnects reliably after temporary disconnection",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Reliable address/location search and sending from phone to GPS, including coordinates",
+            "priority": 0.85
+          },
+          {
+            "outcome": "App that does not break existing functionality or degrade performance after updates",
+            "priority": 0.8
+          },
+          {
+            "outcome": "A robust, commercial-driving partner app with features like multi-stop routing, dispatch/tracking, and reliable integration with truck stop loyalty programs",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Ability to update GPS device firmware via the app, not just Wi-Fi",
+            "priority": 0.6
+          },
+          {
+            "outcome": "App that does not interfere with other Bluetooth devices or phone settings",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Simplified, intuitive user interface for managing saved addresses/contacts and app settings",
+            "priority": 0.65
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Upgrading to a newer GPS hardware model (e.g., from OTR 710 to OTR 820) with improved firmware/processor, leading to better app sync and connection stability",
+            "context": "Existing user upgrading hardware within same brand"
+          },
+          {
+            "trigger": "Need to connect phone to GPS for services like truck apps displaying vital information on the device",
+            "context": "Operational convenience"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "App is unreliable and makes the expensive GPS unit unusable or severely hampered, turning it into a 'paperweight'",
+            "severity": 0.9
+          },
+          {
+            "objection": "Company has lost focus on trucking side, prioritizing other markets (aviation, watches)",
+            "severity": 0.7
+          },
+          {
+            "objection": "Software is poorly designed, making basic tasks difficult and the ownership experience a hassle",
+            "severity": 0.85
+          },
+          {
+            "objection": "Updates intentionally break old devices to force customers into buying new models",
+            "severity": 0.75
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Garmin D\u0113zl app/GPS",
+            "reason": "Chronic, daily connection failures and lack of functional advertised features",
+            "threshold": "Multiple failures per day, requiring daily troubleshooting rituals"
+          },
+          {
+            "from_product": "Garmin D\u0113zl app/GPS",
+            "reason": "Recommendation/consideration of competitor product (e.g., Rand McNally) due to frustration",
+            "threshold": "Declaration of intent to never buy another Garmin product"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Connection reliability and stability",
+          "Address search and routing functionality",
+          "Software update stability (not breaking features)",
+          "Integration with other operational tools (truck apps, loyalty programs)",
+          "Bluetooth compatibility with other devices",
+          "User interface simplicity"
+        ],
+        "deal_breakers": [
+          "Daily, persistent Bluetooth connection failures requiring complex reconnection procedures",
+          "Software updates that degrade or break core functionality",
+          "App inability to reliably send addresses/coordinates to the GPS"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Unreliable Bluetooth/phone connectivity requiring frequent resets or re-pairing",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "App or GPS freezes, crashes, or requires forced restarts",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Automatic, unprompted re-routing without road closures",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Poor routing options for large trucks (no 'major truck route' option, ignores vehicle dimensions)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "App updates break core features (e.g., address search, coordinate entry)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "App drains phone battery/data for live traffic/weather",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Inability to turn off notifications/alerts while driving",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Inconsistent/lost connection for live traffic updates (blue icon disappears)",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Needing both old and new apps due to device incompatibility (Dezl vs. Drive)",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Poor address search accuracy and lack of Google Maps parity",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable, persistent Bluetooth/phone-to-GPS connection",
+            "priority": 1.0
+          },
+          {
+            "outcome": "Routing that strictly respects vehicle dimensions (length) and road restrictions",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Manual control over route changes with prompts before re-routing",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Cloud-based, real-time map and address updates for trucks",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Functional app-to-GPS address/coordinate sending",
+            "priority": 0.9
+          },
+          {
+            "outcome": "More routing options (shortest mileage, major highways only)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Driver-submitted real-time road reports (closures, restrictions)",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Optional phone dependency for core features like traffic",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Stable app that doesn't break with updates",
+            "priority": 0.9
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for specialized truck routing",
+            "context": "Professional long-haul trucking"
+          },
+          {
+            "trigger": "Desire for hands-free notifications (texts/emails) while driving",
+            "context": "Safety/convenience on the road"
+          },
+          {
+            "trigger": "Integration with specific trucking services/apps (e.g., Love's, dashcams)",
+            "context": "Workflow efficiency"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "High price for unreliable, buggy performance",
+            "severity": 0.95
+          },
+          {
+            "objection": "Forced reliance on a problematic phone app for basic GPS functionality",
+            "severity": 0.9
+          },
+          {
+            "objection": "Poor customer support (standard response is delete/reinstall)",
+            "severity": 0.8
+          },
+          {
+            "objection": "Updates degrade functionality instead of improving it",
+            "severity": 0.85
+          },
+          {
+            "objection": "Inaccurate routing wastes time and fuel",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Garmin Dezl",
+            "reason": "Persistent, unfixed connectivity issues",
+            "threshold": "After months of troubleshooting and failed support"
+          },
+          {
+            "from_product": "Garmin Dezl",
+            "reason": "Frustration with unprompted re-routing",
+            "threshold": "Constant interference with planned routes"
+          },
+          {
+            "from_product": "Garmin Dezl",
+            "reason": "Broken core features after app updates",
+            "threshold": "Immediate loss of critical workflow function"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Routing reliability and accuracy for commercial vehicles",
+          "Connection stability (Bluetooth/app-to-GPS)",
+          "Software/app stability and update quality",
+          "Ease of address/coordinate entry",
+          "Live traffic/weather data quality and reliability",
+          "Customizable routing options (avoidances, preferences)",
+          "Integration with other trucking tools",
+          "Hands-free notification features",
+          "Customer support responsiveness"
+        ],
+        "deal_breakers": [
+          "Chronic, unfixable Bluetooth/connection drops",
+          "Routing that ignores truck size/safety restrictions",
+          "App updates that break address search/coordinate entry",
+          "Automatic re-routing without driver consent"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "App requires frequent and unnecessary logins, especially problematic when offline",
+            "emotional_intensity": 0.88
+          },
+          {
+            "signal": "Bluetooth connection is unreliable; loses connection or requires manual reconnection on device",
+            "emotional_intensity": 0.82
+          },
+          {
+            "signal": "App lacks historical data and insights; only shows limited real-time graphs",
+            "emotional_intensity": 0.72
+          },
+          {
+            "signal": "App features are too basic; lacks advanced scheduling (e.g., per-day cycles), configurable widgets, or automation",
+            "emotional_intensity": 0.68
+          },
+          {
+            "signal": "Firmware or app updates break existing functionality or introduce new issues",
+            "emotional_intensity": 0.67
+          },
+          {
+            "signal": "Poor customer support; slow or no response to technical issues",
+            "emotional_intensity": 0.81
+          },
+          {
+            "signal": "Device pairing/adding process is buggy; app sees device but fails to add it",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Lack of dark mode is inconvenient for low-light or night-time use",
+            "emotional_intensity": 0.58
+          },
+          {
+            "signal": "Forced updates or mandatory internet connection changes disrupt previously offline workflows",
+            "emotional_intensity": 0.76
+          },
+          {
+            "signal": "Lack of multi-user control; only one admin can adjust settings",
+            "emotional_intensity": 0.69
+          },
+          {
+            "signal": "Privacy concerns over data collection, location access, and forced account creation",
+            "emotional_intensity": 0.73
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable, persistent Bluetooth connection that reconnects automatically after device power loss",
+            "priority": 0.88
+          },
+          {
+            "outcome": "Historical data graphs over varying time periods to analyze power draw and usage patterns",
+            "priority": 0.83
+          },
+          {
+            "outcome": "Configurable home screen widgets showing key metrics (state of charge, surplus) without opening app",
+            "priority": 0.79
+          },
+          {
+            "outcome": "Advanced scheduling: per-day cycles, saved profiles (summer/winter/vacation)",
+            "priority": 0.77
+          },
+          {
+            "outcome": "Persistent local login (no forced re-login, works offline)",
+            "priority": 0.92
+          },
+          {
+            "outcome": "Dark mode for better usability in low-light conditions",
+            "priority": 0.65
+          },
+          {
+            "outcome": "Improved device discovery and pairing process with clearer error resolution",
+            "priority": 0.71
+          },
+          {
+            "outcome": "Biometric login support and better credential management",
+            "priority": 0.62
+          },
+          {
+            "outcome": "More granular control over power distribution and delivery timing",
+            "priority": 0.73
+          },
+          {
+            "outcome": "More detailed insights and diagnostics to understand device behavior and optimize usage",
+            "priority": 0.68
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for portable, all-in-one power solution without complex permanent battery installation",
+            "context": "Family travel or outdoor use"
+          },
+          {
+            "trigger": "Desire for high-quality, reliable brand with good track record",
+            "context": "Replacing or upgrading from inferior chargers/power stations"
+          },
+          {
+            "trigger": "Need for remote monitoring and control of energy systems",
+            "context": "Solar/battery setup management"
+          },
+          {
+            "trigger": "Requirement for detailed, minute-to-minute status monitoring",
+            "context": "Data-driven operational decision making"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "App has unreliable connectivity, making remote administration impossible",
+            "severity": 0.85
+          },
+          {
+            "objection": "Mandatory login and internet requirement defeats purpose for backup power during outages",
+            "severity": 0.9
+          },
+          {
+            "objection": "Lack of control over power delivery and scheduling limits operational flexibility",
+            "severity": 0.75
+          },
+          {
+            "objection": "Poor customer support and buggy updates erode trust in product reliability",
+            "severity": 0.82
+          },
+          {
+            "objection": "Privacy concerns over data collection and forced firmware updates that reduce functionality",
+            "severity": 0.78
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Anker/Solix app-dependent devices",
+            "reason": "Frustration with unreliable connectivity and mandatory online dependencies",
+            "threshold": "When app failures prevent basic remote control or monitoring"
+          },
+          {
+            "from_product": "Connected IoT devices/apps",
+            "reason": "Privacy concerns and unwanted data collection practices",
+            "threshold": "When perceived intrusion outweighs convenience benefits"
+          }
+        ],
+        "decision_factors_ranked": [
+          "App reliability and connectivity",
+          "Data/insights and control granularity",
+          "Offline functionality and login persistence",
+          "Ease of setup and device pairing",
+          "Customer support responsiveness",
+          "Privacy and data policies",
+          "Advanced scheduling and automation features",
+          "UI/UX (dark mode, widgets)"
+        ],
+        "deal_breakers": [
+          "App that cannot function reliably offline (for backup power scenarios)",
+          "Unreliable Bluetooth/connectivity preventing remote control",
+          "Mandatory internet or account creation for core functionality",
+          "Poor customer support for technical issues"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "App instability/crashes interrupting monitoring",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Unreliable Bluetooth/connection dropping",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poor password/login functionality",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Mandatory internet for local device control",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Insufficient real-time notifications/alerts",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Stale/outdated data display requiring app restart",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Overly restrictive/unfavorable Terms of Service",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Intrusive ads in a paid product ecosystem",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Unlockable features not actually unlockable",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Poor post-disconnection reconnection ability",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Inability to set granular time-of-use controls",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Lack of dark mode in the app interface",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Lack of charge limit settings for battery longevity",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Suspicious/malicious activity (e.g., unwanted Amazon charges)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Poor compatibility with special Wi-Fi passwords",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable, persistent device connection and control",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Granular, customizable time-of-use/peak settings (15-min intervals)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Detailed, actionable data visualization (graphs, charts, historical trends)",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Real-time notifications for critical events (AC loss, battery use)",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Offline/local device control without internet dependency",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Enhanced battery management features (charge limits, input history)",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Stable, crash-free app performance",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Secure, transparent data handling and ToS",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Ad-free experience for premium hardware customers",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Intuitive, user-friendly setup and ongoing operation",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to monitor/manage multiple power devices centrally",
+            "context": "User monitors 3 devices with the app"
+          },
+          {
+            "trigger": "Seamless integration with broader home energy systems",
+            "context": "User impressed after installing Smart Home Panel system"
+          },
+          {
+            "trigger": "Reliability and brand trust in power/charging products",
+            "context": "User cites Anker's reputation for best chargers, powerbanks, cables"
+          },
+          {
+            "trigger": "Operational cost savings (generator fuel reduction)",
+            "context": "User lives off-grid, unit cuts generator use in half"
+          },
+          {
+            "trigger": "Remote control capability for convenience/accessibility",
+            "context": "User controls power station without leaving tent"
+          },
+          {
+            "trigger": "Desire for detailed real-time operational data",
+            "context": "User values detailed graphs, charts, and real-time information"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "App/software unreliability (crashes, bugs, disconnections)",
+            "severity": 0.85
+          },
+          {
+            "objection": "Security/data privacy concerns (ToS, suspicious charges)",
+            "severity": 0.9
+          },
+          {
+            "objection": "Mandatory internet connectivity for basic local control",
+            "severity": 0.8
+          },
+          {
+            "objection": "Lack of critical alerts/notifications for system status",
+            "severity": 0.8
+          },
+          {
+            "objection": "Poor post-sale software support and feature regression",
+            "severity": 0.75
+          },
+          {
+            "objection": "Intrusive monetization (ads) in a high-cost product ecosystem",
+            "severity": 0.7
+          },
+          {
+            "objection": "Limited configurability and control granularity",
+            "severity": 0.65
+          },
+          {
+            "objection": "Fragile authentication/login system",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Anker app/ecosystem",
+            "reason": "Persistent software failures crippling hardware functionality",
+            "threshold": "When core monitoring/control functions become unreliable"
+          },
+          {
+            "from_product": "Anker app/ecystem",
+            "reason": "Unacceptable data privacy/security terms or practices",
+            "threshold": "Discovery of overly powerful ToS or suspicious financial activity"
+          },
+          {
+            "from_product": "Anker app/ecosystem",
+            "reason": "Lack of critical operational alerts leading to system risk",
+            "threshold": "Failure to notify about AC input loss or battery depletion"
+          },
+          {
+            "from_product": "Competitor product",
+            "reason": "Superior software stability, control, and data granularity",
+            "threshold": "When a competitor offers more reliable, feature-rich management"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability of core monitoring/control functions",
+          "Data accuracy and actionable insights (real-time charts, history)",
+          "Software stability and user experience (no crashes, intuitive UI)",
+          "Security, privacy, and trust in data handling",
+          "Hardware-software integration and connection reliability",
+          "Customizability and control granularity (scheduling, limits)",
+          "Offline/local operation capability",
+          "Cost savings/efficiency demonstrated",
+          "Brand reputation and product ecosystem quality",
+          "Additional features (themes, language support, dark mode)"
+        ],
+        "deal_breakers": [
+          "Chronic app/connection instability rendering hardware unusable",
+          "Egregious data privacy/security violations or suspicious activity",
+          "Mandatory internet for basic local device control",
+          "Complete lack of critical system status alerts",
+          "Regressive updates that remove core functionality"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Software updates failing to complete (taking >12 hours or failing entirely)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "GPS/device freezing or crashing during critical navigation",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Persistent Bluetooth/phone app connectivity failure requiring repeated uninstall/reinstall cycles",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Audio disruption or destruction via Bluetooth after updates",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Device randomly disconnecting from phone or turning off while plugged in",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "App failing to log in/sync, blocking live traffic/weather data",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Loss of maps or functionality after updates with no recovery solution",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "App instability (freezing, closing, buggy behavior)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Update removes key features (e.g., accepting location info from other apps)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Inability to update device via the standard process",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable, stable connection between phone app and GPS device at ALL times",
+            "priority": 1.0
+          },
+          {
+            "outcome": "Software updates that complete successfully without breaking core functionality",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Accurate, truck-specific routing avoiding unsuitable roads/towns",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Live traffic/weather data and automatic rerouting to save time",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Easy, intuitive address sending from phone/app to GPS",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Device/GPS that does not freeze, crash, or turn off unexpectedly",
+            "priority": 0.9
+          },
+          {
+            "outcome": "App that integrates with other systems (Geotab, Lytyx AI, Google Maps pins)",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Advanced features like pinpoint search by postcode or route management",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for reliable, professional-grade truck routing",
+            "context": "Professional truck drivers making data-driven operational decisions"
+          },
+          {
+            "trigger": "Desire for live traffic/weather updates and automatic rerouting to avoid delays",
+            "context": "Paid by the mile; time saved is money earned"
+          },
+          {
+            "trigger": "Need to integrate with existing fleet/operation systems (Geotab, Lytyx AI)",
+            "context": "Working within a company's established tech stack"
+          },
+          {
+            "trigger": "Replacing a failed or outdated GPS device",
+            "context": "Previous device (sometimes same brand) experienced critical failure (e.g., screen going black)"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Software/app updates frequently break Bluetooth connectivity and core features",
+            "severity": 0.95
+          },
+          {
+            "objection": "Device/GPS is unreliable (freezes, crashes, turns off) during professional use",
+            "severity": 0.9
+          },
+          {
+            "objection": "App is unstable, buggy, and fails at its primary task of maintaining a connection",
+            "severity": 0.85
+          },
+          {
+            "objection": "High cost ($700+) for a product that fails 50% of the time or requires constant troubleshooting",
+            "severity": 0.9
+          },
+          {
+            "objection": "Routing algorithms are not sufficiently truck-optimized, sending drivers through unsuitable towns/roads",
+            "severity": 0.75
+          },
+          {
+            "objection": "Loss of data/functionality after updates with no clear path to recovery",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Garmin Dezl / App",
+            "reason": "Persistent, unresolved connectivity and stability issues after updates",
+            "threshold": "Issues persist despite repeated troubleshooting (resets, reinstalls, support calls)"
+          },
+          {
+            "from_product": "Garmin Dezl / App",
+            "reason": "Device/GPS reliability failures during critical navigation",
+            "threshold": "Failure occurs during professional use, forcing reliance on backup (Google Maps)"
+          },
+          {
+            "from_product": "Garmin Dezl / App",
+            "reason": "High cost not justified by poor performance and frustration",
+            "threshold": "Perceived as a \"waste of money\" compared to alternatives (Rand McNally)"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability & Uptime (no freezing/crashing/disconnecting)",
+          "Connectivity Stability (phone app to GPS)",
+          "Routing Accuracy for Trucks",
+          "Live Traffic/Weather Data & Rerouting",
+          "Ease of Use & Update Process",
+          "Integration with Other Tools/Systems",
+          "Cost vs. Value"
+        ],
+        "deal_breakers": [
+          "Frequent, unresolved Bluetooth/app connectivity failures",
+          "GPS/device freezing or crashing during active navigation",
+          "Software updates that break core functionality without a fix"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 1,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.516,
+      "reddit": 0.484,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Difficulty reaching personnel in large facilities or outdoor areas without reliable communication",
+          "count": 1,
+          "frequency": 0.0061,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0182
+        },
+        {
+          "signal": "Inadequate laptop port availability limiting connectivity to essential peripherals (printers, SD cards, external displays)",
+          "count": 1,
+          "frequency": 0.0061,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0182
+        },
+        {
+          "signal": "Poor weight distribution in backpacks causing shoulder and back pain during extended carry",
+          "count": 1,
+          "frequency": 0.0061,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0182
+        },
+        {
+          "signal": "Insufficient padding in laptop compartments requiring additional protective sleeves",
+          "count": 1,
+          "frequency": 0.0061,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0182
+        },
+        {
+          "signal": "Top-heavy bag design causing instability when opened, requiring external support",
+          "count": 1,
+          "frequency": 0.0061,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0183
+        },
+        {
+          "signal": "Excessive tariff paperwork and costs for small-value shipments creating administrative burden",
+          "count": 1,
+          "frequency": 0.0061,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0182
+        },
+        {
+          "signal": "High domestic manufacturing costs for specialized components compared to international sources",
+          "count": 1,
+          "frequency": 0.0061,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0183
+        },
+        {
+          "signal": "Disconnection from family members in different parts of large homes or properties",
+          "count": 1,
+          "frequency": 0.0061,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0182
+        },
+        {
+          "signal": "Bluetooth pairing complexity for non-technical users creating dependency on others",
+          "count": 1,
+          "frequency": 0.0061,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0182
+        },
+        {
+          "signal": "Poor ergonomics in computer mice causing hand cramps during extended use",
+          "count": 1,
+          "frequency": 0.0061,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0182
+        },
+        {
+          "signal": "Lack of simple, plug-and-play alternatives to complex wireless devices",
+          "count": 1,
+          "frequency": 0.0061,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0182
+        },
+        {
+          "signal": "Unreliable power causing dropped connections (VPN, server) during telecommuting",
+          "count": 1,
+          "frequency": 0.0061,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0182
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Stable app that doesn't break with updates",
+          "count": 2,
+          "frequency": 0.0136,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.034
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Excessive administrative burden for small shipments",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "Complete lack of technical support for setup",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "Equipment that causes physical pain during normal use",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "Products that fail immediately or have high defect rates",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0563
+        },
+        {
+          "signal": "Inability to source specialized components cost-effectively",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "Communication devices with insufficient range for intended use",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "Docking solutions that damage computer ports",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "Frequent connection drops during critical operations",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "Product failure under normal use conditions",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "Ergonomic flaws causing physical discomfort",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Daughter graduating and starting photography career needing dual-purpose bag",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "Teenage son isolating in basement making communication difficult",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "MacBook Air's thin design lacking essential ports",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "String light installation project in daughter's dorm room",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "Need for backup power when laptop dies during classes",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "Road trip requiring better music listening experience",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "Difficulty concentrating in noisy environments while working",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "Father's mobility concerns requiring safety monitoring solution",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "medium": 0.059,
+        "low": 0.941
+      }
+    }
+  },
+  "cluster_2": {
+    "member_count": 3,
+    "representative_batches": [
+      {
+        "pain_points": [],
+        "desired_outcomes": [],
+        "purchase_triggers": [],
+        "objections": [],
+        "switching_triggers": [],
+        "decision_factors_ranked": [],
+        "deal_breakers": [],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "signals": [
+          {
+            "signal_name": "string",
+            "evidence": [
+              "string"
+            ],
+            "implication": "string"
+          }
+        ],
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [],
+        "desired_outcomes": [],
+        "purchase_triggers": [],
+        "objections": [],
+        "switching_triggers": [],
+        "decision_factors_ranked": [],
+        "deal_breakers": [],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.5,
+      "reddit": 0.5,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [],
+      "top_desired_outcomes": [],
+      "top_deal_breakers": [],
+      "top_purchase_triggers": [],
+      "dominant_friction_tolerance": "medium",
+      "friction_tolerance_distribution": {
+        "medium": 1.0
+      }
+    }
+  },
+  "cluster_3": {
+    "member_count": 67,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Operational mistakes leading to significant financial loss (e.g., wrong inventory counts, shipment errors causing research damage)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "High-pressure environment where errors are frequent and costly (e.g., inventory algorithm shutdowns, railcar mishaps)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Need for reliable, seamless product setup to avoid downtime (e.g., router connection issues, complex manuals)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Lack of practical design features in logistics tools (e.g., no shoulder strap on organizer, non-removable battery in camera)",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Poor technical support when products fail (e.g., HP product support unable to help, lock-ups requiring resets)",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Minimize financial and operational risk from errors through reliable systems",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Achieve seamless, fast integration of new technology with minimal setup friction",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Ensure durable, rugged products that withstand demanding environments (e.g., kid-proof, warehouse use)",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Gain clear visibility into product sizing, compatibility, and performance before purchase",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Maintain high productivity with tools that require little training and avoid disruptions",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Replacement of outdated bottleneck technology (e.g., upgrading from B to G router)",
+            "context": "IT infrastructure"
+          },
+          {
+            "trigger": "Need for compatibility with new service providers (e.g., switch to Comcast Xfinity)",
+            "context": "Service changes"
+          },
+          {
+            "trigger": "Desire to reduce physical clutter and simplify setups (e.g., modem/router combo)",
+            "context": "Operational efficiency"
+          },
+          {
+            "trigger": "Previous product failures in harsh conditions (e.g., broken cameras during camping)",
+            "context": "Durability needs"
+          },
+          {
+            "trigger": "Organizational improvements for cargo/vehicle storage (e.g., trunk organizer after seeing another model)",
+            "context": "Workspace optimization"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Products perceived as overpriced for basic functionality (e.g., $70 item without power source)",
+            "severity": 0.6
+          },
+          {
+            "objection": "Inadequate product lifespan or repairability (e.g., internal battery making device disposable)",
+            "severity": 0.5
+          },
+          {
+            "objection": "Poor performance in critical conditions (e.g., low-light camera noise, weak WiFi signal)",
+            "severity": 0.7
+          },
+          {
+            "objection": "Lack of essential features for professional use (e.g., no manual controls, no shoulder strap)",
+            "severity": 0.4
+          },
+          {
+            "objection": "Unreliable support and difficult troubleshooting (e.g., HP chat failure, interface lock-ups)",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Legacy routers (e.g., Linksys B)",
+            "reason": "Bottleneck affecting speed and reliability",
+            "threshold": "noticeable performance degradation"
+          },
+          {
+            "from_product": "Fragile cameras (e.g., Canon Powershot)",
+            "reason": "Repeated destruction in rugged outdoor use",
+            "threshold": "multiple device failures"
+          },
+          {
+            "from_product": "Unorganized trunk storage",
+            "reason": "Need for structured cargo management",
+            "threshold": "observed efficiency in other models"
+          },
+          {
+            "from_product": "Basic e-readers without backlight",
+            "reason": "Desire for enhanced functionality (backlight, HD)",
+            "threshold": "newer model release with same price"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and uptime",
+          "Ease of setup and integration",
+          "Cost-effectiveness",
+          "Durability",
+          "Compatibility with existing systems",
+          "Performance under load",
+          "Brand reputation",
+          "Support availability"
+        ],
+        "deal_breakers": [
+          "Frequent product failures or lock-ups",
+          "Incompatibility with core service providers",
+          "Unresponsive or ineffective technical support",
+          "High total cost of ownership",
+          "Critical design flaws impacting safety or operations"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Delivery times are too long, impacting satisfaction.",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Errors in warehouse operations (picking, packing, receiving) lead to customer complaints, lost inventory, backorders, and increased costs.",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Technology products (cameras, routers, tracking devices) have reliability issues, connectivity problems, and fail over time.",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Management push for speed over accuracy leads to sloppy work, poor morale, and talent loss.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Product durability or longevity is uncertain, causing concern about future performance.",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Incentive systems that prioritize speed create misalignment with accuracy goals.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Training and setup for systems can be difficult or time-consuming.",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Products have design flaws (e.g., poor fit, shifting components, weak battery life).",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "100% accuracy in picking and packing operations to reduce errors and costs.",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Long-term durability and reliability of products.",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Fast, efficient delivery and timely service.",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Integration with existing systems and devices for seamless operation.",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Improved warehouse metrics tracking (accuracy alongside speed) to drive better performance.",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Effective training and progressive accountability systems to foster quality culture.",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Flexible, affordable solutions that require less setup effort.",
+            "priority": 0.65
+          },
+          {
+            "outcome": "Easy-to-use technology with minimal battery drain and reliable connectivity.",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to replace or upgrade existing failing technology or equipment.",
+            "context": "Current product is dead or underperforming; looking for refund or reliable alternative."
+          },
+          {
+            "trigger": "Search for tools to improve operational accuracy and efficiency in logistics.",
+            "context": "Discussions about tracking errors, incentives, and warehouse process improvements."
+          },
+          {
+            "trigger": "Recommendation from peers or positive reviews highlighting effectiveness.",
+            "context": "Community discussion about systems like pick-to-bin or training ambassadors."
+          },
+          {
+            "trigger": "Price and delivery speed are favorable.",
+            "context": "Reviews mention excellent pricing and fast delivery as key factors."
+          },
+          {
+            "trigger": "Desire for data-driven insights (e.g., PowerBI dashboards) to monitor performance.",
+            "context": "Interest in competitive metrics and team performance visibility."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Products may not work as expected, leading to connectivity failures or underperformance.",
+            "severity": 0.9
+          },
+          {
+            "objection": "Setup or re-setup processes can be frustrating and time-consuming.",
+            "severity": 0.7
+          },
+          {
+            "objection": "Battery drain or power issues with devices are a significant drawback.",
+            "severity": 0.8
+          },
+          {
+            "objection": "Management resistance to progressive accountability vs. punitive write-ups.",
+            "severity": 0.75
+          },
+          {
+            "objection": "Inaccurate receiving or unclear bin labeling leads to downstream errors.",
+            "severity": 0.8
+          },
+          {
+            "objection": "Design flaws like poor locking mechanisms or component shifting.",
+            "severity": 0.5
+          },
+          {
+            "objection": "Support may run out or be insufficient after purchase.",
+            "severity": 0.6
+          },
+          {
+            "objection": "Veteran employees resist new systems like pick-to-bin due to route planning disruption.",
+            "severity": 0.6
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Arlo cameras",
+            "reason": "Fail to reconnect after router changes or over time, support runs out.",
+            "threshold": "After 1 year of use with connectivity failures."
+          },
+          {
+            "from_product": "Tile tracking devices",
+            "reason": "Severe battery drain on smartphones, leading to removal.",
+            "threshold": "After 2 months of use with unacceptable battery impact."
+          },
+          {
+            "from_product": "Underperforming routers",
+            "reason": "Cannot deliver advertised speeds (e.g., gigabit).",
+            "threshold": "After testing and confirmation of underperformance."
+          },
+          {
+            "from_product": "Manual picking systems",
+            "reason": "High error rates and need for accuracy improvement.",
+            "threshold": "When errors cost $47 per mistake and affect CPP."
+          },
+          {
+            "from_product": "Speed-focused incentive programs",
+            "reason": "Lead to poor accuracy and operational issues.",
+            "threshold": "When analysis shows 'top performers' are money pits."
+          }
+        ],
+        "decision_factors_ranked": [
+          "Accuracy and error reduction",
+          "Durability and reliability",
+          "Integration and ease of use",
+          "Cost and pricing",
+          "Delivery speed and service",
+          "Training and support",
+          "Data visibility and metrics",
+          "Flexibility and setup effort"
+        ],
+        "deal_breakers": [
+          "Products that fail to connect or work reliably",
+          "Systems that prioritize speed over accuracy leading to high error costs",
+          "Management culture that punishes errors without progressive accountability",
+          "Technology with severe battery drain or power issues",
+          "Poor receiving or bin labeling causing downstream errors"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Frustration with inaccurate or unreliable tracking technology (e.g., GPS, heart rate, motion tracking)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Annoyance at poor build quality, missing components, or defective products upon delivery",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Concern over safety hazards and negligence in warehouse operations (e.g., unstable racks, unsafe forklift practices)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Irritation with cumbersome installation, incompatible mounts, or poorly designed cables/connectors",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Disappointment with overpriced items or feeling overcharged for packaging/distribution",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Frustration with short battery life or non-replaceable batteries in devices",
+            "emotional_intensity": 0.4
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Accurate, reliable data tracking for fitness, logistics, or operational decisions",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Durable, rugged products that withstand harsh environments (e.g., warehouses, outdoor use)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Easy installation, setup, and integration with existing systems/equipment",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Cost-effective solutions that offer good value for money",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Enhanced safety and risk mitigation in warehouse and logistics operations",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Long battery life and low maintenance for continuous use",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to replace failing or inadequate equipment (e.g., old power supplies, unreliable cameras)",
+            "context": "Operational necessity or project requirement"
+          },
+          {
+            "trigger": "Seeking better value or price compared to competitors or retail stores",
+            "context": "Cost-saving initiative or budget constraints"
+          },
+          {
+            "trigger": "Desire for improved functionality (e.g., GPS, multi-tasking, tracking features) over current devices",
+            "context": "Upgrade to enhance productivity or performance"
+          },
+          {
+            "trigger": "Specific use-case need (e.g., surveillance for vandalism, fitness tracking for training)",
+            "context": "Targeted problem-solving or personal goal"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "High price relative to perceived value or cheaper alternatives available elsewhere",
+            "severity": 0.7
+          },
+          {
+            "objection": "Poor quality control leading to missing parts, defects, or early failure",
+            "severity": 0.8
+          },
+          {
+            "objection": "Complex or incompatible installation requiring modifications or extra work",
+            "severity": 0.6
+          },
+          {
+            "objection": "Inaccurate or unreliable performance (e.g., tracking errors, false alarms, slow response)",
+            "severity": 0.7
+          },
+          {
+            "objection": "Safety risks due to negligent practices or inadequate equipment in workplace",
+            "severity": 0.9
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Basic fitness bands or non-GPS devices",
+            "reason": "Need for advanced features like GPS, heart rate monitoring, or multi-sport tracking",
+            "threshold": "When training intensity or data requirements increase"
+          },
+          {
+            "from_product": "Competing brands (e.g., Apple smartwatch)",
+            "reason": "Prioritizing battery life, built-in GPS, or durability over app ecosystem",
+            "threshold": "Frustration with daily charging or lack of standalone GPS"
+          },
+          {
+            "from_product": "Manual or outdated tracking methods",
+            "reason": "Desire for automated, data-driven insights to improve efficiency or safety",
+            "threshold": "When operational scale or complexity demands better tools"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and accuracy",
+          "Durability and build quality",
+          "Cost-effectiveness and value",
+          "Ease of installation and use",
+          "Safety features and compliance",
+          "Battery life and maintenance",
+          "Functionality and feature set"
+        ],
+        "deal_breakers": [
+          "Critical safety hazards or non-compliance",
+          "Persistent defects or missing components",
+          "Unacceptable inaccuracy in core functions",
+          "Prohibitively high cost without justification",
+          "Incompatibility with existing systems"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Costly operational mistakes due to human error",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Mistakes causing financial loss and operational disruption",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Lack of durable, reliable technology for daily operations",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Frustration with non-user-friendly controls in operational tools",
+            "emotional_intensity": 0.3
+          },
+          {
+            "signal": "High cost of air freight due to mistakes",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Minimize costly errors in shipping, freight, and distribution operations",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Implement practical solutions that prevent recurring mistakes",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Ensure reliable, durable technology for data-driven decisions",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Have systems that work out of the box with minimal setup",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Achieve operational efficiency without overheating or failures",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to replace unreliable equipment causing operational delays",
+            "context": "When previous technology fails frequently"
+          },
+          {
+            "trigger": "Seeking durable tools that withstand heavy daily use",
+            "context": "After experiencing multiple equipment failures"
+          },
+          {
+            "trigger": "Looking for intuitive technology to reduce training time",
+            "context": "When onboarding new staff or optimizing workflows"
+          },
+          {
+            "trigger": "Requiring compatibility with existing systems (USB, SD cards, software)",
+            "context": "Integrating new tools into current operations"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "High price relative to value perceived",
+            "severity": 0.4
+          },
+          {
+            "objection": "Non-user-friendly controls increase training time",
+            "severity": 0.3
+          },
+          {
+            "objection": "Lack of sufficient warranty for expensive equipment",
+            "severity": 0.25
+          },
+          {
+            "objection": "Incompatibility with certain operational requirements (e.g., specific ports or software)",
+            "severity": 0.2
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Old or unreliable technology",
+            "reason": "Frequent failures impacting operations",
+            "threshold": "When downtime costs exceed replacement cost"
+          },
+          {
+            "from_product": "Competitor logistics solutions",
+            "reason": "Better rates or reliability",
+            "threshold": "When cost savings or reliability improvements are significant"
+          },
+          {
+            "from_product": "Manual or outdated processes",
+            "reason": "High error rates leading to financial loss",
+            "threshold": "When mistake frequency or cost becomes unsustainable"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and durability",
+          "Cost-effectiveness",
+          "Ease of use and integration",
+          "Compatibility with existing systems",
+          "Vendor support and warranty"
+        ],
+        "deal_breakers": [
+          "Frequent failures causing operational downtime",
+          "Prohibitive cost without clear ROI",
+          "Incompatibility with essential software/hardware",
+          "Lack of vendor support for critical issues"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Difficulty finding a 3PL that works with small or early-stage brands due to high volume requirements",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Uncertainty and stress around tariff changes and compliance, requiring expert advice",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poor communication or unresponsiveness from logistics providers",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Complexity in managing bonded warehouse records and costs",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Need for reliable, data-driven operational decisions without extensive research",
+            "emotional_intensity": 0.4
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Seamless integration with e-commerce platforms like Shopify",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Access to expert guidance on tariffs, customs, and logistics strategies",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Responsive and careful handling of shipments with clear communication",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Cost-effective solutions for small importers or brands",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Simplified setup and management without advanced technical needs",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to replace outdated or unsupported equipment (e.g., old cable modem)",
+            "context": "Upgrading technology for better support and longevity"
+          },
+          {
+            "trigger": "Seeking alternatives due to poor performance or reliability of current provider",
+            "context": "Switching from a router that crashes frequently or a 3PL with high volume barriers"
+          },
+          {
+            "trigger": "Urgent need due to emergency (e.g., laptop battery failure)",
+            "context": "Requiring quick replacement to maintain operations"
+          },
+          {
+            "trigger": "Desire for improved features like wireless internet access or better coverage",
+            "context": "Enhancing connectivity for streaming, browsing, or work"
+          },
+          {
+            "trigger": "Response to tariff changes, seeking bonded warehouse or Mexico options",
+            "context": "Mitigating financial risk from trade policies"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "High costs associated with bonded warehouses or advanced services",
+            "severity": 0.6
+          },
+          {
+            "objection": "Lack of advanced control and security in simpler products",
+            "severity": 0.4
+          },
+          {
+            "objection": "Poor quality control or reliability issues (e.g., bent batteries, router failures)",
+            "severity": 0.7
+          },
+          {
+            "objection": "Complex setup processes requiring technical knowledge",
+            "severity": 0.5
+          },
+          {
+            "objection": "Limited suitability for small importers or low-volume brands",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Netgear router",
+            "reason": "Frequent crashes and need for daily restarts",
+            "threshold": "After a few months of poor performance"
+          },
+          {
+            "from_product": "High-end 3PLs or vendors",
+            "reason": "Not returning calls or emails due to low volume",
+            "threshold": "When unable to secure responsive service"
+          },
+          {
+            "from_product": "Previous logistics provider",
+            "reason": "Need for more integrated or cost-effective solutions",
+            "threshold": "When tariffs or operational needs change"
+          },
+          {
+            "from_product": "Older technology (e.g., CRT TV, cable modem)",
+            "reason": "Lack of support or outdated features",
+            "threshold": "When replacement becomes necessary for functionality"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Responsiveness and communication",
+          "Cost-effectiveness for volume",
+          "Ease of setup and integration",
+          "Expertise in tariffs and compliance",
+          "Reliability and performance",
+          "Scalability for business growth"
+        ],
+        "deal_breakers": [
+          "Unresponsiveness to inquiries or low-volume clients",
+          "Poor reliability leading to operational disruptions",
+          "High costs prohibitive for small businesses",
+          "Lack of integration with existing platforms like Shopify"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.5,
+      "reddit": 0.5,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Manual fulfillment processes are a headache",
+          "count": 1,
+          "frequency": 0.0023,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0069
+        },
+        {
+          "signal": "Significant wait times at facilities",
+          "count": 1,
+          "frequency": 0.0023,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0069
+        },
+        {
+          "signal": "Poor coordination and communication with service provider",
+          "count": 1,
+          "frequency": 0.0023,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0069
+        },
+        {
+          "signal": "Inconsistent shipping times",
+          "count": 1,
+          "frequency": 0.0023,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0069
+        },
+        {
+          "signal": "Product setup is complex and time-consuming",
+          "count": 1,
+          "frequency": 0.0023,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0069
+        },
+        {
+          "signal": "Inaccurate data tracking (e.g., steps taken)",
+          "count": 1,
+          "frequency": 0.0023,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0069
+        },
+        {
+          "signal": "Poor product durability (e.g., wrist band detaching)",
+          "count": 1,
+          "frequency": 0.0023,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0069
+        },
+        {
+          "signal": "High costs and perceived overpricing of services",
+          "count": 1,
+          "frequency": 0.0023,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0069
+        },
+        {
+          "signal": "Poor customer support and long hold times",
+          "count": 1,
+          "frequency": 0.0023,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0069
+        },
+        {
+          "signal": "Technical integration challenges with platforms like Shopify",
+          "count": 1,
+          "frequency": 0.0023,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0069
+        },
+        {
+          "signal": "Being treated as just a ticket number without personal support",
+          "count": 1,
+          "frequency": 0.0023,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0069
+        },
+        {
+          "signal": "Inefficient or unreliable service (e.g., cameras not alerting in real-time)",
+          "count": 1,
+          "frequency": 0.0023,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0069
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Seamless integration with existing systems and workflows",
+          "count": 2,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0121
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Poor customer support",
+          "count": 3,
+          "frequency": 0.0098,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.023
+        },
+        {
+          "signal": "Inability to scale with business growth",
+          "count": 2,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0164
+        },
+        {
+          "signal": "High cost without clear ROI",
+          "count": 2,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0164
+        },
+        {
+          "signal": "Incompatibility with existing systems",
+          "count": 2,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0164
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Replacement of a failed or underperforming existing product",
+          "count": 2,
+          "frequency": 0.007,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0174
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "low": 0.672,
+        "medium": 0.328
+      }
+    }
+  }
+}

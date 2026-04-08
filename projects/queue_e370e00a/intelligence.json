@@ -1,0 +1,600 @@
+{
+  "products": [
+    {
+      "name": "TradePoint Enterprise Compliance Management Software",
+      "category": "Software",
+      "accuracy": 0.98,
+      "review_keywords": [
+        "workflow",
+        "compliance",
+        "documentation",
+        "customs",
+        "regulations",
+        "audit",
+        "tracking",
+        "implementation"
+      ],
+      "context_keywords": [
+        "enterprise",
+        "workflow",
+        "audit",
+        "compliance",
+        "documentation"
+      ],
+      "exclusion_keywords": [
+        "small business",
+        "startup"
+      ],
+      "why": "Enterprise compliance software is exclusively purchased by trade compliance professionals in large organizations"
+    },
+    {
+      "name": "International Trade Compliance Handbook 2024",
+      "category": "Books",
+      "accuracy": 0.96,
+      "review_keywords": [
+        "regulations",
+        "customs",
+        "export",
+        "import",
+        "procedures",
+        "reference",
+        "updated",
+        "comprehensive"
+      ],
+      "context_keywords": [
+        "compliance",
+        "enterprise",
+        "regulations"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "beginner"
+      ],
+      "why": "Professional reference books for current trade regulations are bought by working compliance professionals"
+    },
+    {
+      "name": "HTS Code Reference Guide - Harmonized Tariff Schedule",
+      "category": "Books",
+      "accuracy": 0.95,
+      "review_keywords": [
+        "classification",
+        "tariff",
+        "codes",
+        "reference",
+        "customs",
+        "accurate",
+        "detailed",
+        "professional"
+      ],
+      "context_keywords": [
+        "classification",
+        "workflow",
+        "compliance"
+      ],
+      "exclusion_keywords": [
+        "academic",
+        "introductory"
+      ],
+      "why": "HTS classification guides are specialized tools used daily by trade compliance professionals"
+    },
+    {
+      "name": "Custom Forms and Documentation Organizer Binder System",
+      "category": "Office_Products",
+      "accuracy": 0.94,
+      "review_keywords": [
+        "organized",
+        "documentation",
+        "customs",
+        "forms",
+        "efficient",
+        "compliance",
+        "filing",
+        "professional"
+      ],
+      "context_keywords": [
+        "documentation",
+        "workflow",
+        "compliance"
+      ],
+      "exclusion_keywords": [
+        "home",
+        "personal"
+      ],
+      "why": "Specialized documentation systems for customs paperwork are used by trade compliance staff"
+    },
+    {
+      "name": "Export Control Classification Number (ECCN) Quick Reference Cards",
+      "category": "Office_Products",
+      "accuracy": 0.93,
+      "review_keywords": [
+        "export",
+        "classification",
+        "reference",
+        "quick",
+        "accurate",
+        "professional",
+        "compliance",
+        "regulations"
+      ],
+      "context_keywords": [
+        "compliance",
+        "export",
+        "classification"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "general"
+      ],
+      "why": "ECCN reference materials are specialized tools used exclusively by export compliance professionals"
+    },
+    {
+      "name": "Professional Trade Compliance Certification Study Guide",
+      "category": "Books",
+      "accuracy": 0.92,
+      "review_keywords": [
+        "certification",
+        "professional",
+        "comprehensive",
+        "exam",
+        "compliance",
+        "trade",
+        "detailed",
+        "practical"
+      ],
+      "context_keywords": [
+        "professional",
+        "certification",
+        "compliance"
+      ],
+      "exclusion_keywords": [
+        "undergraduate",
+        "introductory"
+      ],
+      "why": "Professional certification materials are purchased by working compliance professionals advancing their careers"
+    },
+    {
+      "name": "Denied Party Screening Software - Enterprise License",
+      "category": "Software",
+      "accuracy": 0.91,
+      "review_keywords": [
+        "screening",
+        "compliance",
+        "automated",
+        "enterprise",
+        "efficient",
+        "accurate",
+        "integration",
+        "workflow"
+      ],
+      "context_keywords": [
+        "enterprise",
+        "screening",
+        "compliance"
+      ],
+      "exclusion_keywords": [
+        "small",
+        "personal"
+      ],
+      "why": "Enterprise screening software is purchased specifically for large-scale trade compliance operations"
+    },
+    {
+      "name": "International Shipping and Customs Forms Multi-Pack",
+      "category": "Office_Products",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "forms",
+        "shipping",
+        "customs",
+        "international",
+        "professional",
+        "complete",
+        "accurate",
+        "required"
+      ],
+      "context_keywords": [
+        "customs",
+        "shipping",
+        "documentation"
+      ],
+      "exclusion_keywords": [
+        "occasional",
+        "personal"
+      ],
+      "why": "Bulk customs forms are purchased by professionals handling regular international shipments"
+    },
+    {
+      "name": "Trade Compliance Risk Assessment Templates",
+      "category": "Office_Products",
+      "accuracy": 0.89,
+      "review_keywords": [
+        "risk",
+        "assessment",
+        "compliance",
+        "templates",
+        "professional",
+        "thorough",
+        "structured",
+        "enterprise"
+      ],
+      "context_keywords": [
+        "risk",
+        "assessment",
+        "compliance"
+      ],
+      "exclusion_keywords": [
+        "basic",
+        "introductory"
+      ],
+      "why": "Risk assessment templates are specialized tools used by compliance professionals in structured enterprise environments"
+    },
+    {
+      "name": "Customs Valuation and Transfer Pricing Guide",
+      "category": "Books",
+      "accuracy": 0.88,
+      "review_keywords": [
+        "valuation",
+        "customs",
+        "transfer",
+        "pricing",
+        "professional",
+        "detailed",
+        "regulations",
+        "compliance"
+      ],
+      "context_keywords": [
+        "valuation",
+        "customs",
+        "compliance"
+      ],
+      "exclusion_keywords": [
+        "academic",
+        "theoretical"
+      ],
+      "why": "Specialized customs valuation guides are used by trade compliance professionals handling complex pricing scenarios"
+    },
+    {
+      "name": "Enterprise Document Management Scanner for Compliance",
+      "category": "Electronics",
+      "accuracy": 0.87,
+      "review_keywords": [
+        "scanner",
+        "documents",
+        "compliance",
+        "enterprise",
+        "efficient",
+        "professional",
+        "quality",
+        "workflow"
+      ],
+      "context_keywords": [
+        "documentation",
+        "enterprise",
+        "workflow"
+      ],
+      "exclusion_keywords": [
+        "home",
+        "personal"
+      ],
+      "why": "High-volume document scanners for compliance documentation are purchased by enterprise compliance departments"
+    },
+    {
+      "name": "Free Trade Agreement Rules of Origin Handbook",
+      "category": "Books",
+      "accuracy": 0.86,
+      "review_keywords": [
+        "origin",
+        "trade",
+        "agreement",
+        "rules",
+        "professional",
+        "detailed",
+        "compliance",
+        "reference"
+      ],
+      "context_keywords": [
+        "origin",
+        "trade",
+        "compliance"
+      ],
+      "exclusion_keywords": [
+        "introductory",
+        "student"
+      ],
+      "why": "Rules of origin handbooks are specialized references used by working trade compliance professionals"
+    },
+    {
+      "name": "Professional Import/Export Classification Stamps",
+      "category": "Office_Products",
+      "accuracy": 0.85,
+      "review_keywords": [
+        "stamps",
+        "classification",
+        "professional",
+        "import",
+        "export",
+        "efficient",
+        "accurate",
+        "documentation"
+      ],
+      "context_keywords": [
+        "classification",
+        "documentation",
+        "professional"
+      ],
+      "exclusion_keywords": [
+        "hobby",
+        "personal"
+      ],
+      "why": "Professional classification stamps are tools used by compliance staff for document processing workflows"
+    },
+    {
+      "name": "WTO Trade Agreements Reference Set",
+      "category": "Books",
+      "accuracy": 0.84,
+      "review_keywords": [
+        "WTO",
+        "agreements",
+        "trade",
+        "reference",
+        "professional",
+        "comprehensive",
+        "regulations",
+        "compliance"
+      ],
+      "context_keywords": [
+        "trade",
+        "agreements",
+        "compliance"
+      ],
+      "exclusion_keywords": [
+        "academic",
+        "student"
+      ],
+      "why": "WTO reference materials are used by trade compliance professionals navigating international trade agreements"
+    },
+    {
+      "name": "Compliance Audit Checklist Templates - Enterprise Pack",
+      "category": "Office_Products",
+      "accuracy": 0.83,
+      "review_keywords": [
+        "audit",
+        "checklist",
+        "compliance",
+        "templates",
+        "enterprise",
+        "thorough",
+        "professional",
+        "structured"
+      ],
+      "context_keywords": [
+        "audit",
+        "compliance",
+        "enterprise"
+      ],
+      "exclusion_keywords": [
+        "basic",
+        "small"
+      ],
+      "why": "Enterprise audit templates are used by compliance professionals conducting structured compliance reviews"
+    },
+    {
+      "name": "Incoterms 2020 Professional Reference Guide",
+      "category": "Books",
+      "accuracy": 0.82,
+      "review_keywords": [
+        "Incoterms",
+        "reference",
+        "professional",
+        "shipping",
+        "trade",
+        "accurate",
+        "detailed",
+        "compliance"
+      ],
+      "context_keywords": [
+        "Incoterms",
+        "trade",
+        "professional"
+      ],
+      "exclusion_keywords": [
+        "beginner",
+        "student"
+      ],
+      "why": "Professional Incoterms references are used by trade compliance staff handling international shipping terms"
+    },
+    {
+      "name": "Export Administration Regulations (EAR) Compliance Manual",
+      "category": "Books",
+      "accuracy": 0.81,
+      "review_keywords": [
+        "EAR",
+        "regulations",
+        "export",
+        "compliance",
+        "manual",
+        "professional",
+        "detailed",
+        "administration"
+      ],
+      "context_keywords": [
+        "EAR",
+        "export",
+        "compliance"
+      ],
+      "exclusion_keywords": [
+        "introductory",
+        "overview"
+      ],
+      "why": "EAR compliance manuals are specialized resources used by export compliance professionals"
+    },
+    {
+      "name": "Trade Compliance Workflow Management Software",
+      "category": "Software",
+      "accuracy": 0.8,
+      "review_keywords": [
+        "workflow",
+        "management",
+        "compliance",
+        "trade",
+        "enterprise",
+        "efficient",
+        "structured",
+        "professional"
+      ],
+      "context_keywords": [
+        "workflow",
+        "management",
+        "enterprise"
+      ],
+      "exclusion_keywords": [
+        "simple",
+        "basic"
+      ],
+      "why": "Workflow management software for trade compliance is purchased by enterprise compliance departments"
+    }
+  ],
+  "subreddits": [
+    {
+      "name": "TradeCompliance",
+      "relevance": 0.95,
+      "member_type": "90% working trade compliance professionals",
+      "data_value": "Real-world compliance challenges, regulatory updates, workflow optimization discussions",
+      "why": "Dedicated community for trade compliance professionals sharing operational insights"
+    },
+    {
+      "name": "CustomsBrokers",
+      "relevance": 0.88,
+      "member_type": "70% customs brokers, 20% trade compliance staff",
+      "data_value": "Customs procedures, classification issues, regulatory changes affecting daily operations",
+      "why": "Professional community focused on customs and trade compliance operations"
+    },
+    {
+      "name": "ExportControls",
+      "relevance": 0.85,
+      "member_type": "80% export compliance professionals",
+      "data_value": "Export regulation interpretations, licensing issues, compliance program discussions",
+      "why": "Specialized forum for export control compliance professionals"
+    },
+    {
+      "name": "InternationalTrade",
+      "relevance": 0.75,
+      "member_type": "40% trade compliance, 30% trade analysts, 30% other trade professionals",
+      "data_value": "Trade policy impacts, regulatory changes, compliance strategy discussions",
+      "why": "Broader trade community with significant compliance professional participation"
+    },
+    {
+      "name": "SupplyChainCompliance",
+      "relevance": 0.7,
+      "member_type": "50% compliance professionals, 30% supply chain managers",
+      "data_value": "End-to-end compliance challenges, vendor management, audit experiences",
+      "why": "Cross-functional community addressing compliance within supply chain operations"
+    },
+    {
+      "name": "RegulatoryAffairs",
+      "relevance": 0.65,
+      "member_type": "30% trade compliance, 70% other regulatory professionals",
+      "data_value": "Regulatory change management, compliance program structure, audit preparation",
+      "why": "Broader regulatory community with trade compliance professional participation"
+    },
+    {
+      "name": "HTSClassification",
+      "relevance": 0.9,
+      "member_type": "85% classification specialists and trade compliance staff",
+      "data_value": "Product classification challenges, tariff code interpretations, ruling discussions",
+      "why": "Specialized community focused on harmonized tariff classification issues"
+    },
+    {
+      "name": "CBPTrade",
+      "relevance": 0.8,
+      "member_type": "60% customs brokers, 25% trade compliance professionals",
+      "data_value": "CBP policy updates, enforcement actions, procedural changes affecting operations",
+      "why": "Community focused on U.S. Customs and Border Protection trade regulations"
+    },
+    {
+      "name": "TradePolicy",
+      "relevance": 0.6,
+      "member_type": "25% trade compliance, 40% policy analysts, 35% other trade professionals",
+      "data_value": "Policy change impacts on compliance operations, regulatory trend analysis",
+      "why": "Policy-focused community providing regulatory landscape insights for compliance professionals"
+    },
+    {
+      "name": "ComplianceJobs",
+      "relevance": 0.55,
+      "member_type": "40% trade compliance professionals seeking opportunities",
+      "data_value": "Career progression insights, skill requirements, industry demand trends",
+      "why": "Professional development community for compliance career advancement"
+    },
+    {
+      "name": "FreightForwarding",
+      "relevance": 0.5,
+      "member_type": "20% trade compliance, 60% freight forwarders, 20% logistics professionals",
+      "data_value": "Operational challenges in documentation, compliance issues in shipping",
+      "why": "Logistics community with significant trade compliance operational overlap"
+    },
+    {
+      "name": "WCOCompliance",
+      "relevance": 0.85,
+      "member_type": "75% customs and trade compliance professionals",
+      "data_value": "International customs procedures, WCO framework implementation, best practices",
+      "why": "World Customs Organization focused community for international compliance professionals"
+    },
+    {
+      "name": "TradeAgreements",
+      "relevance": 0.7,
+      "member_type": "35% trade compliance, 40% trade analysts, 25% policy professionals",
+      "data_value": "FTA utilization strategies, rules of origin applications, preferential trade programs",
+      "why": "Community focused on trade agreement implementation affecting compliance operations"
+    },
+    {
+      "name": "EnterpriseCompliance",
+      "relevance": 0.65,
+      "member_type": "30% trade compliance, 70% other enterprise compliance professionals",
+      "data_value": "Enterprise compliance program management, audit strategies, risk management",
+      "why": "Enterprise-focused compliance community addressing large-scale operational challenges"
+    },
+    {
+      "name": "TradeDocuments",
+      "relevance": 0.75,
+      "member_type": "70% trade compliance and documentation specialists",
+      "data_value": "Documentation requirements, process optimization, compliance documentation challenges",
+      "why": "Specialized community focused on trade documentation and compliance processes"
+    }
+  ],
+  "demographic_profile": {
+    "core_keywords": [
+      "compliance",
+      "enterprise",
+      "workflow",
+      "audit",
+      "documentation",
+      "regulations",
+      "customs",
+      "classification",
+      "export",
+      "import",
+      "risk assessment",
+      "procedures",
+      "structured",
+      "professional",
+      "regulatory"
+    ],
+    "exclusion_keywords": [
+      "student",
+      "beginner",
+      "small business",
+      "startup",
+      "personal",
+      "hobby",
+      "academic",
+      "theoretical"
+    ],
+    "age_range": "28-55",
+    "primary_motivations": [
+      "regulatory accuracy and compliance",
+      "workflow efficiency and optimization",
+      "audit readiness and documentation",
+      "staying current with regulatory changes"
+    ],
+    "summary": "Trade compliance professionals work within large enterprise environments managing complex regulatory requirements and structured compliance workflows. They prioritize accuracy, efficiency, and thorough documentation to ensure regulatory compliance and successful audit outcomes. Their decisions are driven by regulatory changes, operational efficiency needs, and the ongoing requirement to improve processes through structured feedback and discovery rather than reactive responses."
+  }
+}

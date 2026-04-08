@@ -1,0 +1,55 @@
+{"review_id": "cluster_0_b0_pp0", "trait_label": "Software Reliability Crisis", "text": "Frustration with buggy, unreliable software that crashes or hangs frequently", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp1", "trait_label": "Software Reliability Crisis", "text": "Anger over forced, poorly managed upgrades and data conversion processes that fail", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp2", "trait_label": "Software Reliability Crisis", "text": "Disappointment in product downgrades and deceptive feature removal without clear communication", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_do0", "trait_label": "Software Reliability Crisis", "text": "Stable, reliable software that performs core functions without errors or crashes", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_do1", "trait_label": "Software Reliability Crisis", "text": "Clear, honest communication about product changes, pricing, and feature sets", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp0", "trait_label": "Software Reliability Crisis", "text": "Buggy and unreliable software with sporadic performance", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp1", "trait_label": "Software Reliability Crisis", "text": "Frustration with forced updates that introduce crashes and instability", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp2", "trait_label": "Software Reliability Crisis", "text": "Poor customer support with slow or ineffective resolutions", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_do0", "trait_label": "Software Reliability Crisis", "text": "Reliable, bug-free software that works consistently", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_do1", "trait_label": "Software Reliability Crisis", "text": "Fast, efficient performance even on older hardware", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp0", "trait_label": "Software Reliability Crisis", "text": "Experiencing data loss or unrecoverable failures with existing software", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp1", "trait_label": "Software Reliability Crisis", "text": "Frustration with slow, laggy, or unresponsive interfaces in data/tracking tools", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp2", "trait_label": "Software Reliability Crisis", "text": "Difficulty finding data/features due to poor UI/UX or navigation", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_do0", "trait_label": "Software Reliability Crisis", "text": "Reliable data access and system uptime without failures", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_do1", "trait_label": "Software Reliability Crisis", "text": "Fast, responsive performance for queries and data manipulation", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp0", "trait_label": "Software Reliability Crisis", "text": "Software not working as advertised on stated compatible systems", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp1", "trait_label": "Software Reliability Crisis", "text": "Critical data errors in financial reports leading to costly corrections", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp2", "trait_label": "Software Reliability Crisis", "text": "Poor performance causing long render/export times and freezes", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_do0", "trait_label": "Software Reliability Crisis", "text": "Accurate and reliable data reporting without errors", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_do1", "trait_label": "Software Reliability Crisis", "text": "Tools that boost performance and efficiency in daily work", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp0", "trait_label": "Software Reliability Crisis", "text": "Reliance on generic support responses like restarting device instead of proper root cause analysis", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp1", "trait_label": "Software Reliability Crisis", "text": "Poor cross-device sync leads to inconsistent user experience", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp2", "trait_label": "Software Reliability Crisis", "text": "Software instability and crashes causing significant time investment loss", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_do0", "trait_label": "Software Reliability Crisis", "text": "Stable, reliable software that works consistently across devices/platforms", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_do1", "trait_label": "Software Reliability Crisis", "text": "Rapid data recovery/backup solutions to minimize downtime", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp0", "trait_label": "AI Reliability & Trust Gap", "text": "Overly complex interfaces that hinder user efficiency", "tone": "cautious"}
+{"review_id": "cluster_1_b0_pp1", "trait_label": "AI Reliability & Trust Gap", "text": "Difficulty in extracting insights due to poor visualization or reporting tools", "tone": "cautious"}
+{"review_id": "cluster_1_b0_pp2", "trait_label": "AI Reliability & Trust Gap", "text": "Software instability or bugs that disrupt workflow", "tone": "cautious"}
+{"review_id": "cluster_1_b0_do0", "trait_label": "AI Reliability & Trust Gap", "text": "Ability to create custom reports and visualizations easily", "tone": "cautious"}
+{"review_id": "cluster_1_b0_do1", "trait_label": "AI Reliability & Trust Gap", "text": "Real-time collaboration and data sharing capabilities", "tone": "cautious"}
+{"review_id": "cluster_1_b1_pp0", "trait_label": "AI Reliability & Trust Gap", "text": "Dashboard overload and lack of actionability; too many dashboards that are rarely used", "tone": "cautious"}
+{"review_id": "cluster_1_b1_pp1", "trait_label": "AI Reliability & Trust Gap", "text": "Manual, time-consuming data tasks like cleaning, formatting, and removing duplicates", "tone": "cautious"}
+{"review_id": "cluster_1_b1_pp2", "trait_label": "AI Reliability & Trust Gap", "text": "Lack of trust in AI accuracy and hallucinations, especially for critical calculations", "tone": "cautious"}
+{"review_id": "cluster_1_b1_do0", "trait_label": "AI Reliability & Trust Gap", "text": "Automated, reliable data analysis that reduces manual audits and verification", "tone": "cautious"}
+{"review_id": "cluster_1_b1_do1", "trait_label": "AI Reliability & Trust Gap", "text": "Simple, intuitive tools that solve real business problems quickly", "tone": "cautious"}
+{"review_id": "cluster_1_b2_pp0", "trait_label": "AI Reliability & Trust Gap", "text": "Poor technical support and condescending/rude customer service", "tone": "cautious"}
+{"review_id": "cluster_1_b2_pp1", "trait_label": "AI Reliability & Trust Gap", "text": "Software crashes and instability during critical usage", "tone": "cautious"}
+{"review_id": "cluster_1_b2_pp2", "trait_label": "AI Reliability & Trust Gap", "text": "Inability to handle specific file formats or data sources without conversion", "tone": "cautious"}
+{"review_id": "cluster_1_b2_do0", "trait_label": "AI Reliability & Trust Gap", "text": "Reliable and stable performance without crashes", "tone": "cautious"}
+{"review_id": "cluster_1_b2_do1", "trait_label": "AI Reliability & Trust Gap", "text": "Smooth and easy data conversion/upgrade processes", "tone": "cautious"}
+{"review_id": "cluster_1_b3_pp0", "trait_label": "AI Reliability & Trust Gap", "text": "High resource consumption impacting system performance", "tone": "cautious"}
+{"review_id": "cluster_1_b3_pp1", "trait_label": "AI Reliability & Trust Gap", "text": "Unreliable or inaccurate data tracking/location", "tone": "cautious"}
+{"review_id": "cluster_1_b3_pp2", "trait_label": "AI Reliability & Trust Gap", "text": "Products reinventing existing features unnecessarily", "tone": "cautious"}
+{"review_id": "cluster_1_b3_do0", "trait_label": "AI Reliability & Trust Gap", "text": "Reliable and accurate behavioral data tracking", "tone": "cautious"}
+{"review_id": "cluster_1_b3_do1", "trait_label": "AI Reliability & Trust Gap", "text": "Performance improvement and system optimization", "tone": "cautious"}
+{"review_id": "cluster_1_b4_pp0", "trait_label": "AI Reliability & Trust Gap", "text": "Slow or delayed data retrieval/timely access to data", "tone": "cautious"}
+{"review_id": "cluster_1_b4_pp1", "trait_label": "AI Reliability & Trust Gap", "text": "Product negatively impacts system performance (e.g., hangs)", "tone": "cautious"}
+{"review_id": "cluster_1_b4_pp2", "trait_label": "AI Reliability & Trust Gap", "text": "Excessive or intrusive ads that degrade user experience", "tone": "cautious"}
+{"review_id": "cluster_1_b4_do0", "trait_label": "AI Reliability & Trust Gap", "text": "Unified platform for viewing, reporting, and analyzing data", "tone": "cautious"}
+{"review_id": "cluster_1_b4_do1", "trait_label": "AI Reliability & Trust Gap", "text": "Reliable data pipeline and orchestration with minimal downtime", "tone": "cautious"}
+{"review_id": "monologue_9cc9f9", "trait_label": "Inner Monologue", "text": "They're not showing any uptime statistics or system performance data - that's a red flag. I need clear visibility into system performance and resource usage before I can even consider this.", "tone": "authentic_voice"}
+{"review_id": "monologue_29053b", "trait_label": "Inner Monologue", "text": "These testimonials look good, but I need to see some actual evidence. Where are the case studies with measurable ROI? I can't justify another purchase without clear evidence of product effectiveness and value.", "tone": "authentic_voice"}
+{"review_id": "monologue_5d4ecd", "trait_label": "Inner Monologue", "text": "This interface looks confusing already. The last thing I need is difficulty navigating or changing workflows mid-session when we're under deadline pressure.", "tone": "authentic_voice"}
+{"review_id": "monologue_9421a7", "trait_label": "Inner Monologue", "text": "Another signup form asking for company details before I can even see the pricing. I'm not giving up our information just to find out this is another overpriced solution with hidden upgrade costs.", "tone": "authentic_voice"}
+{"review_id": "monologue_f0b440", "trait_label": "Inner Monologue", "text": "Finally, a vendor that actually shows their incident response process and has detailed technical documentation. This looks like they understand what accurate and reliable data reporting without errors actually means.", "tone": "authentic_voice"}

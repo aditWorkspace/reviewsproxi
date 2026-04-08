@@ -21,3 +21,5 @@ rich>=13.0.0
 python-dotenv>=1.0.0
 beautifulsoup4>=4.12.0
 requests>=2.31.0
+app-store-scraper>=0.3.5
+google-play-scraper>=1.2.3

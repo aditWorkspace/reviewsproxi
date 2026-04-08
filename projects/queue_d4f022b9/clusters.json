@@ -1,0 +1,2980 @@
+{
+  "chosen_n_clusters": 4,
+  "sweep_results": [
+    {
+      "k": 3,
+      "silhouette": 0.10776308923959732,
+      "intra_similarity": 0.5224644641081492,
+      "inter_distance": 0.27009302377700806,
+      "combined_score": 0.264639488607645
+    },
+    {
+      "k": 4,
+      "silhouette": 0.13496865332126617,
+      "intra_similarity": 0.6686456948518753,
+      "inter_distance": 0.5887175798416138,
+      "combined_score": 0.38582155108451843
+    },
+    {
+      "k": 5,
+      "silhouette": 0.11193880438804626,
+      "intra_similarity": 0.662070381641388,
+      "inter_distance": 0.5327785015106201,
+      "combined_score": 0.36114621698856353
+    },
+    {
+      "k": 6,
+      "silhouette": 0.10735777765512466,
+      "intra_similarity": 0.665629655122757,
+      "inter_distance": 0.4944732189178467,
+      "combined_score": 0.35226242914795874
+    },
+    {
+      "k": 7,
+      "silhouette": 0.1054476946592331,
+      "intra_similarity": 0.6640428645270211,
+      "inter_distance": 0.4729711413383484,
+      "combined_score": 0.3465309349553925
+    },
+    {
+      "k": 8,
+      "silhouette": 0.10936681926250458,
+      "intra_similarity": 0.6724841520190239,
+      "inter_distance": 0.47630518674850464,
+      "combined_score": 0.3516896925866604
+    },
+    {
+      "k": 9,
+      "silhouette": 0.1033884584903717,
+      "intra_similarity": 0.6768797569804721,
+      "inter_distance": 0.46350204944610596,
+      "combined_score": 0.34745856622854865
+    },
+    {
+      "k": 10,
+      "silhouette": 0.10887560993432999,
+      "intra_similarity": 0.665762084722519,
+      "inter_distance": 0.4690598249435425,
+      "combined_score": 0.3479783953726292
+    }
+  ],
+  "quality_metrics": {
+    "silhouette": 0.13496865332126617,
+    "intra_similarity": 0.6686456948518753,
+    "inter_distance": 0.5887175798416138,
+    "combined_score": 0.38582155108451843,
+    "stability_ari": 0.68,
+    "stability_label": "moderate"
+  },
+  "cluster_0": {
+    "member_count": 53,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Management disengagement and lack of support",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Loss of trust in leadership due to poor management practices",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Being blamed for soft skills deficits in toxic work environments",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Lack of due diligence in performance management (e.g., PIPs based on unfounded claims)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Feeling undervalued and overworked without recognition",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Ineffective HR and conflict resolution processes",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Dealing with workplace bullying and discrimination (e.g., gender, age)",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Career stagnation due to mismanagement or incompetence",
+            "emotional_intensity": 0.75
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Career advancement and moving up the corporate ladder",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Gaining insights into personality types for better workplace dynamics",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Achieving work-life balance and personal fulfillment",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Developing practical skills for success and leadership",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Finding resources for team training and development",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Escaping toxic work environments for respectful, supportive roles",
+            "priority": 0.95
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Required reading for academic or corporate training courses",
+            "context": "Graduate-level courses or new-hire packets"
+          },
+          {
+            "trigger": "Seeking self-improvement or career rededication advice",
+            "context": "Personal development or corporate ladder aspirations"
+          },
+          {
+            "trigger": "Need for tools to understand and manage team dynamics",
+            "context": "Leadership or management roles"
+          },
+          {
+            "trigger": "Desire for practical, common-sense professional guidance",
+            "context": "Career transition or skill enhancement"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Content may be too basic or common-sense, lacking depth",
+            "severity": 0.4
+          },
+          {
+            "objection": "Management advice perceived as incompetent or out of touch",
+            "severity": 0.7
+          },
+          {
+            "objection": "Resources not applicable to specific, complex workplace issues",
+            "severity": 0.6
+          },
+          {
+            "objection": "Perceived as promoting mediocrity over genuine solutions",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Current employer or role",
+            "reason": "Loss of trust in management and toxic culture",
+            "threshold": "Repeated incidents of mismanagement and bullying"
+          },
+          {
+            "from_product": "Ineffective training materials",
+            "reason": "Need for more actionable, evidence-based insights",
+            "threshold": "Failure to address real-world workplace dynamics"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Practical applicability to real-world scenarios",
+          "Evidence-based and trustworthy content",
+          "Alignment with career growth goals",
+          "Ease of integration into training programs",
+          "Cost-effectiveness and ROI",
+          "Author credibility and reviews"
+        ],
+        "deal_breakers": [
+          "Promotes or excuses poor management practices",
+          "Lacks actionable, specific guidance",
+          "Fails to address diversity and inclusion issues",
+          "Overly theoretical without practical tools"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Poor management practices and lack of leadership skills causing employee distress",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Inexperienced or ineffective use of PIPs causing demotivation and attrition",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Lack of investigation and verification before taking disciplinary action",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Being treated unfairly or punitively despite good performance history",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Career progression hindered by punitive performance management",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Fair and transparent performance management processes",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Effective leadership that supports team growth and development",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Preservation of professional reputation and career trajectory",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Clear communication and feedback before formal corrective action",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Tools to balance team leadership with personal career growth",
+            "priority": 0.75
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to address specific performance management failures",
+            "context": "After experiencing or witnessing PIP misuse or mismanagement"
+          },
+          {
+            "trigger": "Desire to improve leadership capabilities and team outcomes",
+            "context": "Recognizing gaps in management skills causing team issues"
+          },
+          {
+            "trigger": "Need to implement fair and effective HR processes",
+            "context": "When current processes are damaging morale and retention"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Software won't fix fundamentally bad management practices",
+            "severity": 0.8
+          },
+          {
+            "objection": "Tools may be used punitively rather than developmentally",
+            "severity": 0.75
+          },
+          {
+            "objection": "Cost/benefit unclear if organizational culture is the real problem",
+            "severity": 0.7
+          },
+          {
+            "objection": "Implementation may add bureaucracy without solving core issues",
+            "severity": 0.65
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Current performance management system",
+            "reason": "System enables or doesn't prevent punitive/ineffective PIP usage",
+            "threshold": "When employee morale drops or attrition increases due to process failures"
+          },
+          {
+            "from_product": "Current HR software",
+            "reason": "Doesn't provide adequate safeguards or guidance for proper performance management",
+            "threshold": "After significant incident of process failure or employee harm"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Improves fairness and transparency in performance management",
+          "Provides clear process guidance for managers",
+          "Helps prevent costly employee attrition",
+          "Supports professional development and growth",
+          "Integrates with existing HR systems",
+          "Offers analytics to identify process issues"
+        ],
+        "deal_breakers": [
+          "Software that enables punitive rather than developmental approaches",
+          "Lack of safeguards against process misuse",
+          "Insufficient training and support for implementation",
+          "Doesn't address cultural/organizational aspects of performance management"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Poor management and leadership",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Lack of authority despite accountability",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Good work is rewarded with more work, not fair payoff",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Environment and team misalignment causing employee failure",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Bureaucracy and lack of freedom in large corporations",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Being ignored, pushed aside, or passed over for promotions",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Expectations increasing without corresponding rewards",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Teams being mismanaged, leading to poor performance",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Low drive and motivation due to lack of recognition",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Punished for taking job seriously while others underperform",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Better work-life balance and personal satisfaction",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Finding a healthier team environment to thrive in",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Having real authority to match accountability",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Recognition and fair reward for exceptional performance",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Career growth and promotions aligned with performance",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Freedom to make decisions and drive change",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Reduced bureaucracy and efficient operations",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Building a positive team atmosphere with high standards",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Leadership that supports and develops employees",
+            "priority": 0.5
+          }
+        ],
+        "purchase_triggers": [],
+        "objections": [
+          {
+            "objection": "Management policies and environment cause most problems, not individual employees",
+            "severity": 0.8
+          },
+          {
+            "objection": "Excessive bureaucracy in large corporations stifles effectiveness",
+            "severity": 0.7
+          },
+          {
+            "objection": "Poor leadership decisions negatively impact entire departments",
+            "severity": 0.7
+          },
+          {
+            "objection": "Lack of transparency in management decisions and contracts",
+            "severity": 0.6
+          },
+          {
+            "objection": "Matrix structures create accountability without authority",
+            "severity": 0.6
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Poorly managed team",
+            "reason": "Horrible leadership making work environment toxic",
+            "threshold": "Would be fired or have quit without change"
+          },
+          {
+            "from_product": "Current department",
+            "reason": "Terrible department leader and mismatched company culture",
+            "threshold": "Already checked out and considering leaving"
+          },
+          {
+            "from_product": "Current role",
+            "reason": "Lack of authority despite equivalent position",
+            "threshold": "Feeling ineffective and considering new company"
+          },
+          {
+            "from_product": "Current team",
+            "reason": "Environment broken, not the person",
+            "threshold": "Employee underperforming due to team issues"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Quality of leadership and management",
+          "Work environment and team culture",
+          "Authority to match responsibilities",
+          "Career growth opportunities",
+          "Company size and bureaucracy level",
+          "Compensation and rewards fairness",
+          "Work-life balance and personal satisfaction"
+        ],
+        "deal_breakers": [
+          "Horrible leadership that creates toxic environment",
+          "Complete lack of authority despite accountability",
+          "Bureaucracy that prevents effective work",
+          "No recognition or fair reward for good work",
+          "Being punished for competence while others underperform"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Feeling their ideas are not listened to and are seen as obstruction or scope creep",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Leadership actively encouraging employee disengagement",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Being punished or told to stay in their lane for speaking out about concerns",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Managers not providing space to share ideas, leading to feeling unsupported",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Upper management focusing only on metrics, ignoring necessary but unmeasured work",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Toxicity from higher leadership layers causing talent attrition",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Cost savings prioritized over product improvements, leading to poor outcomes",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Struggling to find a way out of a bad work situation",
+            "emotional_intensity": 0.9
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Have their ideas listened to and acted upon for actual improvements",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Managers who communicate and solve problems hindering the team",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Leadership that values and supports team growth and development",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Work in an environment where they can volunteer for extra projects without punishment",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Achieve career growth through a supportive management chain",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Find a better job after leaving a toxic workplace",
+            "priority": 0.9
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Seeking knowledge or inspiration for personal or professional growth",
+            "context": "Buying books on historical figures, self-help, or skill development"
+          },
+          {
+            "trigger": "Need to support team members or family with guidance and resources",
+            "context": "Purchasing books for teens, journals for reflection, or clutter management guides"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product is too structured and trade-specific, not meeting creative needs",
+            "severity": 0.6
+          },
+          {
+            "objection": "Content may not be suitable for the intended audience (e.g., age-inappropriate topics)",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Current employer",
+            "reason": "Toxic leadership, retaliation for speaking out, or lack of growth opportunities",
+            "threshold": "When personal well-being or career progression is severely impacted"
+          },
+          {
+            "from_product": "Ineffective management",
+            "reason": "Manager fails to listen, support, or advocate for the team",
+            "threshold": "When disengagement sets in and better opportunities arise"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Leadership support and responsiveness to ideas",
+          "Career growth and development opportunities",
+          "Work environment and team dynamics",
+          "Alignment of personal values with company goals",
+          "Compensation and recognition"
+        ],
+        "deal_breakers": [
+          "Retaliation for raising concerns or speaking out",
+          "Leadership that ignores necessary work not covered by metrics",
+          "Managers who do not provide space for idea-sharing",
+          "Prioritizing cost savings over product quality"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Frustration with poor or untrustworthy management",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Disconnect between employee skills/desires and management expectations",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Lack of self-awareness or accountability from leadership",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Being forced into management roles despite preferring technical work",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Dealing with systemic organizational issues and bureaucracy",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Fear of losing top performers due to management failures",
+            "emotional_intensity": 0.8
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Effective management that owns mistakes and rebuilds trust",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Alignment between role assignments and employee skills/interests",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Clear processes to prevent recurring issues",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Recognition and retention of top performers",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Ability to advocate for team and push back on poor executive decisions",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Practical, actionable solutions over theoretical or academic approaches",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for pragmatic solutions to immediate team or process issues",
+            "context": "When facing recurring management or operational failures"
+          },
+          {
+            "trigger": "Seeking resources that align with personal project or role requirements",
+            "context": "Starting a new project or returning to a domain after a break"
+          },
+          {
+            "trigger": "Desire for professional development in balancing leadership and technical work",
+            "context": "When transitioning or struggling in a hybrid role"
+          },
+          {
+            "trigger": "Recommendation from trusted source or evidence of real-world applicability",
+            "context": "When evaluating tools or content for team or organizational use"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Content is too theoretical or academic, lacking practical steps",
+            "severity": 0.7
+          },
+          {
+            "objection": "Solutions are oversimplified or do not address systemic complexity",
+            "severity": 0.65
+          },
+          {
+            "objection": "Misalignment with actual job roles or personal career interests",
+            "severity": 0.8
+          },
+          {
+            "objection": "Fear of adopting tools that may not stick or have lasting impact",
+            "severity": 0.6
+          },
+          {
+            "objection": "Concern about poor management or organizational culture undermining solutions",
+            "severity": 0.85
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Current management practices",
+            "reason": "Lack of accountability and trust erosion",
+            "threshold": "When top performers begin disengaging or planning exits"
+          },
+          {
+            "from_product": "Generic or broad-scope solutions",
+            "reason": "Need for targeted, role-specific tools",
+            "threshold": "When personal or team efficiency is hindered by misfit"
+          },
+          {
+            "from_product": "Theoretical or non-actionable content",
+            "reason": "Preference for practical, immediately applicable guidance",
+            "threshold": "When time investment does not yield tangible improvements"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Practical applicability and actionable steps",
+          "Trustworthiness and accountability features",
+          "Alignment with specific role and team needs",
+          "Evidence of real-world success or testimonials",
+          "Efficiency and time-to-value",
+          "Support for balancing technical and leadership duties"
+        ],
+        "deal_breakers": [
+          "Lack of management accountability or ownership mechanisms",
+          "Forcing technical experts into unwanted people-management roles",
+          "Overly academic or non-practical content with no clear implementation",
+          "Ignoring systemic issues or individual employee concerns",
+          "Solutions that require unrealistic organizational change without incremental steps"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.5,
+      "reddit": 0.5,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Frustration with team members who lack self-awareness and do not display leadership qualities, impacting team dynamics and promotion opportunities.",
+          "count": 1,
+          "frequency": 0.003,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0091
+        },
+        {
+          "signal": "Managers failing to provide clear, explicit feedback during formal performance reviews, leaving employees in the dark about promotion barriers.",
+          "count": 1,
+          "frequency": 0.003,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0091
+        },
+        {
+          "signal": "Employees feeling punished for using allocated benefits (like taking multiple days off), which negatively impacts career advancement.",
+          "count": 1,
+          "frequency": 0.003,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0091
+        },
+        {
+          "signal": "High fees or cost concerns reducing perceived value of a product.",
+          "count": 1,
+          "frequency": 0.003,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0091
+        },
+        {
+          "signal": "Technical issues like downloaded videos becoming corrupt or deleted, leading to poor user experience.",
+          "count": 1,
+          "frequency": 0.003,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0091
+        },
+        {
+          "signal": "Lack of essential features such as a password reset option, causing user disappointment.",
+          "count": 1,
+          "frequency": 0.003,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0091
+        },
+        {
+          "signal": "Perceived tone of management feedback feels condescending, leading to morale issues",
+          "count": 1,
+          "frequency": 0.003,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0091
+        },
+        {
+          "signal": "Team members using company benefits being unfairly penalized or passed over for advancement",
+          "count": 1,
+          "frequency": 0.003,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0091
+        },
+        {
+          "signal": "Cross-training is de-prioritized when busy, causing skill gaps and operational risks",
+          "count": 1,
+          "frequency": 0.003,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0091
+        },
+        {
+          "signal": "Fear of legal liability from management decisions related to promotion and benefits",
+          "count": 1,
+          "frequency": 0.003,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0091
+        },
+        {
+          "signal": "Difficulty communicating poor performance without appearing discriminatory",
+          "count": 1,
+          "frequency": 0.003,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0121
+        },
+        {
+          "signal": "Operational inefficiency from lack of system for tracking outcomes vs. outputs",
+          "count": 1,
+          "frequency": 0.003,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0091
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Clear, quantifiable feedback on performance and promotion readiness to align employee expectations with managerial assessments.",
+          "count": 1,
+          "frequency": 0.0033,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.01
+        },
+        {
+          "signal": "Tools or resources that help balance team leadership responsibilities with personal career growth.",
+          "count": 1,
+          "frequency": 0.0033,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.01
+        },
+        {
+          "signal": "Products that simplify or enhance operational efficiency (e.g., ample space for scheduling, step-by-step guides).",
+          "count": 1,
+          "frequency": 0.0033,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.01
+        },
+        {
+          "signal": "Reliable and consistent product functionality without technical failures.",
+          "count": 1,
+          "frequency": 0.0033,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.01
+        },
+        {
+          "signal": "Cost-effective solutions that provide high value relative to price.",
+          "count": 1,
+          "frequency": 0.0033,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.01
+        },
+        {
+          "signal": "Clear, constructive feedback that respects employee dignity while addressing performance",
+          "count": 1,
+          "frequency": 0.0033,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.01
+        },
+        {
+          "signal": "Implement structured cross-training to build team resilience and development opportunities",
+          "count": 1,
+          "frequency": 0.0033,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.01
+        },
+        {
+          "signal": "Focus on customer-centric outcomes rather than just output to increase business value",
+          "count": 1,
+          "frequency": 0.0033,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.01
+        },
+        {
+          "signal": "Align performance evaluations with actual deliverables and behavior, not benefit usage",
+          "count": 1,
+          "frequency": 0.0033,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.01
+        },
+        {
+          "signal": "Define measurable indicators for success to track and improve business processes",
+          "count": 1,
+          "frequency": 0.0033,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.01
+        },
+        {
+          "signal": "Create an environment where using company benefits is not penalized",
+          "count": 1,
+          "frequency": 0.0033,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.01
+        },
+        {
+          "signal": "Foster a culture of experimentation and iterative learning for operational improvement",
+          "count": 1,
+          "frequency": 0.0033,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.01
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Persistent technical failures or data loss",
+          "count": 1,
+          "frequency": 0.0045,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0179
+        },
+        {
+          "signal": "Lack of essential features (e.g., password reset)",
+          "count": 1,
+          "frequency": 0.0045,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0134
+        },
+        {
+          "signal": "Unclear or punitive management policies affecting career growth",
+          "count": 1,
+          "frequency": 0.0045,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0134
+        },
+        {
+          "signal": "Prohibitively high costs without commensurate value",
+          "count": 1,
+          "frequency": 0.0045,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0134
+        },
+        {
+          "signal": "Policies or tools that unfairly penalize employees for using company benefits",
+          "count": 1,
+          "frequency": 0.0045,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0134
+        },
+        {
+          "signal": "Significant legal liability exposure from unclear or discriminatory practices",
+          "count": 1,
+          "frequency": 0.0045,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0134
+        },
+        {
+          "signal": "Solutions that lack evidence of delivering measurable business outcomes",
+          "count": 1,
+          "frequency": 0.0045,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0134
+        },
+        {
+          "signal": "Management tools that undermine team morale or create condescending dynamics",
+          "count": 1,
+          "frequency": 0.0045,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0134
+        },
+        {
+          "signal": "Advice that is unrealistic or lacks evidence",
+          "count": 1,
+          "frequency": 0.0045,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0134
+        },
+        {
+          "signal": "Lack of manager support for team and personal needs",
+          "count": 1,
+          "frequency": 0.0045,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0134
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Need for comprehensive, step-by-step instructions and adaptable designs for personal or professional projects.",
+          "count": 1,
+          "frequency": 0.0057,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0172
+        },
+        {
+          "signal": "Requirement for tools that offer large date boxes and detailed scheduling features for managing appointments and activities.",
+          "count": 1,
+          "frequency": 0.0057,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0172
+        },
+        {
+          "signal": "Desire for authoritative, well-researched content that blends educational value with engaging narrative.",
+          "count": 1,
+          "frequency": 0.0057,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.023
+        },
+        {
+          "signal": "Positive experiences with client service or content quality leading to repeat purchases or recommendations.",
+          "count": 1,
+          "frequency": 0.0057,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0172
+        },
+        {
+          "signal": "Tool helps improve team productivity and output quality, like GMAT preparation apps",
+          "count": 1,
+          "frequency": 0.0057,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0172
+        },
+        {
+          "signal": "Solution provides clear value (e.g., cross-training benefits) during operational challenges",
+          "count": 1,
+          "frequency": 0.0057,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0172
+        },
+        {
+          "signal": "Recommendations from credible sources or positive reviews indicating reliability",
+          "count": 1,
+          "frequency": 0.0057,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0172
+        },
+        {
+          "signal": "Need for a refresher or primary study in a specific skill area",
+          "count": 1,
+          "frequency": 0.0057,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0172
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "low": 0.736,
+        "medium": 0.264
+      }
+    }
+  },
+  "cluster_1": {
+    "member_count": 5,
+    "representative_batches": [
+      {
+        "pain_points": [],
+        "desired_outcomes": [],
+        "purchase_triggers": [],
+        "objections": [],
+        "switching_triggers": [],
+        "decision_factors_ranked": [],
+        "deal_breakers": [],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [],
+        "desired_outcomes": [],
+        "purchase_triggers": [],
+        "objections": [],
+        "switching_triggers": [],
+        "decision_factors_ranked": [],
+        "deal_breakers": [],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "signals": [
+          {
+            "signal_name": "signal_name_here",
+            "evidence": [
+              "exact quote from a review",
+              "another exact quote"
+            ],
+            "confidence": "high|medium|low"
+          }
+        ],
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [],
+        "desired_outcomes": [],
+        "purchase_triggers": [],
+        "objections": [],
+        "switching_triggers": [],
+        "decision_factors_ranked": [],
+        "deal_breakers": [],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [],
+        "desired_outcomes": [],
+        "purchase_triggers": [],
+        "objections": [],
+        "switching_triggers": [],
+        "decision_factors_ranked": [],
+        "deal_breakers": [],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.5,
+      "reddit": 0.5,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [],
+      "top_desired_outcomes": [],
+      "top_deal_breakers": [],
+      "top_purchase_triggers": [],
+      "dominant_friction_tolerance": "medium",
+      "friction_tolerance_distribution": {
+        "medium": 1.0
+      }
+    }
+  },
+  "cluster_2": {
+    "member_count": 62,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Frustration with unreliable or untrustworthy information from others, requiring independent verification",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Stress from managing risks and potential project failures, including pressure to downplay issues",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Anxiety over lack of documentation leading to forgotten decisions, blame, or extra work",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Difficulty managing people, office politics, and stakeholder motivations in projects",
+            "emotional_intensity": 0.65
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Ensuring project success and personal accountability through thorough documentation and risk tracking",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Gaining accurate, reliable tools or information that eliminate the need for constant verification",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Streamlining complex processes (e.g., conversions, management) with intuitive, ad-free tools",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Effective stakeholder management and communication to preempt issues and align teams",
+            "priority": 0.75
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for a reliable, specialized tool after moving to a new environment (e.g., metric country)",
+            "context": "Personal or professional transition requiring frequent conversions"
+          },
+          {
+            "trigger": "Dissatisfaction with previous tools due to bugs, inaccuracy, or intrusive ads",
+            "context": "Seeking replacement after negative experience"
+          },
+          {
+            "trigger": "Positive word-of-mouth or personal recommendation highlighting simplicity and accuracy",
+            "context": "Social or professional referral"
+          },
+          {
+            "trigger": "Requirement for a tool that solves a frequent, specific pain point without unnecessary complexity",
+            "context": "Daily operational needs"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Concern over tool reliability if it shows inaccurate data or fails in critical moments",
+            "severity": 0.8
+          },
+          {
+            "objection": "Resistance from stakeholders or sponsors when raising risks or documenting issues",
+            "severity": 0.7
+          },
+          {
+            "objection": "Annoyance with cluttered, ad-heavy, or overly complex interfaces in tools",
+            "severity": 0.6
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Generic conversion apps",
+            "reason": "Inaccurate conversions, bugs, or poor user experience",
+            "threshold": "Single critical failure or persistent annoyance"
+          },
+          {
+            "from_product": "Manual processes or multiple tools",
+            "reason": "Inefficiency and need for consolidated, accurate solution",
+            "threshold": "Recurring time waste or errors"
+          },
+          {
+            "from_product": "Previous project management habits",
+            "reason": "Realization that lack of documentation leads to problems",
+            "threshold": "Major project issue or personal accountability scare"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Accuracy and reliability",
+          "Simplicity and ease of use",
+          "Lack of ads or distractions",
+          "Trustworthiness of information or tool",
+          "Ability to document and communicate clearly",
+          "Stakeholder and team management features"
+        ],
+        "deal_breakers": [
+          "Inaccurate or unreliable data output",
+          "High friction from ads, bugs, or complexity",
+          "Lack of documentation or accountability features",
+          "Poor stakeholder communication tools"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 10,
+          "amazon_med_acc": 0,
+          "reddit": 10,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Dealing with unplanned work and unclear project direction",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Stakeholders providing unhelpful corrections on drafts rather than constructive collaboration",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Being over-invested in projects others do not prioritize",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Difficulty with specific technical features, like entering minus temperatures or an auto-hiding keyboard",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Need for more practical features (e.g., camera measurement, grams-to-cups conversion)",
+            "emotional_intensity": 0.3
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Tools that save time on big projects and streamline workflows",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Simple, reliable, ad-free tools that just work as expected",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Clear, actionable feedback from stakeholders, not just corrections",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Emotional detachment from projects where team investment is low",
+            "priority": 0.65
+          },
+          {
+            "outcome": "Tools that help underpromise and overdeliver",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for a simple, reliable, ad-free utility tool",
+            "context": "Moving countries, needing unit conversion for work/life"
+          },
+          {
+            "trigger": "Finding a tool that works flawlessly without ads or fees",
+            "context": "Frustration with bloated, ad-filled apps"
+          },
+          {
+            "trigger": "Desire to improve workflow efficiency",
+            "context": "Managing team projects and seeking time-saving solutions"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Missing specific, practical features (camera measurement, grams/cups)",
+            "severity": 0.4
+          },
+          {
+            "objection": "Minor usability annoyances (auto-hiding keyboard)",
+            "severity": 0.3
+          },
+          {
+            "objection": "Potential compatibility issues with older systems",
+            "severity": 0.2
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Standalone bread machine / other baking books",
+            "reason": "Desire for more hands-on control and better results",
+            "threshold": "Finding a method (e.g., Artisan Bread in Five) that simplifies process and improves quality"
+          },
+          {
+            "from_product": "Ad-heavy, unreliable apps",
+            "reason": "Frustration with ads, lag, and poor performance",
+            "threshold": "Discovery of a simple, ad-free, reliable alternative"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and performance",
+          "Simplicity and ease of use",
+          "Cost (preference for free/ad-free)",
+          "Time-saving potential",
+          "Feature set and practicality",
+          "Emotional impact/reducing frustration"
+        ],
+        "deal_breakers": [
+          "Persistent ads or hidden fees",
+          "Unreliable performance or bugs",
+          "Lack of core, promised functionality",
+          "Overly complex or unintuitive interface"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 10,
+          "amazon_med_acc": 0,
+          "reddit": 10,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Difficulty maintaining project scope and alignment in meetings",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Stakeholders derail meetings by going off-topic or being unprepared",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Teams forget decisions and tasks, requiring constant reminders",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Stakeholders become aggressive, yelling or attempting to bully in meetings",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Lack of clear documentation leads to confusion about prior agreements",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Time wasted on rehashing past decisions instead of moving forward",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Stress from managing competing priorities and maintaining project timelines",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Feeling responsible for project failures despite limited authority",
+            "emotional_intensity": 0.4
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Ensure everyone agrees on and sticks to the project scope",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Have clear, accessible records of all meeting decisions and tasks",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Run efficient, focused meetings that stay on agenda",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Quickly resolve disputes about past decisions by referring to documentation",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Delegate tasks clearly so everyone knows their responsibilities",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Manage stakeholder disagreements calmly without taking sides on the spot",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Learn from failures to improve future project management",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Use technology (like recording and AI summarization) to streamline follow-ups",
+            "priority": 0.5
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to quickly convert units for work or personal use",
+            "context": "Moving between countries or working with international teams"
+          },
+          {
+            "trigger": "Require a simple, reliable tool to avoid errors in calculations",
+            "context": "Daily tasks at work or home requiring accurate conversions"
+          },
+          {
+            "trigger": "Seeking to learn and understand measurement systems better",
+            "context": "Educational or curiosity-driven use, enhancing knowledge"
+          },
+          {
+            "trigger": "Frustration with inefficient tools for managing projects",
+            "context": "When current methods cause repeated meeting derailments or confusion"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product is slow-moving or boring, not delivering expected excitement",
+            "severity": 0.6
+          },
+          {
+            "objection": "Lacks new insights or ground-breaking information",
+            "severity": 0.4
+          },
+          {
+            "objection": "Misleading categorization (e.g., labeled as thriller but is slow)",
+            "severity": 0.5
+          },
+          {
+            "objection": "Requires too much time investment for minimal return",
+            "severity": 0.3
+          },
+          {
+            "objection": "Repetitive or overly long content without added value",
+            "severity": 0.4
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Manual note-taking or memory",
+            "reason": "Ineffective at tracking decisions, leading to confusion",
+            "threshold": "Frequent disputes about past agreements"
+          },
+          {
+            "from_product": "Basic conversion tools or mental math",
+            "reason": "Prone to errors or inconvenience in daily tasks",
+            "threshold": "Need for speed and accuracy in work"
+          },
+          {
+            "from_product": "Complex project management software",
+            "reason": "Overly cumbersome for simple decision logging",
+            "threshold": "Desire for simplicity and quick access"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Ease of use",
+          "Reliability/accuracy",
+          "Speed/efficiency",
+          "Clarity of documentation",
+          "Ability to resolve disputes",
+          "Cost-effectiveness",
+          "Learning value",
+          "Integration with existing tools"
+        ],
+        "deal_breakers": [
+          "Inability to maintain clear project scope",
+          "Lack of accessible decision records",
+          "Tool is overly complex or slow",
+          "Fails to deliver on core promised functionality",
+          "Causes increased stakeholder conflict"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 10,
+          "amazon_med_acc": 0,
+          "reddit": 10,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Difficulty linking dependencies between project schedules, limiting complex project management.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Frustration with missing or poorly implemented critical features (e.g., attaching risks to tasks, inline comments).",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poor user experience and workflow disruption (e.g., being forced into Teams for comments).",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Perceived product being a 'lite' or incomplete version, lacking necessary enterprise functionality.",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Anxiety about product direction, like over-investment in AI leading to layoffs of competent developers.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Inability to perform simple, expected tasks like unit conversion both ways.",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Feeling that vendor resources are misallocated or underperforming.",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Improve team collaboration and project oversight through a unified tool.",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Streamline and automate workflows to increase team efficiency.",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Consolidate multiple, less complete tools into a single, comprehensive solution.",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Ensure product reliability and robust functionality for enterprise-scale needs.",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Maintain integration within a preferred ecosystem (e.g., Microsoft 365).",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Achieve flexibility and customization in how information is displayed and managed.",
+            "priority": 0.5
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to replace a more expensive, dedicated project management solution.",
+            "context": "Reviewer considering switching from a paid solution to an integrated stack."
+          },
+          {
+            "trigger": "Desire to consolidate multiple incomplete or separate conversion tools.",
+            "context": "Reviewer mentions dropping 'less complete conversion tools'."
+          },
+          {
+            "trigger": "Requirement for a comprehensive tool that handles collaborative workflows and automation.",
+            "context": "Reviewer explicitly names Asana as fulfilling this need."
+          },
+          {
+            "trigger": "Need for a tool to aid in standardized test preparation with extensive practice materials.",
+            "context": "Reviews of Kaplan study guides highlight diagnostic tests, practice exams, and explanations."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product lacks critical enterprise features (dependency linking between schedules, risk attachments).",
+            "severity": 0.9
+          },
+          {
+            "objection": "Product's development direction is misguided, favoring hype (AI) over core functionality and stability.",
+            "severity": 0.8
+          },
+          {
+            "objection": "User interface and workflow are confusing or broken for basic operations (viewing/adding comments).",
+            "severity": 0.8
+          },
+          {
+            "objection": "Product is perceived as a downgrade or 'lite' version of a more powerful tool.",
+            "severity": 0.7
+          },
+          {
+            "objection": "Inability to perform fundamental, expected functions like bidirectional unit conversion.",
+            "severity": 0.6
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Xero / Another dedicated solution",
+            "reason": "Perceived decline in product quality ('enshittification'), layoffs of competent developers, and over-reliance on AI.",
+            "threshold": "Critical mass of frustration with product direction and a broken user experience."
+          },
+          {
+            "from_product": "Project Online / other project tools",
+            "reason": "Replacement tool lacks essential enterprise-grade features required for complex project management.",
+            "threshold": "Discovery that the new tool cannot perform necessary core functions like cross-schedule dependency linking."
+          }
+        ],
+        "decision_factors_ranked": [
+          "Core Functionality & Reliability",
+          "User Experience & Workflow Efficiency",
+          "Integration with Existing Ecosystem",
+          "Scalability for Enterprise Use",
+          "Cost Effectiveness",
+          "Automation & Advanced Features (e.g., AI)"
+        ],
+        "deal_breakers": [
+          "Missing critical enterprise features (e.g., dependency linking between plans)",
+          "Broken or unusable core workflows (e.g., commenting system)",
+          "Being forced to use multiple, poorly integrated apps for a single task"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 10,
+          "amazon_med_acc": 0,
+          "reddit": 10,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Executive amnesia - key decisions and agreements are forgotten despite documentation.",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Miscommunication and surprises due to lack of detail or clarity in explanations.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Tools with too many features create noise and complexity, hindering focus and requiring constant upkeep.",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Difficulty getting actionable feedback or opinions until a problem becomes obvious.",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Create clarity and progress despite disagreement, rather than seeking full consensus.",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Simplify tooling to be visual, simple, and not demand constant upkeep to keep teams focused.",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Secure leverage and protection by getting all agreements and understandings in writing.",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Identify and ally with real influencers who can mobilize teams and provide answers.",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Understand what is truly valued and rewarded by executives, beyond formal project scope.",
+            "priority": 0.75
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for a simple, fast, and easy tool to handle a specific, recurring task (e.g., unit conversion).",
+            "context": "When dealing with international colleagues, recipes, or professional tasks requiring measurement conversion."
+          },
+          {
+            "trigger": "Replacing multiple standalone tools with a single comprehensive, reliable solution.",
+            "context": "When existing toolset is fragmented or inefficient."
+          },
+          {
+            "trigger": "Receiving a tool that is free, ad-free, and from a generous developer.",
+            "context": "When evaluating cost and developer ethics."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Key functionality is missing or requires obscure knowledge (e.g., needing a keyboard code instead of a simple +/- key).",
+            "severity": 0.6
+          },
+          {
+            "objection": "Software has bugs or crashes under specific conditions (e.g., setting theme to 'black').",
+            "severity": 0.5
+          },
+          {
+            "objection": "Processes for support (like donating) are unclear or broken (unresponsive buttons, no confirmation).",
+            "severity": 0.4
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Multiple standalone converters or other tools",
+            "reason": "Seeking a single, comprehensive, easier app that consolidates functionality.",
+            "threshold": "When the current set becomes too fragmented or the new app is clearly superior in ease and speed."
+          },
+          {
+            "from_product": "App with missing key interface features",
+            "reason": "Usability issue (e.g., lack of simple +/- key) making the app less intuitive.",
+            "threshold": "When a competitor app provides the missing basic feature."
+          }
+        ],
+        "decision_factors_ranked": [
+          "Simplicity and ease of use",
+          "Reliability and lack of bugs",
+          "Comprehensiveness/consolidation of functions",
+          "Cost and ethics (free, no ads)",
+          "Visual clarity and low upkeep",
+          "Ability to create operational clarity and alignment"
+        ],
+        "deal_breakers": [
+          "Critical functionality missing or overly complex",
+          "Unreliable or buggy in core use cases",
+          "Tools that add noise and complexity instead of reducing it"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 10,
+          "amazon_med_acc": 0,
+          "reddit": 10,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.5,
+      "reddit": 0.5,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Using inadequate tools like Google Sheets for project management limits capability",
+          "count": 1,
+          "frequency": 0.0026,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0078
+        },
+        {
+          "signal": "Complex tools with unnecessary features cause overwhelm and wasted value",
+          "count": 1,
+          "frequency": 0.0026,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0078
+        },
+        {
+          "signal": "Poor quality content with misworded questions and incorrect answers in study apps",
+          "count": 1,
+          "frequency": 0.0026,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0104
+        },
+        {
+          "signal": "Deceptive sales tactics and unclear pricing models create distrust",
+          "count": 1,
+          "frequency": 0.0026,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0104
+        },
+        {
+          "signal": "Software features breaking or not working as promised mid-use",
+          "count": 1,
+          "frequency": 0.0026,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0078
+        },
+        {
+          "signal": "Outdated or incomplete information in instructional materials",
+          "count": 1,
+          "frequency": 0.0026,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0078
+        },
+        {
+          "signal": "Difficulty finding reliable products locally, requiring online search",
+          "count": 1,
+          "frequency": 0.0026,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0078
+        },
+        {
+          "signal": "Team/stakeholders lack access to specialized tools, forcing reliance on basic software like Excel",
+          "count": 1,
+          "frequency": 0.0026,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0078
+        },
+        {
+          "signal": "Existing solutions feel too complex or inappropriate for team's technical level",
+          "count": 1,
+          "frequency": 0.0026,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0078
+        },
+        {
+          "signal": "Frustration with manual processes or tools that don't integrate well with existing workflows",
+          "count": 1,
+          "frequency": 0.0026,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0078
+        },
+        {
+          "signal": "Tools fail to deliver promised results or provide substantive value",
+          "count": 1,
+          "frequency": 0.0026,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0078
+        },
+        {
+          "signal": "Anxiety about certification/exam preparation effectiveness",
+          "count": 1,
+          "frequency": 0.0026,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0078
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Smooth transition from basic tools to more advanced features without overwhelm",
+          "count": 1,
+          "frequency": 0.0028,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0083
+        },
+        {
+          "signal": "Realistic practice and reliable exam preparation materials",
+          "count": 1,
+          "frequency": 0.0028,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0083
+        },
+        {
+          "signal": "Intuitive software that's easy for teams to adopt",
+          "count": 1,
+          "frequency": 0.0028,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0083
+        },
+        {
+          "signal": "Flexible tools that accommodate hybrid or agile management styles",
+          "count": 1,
+          "frequency": 0.0028,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0083
+        },
+        {
+          "signal": "Clear interconnectivity between project sheets for date influencing",
+          "count": 1,
+          "frequency": 0.0028,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0083
+        },
+        {
+          "signal": "Visual project planning tools like Gantt charts and timelines",
+          "count": 1,
+          "frequency": 0.0028,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0083
+        },
+        {
+          "signal": "Reliable products that work consistently for business needs",
+          "count": 1,
+          "frequency": 0.0028,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0083
+        },
+        {
+          "signal": "Improve team leadership and planning capabilities",
+          "count": 1,
+          "frequency": 0.0028,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0083
+        },
+        {
+          "signal": "Become more valuable to organization and advance career",
+          "count": 1,
+          "frequency": 0.0028,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0083
+        },
+        {
+          "signal": "Find tools that work with existing team infrastructure (like Excel/Power BI timelines)",
+          "count": 1,
+          "frequency": 0.0028,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0083
+        },
+        {
+          "signal": "Pass certification exams (PMP Accreditation)",
+          "count": 1,
+          "frequency": 0.0028,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.011
+        },
+        {
+          "signal": "Get clear explanations and answers for professional development",
+          "count": 1,
+          "frequency": 0.0028,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0083
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Deceptive sales tactics or unclear pricing",
+          "count": 1,
+          "frequency": 0.004,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0119
+        },
+        {
+          "signal": "Software features that break or stop working",
+          "count": 1,
+          "frequency": 0.004,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0119
+        },
+        {
+          "signal": "Incorrect or unreliable content in educational materials",
+          "count": 1,
+          "frequency": 0.004,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0119
+        },
+        {
+          "signal": "Excessive complexity with unused features",
+          "count": 1,
+          "frequency": 0.004,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0119
+        },
+        {
+          "signal": "Lack of transparency about what's being sold",
+          "count": 1,
+          "frequency": 0.004,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0119
+        },
+        {
+          "signal": "Products that don't work with team's existing tools (especially Excel)",
+          "count": 1,
+          "frequency": 0.004,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0119
+        },
+        {
+          "signal": "Tools that oversell and underdeliver on core promises",
+          "count": 1,
+          "frequency": 0.004,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0119
+        },
+        {
+          "signal": "Inappropriate content or features for professional environment",
+          "count": 1,
+          "frequency": 0.004,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0119
+        },
+        {
+          "signal": "Lack of substantive, evidence-based value",
+          "count": 1,
+          "frequency": 0.004,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0119
+        },
+        {
+          "signal": "Poor integration with existing timelines and workflows",
+          "count": 1,
+          "frequency": 0.004,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0119
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Recognition that current tools (Google Sheets) are inadequate for project management needs",
+          "count": 1,
+          "frequency": 0.004,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0119
+        },
+        {
+          "signal": "Need for exam preparation materials with realistic questions",
+          "count": 1,
+          "frequency": 0.004,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0119
+        },
+        {
+          "signal": "Recommendation from trusted community members comparing multiple options",
+          "count": 1,
+          "frequency": 0.004,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.012
+        },
+        {
+          "signal": "Special pricing programs for non-profits or qualifying organizations",
+          "count": 1,
+          "frequency": 0.004,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0119
+        },
+        {
+          "signal": "Inability to find reliable products through local channels",
+          "count": 1,
+          "frequency": 0.004,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0119
+        },
+        {
+          "signal": "Need to improve personal performance metrics (body fat reduction, gym results)",
+          "count": 1,
+          "frequency": 0.004,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0119
+        },
+        {
+          "signal": "Seeking practical templates that demonstrate proven effectiveness",
+          "count": 1,
+          "frequency": 0.004,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0119
+        },
+        {
+          "signal": "Stakeholder limitations forcing tool consolidation",
+          "count": 1,
+          "frequency": 0.004,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0119
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "medium": 0.194,
+        "low": 0.806
+      }
+    }
+  },
+  "cluster_3": {
+    "member_count": 32,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Desire for clear, actionable feedback on performance and promotion paths",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Frustration with poor/overly flexible team scheduling policies that create workload imbalance and impact team availability",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Frustration with software/app technical glitches (videos freezing, login issues, audio-video sync problems)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Dissatisfaction with content lacking practicality or actionable value, perceived as filler",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Need for content/products that respect professional time and are efficient to navigate",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Achieve clear career progression and promotion based on measurable performance",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Maintain team productivity and balanced workloads without policy abuse",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Efficient, reliable software/app for professional development (no technical issues)",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Actionable, high-quality content that justifies investment (no fluff/filler)",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Tools/content that adapt to professional schedules and learning styles (e.g., mobile, audio)",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Recommendation from trusted peers or professional networks",
+            "context": "GMAT preparation"
+          },
+          {
+            "trigger": "Specific need for flexible, mobile-friendly professional development tools",
+            "context": "Commuting/working professional"
+          },
+          {
+            "trigger": "Seeking actionable methodologies for team/self-management",
+            "context": "Leadership and productivity"
+          },
+          {
+            "trigger": "Desire for comprehensive, reliable content from an established provider",
+            "context": "Skill certification prep (e.g., GMAT)"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Technical reliability issues (app crashes, video stalls, login loops)",
+            "severity": 0.9
+          },
+          {
+            "objection": "Policies that can be exploited, leading to team imbalance and coverage gaps",
+            "severity": 0.8
+          },
+          {
+            "objection": "Content perceived as lacking depth, containing filler, or not matching professional needs",
+            "severity": 0.7
+          },
+          {
+            "objection": "Poor user experience/navigation making efficient use difficult",
+            "severity": 0.75
+          },
+          {
+            "objection": "Lack of visual aids/illustrations where critical for understanding",
+            "severity": 0.6
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Flexible scheduling policy",
+            "reason": "Policy creates team coverage gaps and unfair workload distribution",
+            "threshold": "When core customer-facing hours are consistently uncovered"
+          },
+          {
+            "from_product": "Buggy educational software",
+            "reason": "Technical issues impede learning efficiency and reliability",
+            "threshold": "Frequent glitches disrupt study/workflow"
+          },
+          {
+            "from_product": "Content-heavy product with low actionable value",
+            "reason": "Time wasted on fluff/filler instead of actionable insights",
+            "threshold": "Perceived value drops below cost/effort"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability/Stability",
+          "Actionable Value/ROI",
+          "Team Policy Effectiveness",
+          "User Experience/Efficiency",
+          "Professional Credibility/Recommendations",
+          "Flexibility/Adaptability"
+        ],
+        "deal_breakers": [
+          "Chronic technical bugs disrupting workflow",
+          "Policies that demonstrably harm team productivity or morale",
+          "Content lacking practical, actionable insights",
+          "Poor navigation/information architecture wasting time"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 10,
+          "amazon_med_acc": 0,
+          "reddit": 10,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Software has technical issues like video playback not working correctly, requiring frequent fixes like reinstalling the app or clearing storage",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poor user experience with features like no full-screen video, screen timing out, or faulty practice question interfaces blocking progress",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Vague or unclear corporate policies and feedback from management causing confusion and frustration at work",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "High cost of premium versions or products making them inaccessible despite value",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Products not meeting specific expectations, such as book content mismatching the title's implied focus",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Workplace pressure to conform to traditional hours or norms, limiting flexibility and autonomy",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable functionality without glitches, especially for core features like video playback and practice questions",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Clear, straightforward policies and direct communication from management to reduce ambiguity",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Cost-effective pricing plans or premium features to make valuable tools accessible",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Flexible work arrangements that allow for better work-life balance without career penalties",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Intuitive and user-friendly interfaces with features like full-screen mode and offline access",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Products that deliver on their promises and match expectations for content or utility",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Solving a specific problem, like learning a new skill on the go for career advancement",
+            "context": "Balancing job and side study"
+          },
+          {
+            "trigger": "Supplementing existing tools or methods to improve learning or efficiency",
+            "context": "Using flashcards to support software-based learning"
+          },
+          {
+            "trigger": "Need for clear guidance or tutorials due to lack of familiarity with a technology",
+            "context": "First-time smartphone users seeking basic instructions"
+          },
+          {
+            "trigger": "Desire for personalized or flexible solutions, such as adaptive work hours",
+            "context": "Seeking work-life balance within corporate policies"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Software bugs or poor UX that hinder core functionality, making the product unreliable",
+            "severity": 0.9
+          },
+          {
+            "objection": "High cost of premium versions, pricing out interested users",
+            "severity": 0.7
+          },
+          {
+            "objection": "Product does not match described features or expectations (e.g., book content misaligned)",
+            "severity": 0.6
+          },
+          {
+            "objection": "Lack of essential features like background audio playback or offline access",
+            "severity": 0.8
+          },
+          {
+            "objection": "Policies or management practices that are contradictory or punishing to flexibility",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Book or manual not covering specific models or needs",
+            "reason": "Product not applicable to user's specific device or situation",
+            "threshold": "Immediate lack of usefulness upon purchase"
+          },
+          {
+            "from_product": "Software with persistent bugs despite workarounds",
+            "reason": "Frequent disruptions and need for constant troubleshooting",
+            "threshold": "When glitches become too frequent or unresolved"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and functionality",
+          "Cost-effectiveness",
+          "User experience and interface",
+          "Flexibility and customization",
+          "Clarity of communication/policies",
+          "Alignment with expectations"
+        ],
+        "deal_breakers": [
+          "Persistent technical issues that block core features",
+          "Unclear or contradictory management policies",
+          "Prohibitive pricing without equivalent value",
+          "Lack of essential features like offline access or full-screen mode"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 10,
+          "amazon_med_acc": 0,
+          "reddit": 10,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Difficulty tracking complex information due to poor organization or too many elements",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Lack of intuitive user interface or format causing usability issues",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Inflexible or rigid policies that create frustration for team members",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poor visibility and recognition when working non-standard hours, impacting career advancement",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Team productivity suffers when individuals exploit flexible policies without consideration for others",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Inadequate instructional content or missing features (like lessons section)",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Clear, concise, and well-organized instructional content that saves time",
+            "priority": 0.9
+          },
+          {
+            "outcome": "User-friendly interface with intuitive navigation between topics and sections",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Effective team coordination with flexible policies that don't hinder productivity",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Career advancement through visible contributions and alignment with team/core hours",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Quick study sessions that fit between tasks for efficient learning",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Confidence in subject mastery through appropriate level of detail",
+            "priority": 0.65
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for specific, well-organized patterns or instructional material (e.g., knitting patterns)",
+            "context": "Hobby or professional skill development"
+          },
+          {
+            "trigger": "Requirement for quick, accessible study tools between work tasks",
+            "context": "Professional certification or exam preparation"
+          },
+          {
+            "trigger": "Seeking solutions to team management problems involving flexible work policies",
+            "context": "Leadership or management role responsibilities"
+          },
+          {
+            "trigger": "Need for comprehensive reference material with clear explanations",
+            "context": "Professional development or self-employment guidance"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product lacks essential features (like lessons section) despite otherwise good quality",
+            "severity": 0.6
+          },
+          {
+            "objection": "Content organization makes it difficult to use as a quick reference",
+            "severity": 0.5
+          },
+          {
+            "objection": "Product descriptions may be misleading about actual features or capabilities",
+            "severity": 0.4
+          },
+          {
+            "objection": "Not suitable for users who already have basic knowledge in the domain",
+            "severity": 0.3
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Current study or reference materials",
+            "reason": "Better organization, clearer explanations, or more intuitive format",
+            "threshold": "When current materials become inefficient or frustrating to use"
+          },
+          {
+            "from_product": "Current team management approaches",
+            "reason": "Policies create team friction or hinder career advancement",
+            "threshold": "When individual behavior negatively impacts team productivity or morale"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Content quality and clarity",
+          "Ease of use and intuitive interface",
+          "Time efficiency and fit with work schedule",
+          "Impact on team coordination and productivity",
+          "Career advancement potential",
+          "Comprehensiveness of features",
+          "Accuracy of product description"
+        ],
+        "deal_breakers": [
+          "Poorly organized content that wastes time",
+          "User interfaces that are difficult to navigate",
+          "Policies that significantly harm team productivity",
+          "Missing critical features needed for core tasks",
+          "Misleading product descriptions"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 10,
+          "amazon_med_acc": 0,
+          "reddit": 10,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Time wasted on poorly performing or poorly written materials/software",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "High cost of licensing compared to alternatives",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Difficulty in finding specialty ingredients or tools for implementation",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Frustration with unclear or vague instructions in guides/software",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Uncertainty about readiness for exams or project success without good preparation tools",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Ads or interruptions in apps disrupting the user experience",
+            "emotional_intensity": 0.3
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Effective preparation and confidence for professional exams (e.g., PMP)",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Streamlined workflows and efficiency improvements for team/company",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Accessible, high-quality recipes or templates that save time and effort",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Cost-effective solutions with clear ROI",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Intuitive and engaging tools that track learning/progress",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Reliable and practical tools that avoid wasting time and money",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Recommendation from trusted sources (e.g., Facebook groups, colleagues)",
+            "context": "Seeking proven tools or materials"
+          },
+          {
+            "trigger": "Need to prepare for an upcoming exam or project deadline",
+            "context": "Time-sensitive professional development"
+          },
+          {
+            "trigger": "Desire to improve team productivity with new software/tools",
+            "context": "Workflow optimization"
+          },
+          {
+            "trigger": "Discovery of a tool that simplifies a complex task (e.g., one-pot recipes, project templates)",
+            "context": "Simplifying personal or work processes"
+          },
+          {
+            "trigger": "Availability of free trials or subscriptions for testing",
+            "context": "Risk mitigation before commitment"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "High cost relative to alternatives (e.g., Smartsheet vs. Google Sheets)",
+            "severity": 0.8
+          },
+          {
+            "objection": "Poorly written or unengaging content in sequels/materials",
+            "severity": 0.7
+          },
+          {
+            "objection": "Lack of clarity or errors in instructions/recipes",
+            "severity": 0.6
+          },
+          {
+            "objection": "Difficulty in accessing required ingredients or features",
+            "severity": 0.5
+          },
+          {
+            "objection": "Uncertainty about long-term value or continuation in a series",
+            "severity": 0.5
+          },
+          {
+            "objection": "Ads or disruptive elements in apps",
+            "severity": 0.4
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Traditional cooking methods",
+            "reason": "Save time and reduce cleanup with one-pot/slow cooker recipes",
+            "threshold": "Time savings and convenience outweigh traditional effort"
+          },
+          {
+            "from_product": "Basic tools (e.g., Google Sheets)",
+            "reason": "Need more advanced features for workflow improvements",
+            "threshold": "Current tool limits productivity or project management needs"
+          },
+          {
+            "from_product": "Other exam prep materials",
+            "reason": "Seek more intuitive or effective test simulators",
+            "threshold": "Existing materials fail to adequately prepare or engage"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Cost-effectiveness",
+          "Time efficiency",
+          "Ease of use/intuitiveness",
+          "Quality and reliability of content",
+          "Recommendations or reviews",
+          "Flexibility and accessibility",
+          "ROI on workflow improvements"
+        ],
+        "deal_breakers": [
+          "Excessive cost without clear value",
+          "Poor quality or errors in materials",
+          "Lack of practical application or relevance",
+          "Intrusive ads or poor user experience",
+          "Inability to test or trial before purchase"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 10,
+          "amazon_med_acc": 0,
+          "reddit": 10,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Limited functionality and poor user experience",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Unclear or unhelpful management/benefit implementation",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Difficulty with cross-training or career progression when using allowed benefits",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Need for constant updates or unreliable features",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Apps/software missing basic functionality (e.g., speed control, downloads)",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Unreliable hardware quality (breaks quickly)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poor customer support/responsiveness",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Ample space for scheduling and reminders",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Clear, comprehensive technical guidance or reference materials",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Ability to effectively use tools/accessories to improve performance",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Control over color/design outcomes in craft projects",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Fair, straightforward company policies without hidden penalties",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Apps with full functionality (speed controls, downloads, sync)",
+            "priority": 0.65
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Early availability for advance planning",
+            "context": "Purchasing calendar as soon as offered to schedule future appointments"
+          },
+          {
+            "trigger": "Need for specific technical guidance",
+            "context": "Buying book to understand how to use sewing machine accessories effectively"
+          },
+          {
+            "trigger": "Desire for fresh, wearable patterns or designs",
+            "context": "Acquiring new pattern book with attractive, simpler-to-execute designs"
+          },
+          {
+            "trigger": "Upgrading from outdated or limited tools",
+            "context": "Moving from old machine with basic functions to modern one with accessories"
+          },
+          {
+            "trigger": "Avoiding inconvenience (e.g., mandatory app updates)",
+            "context": "Switching to avoid forced updates or app dependencies"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product lacks expected functionality or depth",
+            "severity": 0.8
+          },
+          {
+            "objection": "Benefits come with hidden career consequences",
+            "severity": 0.75
+          },
+          {
+            "objection": "Content is disorganized or not reference-quality",
+            "severity": 0.6
+          },
+          {
+            "objection": "Poor durability or quick failure",
+            "severity": 0.9
+          },
+          {
+            "objection": "Software missing basic features (speed control, downloads)",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Basic/old tools",
+            "reason": "Need advanced functionality and guidance",
+            "threshold": "When upgrading equipment or skills"
+          },
+          {
+            "from_product": "Competitor apps/tools",
+            "reason": "Avoid forced updates or gain better features",
+            "threshold": "When updates become burdensome or features are lacking"
+          },
+          {
+            "from_product": "Employer policies",
+            "reason": "Perceived discrimination or unfair consequences",
+            "threshold": "When policies penalize allowed behavior"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Functionality/completeness",
+          "Ease of use/clear guidance",
+          "Reliability/durability",
+          "Policy fairness/transparency",
+          "Support/responsiveness",
+          "Advanced features/control",
+          "Aesthetic/design quality"
+        ],
+        "deal_breakers": [
+          "Broken or unreliable within short period",
+          "Missing critical basic functionality",
+          "Benefits that secretly harm career progression",
+          "Unresponsive customer support",
+          "Poorly organized or misleading content"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 10,
+          "amazon_med_acc": 0,
+          "reddit": 10,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.5,
+      "reddit": 0.5,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "App crashes after extended use or when submitting tests",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0201
+        },
+        {
+          "signal": "Poor technical reliability with recurring need to reinstall",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0201
+        },
+        {
+          "signal": "Lack of advanced features like category selection or detailed answer explanations",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0151
+        },
+        {
+          "signal": "Inability to track progress due to app logging errors",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0151
+        },
+        {
+          "signal": "High cost compared to similar apps with fewer features",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0151
+        },
+        {
+          "signal": "Limited functionality in free version (e.g., daily question limits)",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0151
+        },
+        {
+          "signal": "Dependency on poor existing tools (e.g., broken Jira management)",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0201
+        },
+        {
+          "signal": "Budget constraints for purchasing preferred software",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0151
+        },
+        {
+          "signal": "Being forced to revert to basic tools like Excel due to lack of features or convenience",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0151
+        },
+        {
+          "signal": "Frustration with errors and lack of official errata/support.",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0151
+        },
+        {
+          "signal": "Difficulty with unexpected complexity and steep learning curves in formal software.",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0151
+        },
+        {
+          "signal": "Concern about building or buying tools that lack team adoption/traction.",
+          "count": 1,
+          "frequency": 0.005,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0151
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Passing certification exams (e.g., PMP) with structured, efficient preparation",
+          "count": 1,
+          "frequency": 0.0052,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0157
+        },
+        {
+          "signal": "Reliable, crash-free app performance for consistent study",
+          "count": 1,
+          "frequency": 0.0052,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0157
+        },
+        {
+          "signal": "Clear, detailed explanations for answers to improve understanding",
+          "count": 1,
+          "frequency": 0.0052,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0209
+        },
+        {
+          "signal": "Time-efficient practice for busy professionals balancing work",
+          "count": 1,
+          "frequency": 0.0052,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0157
+        },
+        {
+          "signal": "Progress tracking and readiness assessment for exam dates",
+          "count": 1,
+          "frequency": 0.0052,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0157
+        },
+        {
+          "signal": "Effective tools for project planning and team coordination",
+          "count": 1,
+          "frequency": 0.0052,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0157
+        },
+        {
+          "signal": "Convenient integration with existing workflows (e.g., with OneNote)",
+          "count": 1,
+          "frequency": 0.0052,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0157
+        },
+        {
+          "signal": "Cost-effective solutions compared to alternatives",
+          "count": 1,
+          "frequency": 0.0052,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0157
+        },
+        {
+          "signal": "Accurate, error-free educational or reference materials.",
+          "count": 1,
+          "frequency": 0.0052,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0157
+        },
+        {
+          "signal": "Tools that align with specific, stated needs, not just feature richness.",
+          "count": 1,
+          "frequency": 0.0052,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0157
+        },
+        {
+          "signal": "Software/tools with low friction and high team adoption.",
+          "count": 1,
+          "frequency": 0.0052,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0157
+        },
+        {
+          "signal": "Effective study aids with ample, high-quality practice and clear explanations.",
+          "count": 1,
+          "frequency": 0.0052,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0157
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "App crashes or technical failures that block usage",
+          "count": 1,
+          "frequency": 0.0075,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0224
+        },
+        {
+          "signal": "Lack of basic features necessary for effective study (e.g., category selection)",
+          "count": 1,
+          "frequency": 0.0075,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0224
+        },
+        {
+          "signal": "Prohibitively high cost without clear added value",
+          "count": 1,
+          "frequency": 0.0075,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0224
+        },
+        {
+          "signal": "Inability to track progress or assess readiness",
+          "count": 1,
+          "frequency": 0.0075,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0224
+        },
+        {
+          "signal": "Poor customer support or developer responsiveness",
+          "count": 1,
+          "frequency": 0.0075,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0224
+        },
+        {
+          "signal": "Limited free version that severely restricts practice",
+          "count": 1,
+          "frequency": 0.0075,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0224
+        },
+        {
+          "signal": "Uncorrected critical errors in content",
+          "count": 1,
+          "frequency": 0.0075,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0224
+        },
+        {
+          "signal": "Prohibitively high learning curve for unnecessary features",
+          "count": 1,
+          "frequency": 0.0075,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0224
+        },
+        {
+          "signal": "Guaranteed lack of team adoption",
+          "count": 1,
+          "frequency": 0.0075,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0224
+        },
+        {
+          "signal": "Excessive cost without clear value",
+          "count": 1,
+          "frequency": 0.0075,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0224
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Recommendation from trusted sources or positive reviews",
+          "count": 2,
+          "frequency": 0.0143,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0357
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "medium": 0.312,
+        "low": 0.688
+      }
+    }
+  }
+}

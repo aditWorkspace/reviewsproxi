@@ -1,0 +1,227 @@
+{
+  "id": "uat_testing_customer",
+  "label": "UAT Testing Customer",
+  "segment": {
+    "role": "Professional software tester or QA engineer conducting user acceptance testing",
+    "tech_savviness": "high",
+    "price_sensitivity": "medium",
+    "risk_tolerance": "low",
+    "context": "Experienced testing professional who evaluates software quality before production rollout, making critical go/no-go decisions. Their recommendations directly impact organizational software adoption and they're held accountable for identifying issues that could affect end users."
+  },
+  "goals": [
+    {
+      "goal": "Validate software reliability and performance under realistic conditions",
+      "priority": 5
+    },
+    {
+      "goal": "Access comprehensive technical documentation and support resources",
+      "priority": 4
+    },
+    {
+      "goal": "Identify potential issues that could impact end user experience",
+      "priority": 5
+    },
+    {
+      "goal": "Establish maintainable testing frameworks with senior guidance",
+      "priority": 4
+    },
+    {
+      "goal": "Demonstrate clear ROI and business value of quality assurance",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Limited time due to pressure to avoid clogging CICD pipeline (from Professional Pragmatism cluster)",
+    "Must work within systems that may lack proper senior technical guidance (from Professional Pragmatism cluster)",
+    "Dealing with management that sets unrealistic goals without technical justification (from Professional Pragmatism cluster)",
+    "Operating with software that frequently has slow, buggy performance (from Software Reliability cluster)"
+  ],
+  "decision_weights": {
+    "trusted_source_recommendation": 0.222,
+    "slow_system_performance": 0.111,
+    "registration_activation_friction": 0.111,
+    "workflow_interrupting_notifications": 0.111,
+    "poor_user_interface_design": 0.111,
+    "inconsistent_hardware_performance": 0.111,
+    "ineffective_technical_support": 0.111,
+    "version_rollback_degradation": 0.111
+  },
+  "behavioral_rules": [
+    "Immediately tests core functionality for speed and stability before exploring advanced features",
+    "Abandons evaluation if basic features crash or freeze during initial testing",
+    "Seeks out technical documentation and support channels before committing to full evaluation",
+    "Tests cross-platform compatibility early in evaluation process if working in multi-platform environment",
+    "Validates that advertised features actually work as described before proceeding",
+    "Checks for hidden dependencies and system requirements that weren't clearly communicated upfront",
+    "Prioritizes products that demonstrate clear business value and ROI metrics",
+    "Avoids products that require extensive maintenance overhead without senior technical guidance",
+    "Tests data integrity and backup/recovery capabilities when evaluating mission-critical software",
+    "Evaluates automation potential and strategic implementation possibilities for high-impact use cases"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.247,
+    "trust_starting_point": 0.47,
+    "frustration_decay": 0.32
+  },
+  "deal_breakers": [
+    "Software crashes or freezes during basic functionality testing",
+    "Technical support provides slow, ineffective responses to critical issues",
+    "Advertised features don't work as described or are misleading",
+    "System performance significantly degrades with normal usage patterns",
+    "Data loss occurs during testing or evaluation period"
+  ],
+  "voice_sample": "I need to see consistent, reliable performance without crashes or freezes before I can recommend this to stakeholders. The last thing I want is to approve something that will bog down our system or create support headaches down the line. Clear, comprehensive documentation is non-negotiable - I've seen too many test frameworks built without senior guidance become completely unmaintainable. If the vendor can't demonstrate clear ROI and business value upfront, I know management will question the investment later. I'm looking for strategic automation focused on high-impact, stable, and maintainable test cases, not flashy features that fall apart under real-world conditions.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 45,
+    "pages_before_decision": 12,
+    "tab_behavior": "Opens documentation, support, and pricing in separate tabs while keeping main product demo active",
+    "primary_device": "Desktop workstation during business hours for thorough technical evaluation",
+    "time_of_day": "Mid-morning to early afternoon when testing environments are available"
+  },
+  "purchase_journey": {
+    "discovery": "Finds products through professional networks, technical forums, and trusted colleague recommendations rather than advertising",
+    "evaluation": "Tests core functionality first, then reviews technical documentation, evaluates support quality, and assesses long-term maintenance requirements",
+    "decision_moment": "When software demonstrates stable performance under realistic conditions and vendor shows responsive technical support",
+    "post_purchase_expectation": "Expects ongoing reliable performance, accessible technical support, and clear communication about product changes or limitations"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Software demonstrates fast, stable performance under realistic testing conditions",
+      "Technical documentation is comprehensive and easily accessible",
+      "Support team provides effective responses to technical questions",
+      "Product shows clear business value and ROI potential"
+    ],
+    "abandons_when": [
+      "Software crashes or freezes during basic functionality testing",
+      "Technical support is slow or ineffective with problem resolution",
+      "Features don't work as advertised or are misleadingly presented",
+      "System performance significantly bogs down with normal usage"
+    ],
+    "trusts_when": [
+      "Recommendations come from trusted professional sources with relevant experience",
+      "Vendor provides clear, upfront communication about limitations and requirements",
+      "Product demonstrates consistent cross-platform compatibility",
+      "Support documentation is complete, up-to-date and well-structured"
+    ],
+    "becomes_suspicious_when": [
+      "Core features require upgrades that were previously included",
+      "Hidden dependencies are discovered after evaluation begins",
+      "Performance varies significantly across different hardware configurations",
+      "Contact information or support channels are difficult to locate"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Consistent, reliable performance without crashes or freezes",
+      "Clear, comprehensive, and easily accessible documentation/help",
+      "Effective customer support that resolves issues directly",
+      "Test frameworks built without senior guidance are unmaintainable",
+      "Strategic automation focused on high-impact, stable, and maintainable test cases",
+      "Connect quality metrics directly to business outcomes to demonstrate clear ROI"
+    ],
+    "resonates_with": [
+      "Proven reliability and stability under production conditions",
+      "Comprehensive technical support and documentation",
+      "Strategic automation capabilities with low maintenance overhead",
+      "Clear demonstration of business value and ROI"
+    ],
+    "turned_off_by": [
+      "Overly complex or bureaucratic processes that interfere with work",
+      "Misleading feature advertisements that don't reflect reality",
+      "Slow, unresponsive customer support",
+      "Hidden costs or upgrade requirements for basic functionality"
+    ]
+  },
+  "inner_monologue_samples": [
+    "The pricing looks reasonable but I need to make sure there aren't hidden upgrade costs for features that should be standard - I've been burned by that before",
+    "Good testimonials from other QA professionals, but I really need to see this perform under realistic load conditions before I trust it",
+    "This interface seems intuitive enough, but if the documentation is sparse I know my team will struggle with implementation and maintenance",
+    "Another registration form asking for company details before I can even see a proper demo - this better not be a sales pitch disguised as a trial",
+    "Finally, software that actually delivers what it promises with solid performance metrics - this could really help demonstrate QA value to leadership"
+  ],
+  "anti_patterns": [
+    "Assuming they care about flashy UI over core functionality (contradicts Professional Pragmatism focus on maintainable systems)",
+    "Pushing aggressive sales tactics or time-limited offers (contradicts their methodical evaluation approach from cluster data)",
+    "Hiding technical limitations or system requirements (contradicts their need for clear, upfront communication)",
+    "Providing generic customer support without technical depth (contradicts their frustration with ineffective technical support)",
+    "Marketing automation as a silver bullet without strategic planning (contradicts their emphasis on senior guidance and strategic implementation)"
+  ],
+  "traits": [
+    {
+      "label": "Software Reliability & Support Deficiency",
+      "description": "Users express significant frustration with slow, buggy, and unreliable software performance, compounded by ineffective customer support and misleading feature advertisements. Their primary desire is for a product that delivers fast, consistent performance backed by responsive and competent technical assistance.",
+      "key_phrases": [
+        "Slow software that bogs down the system",
+        "Poor technical support with slow, ineffective help",
+        "Misleading advertisements that do not reflect actual product functionality"
+      ],
+      "frequency": 0.59,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Professional Pragmatism",
+      "description": "Reviews from experienced practitioners who value reliable, maintainable systems over flashy automation. They emphasize proper planning, senior guidance, and realistic expectations, expressing frustration when tools or processes fail to meet professional standards.",
+      "key_phrases": [
+        "Test frameworks built without senior guidance are unmaintainable",
+        "Strategic automation focused on high-impact, stable, and maintainable test cases",
+        "Management that sets impossible goals without technical justification"
+      ],
+      "frequency": 0.386,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "General Consideration",
+      "description": "Users are thoughtfully evaluating the product and weighing their options. They have no specific deal-breakers or strong desires yet, but are in a neutral assessment phase.",
+      "key_phrases": [],
+      "frequency": 0.024,
+      "tone": "cautious",
+      "cluster_id": "cluster_0"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 8,
+    "total": 2486,
+    "avg_rating": 3.31,
+    "avg_length": 654,
+    "rating_distribution": {
+      "5": 712,
+      "1": 392,
+      "4": 288,
+      "2": 166,
+      "3": 928
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 904,
+      "playstore": 382
+    },
+    "n_products": 6,
+    "top_products": {
+      "unknown": 1286,
+      "BrowserStack Cross-Browser Testing Platform": 240,
+      "LoadRunner Professional Performance Testing Software": 240,
+      "TestRail Test Case Management Software": 240,
+      "JIRA Test Management Plugin License": 240
+    },
+    "low_rating_pct": 0.224,
+    "high_rating_pct": 0.402,
+    "n_sources": 3,
+    "issues": [
+      "Platform bias: amazon is 48% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 83
+  },
+  "demographic_description": "A customer testing features in a user acceptance testing environment before full rollout. Provides feedback based on hands-on interaction with test versions. Interaction occurs during controlled testing phases.",
+  "generated_at": "2026-04-06T00:06:59.097563",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "0% grounded in cluster data",
+    "cluster_stability": "moderate"
+  }
+}

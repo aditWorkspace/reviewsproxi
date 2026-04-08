@@ -1,0 +1,358 @@
+[01:17:55] ✓ ━━━ Starting job [d4f022b9]: Operations-Driven SaaS Decision Maker ━━━
+[01:17:55] → Creating project 'queue_d4f022b9' (adittesting — Operations-Driven SaaS Decision Maker)
+[01:17:55] → Generating intelligence (attempt 1/3)…
+[01:17:55] → Using Sonnet to map Mid-career professionals, typically ages 30 to 50, working i... to specific products + subreddits
+[01:18:54] ✓ Found 18 targeted products, 15 subreddits
+[01:18:54]      [95%] Project Management Professional (PMP) Exam Prep Guide
+[01:18:54]      [94%] Standing Desk Converter for Dual Monitor Setup
+[01:18:54]      [93%] Executive Leadership and Strategic Thinking Books
+[01:18:54]      [92%] Professional Noise-Canceling Headphones for Open Offices
+[01:18:54]      [91%] MBA Admissions and GMAT Prep Materials
+[01:18:54] → Pulling Amazon reviews for 6 products…
+[01:18:57] → Streaming Books from HuggingFace...
+[01:19:10] →   Scanned 5,000 reviews, collected 971 so far (1027 slots left)
+[01:19:34] →   Scanned 10,000 reviews, collected 1781 so far (217 slots left)
+[01:19:41] →   Scanned 15,000 reviews, collected 1988 so far (10 slots left)
+[01:19:42] ✓   Done Books: collected 1998 reviews (scanned 15,289)
+[01:19:42] → Streaming Office Products from HuggingFace...
+[01:19:47] ✓   Done Office Products: collected 90 reviews (scanned 592)
+[01:19:47] → Streaming Electronics from HuggingFace...
+[01:19:47] ⚠ Amazon budget full — skipping remaining categories
+[01:19:47] → Scraping Reddit: ['ProjectManagement', 'managers', 'MBA', 'ITManagers', 'entrepreneur', 'sales', 'consulting', 'marketing']…
+[01:19:53] → Scraping r/ProjectManagement… (budget remaining: 2000)
+[01:19:53] →   Fetching r/ProjectManagement/top (page 1)...
+[01:19:55] →   Fetching r/ProjectManagement/top (page 2)...
+[01:19:58] →   Fetching r/ProjectManagement/top (page 3)...
+[01:20:01] →   Fetching r/ProjectManagement/top (page 4)...
+[01:20:03] →   Fetching r/ProjectManagement/top (page 5)...
+[01:20:06] →   Fetching r/ProjectManagement/top (page 6)...
+[01:20:08] ✓   Found 16 unique threads from r/ProjectManagement
+[01:20:08]        [234 comments] Good alternatives to Google Sheets/Excel gantt chart?
+[01:20:08]        [198 comments] No longer want to be a PM
+[01:20:08]        [179 comments] This is a goddamned cult
+[01:20:08]        [174 comments] What’s the hardest PM lesson you only learned after everythi
+[01:20:08]        [173 comments] Salary Thread 2025
+[01:20:08] →   Scoring threads with 4-criterion rubric…
+[01:20:19] →   Kept 8/16 threads (dropped 8 with relevance < 0.40)
+[01:20:19] →   Thread 1/8 [relevance 0.83]: Good alternatives to Google Sheets/Excel gantt chart?…
+[01:20:23]        → 70 comments (70 high-relevance, avg rating 3.6★)
+[01:20:26] →   Thread 2/8 [relevance 0.83]: What’s the hardest PM lesson you only learned after eve…
+[01:20:29]        → 107 comments (107 high-relevance, avg rating 3.1★)
+[01:20:32] →   Thread 3/8 [relevance 1.00]: How are you integrating AI in to your day-to-day PM wor…
+[01:20:35]        → 70 comments (70 high-relevance, avg rating 3.2★)
+[01:20:38] →   Thread 4/8 [relevance 0.83]: What’s the biggest cheat code you’ve discovered that ma…
+[01:20:41]        → 80 comments (80 high-relevance, avg rating 3.2★)
+[01:20:44] →   Thread 5/8 [relevance 0.83]: Microsoft Planner might be the worst piece of software …
+[01:20:46]        → 81 comments (81 high-relevance, avg rating 2.9★)
+[01:20:49] →   Thread 6/8 [relevance 0.83]: What’s a PM lesson you had to learn the hard way?…
+[01:20:52]        → 83 comments (83 high-relevance, avg rating 3.2★)
+[01:20:55] →   Thread 7/8 [relevance 0.75]: got caught in the middle of a stakeholder screaming mat…
+[01:20:58]        → 72 comments (72 high-relevance, avg rating 3.3★)
+[01:21:01] →   Thread 8/8 [relevance 0.67]: What’s the real headache of being a PM?…
+[01:21:04]        → 78 comments (78 high-relevance, avg rating 2.9★)
+[01:21:07] ✓   r/ProjectManagement: 641 comments from 8 threads
+[01:21:07] → Scraping r/managers… (budget remaining: 1359)
+[01:21:07] →   Fetching r/managers/top (page 1)...
+[01:21:09] →   Fetching r/managers/top (page 2)...
+[01:21:12] →   Fetching r/managers/top (page 3)...
+[01:21:15] →   Fetching r/managers/top (page 4)...
+[01:21:17] →   Fetching r/managers/top (page 5)...
+[01:21:20] →   Fetching r/managers/top (page 6)...
+[01:21:22] ✓   Found 16 unique threads from r/managers
+[01:21:22]        [2870 comments] “I’m not asking permission, I’m informing you that I’ll be a
+[01:21:22]        [2187 comments] How Do You Talk to an Employee Who Isn't Getting Promoted Du
+[01:21:22]        [1732 comments] I think my employee is working two full time jobs
+[01:21:22]        [1653 comments] Employee decided to No-Call/No-Show to protest ICE actions t
+[01:21:22]        [1363 comments] Top performer who has lost faith in you
+[01:21:22] →   Scoring threads with 4-criterion rubric…
+[01:21:35] →   Kept 9/16 threads (dropped 7 with relevance < 0.40)
+[01:21:36] →   Thread 1/8 [relevance 0.83]: How Do You Talk to an Employee Who Isn't Getting Promot…
+[01:21:41]        → 150 comments (150 high-relevance, avg rating 3.2★)
+[01:21:44] →   Thread 2/8 [relevance 1.00]: Our untracked (unlimited) PTO policy was working fine f…
+[01:21:48]        → 150 comments (150 high-relevance, avg rating 3.0★)
+[01:21:51] →   Thread 3/8 [relevance 0.75]: Top performer who has lost faith in you…
+[01:21:57]        → 150 comments (150 high-relevance, avg rating 3.1★)
+[01:22:00] →   Thread 4/8 [relevance 0.83]: Employee put on PIP. Learned afterwards that provided n…
+[01:22:04]        → 150 comments (150 high-relevance, avg rating 2.8★)
+[01:22:07] →   Thread 5/8 [relevance 0.83]: How blunt to be that PIPs always end in a firing?…
+[01:22:12]        → 150 comments (150 high-relevance, avg rating 2.9★)
+[01:22:15] →   Thread 6/8 [relevance 0.75]: Leaving for a 90% raise right when my manager needs me …
+[01:22:20]        → 150 comments (150 high-relevance, avg rating 3.5★)
+[01:22:23] →   Thread 7/8 [relevance 0.75]: The “silent resignation” nobody notices…
+[01:22:29]        → 150 comments (150 high-relevance, avg rating 2.9★)
+[01:22:32] →   Thread 8/8 [relevance 0.83]: Got them a raise. They used it to quit.…
+[01:22:36]        → 150 comments (150 high-relevance, avg rating 3.2★)
+[01:22:39] ✓   r/managers: 1200 comments from 8 threads
+[01:22:39] → Scraping r/MBA… (budget remaining: 159)
+[01:22:39] →   Fetching r/MBA/top (page 1)...
+[01:22:42] →   Fetching r/MBA/top (page 2)...
+[01:22:45] →   Fetching r/MBA/top (page 3)...
+[01:22:47] →   Fetching r/MBA/top (page 4)...
+[01:22:50] →   Fetching r/MBA/top (page 5)...
+[01:22:52] →   Fetching r/MBA/top (page 6)...
+[01:22:55] ✓   Found 16 unique threads from r/MBA
+[01:22:55]        [1112 comments] 6 years out, not feeling "value" of Harvard MBA. Work in FAA
+[01:22:55]        [548 comments] The new $100,000 H1B fee is killing my American MBA dream
+[01:22:55]        [492 comments] Is it socially acceptable to be an Eileen Gu hater at an M7 
+[01:22:55]        [417 comments] I make $75k a year as a public school teacher in Queens, NYC
+[01:22:55]        [415 comments] Feeling guilty that a good MBA is a "cheat code" to getting 
+[01:22:55] →   Scoring threads with 4-criterion rubric…
+[01:23:01] →   Kept 4/16 threads (dropped 12 with relevance < 0.40)
+[01:23:01] →   Thread 1/4 [relevance 0.67]: 6 years out, not feeling "value" of Harvard MBA. Work i…
+[01:23:07]        → 150 comments (148 high-relevance, avg rating 3.2★)
+[01:23:10] →   Thread 2/4 [relevance 0.67]: Honestly… Is an MBA really worth it in 2025?…
+[01:23:13]        → 9 comments (9 high-relevance, avg rating 3.0★)
+[01:23:16] ✓   r/MBA: 159 comments from 4 threads
+[01:23:16] ⚠   Reddit budget full (2000 cap reached) — stopping
+[01:23:16] → Scraping HN: ['Project Management Professional (PMP) Exam Prep Guide', 'Standing Desk Converter for Dual Monitor Setup', 'Executive Leadership and Strategic Thinking Books', 'Professional Noise-Canceling Headphones for Open Offices', 'manager director operations']…
+[01:23:18] →   HN search: 'Project Management Professional (PMP) Exam Prep Guide'…
+[01:23:18] ✓     +0 unique comments (total so far: 0)
+[01:23:18] →   HN search: 'Standing Desk Converter for Dual Monitor Setup'…
+[01:23:18] ✓     +0 unique comments (total so far: 0)
+[01:23:18] →   HN search: 'Executive Leadership and Strategic Thinking Books'…
+[01:23:19] ✓     +0 unique comments (total so far: 0)
+[01:23:19] →   HN search: 'Professional Noise-Canceling Headphones for Open Offices'…
+[01:23:19] ✓     +0 unique comments (total so far: 0)
+[01:23:19] →   HN search: 'manager director operations'…
+[01:23:21] ✓     +0 unique comments (total so far: 0)
+[01:23:21] → Scraping App Store: ['Project Management Professional (PMP) Exam Prep Guide', 'Standing Desk Converter for Dual Monitor Setup', 'Executive Leadership and Strategic Thinking Books']…
+[01:23:23] →   App Store: 'Pocket Prep PMP 2026' (id=617502426)…
+[01:23:24] ✓     +0 App Store reviews for 'Pocket Prep PMP 2026'
+[01:23:25] →   App Store: 'Conversion Calculator Plus' (id=1113920724)…
+[01:23:25] ✓     +0 App Store reviews for 'Conversion Calculator Plus'
+[01:23:26] →   App Store: 'Harvard Business Review' (id=1445571382)…
+[01:23:26] ✓     +0 App Store reviews for 'Harvard Business Review'
+[01:23:27] →   App Store: 'Sony | Sound Connect' (id=1168502924)…
+[01:23:28] ✓     +0 App Store reviews for 'Sony | Sound Connect'
+[01:23:28] →   App Store: 'Official GMAT | Manhattan Prep' (id=1030031321)…
+[01:23:29] ✓     +0 App Store reviews for 'Official GMAT | Manhattan Prep'
+[01:23:30] →   App Store: 'Indyx: Wardrobe & Outfit App' (id=1599179405)…
+[01:23:30] ✓     +0 App Store reviews for 'Indyx: Wardrobe & Outfit App'
+[01:23:31] → Scraping Play Store: ['Project Management Professional (PMP) Exam Prep Guide', 'Standing Desk Converter for Dual Monitor Setup', 'Executive Leadership and Strategic Thinking Books']…
+[01:23:33] →   Play Store: 'PMI PMP Exam Prep Test 2025' (com.bestfungames.pmp)…
+[01:23:33] ✓     +71 Play Store reviews for 'PMI PMP Exam Prep Test 2025'
+[01:23:34] →   Play Store: 'US-Metric/Imperial Converter' (yellowtreesoftware.usconverter)…
+[01:23:35] ✓     +558 Play Store reviews for 'US-Metric/Imperial Converter'
+[01:23:36] →   Play Store: 'Strategic Leadership' (com.STRATEGICLEADERSHIP)…
+[01:23:36] ✓     +0 Play Store reviews for 'Strategic Leadership'
+[01:23:37] →   Play Store: 'Bose QC35 noise cancellation' (com.jehoefna.boseswitcher)…
+[01:23:37] ✓     +28 Play Store reviews for 'Bose QC35 noise cancellation'
+[01:23:38] →   Play Store: 'GMAT Prep & Practice - Magoosh' (com.magoosh.gmat)…
+[01:23:38] ✓     +293 Play Store reviews for 'GMAT Prep & Practice - Magoosh'
+[01:23:39] →   Play Store: 'Wardrobe-Closet,Outfit Planner' (com.aaratiniraj.wardrobe)…
+[01:23:39] ✓     +2 Play Store reviews for 'Wardrobe-Closet,Outfit Planner'
+[01:23:43] ✓ Play Store: 952 reviews added
+[01:23:43] → Total reviews collected: 4,952
+[01:23:43] → Running signal extraction…
+[01:23:43] → Extracting 166 batches (resuming from 0)...
+[01:23:43] →   5 API key(s), 25 parallel workers, 25min timeout
+[01:23:57]      Batch 1/166 → 7 pain pts, 3 triggers, 5 deal breakers
+[01:23:58]      Batch 2/166 → 7 pain pts, 4 triggers, 4 deal breakers
+[01:24:00]      Batch 3/166 → 5 pain pts, 5 triggers, 3 deal breakers
+[01:24:00]      Batch 4/166 → 8 pain pts, 5 triggers, 4 deal breakers
+[01:24:03]      Batch 5/166 → 6 pain pts, 4 triggers, 4 deal breakers
+[01:24:06]      Batch 6/166 → 4 pain pts, 3 triggers, 3 deal breakers
+[01:24:08]      Batch 7/166 → 4 pain pts, 4 triggers, 4 deal breakers
+[01:24:08]      Batch 8/166 → 8 pain pts, 5 triggers, 5 deal breakers
+[01:24:13]      Batch 9/166 → 7 pain pts, 4 triggers, 5 deal breakers
+[01:24:15]      Batch 10/166 → 4 pain pts, 4 triggers, 3 deal breakers
+[01:24:15]      Batch 11/166 → 5 pain pts, 5 triggers, 5 deal breakers
+[01:24:15]      Batch 12/166 → 5 pain pts, 4 triggers, 3 deal breakers
+[01:24:17]      Batch 13/166 → 6 pain pts, 3 triggers, 4 deal breakers
+[01:24:17]      Batch 14/166 → 5 pain pts, 5 triggers, 4 deal breakers
+[01:24:20]      Batch 15/166 → 4 pain pts, 4 triggers, 4 deal breakers
+[01:24:21]      Batch 16/166 → 5 pain pts, 5 triggers, 5 deal breakers
+[01:24:21]      Batch 17/166 → 5 pain pts, 4 triggers, 4 deal breakers
+[01:24:22]      Batch 18/166 → 7 pain pts, 5 triggers, 5 deal breakers
+[01:24:24]      Batch 19/166 → 6 pain pts, 5 triggers, 5 deal breakers
+[01:24:27]      Batch 20/166 → 5 pain pts, 4 triggers, 3 deal breakers
+[01:24:28]      Batch 21/166 → 9 pain pts, 5 triggers, 6 deal breakers
+[01:24:32]      Batch 22/166 → 5 pain pts, 3 triggers, 4 deal breakers
+[01:24:34]      Batch 23/166 → 5 pain pts, 4 triggers, 4 deal breakers
+[01:24:39]      Batch 24/166 → 6 pain pts, 3 triggers, 3 deal breakers
+[01:24:41]      Batch 25/166 → 5 pain pts, 3 triggers, 3 deal breakers
+[01:24:46]      Batch 26/166 → 9 pain pts, 5 triggers, 4 deal breakers
+[01:24:48]      Batch 27/166 → 5 pain pts, 4 triggers, 3 deal breakers
+[01:24:49]      Batch 28/166 → 9 pain pts, 5 triggers, 5 deal breakers
+[01:24:51]      Batch 29/166 → 7 pain pts, 4 triggers, 3 deal breakers
+[01:24:51]      Batch 30/166 → 6 pain pts, 5 triggers, 4 deal breakers
+[01:24:51]      Batch 31/166 → 5 pain pts, 4 triggers, 3 deal breakers
+[01:24:51]      Batch 32/166 → 5 pain pts, 3 triggers, 3 deal breakers
+[01:24:54]      Batch 33/166 → 7 pain pts, 4 triggers, 3 deal breakers
+[01:24:56]      Batch 34/166 → 6 pain pts, 3 triggers, 6 deal breakers
+[01:24:57]      Batch 35/166 → 10 pain pts, 8 triggers, 6 deal breakers
+[01:24:59]      Batch 36/166 → 8 pain pts, 4 triggers, 5 deal breakers
+[01:24:59]      Batch 37/166 → 5 pain pts, 5 triggers, 5 deal breakers
+[01:25:07]      Batch 38/166 → 8 pain pts, 5 triggers, 5 deal breakers
+[01:25:08]      Batch 39/166 → 7 pain pts, 5 triggers, 4 deal breakers
+[01:25:09]      Batch 40/166 → 8 pain pts, 4 triggers, 5 deal breakers
+[01:25:09]      Batch 41/166 → 6 pain pts, 4 triggers, 4 deal breakers
+[01:25:09]      Batch 42/166 → 6 pain pts, 5 triggers, 3 deal breakers
+[01:25:10]      Batch 43/166 → 7 pain pts, 4 triggers, 4 deal breakers
+[01:25:11]      Batch 44/166 → 4 pain pts, 3 triggers, 3 deal breakers
+[01:25:13]      Batch 45/166 → 4 pain pts, 3 triggers, 3 deal breakers
+[01:25:15]      Batch 46/166 → 5 pain pts, 4 triggers, 4 deal breakers
+[01:25:17]      Batch 47/166 → 6 pain pts, 3 triggers, 4 deal breakers
+[01:25:17]      Batch 48/166 → 7 pain pts, 4 triggers, 5 deal breakers
+[01:25:25]      Batch 49/166 → 6 pain pts, 5 triggers, 4 deal breakers
+[01:25:25]      Batch 50/166 → 7 pain pts, 5 triggers, 4 deal breakers
+[01:25:25]      Batch 51/166 → 5 pain pts, 4 triggers, 4 deal breakers
+[01:25:29]      Batch 52/166 → 7 pain pts, 3 triggers, 4 deal breakers
+[01:25:32]      Batch 53/166 → 5 pain pts, 5 triggers, 3 deal breakers
+[01:25:35]      Batch 54/166 → 4 pain pts, 3 triggers, 3 deal breakers
+[01:25:36]      Batch 55/166 → 6 pain pts, 4 triggers, 3 deal breakers
+[01:25:39]      Batch 56/166 → 5 pain pts, 4 triggers, 4 deal breakers
+[01:25:40]      Batch 57/166 → 7 pain pts, 4 triggers, 4 deal breakers
+[01:25:40]      Batch 58/166 → 7 pain pts, 5 triggers, 5 deal breakers
+[01:25:42]      Batch 59/166 → 7 pain pts, 4 triggers, 5 deal breakers
+[01:25:48]      Batch 60/166 → 5 pain pts, 4 triggers, 4 deal breakers
+[01:25:48]      Batch 61/166 → 8 pain pts, 3 triggers, 4 deal breakers
+[01:25:51]      Batch 62/166 → 6 pain pts, 4 triggers, 5 deal breakers
+[01:25:52]      Batch 63/166 → 11 pain pts, 5 triggers, 4 deal breakers
+[01:25:54]      Batch 64/166 → 6 pain pts, 4 triggers, 4 deal breakers
+[01:25:55]      Batch 65/166 → 6 pain pts, 4 triggers, 4 deal breakers
+[01:25:57]      Batch 66/166 → 6 pain pts, 4 triggers, 5 deal breakers
+[01:26:00]      Batch 67/166 → 7 pain pts, 3 triggers, 3 deal breakers
+[01:26:01]      Batch 68/166 → 7 pain pts, 4 triggers, 3 deal breakers
+[01:26:04]      Batch 69/166 → 7 pain pts, 4 triggers, 6 deal breakers
+[01:26:04]      Batch 70/166 → 7 pain pts, 3 triggers, 4 deal breakers
+[01:26:12]      Batch 71/166 → 5 pain pts, 4 triggers, 4 deal breakers
+[01:26:13]      Batch 72/166 → 5 pain pts, 3 triggers, 3 deal breakers
+[01:26:15]      Batch 73/166 → 6 pain pts, 4 triggers, 4 deal breakers
+[01:26:17]      Batch 74/166 → 5 pain pts, 5 triggers, 5 deal breakers
+[01:26:18]      Batch 75/166 → 6 pain pts, 5 triggers, 4 deal breakers
+[01:26:22]      Batch 76/166 → 5 pain pts, 4 triggers, 5 deal breakers
+[01:26:31]      Batch 77/166 → 6 pain pts, 3 triggers, 3 deal breakers
+[01:26:32]      Batch 78/166 → 5 pain pts, 3 triggers, 4 deal breakers
+[01:26:32]      Batch 79/166 → 4 pain pts, 4 triggers, 3 deal breakers
+[01:26:33]      Batch 80/166 → 5 pain pts, 4 triggers, 5 deal breakers
+[01:26:34]      Batch 81/166 → 5 pain pts, 4 triggers, 4 deal breakers
+[01:26:42]      Batch 82/166 → 9 pain pts, 6 triggers, 4 deal breakers
+[01:26:47]      Batch 83/166 → 6 pain pts, 3 triggers, 4 deal breakers
+[01:26:49]      Batch 84/166 → 8 pain pts, 4 triggers, 4 deal breakers
+[01:26:51]      Batch 85/166 → 6 pain pts, 4 triggers, 5 deal breakers
+[01:26:52]      Batch 86/166 → 6 pain pts, 4 triggers, 4 deal breakers
+[01:26:52]      Batch 87/166 → 5 pain pts, 4 triggers, 4 deal breakers
+[01:26:52]      Batch 88/166 → 0 pain pts, 0 triggers, 0 deal breakers
+[01:26:59]      Batch 89/166 → 7 pain pts, 5 triggers, 4 deal breakers
+[01:27:03]      Batch 90/166 → 6 pain pts, 4 triggers, 4 deal breakers
+[01:27:03]      Batch 91/166 → 7 pain pts, 5 triggers, 5 deal breakers
+[01:27:03]      Batch 92/166 → 7 pain pts, 5 triggers, 5 deal breakers
+[01:27:03]      Batch 93/166 → 0 pain pts, 0 triggers, 0 deal breakers
+[01:27:05]      Batch 94/166 → 5 pain pts, 3 triggers, 4 deal breakers
+[01:27:05]      Batch 95/166 → 5 pain pts, 4 triggers, 4 deal breakers
+[01:27:06]      Batch 96/166 → 6 pain pts, 4 triggers, 5 deal breakers
+[01:27:11]      Batch 97/166 → 8 pain pts, 4 triggers, 4 deal breakers
+[01:27:11]      Batch 98/166 → 5 pain pts, 3 triggers, 4 deal breakers
+[01:27:12]      Batch 99/166 → 5 pain pts, 0 triggers, 4 deal breakers
+[01:27:13]      Batch 100/166 → 4 pain pts, 3 triggers, 3 deal breakers
+[01:27:14]      Batch 101/166 → 5 pain pts, 4 triggers, 4 deal breakers
+[01:27:17]      Batch 102/166 → 7 pain pts, 4 triggers, 5 deal breakers
+[01:27:17]      Batch 103/166 → 4 pain pts, 3 triggers, 4 deal breakers
+[01:27:19]      Batch 104/166 → 6 pain pts, 4 triggers, 4 deal breakers
+[01:27:21]      Batch 105/166 → 0 pain pts, 0 triggers, 0 deal breakers
+[01:27:23]      Batch 106/166 → 5 pain pts, 4 triggers, 4 deal breakers
+[01:27:25]      Batch 107/166 → 7 pain pts, 3 triggers, 4 deal breakers
+[01:27:28]      Batch 108/166 → 7 pain pts, 4 triggers, 5 deal breakers
+[01:27:29]      Batch 109/166 → 7 pain pts, 4 triggers, 5 deal breakers
+[01:27:32]      Batch 110/166 → 5 pain pts, 3 triggers, 4 deal breakers
+[01:27:34]      Batch 111/166 → 7 pain pts, 4 triggers, 4 deal breakers
+[01:27:35]      Batch 112/166 → 6 pain pts, 3 triggers, 4 deal breakers
+[01:27:38]      Batch 113/166 → 5 pain pts, 4 triggers, 4 deal breakers
+[01:27:39]      Batch 114/166 → 8 pain pts, 4 triggers, 5 deal breakers
+[01:27:43]      Batch 115/166 → 7 pain pts, 5 triggers, 5 deal breakers
+[01:27:44]      Batch 116/166 → 5 pain pts, 3 triggers, 3 deal breakers
+[01:27:48]      Batch 117/166 → 8 pain pts, 4 triggers, 5 deal breakers
+[01:27:49]      Batch 118/166 → 4 pain pts, 4 triggers, 3 deal breakers
+[01:27:50]      Batch 119/166 → 5 pain pts, 0 triggers, 4 deal breakers
+[01:27:50]      Batch 120/166 → 9 pain pts, 5 triggers, 5 deal breakers
+[01:27:52]      Batch 121/166 → 4 pain pts, 3 triggers, 3 deal breakers
+[01:27:54]      Batch 122/166 → 0 pain pts, 0 triggers, 0 deal breakers
+[01:27:54]      Batch 123/166 → 5 pain pts, 3 triggers, 4 deal breakers
+[01:28:03]      Batch 124/166 → 7 pain pts, 0 triggers, 4 deal breakers
+[01:28:12]      Batch 125/166 → 7 pain pts, 4 triggers, 4 deal breakers
+[01:28:17]      Batch 126/166 → 6 pain pts, 0 triggers, 5 deal breakers
+[01:28:18]      Batch 127/166 → 6 pain pts, 3 triggers, 5 deal breakers
+[01:28:18]      Batch 128/166 → 10 pain pts, 0 triggers, 5 deal breakers
+[01:28:20]      Batch 129/166 → 8 pain pts, 2 triggers, 4 deal breakers
+[01:28:21]      Batch 130/166 → 8 pain pts, 5 triggers, 5 deal breakers
+[01:28:23]      Batch 131/166 → 8 pain pts, 4 triggers, 4 deal breakers
+[01:28:24]      Batch 132/166 → 5 pain pts, 4 triggers, 4 deal breakers
+[01:28:25]      Batch 133/166 → 6 pain pts, 0 triggers, 5 deal breakers
+[01:28:27]      Batch 134/166 → 7 pain pts, 5 triggers, 5 deal breakers
+[01:28:29]      Batch 135/166 → 8 pain pts, 4 triggers, 5 deal breakers
+[01:28:34]      Batch 136/166 → 6 pain pts, 5 triggers, 4 deal breakers
+[01:28:37]      Batch 137/166 → 6 pain pts, 5 triggers, 4 deal breakers
+[01:28:38]      Batch 138/166 → 4 pain pts, 4 triggers, 2 deal breakers
+[01:28:40]      Batch 139/166 → 4 pain pts, 3 triggers, 3 deal breakers
+[01:28:49]      Batch 140/166 → 4 pain pts, 3 triggers, 2 deal breakers
+[01:28:52]      Batch 141/166 → 7 pain pts, 0 triggers, 4 deal breakers
+[01:36:41]      Batch 142/166 → 8 pain pts, 5 triggers, 4 deal breakers
+[01:36:44]      Batch 143/166 → 5 pain pts, 5 triggers, 4 deal breakers
+[01:36:44]      Batch 144/166 → 5 pain pts, 5 triggers, 3 deal breakers
+[01:36:45]      Batch 145/166 → 8 pain pts, 5 triggers, 5 deal breakers
+[01:36:45]      Batch 146/166 → 6 pain pts, 4 triggers, 3 deal breakers
+[01:42:05]      Batch 147/166 → 0 pain pts, 0 triggers, 0 deal breakers
+[01:42:17]      Batch 148/166 → 0 pain pts, 0 triggers, 0 deal breakers
+[01:42:20]      Batch 149/166 → 7 pain pts, 4 triggers, 4 deal breakers
+[01:42:24]      Batch 150/166 → 5 pain pts, 5 triggers, 5 deal breakers
+[01:42:27]      Batch 151/166 → 5 pain pts, 3 triggers, 5 deal breakers
+[01:42:28]      Batch 152/166 → 6 pain pts, 4 triggers, 4 deal breakers
+[01:42:28]      Batch 153/166 → 8 pain pts, 2 triggers, 4 deal breakers
+[01:42:29]      Batch 154/166 → 7 pain pts, 4 triggers, 4 deal breakers
+[01:42:30]      Batch 155/166 → 5 pain pts, 4 triggers, 4 deal breakers
+[01:42:30]      Batch 156/166 → 7 pain pts, 5 triggers, 4 deal breakers
+[01:42:33]      Batch 157/166 → 6 pain pts, 5 triggers, 5 deal breakers
+[01:42:35]      Batch 158/166 → 6 pain pts, 4 triggers, 4 deal breakers
+[01:42:37]      Batch 159/166 → 8 pain pts, 5 triggers, 5 deal breakers
+[01:42:38]      Batch 160/166 → 5 pain pts, 5 triggers, 4 deal breakers
+[01:42:39]      Batch 161/166 → 6 pain pts, 6 triggers, 5 deal breakers
+[01:42:41]      Batch 162/166 → 5 pain pts, 3 triggers, 3 deal breakers
+[01:42:43]      Batch 163/166 → 8 pain pts, 4 triggers, 5 deal breakers
+[01:42:46]      Batch 164/166 → 6 pain pts, 5 triggers, 5 deal breakers
+[01:43:33]      Batch 165/166 → 6 pain pts, 5 triggers, 5 deal breakers
+[01:54:41] ⚠ ⏱ 25min timeout — proceeding with 165/166 batches
+[01:54:41] ✓ Extraction done — 152 total batches (152 new)
+[01:54:42] ✓ Extraction: 152 batches
+[01:54:42] → Running clustering…
+[01:54:42] → Embedding 152 signal batches...
+[01:54:49] → Sweeping k=3..10 for optimal clusters...
+[01:54:49] ✓ Best k=4 (score=0.386)
+[01:54:49] → Running stability analysis (10 seeds)...
+[01:54:49]      Cluster stability (ARI): 0.680 (moderate)
+[01:54:50]      Cluster weight std across seeds: 0.104, 0.062, 0.157, 0.072
+[01:54:50] → Building 4 clusters (seed=42)...
+[01:55:01]      Cluster 0: 53 batches [amazon:50% / reddit:50%] — top: Frustration with team members who lack self-awaren (CI: 0%–1%)
+[01:55:01]      Cluster 1: 5 batches [amazon:50% / reddit:50%] — top: n/a
+[01:55:14]      Cluster 2: 62 batches [amazon:50% / reddit:50%] — top: Using inadequate tools like Google Sheets for proj (CI: 0%–1%)
+[01:55:19]      Cluster 3: 32 batches [amazon:50% / reddit:50%] — top: App crashes after extended use or when submitting  (CI: 0%–2%)
+[01:55:19] ✓ Cluster weights validated (sum=1.0000)
+[01:55:19] ✓ Clustering: 4 clusters
+[01:55:19] → Synthesising persona…
+[01:55:19] → Labeling 4 behavioral trait clusters...
+[01:55:19] →   Labeling cluster 1/4...
+[01:55:27]        [35%] Management Dysfunction Concern — frustrated
+[01:55:27] →   Labeling cluster 2/4...
+[01:55:31]        [3%] Practical Buyer — pragmatic
+[01:55:31] →   Labeling cluster 3/4...
+[01:55:35]        [41%] Tool Usability Distrust — frustrated
+[01:55:35] →   Labeling cluster 4/4...
+[01:55:37]        [21%] Pragmatic Value Assessment — pragmatic
+[01:55:37] → Computing data-driven metrics from cluster signals...
+[01:55:37]      Decision factor: Recommendation from trusted sources or positive re = 12.9%
+[01:55:37]      Decision factor: Using inadequate tools like Google Sheets for proj = 12.4%
+[01:55:37]      Decision factor: Complex tools with unnecessary features cause over = 12.4%
+[01:55:37]      Decision factor: Poor quality content with misworded questions and  = 12.4%
+[01:55:37]      Decision factor: Deceptive sales tactics and unclear pricing models = 12.4%
+[01:55:37]      Emotional profile: patience=0.281, trust=0.417, decay=0.36
+[01:55:37] → Synthesizing full persona from all traits (this is the big call)...
+[01:56:26] → Validating persona against data-driven metrics...
+[01:56:26] ✓   emotional_profile enforced: {'baseline_patience': 0.281, 'trust_starting_point': 0.417, 'frustration_decay': 0.36}
+[01:56:26]      deal_breakers: 0/5 grounded in cluster data (0%)
+[01:56:26] ⚠   Low grounding — most deal breakers may be LLM-invented
+[01:56:26] ✓ adittesting_operations_driven_saas_decision_maker_persona.json written
+[01:56:26] → Generating rich markdown context document...
+[01:56:26] ✓ adittesting_operations_driven_saas_decision_maker_persona.md written
+[01:56:26] ✓ adittesting_operations_driven_saas_decision_maker_rag_index.jsonl written (80 entries)
+[01:56:26] ✓ Persona synthesis complete
+[01:56:26] ✓ ━━━ Job [d4f022b9] done in 2311s ━━━

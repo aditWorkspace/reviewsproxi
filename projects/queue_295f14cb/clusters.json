@@ -1,0 +1,1936 @@
+{
+  "chosen_n_clusters": 3,
+  "sweep_results": [
+    {
+      "k": 3,
+      "silhouette": 0.1790473461151123,
+      "intra_similarity": 0.6532337466875712,
+      "inter_distance": 0.7762036323547363,
+      "combined_score": 0.44073452353477477
+    },
+    {
+      "k": 4,
+      "silhouette": 0.16135896742343903,
+      "intra_similarity": 0.6460858434438705,
+      "inter_distance": 0.6824002265930176,
+      "combined_score": 0.4109852820634842
+    },
+    {
+      "k": 5,
+      "silhouette": 0.17315591871738434,
+      "intra_similarity": 0.642080283164978,
+      "inter_distance": 0.6198781728744507,
+      "combined_score": 0.4031776788830757
+    },
+    {
+      "k": 6,
+      "silhouette": 0.1835014671087265,
+      "intra_similarity": 0.6579646468162537,
+      "inter_distance": 0.6023265719413757,
+      "combined_score": 0.4096054419875145
+    },
+    {
+      "k": 7,
+      "silhouette": 0.17015968263149261,
+      "intra_similarity": 0.6411809580666679,
+      "inter_distance": 0.5948610901832581,
+      "combined_score": 0.3964063467723983
+    },
+    {
+      "k": 8,
+      "silhouette": 0.1601228564977646,
+      "intra_similarity": 0.6506697908043861,
+      "inter_distance": 0.5633686184883118,
+      "combined_score": 0.3879360891878605
+    },
+    {
+      "k": 9,
+      "silhouette": 0.17004866898059845,
+      "intra_similarity": 0.6168261832661099,
+      "inter_distance": 0.5927824974060059,
+      "combined_score": 0.3886286889513334
+    },
+    {
+      "k": 10,
+      "silhouette": 0.1657404601573944,
+      "intra_similarity": 0.6432738423347473,
+      "inter_distance": 0.5686277151107788,
+      "combined_score": 0.38957792580127715
+    }
+  ],
+  "quality_metrics": {
+    "silhouette": 0.1790473461151123,
+    "intra_similarity": 0.6532337466875712,
+    "inter_distance": 0.7762036323547363,
+    "combined_score": 0.44073452353477477,
+    "stability_ari": 0.6685,
+    "stability_label": "moderate"
+  },
+  "cluster_0": {
+    "member_count": 3,
+    "representative_batches": [
+      {
+        "pain_points": [],
+        "desired_outcomes": [],
+        "purchase_triggers": [],
+        "objections": [],
+        "switching_triggers": [],
+        "decision_factors_ranked": [],
+        "deal_breakers": [],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 28,
+          "amazon_med_acc": 0,
+          "reddit": 2,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [],
+        "desired_outcomes": [],
+        "purchase_triggers": [],
+        "objections": [],
+        "switching_triggers": [],
+        "decision_factors_ranked": [],
+        "deal_breakers": [],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [],
+        "desired_outcomes": [],
+        "purchase_triggers": [],
+        "objections": [],
+        "switching_triggers": [],
+        "decision_factors_ranked": [],
+        "deal_breakers": [],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.978,
+      "reddit": 0.022,
+      "csv": 0.0
+    },
+    "single_source_warning": true,
+    "aggregate_signals": {
+      "top_pain_points": [],
+      "top_desired_outcomes": [],
+      "top_deal_breakers": [],
+      "top_purchase_triggers": [],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "medium": 0.333,
+        "low": 0.667
+      }
+    }
+  },
+  "cluster_1": {
+    "member_count": 23,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Poor quality physical book production (unclear graphics, low-resolution charts, cheap paper)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Technical information not deep or specific enough for experienced professionals",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Content mismatch: beginner material purchased by intermediate/advanced users (and vice versa)",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Errors or flaws in instructions/recipes leading to poor results for non-experts",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Unprofessional layout/format making the product feel cheap or like an internal report",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Lack of practical examples or demonstrations to clarify concepts",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Missing critical practical information (e.g., transportation maps in a travel guide)",
+            "emotional_intensity": 0.55
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Clear, concise, and logically organized technical material",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Material targeted to the correct expertise level (beginner vs. advanced)",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Accurate, error-free instructions and specifications",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Professional, durable physical production (good paper, clear images/color, strong binding)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Practical, actionable guidance with examples and tool references",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Comprehensive coverage of a topic, including both strategic concepts and technical details as appropriate",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Up-to-date information reflecting current standards or methods (e.g., C++11)",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to learn a new technical skill or improve existing skills for professional development",
+            "context": "Career advancement or project requirement"
+          },
+          {
+            "trigger": "Requirement for specific, actionable how-to information (e.g., tools, formulas, drills)",
+            "context": "Solving an immediate technical or operational problem"
+          },
+          {
+            "trigger": "Seeking a comprehensive reference or definitive guide on a core professional topic",
+            "context": "Building a personal technical library"
+          },
+          {
+            "trigger": "Need for material suitable for training or teaching others (e.g., teams, classrooms)",
+            "context": "Leadership or educational role"
+          },
+          {
+            "trigger": "Replacement or upgrade of a worn-out or outdated edition of a trusted resource",
+            "context": "Maintaining current, reliable reference materials"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Price perceived as too high for perceived low production quality or content errors",
+            "severity": 0.75
+          },
+          {
+            "objection": "Content not matching advertised skill level or depth",
+            "severity": 0.8
+          },
+          {
+            "objection": "Material is too basic, lacking 'meat' for experienced practitioners",
+            "severity": 0.7
+          },
+          {
+            "objection": "Poor editing with factual/instructional errors that hinder practical use",
+            "severity": 0.85
+          },
+          {
+            "objection": "Format/organization is illogical or hinders quick reference",
+            "severity": 0.6
+          },
+          {
+            "objection": "Platform or tool-specific assumptions that don't match the user's environment",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Beginner-level book/guide",
+            "reason": "Outgrown the content; need more advanced, detailed material",
+            "threshold": "User gains proficiency and finds the material no longer challenging"
+          },
+          {
+            "from_product": "Older edition of a technical reference",
+            "reason": "New edition offers updated standards, methods, or corrected errors",
+            "threshold": "Significant updates justify the cost of replacement"
+          },
+          {
+            "from_product": "Book with poor physical durability",
+            "reason": "Book deteriorates with heavy use; need a more robust copy",
+            "threshold": "Binding fails or pages become unusable"
+          },
+          {
+            "from_product": "General overview book",
+            "reason": "Need a more specialized, in-depth technical guide",
+            "threshold": "Project demands deeper, specific knowledge"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Accuracy and reliability of technical content",
+          "Depth and appropriateness for skill level",
+          "Clarity and organization of material",
+          "Physical quality and durability of the product",
+          "Practical utility and actionable guidance",
+          "Price relative to value and quality",
+          "Up-to-date information and standards",
+          "Reputation of author/publisher"
+        ],
+        "deal_breakers": [
+          "Significant factual errors or flawed instructions that lead to operational failure",
+          "Content so basic it provides no value to an experienced professional",
+          "Extremely poor physical construction that compromises usability",
+          "Misrepresentation of content level or focus"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Lack of access to practical technical information and accurate details",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Concern about product reliability and performance under real-world conditions",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Frustration with superficial or irrelevant content not meeting professional needs",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Difficulty finding comprehensive, well-researched information sources",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Anxiety about making decisions without credible, evidence-based data",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Gaining in-depth technical knowledge and specialized insights",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Ensuring accuracy and reliability of information for informed decision-making",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Improving efficiency and effectiveness in operational tasks",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Accessing well-documented, evidence-based resources",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Obtaining detailed, practical information relevant to professional challenges",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Positive reviews highlighting technical accuracy and usefulness",
+            "context": "Reading user feedback"
+          },
+          {
+            "trigger": "Recommendation from trusted colleagues or industry peers",
+            "context": "Professional networking"
+          },
+          {
+            "trigger": "Availability of detailed specifications and credible endorsements",
+            "context": "Research phase"
+          },
+          {
+            "trigger": "Recognition of author's expertise or product's proven track record",
+            "context": "Evaluation"
+          },
+          {
+            "trigger": "Immediate need for reliable information to solve a specific problem",
+            "context": "Project urgency"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Content lacks depth or fails to cover essential technical aspects",
+            "severity": 0.7
+          },
+          {
+            "objection": "Unverified or anecdotal information perceived as unreliable",
+            "severity": 0.8
+          },
+          {
+            "objection": "Poorly organized or overly simplified materials",
+            "severity": 0.6
+          },
+          {
+            "objection": "High cost relative to value provided or limited utility",
+            "severity": 0.5
+          },
+          {
+            "objection": "Incompatibility with existing tools or professional standards",
+            "severity": 0.6
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Vague or generic resources",
+            "reason": "Inadequate technical detail and insufficient evidence",
+            "threshold": "When content fails to address complex needs"
+          },
+          {
+            "from_product": "Untested or unverified sources",
+            "reason": "Lack of credibility and professional validation",
+            "threshold": "Upon discovering errors or inconsistencies"
+          },
+          {
+            "from_product": "Outdated information",
+            "reason": "Risk of implementing obsolete methods or data",
+            "threshold": "When current standards change significantly"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Technical accuracy and reliability",
+          "Comprehensiveness of information",
+          "Author or source credibility",
+          "Practical applicability to real-world tasks",
+          "User reviews and professional endorsements",
+          "Clarity and organization of content",
+          "Cost-effectiveness"
+        ],
+        "deal_breakers": [
+          "Inaccurate or unverified technical data",
+          "Lack of depth in key subject areas",
+          "Absence of credible references or evidence",
+          "Poor integration with industry standards"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Difficulty finding technical information that is comprehensive and well-organized for field application.",
+            "emotional_intensity": 0.3
+          },
+          {
+            "signal": "Frustration with product documentation or support materials that lack step-by-step models or clear, detailed examples.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Concern about making decisions based on information that may be outdated or inaccurate.",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Time wasted navigating poorly structured references or lacking crucial tools (e.g., index, clear diagrams) for quick look-up.",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "To have a comprehensive, reliable, and detailed reference for technical concepts and procedures.",
+            "priority": 0.9
+          },
+          {
+            "outcome": "To understand the 'why' behind processes and methodologies, not just the 'how'.",
+            "priority": 0.8
+          },
+          {
+            "outcome": "To make informed, evidence-based purchasing decisions that optimize operations and safety.",
+            "priority": 1.0
+          },
+          {
+            "outcome": "To find practical, applicable knowledge that can be directly implemented to solve complex field problems.",
+            "priority": 0.95
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to solve a specific, complex technical problem in drilling or well completion.",
+            "context": "When faced with operational challenges requiring deep technical understanding."
+          },
+          {
+            "trigger": "Preparation for a new project or technology implementation.",
+            "context": "During the planning phase to ensure all technical variables and best practices are considered."
+          },
+          {
+            "trigger": "Dissatisfaction with current references or vendor-supplied materials lacking depth or clarity.",
+            "context": "When existing documentation is found to be insufficient or overly simplistic."
+          },
+          {
+            "trigger": "Recommendation from a trusted colleague or industry expert.",
+            "context": "Word-of-mouth validation from a credible source within the professional network."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Content is too theoretical and lacks practical, step-by-step application models.",
+            "severity": 0.8
+          },
+          {
+            "objection": "Examples provided are unclear, contradictory, or insufficient to validate the concepts.",
+            "severity": 0.7
+          },
+          {
+            "objection": "Information may be outdated or not updated to reflect current best practices and technologies.",
+            "severity": 0.65
+          },
+          {
+            "objection": "Poor organization or lack of critical reference tools (index, clear visual aids, glossaries).",
+            "severity": 0.6
+          }
+        ],
+        "switching_triggers": [],
+        "decision_factors_ranked": [
+          "Technical Accuracy and Depth",
+          "Practical Applicability and Examples",
+          "Comprehensiveness and Detail",
+          "Clarity of Organization and Reference-ability",
+          "Reputation of Author/Source",
+          "Up-to-date Information"
+        ],
+        "deal_breakers": [
+          "Inaccurate or unverified technical data",
+          "Complete lack of practical application guidance",
+          "Information is obsolete for current industry standards",
+          "Unacceptably poor organization that impedes utility"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Difficulty finding comprehensive technical references that are also practical and digestible.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Time-consuming and inefficient planning for field operations or trips due to scattered logistical information.",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Frustration with technical materials lacking visual clarity (e.g., photos, diagrams, lighting setups).",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Challenges in adapting solutions (e.g., vegetarian versions, niche applications) from generalized guides.",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Concern over product quality and durability (e.g., binding, cover, manufacturing).",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Difficulty engaging next-generation employees/learners with technical material.",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Gaining practical, actionable technical knowledge that can be immediately applied.",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Improving operational efficiency through better planning and reference tools.",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Enhancing understanding of complex systems (e.g., environmental impacts, engineering).",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Finding solutions that are adaptable to specific constraints (e.g., vegetarian, sustainable).",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Acquiring visually clear materials that aid comprehension and decision-making.",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Accessing materials that can be used as reliable references for future work.",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for practical solutions to current or upcoming projects.",
+            "context": "Planning a trip, building a prototype, or starting a new work assignment."
+          },
+          {
+            "trigger": "Desire for visual clarity and step-by-step guidance.",
+            "context": "When dealing with complex technical concepts or unfamiliar systems."
+          },
+          {
+            "trigger": "Recommendations from trusted peers or expert sources.",
+            "context": "Referencing other highly-regarded technical books (e.g., \"Hawks in Flight\")."
+          },
+          {
+            "trigger": "Need for comprehensive reference material for niche or specific applications.",
+            "context": "Looking for information on specific equipment, environmental phenomena, or specialized techniques."
+          },
+          {
+            "trigger": "Goal to learn a new skill or stay current in a technical field.",
+            "context": "Starting a new job, tackling a new project, or professional development."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Material lacks depth or specific troubleshooting details.",
+            "severity": 0.7
+          },
+          {
+            "objection": "Poor physical quality of the product (binding, cover, etc.).",
+            "severity": 0.5
+          },
+          {
+            "objection": "Content is too basic or not advanced enough for experienced professionals.",
+            "severity": 0.6
+          },
+          {
+            "objection": "Insufficient or poorly integrated visual aids (photos, diagrams, maps).",
+            "severity": 0.8
+          },
+          {
+            "objection": "Content is not adaptable or customizable to specific project needs.",
+            "severity": 0.6
+          },
+          {
+            "objection": "Information is not up-to-date or fails to incorporate latest practices.",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Generic travel guides",
+            "reason": "Lack of detailed logistical and visual support.",
+            "threshold": "When planning a complex itinerary requiring reliable maps and site-specific logistics."
+          },
+          {
+            "from_product": "General technical manuals",
+            "reason": "Absence of practical, hands-on examples and visual step-by-step guidance.",
+            "threshold": "When facing a novel technical problem requiring immediate, actionable solutions."
+          },
+          {
+            "from_product": "Non-visual reference materials",
+            "reason": "Difficulty understanding complex concepts without diagrams or photos.",
+            "threshold": "When training new team members or explaining concepts to stakeholders."
+          },
+          {
+            "from_product": "Broad-scope, shallow guides",
+            "reason": "Need for deeper, more specialized information.",
+            "threshold": "When project requirements demand in-depth technical expertise in a niche area."
+          }
+        ],
+        "decision_factors_ranked": [
+          "Practical applicability and actionable content",
+          "Quality and clarity of visual aids (photos, diagrams, maps)",
+          "Comprehensiveness and depth of technical information",
+          "Adaptability to specific project constraints",
+          "Physical durability and quality of the product",
+          "Recommendation from trusted technical sources",
+          "Cost-effectiveness for the value provided"
+        ],
+        "deal_breakers": [
+          "Information is factually incorrect or dangerously misleading",
+          "Complete lack of visual aids for complex technical subjects",
+          "Poor physical construction that compromises usability",
+          "Material is too basic with no advanced insights",
+          "Content is not practical and cannot be applied in real-world scenarios"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Frustration with confusing vendor documentation that only the most technically inclined can understand",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Anxiety about developing cold calling scripts and overcoming sales anxiety without structured guidance",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Feeling overwhelmed by the complexity of thousands of tables and confusing documentation in enterprise systems",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Disdain for applying life cycle approaches or maturity frameworks that seem misaligned with practical needs",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Burning the candle at both ends due to lack of ready references for mentoring or skill-building",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Achieve a holistic, team-focused quality function across all project stakeholders",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Gain a ready-made framework for assessments, process improvement, or training to save time and effort",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Develop scalable, business-aligned solutions with clear technical and business metrics",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Bridge knowledge gaps between different groups (e.g., security vs. development) for cohesive solutions",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Quickly get up-to-speed on complex data architectures or technical details without sifting through thousands of pages",
+            "priority": 0.9
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to establish or improve an SQA function, quality management system, or process maturity framework",
+            "context": "Organizational initiative for quality or process improvement"
+          },
+          {
+            "trigger": "Tasked with mentoring, training, or providing reference materials to teams (e.g., sales, development, testing)",
+            "context": "Internal role expansion or team skill development"
+          },
+          {
+            "trigger": "Starting a complex project requiring integrated project management, risk management, or architecture-centric planning",
+            "context": "Project initiation or planning phase"
+          },
+          {
+            "trigger": "Implementing new technologies (e.g., XML security, web metrics, ERP) and needing practical, detailed guidance",
+            "context": "Technology adoption or migration"
+          },
+          {
+            "trigger": "Seeking to overcome documentation confusion or fill gaps left by vendor materials",
+            "context": "Frustration with existing resources"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Material may be too basic or redundant for half of the intended audience",
+            "severity": 0.6
+          },
+          {
+            "objection": "Some content is outdated (e.g., over 4-6 years old), though concepts may remain valid",
+            "severity": 0.5
+          },
+          {
+            "objection": "Focus on design over detailed technical instructions may frustrate less technical readers",
+            "severity": 0.4
+          },
+          {
+            "objection": "Book is too narrowly focused (e.g., only help desk SLAs) or not comprehensive enough for advanced needs",
+            "severity": 0.3
+          },
+          {
+            "objection": "Authors' views may conflict with reader's perspectives (e.g., on life cycles or maturity frameworks)",
+            "severity": 0.4
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Vendor documentation",
+            "reason": "Confusing, incomplete, or only usable by highly technical staff",
+            "threshold": "When it impedes implementation or understanding"
+          },
+          {
+            "from_product": "Older books or resources",
+            "reason": "Outdated material or lack of coverage of current standards/best practices",
+            "threshold": "When newer, more comprehensive references become available"
+          },
+          {
+            "from_product": "High-level conceptual guides",
+            "reason": "Need for detailed, practical, hands-on techniques or frameworks",
+            "threshold": "When moving from planning to execution"
+          },
+          {
+            "from_product": "Disparate resources on different topics",
+            "reason": "Desire for integrated, holistic approaches that tie multiple areas together",
+            "threshold": "When managing cross-functional projects or teams"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Comprehensiveness and practical applicability to real-world scenarios",
+          "Clarity of writing, illustrations, and structured approach",
+          "Ability to bridge knowledge gaps between different domains or roles",
+          "Alignment with standards, frameworks, or organizational goals (e.g., CMM, IEEE, ISO)",
+          "Time-saving value as a reference, training kit, or ready-made framework",
+          "Technical accuracy and depth without being overwhelming",
+          "Business relevance and focus on competitive advantage or value delivery",
+          "Inclusion of case studies, examples, and tools (e.g., CD ROM, spreadsheets)"
+        ],
+        "deal_breakers": [
+          "Lack of practical, actionable content despite promising coverage",
+          "Material is significantly outdated and no longer applicable",
+          "Overly narrow focus that excludes critical related topics",
+          "Poor organization or unclear explanations that increase confusion"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.973,
+      "reddit": 0.027,
+      "csv": 0.0
+    },
+    "single_source_warning": true,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Difficulty finding technical information that is comprehensive and well-organized for field application.",
+          "count": 1,
+          "frequency": 0.0069,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0208
+        },
+        {
+          "signal": "Frustration with product documentation or support materials that lack step-by-step models or clear, detailed examples.",
+          "count": 1,
+          "frequency": 0.0069,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0208
+        },
+        {
+          "signal": "Concern about making decisions based on information that may be outdated or inaccurate.",
+          "count": 1,
+          "frequency": 0.0069,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0208
+        },
+        {
+          "signal": "Time wasted navigating poorly structured references or lacking crucial tools (e.g., index, clear diagrams) for quick look-up.",
+          "count": 1,
+          "frequency": 0.0069,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0208
+        },
+        {
+          "signal": "Lack of practical, actionable technical content in books",
+          "count": 1,
+          "frequency": 0.0069,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0208
+        },
+        {
+          "signal": "Outdated information that quickly becomes irrelevant",
+          "count": 1,
+          "frequency": 0.0069,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0208
+        },
+        {
+          "signal": "Content too basic or shallow for experienced professionals",
+          "count": 1,
+          "frequency": 0.0069,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0208
+        },
+        {
+          "signal": "Poorly organized or disjointed presentation of information",
+          "count": 1,
+          "frequency": 0.0069,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0208
+        },
+        {
+          "signal": "Inconsistent use of technical terminology",
+          "count": 1,
+          "frequency": 0.0069,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0208
+        },
+        {
+          "signal": "Information becomes quickly outdated for time-sensitive topics like video games",
+          "count": 1,
+          "frequency": 0.0069,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0208
+        },
+        {
+          "signal": "Desire for more visual/photographic content in guides for inspiration vs. dry reference",
+          "count": 1,
+          "frequency": 0.0069,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0208
+        },
+        {
+          "signal": "Difficulty using guides for initial inspiration/planning vs. logistical details",
+          "count": 1,
+          "frequency": 0.0069,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0208
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "To have a comprehensive, reliable, and detailed reference for technical concepts and procedures.",
+          "count": 1,
+          "frequency": 0.0068,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0205
+        },
+        {
+          "signal": "To understand the 'why' behind processes and methodologies, not just the 'how'.",
+          "count": 1,
+          "frequency": 0.0068,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0205
+        },
+        {
+          "signal": "To make informed, evidence-based purchasing decisions that optimize operations and safety.",
+          "count": 1,
+          "frequency": 0.0068,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0205
+        },
+        {
+          "signal": "To find practical, applicable knowledge that can be directly implemented to solve complex field problems.",
+          "count": 1,
+          "frequency": 0.0068,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0205
+        },
+        {
+          "signal": "Gain new, advanced technical knowledge to solve complex engineering problems",
+          "count": 1,
+          "frequency": 0.0068,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0205
+        },
+        {
+          "signal": "Find practical, implementable solutions and ideas",
+          "count": 1,
+          "frequency": 0.0068,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0205
+        },
+        {
+          "signal": "Stay current with latest industry standards and technologies",
+          "count": 1,
+          "frequency": 0.0068,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0205
+        },
+        {
+          "signal": "Improve efficiency and optimization in drilling and well completion operations",
+          "count": 1,
+          "frequency": 0.0068,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0205
+        },
+        {
+          "signal": "Access comprehensive, well-researched reference material",
+          "count": 1,
+          "frequency": 0.0068,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0205
+        },
+        {
+          "signal": "Find guides that inspire travel dreams with beautiful photos and engaging content",
+          "count": 1,
+          "frequency": 0.0068,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0205
+        },
+        {
+          "signal": "Obtain practical, logistical information for trip planning and booking",
+          "count": 1,
+          "frequency": 0.0068,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0205
+        },
+        {
+          "signal": "Find books that serve as ideal gifts for specific audiences or interests",
+          "count": 1,
+          "frequency": 0.0068,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0205
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Inaccurate or unverified technical data",
+          "count": 2,
+          "frequency": 0.0202,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0505
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Need to solve a specific, complex technical problem in drilling or well completion.",
+          "count": 1,
+          "frequency": 0.0079,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0236
+        },
+        {
+          "signal": "Preparation for a new project or technology implementation.",
+          "count": 1,
+          "frequency": 0.0079,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0236
+        },
+        {
+          "signal": "Dissatisfaction with current references or vendor-supplied materials lacking depth or clarity.",
+          "count": 1,
+          "frequency": 0.0079,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0236
+        },
+        {
+          "signal": "Recommendation from a trusted colleague or industry expert.",
+          "count": 1,
+          "frequency": 0.0079,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0236
+        },
+        {
+          "signal": "Starting a new project or facing a specific technical challenge",
+          "count": 1,
+          "frequency": 0.0079,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0236
+        },
+        {
+          "signal": "Recommendation from trusted colleague or professional network",
+          "count": 1,
+          "frequency": 0.0079,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0315
+        },
+        {
+          "signal": "Need to update skills after time away from field",
+          "count": 1,
+          "frequency": 0.0079,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0236
+        },
+        {
+          "signal": "Seeking inspiration for innovative solutions",
+          "count": 1,
+          "frequency": 0.0079,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0236
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "low": 0.609,
+        "medium": 0.391
+      }
+    }
+  },
+  "cluster_2": {
+    "member_count": 25,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Stress from demanding work schedules, including long hours and extensive travel away from family.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Concern about high physical risk and safety in operations, leading to fear or anxiety.",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Worry about job market volatility and long-term career viability in the oil and gas industry.",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Frustration with confusing or overly complex technical documentation and instructions.",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Pressure to balance high-paying work opportunities with personal and family life.",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "High income potential through overtime, double pay, and specialized contracts.",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Work schedule flexibility that allows for extended time off (e.g., 35/35 rotations).",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Access to clear, reliable, and easy-to-follow technical information and instructions.",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Enhanced safety measures and risk mitigation in high-hazard operations.",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Career longevity and stability in a fluctuating industry.",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for precise technical guidance on specific projects or operations.",
+            "context": "When faced with a complex engineering or drilling challenge."
+          },
+          {
+            "trigger": "Desire to maximize earnings through high-paying contracts or overtime opportunities.",
+            "context": "When seeking new job positions or contract negotiations."
+          },
+          {
+            "trigger": "Recommendation from peers or industry contacts for reliable resources.",
+            "context": "When colleagues suggest books, tools, or methods that have proven effective."
+          },
+          {
+            "trigger": "Requirement for up-to-date information on industry best practices or safety standards.",
+            "context": "When regulations change or new technologies emerge."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Concern that instructional materials are outdated, copied, or poorly written.",
+            "severity": 0.7
+          },
+          {
+            "objection": "Worry about the high tax burden and financial implications of contract work (e.g., 1099 vs. W2).",
+            "severity": 0.6
+          },
+          {
+            "objection": "Fear that the industry is declining, reducing long-term job opportunities and salaries.",
+            "severity": 0.5
+          },
+          {
+            "objection": "Apprehension about the physical dangers and potential for catastrophic accidents in the field.",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Current employment or contract",
+            "reason": "Opportunity for higher pay through overtime or specialized roles.",
+            "threshold": "When earnings potential significantly increases (e.g., double pay on Sundays)."
+          },
+          {
+            "from_product": "Existing technical references or guides",
+            "reason": "Finding materials that are more current, accurate, or easier to understand.",
+            "threshold": "When current resources lead to confusion or inefficiency."
+          },
+          {
+            "from_product": "Permanent full-time positions",
+            "reason": "Desire for more flexible schedules or better work-life balance.",
+            "threshold": "When family commitments require more time at home."
+          }
+        ],
+        "decision_factors_ranked": [
+          "Safety and risk mitigation",
+          "Income potential and compensation",
+          "Work schedule and flexibility",
+          "Technical accuracy and clarity",
+          "Long-term career stability",
+          "Industry reputation and peer recommendations"
+        ],
+        "deal_breakers": [
+          "Unacceptable safety risks",
+          "Persistently poor or unreliable technical information",
+          "Extreme work schedules with no family time"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Offshoring of engineering jobs leading to reduced local career opportunities and hiring freezes",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Perceived decline in service quality and technical expertise due to remote/offshore engineering",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Lack of site access and on-site engineering support causing operational risks",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Frustration with outsourcing leading to rework, inefficiency, and poor FEED studies",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Career ladder limitations and job insecurity in major companies",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Political and logistical barriers to international work assignments",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Access to high-quality, reliable technical expertise and engineering support",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Clear career progression and job security in the oil & gas engineering field",
+            "priority": 0.8
+          },
+          {
+            "outcome": "On-site or local engineering presence for better problem-solving and site visits",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Efficient work processes that minimize rework and delays",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Practical, easy-to-use reference materials and technical guidance",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for reliable technical reference or guidance materials",
+            "context": "Seeking concise, practical information for work tasks or skill development"
+          },
+          {
+            "trigger": "Dissatisfaction with borrowed or inaccessible resources",
+            "context": "Personal acquisition after finding shared resources inadequate"
+          },
+          {
+            "trigger": "Desire for skill enhancement or continuous learning",
+            "context": "Investing in books or tools to improve professional competence"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Offshoring reduces engineering quality and increases failure risks",
+            "severity": 0.8
+          },
+          {
+            "objection": "Remote/offshore engineers lack site-specific knowledge and access",
+            "severity": 0.75
+          },
+          {
+            "objection": "Cost-cutting via outsourcing leads to more rework and inefficiency",
+            "severity": 0.7
+          },
+          {
+            "objection": "Career opportunities are shrinking due to hiring freezes and offshoring",
+            "severity": 0.65
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Oil & gas engineering roles at majors",
+            "reason": "Career stagnation, offshoring, and lack of opportunities",
+            "threshold": "Hiring freezes, cut career ladders, or moral dissatisfaction"
+          },
+          {
+            "from_product": "Current employer's engineering support model",
+            "reason": "Poor quality from offshore teams and inefficient workflows",
+            "threshold": "Persistent rework, garbage output, or operational failures"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Technical quality and reliability",
+          "On-site/local engineering support",
+          "Career stability and growth opportunities",
+          "Operational efficiency and minimal rework",
+          "Cost-effectiveness without sacrificing quality"
+        ],
+        "deal_breakers": [
+          "Persistent offshoring leading to quality decline",
+          "Lack of site access for critical engineering tasks",
+          "No clear career progression path",
+          "Inefficient processes causing excessive rework"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "High income requires sacrificing work-life balance and personal time",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Entry-level positions have low pay and require proving oneself in harsh conditions",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Need for extensive experience or connections to access high-paying roles",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Unpredictable or demanding schedules (e.g., 14/7, 14/14 rotations)",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Limited upward mobility without moving into management or specialized tracks",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Working in remote or undesirable locations without adequate compensation",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Worries about job saturation from media glamorization of the industry",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Maximize income to reach or exceed $200k+ annually",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Achieve upward mobility and career growth opportunities",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Maintain a sustainable work-life balance despite high earnings",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Secure positions with good bonus and retirement packages",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Gain roles closer to revenue streams (operations, well work) for better compensation",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Relocate to higher-paying regions (e.g., Alaska, offshore, Dakotas)",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Leverage existing credentials (e.g., bachelor's degree, military background) for advancement",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for technical reliability and performance in drilling/well completion operations",
+            "context": "When designing or optimizing field operations to avoid downtime"
+          },
+          {
+            "trigger": "Opportunity to increase efficiency or reduce costs in exploration/production",
+            "context": "During procurement for new projects or technology upgrades"
+          },
+          {
+            "trigger": "Requirement for specialized equipment or services for remote/harsh environments",
+            "context": "When operating in locations like Alaska, offshore, or the Gulf Coast"
+          },
+          {
+            "trigger": "Recommendation from trusted colleagues or industry networks",
+            "context": "When seeking proven solutions for high-stakes engineering decisions"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "High upfront cost or investment for advanced technology",
+            "severity": 0.7
+          },
+          {
+            "objection": "Risk of vendor lock-in or dependency on single suppliers",
+            "severity": 0.6
+          },
+          {
+            "objection": "Concerns about product durability in extreme operating conditions",
+            "severity": 0.8
+          },
+          {
+            "objection": "Complex integration with existing systems or workflows",
+            "severity": 0.65
+          },
+          {
+            "objection": "Uncertainty about long-term support or service availability",
+            "severity": 0.55
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Legacy equipment or methods",
+            "reason": "New technology offers significant efficiency gains or cost savings",
+            "threshold": "Performance improvement >20% or ROI within 2 years"
+          },
+          {
+            "from_product": "Current vendor",
+            "reason": "Poor reliability or service support affecting operations",
+            "threshold": "More than 3 major downtime incidents per year"
+          },
+          {
+            "from_product": "Lower-cost alternatives",
+            "reason": "Need for higher durability or specialized features for harsh environments",
+            "threshold": "Failure rates exceed 10% in field conditions"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Technical reliability and performance",
+          "Total cost of ownership (including maintenance and downtime)",
+          "Durability in extreme environments",
+          "Vendor reputation and industry track record",
+          "Ease of integration with existing operations",
+          "Availability of technical support and service",
+          "Compliance with safety and regulatory standards",
+          "Scalability for future projects"
+        ],
+        "deal_breakers": [
+          "Frequent failures leading to operational downtime",
+          "Lack of responsive technical support",
+          "Incompatibility with existing safety protocols",
+          "Prohibitive long-term maintenance costs",
+          "Poor reputation among industry peers"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Job insecurity due to frequent restructuring and 'reapplying' for positions",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Offshoring of engineering roles leading to fear of job loss",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Decline in engineering quality due to offshoring and lack of onsite expertise",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Lack of innovation and expertise in offshore teams",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Career advancement being limited or cut off",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Feeling of being forced to train offshore replacements",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Concerns about safety and quality in remote engineering support",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Stable employment without frequent reorgs or reapplications",
+            "priority": 0.9
+          },
+          {
+            "outcome": "High-quality engineering work with innovation and expertise",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Opportunities for career growth and training",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Onsite or local engineering support for field operations",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Work with a positive and collaborative company culture",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to replace or upgrade engineering tools due to offshoring failures",
+            "context": "After experiencing quality issues with offshore engineering work"
+          },
+          {
+            "trigger": "Seeking local or onsite engineering solutions after remote support proves inadequate",
+            "context": "When safety or quality incidents occur due to remote engineering"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Offshore engineering teams lack the expertise and innovation needed for complex tasks",
+            "severity": 0.8
+          },
+          {
+            "objection": "Remote engineering support cannot effectively handle site visits or troubleshooting",
+            "severity": 0.7
+          },
+          {
+            "objection": "Cost-cutting via offshoring compromises long-term engineering quality and safety",
+            "severity": 0.9
+          },
+          {
+            "objection": "Frequent restructuring and job reapplications create instability and low morale",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Major oil company employment",
+            "reason": "Job insecurity due to frequent restructuring and offshoring",
+            "threshold": "After multiple 'hunger games' cycles or offshoring announcements"
+          },
+          {
+            "from_product": "O&G engineering role",
+            "reason": "Lack of career growth or training opportunities",
+            "threshold": "When career ladder is cut off or no advancement possible"
+          },
+          {
+            "from_product": "O&G industry",
+            "reason": "Seeking more stable and meaningful work",
+            "threshold": "After offshoring or restructuring impacts job security or morale"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Job stability and security",
+          "Engineering quality and expertise",
+          "Career growth and training opportunities",
+          "Company culture and work environment",
+          "Local or onsite support availability",
+          "Innovation and technical excellence"
+        ],
+        "deal_breakers": [
+          "Frequent job reapplications or restructuring cycles",
+          "Mass offshoring of engineering roles without local oversight",
+          "Lack of onsite engineering support for critical operations",
+          "Poor engineering quality due to cost-cutting measures"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 30,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Perceived decline in workforce quality and problem-solving skills, with younger staff seen as unprepared.",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Frustration with offshoring, particularly to India, leading to remote roles and fears about job loss.",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Concern that remote/offshored engineering support lacks hands-on plant experience, risking safety/emergency response.",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Distrust in offshore teams' technical expertise, citing more catastrophic errors and communication barriers.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Criticism of management strategies like layoffs, offshoring, and executive raises despite poor performance.",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Anxiety about job security, with offshoring reducing domestic opportunities and driving layoffs.",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Discontent with large companies being overstaffed and inefficient compared to independents, impacting productivity.",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Ensuring high-quality, reliable engineering support that can handle emergencies on-site.",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Protecting job security and reducing reliance on offshoring for critical technical roles.",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Maintaining competent, well-prepared workforce capable of practical problem-solving.",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Gaining financial independence to reduce pressure from corporate decisions and job market instability.",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Improving efficiency in operations without compromising safety or quality, as with prudent E&P operators.",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Perceived need to cut costs and reduce overstaffing, prompting offshoring and outsourcing.",
+            "context": "Corporate strategy to improve profitability and reallocate resources."
+          },
+          {
+            "trigger": "Pressure to handle low-value work or specific phases (design/construction) with cost-effective teams.",
+            "context": "Use of remote or offshore staff for non-critical tasks, managed by on-site engineers."
+          },
+          {
+            "trigger": "Job market shifts like layoffs or hiring freezes, leading to reliance on external/offshore talent.",
+            "context": "Companies posting positions in India instead of domestic locations, responding to workforce changes."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Offshoring leads to reduced hands-on experience, increasing risks in plant operations and emergency responses.",
+            "severity": 0.8
+          },
+          {
+            "objection": "Technical errors from offshore teams are perceived as more severe and harder to fix, compared to domestic mistakes.",
+            "severity": 0.7
+          },
+          {
+            "objection": "Communication and training barriers with offshore staff, causing inefficiencies and safety concerns.",
+            "severity": 0.6
+          },
+          {
+            "objection": "Management decisions prioritizing cost cuts over employee welfare and operational quality.",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Domestic/onshore engineering staff",
+            "reason": "Cost-cutting and offshoring strategies by major companies.",
+            "threshold": "When offshore roles dominate job postings and on-site support diminishes."
+          },
+          {
+            "from_product": "Current employment at major oil companies",
+            "reason": "Layoffs, job insecurity, and negative work culture.",
+            "threshold": "When layoffs exceed a certain percentage (e.g., 20%) and opportunities shift abroad."
+          },
+          {
+            "from_product": "Traditional in-plant operations",
+            "reason": "Shift to remote monitoring and support, reducing hands-on roles.",
+            "threshold": "When remote support becomes standard for critical functions, impacting safety and effectiveness."
+          }
+        ],
+        "decision_factors_ranked": [
+          "Job security and domestic employment stability",
+          "Technical expertise and hands-on experience",
+          "Safety and emergency response capability",
+          "Cost efficiency and operational productivity",
+          "Communication and training quality",
+          "Management trust and corporate strategy"
+        ],
+        "deal_breakers": [
+          "Reliance on offshore/remote support for critical engineering or emergency roles",
+          "Catastrophic technical errors due to lack of expertise or oversight",
+          "Persistent layoffs and offshoring reducing domestic career opportunities",
+          "Inadequate hands-on plant experience and safety protocols in remote operations"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 30,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.34,
+      "reddit": 0.66,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "High stress from management pressure and audits, requiring perfection 100% of the time.",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0197
+        },
+        {
+          "signal": "Stressful work environment with high responsibility for safety and production limits.",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0197
+        },
+        {
+          "signal": "Communication failures causing operational scrambles or safety concerns.",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0197
+        },
+        {
+          "signal": "Interdepartmental friction, especially with capital projects disrupting orderly facilities.",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0197
+        },
+        {
+          "signal": "Negative unit culture leading to bickering and uncooperative attitudes among operators and maintenance.",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0197
+        },
+        {
+          "signal": "Fear of potential emergencies (e.g., fires) and uncertainty during critical incidents.",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0197
+        },
+        {
+          "signal": "Feeling misunderstood or unfairly criticized by others who don't grasp the job's demands.",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0197
+        },
+        {
+          "signal": "Potential for fatal accidents due to chemical exposure (e.g., HF acid, H2S leaks)",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0197
+        },
+        {
+          "signal": "Dangerous work environment with toxic chemicals, high pressure, and extreme heat",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0197
+        },
+        {
+          "signal": "Difficult workplace dynamics (e.g., conflict among operators, 'soap opera' environment)",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0263
+        },
+        {
+          "signal": "Heavy and uncomfortable PPE requirements (e.g., Level B and C suits)",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0197
+        },
+        {
+          "signal": "High maintenance and dirty operations (e.g., constant exchanger cleaning in toppers unit)",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0197
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Improve safety and reliability of drilling and well completion operations.",
+          "count": 1,
+          "frequency": 0.0074,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0222
+        },
+        {
+          "signal": "Optimize equipment and processes to maximize production efficiency.",
+          "count": 1,
+          "frequency": 0.0074,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0222
+        },
+        {
+          "signal": "Foster better interdepartmental collaboration and communication.",
+          "count": 1,
+          "frequency": 0.0074,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0222
+        },
+        {
+          "signal": "Reduce operational stress and management pressure through streamlined procedures.",
+          "count": 1,
+          "frequency": 0.0074,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0222
+        },
+        {
+          "signal": "Enhance emergency preparedness and response effectiveness.",
+          "count": 1,
+          "frequency": 0.0074,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0222
+        },
+        {
+          "signal": "Maintain technical control and knowledge to make informed purchasing decisions.",
+          "count": 1,
+          "frequency": 0.0074,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0222
+        },
+        {
+          "signal": "Build a positive unit culture that supports teamwork and mutual respect.",
+          "count": 1,
+          "frequency": 0.0074,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0222
+        },
+        {
+          "signal": "Operational safety with zero incidents or fatalities",
+          "count": 1,
+          "frequency": 0.0074,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0296
+        },
+        {
+          "signal": "Efficient and clean process operation (e.g., SRU running well with minimal intervention)",
+          "count": 1,
+          "frequency": 0.0074,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0222
+        },
+        {
+          "signal": "Reduced physical strain and comfort in PPE",
+          "count": 1,
+          "frequency": 0.0074,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0222
+        },
+        {
+          "signal": "Better workplace harmony and teamwork among operators",
+          "count": 1,
+          "frequency": 0.0074,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0222
+        },
+        {
+          "signal": "Clear procedures and communication to prevent mistakes (e.g., proper blind tagging)",
+          "count": 1,
+          "frequency": 0.0074,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0222
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Lack of responsive technical support",
+          "count": 2,
+          "frequency": 0.0206,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0515
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Need to enhance technical knowledge or skills for specific applications (e.g., Excel, instructional design).",
+          "count": 1,
+          "frequency": 0.0118,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0353
+        },
+        {
+          "signal": "Seeking tools or references to support job tasks (e.g., Moodle course design, educational technology).",
+          "count": 1,
+          "frequency": 0.0118,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0353
+        },
+        {
+          "signal": "Desire for straightforward, easy-to-use resources without overly complex instructions.",
+          "count": 1,
+          "frequency": 0.0118,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0353
+        },
+        {
+          "signal": "Need for reliable equipment or materials that perform under high-pressure conditions.",
+          "count": 1,
+          "frequency": 0.0118,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0353
+        },
+        {
+          "signal": "Response to specific incidents or investigations (e.g., SRU incident at Pemex Deer Park)",
+          "count": 1,
+          "frequency": 0.0118,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0353
+        },
+        {
+          "signal": "Need for better technical references or operational guidance",
+          "count": 1,
+          "frequency": 0.0118,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0353
+        },
+        {
+          "signal": "Inspiration from peers or industry discussions",
+          "count": 1,
+          "frequency": 0.0118,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0353
+        },
+        {
+          "signal": "Job role change or consideration (e.g., bidding off to another unit)",
+          "count": 1,
+          "frequency": 0.0118,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0353
+        }
+      ],
+      "dominant_friction_tolerance": "medium",
+      "friction_tolerance_distribution": {
+        "low": 0.4,
+        "medium": 0.52,
+        "high": 0.08
+      }
+    }
+  }
+}

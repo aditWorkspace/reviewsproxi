@@ -1,0 +1,581 @@
+{
+  "products": [
+    {
+      "name": "COVID-19 Rapid Antigen Test Kit 5-Pack",
+      "category": "Health_and_Household",
+      "accuracy": 0.95,
+      "review_keywords": [
+        "pandemic",
+        "testing",
+        "travel",
+        "work",
+        "family",
+        "symptoms",
+        "quarantine",
+        "results"
+      ],
+      "context_keywords": [
+        "post-covid",
+        "workplace",
+        "variant",
+        "boosted"
+      ],
+      "exclusion_keywords": [
+        "school",
+        "dorm"
+      ],
+      "why": "Adults managing post-COVID health protocols for work and family responsibilities"
+    },
+    {
+      "name": "Work From Home Ergonomic Office Chair",
+      "category": "Home_and_Kitchen",
+      "accuracy": 0.93,
+      "review_keywords": [
+        "remote",
+        "back pain",
+        "hours",
+        "comfort",
+        "desk",
+        "posture",
+        "lumbar"
+      ],
+      "context_keywords": [
+        "WFH",
+        "hybrid",
+        "zoom"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "gaming"
+      ],
+      "why": "Working adults who transitioned to remote work during/after COVID"
+    },
+    {
+      "name": "Blue Light Blocking Glasses for Computer Use",
+      "category": "Health_and_Household",
+      "accuracy": 0.91,
+      "review_keywords": [
+        "screen time",
+        "headaches",
+        "strain",
+        "computer",
+        "professional",
+        "meetings",
+        "tired"
+      ],
+      "context_keywords": [
+        "virtual",
+        "zoom fatigue",
+        "office"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "student"
+      ],
+      "why": "Adults experiencing increased screen time from remote work and virtual meetings"
+    },
+    {
+      "name": "KN95 Face Masks 50-Pack Black",
+      "category": "Health_and_Household",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "protection",
+        "comfortable",
+        "breathable",
+        "work",
+        "travel",
+        "public",
+        "quality"
+      ],
+      "context_keywords": [
+        "variant",
+        "workplace",
+        "commute"
+      ],
+      "exclusion_keywords": [
+        "school",
+        "campus"
+      ],
+      "why": "Adults maintaining COVID precautions in professional and social settings"
+    },
+    {
+      "name": "Mental Health and Wellness Journal Post-Pandemic",
+      "category": "Books",
+      "accuracy": 0.89,
+      "review_keywords": [
+        "anxiety",
+        "healing",
+        "therapy",
+        "coping",
+        "stress",
+        "recovery",
+        "mindfulness"
+      ],
+      "context_keywords": [
+        "post-covid",
+        "trauma",
+        "adjustment"
+      ],
+      "exclusion_keywords": [
+        "teen",
+        "college"
+      ],
+      "why": "Adults processing mental health impacts from the pandemic experience"
+    },
+    {
+      "name": "Immune System Support Vitamin D3 + K2",
+      "category": "Health_and_Household",
+      "accuracy": 0.88,
+      "review_keywords": [
+        "immunity",
+        "health",
+        "supplements",
+        "doctor",
+        "recommended",
+        "energy",
+        "deficiency"
+      ],
+      "context_keywords": [
+        "post-covid",
+        "recovery",
+        "wellness"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "teen"
+      ],
+      "why": "Health-conscious adults focused on immune support after COVID experience"
+    },
+    {
+      "name": "Home Air Purifier HEPA Filter Large Room",
+      "category": "Home_and_Kitchen",
+      "accuracy": 0.87,
+      "review_keywords": [
+        "air quality",
+        "allergies",
+        "clean",
+        "filter",
+        "home",
+        "health",
+        "quiet"
+      ],
+      "context_keywords": [
+        "indoor",
+        "workspace",
+        "family"
+      ],
+      "exclusion_keywords": [
+        "dorm",
+        "apartment"
+      ],
+      "why": "Homeowners investing in air quality improvements post-COVID"
+    },
+    {
+      "name": "Telehealth Video Call Ring Light with Tripod",
+      "category": "Electronics",
+      "accuracy": 0.86,
+      "review_keywords": [
+        "telemedicine",
+        "video calls",
+        "lighting",
+        "professional",
+        "doctor",
+        "meetings",
+        "clear"
+      ],
+      "context_keywords": [
+        "virtual",
+        "appointment",
+        "remote"
+      ],
+      "exclusion_keywords": [
+        "influencer",
+        "student"
+      ],
+      "why": "Adults using telehealth services and professional virtual meetings"
+    },
+    {
+      "name": "Antibacterial Hand Sanitizer Pump Bottle 32oz",
+      "category": "Health_and_Household",
+      "accuracy": 0.85,
+      "review_keywords": [
+        "sanitizer",
+        "germs",
+        "workplace",
+        "family",
+        "protection",
+        "pump",
+        "convenient"
+      ],
+      "context_keywords": [
+        "office",
+        "household",
+        "routine"
+      ],
+      "exclusion_keywords": [
+        "school",
+        "campus"
+      ],
+      "why": "Adults maintaining heightened hygiene practices in work and home settings"
+    },
+    {
+      "name": "Digital Thermometer Infrared Non-Contact",
+      "category": "Health_and_Household",
+      "accuracy": 0.84,
+      "review_keywords": [
+        "temperature",
+        "fever",
+        "accurate",
+        "family",
+        "health",
+        "monitoring",
+        "quick"
+      ],
+      "context_keywords": [
+        "symptoms",
+        "household",
+        "workplace"
+      ],
+      "exclusion_keywords": [
+        "baby",
+        "student"
+      ],
+      "why": "Adults monitoring health symptoms for family and workplace safety"
+    },
+    {
+      "name": "Stress Relief Weighted Blanket 15lbs Adult",
+      "category": "Home_and_Kitchen",
+      "accuracy": 0.83,
+      "review_keywords": [
+        "anxiety",
+        "sleep",
+        "stress",
+        "comfort",
+        "relaxation",
+        "heavy",
+        "calming"
+      ],
+      "context_keywords": [
+        "pandemic",
+        "recovery",
+        "wellness"
+      ],
+      "exclusion_keywords": [
+        "teen",
+        "college"
+      ],
+      "why": "Adults seeking comfort items to manage pandemic-related stress and anxiety"
+    },
+    {
+      "name": "Pulse Oximeter Fingertip Blood Oxygen Monitor",
+      "category": "Health_and_Household",
+      "accuracy": 0.82,
+      "review_keywords": [
+        "oxygen",
+        "pulse",
+        "monitoring",
+        "health",
+        "accurate",
+        "readings",
+        "medical"
+      ],
+      "context_keywords": [
+        "covid",
+        "symptoms",
+        "recovery"
+      ],
+      "exclusion_keywords": [
+        "athlete",
+        "student"
+      ],
+      "why": "Adults monitoring respiratory health due to COVID awareness and experience"
+    },
+    {
+      "name": "Zoom Virtual Background Professional Office Setup",
+      "category": "Software",
+      "accuracy": 0.81,
+      "review_keywords": [
+        "professional",
+        "background",
+        "meetings",
+        "work",
+        "virtual",
+        "clean",
+        "appearance"
+      ],
+      "context_keywords": [
+        "remote work",
+        "calls",
+        "business"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "gaming"
+      ],
+      "why": "Working professionals maintaining professional appearance in virtual meetings"
+    },
+    {
+      "name": "Curbside Pickup Groceries Insulated Bags Set",
+      "category": "Home_and_Kitchen",
+      "accuracy": 0.8,
+      "review_keywords": [
+        "groceries",
+        "pickup",
+        "insulated",
+        "convenient",
+        "cold",
+        "hot",
+        "organized"
+      ],
+      "context_keywords": [
+        "curbside",
+        "contactless",
+        "shopping"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "delivery"
+      ],
+      "why": "Adults who adopted contactless shopping habits during COVID"
+    },
+    {
+      "name": "Long COVID Recovery and Nutrition Guide",
+      "category": "Books",
+      "accuracy": 0.79,
+      "review_keywords": [
+        "recovery",
+        "symptoms",
+        "nutrition",
+        "healing",
+        "fatigue",
+        "health",
+        "guide"
+      ],
+      "context_keywords": [
+        "long-covid",
+        "chronic",
+        "recovery"
+      ],
+      "exclusion_keywords": [
+        "prevention",
+        "student"
+      ],
+      "why": "Adults dealing with ongoing COVID health effects seeking recovery information"
+    },
+    {
+      "name": "Professional Webcam 1080p for Home Office",
+      "category": "Electronics",
+      "accuracy": 0.78,
+      "review_keywords": [
+        "webcam",
+        "quality",
+        "meetings",
+        "clear",
+        "professional",
+        "work",
+        "video"
+      ],
+      "context_keywords": [
+        "remote work",
+        "zoom",
+        "business"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "streaming"
+      ],
+      "why": "Remote workers upgrading technology for professional virtual meetings"
+    },
+    {
+      "name": "Contact Tracing Interview Techniques Handbook",
+      "category": "Books",
+      "accuracy": 0.77,
+      "review_keywords": [
+        "contact tracing",
+        "interview",
+        "techniques",
+        "public health",
+        "communication",
+        "skills"
+      ],
+      "context_keywords": [
+        "pandemic response",
+        "health department",
+        "training"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "academic"
+      ],
+      "why": "Public health professionals and contact tracers working in pandemic response"
+    },
+    {
+      "name": "Meditation App Subscription for Anxiety Relief",
+      "category": "Subscription_Boxes",
+      "accuracy": 0.76,
+      "review_keywords": [
+        "meditation",
+        "anxiety",
+        "stress",
+        "mental health",
+        "calm",
+        "mindfulness",
+        "relief"
+      ],
+      "context_keywords": [
+        "pandemic stress",
+        "coping",
+        "wellness"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "teen"
+      ],
+      "why": "Adults managing increased anxiety and stress from pandemic experiences"
+    }
+  ],
+  "subreddits": [
+    {
+      "name": "COVID19positive",
+      "relevance": 0.95,
+      "member_type": "95% adults who experienced COVID sharing recovery experiences",
+      "data_value": "Direct health experiences, recovery timelines, symptom discussions, long COVID impacts",
+      "why": "Community of adults sharing post-COVID health experiences and recovery"
+    },
+    {
+      "name": "WFH",
+      "relevance": 0.92,
+      "member_type": "90% working adults in remote/hybrid roles post-COVID",
+      "data_value": "Work adaptation strategies, home office setups, productivity challenges",
+      "why": "Remote workers discussing post-pandemic work arrangement experiences"
+    },
+    {
+      "name": "LongCOVID",
+      "relevance": 0.9,
+      "member_type": "85% adults dealing with ongoing COVID effects",
+      "data_value": "Chronic symptom management, healthcare navigation, recovery strategies",
+      "why": "Adults managing extended COVID health impacts and seeking support"
+    },
+    {
+      "name": "Coronavirus",
+      "relevance": 0.88,
+      "member_type": "80% adults discussing pandemic impacts on daily life",
+      "data_value": "Policy reactions, health decisions, family safety concerns, community responses",
+      "why": "General adult population discussing ongoing pandemic effects"
+    },
+    {
+      "name": "WorkFromHome",
+      "relevance": 0.87,
+      "member_type": "85% employed adults managing remote work transitions",
+      "data_value": "Career adaptation, technology needs, work-life balance challenges",
+      "why": "Working adults navigating permanent remote work changes"
+    },
+    {
+      "name": "anxiety",
+      "relevance": 0.85,
+      "member_type": "75% adults dealing with pandemic-related mental health impacts",
+      "data_value": "Coping mechanisms, therapy experiences, medication discussions, trigger management",
+      "why": "Adults processing increased anxiety from pandemic disruptions"
+    },
+    {
+      "name": "HomeImprovement",
+      "relevance": 0.83,
+      "member_type": "80% homeowners who invested in home upgrades during COVID",
+      "data_value": "Home office setups, air quality improvements, space optimization projects",
+      "why": "Homeowners who adapted living spaces for pandemic lifestyle changes"
+    },
+    {
+      "name": "telehealth",
+      "relevance": 0.82,
+      "member_type": "85% adults using virtual healthcare services",
+      "data_value": "Healthcare access experiences, technology challenges, provider quality",
+      "why": "Adults who transitioned to virtual healthcare during pandemic"
+    },
+    {
+      "name": "MentalHealthSupport",
+      "relevance": 0.8,
+      "member_type": "70% adults seeking pandemic-related mental health resources",
+      "data_value": "Therapy experiences, medication effects, coping strategies, crisis support",
+      "why": "Adults addressing mental health impacts from pandemic stress"
+    },
+    {
+      "name": "personalfinance",
+      "relevance": 0.78,
+      "member_type": "75% adults managing COVID economic impacts",
+      "data_value": "Job loss recovery, emergency savings, healthcare costs, economic planning",
+      "why": "Adults navigating financial impacts from pandemic disruptions"
+    },
+    {
+      "name": "AskDocs",
+      "relevance": 0.76,
+      "member_type": "70% adults seeking medical advice for COVID-related concerns",
+      "data_value": "Health symptom inquiries, medication questions, recovery timelines",
+      "why": "Adults seeking medical guidance for ongoing health concerns"
+    },
+    {
+      "name": "relationships",
+      "relevance": 0.75,
+      "member_type": "65% adults dealing with pandemic relationship impacts",
+      "data_value": "Isolation effects, family dynamics, dating challenges, friendship maintenance",
+      "why": "Adults processing relationship changes from pandemic social restrictions"
+    },
+    {
+      "name": "jobs",
+      "relevance": 0.73,
+      "member_type": "70% adults navigating post-COVID job market changes",
+      "data_value": "Career pivots, remote work negotiations, industry changes, skill development",
+      "why": "Working adults adapting to permanent labor market shifts"
+    },
+    {
+      "name": "Masks4All",
+      "relevance": 0.72,
+      "member_type": "80% adults maintaining COVID precautions",
+      "data_value": "Safety protocols, mask effectiveness, public health decisions",
+      "why": "Adults continuing protective health measures post-pandemic"
+    },
+    {
+      "name": "caregivers",
+      "relevance": 0.7,
+      "member_type": "75% adults caring for family members during/after COVID",
+      "data_value": "Eldercare challenges, health advocacy, family coordination, stress management",
+      "why": "Adults managing increased caregiving responsibilities during pandemic"
+    }
+  ],
+  "demographic_profile": {
+    "core_keywords": [
+      "post-covid",
+      "pandemic",
+      "recovery",
+      "remote work",
+      "telehealth",
+      "mental health",
+      "anxiety",
+      "adaptation",
+      "virtual meetings",
+      "health protocols",
+      "vaccination",
+      "variant",
+      "long covid",
+      "work-from-home",
+      "contactless"
+    ],
+    "exclusion_keywords": [
+      "student",
+      "college",
+      "teen",
+      "graduation",
+      "campus",
+      "semester",
+      "gaming",
+      "influencer"
+    ],
+    "age_range": "25-65",
+    "primary_motivations": [
+      "health and safety consciousness",
+      "work-life balance optimization",
+      "mental wellness and stress management",
+      "family protection and caregiving responsibilities"
+    ],
+    "summary": "Working-age adults who lived through the COVID-19 pandemic and are now navigating its lasting impacts on their health, work, and social life. They prioritize safety, wellness, and adaptation to new norms around remote work, healthcare access, and family responsibilities. They experience ongoing concerns about health, economic stability, and maintaining relationships while managing pandemic-related anxiety and lifestyle changes."
+  }
+}

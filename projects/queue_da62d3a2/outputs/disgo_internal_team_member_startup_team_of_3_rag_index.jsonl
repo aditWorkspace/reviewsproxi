@@ -1,0 +1,80 @@
+{"review_id": "cluster_1_b0_pp0", "trait_label": "Software Quality & Support Failure", "text": "Difficulty finding accessible, human customer support (no phone number, requires searching and emailing).", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp1", "trait_label": "Software Quality & Support Failure", "text": "Slow computer performance after installing new software versions.", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp2", "trait_label": "Software Quality & Support Failure", "text": "Frustration with installation errors and time-consuming setup.", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_do0", "trait_label": "Software Quality & Support Failure", "text": "Achieve product-market fit and understand why early users pay.", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_do1", "trait_label": "Software Quality & Support Failure", "text": "Get actionable feedback from users to guide product development.", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp0", "trait_label": "Software Quality & Support Failure", "text": "Installation failure", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp1", "trait_label": "Software Quality & Support Failure", "text": "Software crashes and data loss", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp2", "trait_label": "Software Quality & Support Failure", "text": "Poor streaming performance (pauses, blur, crashes)", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_do0", "trait_label": "Software Quality & Support Failure", "text": "Reliable, stable software that doesn't crash", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_do1", "trait_label": "Software Quality & Support Failure", "text": "Intuitive, easy-to-use interface", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp0", "trait_label": "Software Quality & Support Failure", "text": "Software bugs and poor usability (e.g., confusing navigation, no clear exit options, buggy interface)", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp1", "trait_label": "Software Quality & Support Failure", "text": "Inadequate product testing leading to user frustration and workflow disruption", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp2", "trait_label": "Software Quality & Support Failure", "text": "Lack of helpful guidance or documentation in software (requires external searches to use basic features)", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_do0", "trait_label": "Software Quality & Support Failure", "text": "Reliable, bug-free software that functions smoothly without errors or freezes", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_do1", "trait_label": "Software Quality & Support Failure", "text": "Intuitive, easy-to-navigate interfaces that don't require extensive prior knowledge", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp0", "trait_label": "Software Quality & Support Failure", "text": "Products not loading or working properly, requiring technical troubleshooting", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp1", "trait_label": "Software Quality & Support Failure", "text": "Unclear licensing/content restrictions leading to unexpected inability to use purchased content", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp2", "trait_label": "Software Quality & Support Failure", "text": "Difficulty finding customers or effective marketing channels for new products", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_do0", "trait_label": "Software Quality & Support Failure", "text": "Products that work reliably without technical issues", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_do1", "trait_label": "Software Quality & Support Failure", "text": "Clear communication about product limitations and restrictions", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp0", "trait_label": "Software Quality & Support Failure", "text": "Software is buggy and unreliable, frequently hangs or fails to respond", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp1", "trait_label": "Software Quality & Support Failure", "text": "Complexity and steep learning curve overwhelm users", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp2", "trait_label": "Software Quality & Support Failure", "text": "Software crashes, freezes, or has stability issues", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_do0", "trait_label": "Software Quality & Support Failure", "text": "Reliable, stable software that works without constant issues", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_do1", "trait_label": "Software Quality & Support Failure", "text": "Ease of use and intuitive interface for non-technical users", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp0", "trait_label": "Performance & Reliability Friction", "text": "Mobile app performance is slow, laggy, and crashes frequently", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp1", "trait_label": "Performance & Reliability Friction", "text": "No reliable offline mode, causing lost data and corrupted notes", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp2", "trait_label": "Performance & Reliability Friction", "text": "Unreliable on unstable connections (Wi-Fi, cell), data upload issues", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_do0", "trait_label": "Performance & Reliability Friction", "text": "Stable offline mode with local data storage", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_do1", "trait_label": "Performance & Reliability Friction", "text": "Fast, reliable mobile app performance (startup, typing)", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp0", "trait_label": "Performance & Reliability Friction", "text": "Mobile app is buggy, crashes frequently, and is unresponsive", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp1", "trait_label": "Performance & Reliability Friction", "text": "Poor sync reliability and risk of data loss when network is unstable", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp2", "trait_label": "Performance & Reliability Friction", "text": "Lack of basic formatting controls (font size, line spacing) on mobile", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_do0", "trait_label": "Performance & Reliability Friction", "text": "Stable, reliable mobile app with smooth sync and offline mode", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_do1", "trait_label": "Performance & Reliability Friction", "text": "Cross-platform consistency (feature parity between desktop and mobile)", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp0", "trait_label": "Performance & Reliability Friction", "text": "Mobile app lacks critical features compared to desktop version (e.g., creating projects, updating documents, redacting project descriptions)", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp1", "trait_label": "Performance & Reliability Friction", "text": "Poor performance on Android (lagging, slow/buggy, not 60fps)", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp2", "trait_label": "Performance & Reliability Friction", "text": "Login/sign-up issues (redirect loops, no sign-up option, account errors)", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_do0", "trait_label": "Performance & Reliability Friction", "text": "Full feature parity between mobile and desktop/web app", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_do1", "trait_label": "Performance & Reliability Friction", "text": "Smooth, fast, reliable performance on Android", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp0", "trait_label": "Performance & Reliability Friction", "text": "Missing critical mobile features (e.g., delete project)", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp1", "trait_label": "Performance & Reliability Friction", "text": "Poor mobile app functionality (taps do nothing, crashes)", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp2", "trait_label": "Performance & Reliability Friction", "text": "Forced auto-updates that degrade user experience", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_do0", "trait_label": "Performance & Reliability Friction", "text": "Fully functional, reliable mobile app", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_do1", "trait_label": "Performance & Reliability Friction", "text": "Seamless sync between web and mobile", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp0", "trait_label": "Performance & Reliability Friction", "text": "Bugs and instability, especially on Android, that persist or resurface after fixes.", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp1", "trait_label": "Performance & Reliability Friction", "text": "Frustration with forced UI changes, like intrusive pop-ups or non-savable sort defaults.", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp2", "trait_label": "Performance & Reliability Friction", "text": "Ineffective or buggy mobile moderation tools requiring desktop for admin tasks.", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_do0", "trait_label": "Performance & Reliability Friction", "text": "Stable, bug-free core functionality, especially for mobile platforms.", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_do1", "trait_label": "Performance & Reliability Friction", "text": "Streamlined, intuitive interface without unnecessary features or clutter.", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_pp0", "trait_label": "Validation & Traction Anxiety", "text": "Difficulty scaling from initial users to 100+ customers", "tone": "cautious"}
+{"review_id": "cluster_3_b0_pp1", "trait_label": "Validation & Traction Anxiety", "text": "Feeling uncertain or experiencing self-doubt during the creative/building process", "tone": "cautious"}
+{"review_id": "cluster_3_b0_pp2", "trait_label": "Validation & Traction Anxiety", "text": "Products perceived as too expensive for the value provided", "tone": "cautious"}
+{"review_id": "cluster_3_b0_do0", "trait_label": "Validation & Traction Anxiety", "text": "Achieve product-market fit and grow from first few to 100+ users", "tone": "cautious"}
+{"review_id": "cluster_3_b0_do1", "trait_label": "Validation & Traction Anxiety", "text": "Build a product with great UX and beautiful design", "tone": "cautious"}
+{"review_id": "cluster_3_b1_pp0", "trait_label": "Validation & Traction Anxiety", "text": "Frustration with slow, tedious recovery processes that occupy computers for days", "tone": "cautious"}
+{"review_id": "cluster_3_b1_pp1", "trait_label": "Validation & Traction Anxiety", "text": "Cognitive difficulties requiring excessive backup/double-checking due to health issues", "tone": "cautious"}
+{"review_id": "cluster_3_b1_pp2", "trait_label": "Validation & Traction Anxiety", "text": "Feeling of being tricked by marketing promises that don't match reality", "tone": "cautious"}
+{"review_id": "cluster_3_b1_do0", "trait_label": "Validation & Traction Anxiety", "text": "Recover files when other tools fail completely", "tone": "cautious"}
+{"review_id": "cluster_3_b1_do1", "trait_label": "Validation & Traction Anxiety", "text": "Have tax software that handles complex situations with reliable accuracy", "tone": "cautious"}
+{"review_id": "cluster_3_b2_pp0", "trait_label": "Validation & Traction Anxiety", "text": "Struggling to get meaningful feedback and validation for a new product in development.", "tone": "cautious"}
+{"review_id": "cluster_3_b2_pp1", "trait_label": "Validation & Traction Anxiety", "text": "Feeling isolated and lacking access to a relevant, non-echo-chamber user base.", "tone": "cautious"}
+{"review_id": "cluster_3_b2_pp2", "trait_label": "Validation & Traction Anxiety", "text": "Product design is not appealing or helpful.", "tone": "cautious"}
+{"review_id": "cluster_3_b2_do0", "trait_label": "Validation & Traction Anxiety", "text": "Get honest and actionable feedback from potential real users, not just other builders.", "tone": "cautious"}
+{"review_id": "cluster_3_b2_do1", "trait_label": "Validation & Traction Anxiety", "text": "Find targeted channels to connect with an audience that has the specific problem being solved.", "tone": "cautious"}
+{"review_id": "cluster_3_b3_pp0", "trait_label": "Validation & Traction Anxiety", "text": "Time wasted building MVPs that nobody uses", "tone": "cautious"}
+{"review_id": "cluster_3_b3_pp1", "trait_label": "Validation & Traction Anxiety", "text": "Pressure for hyper-growth from co-founder or investors causing unproductive activity", "tone": "cautious"}
+{"review_id": "cluster_3_b3_pp2", "trait_label": "Validation & Traction Anxiety", "text": "Being overwhelmed by manual, consistent engagement across multiple platforms", "tone": "cautious"}
+{"review_id": "cluster_3_b3_do0", "trait_label": "Validation & Traction Anxiety", "text": "Ship a product or feature quickly (e.g., in 72 hours) to validate demand", "tone": "cautious"}
+{"review_id": "cluster_3_b3_do1", "trait_label": "Validation & Traction Anxiety", "text": "Achieve steady, sustainable growth without hype-driven pressure", "tone": "cautious"}
+{"review_id": "cluster_3_b4_pp0", "trait_label": "Validation & Traction Anxiety", "text": "Building for months/years without user validation leads to wasted effort", "tone": "cautious"}
+{"review_id": "cluster_3_b4_pp1", "trait_label": "Validation & Traction Anxiety", "text": "Difficulty getting honest, critical feedback from personal network", "tone": "cautious"}
+{"review_id": "cluster_3_b4_pp2", "trait_label": "Validation & Traction Anxiety", "text": "Paralysis from perfectionism and over-engineering before launch", "tone": "cautious"}
+{"review_id": "cluster_3_b4_do0", "trait_label": "Validation & Traction Anxiety", "text": "Validate product idea before writing code", "tone": "cautious"}
+{"review_id": "cluster_3_b4_do1", "trait_label": "Validation & Traction Anxiety", "text": "Get honest, critical feedback early in the process", "tone": "cautious"}
+{"review_id": "monologue_71c9f1", "trait_label": "Inner Monologue", "text": "Another subscription... but if it actually helps us understand user behavior without slowing down our development environment, it might be worth it. Let me check if there are any reports of performance issues first.", "tone": "authentic_voice"}
+{"review_id": "monologue_acc5ec", "trait_label": "Inner Monologue", "text": "These user testimonials look good, but I need to see actual technical specs. How does this integrate with our existing stack? The last thing we need is another tool that requires extensive configuration.", "tone": "authentic_voice"}
+{"review_id": "monologue_c30256", "trait_label": "Inner Monologue", "text": "The interface looks clean, but does it actually work reliably? I'm not going through another situation where our analytics tool crashes during investor demos. Let me test the core functionality first.", "tone": "authentic_voice"}
+{"review_id": "monologue_5c3077", "trait_label": "Inner Monologue", "text": "They want credit card info for a 'free trial' - that's always a red flag. If they can't let me evaluate the basic features without commitment, what does that say about their confidence in the product?", "tone": "authentic_voice"}
+{"review_id": "monologue_dc1aae", "trait_label": "Inner Monologue", "text": "Finally, something that actually delivers what it promises. The documentation is thorough, it integrates cleanly, and when I had a setup question, they responded within hours with a detailed technical answer. This is what we need.", "tone": "authentic_voice"}

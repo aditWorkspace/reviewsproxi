@@ -1,0 +1,5071 @@
+{
+  "chosen_n_clusters": 6,
+  "sweep_results": [
+    {
+      "k": 3,
+      "silhouette": 0.06890864670276642,
+      "intra_similarity": 0.542072594165802,
+      "inter_distance": 0.2105608582496643,
+      "combined_score": 0.23918827325105665
+    },
+    {
+      "k": 4,
+      "silhouette": 0.08451642096042633,
+      "intra_similarity": 0.5618496462702751,
+      "inter_distance": 0.24511080980300903,
+      "combined_score": 0.2598352663218975
+    },
+    {
+      "k": 5,
+      "silhouette": 0.07881602644920349,
+      "intra_similarity": 0.5692204356193542,
+      "inter_distance": 0.26539576053619385,
+      "combined_score": 0.2632532960176468
+    },
+    {
+      "k": 6,
+      "silhouette": 0.0823112353682518,
+      "intra_similarity": 0.595835542678833,
+      "inter_distance": 0.48433130979537964,
+      "combined_score": 0.3167725424468517
+    },
+    {
+      "k": 7,
+      "silhouette": 0.0598856620490551,
+      "intra_similarity": 0.601842333873113,
+      "inter_distance": 0.44934630393981934,
+      "combined_score": 0.30036479197442534
+    },
+    {
+      "k": 8,
+      "silhouette": 0.08249451965093613,
+      "intra_similarity": 0.5977216192654201,
+      "inter_distance": 0.45731526613235474,
+      "combined_score": 0.31202679883156503
+    },
+    {
+      "k": 9,
+      "silhouette": 0.075477734208107,
+      "intra_similarity": 0.6149677857756615,
+      "inter_distance": 0.45030319690704346,
+      "combined_score": 0.31228984221816064
+    },
+    {
+      "k": 10,
+      "silhouette": 0.06078997254371643,
+      "intra_similarity": 0.6100253065427145,
+      "inter_distance": 0.4447237253189087,
+      "combined_score": 0.30234732329845426
+    }
+  ],
+  "quality_metrics": {
+    "silhouette": 0.0823112353682518,
+    "intra_similarity": 0.595835542678833,
+    "inter_distance": 0.48433130979537964,
+    "combined_score": 0.3167725424468517,
+    "stability_ari": 0.5481,
+    "stability_label": "moderate"
+  },
+  "cluster_0": {
+    "member_count": 9,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Difficulty in logging in or switching accounts after subscription changes on devices",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Missed malware detection leading to security incidents",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Deception through unwanted software bundling (e.g., toolbars)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Annoying, persistent upsell nagging",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Counterintuitive, quirky user interfaces requiring significant learning",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Lack of expected features (e.g., live streaming, binge-watching)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Poor translation quality compared to alternatives",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Difficulty finding or using features (e.g., 'treasure hunt for charts')",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Concern over 'AI' being a meaningless buzzword masking scams or low quality",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Frustration with apps/sites being unavailable/down without mirrors",
+            "emotional_intensity": 0.3
+          },
+          {
+            "signal": "Challenging cancellation processes",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Dependable, fast, glitch-free performance",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Quick, easy learning curve",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Reliable security tool that effectively detects keyloggers and high-threat malware",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Software that remains non-sluggish during routine operations",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Clear, user-friendly interface suitable for professional use",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Access to live content as it airs",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Ability to binge-watch series from the first episode",
+            "priority": 0.65
+          },
+          {
+            "outcome": "Accurate translation for polyglot projects",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Fast, regular data backup",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Fun, enjoyable user experience even with functional tools",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Avoidance of carpal tunnel/neck strain through efficient input (e.g., voice dictation)",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Comprehensive threat intelligence and malware analysis",
+            "priority": 0.8
+          },
+          {
+            "outcome": "AI usage monitoring that is substantive, not just buzzword-driven",
+            "priority": 0.9
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Fills specific platform gap (e.g., ShoutCast on Fire tablet)",
+            "context": "Discovered lack of native support for needed functionality on their device."
+          },
+          {
+            "trigger": "Recommendation from trusted sources or community reviews",
+            "context": "Saw a negative review of a current tool or a positive review of an alternative."
+          },
+          {
+            "trigger": "Dissatisfaction with current solution's performance or failures",
+            "context": "Current security tool missed a keylogger, leading to fraud."
+          },
+          {
+            "trigger": "Need to replace a legacy version with modern features",
+            "context": "Upgraded from an old edition (e.g., Quicken) for better automation."
+          },
+          {
+            "trigger": "Response to job interview requirements",
+            "context": "Desperation for a job leads to running code from potentially untrusted sources."
+          },
+          {
+            "trigger": "Seeking to simplify a tedious process (e.g., finances, backups)",
+            "context": "Wanted to automate regular tasks to ensure they actually get done."
+          },
+          {
+            "trigger": "Access to exclusive content or features bundled with existing subscriptions (e.g., Prime)",
+            "context": "Already have a membership, so using the included app 'just seems to fit'."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Security software that misses high-threat malware is worse than useless; it creates a false sense of security.",
+            "severity": 0.95
+          },
+          {
+            "objection": "Bundling unwanted software (like toolbars) without clear consent is deceptive and erodes trust.",
+            "severity": 0.85
+          },
+          {
+            "objection": "Constant, distracting upsell prompts waste time and degrade the user experience.",
+            "severity": 0.7
+          },
+          {
+            "objection": "If a tool is too difficult to use or has a counterintuitive UI, it won't get adopted by the team.",
+            "severity": 0.6
+          },
+          {
+            "objection": "Service doesn't provide expected core functionality (live viewing, full archives).",
+            "severity": 0.65
+          },
+          {
+            "objection": "Labeling something as 'AI-driven' is often a hollow marketing buzzword that signals potential scam or low quality.",
+            "severity": 0.75
+          },
+          {
+            "objection": "Cumbersome account management and cancellation processes create lock-in and frustration.",
+            "severity": 0.8
+          },
+          {
+            "objection": "Tools that become sluggish with normal use are unreliable for enterprise environments.",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Spyware detection tool",
+            "reason": "Failed to detect a keylogger, resulting in credit card fraud.",
+            "threshold": "Critical security failure causing direct financial loss."
+          },
+          {
+            "from_product": "Streaming service",
+            "reason": "Does not provide expected binge-watching or live-streaming capabilities.",
+            "threshold": "Core use case not met after purchase."
+          },
+          {
+            "from_product": "Email/Productivity client",
+            "reason": "Interface is not user-friendly, leading to discomfort and infrequent use.",
+            "threshold": "Persistent difficulty and lack of comfort impedes daily work."
+          },
+          {
+            "from_product": "Online service",
+            "reason": "Service is frequently down without accessible mirrors or backups.",
+            "threshold": "Unreliable availability impacting workflow."
+          }
+        ],
+        "decision_factors_ranked": [
+          "Effectiveness & reliability (critical for security tools)",
+          "User-friendliness & ease of learning",
+          "Transparency & trust (no hidden bundles, honest marketing)",
+          "Performance & speed (no lag, glitches)",
+          "Meeting specific feature needs (e.g., live monitoring, specific integrations)",
+          "Cost relative to value provided",
+          "Quality of support and ease of account management"
+        ],
+        "deal_breakers": [
+          "Failing to detect critical security threats (e.g., keyloggers)",
+          "Deceptive practices like stealth-installing unwanted software",
+          "Unreliable performance or frequent downtime",
+          "Extremely poor, counterintuitive user interface",
+          "Misleading marketing (e.g., 'AI' buzzword scams)",
+          "Draconian cancellation or account-switching processes"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Malware sophistication outpacing detection, leading to system compromise.",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "API key exposure risk due to misunderstanding of key IDs vs. secret keys.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Frustration with products requiring always-on internet connections.",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Software limitations causing significant time loss and high frustration (e.g., incompatible cloning).",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Poor streaming performance (freezes, buffers) on specific platforms.",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Apps requesting excessive, unnecessary permissions.",
+            "emotional_intensity": 0.85
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Real-time threat detection and automated mitigation (e.g., automatic key revocation).",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Clear differentiation between public identifiers and secret keys to prevent security panic.",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Comprehensive monitoring of AI usage and access patterns.",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Reliable, high-quality video/streaming without platform-specific issues.",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Software that works reliably offline or without restrictive connectivity requirements.",
+            "priority": 0.65
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to organize financial/data spreadsheets for business compliance (e.g., tax returns).",
+            "context": "Small business operations."
+          },
+          {
+            "trigger": "Expanding business requires more advanced features (multi-user, inventory, job costing).",
+            "context": "Business growth."
+          },
+          {
+            "trigger": "Need for user-friendly, powerful video/photo editing tools for non-professionals.",
+            "context": "Personal content creation."
+          },
+          {
+            "trigger": "Seeking multi-device antivirus protection at a cost-effective price point.",
+            "context": "Managing security across personal devices."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Billing-based spending caps are too slow; need near real-time monitoring.",
+            "severity": 0.8
+          },
+          {
+            "objection": "Security tools can be circumvented by user misconfiguration and ignoring documentation.",
+            "severity": 0.75
+          },
+          {
+            "objection": "Software has critical functional limitations only discovered after significant time investment.",
+            "severity": 0.85
+          },
+          {
+            "objection": "Apps/services have poor performance on specific platforms (e.g., YouTube live streams).",
+            "severity": 0.7
+          },
+          {
+            "objection": "Overly broad permissions requests erode trust and lead to rejection.",
+            "severity": 0.9
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Generic manual key management / Cloud provider IAM",
+            "reason": "Need for automated, real-time kill-switch based on request count.",
+            "threshold": "Risk of delayed billing data causing overspend or exposure."
+          },
+          {
+            "from_product": "CloneZilla",
+            "reason": "Inability to clone to smaller drives and high time/frustration cost.",
+            "threshold": "Critical project failure and wasted hours."
+          },
+          {
+            "from_product": "Other streaming apps",
+            "reason": "Poor performance on specific content (live streams) and limited content library.",
+            "threshold": "Consistent failure to reliably deliver desired content."
+          }
+        ],
+        "decision_factors_ranked": [
+          "Real-time security monitoring and automation",
+          "Ease of use and user-friendliness",
+          "Feature set comprehensiveness",
+          "Cost-effectiveness (multi-device coverage)",
+          "Reliability and performance",
+          "Clear documentation and security best practices",
+          "Offline functionality"
+        ],
+        "deal_breakers": [
+          "Excessive, unjustified app permissions",
+          "Critical functional limitations discovered late",
+          "Persistent poor performance on key tasks (e.g., streaming)"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 17,
+          "amazon_med_acc": 0,
+          "reddit": 13,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Software instability and crashes causing workflow disruptions",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Difficulty managing and administering software licenses across multiple devices",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Excessive ad networks, analytics, and in-app billing in paid software, raising security and privacy concerns",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Poorly designed or confusing user interfaces that hinder navigation and increase learning time",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Software causing system conflicts or corrupting other files",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Feeling locked into a product due to prior investment, despite dissatisfaction",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Software designed to push users towards purchases or social media engagement, compromising the core experience",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Software that is stable, reliable, and does not crash unexpectedly",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Clear, intuitive user interfaces that minimize the learning curve",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Software that respects user privacy, with minimal or zero ad networks, analytics, and unnecessary permissions",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Efficient and simple license management across an organization's devices",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Software that performs its core function effectively without being bloated or causing system conflicts",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Accurate and reliable functionality (e.g., correct physics in simulations, proper file handling)",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "The product is offered as a 'Free App of the Day' or at a significantly reduced price",
+            "context": "Users who were previously on the fence due to price immediately download."
+          },
+          {
+            "trigger": "Need to replace or upgrade from a previous, unsatisfactory version of a tool",
+            "context": "Seeking improved features (e.g., 'unlimited video tracks', faster rendering) despite past negative experiences."
+          },
+          {
+            "trigger": "Recommendation from a colleague or trusted source demonstrating the tool's value",
+            "context": "Seeing a tool effectively used by a peer for a specific security or monitoring task."
+          },
+          {
+            "trigger": "Recognition of a specific, high-value feature not available elsewhere (e.g., barcode scanning for asset management)",
+            "context": "Identifying a feature that directly solves an organizational workflow pain point."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "High or seemingly unjustified price for the functionality offered",
+            "severity": 0.8
+          },
+          {
+            "objection": "Presence of ad networks, analytics, or in-app purchases in paid software",
+            "severity": 0.95
+          },
+          {
+            "objection": "Software is buggy, unstable, or causes system-level problems",
+            "severity": 0.9
+          },
+          {
+            "objection": "Complex and difficult license administration for enterprise deployment",
+            "severity": 0.7
+          },
+          {
+            "objection": "Steep learning curve due to poor UI/UX design or lack of adequate documentation",
+            "severity": 0.6
+          },
+          {
+            "objection": "Software feels like a forced or deceptive upgrade that breaks familiarity",
+            "severity": 0.75
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Paid security/utility software",
+            "reason": "Availability of a competent free alternative (e.g., Microsoft Security Essentials)",
+            "threshold": "When the cost/benefit analysis favors the free option, especially if the paid software has administrative overhead."
+          },
+          {
+            "from_product": "Any software with excessive permissions/ads",
+            "reason": "Security and privacy concerns for organizational devices",
+            "threshold": "Discovery of embedded ad networks/analytics in a tool intended for secure environments."
+          },
+          {
+            "from_product": "Legacy software versions",
+            "reason": "Major upgrade that drastically changes the UI/UX and workflow, increasing friction",
+            "threshold": "When the learning cost and instability of the new version outweigh the new features."
+          },
+          {
+            "from_product": "Software causing system instability",
+            "reason": "Tool corrupts files or conflicts with other critical system software",
+            "threshold": "Immediate uninstallation upon discovery of the conflict to restore system integrity."
+          }
+        ],
+        "decision_factors_ranked": [
+          "Security & Privacy (absence of adware/analytics/spyware)",
+          "Software Stability & Reliability",
+          "Core Functionality & Accuracy",
+          "Total Cost of Ownership (Price + Admin Overhead)",
+          "User Interface & Ease of Use/Learning",
+          "Feature Set & Capabilities"
+        ],
+        "deal_breakers": [
+          "Presence of ad networks or excessive analytics in paid enterprise software",
+          "Software that causes system instability or conflicts",
+          "Egregiously inaccurate core functionality (e.g., broken physics in a simulation tool)",
+          "Completely unintuitive UI that makes basic tasks prohibitively difficult"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Difficulty closing ads due to tiny 'X' button (especially for users with physical limitations like arthritis)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "In-app purchase failures leading to lost money and data after reinstall",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Content repetition in games (e.g., questions/answers looping after level 40)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Developers or employees mishandling confidential/PII data with AI tools due to lack of security awareness or policy adherence",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Concern over AI vendors not signing NDAs or using data for training",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Lack of AI governance, policies, or enforcement mechanisms in organizations",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Unclear or ambiguous product language requiring clarification",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Organizational capacity constraints preventing implementation of desired security solutions",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Frustration with ads being frequent and disruptive to user experience",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Effective AI usage monitoring and threat detection for organizational security",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Clear AI governance policies with enforcement mechanisms",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Secure handling of confidential/PII data, with technical controls (e.g., AI gateways, DLP, environment separation)",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Reliable in-app purchases and data persistence",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Ads that are easy to close and less intrusive",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Non-repetitive, engaging content in games/apps",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Tools that are challenging and good for cognitive stimulation",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Vendor agreements that include NDAs and data privacy assurances",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Developer education on security concepts and legal compliance",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Ease of use and straightforward functionality in apps/tools",
+            "priority": 0.65
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Positive experience with cognitive benefits and challenge (e.g., 'good for the brain', 'enjoyable')",
+            "context": "Entertainment or mental stimulation apps"
+          },
+          {
+            "trigger": "Reliable long-term performance and no failures over years of use",
+            "context": "Utility apps (e.g., calculator)"
+          },
+          {
+            "trigger": "Integration with existing devices (e.g., Amazon Echo)",
+            "context": "IoT or smart home apps"
+          },
+          {
+            "trigger": "Need for AI governance and security due to organizational risks",
+            "context": "Enterprise security solutions"
+          },
+          {
+            "trigger": "Low cost perceived as worth the value",
+            "context": "Paid apps or features"
+          },
+          {
+            "trigger": "Recommendation from other organizations or trusted sources",
+            "context": "Enterprise tools (e.g., Island Enterprise Browser)"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "In-app purchases fail and result in financial loss without recourse",
+            "severity": 0.95
+          },
+          {
+            "objection": "Vendors (e.g., OpenAI) won't sign NDAs, posing data privacy risks",
+            "severity": 0.85
+          },
+          {
+            "objection": "Lack of organizational capacity to implement necessary solutions",
+            "severity": 0.7
+          },
+          {
+            "objection": "Developers ignore policies and mishandle data, creating legal liabilities",
+            "severity": 0.9
+          },
+          {
+            "objection": "Ads are difficult to close and disrupt user experience",
+            "severity": 0.75
+          },
+          {
+            "objection": "Content becomes repetitive, reducing engagement",
+            "severity": 0.6
+          },
+          {
+            "objection": "Ambiguous or unclear product features requiring clarification",
+            "severity": 0.4
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "General AI tools (e.g., free ChatGPT)",
+            "reason": "Lack of data privacy assurances or NDAs",
+            "threshold": "Organization implements strict controls or switches to vendors with better terms (e.g., Microsoft)"
+          },
+          {
+            "from_product": "Insecurely configured AI tools",
+            "reason": "Incidents of data leakage or policy violations",
+            "threshold": "Implementation of AI gateways, DLP, or blocking of unauthorized tools"
+          },
+          {
+            "from_product": "Apps with disruptive ads or purchase issues",
+            "reason": "Frustration with poor user experience or financial loss",
+            "threshold": "User seeks ad-free alternatives or stops purchases"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Data security and privacy compliance",
+          "AI governance and policy enforcement",
+          "Reliability and performance",
+          "Ease of use and integration",
+          "Cost-effectiveness",
+          "Cognitive or functional benefits",
+          "User experience (e.g., ad intrusiveness)"
+        ],
+        "deal_breakers": [
+          "In-app purchase failures with no refunds",
+          "AI vendors refusing NDAs or using data for training",
+          "Lack of enforcement mechanisms for security policies",
+          "Inability to protect confidential/PII data from misuse",
+          "Persistent disruptive ads that hinder usability"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Unable to authenticate/login due to confusing QR/setup process",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Poor/no response from customer support for trial requests",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Notifications disabled or not working after updates",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Lack of logout option forces reinstallation for re-login",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "App perceived as invasive due to face recording or background activity",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "App misidentified as malicious/hacker tool due to access requirements",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Sorting/UI issues persist despite long-standing feature requests",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Requires separate admin portal/Threat Visualizer app not clearly available",
+            "emotional_intensity": 0.8
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Mobile visibility and control over security environment for on-the-go monitoring",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Reliable alert notifications for immediate threat response",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Seamless, intuitive authentication setup without external dependencies",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Enhanced email security features with actionable details (e.g., links, attachments)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Stable app performance across updates, especially for core functions",
+            "priority": 0.75
+          },
+          {
+            "outcome": "UI/UX improvements based on user feedback (e.g., sorting, logout option)",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for remote security management and real-time alert response",
+            "context": "Enterprise security teams requiring mobility"
+          },
+          {
+            "trigger": "Existing Darktrace environment integration for extended functionality",
+            "context": "Current customers seeking mobile access"
+          },
+          {
+            "trigger": "Demand for AI-driven threat detection with mobile control capabilities",
+            "context": "Organizations prioritizing AI security tools"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Authentication process too complex for first-time users",
+            "severity": 0.8
+          },
+          {
+            "objection": "Perceived privacy invasion due to face recording or background activity",
+            "severity": 0.85
+          },
+          {
+            "objection": "Lack of customer support responsiveness for trials/access",
+            "severity": 0.75
+          },
+          {
+            "objection": "Requires separate app/portal not easily accessible",
+            "severity": 0.7
+          },
+          {
+            "objection": "Notifications/features break after updates",
+            "severity": 0.65
+          },
+          {
+            "objection": "App misused or misinterpreted by non-target users (e.g., personal use)",
+            "severity": 0.6
+          }
+        ],
+        "switching_triggers": [],
+        "decision_factors_ranked": [
+          "Integration with existing enterprise security infrastructure",
+          "Reliability of mobile alerting and notifications",
+          "Ease of setup and authentication",
+          "UI/UX for on-the-go threat management",
+          "Customer support responsiveness",
+          "Privacy and security compliance"
+        ],
+        "deal_breakers": [
+          "Inability to authenticate or login due to unclear process",
+          "Complete lack of customer support for access requests",
+          "Persistent notification failures after updates",
+          "Privacy violations (e.g., unauthorized data access)"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.68,
+      "reddit": 0.32,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Difficulty closing ads due to tiny 'X' button (especially for users with physical limitations like arthritis)",
+          "count": 1,
+          "frequency": 0.0127,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.038
+        },
+        {
+          "signal": "In-app purchase failures leading to lost money and data after reinstall",
+          "count": 1,
+          "frequency": 0.0127,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0506
+        },
+        {
+          "signal": "Content repetition in games (e.g., questions/answers looping after level 40)",
+          "count": 1,
+          "frequency": 0.0127,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.038
+        },
+        {
+          "signal": "Developers or employees mishandling confidential/PII data with AI tools due to lack of security awareness or policy adherence",
+          "count": 1,
+          "frequency": 0.0127,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.038
+        },
+        {
+          "signal": "Concern over AI vendors not signing NDAs or using data for training",
+          "count": 1,
+          "frequency": 0.0127,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.038
+        },
+        {
+          "signal": "Lack of AI governance, policies, or enforcement mechanisms in organizations",
+          "count": 1,
+          "frequency": 0.0127,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.038
+        },
+        {
+          "signal": "Unclear or ambiguous product language requiring clarification",
+          "count": 1,
+          "frequency": 0.0127,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.038
+        },
+        {
+          "signal": "Organizational capacity constraints preventing implementation of desired security solutions",
+          "count": 1,
+          "frequency": 0.0127,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.038
+        },
+        {
+          "signal": "Frustration with ads being frequent and disruptive to user experience",
+          "count": 1,
+          "frequency": 0.0127,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0383
+        },
+        {
+          "signal": "Software crashes and loses data",
+          "count": 1,
+          "frequency": 0.0127,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.038
+        },
+        {
+          "signal": "Platform-specific instability (Fire TV vs. Roku)",
+          "count": 1,
+          "frequency": 0.0127,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.038
+        },
+        {
+          "signal": "Poor customer support costing extra fees",
+          "count": 1,
+          "frequency": 0.0127,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.038
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Effective AI usage monitoring and threat detection for organizational security",
+          "count": 1,
+          "frequency": 0.0137,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0411
+        },
+        {
+          "signal": "Clear AI governance policies with enforcement mechanisms",
+          "count": 1,
+          "frequency": 0.0137,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0411
+        },
+        {
+          "signal": "Secure handling of confidential/PII data, with technical controls (e.g., AI gateways, DLP, environment separation)",
+          "count": 1,
+          "frequency": 0.0137,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0411
+        },
+        {
+          "signal": "Reliable in-app purchases and data persistence",
+          "count": 1,
+          "frequency": 0.0137,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0411
+        },
+        {
+          "signal": "Ads that are easy to close and less intrusive",
+          "count": 1,
+          "frequency": 0.0137,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0414
+        },
+        {
+          "signal": "Non-repetitive, engaging content in games/apps",
+          "count": 1,
+          "frequency": 0.0137,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0411
+        },
+        {
+          "signal": "Tools that are challenging and good for cognitive stimulation",
+          "count": 1,
+          "frequency": 0.0137,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0411
+        },
+        {
+          "signal": "Vendor agreements that include NDAs and data privacy assurances",
+          "count": 1,
+          "frequency": 0.0137,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0411
+        },
+        {
+          "signal": "Developer education on security concepts and legal compliance",
+          "count": 1,
+          "frequency": 0.0137,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0548
+        },
+        {
+          "signal": "Ease of use and straightforward functionality in apps/tools",
+          "count": 1,
+          "frequency": 0.0137,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0411
+        },
+        {
+          "signal": "Stable, reliable platform operation",
+          "count": 1,
+          "frequency": 0.0137,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0411
+        },
+        {
+          "signal": "Easy recipe management and organization",
+          "count": 1,
+          "frequency": 0.0137,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0411
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "In-app purchase failures with no refunds",
+          "count": 1,
+          "frequency": 0.0244,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0732
+        },
+        {
+          "signal": "AI vendors refusing NDAs or using data for training",
+          "count": 1,
+          "frequency": 0.0244,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0732
+        },
+        {
+          "signal": "Lack of enforcement mechanisms for security policies",
+          "count": 1,
+          "frequency": 0.0244,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0732
+        },
+        {
+          "signal": "Inability to protect confidential/PII data from misuse",
+          "count": 1,
+          "frequency": 0.0244,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0732
+        },
+        {
+          "signal": "Persistent disruptive ads that hinder usability",
+          "count": 1,
+          "frequency": 0.0244,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0732
+        },
+        {
+          "signal": "Software crashes causing data loss",
+          "count": 1,
+          "frequency": 0.0244,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0738
+        },
+        {
+          "signal": "Cannot perform core function (won't load)",
+          "count": 1,
+          "frequency": 0.0244,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0732
+        },
+        {
+          "signal": "Mandatory expensive upgrades without value",
+          "count": 1,
+          "frequency": 0.0244,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0738
+        },
+        {
+          "signal": "Unusable due to activation/licensing bugs",
+          "count": 1,
+          "frequency": 0.0244,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0732
+        },
+        {
+          "signal": "No alternative despite poor quality",
+          "count": 1,
+          "frequency": 0.0244,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0732
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Positive experience with cognitive benefits and challenge (e.g., 'good for the brain', 'enjoyable')",
+          "count": 1,
+          "frequency": 0.0256,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0769
+        },
+        {
+          "signal": "Reliable long-term performance and no failures over years of use",
+          "count": 1,
+          "frequency": 0.0256,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0769
+        },
+        {
+          "signal": "Integration with existing devices (e.g., Amazon Echo)",
+          "count": 1,
+          "frequency": 0.0256,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0769
+        },
+        {
+          "signal": "Need for AI governance and security due to organizational risks",
+          "count": 1,
+          "frequency": 0.0256,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0769
+        },
+        {
+          "signal": "Low cost perceived as worth the value",
+          "count": 1,
+          "frequency": 0.0256,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0769
+        },
+        {
+          "signal": "Recommendation from other organizations or trusted sources",
+          "count": 1,
+          "frequency": 0.0256,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0769
+        },
+        {
+          "signal": "Positive experience with companion product",
+          "count": 1,
+          "frequency": 0.0256,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0769
+        },
+        {
+          "signal": "New computer/device upgrade",
+          "count": 1,
+          "frequency": 0.0256,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0769
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "low": 0.889,
+        "medium": 0.111
+      }
+    }
+  },
+  "cluster_1": {
+    "member_count": 21,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Difficulty migrating/importing historical data from previous versions or competitors",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Complex software with steep learning curves that require significant research",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Lack of reliable customer support when encountering problems",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Software updates that break existing functionality",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Excessive or unclear software permissions that raise privacy/security concerns",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Hidden costs, unexpected feature limitations in 'deluxe' versions",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Forced adoption of subscription models or unclear licensing terms",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Unstable software with crashes and data corruption issues",
+            "emotional_intensity": 0.8
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Comprehensive data protection and security features",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Reliable data backup and recovery capabilities",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Detailed logging and monitoring capabilities",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Easy integration with existing enterprise systems",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Minimal learning curve for security teams",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Stable software that doesn't break with updates",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Clear, transparent permissions and data handling",
+            "priority": 0.85
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to replace legacy security systems with modern solutions",
+            "context": "Upgrading from older security tools"
+          },
+          {
+            "trigger": "Experiencing security incidents or data breaches",
+            "context": "Post-incident security assessment"
+          },
+          {
+            "trigger": "Company growth requiring more robust security monitoring",
+            "context": "Scaling security operations"
+          },
+          {
+            "trigger": "Compliance requirements mandating specific security controls",
+            "context": "Regulatory compliance deadlines"
+          },
+          {
+            "trigger": "Dissatisfaction with current vendor's support or functionality",
+            "context": "Seeking alternatives after poor experiences"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "High cost compared to perceived value or cheaper alternatives",
+            "severity": 0.7
+          },
+          {
+            "objection": "Complex implementation requiring significant IT resources",
+            "severity": 0.8
+          },
+          {
+            "objection": "Concerns about vendor lock-in and difficult migrations",
+            "severity": 0.75
+          },
+          {
+            "objection": "Privacy concerns about data collection and retention policies",
+            "severity": 0.85
+          },
+          {
+            "objection": "Poor vendor reputation for customer support",
+            "severity": 0.8
+          },
+          {
+            "objection": "Software instability or bugginess affecting critical operations",
+            "severity": 0.9
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Legacy security software",
+            "reason": "Lacks modern security features and AI capabilities",
+            "threshold": "Security incidents occur"
+          },
+          {
+            "from_product": "Competitor security products",
+            "reason": "Poor support experience or complex management",
+            "threshold": "Critical support failure"
+          },
+          {
+            "from_product": "Manual security monitoring processes",
+            "reason": "Need automation and comprehensive threat detection",
+            "threshold": "Team overwhelmed by alert volume"
+          },
+          {
+            "from_product": "Basic security tools",
+            "reason": "Require AI-powered threat detection and analytics",
+            "threshold": "Advanced threats bypassing basic controls"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Data security and privacy protections",
+          "System stability and reliability",
+          "Quality of customer support",
+          "Ease of implementation and use",
+          "Comprehensive monitoring and logging",
+          "Integration capabilities",
+          "Cost and licensing transparency",
+          "Vendor reputation and trustworthiness"
+        ],
+        "deal_breakers": [
+          "Poor data security practices",
+          "Unreliable software with frequent crashes",
+          "Inadequate customer support",
+          "Hidden costs or licensing traps",
+          "Inability to import historical data",
+          "Excessive permissions or unclear data collection"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Solutions not robust enough for complex, professional business needs (e.g., lacking advanced reporting, features)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Product misrepresentation or misleading marketing (features not matching description, unclear licensing)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poor customer support (slow, ineffective, difficult to reach)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Software negatively impacts system performance (slows computer, high resource use)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Overly complex or non-intuitive user interface for intended use case",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Inflexible or unfair licensing/activation schemes (cost per machine, unclear terms)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Dependence on unreliable internet/cloud connectivity for critical business functions",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Security/privacy concerns (excessive data collection, permissions, bundled auto-renewal)",
+            "emotional_intensity": 0.85
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable, uninterrupted access to critical business software (offline capability, uptime)",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Software that is robust and comprehensive enough for complex, professional-level accounting/security/tax work",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Clear, transparent pricing and licensing without hidden restrictions or surprises",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Software that installs and runs efficiently without degrading system performance",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Intuitive, user-friendly interface that reduces learning curve and training time",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Responsive, effective customer support when issues arise",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Strong security features with respect for user privacy and control over data/permissions",
+            "priority": 0.85
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to replace or upgrade an existing system that is no longer adequate",
+            "context": "System crash, outdated software, business growth"
+          },
+          {
+            "trigger": "Seeking more robust, feature-complete alternatives to simpler/consumer-grade tools",
+            "context": "Professional needs exceeding basic software capabilities"
+          },
+          {
+            "trigger": "Desire for greater control, reliability, and offline access vs. cloud-dependent solutions",
+            "context": "Experienced internet downtime or distrust of cloud reliability for critical functions"
+          },
+          {
+            "trigger": "Recommendation from a trusted professional (e.g., bookkeeper, CPA) or positive comparison to high-cost professional services",
+            "context": "Validation of software's accuracy and sufficiency for complex tasks"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "High risk of vendor lock-in, unfair licensing, or unclear upgrade paths",
+            "severity": 0.8
+          },
+          {
+            "objection": "Software requires excessive system resources, slowing down other critical applications",
+            "severity": 0.75
+          },
+          {
+            "objection": "Interface is too complex and would require significant time investment to master",
+            "severity": 0.6
+          },
+          {
+            "objection": "Security or privacy practices are opaque, invasive, or involve forced auto-renewal",
+            "severity": 0.85
+          },
+          {
+            "objection": "Product lacks specific, necessary professional features or advanced reporting",
+            "severity": 0.9
+          },
+          {
+            "objection": "Reliance on internet connectivity creates an unacceptable point of failure for business operations",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Cloud-based/online software (e.g., QuickBooks Online)",
+            "reason": "Lack of robustness, unreliable internet access, missing advanced features",
+            "threshold": "Experienced downtime or identified critical reporting gaps"
+          },
+          {
+            "from_product": "Consumer-grade security/utility software",
+            "reason": "Performance degradation, inadequate features, privacy concerns",
+            "threshold": "Noticeable system slowdown or discovery of invasive permissions/data collection"
+          },
+          {
+            "from_product": "High-cost professional services (e.g., CPA)",
+            "reason": "Cost savings with comparable accuracy and control",
+            "threshold": "Software validated as accurate for complex tasks, desire to reduce external fees"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Robustness/Completeness for Professional Use",
+          "Reliability & Uptime (incl. offline access)",
+          "Security & Privacy Controls",
+          "Licensing Transparency & Fairness",
+          "System Performance Impact",
+          "Ease of Use/Learning Curve",
+          "Customer Support Quality"
+        ],
+        "deal_breakers": [
+          "Misleading marketing or feature misrepresentation",
+          "Invasive data collection with no opt-out",
+          "Unfair or predatory licensing/activation practices",
+          "Software causes significant system performance degradation",
+          "Critical dependency on unreliable internet connectivity"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Concern about data security and privacy (e.g., permissions, data theft)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Frustration with data import limitations or failures (e.g., from QuickBooks, mutual funds)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Difficulty accessing/downloading software due to platform issues",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Unreliable or unresponsive customer support",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Software being glitchy or buggy over time",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Misleading product descriptions leading to feature gaps",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Network/connectivity issues impacting functionality (WiFi vs. mobile data)",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Seamless data import and retention across years/products",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Reliable and secure data handling with clear permissions",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Efficient, time-saving automation for common tasks",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Easy access and installation without technical hurdles",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Comprehensive and accurate feature set as advertised",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Responsive and helpful customer support",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Stable performance without crashes or glitches",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Long-term familiarity and past positive experience with product",
+            "context": "Existing users upgrading or repurchasing"
+          },
+          {
+            "trigger": "Sale or discounted pricing",
+            "context": "Cost-conscious buyers"
+          },
+          {
+            "trigger": "Need to stay current with software updates and file compatibility",
+            "context": "Regular users maintaining continuity"
+          },
+          {
+            "trigger": "Lack of adequate competing alternatives in the market",
+            "context": "Market dominance leading to continued use"
+          },
+          {
+            "trigger": "Recommendation based on trusted source or media",
+            "context": "New users influenced by external validation"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Deceptive or unclear product descriptions hiding limitations",
+            "severity": 0.8
+          },
+          {
+            "objection": "Poor data security practices and privacy concerns",
+            "severity": 0.85
+          },
+          {
+            "objection": "Unreliable software with bugs and glitches",
+            "severity": 0.75
+          },
+          {
+            "objection": "Inadequate customer support and help resources",
+            "severity": 0.7
+          },
+          {
+            "objection": "Aggressive upselling to higher-tier versions",
+            "severity": 0.6
+          },
+          {
+            "objection": "Network/platform dependency issues (WiFi, browser compatibility)",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "TurboTax",
+            "reason": "Persistent glitches, inaccurate state forms, and degraded support",
+            "threshold": "Multiple years of declining reliability"
+          },
+          {
+            "from_product": "TurboTax Deluxe",
+            "reason": "Missing automated features for investments despite 'Deluxe' label",
+            "threshold": "Discovery of feature gap after purchase"
+          },
+          {
+            "from_product": "General software",
+            "reason": "Connectivity issues (WiFi not working)",
+            "threshold": "Persistent failure to function in required environment"
+          },
+          {
+            "from_product": "Current tax software",
+            "reason": "Research of alternatives due to loss of trust in current product",
+            "threshold": "Critical errors or unmet needs"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Data import/export reliability and continuity",
+          "Data security and privacy controls",
+          "Feature completeness vs. advertised claims",
+          "Software stability and bug-free performance",
+          "Customer support responsiveness",
+          "Pricing and value for money",
+          "Ease of installation and access"
+        ],
+        "deal_breakers": [
+          "Data security breaches or privacy violations",
+          "Critical feature gaps relative to advertised claims",
+          "Persistent software crashes or glitches",
+          "Inability to import/transfer essential data",
+          "Complete lack of customer support"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Product instability and bugs causing system performance issues (e.g., software broke, created registry errors, hosed up PC)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Poor technical support: slow response, unhelpful agents, difficult to reach",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Software being overly complex or 'boggy' (resource-heavy, slowing down system)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Unreliable product loading and poor text formatting",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Inefficient or slow search performance in security/logging tools",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Lack of adequate protection leading to undetected invasions",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "High license renewal costs compared to alternative purchasing methods",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Forced feature upgrades that compromise system stability",
+            "emotional_intensity": 0.65
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Lightweight security software that doesn't bog down system performance",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Reliable threat detection and prevention without undetected breaches",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Efficient and fast search/query performance in security monitoring tools",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Effective technical support with timely and competent assistance",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Cost-effective licensing and renewal options",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Stable software updates that don't break functionality",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Clear and actionable security insights with reduced noise/irrelevant data",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Simplified configuration and management to reduce setup complexity",
+            "priority": 0.65
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for basic, lightweight security protection without unnecessary features",
+            "context": "Switching from bloated 'total protection' suites"
+          },
+          {
+            "trigger": "Cost-saving opportunity (e.g., purchasing older version subscriptions at deep discount)",
+            "context": "Avoiding expensive direct renewals"
+          },
+          {
+            "trigger": "Requirement for reliable AI usage monitoring and threat detection in enterprise environment",
+            "context": "Implementing organizational security tools"
+          },
+          {
+            "trigger": "Positive long-term experience with a simpler product version",
+            "context": "Replacing failed or problematic upgraded software"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Software instability and bugs causing operational disruptions",
+            "severity": 0.95
+          },
+          {
+            "objection": "Poor quality and responsiveness of technical support",
+            "severity": 0.85
+          },
+          {
+            "objection": "High cost of direct renewals compared to alternative purchasing methods",
+            "severity": 0.75
+          },
+          {
+            "objection": "Overly complex software with too many configuration options",
+            "severity": 0.7
+          },
+          {
+            "objection": "Inefficient search performance affecting security monitoring capabilities",
+            "severity": 0.65
+          },
+          {
+            "objection": "Inadequate protection leading to security breaches",
+            "severity": 0.9
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "McAfee Total Protection",
+            "reason": "Software became buggy, unstable, and resource-heavy after update",
+            "threshold": "After 1 week of problems including update failures and registry errors"
+          },
+          {
+            "from_product": "AVG (paid versions)",
+            "reason": "Inadequate protection resulting in undetected invasions",
+            "threshold": "After experiencing security breaches despite using the product"
+          },
+          {
+            "from_product": "Kaspersky",
+            "reason": "Software too boggy and complex to configure",
+            "threshold": "When setup complexity outweighed security benefits"
+          },
+          {
+            "from_product": "Norton AV/Malware",
+            "reason": "Caused numerous problems and headaches",
+            "threshold": "When reliability issues became persistent"
+          }
+        ],
+        "decision_factors_ranked": [
+          "System performance impact (lightweight vs boggy)",
+          "Threat detection effectiveness",
+          "Software stability and reliability",
+          "Technical support quality",
+          "Cost efficiency",
+          "Ease of configuration and management",
+          "Search/query performance for monitoring"
+        ],
+        "deal_breakers": [
+          "Software that breaks system functionality or causes registry errors",
+          "Completely unresponsive or incompetent technical support",
+          "Security failures leading to undetected invasions",
+          "Extremely slow or resource-heavy performance"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Malware infections requiring complex removal processes",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Data overconsumption from default HD video settings",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Outdated apps incompatible with new device versions",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Software compatibility issues with older enterprise systems",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Poor import functionality requiring manual data entry",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Lack of clarity about data collection practices",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "High-pressure sales tactics from support technicians",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Persistent software quirks that never get fixed",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Complex installation processes taking many hours",
+            "emotional_intensity": 0.4
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable threat detection and malware removal",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Seamless data migration and import capabilities",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Cost-effective security solutions compared to direct vendor pricing",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Easy renewal and update processes for existing subscriptions",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Transparent data collection and permission practices",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Software that doesn't slow down devices",
+            "priority": 0.4
+          },
+          {
+            "outcome": "Backward compatibility with existing enterprise systems",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Clear documentation and activity guidance",
+            "priority": 0.3
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Annual subscription renewal time",
+            "context": "Continuing existing security product usage"
+          },
+          {
+            "trigger": "Need to upgrade from older software versions",
+            "context": "Migrating from outdated security tools"
+          },
+          {
+            "trigger": "Discovery of cheaper pricing through third-party retailers",
+            "context": "Cost-saving for enterprise security budgets"
+          },
+          {
+            "trigger": "Multiple device coverage requirement",
+            "context": "Managing security across organizational devices"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "High additional fees for manual malware removal services",
+            "severity": 0.9
+          },
+          {
+            "objection": "Misrepresented import capabilities of tax software",
+            "severity": 0.8
+          },
+          {
+            "objection": "Apps not updated for current device versions",
+            "severity": 0.7
+          },
+          {
+            "objection": "Excessive permission requirements and unclear data collection",
+            "severity": 0.6
+          },
+          {
+            "objection": "Poor backward compatibility with enterprise email systems",
+            "severity": 0.7
+          },
+          {
+            "objection": "Software quirks that persist across multiple versions",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "TurboTax",
+            "reason": "Perceived price gouging",
+            "threshold": "Immediate switch when alternative is available"
+          },
+          {
+            "from_product": "Older Quicken versions",
+            "reason": "Need for better interface and bug fixes",
+            "threshold": "After reaching upgrade threshold"
+          },
+          {
+            "from_product": "Current security vendor",
+            "reason": "High-pressure sales tactics from support",
+            "threshold": "After negative support experience"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Cost effectiveness compared to direct purchase",
+          "Ease of renewal/update process",
+          "Compatibility with existing systems",
+          "Reliable threat detection",
+          "Transparent data practices",
+          "Multi-device coverage",
+          "Technical support quality"
+        ],
+        "deal_breakers": [
+          "High-pressure sales tactics from support",
+          "Outright misrepresentation of capabilities",
+          "Complete incompatibility with existing enterprise systems",
+          "Excessive data collection without transparency"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.761,
+      "reddit": 0.239,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Challenging installation/upgrade process causing disruption",
+          "count": 1,
+          "frequency": 0.0062,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0186
+        },
+        {
+          "signal": "Poor or inconsistent technical support response",
+          "count": 1,
+          "frequency": 0.0062,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0248
+        },
+        {
+          "signal": "Software compatibility/integration issues with other security tools",
+          "count": 1,
+          "frequency": 0.0062,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0186
+        },
+        {
+          "signal": "Unreliable or buggy product updates breaking functionality",
+          "count": 1,
+          "frequency": 0.0062,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0186
+        },
+        {
+          "signal": "Lack of adequate configurability/control over security features",
+          "count": 1,
+          "frequency": 0.0062,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0186
+        },
+        {
+          "signal": "High product complexity requiring advanced expertise to manage",
+          "count": 1,
+          "frequency": 0.0062,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0186
+        },
+        {
+          "signal": "Failure to deliver on core recovery/functionality promises",
+          "count": 1,
+          "frequency": 0.0062,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0186
+        },
+        {
+          "signal": "Unclear product documentation or missing troubleshooting steps",
+          "count": 1,
+          "frequency": 0.0062,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0186
+        },
+        {
+          "signal": "Unclear error messages force manual guessing to resolve issues",
+          "count": 1,
+          "frequency": 0.0062,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0186
+        },
+        {
+          "signal": "Validation errors only appear at final check, causing backtracking and wasted time",
+          "count": 1,
+          "frequency": 0.0062,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0186
+        },
+        {
+          "signal": "Frequent app crashes or freezes require repetitive manual restarts and setup",
+          "count": 1,
+          "frequency": 0.0062,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0186
+        },
+        {
+          "signal": "High data ingestion costs create financial strain, especially with long retention requirements",
+          "count": 1,
+          "frequency": 0.0062,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0186
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Reliable, robust protection against threats with minimal false negatives",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0197
+        },
+        {
+          "signal": "Smooth integration with existing enterprise security stack",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0197
+        },
+        {
+          "signal": "Non-intrusive operation with minimal performance impact",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0197
+        },
+        {
+          "signal": "Clear, actionable visibility and monitoring of security events",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0263
+        },
+        {
+          "signal": "Dependable vendor support for installation and critical issues",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0197
+        },
+        {
+          "signal": "Easy deployment and configuration for enterprise-wide rollout",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0197
+        },
+        {
+          "signal": "Real-time data validation at entry to prevent late-stage errors",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0197
+        },
+        {
+          "signal": "Clear, actionable error messages that specify the exact problem",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0197
+        },
+        {
+          "signal": "Reliable, automated monitoring for security events like logins and policy changes",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0197
+        },
+        {
+          "signal": "Cost-effective log ingestion and retention for compliance and threat hunting",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0197
+        },
+        {
+          "signal": "Set-and-forget security that runs without user intervention",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0197
+        },
+        {
+          "signal": "Easy installation and setup with minimal technical skill required",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0197
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Incompatibility with existing infrastructure",
+          "count": 2,
+          "frequency": 0.0202,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0505
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Need to replace a less effective or problematic security solution",
+          "count": 1,
+          "frequency": 0.0104,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0312
+        },
+        {
+          "signal": "Expanding security monitoring to cover new AI-related threat vectors",
+          "count": 1,
+          "frequency": 0.0104,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0312
+        },
+        {
+          "signal": "Seeking a more comprehensive, bundled security package",
+          "count": 1,
+          "frequency": 0.0104,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0312
+        },
+        {
+          "signal": "Requirement for automated, reliable updates and threat intelligence",
+          "count": 1,
+          "frequency": 0.0104,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0312
+        },
+        {
+          "signal": "Need for comprehensive AI usage monitoring and threat detection",
+          "count": 1,
+          "frequency": 0.0104,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0312
+        },
+        {
+          "signal": "Seeking proven, problem-free security for multiple devices",
+          "count": 1,
+          "frequency": 0.0104,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0312
+        },
+        {
+          "signal": "Desire for cost savings via special offers or multi-device licensing",
+          "count": 1,
+          "frequency": 0.0104,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0312
+        },
+        {
+          "signal": "Requirement to meet compliance with long-term log retention",
+          "count": 1,
+          "frequency": 0.0104,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0312
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "medium": 0.333,
+        "low": 0.667
+      }
+    }
+  },
+  "cluster_2": {
+    "member_count": 12,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "High operational overhead and maintenance burden for SIEM/security tools",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Unreliable software with frequent crashes, freezes, or force closes disrupting workflow",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Difficulty setting up and configuring tools due to lack of technical guidance or documentation",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Excessive log data volume causing performance and cost concerns",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Limited or stripped features in free/open-source tiers affecting security capabilities",
+            "emotional_intensity": 0.3
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Fast time to value and reduced setup/maintenance overhead for lean teams",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Robust and easy setup with different data sources for comprehensive monitoring",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Cost-effectiveness while maintaining strong protection and feature parity",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Data normalization and filtering to manage log traffic efficiently",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Tool compatibility with existing infrastructure (on-prem, cloud, mixed environments)",
+            "priority": 0.5
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for open-source, free, and on-prem solutions with essential security features",
+            "context": "Preferring OpenSearch over Elastic due to feature limitations in free tier"
+          },
+          {
+            "trigger": "Seeking a solution that integrates well with existing ecosystem (e.g., Azure/M365)",
+            "context": "Choosing Sentinel for deep Azure/M365 embedding"
+          },
+          {
+            "trigger": "Requirement to upgrade legacy systems while ensuring software/hardware compatibility",
+            "context": "Purchasing specific OS versions for older security camera DVR software"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Poor software stability and frequent crashes impacting usability",
+            "severity": 0.9
+          },
+          {
+            "objection": "High complexity and DIY requirements for setup, tuning, and maintenance",
+            "severity": 0.7
+          },
+          {
+            "objection": "Limited data source compatibility and onboarding challenges for mixed environments",
+            "severity": 0.6
+          },
+          {
+            "objection": "Feature limitations in free or lower-cost tiers compromising security",
+            "severity": 0.5
+          },
+          {
+            "objection": "Inadequate support or documentation for troubleshooting and configuration",
+            "severity": 0.4
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Elastic",
+            "reason": "Limited security features in free tier",
+            "threshold": "When OpenSearch offers needed security features for free"
+          },
+          {
+            "from_product": "Current weather app",
+            "reason": "Continuous instability and force closes",
+            "threshold": "After repeated crashes in a short timeframe, switching to more stable alternative (Weatherbug)"
+          },
+          {
+            "from_product": "Splunk (direct ingestion)",
+            "reason": "Excessive log traffic and cost",
+            "threshold": "Implementing intermediary filtering (e.g., SC4S, rsyslog) to reduce volume"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Ease of setup and maintenance overhead",
+          "Cost-effectiveness and licensing",
+          "Feature robustness and security capabilities",
+          "Compatibility with existing infrastructure",
+          "Tool reliability and stability",
+          "Data source integration and normalization",
+          "Team size and resource bandwidth"
+        ],
+        "deal_breakers": [
+          "Unreliable software with frequent crashes/freezes",
+          "Inability to handle mixed on-prem/cloud environments effectively",
+          "Prohibitive cost for required features",
+          "Lack of critical security features in accessible tiers"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "High cost of log ingestion (especially over 10GB/day) and unclear pricing renewal impact.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Lack of predefined rules and integrations for specific platforms (e.g., AWS VPCFlow, Fortigate).",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Complexity and steep learning curve for newer or more comprehensive security tools.",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Difficulty in tracking and consolidating information from disparate sources (GitHub, Reddit).",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Concern that the product may not be ready for enterprise-scale deployment compared to established platforms like Splunk.",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Comprehensive, 'one person army' SIEM with extensive query and rule capabilities.",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Cost-effective solution with transparent pricing and manageable log storage.",
+            "priority": 0.8
+          },
+          {
+            "outcome": "High-quality integrations and a mature platform suitable for large enterprises.",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Centralized hub for community content (queries, best practices) to reduce search friction.",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Reliable detection and security without excessive system resource consumption.",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to replace or upgrade existing security stack due to performance or feature gaps.",
+            "context": "Transition from products like Webroot, AVG, Norton due to slowdowns or insufficient protection."
+          },
+          {
+            "trigger": "Positive word-of-mouth or strong community support (e.g., GitHub repositories, query hubs).",
+            "context": "Recommendations from peers or evidence of active, helpful user community."
+          },
+          {
+            "trigger": "Free trial or included capacity (e.g., 10GB free ingestion) allowing for evaluation.",
+            "context": "Ability to test product functionality before committing financially."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Price increases at renewal time are anticipated, making long-term cost uncertain.",
+            "severity": 0.8
+          },
+          {
+            "objection": "Product may lack the depth and integration maturity of established competitors like Splunk.",
+            "severity": 0.7
+          },
+          {
+            "objection": "Product perceived as suitable only for SMBs (<5k users), not for larger enterprises.",
+            "severity": 0.6
+          },
+          {
+            "objection": "Learning curve and setup complexity can be overwhelming for new users.",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Webroot, AVG, Norton, etc.",
+            "reason": "High system resource consumption slowing down older machines.",
+            "threshold": "Performance degradation impacting daily operations."
+          },
+          {
+            "from_product": "Traditional or less comprehensive SIEMs.",
+            "reason": "Need for more extensive querying, rule creation, and unified logging.",
+            "threshold": "Gaps in threat detection or monitoring capabilities."
+          }
+        ],
+        "decision_factors_ranked": [
+          "Cost-effectiveness and pricing transparency",
+          "Quality and breadth of integrations",
+          "Community support and shared resources",
+          "System performance and resource usage",
+          "Ease of learning and deployment"
+        ],
+        "deal_breakers": [
+          "Significant price hike upon renewal",
+          "Lack of critical integrations (e.g., AWS, Fortigate)",
+          "Not scalable for large enterprise environments"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Difficulty in centralizing and forwarding all logs to SIEM",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Concern over high hardware requirements impacting system performance",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Frustration with complex installation or configuration processes",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Worry about cost-effectiveness and budget constraints for enterprise solutions",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Skepticism about vendor-provided data estimates (e.g., log storage sizing)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Fear of data loss or inadequate security protection",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Annoyance with software bloat or resource hogging during routine operations",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Seamless integration of log forwarding to a central SIEM without intermediate steps",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Efficient system performance with minimal resource consumption",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Cost savings through optimal tool selection and deployment",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Accurate and reliable data ingestion and querying for threat detection",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Strong multi-platform security protection (Windows, Android, etc.)",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Scalable and stable log management with easy maintenance",
+            "priority": 0.8
+          },
+          {
+            "outcome": "High-quality, professional results from security or monitoring tools",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to replace an outdated or inefficient security/logging solution",
+            "context": "Upgrading from older versions or competitive products"
+          },
+          {
+            "trigger": "Expansion of monitoring scope (e.g., new servers, AI usage)",
+            "context": "Growing organizational infrastructure"
+          },
+          {
+            "trigger": "Cost-benefit analysis showing significant savings with alternative tools",
+            "context": "Budget review periods"
+          },
+          {
+            "trigger": "Recommendation from peers or positive expert reviews",
+            "context": "Community or professional forums"
+          },
+          {
+            "trigger": "Requirement for multi-device or cross-platform security coverage",
+            "context": "Diverse IT environment"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "High cost of enterprise solutions like Splunk compared to alternatives",
+            "severity": 0.8
+          },
+          {
+            "objection": "Complexity of setup and ongoing maintenance",
+            "severity": 0.7
+          },
+          {
+            "objection": "Unreliable vendor estimates or misleading sizing information",
+            "severity": 0.9
+          },
+          {
+            "objection": "Excessive hardware requirements leading to system slowdowns",
+            "severity": 0.6
+          },
+          {
+            "objection": "Lack of support for needed formats or interoperability issues",
+            "severity": 0.5
+          },
+          {
+            "objection": "Risk of tool instability or breaking after upgrades",
+            "severity": 0.6
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Legacy SIEM/logging tools",
+            "reason": "Inefficient log forwarding or high maintenance overhead",
+            "threshold": "Persistent operational delays"
+          },
+          {
+            "from_product": "Competitive security suites",
+            "reason": "Better cost-to-performance ratio or multi-platform support",
+            "threshold": "Significant cost savings or feature gaps"
+          },
+          {
+            "from_product": "Previous software versions",
+            "reason": "Increased resource usage or performance degradation in updates",
+            "threshold": "System impact affecting productivity"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Cost-effectiveness and total cost of ownership",
+          "Performance efficiency and low resource consumption",
+          "Ease of deployment and maintenance",
+          "Accuracy and reliability of data handling",
+          "Scalability and future-proofing",
+          "Vendor credibility and support quality",
+          "Integration capabilities with existing infrastructure",
+          "Multi-platform and cross-device support"
+        ],
+        "deal_breakers": [
+          "Extremely high cost without justifiable ROI",
+          "Unreliable or inaccurate vendor data/sizing estimates",
+          "Severe performance degradation on existing systems",
+          "Lack of critical features (e.g., AI monitoring, threat detection)",
+          "Poor interoperability with current tools/environments"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "High license and operational costs, especially with scaling data volumes",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Complex and time-consuming setup/engineering for non-native data sources or custom integrations",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Unpredictable/hidden costs from storage, retention, or pipeline management",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Vendor lock-in that reduces flexibility and increases long-term costs",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Difficulty managing data residency and geo-location requirements",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Noisy or poorly-tuned alerts requiring manual oversight and time",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Lack of out-of-the-box security content and detection rules (for some platforms)",
+            "emotional_intensity": 0.4
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reduce total cost of ownership through efficient licensing and tiered storage",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Simplify log ingestion and pipeline management, especially for diverse/on-prem sources",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Achieve a unified platform for security and operational monitoring to consolidate tools",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Maintain control over data location and compliance (data residency)",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Minimize manual engineering and setup time for ongoing operations",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Enable parallel evaluation or multi-SIEM strategies without vendor lock-in",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Have reliable, actionable security alerts with low noise",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to consolidate security and operational monitoring on a single platform to reduce costs",
+            "context": "Platform evaluation"
+          },
+          {
+            "trigger": "Existing solution (e.g., ELK stack) lacks out-of-the-box security features or becomes too manual",
+            "context": "Feature gap"
+          },
+          {
+            "trigger": "Data residency requirements force reconsideration of cloud-native or off-prem solutions",
+            "context": "Compliance mandate"
+          },
+          {
+            "trigger": "License costs or operational overhead of current solution become unsustainable",
+            "context": "Cost pressure"
+          },
+          {
+            "trigger": "Desire to implement a modern tiered storage or observability pipeline strategy",
+            "context": "Architectural refresh"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "High and unpredictable licensing costs that scale aggressively with data volume",
+            "severity": 0.9
+          },
+          {
+            "objection": "Platform is not a true SIEM or lacks critical security features out-of-the-box",
+            "severity": 0.7
+          },
+          {
+            "objection": "Difficult or expensive to integrate with non-native (e.g., non-Microsoft) data sources",
+            "severity": 0.7
+          },
+          {
+            "objection": "Vendor lock-in reduces future flexibility and increases switching costs",
+            "severity": 0.6
+          },
+          {
+            "objection": "Requires significant ongoing manual effort for pipeline management and alert tuning",
+            "severity": 0.5
+          },
+          {
+            "objection": "Complexity of managing storage, retention, and data movement between tiers",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Elastic/ELK",
+            "reason": "Lack of out-of-the-box SIEM features, requiring excessive build-from-scratch effort",
+            "threshold": "Team size or skill constraints make custom development unsustainable"
+          },
+          {
+            "from_product": "Microsoft Sentinel",
+            "reason": "Challenging/expensive integration for on-prem or non-Microsoft data sources",
+            "threshold": "Multi-cloud or hybrid environment makes Sentinel inefficient"
+          },
+          {
+            "from_product": "Splunk",
+            "reason": "License costs become prohibitive as data volumes grow",
+            "threshold": "Cost exceeds budget or value derived, especially without tiered storage"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Total Cost of Ownership (licensing + operations)",
+          "Ease of Integration & Setup (especially for diverse data sources)",
+          "Out-of-the-box Security Features & Content",
+          "Data Residency & Compliance Control",
+          "Flexibility & Vendor Lock-in Risk",
+          "Unified Platform for Security & Operations"
+        ],
+        "deal_breakers": [
+          "Inability to meet data residency or geo-location requirements",
+          "Prohibitively high or unpredictable licensing costs at scale",
+          "Lack of true SIEM capabilities or critical security features",
+          "Excessive manual engineering required for basic operations"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Excessive log volume and high data ingestion costs",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Difficulty justifying new infrastructure investments to management",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Fear of product upgrades breaking existing functionality or introducing bugs",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Inadequate or absent vendor support and documentation",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poor user interface and navigation difficulties",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reduce Splunk license costs by filtering or rerouting low-value logs before ingestion",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Maintain stable, reliable system performance without disruptive upgrades",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Achieve efficient data filtering and parsing at the edge (e.g., via Heavy Forwarders or Edge Processor)",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Onboard new data sources and use cases without increasing license spend",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Ability to significantly reduce data ingestion costs through pre-processing",
+            "context": "Justifying ROI to management for tools like Edge Processor"
+          },
+          {
+            "trigger": "Need to solve specific technical issues (e.g., Deployment Server forwarder management breaks after upgrade)",
+            "context": "Post-upgrade troubleshooting requiring fixes or workarounds"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "New features (e.g., Edge Processor) do not provide unique value over existing tools (e.g., Heavy Forwarders)",
+            "severity": 0.8
+          },
+          {
+            "objection": "Product upgrades introduce bugs, instability, and performance degradation without solving user problems",
+            "severity": 0.9
+          },
+          {
+            "objection": "Difficulty obtaining support or clear documentation for troubleshooting",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Splunk (specific versions)",
+            "reason": "Post-acquisition decline in product quality, increased bugs, and slower performance",
+            "threshold": "Multiple problematic version releases that degrade user experience and stability"
+          },
+          {
+            "from_product": "Legacy systems or manual processes",
+            "reason": "Need for automation, better logging, and print/update capabilities",
+            "threshold": "Manual processes (e.g., paper logs) become too cumbersome and error-prone"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Cost efficiency and license optimization",
+          "System stability and upgrade safety",
+          "Operational efficiency and automation",
+          "Vendor support and documentation quality",
+          "Feature necessity and unique value"
+        ],
+        "deal_breakers": [
+          "Product upgrades that break core functionality or introduce critical bugs",
+          "Inability to reduce or control high data ingestion costs",
+          "Lack of responsive vendor support for critical issues"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.5,
+      "reddit": 0.5,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Existing SIEMs produce too much noise and lack control",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "Legacy SIEM query languages are inefficient and slow",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "Inability to effectively correlate low-risk events to detect advanced threats",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0426
+        },
+        {
+          "signal": "High cost and overhead of legacy SIEM platforms",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "Frustration with third-party integration gaps and immature features",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "Concern that managed SOC services won't cover custom detection rules",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "Unclear SLA or performance expectations for search throughput",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "Retraining required for new query language (CQL)",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "Need to use workaround platform features due to product's newness and tech debt",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "High cost of log ingestion (especially over 10GB/day) and unclear pricing renewal impact.",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "Lack of predefined rules and integrations for specific platforms (e.g., AWS VPCFlow, Fortigate).",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "Complexity and steep learning curve for newer or more comprehensive security tools.",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Faster search performance and lower latency",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "More control over alerting and detection logic",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "Reduced alert noise and false positives",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "Effective correlation of disparate events (e.g., payroll changes + password changes)",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "Cost savings compared to incumbent solutions",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "Unified platform for security telemetry to avoid data gravity issues",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "Leverage existing XDR vendor investment and first-party data synergies",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "Ability to extend functionality via APIs for automation and validation",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "Mature, out-of-the-box third-party integrations",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "Comprehensive, 'one person army' SIEM with extensive query and rule capabilities.",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "Cost-effective solution with transparent pricing and manageable log storage.",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        },
+        {
+          "signal": "High-quality integrations and a mature platform suitable for large enterprises.",
+          "count": 1,
+          "frequency": 0.0141,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0423
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Managed SOC service does not monitor custom detection rules",
+          "count": 1,
+          "frequency": 0.0217,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0652
+        },
+        {
+          "signal": "Critical missing third-party integrations",
+          "count": 1,
+          "frequency": 0.0217,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0652
+        },
+        {
+          "signal": "Excessive retraining requirements without clear ROI",
+          "count": 1,
+          "frequency": 0.0217,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0652
+        },
+        {
+          "signal": "Unstable platform or frequent architectural changes",
+          "count": 1,
+          "frequency": 0.0217,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0652
+        },
+        {
+          "signal": "Lack of essential detection capabilities without expensive add-ons",
+          "count": 1,
+          "frequency": 0.0217,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0652
+        },
+        {
+          "signal": "Significant price hike upon renewal",
+          "count": 1,
+          "frequency": 0.0217,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0652
+        },
+        {
+          "signal": "Lack of critical integrations (e.g., AWS, Fortigate)",
+          "count": 1,
+          "frequency": 0.0217,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0652
+        },
+        {
+          "signal": "Not scalable for large enterprise environments",
+          "count": 1,
+          "frequency": 0.0217,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0652
+        },
+        {
+          "signal": "Unpredictable or hidden pricing structures",
+          "count": 1,
+          "frequency": 0.0217,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0652
+        },
+        {
+          "signal": "Software that causes system instability or crashes",
+          "count": 1,
+          "frequency": 0.0217,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0652
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Incumbent SIEM/SOC solution 'just wasn't working out'",
+          "count": 1,
+          "frequency": 0.0227,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0682
+        },
+        {
+          "signal": "Cost advantage and lower overhead compared to previous solution",
+          "count": 1,
+          "frequency": 0.0227,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0682
+        },
+        {
+          "signal": "Desire to consolidate security telemetry with existing XDR vendor",
+          "count": 1,
+          "frequency": 0.0227,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0682
+        },
+        {
+          "signal": "Need for better detection and correlation capabilities",
+          "count": 1,
+          "frequency": 0.0227,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0682
+        },
+        {
+          "signal": "Vendor's aggressive development pace and future roadmap",
+          "count": 1,
+          "frequency": 0.0227,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0682
+        },
+        {
+          "signal": "Need to replace or upgrade existing security stack due to performance or feature gaps.",
+          "count": 1,
+          "frequency": 0.0227,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0682
+        },
+        {
+          "signal": "Positive word-of-mouth or strong community support (e.g., GitHub repositories, query hubs).",
+          "count": 1,
+          "frequency": 0.0227,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0682
+        },
+        {
+          "signal": "Free trial or included capacity (e.g., 10GB free ingestion) allowing for evaluation.",
+          "count": 1,
+          "frequency": 0.0227,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0682
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "medium": 0.333,
+        "low": 0.667
+      }
+    }
+  },
+  "cluster_3": {
+    "member_count": 1,
+    "representative_batches": [
+      {
+        "pain_points": [],
+        "desired_outcomes": [],
+        "purchase_triggers": [],
+        "objections": [],
+        "switching_triggers": [],
+        "decision_factors_ranked": [],
+        "deal_breakers": [],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 1.0,
+      "reddit": 0.0,
+      "csv": 0.0
+    },
+    "single_source_warning": true,
+    "aggregate_signals": {
+      "top_pain_points": [],
+      "top_desired_outcomes": [],
+      "top_deal_breakers": [],
+      "top_purchase_triggers": [],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "low": 1.0
+      }
+    }
+  },
+  "cluster_4": {
+    "member_count": 19,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Uncertainty about best practices for implementing AI policies",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Lack of ready-made templates or guidance for AI usage policies",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Exposure of sensitive/PII data in AI interactions leading to potential leaks",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Inability to effectively debug issues without access to real customer data, risking security",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Dependence on external LLM providers with concerns about policy adherence and compromise",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Traditional DLP solutions failing to detect browser-based AI interactions",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "High cost and complexity of implementing security measures for AI tools",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Lack of visibility into data sent to AI models, leading to uncontrolled data breaches",
+            "emotional_intensity": 0.85
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Clear, enforceable AI usage policies that balance security and development progress",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Integration of AI security tools with existing identity providers for access control",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Prevention of sensitive data leaks in AI interactions through real-time detection and blocking",
+            "priority": 1.0
+          },
+          {
+            "outcome": "Insight into data inputs and outputs of AI models to maintain control and compliance",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Cost-effective, scalable security solutions for large organizations (e.g., 5000+ users)",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Internal or self-hosted LLMs to eliminate reliance on external providers",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Browser-level security that understands context beyond regex patterns for AI interactions",
+            "priority": 0.65
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Data leak incident involving AI tools",
+            "context": "Post-incident response to prevent recurrence"
+          },
+          {
+            "trigger": "Scaling AI usage across organization",
+            "context": "Increased risk exposure with broader adoption"
+          },
+          {
+            "trigger": "Regulatory or compliance requirements",
+            "context": "Need to meet data protection standards"
+          },
+          {
+            "trigger": "Integration with existing identity and access management systems",
+            "context": "Seamless addition to security stack"
+          },
+          {
+            "trigger": "Recommendation from peers or trusted sources",
+            "context": "Evidence of effectiveness in similar environments"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "High cost relative to perceived value, especially for large user bases",
+            "severity": 0.6
+          },
+          {
+            "objection": "Complexity of implementation and steep learning curve for new tools",
+            "severity": 0.5
+          },
+          {
+            "objection": "Doubt about security of external AI providers despite enterprise claims",
+            "severity": 0.7
+          },
+          {
+            "objection": "Limited effectiveness of traditional DLP in modern AI contexts",
+            "severity": 0.65
+          },
+          {
+            "objection": "Internal resistance due to impact on developer productivity or workflow",
+            "severity": 0.4
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Traditional DLP solutions",
+            "reason": "Inability to detect or block browser-based AI data leaks",
+            "threshold": "Repeated security incidents or compliance failures"
+          },
+          {
+            "from_product": "Unsecured external LLMs",
+            "reason": "High risk of data breaches and lack of control",
+            "threshold": "Evidence of data exposure or policy violations"
+          },
+          {
+            "from_product": "Manual policy enforcement",
+            "reason": "Inefficiency and inability to scale with AI adoption",
+            "threshold": "Increased organizational usage and incident frequency"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Data security and leak prevention",
+          "Integration with existing identity/security infrastructure",
+          "Cost-effectiveness and scalability",
+          "Ease of implementation and user adoption",
+          "Visibility and control over AI data flows",
+          "Regulatory compliance support"
+        ],
+        "deal_breakers": [
+          "Failure to prevent sensitive data leaks in real-time",
+          "Poor integration with existing IDP or security tools",
+          "Prohibitively high cost for large-scale deployment",
+          "Inability to provide audit trails for AI interactions"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "High data ingestion costs and unpredictable scaling expenses",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Complex, time-consuming deployment and configuration requiring significant in-house expertise",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Inadequate detection capabilities from previous solutions, missing threats that competitors found",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Excessive, noisy log data from security tools (e.g., Defender for Linux) that complicates analysis",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Difficulty managing and optimizing log volume to stay within license limits",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Poor vendor support experiences with long wait times and unhelpful responses",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Quick time-to-value and faster return on investment (ROI)",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Comprehensive threat detection that finds what other solutions miss",
+            "priority": 1.0
+          },
+          {
+            "outcome": "Efficient, out-of-the-box functionality with minimal custom development required",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Powerful data manipulation and dashboarding for complex security analytics",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Reliable protection that stays out of the way and doesn't degrade system performance",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Clear visibility into AI usage and associated threats across the organization",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Cost predictability and control over data ingestion and licensing",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Previous security solution failure (e.g., activation issues, missed threats)",
+            "context": "Incident-driven replacement"
+          },
+          {
+            "trigger": "Need for more advanced analytics and data manipulation capabilities",
+            "context": "Evolving security maturity"
+          },
+          {
+            "trigger": "Significant cost savings opportunity (e.g., healthcare discounts, volume pricing)",
+            "context": "Budget optimization"
+          },
+          {
+            "trigger": "Requirement to monitor new threat vectors like AI usage",
+            "context": "Expanding security scope"
+          },
+          {
+            "trigger": "Recommendation from trusted industry advisor or peer",
+            "context": "Social proof in specialized domains"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "High total cost of ownership and unpredictable scaling costs",
+            "severity": 0.9
+          },
+          {
+            "objection": "Steep learning curve and need for specialized engineering talent",
+            "severity": 0.7
+          },
+          {
+            "objection": "Concerns about vendor lock-in and difficult migration paths",
+            "severity": 0.6
+          },
+          {
+            "objection": "Perceived as overkill for simple monitoring and trend tracking",
+            "severity": 0.5
+          },
+          {
+            "objection": "Complex deployment and management requiring significant ongoing maintenance",
+            "severity": 0.7
+          },
+          {
+            "objection": "Insufficient out-of-the-box integrations or content for specific use cases",
+            "severity": 0.6
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Competitive security suites",
+            "reason": "Missed critical threats that new solution detected",
+            "threshold": "Single major detection failure"
+          },
+          {
+            "from_product": "Open-source/DIY solutions (e.g., ELK)",
+            "reason": "Require too much development time and specialized expertise",
+            "threshold": "Resource constraints outweigh cost savings"
+          },
+          {
+            "from_product": "Any existing solution",
+            "reason": "Excessive, unmanageable data ingestion costs",
+            "threshold": "Cost overruns exceed budget tolerance"
+          },
+          {
+            "from_product": "Previous vendor",
+            "reason": "Poor customer support and unreliable service",
+            "threshold": "Multiple negative support experiences"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Detection effectiveness and security efficacy",
+          "Total cost of ownership and cost predictability",
+          "Ease of deployment and time-to-value",
+          "Quality of support and documentation",
+          "Scalability and performance under load",
+          "Integration capabilities with existing tools",
+          "Vendor reputation and industry presence"
+        ],
+        "deal_breakers": [
+          "Failure to detect known threats that competitors catch",
+          "Unpredictable, runaway costs that break budget",
+          "Unreliable software that turns itself off or crashes",
+          "Extremely poor customer support with no resolution",
+          "Excessive system resource consumption that impacts operations"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Lack of visibility into AI tool usage and data flows",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Fear of data leakage through AI prompts (PII, sensitive data, intellectual property)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Inability to enforce security policies on AI usage across the organization",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Reactive incident response; missing incidents unless physically observed",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Difficulty in managing procurement and cost information for enterprise AI tools",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Complex or unclear setup/implementation of security tools",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Tools that hinder productivity or GenAI usage",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Real-time monitoring and detection of AI usage in the browser",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Visibility into input and output of enterprise AI tools for incident response teams",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Ability to set and enforce guardrails on AI usage without hindering productivity",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Automated redaction of sensitive data (PII, etc.) before data leaves the device",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Prevention of data exfiltration via AI prompts",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Simple setup and ease of use for security tools",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Solutions that work for both browser-based and app-based AI usage",
+            "priority": 0.75
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Incident involving data leakage via AI tools",
+            "context": "Post-incident response driving need for monitoring"
+          },
+          {
+            "trigger": "Enterprise adoption of AI tools (e.g., ChatGPT Enterprise) without native security controls",
+            "context": "Procurement of AI tools necessitating complementary security"
+          },
+          {
+            "trigger": "Recommendation from peers or trusted security community",
+            "context": "Social proof in professional forums or reviews"
+          },
+          {
+            "trigger": "Vendor acquisition by a major security player (e.g., SentinelOne acquiring Prompt Security)",
+            "context": "Increased credibility and integration potential"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Concern about sending sensitive data to a third-party AI model for analysis",
+            "severity": 0.8
+          },
+          {
+            "objection": "High cost or unclear pricing for enterprise security solutions",
+            "severity": 0.6
+          },
+          {
+            "objection": "Complex implementation and integration with existing systems",
+            "severity": 0.5
+          },
+          {
+            "objection": "Tool may hinder legitimate GenAI usage and productivity",
+            "severity": 0.6
+          },
+          {
+            "objection": "Reliability issues with specific deployments (e.g., regional server problems)",
+            "severity": 0.4
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Manual monitoring / no tool",
+            "reason": "Reactive incident response is insufficient; need proactive detection",
+            "threshold": "After a data leakage incident or near-miss"
+          },
+          {
+            "from_product": "Generic DLP tools",
+            "reason": "Need AI-specific monitoring and browser-optimized protection",
+            "threshold": "When existing DLP fails to cover AI usage channels"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Effectiveness in detecting and preventing AI data leakage",
+          "Ease of deployment and integration (minimal disruption)",
+          "Ability to enforce policies without hindering user productivity",
+          "Vendor reputation and credibility (e.g., acquisition by major player)",
+          "Cost and licensing transparency",
+          "Support for both browser and app-based AI usage"
+        ],
+        "deal_breakers": [
+          "Requires sending sensitive data to external AI models for processing",
+          "Completely blocks legitimate AI tool usage",
+          "No visibility or control over browser-based AI interactions",
+          "Unreliable or buggy implementation causing operational issues"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "High-volume low-context alerts burn analysts out.",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "False positives overwhelm security teams, losing visibility in important areas.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Difficulty triaging true alerts; not knowing the severity or context (e.g., how many hops from critical data).",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Lack of trust in external detection baselines.",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Inherent insecurity of LLM-based agents due to core design limitations (no trust boundaries).",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Deployed AI agents lack proper sandboxing, input validation, and permission scoping.",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Friction and poor design in security tools lead to user frustration and inefficiency.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Buggy software with poor user experience and inadequate testing.",
+            "emotional_intensity": 0.8
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Achieve the right balance between alert noise and useful signal through tuning.",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Detect one or two attack stages with high fidelity and respond in time.",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Implement effective guardrails (input validation, output filtering, permission scoping, human-in-the-loop) around AI agents.",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Leverage external sources (DFIR reports, CISA advisories, vendor reports) for detection ideas rather than building from scratch.",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Enforce strict sandboxing and blast radius limits for AI agents.",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Improve alert context, grouping, and provide clear response playbooks.",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Ensure platforms handle data securely, even when users don't migrate to alternatives.",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to reduce false positives without losing visibility.",
+            "context": "Evaluating detection efficacy."
+          },
+          {
+            "trigger": "Need to test and secure AI agent deployments before attackers find vulnerabilities.",
+            "context": "Deploying LLM agents with tool access."
+          },
+          {
+            "trigger": "Desire for practical, tested detection content instead of brainstorming queries in isolation.",
+            "context": "Seeking to improve detection engineering."
+          },
+          {
+            "trigger": "Frustration with existing tool's instability, slowness, or cumbersome workflow.",
+            "context": "Considering upgrades or replacements."
+          },
+          {
+            "trigger": "Recognition that deployed agents are insecure due to engineering choices, not just inherent limitations.",
+            "context": "Seeking to implement proper security controls."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "LLMs are inherently insecure by design; security testing is pointless.",
+            "severity": 0.7
+          },
+          {
+            "objection": "External detection baselines are not trustworthy.",
+            "severity": 0.5
+          },
+          {
+            "objection": "Focus on eliminating false positives still leaves teams unable to assess true alert severity and context.",
+            "severity": 0.6
+          },
+          {
+            "objection": "Many AI security solutions are based on hype and ignore fundamental limitations.",
+            "severity": 0.7
+          },
+          {
+            "objection": "Agent frameworks skip essential sandboxing and permission scoping because it adds friction.",
+            "severity": 0.8
+          },
+          {
+            "objection": "Some academic research in the field is superficial clickbait rather than rigorous.",
+            "severity": 0.4
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Legacy security tools/versions",
+            "reason": "Poor performance (freezing, slowness), cumbersome workflows.",
+            "threshold": "Persistent workflow disruption and loss of productivity."
+          },
+          {
+            "from_product": "Untrusted or ineffective detection sources",
+            "reason": "Need for reliable, externally validated detection ideas.",
+            "threshold": "Lack of confidence in self-authored detections."
+          },
+          {
+            "from_product": "Insecure AI agent deployment frameworks",
+            "reason": "Recognition of need for proper sandboxing and guardrails.",
+            "threshold": "Realization of unacceptable risk exposure."
+          },
+          {
+            "from_product": "Buggy, poorly designed software",
+            "reason": "Frustration with user experience, support issues, and lack of testing.",
+            "threshold": "Critical workflow blockage and loss of trust."
+          }
+        ],
+        "decision_factors_ranked": [
+          "Effectiveness in reducing false positives while maintaining visibility",
+          "Ability to provide high-fidelity alerts with actionable context",
+          "Robustness of security controls and sandboxing for AI agents",
+          "Practicality and real-world testing (not just theoretical)",
+          "Ease of use and integration into existing workflows",
+          "Quality of support and documentation",
+          "Cost-effectiveness"
+        ],
+        "deal_breakers": [
+          "Inability to practically reduce alert fatigue",
+          "Lack of actionable context for true positives",
+          "No effective sandboxing or trust boundaries for AI agents",
+          "Reliance on hype over addressing fundamental security limitations",
+          "Buggy, unreliable software with poor user experience",
+          "Inadequate or unresponsive customer support"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Fear of external LLM data breaches exposing sensitive company information",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Frustration with employees circumventing security policies to use unauthorized external AI tools",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Concern about being forced to use inferior internal AI tools that hinder productivity and competitiveness",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Anxiety about developers becoming obsolete without access to cutting-edge AI coding assistants",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Irritation with 'hamfisted' security solutions that block tools without providing viable alternatives",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Secure, internally hosted LLM solution that matches or exceeds the capability of external tools (e.g., Claude)",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Clear policy enforcement to block all unauthorized external AI resource usage",
+            "priority": 0.8
+          },
+          {
+            "outcome": "A secure, approved alternative to public AI platforms for handling sensitive/controlled information",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Maintain developer productivity and competitiveness by providing safe, effective AI tools",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Proactive monitoring and analysis of outbound AI requests (similar to email security)",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Evidence of employees using personal credit cards to buy unauthorized AI services (e.g., Claude)",
+            "context": "Policy violation and data exfiltration risk"
+          },
+          {
+            "trigger": "Recognition that competitors are gaining an edge by using superior AI tools",
+            "context": "Competitive pressure and fear of falling behind"
+          },
+          {
+            "trigger": "Implementation of governance (GRC) or security team mandating a controlled solution",
+            "context": "Compliance and internal security policy enforcement"
+          },
+          {
+            "trigger": "Concern over a potential large-scale hack of an external AI provider",
+            "context": "Risk mitigation for data exposure"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Internally hosted LLMs are not as effective as leading external tools (e.g., Claude for coding), hurting productivity",
+            "severity": 0.9
+          },
+          {
+            "objection": "Blocking all external AI is an overreaction that will anger and demotivate employees",
+            "severity": 0.7
+          },
+          {
+            "objection": "Solution requires frequent (e.g., biannual) re-evaluation to keep up with AI advancements",
+            "severity": 0.6
+          },
+          {
+            "objection": "Cost and upgrade path for hardware/software is unclear",
+            "severity": 0.5
+          },
+          {
+            "objection": "Lack of self-hosted options for major AI models (ChatGPT, Grok, etc.)",
+            "severity": 0.4
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Unrestricted use of external/public AI tools (e.g., ChatGPT, Claude)",
+            "reason": "Security policy violation and data leakage risk",
+            "threshold": "Mandate from governance/security team or evidence of data exposure"
+          },
+          {
+            "from_product": "Inferior or no internal AI tool provision",
+            "reason": "Developer productivity loss and competitive disadvantage",
+            "threshold": "Developers actively seeking external tools or management noting performance gaps"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Security & Data Control",
+          "Tool Efficacy & Performance",
+          "Policy Enforcement & Compliance",
+          "Developer Productivity & Satisfaction",
+          "Cost & Upgrade Path"
+        ],
+        "deal_breakers": [
+          "No secure, internal alternative provided",
+          "Internal AI tool is significantly inferior to external leaders",
+          "No mechanism to enforce blocking of external AI"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.5,
+      "reddit": 0.5,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Inability to find quality alternatives after using a product that sets a high bar",
+          "count": 2,
+          "frequency": 0.0164,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.041
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Predictable and reasonable total cost of ownership",
+          "count": 1,
+          "frequency": 0.0088,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0265
+        },
+        {
+          "signal": "Effective AI usage monitoring and threat detection",
+          "count": 1,
+          "frequency": 0.0088,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0265
+        },
+        {
+          "signal": "Reduced manual effort for rule/dashboard creation",
+          "count": 1,
+          "frequency": 0.0088,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0265
+        },
+        {
+          "signal": "Clear understanding of what support covers",
+          "count": 1,
+          "frequency": 0.0088,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0265
+        },
+        {
+          "signal": "Integration with existing data pipelines and tools",
+          "count": 1,
+          "frequency": 0.0088,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0265
+        },
+        {
+          "signal": "Quick time-to-value and faster return on investment (ROI)",
+          "count": 1,
+          "frequency": 0.0088,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0265
+        },
+        {
+          "signal": "Comprehensive threat detection that finds what other solutions miss",
+          "count": 1,
+          "frequency": 0.0088,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0265
+        },
+        {
+          "signal": "Efficient, out-of-the-box functionality with minimal custom development required",
+          "count": 1,
+          "frequency": 0.0088,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0265
+        },
+        {
+          "signal": "Powerful data manipulation and dashboarding for complex security analytics",
+          "count": 1,
+          "frequency": 0.0088,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0265
+        },
+        {
+          "signal": "Reliable protection that stays out of the way and doesn't degrade system performance",
+          "count": 1,
+          "frequency": 0.0088,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0265
+        },
+        {
+          "signal": "Clear visibility into AI usage and associated threats across the organization",
+          "count": 1,
+          "frequency": 0.0088,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0265
+        },
+        {
+          "signal": "Cost predictability and control over data ingestion and licensing",
+          "count": 1,
+          "frequency": 0.0088,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0265
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Unpredictable or exorbitant pricing",
+          "count": 1,
+          "frequency": 0.013,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.039
+        },
+        {
+          "signal": "Lack of clarity on support boundaries",
+          "count": 1,
+          "frequency": 0.013,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.039
+        },
+        {
+          "signal": "Requires prohibitive internal engineering effort",
+          "count": 1,
+          "frequency": 0.013,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0519
+        },
+        {
+          "signal": "Failure to detect known threats that competitors catch",
+          "count": 1,
+          "frequency": 0.013,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.039
+        },
+        {
+          "signal": "Unpredictable, runaway costs that break budget",
+          "count": 1,
+          "frequency": 0.013,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.039
+        },
+        {
+          "signal": "Unreliable software that turns itself off or crashes",
+          "count": 1,
+          "frequency": 0.013,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.039
+        },
+        {
+          "signal": "Extremely poor customer support with no resolution",
+          "count": 1,
+          "frequency": 0.013,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.039
+        },
+        {
+          "signal": "Excessive system resource consumption that impacts operations",
+          "count": 1,
+          "frequency": 0.013,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.039
+        },
+        {
+          "signal": "Unacceptable operational complexity and management overhead",
+          "count": 1,
+          "frequency": 0.013,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.039
+        },
+        {
+          "signal": "Lack of data security and control in AI model usage",
+          "count": 1,
+          "frequency": 0.013,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.039
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Need to upgrade from basic monitoring to comprehensive AI security",
+          "count": 1,
+          "frequency": 0.0139,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0417
+        },
+        {
+          "signal": "Consolidation of security tools to reduce complexity",
+          "count": 1,
+          "frequency": 0.0139,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0417
+        },
+        {
+          "signal": "Requirement to meet compliance for AI/ML usage",
+          "count": 1,
+          "frequency": 0.0139,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0417
+        },
+        {
+          "signal": "Previous security solution failure (e.g., activation issues, missed threats)",
+          "count": 1,
+          "frequency": 0.0139,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0417
+        },
+        {
+          "signal": "Need for more advanced analytics and data manipulation capabilities",
+          "count": 1,
+          "frequency": 0.0139,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0417
+        },
+        {
+          "signal": "Significant cost savings opportunity (e.g., healthcare discounts, volume pricing)",
+          "count": 1,
+          "frequency": 0.0139,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0417
+        },
+        {
+          "signal": "Requirement to monitor new threat vectors like AI usage",
+          "count": 1,
+          "frequency": 0.0139,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0417
+        },
+        {
+          "signal": "Recommendation from trusted industry advisor or peer",
+          "count": 1,
+          "frequency": 0.0139,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0417
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "low": 0.789,
+        "medium": 0.211
+      }
+    }
+  },
+  "cluster_5": {
+    "member_count": 7,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Frustration with outdated security policies like mandatory password expiration that are still taught/enforced despite being known as ineffective for years.",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Annoyance at users who don't care about learning or following security best practices, creating compliance and risk challenges.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Difficulty with tools that are not interoperable with professional ecosystems (e.g., Publisher files not usable by agencies/web hosts), forcing extra work or learning new software.",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Irritation at price increases for software after purchase, leading to hesitation in repurchasing.",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Frustration with organizational inertia where no one wants to change established systems because accountability is feared.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Annoyance at password policies that lead to less secure user behavior (e.g., writing down passwords, predictable patterns) and increased support requests.",
+            "emotional_intensity": 0.8
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Seamless integration and compatibility across platforms/devices (e.g., Microsoft 365 syncing between desktop and app).",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Effective, modern security practices that replace outdated ones like password expiration, focusing on MFA, protection, and detection.",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Tools that are easy to use, install, and manage without obtrusive performance impact or complexity.",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Reliable and consistent performance across different formats/devices (e.g., Hulu app working identically on Fire Tablet and Roku TV).",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Software that is affordable with stable pricing, avoiding unexpected cost hikes.",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Failure of existing solution (e.g., couldn't install McAfee after days, switched to Norton).",
+            "context": "When current product is unusable or unreliable."
+          },
+          {
+            "trigger": "Need for specific functionality (e.g., HDR image creation with Photomatix Pro after learning from a book).",
+            "context": "When a tool addresses a precise professional or personal need."
+          },
+          {
+            "trigger": "Realization of necessity due to an incident (e.g., needing Spanish after an accident with a non-English speaker).",
+            "context": "When an event highlights a gap in skills or tools."
+          },
+          {
+            "trigger": "Desire to replace outdated systems (e.g., dumping cable for streaming services like Hulu).",
+            "context": "When seeking modern, flexible alternatives."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Price increases after purchase make repurchasing or renewing less attractive.",
+            "severity": 0.6
+          },
+          {
+            "objection": "Tools that lack professional interoperability create extra work and limit usefulness.",
+            "severity": 0.7
+          },
+          {
+            "objection": "Security policies that are annoying lead to user workarounds and reduced security.",
+            "severity": 0.8
+          },
+          {
+            "objection": "Organizational resistance to change hinders adoption of better practices.",
+            "severity": 0.75
+          },
+          {
+            "objection": "Software that drains resources (e.g., battery) or has usability issues (e.g., font readability).",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "McAfee",
+            "reason": "Installation failures and frustration after days of trying.",
+            "threshold": "Complete inability to install."
+          },
+          {
+            "from_product": "Cable/satellite TV",
+            "reason": "Desire for modern, flexible streaming options.",
+            "threshold": "Dissatisfaction with traditional service cost/limitations."
+          },
+          {
+            "from_product": "Default or outdated security tools",
+            "reason": "Need for effective, up-to-date protection aligned with current best practices.",
+            "threshold": "Recognition that existing policies are ineffective or counterproductive."
+          }
+        ],
+        "decision_factors_ranked": [
+          "Ease of use and installation",
+          "Compatibility and integration across platforms",
+          "Effectiveness and modern security features",
+          "Reliability and consistent performance",
+          "Cost and pricing stability",
+          "Professional interoperability"
+        ],
+        "deal_breakers": [
+          "Tools that are not interoperable with professional ecosystems",
+          "Security policies that increase user friction and reduce actual security",
+          "Significant price hikes after initial purchase",
+          "Software that causes major performance issues or resource drain"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Password policies are dictated by external forces like cyber insurance and certifications, not security best practices.",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Implementing modern security standards (like NIST) faces internal resistance and bureaucratic inertia.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Monitoring solutions for breaches are unreliable with poor signal-to-noise ratios.",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Users are an inconsistent and unpredictable security weakness.",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "MFA is not universally implemented despite being known as a critical improvement.",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Security awareness training is often treated as one-off, not continuous.",
+            "emotional_intensity": 0.55
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Security policies based on evidence and modern standards (like NIST), not outdated compliance.",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Reliable, actionable threat detection and breach monitoring with low false positives.",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Effective, continuous user security awareness that reduces real-world vulnerability.",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Universal adoption of MFA and other foundational security controls.",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Security tools that work seamlessly and integrate well with existing systems.",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Replacement of a problematic or ineffective existing security tool/monitor.",
+            "context": "Reviewer replaced a previous battery monitor that 'caused problems' with a better one."
+          },
+          {
+            "trigger": "Need to solve a specific, acute security gap (e.g., inability to set custom ringtones revealed a control gap).",
+            "context": "Switching phones created a need for a specific functionality that was missing."
+          },
+          {
+            "trigger": "External compliance or insurance requirement forcing a tool or policy change.",
+            "context": "Cyber insurance mandated reverting to draconian password policies."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "New security standards/approaches (like eliminating password expiry) are adopted without the full foundational support, creating risk.",
+            "severity": 0.8
+          },
+          {
+            "objection": "Vendors/solutions overpromise and underdeliver; many monitoring tools are 'snake oil'.",
+            "severity": 0.85
+          },
+          {
+            "objection": "Internal politics and inertia prevent implementing substantive security improvements.",
+            "severity": 0.7
+          },
+          {
+            "objection": "User convenience is prioritized over robust, if occasionally inconvenient, security controls.",
+            "severity": 0.65
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Pandora",
+            "reason": "Found a service with better integration (Echo) and features.",
+            "threshold": "New service offered superior integration and eliminated need for old one."
+          },
+          {
+            "from_product": "Older/other security tools or policies",
+            "reason": "Tools were unreliable, caused problems, or policies were based on bad requirements.",
+            "threshold": "Frustration with ineffectiveness, slowness, or deception (e.g., taking earned rewards away)."
+          }
+        ],
+        "decision_factors_ranked": [
+          "Effectiveness & Reliability",
+          "Adherence to Modern Security Standards",
+          "Ease of Use & Integration",
+          "Actionable Intelligence (Low Noise)",
+          "Cost/Value",
+          "User Experience & Adoption Friction"
+        ],
+        "deal_breakers": [
+          "Tools that are deceptive or actively undermine user trust (e.g., removing earned features).",
+          "Solutions that fail to work reliably or consistently in production.",
+          "Policies mandated by external parties that blatantly contradict security best practices.",
+          "Vendors that do not respond to support requests when products fail."
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Frustration with outdated password policies that enforce arbitrary length/character rules and frequent changes, ignoring actual security",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Annoyance with password meters that misjudge strong passphrases as weak, eroding trust in security systems",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Irritation with hidden costs or 'bait-and-switch' tactics in apps that appear free but require subscriptions or in-app purchases",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Disappointment with apps that promise live/full access but require activation via a paid TV provider, limiting true streaming freedom",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Friction from clunky interfaces on tablets that require stylus use or lack intuitive organization features",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Workarounds like incrementing passwords (e.g., MyCompany2501, MyCompany2502) due to restrictive policies, reducing security",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Security tools that align with modern best practices (e.g., long passphrases, no arbitrary complexity rules) and accurately assess real risk",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Streamlined, transparent access without hidden paywalls or mandatory external subscriptions for core functionality",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Reliable, cross-platform compatibility (e.g., works on Fire Stick, Roku, tablets) with seamless syncing",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Simple, focused tools without unnecessary features or bloat that drain battery/data",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Clear, honest advertising about free trials vs. paid features to avoid 'gimmick' perceptions",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Tools that enhance productivity (e.g., remote printing, cloud backup, voice control) with minimal setup",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to replace a lost functionality (e.g., photo backup after switching phones)",
+            "context": "Transition between devices or services"
+          },
+          {
+            "trigger": "Adoption of new security protocols (e.g., two-factor authentication requiring a QR scanner app)",
+            "context": "Organization or platform mandates enhanced security"
+          },
+          {
+            "trigger": "Cutting cable cord and seeking streaming alternatives with live/local channels",
+            "context": "Cost-saving or lifestyle change away from traditional TV"
+          },
+          {
+            "trigger": "Desire for productivity or convenience (e.g., remote printing, voice-controlled lists)",
+            "context": "Daily workflow inefficiencies"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Password policies or strength meters that contradict security best practices, undermining trust",
+            "severity": 0.8
+          },
+          {
+            "objection": "Hidden costs or mandatory external subscriptions for promised features",
+            "severity": 0.7
+          },
+          {
+            "objection": "Poor usability (e.g., clunky tablet interfaces, lack of sorting features)",
+            "severity": 0.5
+          },
+          {
+            "objection": "Limited functionality (e.g., no live streaming, only on-demand past seasons)",
+            "severity": 0.4
+          },
+          {
+            "objection": "Perceived as a 'gimmick' rather than a useful tool",
+            "severity": 0.3
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Traditional cable/satellite TV",
+            "reason": "High cost and desire for flexible streaming",
+            "threshold": "Finding a service offering local channels, live TV, and cloud DVR at lower price"
+          },
+          {
+            "from_product": "Legacy security/password systems",
+            "reason": "Frustration with outdated policies (e.g., 8-character max, frequent changes)",
+            "threshold": "Policies seen as 'idiotic' or actively reducing security"
+          },
+          {
+            "from_product": "Apps with deceptive free trials",
+            "reason": "Bait-and-switch tactics with in-app purchases",
+            "threshold": "Realization core features require unexpected payments"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Security effectiveness and alignment with best practices",
+          "Cost transparency and value",
+          "Cross-platform compatibility and ease of use",
+          "Reliability and performance",
+          "Feature simplicity without bloat",
+          "Customer support responsiveness"
+        ],
+        "deal_breakers": [
+          "Password policies that enforce weak security (e.g., short length limits, arbitrary character rules)",
+          "Deceptive advertising (hidden fees, false 'free' claims)",
+          "Lack of compatibility with key devices/platforms",
+          "Unreliable core functionality"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Companies implementing password policy changes without foundational security maturity, leading to 'self inflicted wounds'",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Clients move slowly; security professionals must adapt to their pace, not the latest guidance",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Password resets enforced without MFA compliance, causing frustration and poor security",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Inertia or 'job security' concerns slow policy updates despite better guidance",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Frequent password changes encourage insecure practices like writing passwords down",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Compliance frameworks with hard requirements force outdated practices despite new recommendations",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Geriatric providers and budget-limited environments (e.g., rural healthcare) resist complex security rebuilds",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Auditors and big organizations are slow to accept change, even when it's recommended",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Passwords are often short, easy to guess, and missing MFA",
+            "emotional_intensity": 0.8
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Implement password policy changes only after foundational controls (secure storage, breach detection, blocklists, rate limiting, strong requirements, education, MFA, logging) are in place",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Adopt modern security tools (strong MFA, passkeys, password filters, password managers) to reduce reliance on passwords",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Protect environments regardless of client-implemented policies, as MSSPs have no choice",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Reduce password reliance while maintaining compliance with frameworks like SP 800-53",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Achieve a balance: extend password expiry, enforce unique changes, without encouraging insecure habits",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Security processes that provide actual safety, not just religious adherence to outdated practices",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [],
+        "objections": [
+          {
+            "objection": "Password resets are still required in compliance frameworks (e.g., SP 800-53) for federal systems",
+            "severity": 0.8
+          },
+          {
+            "objection": "Organizations lack maturity to safely eliminate password expiration (missing foundational controls)",
+            "severity": 0.9
+          },
+          {
+            "objection": "Clients are not ready to adopt next-best security practices; pace is dictated by their capabilities",
+            "severity": 0.7
+          },
+          {
+            "objection": "Change is slow due to inertia, auditors, and internal resistance ('job security')",
+            "severity": 0.6
+          }
+        ],
+        "switching_triggers": [],
+        "decision_factors_ranked": [
+          "Compliance requirements (e.g., SP 800-53, industry frameworks)",
+          "Foundational security maturity (detection, MFA, education, etc.)",
+          "Client readiness and pace of adoption",
+          "Auditor acceptance of new guidance",
+          "Tooling availability (MFA, password filters, etc.)",
+          "User behavior impact (writing passwords down, predictable changes)"
+        ],
+        "deal_breakers": [
+          "Missing foundational security controls before policy change",
+          "Hard compliance requirements conflicting with new guidance",
+          "Client environments unable to support modern practices"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Frustration with low user-friendliness and complex setup processes",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Anxiety over security vulnerabilities from password policies and credential leaks",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Disappointment with incomplete features or platform-specific limitations",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Irritation with poor change management and buggy app updates",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Concern over balancing security with user experience and adoption",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Seamless, passwordless authentication with high security and low user friction",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Effective AI-driven monitoring for credential leaks and adaptive threat response",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Intuitive, user-friendly interfaces that reduce training and support needs",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Cross-platform compatibility and reliable performance across devices",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Continuous, autonomous security updates without disrupting user workflow",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to replace outdated systems (e.g., migrating from Windows 7) with modern, integrated solutions",
+            "context": "Technology refresh cycles"
+          },
+          {
+            "trigger": "Response to security incidents or exposure of credentials in dark web monitoring",
+            "context": "Proactive risk mitigation"
+          },
+          {
+            "trigger": "Desire to improve user experience while maintaining or enhancing security posture",
+            "context": "User adoption and satisfaction"
+          },
+          {
+            "trigger": "Requirement for compliance with evolving standards (e.g., NIST guidelines) or industry best practices",
+            "context": "Regulatory and audit pressures"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Fear that reducing password expiration weakens defenses and gives attackers more time",
+            "severity": 0.8
+          },
+          {
+            "objection": "Skepticism about the maturity and widespread adoption of passwordless solutions",
+            "severity": 0.6
+          },
+          {
+            "objection": "Frustration with poor implementation, buggy updates, or lack of platform support",
+            "severity": 0.7
+          },
+          {
+            "objection": "Concern that solutions add complexity without clear user or security benefits",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Legacy password-based systems",
+            "reason": "High user friction and security gaps",
+            "threshold": "When MFA or passwordless alternatives become viable and user-tested"
+          },
+          {
+            "from_product": "Incompatible or buggy applications",
+            "reason": "Poor performance, missing features, or broken updates",
+            "threshold": "When issues persist post-update and impact core functionality"
+          },
+          {
+            "from_product": "Traditional monitoring tools",
+            "reason": "Inability to adaptively respond to credential leaks or AI threats",
+            "threshold": "After a security incident or when advanced capabilities are needed"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Security effectiveness and threat detection",
+          "User experience and ease of adoption",
+          "Integration and compatibility with existing systems",
+          "Compliance with standards and best practices",
+          "Reliability and vendor support"
+        ],
+        "deal_breakers": [
+          "Significant increase in user friction or complexity",
+          "Failure to address core security vulnerabilities (e.g., credential leaks)",
+          "Poor cross-platform support or persistent technical bugs",
+          "Lack of clear path to passwordless or modern authentication"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.5,
+      "reddit": 0.5,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Frustration with outdated security policies like mandatory password expiration that are still taught/enforced despite being known as ineffective for years.",
+          "count": 1,
+          "frequency": 0.0222,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0667
+        },
+        {
+          "signal": "Annoyance at users who don't care about learning or following security best practices, creating compliance and risk challenges.",
+          "count": 1,
+          "frequency": 0.0222,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0667
+        },
+        {
+          "signal": "Difficulty with tools that are not interoperable with professional ecosystems (e.g., Publisher files not usable by agencies/web hosts), forcing extra work or learning new software.",
+          "count": 1,
+          "frequency": 0.0222,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0667
+        },
+        {
+          "signal": "Irritation at price increases for software after purchase, leading to hesitation in repurchasing.",
+          "count": 1,
+          "frequency": 0.0222,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0667
+        },
+        {
+          "signal": "Frustration with organizational inertia where no one wants to change established systems because accountability is feared.",
+          "count": 1,
+          "frequency": 0.0222,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0667
+        },
+        {
+          "signal": "Annoyance at password policies that lead to less secure user behavior (e.g., writing down passwords, predictable patterns) and increased support requests.",
+          "count": 1,
+          "frequency": 0.0222,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0667
+        },
+        {
+          "signal": "Frustration with outdated password policies that enforce arbitrary length/character rules and frequent changes, ignoring actual security",
+          "count": 1,
+          "frequency": 0.0222,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0667
+        },
+        {
+          "signal": "Annoyance with password meters that misjudge strong passphrases as weak, eroding trust in security systems",
+          "count": 1,
+          "frequency": 0.0222,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0667
+        },
+        {
+          "signal": "Irritation with hidden costs or 'bait-and-switch' tactics in apps that appear free but require subscriptions or in-app purchases",
+          "count": 1,
+          "frequency": 0.0222,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0667
+        },
+        {
+          "signal": "Disappointment with apps that promise live/full access but require activation via a paid TV provider, limiting true streaming freedom",
+          "count": 1,
+          "frequency": 0.0222,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0667
+        },
+        {
+          "signal": "Friction from clunky interfaces on tablets that require stylus use or lack intuitive organization features",
+          "count": 1,
+          "frequency": 0.0222,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0667
+        },
+        {
+          "signal": "Workarounds like incrementing passwords (e.g., MyCompany2501, MyCompany2502) due to restrictive policies, reducing security",
+          "count": 1,
+          "frequency": 0.0222,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0667
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Seamless integration and compatibility across platforms/devices (e.g., Microsoft 365 syncing between desktop and app).",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.075
+        },
+        {
+          "signal": "Effective, modern security practices that replace outdated ones like password expiration, focusing on MFA, protection, and detection.",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.075
+        },
+        {
+          "signal": "Tools that are easy to use, install, and manage without obtrusive performance impact or complexity.",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.075
+        },
+        {
+          "signal": "Reliable and consistent performance across different formats/devices (e.g., Hulu app working identically on Fire Tablet and Roku TV).",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.075
+        },
+        {
+          "signal": "Software that is affordable with stable pricing, avoiding unexpected cost hikes.",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.075
+        },
+        {
+          "signal": "Security tools that align with modern best practices (e.g., long passphrases, no arbitrary complexity rules) and accurately assess real risk",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.075
+        },
+        {
+          "signal": "Streamlined, transparent access without hidden paywalls or mandatory external subscriptions for core functionality",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.075
+        },
+        {
+          "signal": "Reliable, cross-platform compatibility (e.g., works on Fire Stick, Roku, tablets) with seamless syncing",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.075
+        },
+        {
+          "signal": "Simple, focused tools without unnecessary features or bloat that drain battery/data",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1
+        },
+        {
+          "signal": "Clear, honest advertising about free trials vs. paid features to avoid 'gimmick' perceptions",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.075
+        },
+        {
+          "signal": "Tools that enhance productivity (e.g., remote printing, cloud backup, voice control) with minimal setup",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.075
+        },
+        {
+          "signal": "Security policies based on evidence and modern standards (like NIST), not outdated compliance.",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.075
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Tools that are not interoperable with professional ecosystems",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "Security policies that increase user friction and reduce actual security",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "Significant price hikes after initial purchase",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "Software that causes major performance issues or resource drain",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "Password policies that enforce weak security (e.g., short length limits, arbitrary character rules)",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "Deceptive advertising (hidden fees, false 'free' claims)",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "Lack of compatibility with key devices/platforms",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "Unreliable core functionality",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "Tools that are deceptive or actively undermine user trust (e.g., removing earned features).",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "Solutions that fail to work reliably or consistently in production.",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Failure of existing solution (e.g., couldn't install McAfee after days, switched to Norton).",
+          "count": 1,
+          "frequency": 0.0435,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1304
+        },
+        {
+          "signal": "Need for specific functionality (e.g., HDR image creation with Photomatix Pro after learning from a book).",
+          "count": 1,
+          "frequency": 0.0435,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1304
+        },
+        {
+          "signal": "Realization of necessity due to an incident (e.g., needing Spanish after an accident with a non-English speaker).",
+          "count": 1,
+          "frequency": 0.0435,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1304
+        },
+        {
+          "signal": "Desire to replace outdated systems (e.g., dumping cable for streaming services like Hulu).",
+          "count": 1,
+          "frequency": 0.0435,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1304
+        },
+        {
+          "signal": "Need to replace a lost functionality (e.g., photo backup after switching phones)",
+          "count": 1,
+          "frequency": 0.0435,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1304
+        },
+        {
+          "signal": "Adoption of new security protocols (e.g., two-factor authentication requiring a QR scanner app)",
+          "count": 1,
+          "frequency": 0.0435,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1304
+        },
+        {
+          "signal": "Cutting cable cord and seeking streaming alternatives with live/local channels",
+          "count": 1,
+          "frequency": 0.0435,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1304
+        },
+        {
+          "signal": "Desire for productivity or convenience (e.g., remote printing, voice-controlled lists)",
+          "count": 1,
+          "frequency": 0.0435,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1304
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "low": 0.714,
+        "medium": 0.286
+      }
+    }
+  }
+}

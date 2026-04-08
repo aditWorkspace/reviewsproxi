@@ -1,0 +1,220 @@
+{"review_id": "cluster_1_b0_pp0", "trait_label": "Technical Frustration", "text": "Poor or inadequate product planning leading to flawed logic and technical issues that could be prevented early.", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp1", "trait_label": "Technical Frustration", "text": "Feeling undervalued or overworked, especially as a solo QA handling multiple projects, leading to burnout.", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp2", "trait_label": "Technical Frustration", "text": "Frustration with bugs and software patches that feel like paid updates rather than genuine fixes.", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_do0", "trait_label": "Technical Frustration", "text": "Better quality and fewer bugs in software through proactive QA involvement in planning phases.", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_do1", "trait_label": "Technical Frustration", "text": "Increased efficiency through automation tools and training to reduce manual workload.", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp0", "trait_label": "Technical Frustration", "text": "Excessive technical issues and bugs (lag, login problems, crashes)", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp1", "trait_label": "Technical Frustration", "text": "Poor user interface and confusing user experience", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp2", "trait_label": "Technical Frustration", "text": "Time-consuming manual testing and overwhelming workload", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_do0", "trait_label": "Technical Frustration", "text": "Reliable, bug-free performance across all platforms", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_do1", "trait_label": "Technical Frustration", "text": "Intuitive, user-friendly interface accessible to all skill levels", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp0", "trait_label": "Technical Frustration", "text": "Platform not being properly tested, leading to buggy software and poor user experience.", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp1", "trait_label": "Technical Frustration", "text": "Difficulty accessing app during test flow, requiring users to open separate tabs.", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp2", "trait_label": "Technical Frustration", "text": "Downloading problems like freezing and skipping that aren't present in other apps.", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_do0", "trait_label": "Technical Frustration", "text": "Intuitive and frictionless testing experience that doesn't interrupt workflow.", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_do1", "trait_label": "Technical Frustration", "text": "Comprehensive feature coverage for various tax situations and forms.", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp0", "trait_label": "Technical Frustration", "text": "Product is slow and unresponsive, simple operations fail nondeterministically forcing retries", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp1", "trait_label": "Technical Frustration", "text": "Workflow feels unnatural, overly complex, or confusing", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp2", "trait_label": "Technical Frustration", "text": "Software crashes frequently or has significant bugs", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_do0", "trait_label": "Technical Frustration", "text": "Software that is intuitive, sleek, and cooperative; can be started right away", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_do1", "trait_label": "Technical Frustration", "text": "Reliable performance with no crashes or bugs", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp0", "trait_label": "Technical Frustration", "text": "Buggy, unstable software that crashes frequently or performs unreliably", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp1", "trait_label": "Technical Frustration", "text": "Poor product support and infrequent updates, especially for premium-priced software", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp2", "trait_label": "Technical Frustration", "text": "Frustration with basic design flaws (e.g., missing keyboard)", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_do0", "trait_label": "Technical Frustration", "text": "Stable, bug-free software that performs reliably", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_do1", "trait_label": "Technical Frustration", "text": "Responsive, consistent product support and regular updates", "tone": "frustrated"}
+{"review_id": "cluster_4_b0_pp0", "trait_label": "Performance & Reliability Disappointment", "text": "Unreliable software with frequent crashes, freezes, or high CPU usage", "tone": "frustrated"}
+{"review_id": "cluster_4_b0_pp1", "trait_label": "Performance & Reliability Disappointment", "text": "Poorly tested updates or upgrades that break existing functionality", "tone": "frustrated"}
+{"review_id": "cluster_4_b0_pp2", "trait_label": "Performance & Reliability Disappointment", "text": "Ineffective or unresponsive customer support with long wait times or scripted responses", "tone": "frustrated"}
+{"review_id": "cluster_4_b0_do0", "trait_label": "Performance & Reliability Disappointment", "text": "Reliable, consistent performance without crashes or freezes", "tone": "frustrated"}
+{"review_id": "cluster_4_b0_do1", "trait_label": "Performance & Reliability Disappointment", "text": "Software that delivers advertised features as promised", "tone": "frustrated"}
+{"review_id": "cluster_4_b1_pp0", "trait_label": "Performance & Reliability Disappointment", "text": "Software crashes frequently leading to data loss", "tone": "frustrated"}
+{"review_id": "cluster_4_b1_pp1", "trait_label": "Performance & Reliability Disappointment", "text": "Poor customer support with impersonal, ineffective responses", "tone": "frustrated"}
+{"review_id": "cluster_4_b1_pp2", "trait_label": "Performance & Reliability Disappointment", "text": "Forced upgrades with artificial kill-switches on older versions", "tone": "frustrated"}
+{"review_id": "cluster_4_b1_do0", "trait_label": "Performance & Reliability Disappointment", "text": "Stable, reliable software without crashes or data corruption", "tone": "frustrated"}
+{"review_id": "cluster_4_b1_do1", "trait_label": "Performance & Reliability Disappointment", "text": "Effective, responsive customer support that solves problems", "tone": "frustrated"}
+{"review_id": "cluster_4_b2_pp0", "trait_label": "Performance & Reliability Disappointment", "text": "Frustration with forced software upgrades to maintain basic functionality (e.g., online banking)", "tone": "frustrated"}
+{"review_id": "cluster_4_b2_pp1", "trait_label": "Performance & Reliability Disappointment", "text": "Disappointment with buggy, unfinished, or beta-quality software being sold as final", "tone": "frustrated"}
+{"review_id": "cluster_4_b2_pp2", "trait_label": "Performance & Reliability Disappointment", "text": "Anger over software that corrupts data, crashes, or fails during critical tasks (e.g., backups, cloning)", "tone": "frustrated"}
+{"review_id": "cluster_4_b2_do0", "trait_label": "Performance & Reliability Disappointment", "text": "Reliable, consistent performance without crashes or data corruption", "tone": "frustrated"}
+{"review_id": "cluster_4_b2_do1", "trait_label": "Performance & Reliability Disappointment", "text": "Stable, thoroughly tested software releases, not 'beta' quality", "tone": "frustrated"}
+{"review_id": "cluster_4_b3_pp0", "trait_label": "Performance & Reliability Disappointment", "text": "Software crashes and bugs disrupting use", "tone": "frustrated"}
+{"review_id": "cluster_4_b3_pp1", "trait_label": "Performance & Reliability Disappointment", "text": "Critical bugs causing data loss (e.g., lost emails)", "tone": "frustrated"}
+{"review_id": "cluster_4_b3_pp2", "trait_label": "Performance & Reliability Disappointment", "text": "Poor installation and update processes", "tone": "frustrated"}
+{"review_id": "cluster_4_b3_do0", "trait_label": "Performance & Reliability Disappointment", "text": "Stable, bug-free performance", "tone": "frustrated"}
+{"review_id": "cluster_4_b3_do1", "trait_label": "Performance & Reliability Disappointment", "text": "Seamless installation and updates", "tone": "frustrated"}
+{"review_id": "cluster_4_b4_pp0", "trait_label": "Performance & Reliability Disappointment", "text": "Buggy performance and unreliable functionality", "tone": "frustrated"}
+{"review_id": "cluster_4_b4_pp1", "trait_label": "Performance & Reliability Disappointment", "text": "Poorly designed, non-intuitive interface", "tone": "frustrated"}
+{"review_id": "cluster_4_b4_pp2", "trait_label": "Performance & Reliability Disappointment", "text": "Features are hidden or require extensive manual reading to discover", "tone": "frustrated"}
+{"review_id": "cluster_4_b4_do0", "trait_label": "Performance & Reliability Disappointment", "text": "Smooth, stable, and bug-free performance", "tone": "frustrated"}
+{"review_id": "cluster_4_b4_do1", "trait_label": "Performance & Reliability Disappointment", "text": "Intuitive, easy-to-use interface with discoverable features", "tone": "frustrated"}
+{"review_id": "cluster_6_b0_pp0", "trait_label": "Testing Platform Friction", "text": "App crashes and is unstable, making tests impossible to complete", "tone": "frustrated"}
+{"review_id": "cluster_6_b0_pp1", "trait_label": "Testing Platform Friction", "text": "Cannot log in to the app after updates or due to persistent bugs", "tone": "frustrated"}
+{"review_id": "cluster_6_b0_pp2", "trait_label": "Testing Platform Friction", "text": "Excessive screeners and frequent disqualifications with no tests earned", "tone": "frustrated"}
+{"review_id": "cluster_6_b0_do0", "trait_label": "Testing Platform Friction", "text": "Reliable and stable app functionality with no crashes or login issues", "tone": "frustrated"}
+{"review_id": "cluster_6_b0_do1", "trait_label": "Testing Platform Friction", "text": "Consistent test opportunities with fair qualification process", "tone": "frustrated"}
+{"review_id": "cluster_6_b1_pp0", "trait_label": "Testing Platform Friction", "text": "Buggy app with frequent crashes, disappearing tests, and broken login/account creation", "tone": "frustrated"}
+{"review_id": "cluster_6_b1_pp1", "trait_label": "Testing Platform Friction", "text": "Being screened out/disqualified from tests with no feedback or explanation", "tone": "frustrated"}
+{"review_id": "cluster_6_b1_pp2", "trait_label": "Testing Platform Friction", "text": "Not being paid for completed work due to technical errors on the platform's side", "tone": "frustrated"}
+{"review_id": "cluster_6_b1_do0", "trait_label": "Testing Platform Friction", "text": "A stable, bug-free app that loads and runs tests reliably", "tone": "frustrated"}
+{"review_id": "cluster_6_b1_do1", "trait_label": "Testing Platform Friction", "text": "Transparent feedback when disqualified from a test or task", "tone": "frustrated"}
+{"review_id": "cluster_6_b2_pp0", "trait_label": "Testing Platform Friction", "text": "Critical login failures and loops after app updates prevent basic access", "tone": "frustrated"}
+{"review_id": "cluster_6_b2_pp1", "trait_label": "Testing Platform Friction", "text": "Tests disappear, get lost on upload, or reset mid-completion due to glitches", "tone": "frustrated"}
+{"review_id": "cluster_6_b2_pp2", "trait_label": "Testing Platform Friction", "text": "Unresponsive or absent support from the tester help center, with tickets closed without resolution", "tone": "frustrated"}
+{"review_id": "cluster_6_b2_do0", "trait_label": "Testing Platform Friction", "text": "A reliable, glitch-free app that allows consistent completion of tests and seamless login", "tone": "frustrated"}
+{"review_id": "cluster_6_b2_do1", "trait_label": "Testing Platform Friction", "text": "Responsive and helpful support that addresses technical issues and payment concerns promptly", "tone": "frustrated"}
+{"review_id": "cluster_6_b3_pp0", "trait_label": "Testing Platform Friction", "text": "App crashes frequently, causing lost tests and earnings.", "tone": "frustrated"}
+{"review_id": "cluster_6_b3_pp1", "trait_label": "Testing Platform Friction", "text": "Recurring error messages (e.g., \"Something went wrong\") disrupt workflow.", "tone": "frustrated"}
+{"review_id": "cluster_6_b3_pp2", "trait_label": "Testing Platform Friction", "text": "High screening effort with very low qualification rates, feeling like free labor.", "tone": "frustrated"}
+{"review_id": "cluster_6_b3_do0", "trait_label": "Testing Platform Friction", "text": "Stable, reliable app with minimal crashes and errors.", "tone": "frustrated"}
+{"review_id": "cluster_6_b3_do1", "trait_label": "Testing Platform Friction", "text": "Transparent and fair qualification process with compensation for screening effort.", "tone": "frustrated"}
+{"review_id": "cluster_6_b4_pp0", "trait_label": "Testing Platform Friction", "text": "Critical technical failures prevent basic functionality like app login, with recurring login loops after updates", "tone": "frustrated"}
+{"review_id": "cluster_6_b4_pp1", "trait_label": "Testing Platform Friction", "text": "Completed tests fail to upload or submit, resulting in lost work and no payment despite time invested", "tone": "frustrated"}
+{"review_id": "cluster_6_b4_pp2", "trait_label": "Testing Platform Friction", "text": "App crashes during tests or when starting tests, making completion impossible", "tone": "frustrated"}
+{"review_id": "cluster_6_b4_do0", "trait_label": "Testing Platform Friction", "text": "Reliable technical platform with consistent app performance and no crashes during tests", "tone": "frustrated"}
+{"review_id": "cluster_6_b4_do1", "trait_label": "Testing Platform Friction", "text": "Guaranteed payment for completed work with transparent upload confirmation and test tracking", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp0", "trait_label": "Mobile Performance & Reliability Issues", "text": "App is slow to load and lags, especially on mobile.", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp1", "trait_label": "Mobile Performance & Reliability Issues", "text": "Typing experience is poor: cursor jumps, letters dropped, unresponsive keyboard.", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp2", "trait_label": "Mobile Performance & Reliability Issues", "text": "Free version storage/block limit is too low, feels restrictive and misleading.", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_do0", "trait_label": "Mobile Performance & Reliability Issues", "text": "Fast, reliable syncing across all devices.", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_do1", "trait_label": "Mobile Performance & Reliability Issues", "text": "Smooth, responsive typing and editing experience on mobile.", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp0", "trait_label": "Mobile Performance & Reliability Issues", "text": "Mobile app crashes frequently, especially with large documents or after updates.", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp1", "trait_label": "Mobile Performance & Reliability Issues", "text": "Poor performance on mobile: laggy, slow, heavy, no smooth scrolling.", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp2", "trait_label": "Mobile Performance & Reliability Issues", "text": "Critical bugs: 'Select All' fails, images not loading, Gboard deletion issues, context menus broken.", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_do0", "trait_label": "Mobile Performance & Reliability Issues", "text": "Stable, reliable mobile app without crashes or bugs.", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_do1", "trait_label": "Mobile Performance & Reliability Issues", "text": "Smooth, fast performance on mobile comparable to desktop.", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp0", "trait_label": "Mobile Performance & Reliability Issues", "text": "Mobile app is unstable, crashes frequently, and has sync/autosave issues.", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp1", "trait_label": "Mobile Performance & Reliability Issues", "text": "Mobile app user experience is clunky, unintuitive, and overly complicated, especially for new users.", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp2", "trait_label": "Mobile Performance & Reliability Issues", "text": "Mobile keyboard input is buggy, with autosuggestion failures, symbol registration issues, and flashing text.", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_do0", "trait_label": "Mobile Performance & Reliability Issues", "text": "Stable, reliable mobile app with consistent performance and no crashes.", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_do1", "trait_label": "Mobile Performance & Reliability Issues", "text": "Seamless cross-device sync and robust offline functionality.", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp0", "trait_label": "Mobile Performance & Reliability Issues", "text": "Mobile app is glitchy, laggy, and unresponsive, especially compared to desktop", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp1", "trait_label": "Mobile Performance & Reliability Issues", "text": "Critical data loss or unsaved work (notes/pages disappear)", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp2", "trait_label": "Mobile Performance & Reliability Issues", "text": "Poor or unreliable syncing between devices/platforms", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_do0", "trait_label": "Mobile Performance & Reliability Issues", "text": "Reliable, seamless cross-platform sync and performance", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_do1", "trait_label": "Mobile Performance & Reliability Issues", "text": "Stable, bug-free core functionality (saving, loading, editing)", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp0", "trait_label": "Mobile Performance & Reliability Issues", "text": "No simple folder structure for organizing work, leading to cluttered workspaces.", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp1", "trait_label": "Mobile Performance & Reliability Issues", "text": "Android app crashes frequently, especially when selecting favorites or reopening.", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp2", "trait_label": "Mobile Performance & Reliability Issues", "text": "App logs out unexpectedly, requiring frequent password/2FA re-entry.", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_do0", "trait_label": "Mobile Performance & Reliability Issues", "text": "Simple folder system for organizing notes and pages.", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_do1", "trait_label": "Mobile Performance & Reliability Issues", "text": "Stable offline mode for reliable note-taking without internet.", "tone": "frustrated"}
+{"review_id": "cluster_5_b0_pp0", "trait_label": "Technical Reliability Concern", "text": "App crashes or freezes on sign-in/account creation", "tone": "frustrated"}
+{"review_id": "cluster_5_b0_pp1", "trait_label": "Technical Reliability Concern", "text": "Video upload failures resulting in lost content", "tone": "frustrated"}
+{"review_id": "cluster_5_b0_pp2", "trait_label": "Technical Reliability Concern", "text": "Inconsistent audio recording during screen capture", "tone": "frustrated"}
+{"review_id": "cluster_5_b0_do0", "trait_label": "Technical Reliability Concern", "text": "Reliable screen recording with consistent audio", "tone": "frustrated"}
+{"review_id": "cluster_5_b0_do1", "trait_label": "Technical Reliability Concern", "text": "Seamless video uploading without data loss", "tone": "frustrated"}
+{"review_id": "cluster_5_b1_pp0", "trait_label": "Technical Reliability Concern", "text": "Critical login/signup failures causing complete inability to use the app.", "tone": "frustrated"}
+{"review_id": "cluster_5_b1_pp1", "trait_label": "Technical Reliability Concern", "text": "Recorded videos failing to save, upload, or export reliably, leading to lost work.", "tone": "frustrated"}
+{"review_id": "cluster_5_b1_pp2", "trait_label": "Technical Reliability Concern", "text": "App crashing or closing automatically during basic operations like login.", "tone": "frustrated"}
+{"review_id": "cluster_5_b1_do0", "trait_label": "Technical Reliability Concern", "text": "A completely reliable core functionality: recording, saving, and uploading videos without failure.", "tone": "frustrated"}
+{"review_id": "cluster_5_b1_do1", "trait_label": "Technical Reliability Concern", "text": "A seamless, error-free login/signup experience with multiple account options (not just Google).", "tone": "frustrated"}
+{"review_id": "cluster_5_b2_pp0", "trait_label": "Technical Reliability Concern", "text": "Videos fail to upload or process, getting stuck with errors like 'check connection' or 'processing' indefinitely.", "tone": "frustrated"}
+{"review_id": "cluster_5_b2_pp1", "trait_label": "Technical Reliability Concern", "text": "Recording functionality is unreliable: videos may not start, stop prematurely, show only black/white screens, or lose audio/camera.", "tone": "frustrated"}
+{"review_id": "cluster_5_b2_pp2", "trait_label": "Technical Reliability Concern", "text": "Extremely slow upload and processing times, even for short videos (e.g., hours for a 3-minute video).", "tone": "frustrated"}
+{"review_id": "cluster_5_b2_do0", "trait_label": "Technical Reliability Concern", "text": "Reliable recording and upload: videos should process and upload consistently without errors.", "tone": "frustrated"}
+{"review_id": "cluster_5_b2_do1", "trait_label": "Technical Reliability Concern", "text": "Fast upload and processing speeds, even on mobile data.", "tone": "frustrated"}
+{"review_id": "cluster_5_b3_pp0", "trait_label": "Technical Reliability Concern", "text": "Cannot create an account or sign in due to persistent errors", "tone": "frustrated"}
+{"review_id": "cluster_5_b3_pp1", "trait_label": "Technical Reliability Concern", "text": "App crashes or fails during video upload", "tone": "frustrated"}
+{"review_id": "cluster_5_b3_pp2", "trait_label": "Technical Reliability Concern", "text": "Recorded videos disappear, fail to export, or download only partially", "tone": "frustrated"}
+{"review_id": "cluster_5_b3_do0", "trait_label": "Technical Reliability Concern", "text": "Reliable account creation and login process", "tone": "frustrated"}
+{"review_id": "cluster_5_b3_do1", "trait_label": "Technical Reliability Concern", "text": "Stable video recording with no crashes or lost footage", "tone": "frustrated"}
+{"review_id": "cluster_5_b4_pp0", "trait_label": "Technical Reliability Concern", "text": "Recording/video upload takes extremely long, wasting time and data", "tone": "frustrated"}
+{"review_id": "cluster_5_b4_pp1", "trait_label": "Technical Reliability Concern", "text": "Uploaded videos fail to play or load indefinitely", "tone": "frustrated"}
+{"review_id": "cluster_5_b4_pp2", "trait_label": "Technical Reliability Concern", "text": "App crashes, freezes, or stops recording unexpectedly", "tone": "frustrated"}
+{"review_id": "cluster_5_b4_do0", "trait_label": "Technical Reliability Concern", "text": "Fast, reliable recording and upload without delays or failures", "tone": "frustrated"}
+{"review_id": "cluster_5_b4_do1", "trait_label": "Technical Reliability Concern", "text": "Ability to download/save videos for offline viewing", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_pp0", "trait_label": "Technical Instability", "text": "App is extremely slow and laggy, causing delays in form editing and submissions", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_pp1", "trait_label": "Technical Instability", "text": "Critical bugs and crashes after updates, making the app unusable", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_pp2", "trait_label": "Technical Instability", "text": "Lack of reliable offline access or syncing issues between app and web", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_do0", "trait_label": "Technical Instability", "text": "Fast, responsive app with minimal loading times for editing and submissions", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_do1", "trait_label": "Technical Instability", "text": "Reliable, bug-free app that works consistently after updates", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_pp0", "trait_label": "Technical Instability", "text": "App instability and crashes", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_pp1", "trait_label": "Technical Instability", "text": "Frequent login/logout issues", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_pp2", "trait_label": "Technical Instability", "text": "Sync and data loss problems", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_do0", "trait_label": "Technical Instability", "text": "Reliable, stable app performance with no crashes or sync issues", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_do1", "trait_label": "Technical Instability", "text": "Affordable pricing plans, especially for small businesses", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_pp0", "trait_label": "Technical Instability", "text": "App crashes or fails to open, preventing any use", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_pp1", "trait_label": "Technical Instability", "text": "Unexpected payment requirements or free tier limits being hit prematurely", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_pp2", "trait_label": "Technical Instability", "text": "Critical bugs on Android (UI overflow, download failures, submission lags)", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_do0", "trait_label": "Technical Instability", "text": "Quick, reliable form creation and submission without technical issues", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_do1", "trait_label": "Technical Instability", "text": "Seamless mobile experience with full feature parity to web", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_pp0", "trait_label": "Technical Instability", "text": "Data loss (forms/uploaded content disappearing without warning)", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_pp1", "trait_label": "Technical Instability", "text": "Unreliable/unpredictable performance (inconsistency, errors on repeat workflows)", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_pp2", "trait_label": "Technical Instability", "text": "Poor mobile/editing UX (text boxes snapping, placeholder bugs)", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_do0", "trait_label": "Technical Instability", "text": "Easy, fast, and simple form creation without technical knowledge", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_do1", "trait_label": "Technical Instability", "text": "Reliable and consistent performance across workflows", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_pp0", "trait_label": "Technical Instability", "text": "Persistent login and authentication issues, especially with Google sign-in, requiring multiple logins or failing silently.", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_pp1", "trait_label": "Technical Instability", "text": "Critical functionality breaking bugs: forms deleting entries after 'save for later', products disappearing when editing forms, app crashing frequently.", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_pp2", "trait_label": "Technical Instability", "text": "Poor billing and subscription management: inability to downgrade via app, forced auto-pay, being charged after cancellation.", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_do0", "trait_label": "Technical Instability", "text": "Seamless, reliable authentication and login across devices and methods (e.g., Google sign-in).", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_do1", "trait_label": "Technical Instability", "text": "Stable, bug-free core functionality for form creation, editing, and data submission without loss.", "tone": "frustrated"}
+{"review_id": "cluster_7_b0_pp0", "trait_label": "Mobile Experience Deficits", "text": "Mobile app lacks editing capabilities; only viewing/commenting", "tone": "frustrated"}
+{"review_id": "cluster_7_b0_pp1", "trait_label": "Mobile Experience Deficits", "text": "Persistent login issues: login loops, unsupported browsers, automatic logout", "tone": "frustrated"}
+{"review_id": "cluster_7_b0_pp2", "trait_label": "Mobile Experience Deficits", "text": "App crashes or fails to load; shows blank screen or errors after login", "tone": "frustrated"}
+{"review_id": "cluster_7_b0_do0", "trait_label": "Mobile Experience Deficits", "text": "Full editing capabilities on mobile (create, edit, delete projects)", "tone": "frustrated"}
+{"review_id": "cluster_7_b0_do1", "trait_label": "Mobile Experience Deficits", "text": "Reliable, seamless login without browser/device issues", "tone": "frustrated"}
+{"review_id": "cluster_7_b1_pp0", "trait_label": "Mobile Experience Deficits", "text": "Mobile app mirroring/prototype viewing consistently fails or crashes", "tone": "frustrated"}
+{"review_id": "cluster_7_b1_pp1", "trait_label": "Mobile Experience Deficits", "text": "Poor performance, lag, and slow loading on mobile devices", "tone": "frustrated"}
+{"review_id": "cluster_7_b1_pp2", "trait_label": "Mobile Experience Deficits", "text": "Login/authentication issues, especially with redirects and browser switching", "tone": "frustrated"}
+{"review_id": "cluster_7_b1_do0", "trait_label": "Mobile Experience Deficits", "text": "Reliable mobile prototype testing without desktop dependency", "tone": "frustrated"}
+{"review_id": "cluster_7_b1_do1", "trait_label": "Mobile Experience Deficits", "text": "Fast, smooth performance on mobile devices with no lag", "tone": "frustrated"}
+{"review_id": "cluster_7_b2_pp0", "trait_label": "Mobile Experience Deficits", "text": "App frequently crashes or becomes unresponsive", "tone": "frustrated"}
+{"review_id": "cluster_7_b2_pp1", "trait_label": "Mobile Experience Deficits", "text": "Cannot log in or authentication fails", "tone": "frustrated"}
+{"review_id": "cluster_7_b2_pp2", "trait_label": "Mobile Experience Deficits", "text": "Visual rendering issues (e.g., jagged corners, blank/black screens)", "tone": "frustrated"}
+{"review_id": "cluster_7_b2_do0", "trait_label": "Mobile Experience Deficits", "text": "A standalone mobile viewer with a simple frame selection list", "tone": "frustrated"}
+{"review_id": "cluster_7_b2_do1", "trait_label": "Mobile Experience Deficits", "text": "Ability to view all project screens without desktop selection", "tone": "frustrated"}
+{"review_id": "cluster_7_b3_pp0", "trait_label": "Mobile Experience Deficits", "text": "App crashes frequently or fails to load entirely, requiring uninstall/reinstall.", "tone": "frustrated"}
+{"review_id": "cluster_7_b3_pp1", "trait_label": "Mobile Experience Deficits", "text": "App becomes super slow to load pages or navigate after updates.", "tone": "frustrated"}
+{"review_id": "cluster_7_b3_pp2", "trait_label": "Mobile Experience Deficits", "text": "Cannot log in due to browser compatibility issues, unsupported browser errors, or expired sessions.", "tone": "frustrated"}
+{"review_id": "cluster_7_b3_do0", "trait_label": "Mobile Experience Deficits", "text": "Stable, reliable app that loads quickly and functions without crashes.", "tone": "frustrated"}
+{"review_id": "cluster_7_b3_do1", "trait_label": "Mobile Experience Deficits", "text": "Full login functionality across devices and browsers without errors.", "tone": "frustrated"}
+{"review_id": "cluster_7_b4_pp0", "trait_label": "Mobile Experience Deficits", "text": "Login failures due to browser/authentication loops", "tone": "frustrated"}
+{"review_id": "cluster_7_b4_pp1", "trait_label": "Mobile Experience Deficits", "text": "App incorrectly detects device/browser, blocking login", "tone": "frustrated"}
+{"review_id": "cluster_7_b4_pp2", "trait_label": "Mobile Experience Deficits", "text": "Inability to sync or access files/projects on mobile", "tone": "frustrated"}
+{"review_id": "cluster_7_b4_do0", "trait_label": "Mobile Experience Deficits", "text": "Seamless login and authentication on mobile", "tone": "frustrated"}
+{"review_id": "cluster_7_b4_do1", "trait_label": "Mobile Experience Deficits", "text": "Full file sync and access across devices", "tone": "frustrated"}
+{"review_id": "cluster_9_b0_pp0", "trait_label": "Functional Reliability & AI Depth Gap", "text": "Poor app login flow requiring browser re-login for Google accounts", "tone": "frustrated"}
+{"review_id": "cluster_9_b0_pp1", "trait_label": "Functional Reliability & AI Depth Gap", "text": "App losing device-locked data with no recovery if device is lost", "tone": "frustrated"}
+{"review_id": "cluster_9_b0_pp2", "trait_label": "Functional Reliability & AI Depth Gap", "text": "App not retaining drafts when switching apps or interrupted", "tone": "frustrated"}
+{"review_id": "cluster_9_b0_do0", "trait_label": "Functional Reliability & AI Depth Gap", "text": "Consistent, detailed journaling with AI support for reflection and mood tracking", "tone": "frustrated"}
+{"review_id": "cluster_9_b0_do1", "trait_label": "Functional Reliability & AI Depth Gap", "text": "AI companions with distinct personalities that inspire creativity and perspective", "tone": "frustrated"}
+{"review_id": "cluster_9_b1_pp0", "trait_label": "Functional Reliability & AI Depth Gap", "text": "Limited word/entry space causing loss of content", "tone": "frustrated"}
+{"review_id": "cluster_9_b1_pp1", "trait_label": "Functional Reliability & AI Depth Gap", "text": "Trial version perceived as very limited", "tone": "frustrated"}
+{"review_id": "cluster_9_b1_pp2", "trait_label": "Functional Reliability & AI Depth Gap", "text": "Short free trial requiring credit card", "tone": "frustrated"}
+{"review_id": "cluster_9_b1_do0", "trait_label": "Functional Reliability & AI Depth Gap", "text": "Enhanced writing skills through AI conversion", "tone": "frustrated"}
+{"review_id": "cluster_9_b1_do1", "trait_label": "Functional Reliability & AI Depth Gap", "text": "Privacy and data security assurance", "tone": "frustrated"}
+{"review_id": "cluster_9_b2_pp0", "trait_label": "Functional Reliability & AI Depth Gap", "text": "Intrusive/unwanted AI features that cannot be disabled or separated", "tone": "frustrated"}
+{"review_id": "cluster_9_b2_pp1", "trait_label": "Functional Reliability & AI Depth Gap", "text": "Technical issues with text entry (backspacing deletes sections, typing glitches, unwanted auto-formatting)", "tone": "frustrated"}
+{"review_id": "cluster_9_b2_pp2", "trait_label": "Functional Reliability & AI Depth Gap", "text": "Poor mobile/chromebook UI/UX (text hidden behind keyboard, can't scroll in text boxes, navigation issues)", "tone": "frustrated"}
+{"review_id": "cluster_9_b2_do0", "trait_label": "Functional Reliability & AI Depth Gap", "text": "Feeling less lonely through AI companionship and conversation", "tone": "frustrated"}
+{"review_id": "cluster_9_b2_do1", "trait_label": "Functional Reliability & AI Depth Gap", "text": "Organization and management of personal/professional details", "tone": "frustrated"}
+{"review_id": "cluster_9_b3_pp0", "trait_label": "Functional Reliability & AI Depth Gap", "text": "Perception of generic, scripted, or unhelpful AI responses for mental health content, leading to feelings of invalidation", "tone": "frustrated"}
+{"review_id": "cluster_9_b3_pp1", "trait_label": "Functional Reliability & AI Depth Gap", "text": "Frustration with technical bugs: custom names/images not saving, subscription/restore failures, login issues", "tone": "frustrated"}
+{"review_id": "cluster_9_b3_pp2", "trait_label": "Functional Reliability & AI Depth Gap", "text": "Dissatisfaction with input/output limitations: cannot upload multiple photos/audio/videos; cannot download/print posts or take screenshots", "tone": "frustrated"}
+{"review_id": "cluster_9_b3_do0", "trait_label": "Functional Reliability & AI Depth Gap", "text": "Receive personalized, insightful, and non-judgmental AI feedback that feels genuinely understanding and offers new perspectives", "tone": "frustrated"}
+{"review_id": "cluster_9_b3_do1", "trait_label": "Functional Reliability & AI Depth Gap", "text": "Maintain a consistent, private digital journaling habit with a fun, rewarding, and motivating experience", "tone": "frustrated"}
+{"review_id": "cluster_9_b4_pp0", "trait_label": "Functional Reliability & AI Depth Gap", "text": "Lack of dark mode", "tone": "frustrated"}
+{"review_id": "cluster_9_b4_pp1", "trait_label": "Functional Reliability & AI Depth Gap", "text": "Payment required despite expectation of free use", "tone": "frustrated"}
+{"review_id": "cluster_9_b4_pp2", "trait_label": "Functional Reliability & AI Depth Gap", "text": "Cannot reply to AI comments to continue conversation", "tone": "frustrated"}
+{"review_id": "cluster_9_b4_do0", "trait_label": "Functional Reliability & AI Depth Gap", "text": "Ability to reply to AI comments for deeper engagement", "tone": "frustrated"}
+{"review_id": "cluster_9_b4_do1", "trait_label": "Functional Reliability & AI Depth Gap", "text": "Dark mode for better usability", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp0", "trait_label": "Software Stability & Fair Monetization", "text": "Buggy software with login/credential issues", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp1", "trait_label": "Software Stability & Fair Monetization", "text": "Lack of key features needed for advanced work", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp2", "trait_label": "Software Stability & Fair Monetization", "text": "Software crashes frequently", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_do0", "trait_label": "Software Stability & Fair Monetization", "text": "Software that \"holds your hand\" with intuitive, user-friendly design", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_do1", "trait_label": "Software Stability & Fair Monetization", "text": "Software that provides flexibility and customization for creative work", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp0", "trait_label": "Software Stability & Fair Monetization", "text": "Unstable software with frequent crashes and bugs", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp1", "trait_label": "Software Stability & Fair Monetization", "text": "Excessive background processes consuming system resources and slowing down computer", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp2", "trait_label": "Software Stability & Fair Monetization", "text": "Aggressive and intrusive advertising/pop-ups within paid software", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_do0", "trait_label": "Software Stability & Fair Monetization", "text": "Stable, bug-free software that works as advertised without crashes", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_do1", "trait_label": "Software Stability & Fair Monetization", "text": "Smooth, fast performance without slowing down the system", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp0", "trait_label": "Software Stability & Fair Monetization", "text": "Products that do not accept valid inputs (e.g., correct words in word games) leading to a frustrating guessing game", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp1", "trait_label": "Software Stability & Fair Monetization", "text": "Software crashes, freezes, or fails to load, often after updates or on specific devices", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp2", "trait_label": "Software Stability & Fair Monetization", "text": "Buggy activation processes requiring hours of troubleshooting (uninstall/reinstall, clear cache/DNS)", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_do0", "trait_label": "Software Stability & Fair Monetization", "text": "A product that works reliably without crashes, freezes, or loading bugs", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_do1", "trait_label": "Software Stability & Fair Monetization", "text": "Intuitive, predictable UI that follows platform standards and remembers user state", "tone": "frustrated"}
+{"review_id": "monologue_545501", "trait_label": "Inner Monologue", "text": "Another freemium model - I hope this isn't one of those fair monetization nightmares that forces payments just to progress through basic testing scenarios.", "tone": "authentic_voice"}
+{"review_id": "monologue_d26a46", "trait_label": "Inner Monologue", "text": "They're showing testimonials but I need to see if this actually delivers a seamless, error-free login experience because I can't waste time on another platform with persistent login loops.", "tone": "authentic_voice"}
+{"review_id": "monologue_5e7712", "trait_label": "Inner Monologue", "text": "This navigation is already confusing me and I'm technically savvy - if I can't figure out their core functionality quickly, how broken is their actual testing software going to be?", "tone": "authentic_voice"}
+{"review_id": "monologue_39445d", "trait_label": "Inner Monologue", "text": "They want my email before showing pricing details, which usually means they know their compensation structure won't compete with platforms that actually pay fairly for completed work.", "tone": "authentic_voice"}
+{"review_id": "monologue_f50e9c", "trait_label": "Inner Monologue", "text": "Finally, a tool that promises reliable core functionality for recording and saving - though I've heard that promise before from platforms that crashed constantly during actual testing sessions.", "tone": "authentic_voice"}

@@ -1,0 +1,579 @@
+{
+  "products": [
+    {
+      "name": "Crypto Hardware Wallet - Ledger Nano S Plus",
+      "category": "Electronics",
+      "accuracy": 0.95,
+      "review_keywords": [
+        "secure",
+        "crypto",
+        "wallet",
+        "bitcoin",
+        "ethereum",
+        "coins",
+        "private",
+        "keys"
+      ],
+      "context_keywords": [
+        "DeFi",
+        "hodling",
+        "portfolio",
+        "exchanges"
+      ],
+      "exclusion_keywords": [
+        "gifted",
+        "recommended"
+      ],
+      "why": "Crypto enthusiasts are the primary buyers of hardware wallets for securing their digital assets"
+    },
+    {
+      "name": "Blockchain Programming Books - Mastering Bitcoin",
+      "category": "Books",
+      "accuracy": 0.92,
+      "review_keywords": [
+        "blockchain",
+        "bitcoin",
+        "programming",
+        "technical",
+        "learning",
+        "cryptocurrency",
+        "coding"
+      ],
+      "context_keywords": [
+        "smart contracts",
+        "mining",
+        "nodes"
+      ],
+      "exclusion_keywords": [
+        "assignment",
+        "required"
+      ],
+      "why": "Individuals interested in blockchain technology buy these technical books to understand the underlying systems"
+    },
+    {
+      "name": "Cryptocurrency Mining USB ASIC Miner",
+      "category": "Electronics",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "mining",
+        "hashrate",
+        "bitcoin",
+        "profit",
+        "pool",
+        "setup",
+        "power"
+      ],
+      "context_keywords": [
+        "ROI",
+        "difficulty",
+        "rewards"
+      ],
+      "exclusion_keywords": [
+        "gift",
+        "curious"
+      ],
+      "why": "Only active crypto miners purchase ASIC mining equipment for generating cryptocurrency"
+    },
+    {
+      "name": "Ethereum Solidity Smart Contract Development Course",
+      "category": "Software",
+      "accuracy": 0.88,
+      "review_keywords": [
+        "solidity",
+        "smart",
+        "contracts",
+        "ethereum",
+        "development",
+        "coding",
+        "blockchain"
+      ],
+      "context_keywords": [
+        "dApps",
+        "web3",
+        "programming"
+      ],
+      "exclusion_keywords": [
+        "boss",
+        "employer"
+      ],
+      "why": "Aspiring blockchain developers purchase courses to learn smart contract programming"
+    },
+    {
+      "name": "Bitcoin Logo Cryptocurrency T-Shirt",
+      "category": "Clothing_Shoes_and_Jewelry",
+      "accuracy": 0.87,
+      "review_keywords": [
+        "bitcoin",
+        "crypto",
+        "shirt",
+        "logo",
+        "quality",
+        "fit",
+        "design"
+      ],
+      "context_keywords": [
+        "hodl",
+        "community",
+        "conferences"
+      ],
+      "exclusion_keywords": [
+        "son",
+        "daughter"
+      ],
+      "why": "Crypto enthusiasts buy bitcoin-themed apparel to express their involvement in the community"
+    },
+    {
+      "name": "Crypto Trading Technical Analysis Books",
+      "category": "Books",
+      "accuracy": 0.85,
+      "review_keywords": [
+        "trading",
+        "analysis",
+        "charts",
+        "crypto",
+        "strategy",
+        "market",
+        "signals"
+      ],
+      "context_keywords": [
+        "altcoins",
+        "exchanges",
+        "volatility"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "homework"
+      ],
+      "why": "Active crypto traders purchase technical analysis books to improve their trading strategies"
+    },
+    {
+      "name": "Blockchain Whitepaper Collection Kindle Edition",
+      "category": "Kindle_Store",
+      "accuracy": 0.83,
+      "review_keywords": [
+        "whitepaper",
+        "blockchain",
+        "research",
+        "projects",
+        "technology",
+        "comprehensive"
+      ],
+      "context_keywords": [
+        "tokenomics",
+        "projects",
+        "analysis"
+      ],
+      "exclusion_keywords": [
+        "class",
+        "professor"
+      ],
+      "why": "Crypto researchers and enthusiasts buy whitepaper collections to study various blockchain projects"
+    },
+    {
+      "name": "Cold Storage Steel Crypto Wallet Backup",
+      "category": "Office_Products",
+      "accuracy": 0.82,
+      "review_keywords": [
+        "backup",
+        "steel",
+        "seed",
+        "phrase",
+        "secure",
+        "storage",
+        "durable"
+      ],
+      "context_keywords": [
+        "recovery",
+        "private keys",
+        "security"
+      ],
+      "exclusion_keywords": [
+        "gift",
+        "beginner"
+      ],
+      "why": "Serious crypto holders purchase steel backup devices to protect their wallet seed phrases"
+    },
+    {
+      "name": "Crypto Tax Software - CoinTracker Premium",
+      "category": "Software",
+      "accuracy": 0.8,
+      "review_keywords": [
+        "tax",
+        "crypto",
+        "tracking",
+        "gains",
+        "losses",
+        "IRS",
+        "reporting"
+      ],
+      "context_keywords": [
+        "trades",
+        "portfolio",
+        "compliance"
+      ],
+      "exclusion_keywords": [
+        "accountant",
+        "client"
+      ],
+      "why": "Active crypto traders and investors buy tax software to calculate their cryptocurrency gains and losses"
+    },
+    {
+      "name": "DeFi Yield Farming Strategy Guide",
+      "category": "Books",
+      "accuracy": 0.78,
+      "review_keywords": [
+        "DeFi",
+        "yield",
+        "farming",
+        "liquidity",
+        "protocols",
+        "strategy",
+        "returns"
+      ],
+      "context_keywords": [
+        "APY",
+        "staking",
+        "pools"
+      ],
+      "exclusion_keywords": [
+        "research",
+        "thesis"
+      ],
+      "why": "DeFi participants purchase guides to optimize their yield farming and liquidity provision strategies"
+    },
+    {
+      "name": "Cryptocurrency Price Ticker LED Display",
+      "category": "Electronics",
+      "accuracy": 0.77,
+      "review_keywords": [
+        "price",
+        "ticker",
+        "display",
+        "bitcoin",
+        "crypto",
+        "real-time",
+        "LED"
+      ],
+      "context_keywords": [
+        "portfolio",
+        "monitoring",
+        "prices"
+      ],
+      "exclusion_keywords": [
+        "office",
+        "demonstration"
+      ],
+      "why": "Crypto traders and enthusiasts buy price displays to monitor their investments in real-time"
+    },
+    {
+      "name": "NFT Digital Art Creation Software",
+      "category": "Software",
+      "accuracy": 0.75,
+      "review_keywords": [
+        "NFT",
+        "digital",
+        "art",
+        "creation",
+        "minting",
+        "blockchain",
+        "marketplace"
+      ],
+      "context_keywords": [
+        "OpenSea",
+        "collections",
+        "royalties"
+      ],
+      "exclusion_keywords": [
+        "course",
+        "school"
+      ],
+      "why": "NFT creators and artists purchase specialized software to create and mint digital collectibles"
+    },
+    {
+      "name": "Crypto Staking Node Setup Guide",
+      "category": "Books",
+      "accuracy": 0.73,
+      "review_keywords": [
+        "staking",
+        "node",
+        "validator",
+        "setup",
+        "rewards",
+        "network",
+        "technical"
+      ],
+      "context_keywords": [
+        "consensus",
+        "validation",
+        "earnings"
+      ],
+      "exclusion_keywords": [
+        "academic",
+        "research"
+      ],
+      "why": "Crypto stakers buy node setup guides to run validators and earn staking rewards"
+    },
+    {
+      "name": "Blockchain Conference Networking Badge Holder",
+      "category": "Office_Products",
+      "accuracy": 0.72,
+      "review_keywords": [
+        "conference",
+        "badge",
+        "holder",
+        "networking",
+        "professional",
+        "events"
+      ],
+      "context_keywords": [
+        "meetups",
+        "blockchain",
+        "conferences"
+      ],
+      "exclusion_keywords": [
+        "employee",
+        "company"
+      ],
+      "why": "Blockchain conference attendees purchase professional badge holders for networking events"
+    },
+    {
+      "name": "Crypto Trading Journal and Planner",
+      "category": "Office_Products",
+      "accuracy": 0.7,
+      "review_keywords": [
+        "trading",
+        "journal",
+        "planner",
+        "crypto",
+        "tracking",
+        "strategy",
+        "notes"
+      ],
+      "context_keywords": [
+        "positions",
+        "analysis",
+        "performance"
+      ],
+      "exclusion_keywords": [
+        "gift",
+        "general"
+      ],
+      "why": "Active crypto traders buy specialized journals to track their trades and analyze performance"
+    },
+    {
+      "name": "Web3 Development Course Bundle",
+      "category": "Software",
+      "accuracy": 0.68,
+      "review_keywords": [
+        "web3",
+        "development",
+        "course",
+        "blockchain",
+        "programming",
+        "tutorial"
+      ],
+      "context_keywords": [
+        "dApps",
+        "smart contracts",
+        "frontend"
+      ],
+      "exclusion_keywords": [
+        "bootcamp",
+        "school"
+      ],
+      "why": "Aspiring Web3 developers purchase courses to learn decentralized application development"
+    },
+    {
+      "name": "Cryptocurrency Market Analysis Subscription",
+      "category": "Subscription_Boxes",
+      "accuracy": 0.67,
+      "review_keywords": [
+        "market",
+        "analysis",
+        "crypto",
+        "research",
+        "reports",
+        "insights",
+        "trends"
+      ],
+      "context_keywords": [
+        "signals",
+        "recommendations",
+        "forecasts"
+      ],
+      "exclusion_keywords": [
+        "firm",
+        "institutional"
+      ],
+      "why": "Individual crypto investors subscribe to market analysis services for trading insights"
+    },
+    {
+      "name": "Blockchain Gaming Token Starter Pack",
+      "category": "Video_Games",
+      "accuracy": 0.65,
+      "review_keywords": [
+        "gaming",
+        "tokens",
+        "blockchain",
+        "NFT",
+        "play-to-earn",
+        "starter",
+        "pack"
+      ],
+      "context_keywords": [
+        "P2E",
+        "guild",
+        "earnings"
+      ],
+      "exclusion_keywords": [
+        "child",
+        "kid"
+      ],
+      "why": "Blockchain gamers purchase token packs to participate in play-to-earn gaming ecosystems"
+    }
+  ],
+  "subreddits": [
+    {
+      "name": "CryptoCurrency",
+      "relevance": 0.85,
+      "member_type": "70% active crypto investors and traders",
+      "data_value": "Investment sentiment, market reactions, portfolio discussions",
+      "why": "Primary gathering place for crypto enthusiasts to discuss investments and market trends"
+    },
+    {
+      "name": "Bitcoin",
+      "relevance": 0.83,
+      "member_type": "75% bitcoin holders and maximalists",
+      "data_value": "Bitcoin-specific investment strategies and adoption discussions",
+      "why": "Dedicated community of Bitcoin investors and advocates"
+    },
+    {
+      "name": "ethtrader",
+      "relevance": 0.8,
+      "member_type": "80% Ethereum traders and DeFi users",
+      "data_value": "Ethereum trading patterns and DeFi participation behavior",
+      "why": "Active Ethereum trading community with regular portfolio sharing"
+    },
+    {
+      "name": "CryptoMoonShots",
+      "relevance": 0.78,
+      "member_type": "65% altcoin speculators and early adopters",
+      "data_value": "High-risk investment appetite and speculative behavior patterns",
+      "why": "Community focused on finding early-stage cryptocurrency investments"
+    },
+    {
+      "name": "DeFi",
+      "relevance": 0.75,
+      "member_type": "70% active DeFi protocol users",
+      "data_value": "DeFi usage patterns, yield farming strategies, protocol preferences",
+      "why": "Users actively participating in decentralized finance protocols"
+    },
+    {
+      "name": "NFT",
+      "relevance": 0.72,
+      "member_type": "60% NFT collectors and creators",
+      "data_value": "NFT market sentiment, collection strategies, creator economics",
+      "why": "Community of active NFT market participants"
+    },
+    {
+      "name": "Crypto_com",
+      "relevance": 0.7,
+      "member_type": "80% Crypto.com users and CRO holders",
+      "data_value": "Exchange usage patterns, staking behavior, platform loyalty",
+      "why": "Users of specific crypto exchange platform with investment stakes"
+    },
+    {
+      "name": "binance",
+      "relevance": 0.68,
+      "member_type": "75% Binance exchange users",
+      "data_value": "Trading volume patterns, exchange preferences, security concerns",
+      "why": "Active users of world's largest cryptocurrency exchange"
+    },
+    {
+      "name": "pancakeswap",
+      "relevance": 0.65,
+      "member_type": "70% DeFi yield farmers on BSC",
+      "data_value": "Yield farming strategies, BSC ecosystem participation",
+      "why": "Active participants in Binance Smart Chain DeFi ecosystem"
+    },
+    {
+      "name": "CryptoMining",
+      "relevance": 0.63,
+      "member_type": "80% active cryptocurrency miners",
+      "data_value": "Mining profitability concerns, hardware investments, energy costs",
+      "why": "Community of individuals operating cryptocurrency mining operations"
+    },
+    {
+      "name": "Metamask",
+      "relevance": 0.6,
+      "member_type": "85% active DeFi and Web3 users",
+      "data_value": "Web3 adoption patterns, DeFi interaction frequency",
+      "why": "Users of primary Web3 wallet indicating active blockchain interaction"
+    },
+    {
+      "name": "CardanoStaking",
+      "relevance": 0.58,
+      "member_type": "90% ADA stakers and validators",
+      "data_value": "Staking behavior, long-term holding patterns, network participation",
+      "why": "Active participants in Cardano proof-of-stake ecosystem"
+    },
+    {
+      "name": "0xPolygon",
+      "relevance": 0.55,
+      "member_type": "65% Polygon network users",
+      "data_value": "Layer 2 adoption patterns, gas fee sensitivity, scaling solutions usage",
+      "why": "Users actively engaged with Polygon scaling solutions"
+    },
+    {
+      "name": "UniSwap",
+      "relevance": 0.53,
+      "member_type": "75% active DEX traders",
+      "data_value": "Decentralized trading patterns, liquidity provision behavior",
+      "why": "Active users of decentralized exchange protocols"
+    },
+    {
+      "name": "CryptoCurrencies",
+      "relevance": 0.5,
+      "member_type": "60% general crypto enthusiasts",
+      "data_value": "Broad crypto adoption patterns, educational content consumption",
+      "why": "General cryptocurrency discussion community with active participants"
+    }
+  ],
+  "demographic_profile": {
+    "core_keywords": [
+      "crypto",
+      "blockchain",
+      "DeFi",
+      "trading",
+      "portfolio",
+      "hodl",
+      "staking",
+      "mining",
+      "NFT",
+      "Web3",
+      "altcoin",
+      "yield",
+      "wallet",
+      "exchanges",
+      "telegram"
+    ],
+    "exclusion_keywords": [
+      "traditional",
+      "boomer",
+      "skeptical",
+      "scam",
+      "worthless",
+      "bubble",
+      "regulation",
+      "banned"
+    ],
+    "age_range": "22-45",
+    "primary_motivations": [
+      "financial gains and wealth building",
+      "technological innovation and early adoption",
+      "community belonging and social validation",
+      "independence from traditional financial systems"
+    ],
+    "summary": "Tech-savvy individuals actively invested in cryptocurrency and blockchain technology who engage in online communities to share insights and discover opportunities. They are motivated by potential financial returns, technological curiosity, and being part of an emerging digital economy. However, they often show surface-level engagement in conversations, providing minimal feedback while seeking quick wins and insider information rather than deep collaborative discussions."
+  }
+}

@@ -1,0 +1,598 @@
+{
+  "products": [
+    {
+      "name": "Figma Pro Team Collaboration Software Annual Subscription",
+      "category": "Software",
+      "accuracy": 0.95,
+      "review_keywords": [
+        "team",
+        "collaboration",
+        "design",
+        "prototype",
+        "startup",
+        "workflow",
+        "features"
+      ],
+      "context_keywords": [
+        "founding",
+        "team",
+        "product",
+        "build"
+      ],
+      "exclusion_keywords": [
+        "enterprise",
+        "corporate"
+      ],
+      "why": "Small founding teams are primary buyers of collaborative design tools for product development"
+    },
+    {
+      "name": "Notion Team Workspace Annual Plan",
+      "category": "Software",
+      "accuracy": 0.93,
+      "review_keywords": [
+        "team",
+        "workspace",
+        "organize",
+        "startup",
+        "collaboration",
+        "documents",
+        "planning"
+      ],
+      "context_keywords": [
+        "founding",
+        "team",
+        "product",
+        "build"
+      ],
+      "exclusion_keywords": [
+        "enterprise",
+        "corporation"
+      ],
+      "why": "Early-stage teams use Notion for organizing product roadmaps and team documentation"
+    },
+    {
+      "name": "Mixpanel Startup Plan Analytics Software",
+      "category": "Software",
+      "accuracy": 0.92,
+      "review_keywords": [
+        "analytics",
+        "user",
+        "tracking",
+        "events",
+        "startup",
+        "product",
+        "metrics"
+      ],
+      "context_keywords": [
+        "founding",
+        "product",
+        "users",
+        "feedback"
+      ],
+      "exclusion_keywords": [
+        "enterprise",
+        "corporate"
+      ],
+      "why": "Small product teams need analytics to understand user behavior and guide feature decisions"
+    },
+    {
+      "name": "Slack Pro Team Communication Plan",
+      "category": "Software",
+      "accuracy": 0.91,
+      "review_keywords": [
+        "team",
+        "communication",
+        "startup",
+        "channels",
+        "integration",
+        "workflow",
+        "small"
+      ],
+      "context_keywords": [
+        "founding",
+        "team",
+        "internal",
+        "discussions"
+      ],
+      "exclusion_keywords": [
+        "enterprise",
+        "large"
+      ],
+      "why": "Small founding teams rely on Slack for internal discussions and product coordination"
+    },
+    {
+      "name": "Linear Project Management for Startups",
+      "category": "Software",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "project",
+        "management",
+        "startup",
+        "issues",
+        "roadmap",
+        "team",
+        "development"
+      ],
+      "context_keywords": [
+        "founding",
+        "product",
+        "features",
+        "development"
+      ],
+      "exclusion_keywords": [
+        "enterprise",
+        "corporate"
+      ],
+      "why": "Small product teams use Linear to manage feature development and product roadmaps"
+    },
+    {
+      "name": "Amplitude Starter Plan Product Analytics",
+      "category": "Software",
+      "accuracy": 0.89,
+      "review_keywords": [
+        "product",
+        "analytics",
+        "user",
+        "behavior",
+        "startup",
+        "insights",
+        "features"
+      ],
+      "context_keywords": [
+        "product",
+        "users",
+        "feedback",
+        "decisions"
+      ],
+      "exclusion_keywords": [
+        "enterprise",
+        "corporate"
+      ],
+      "why": "Founding teams need product analytics to make data-driven feature decisions"
+    },
+    {
+      "name": "GitHub Team Plan for Small Organizations",
+      "category": "Software",
+      "accuracy": 0.88,
+      "review_keywords": [
+        "team",
+        "repositories",
+        "collaboration",
+        "small",
+        "startup",
+        "development",
+        "code"
+      ],
+      "context_keywords": [
+        "founding",
+        "team",
+        "product",
+        "development"
+      ],
+      "exclusion_keywords": [
+        "enterprise",
+        "large"
+      ],
+      "why": "Small product teams need private repositories and collaboration tools for product development"
+    },
+    {
+      "name": "Miro Team Plan Collaborative Whiteboarding",
+      "category": "Software",
+      "accuracy": 0.87,
+      "review_keywords": [
+        "whiteboard",
+        "team",
+        "collaboration",
+        "startup",
+        "planning",
+        "brainstorm",
+        "product"
+      ],
+      "context_keywords": [
+        "team",
+        "internal",
+        "planning",
+        "features"
+      ],
+      "exclusion_keywords": [
+        "enterprise",
+        "corporate"
+      ],
+      "why": "Small teams use collaborative whiteboards for product planning and feature brainstorming"
+    },
+    {
+      "name": "Intercom Starter Plan Customer Messaging",
+      "category": "Software",
+      "accuracy": 0.86,
+      "review_keywords": [
+        "customer",
+        "messaging",
+        "startup",
+        "support",
+        "users",
+        "feedback",
+        "communication"
+      ],
+      "context_keywords": [
+        "users",
+        "feedback",
+        "product",
+        "customers"
+      ],
+      "exclusion_keywords": [
+        "enterprise",
+        "corporate"
+      ],
+      "why": "Small product teams use customer messaging tools to gather user feedback directly"
+    },
+    {
+      "name": "Airtable Pro Team Database Plan",
+      "category": "Software",
+      "accuracy": 0.85,
+      "review_keywords": [
+        "database",
+        "team",
+        "organize",
+        "startup",
+        "collaboration",
+        "tracking",
+        "workflow"
+      ],
+      "context_keywords": [
+        "team",
+        "product",
+        "organize",
+        "tracking"
+      ],
+      "exclusion_keywords": [
+        "enterprise",
+        "corporate"
+      ],
+      "why": "Small teams use flexible databases to track user feedback and product development progress"
+    },
+    {
+      "name": "Loom Business Plan Screen Recording",
+      "category": "Software",
+      "accuracy": 0.84,
+      "review_keywords": [
+        "screen",
+        "recording",
+        "team",
+        "communication",
+        "startup",
+        "demo",
+        "product"
+      ],
+      "context_keywords": [
+        "team",
+        "product",
+        "demos",
+        "internal"
+      ],
+      "exclusion_keywords": [
+        "enterprise",
+        "corporate"
+      ],
+      "why": "Small product teams record demos and explanations for internal communication and user feedback"
+    },
+    {
+      "name": "Typeform Pro Plan Survey and Forms",
+      "category": "Software",
+      "accuracy": 0.83,
+      "review_keywords": [
+        "forms",
+        "surveys",
+        "user",
+        "feedback",
+        "startup",
+        "data",
+        "insights"
+      ],
+      "context_keywords": [
+        "users",
+        "feedback",
+        "product",
+        "decisions"
+      ],
+      "exclusion_keywords": [
+        "enterprise",
+        "corporate"
+      ],
+      "why": "Small teams create forms to gather structured user feedback for product decisions"
+    },
+    {
+      "name": "Hotjar Business Plan User Behavior Analytics",
+      "category": "Software",
+      "accuracy": 0.82,
+      "review_keywords": [
+        "user",
+        "behavior",
+        "heatmaps",
+        "startup",
+        "product",
+        "analytics",
+        "insights"
+      ],
+      "context_keywords": [
+        "users",
+        "product",
+        "behavior",
+        "feedback"
+      ],
+      "exclusion_keywords": [
+        "enterprise",
+        "corporate"
+      ],
+      "why": "Small product teams use behavior analytics to understand how users interact with their product"
+    },
+    {
+      "name": "Zoom Pro Small Team Video Conferencing",
+      "category": "Software",
+      "accuracy": 0.81,
+      "review_keywords": [
+        "video",
+        "meetings",
+        "team",
+        "small",
+        "startup",
+        "communication",
+        "remote"
+      ],
+      "context_keywords": [
+        "team",
+        "internal",
+        "meetings",
+        "discussions"
+      ],
+      "exclusion_keywords": [
+        "enterprise",
+        "webinar"
+      ],
+      "why": "Small founding teams need video conferencing for internal discussions and user interviews"
+    },
+    {
+      "name": "Calendly Professional Plan Scheduling",
+      "category": "Software",
+      "accuracy": 0.8,
+      "review_keywords": [
+        "scheduling",
+        "meetings",
+        "professional",
+        "startup",
+        "calendar",
+        "appointments",
+        "users"
+      ],
+      "context_keywords": [
+        "users",
+        "meetings",
+        "feedback",
+        "interviews"
+      ],
+      "exclusion_keywords": [
+        "enterprise",
+        "corporate"
+      ],
+      "why": "Small teams schedule user interviews and feedback sessions to guide product development"
+    },
+    {
+      "name": "Standing Desk Converter for Home Office",
+      "category": "Office_Products",
+      "accuracy": 0.79,
+      "review_keywords": [
+        "standing",
+        "desk",
+        "home",
+        "office",
+        "startup",
+        "health",
+        "productivity"
+      ],
+      "context_keywords": [
+        "home",
+        "office",
+        "working",
+        "productivity"
+      ],
+      "exclusion_keywords": [
+        "corporate",
+        "enterprise"
+      ],
+      "why": "Founding team members often work from home and invest in ergonomic office setups"
+    },
+    {
+      "name": "Blue Light Blocking Glasses for Computer Work",
+      "category": "Health_and_Household",
+      "accuracy": 0.78,
+      "review_keywords": [
+        "blue",
+        "light",
+        "glasses",
+        "computer",
+        "screen",
+        "startup",
+        "coding"
+      ],
+      "context_keywords": [
+        "screen",
+        "computer",
+        "working",
+        "coding"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "student"
+      ],
+      "why": "Founding team members spend long hours on computers building and refining their product"
+    },
+    {
+      "name": "Whiteboard Markers and Erasers Set",
+      "category": "Office_Products",
+      "accuracy": 0.77,
+      "review_keywords": [
+        "whiteboard",
+        "markers",
+        "brainstorm",
+        "startup",
+        "planning",
+        "office",
+        "team"
+      ],
+      "context_keywords": [
+        "team",
+        "planning",
+        "brainstorm",
+        "office"
+      ],
+      "exclusion_keywords": [
+        "classroom",
+        "school"
+      ],
+      "why": "Small teams use whiteboards for product planning sessions and feature brainstorming"
+    }
+  ],
+  "subreddits": [
+    {
+      "name": "startups",
+      "relevance": 0.95,
+      "member_type": "80% founding team members and early employees",
+      "data_value": "Product development challenges, team dynamics, user feedback strategies",
+      "why": "Primary community for founders building products and discussing startup challenges"
+    },
+    {
+      "name": "Entrepreneur",
+      "relevance": 0.9,
+      "member_type": "70% active founders and founding team members",
+      "data_value": "Product-market fit discussions, customer feedback insights, growth strategies",
+      "why": "Founders share experiences building products and making business decisions"
+    },
+    {
+      "name": "ProductManagement",
+      "relevance": 0.88,
+      "member_type": "60% startup product builders and founding team members",
+      "data_value": "Feature prioritization, user feedback integration, product development processes",
+      "why": "Small team founders often wear the product manager hat and seek guidance here"
+    },
+    {
+      "name": "SaaS",
+      "relevance": 0.85,
+      "member_type": "75% SaaS founding teams and builders",
+      "data_value": "Product development cycles, user onboarding, feature request handling",
+      "why": "Most small founding teams build SaaS products and discuss development challenges"
+    },
+    {
+      "name": "webdev",
+      "relevance": 0.83,
+      "member_type": "50% startup founders who code their own products",
+      "data_value": "Technical product decisions, development workflows, tool choices",
+      "why": "Many founding team members are technical and build their products themselves"
+    },
+    {
+      "name": "nocode",
+      "relevance": 0.82,
+      "member_type": "65% non-technical founders building products",
+      "data_value": "Product building approaches, tool selection, rapid prototyping methods",
+      "why": "Non-technical founders use no-code tools to build and iterate on products"
+    },
+    {
+      "name": "startupgrind",
+      "relevance": 0.8,
+      "member_type": "70% early-stage founders and team members",
+      "data_value": "Community building, user acquisition, product validation strategies",
+      "why": "Early-stage founders discuss product development and user engagement strategies"
+    },
+    {
+      "name": "EntrepreneurRideAlong",
+      "relevance": 0.78,
+      "member_type": "60% active product builders and founders",
+      "data_value": "Real-time product development decisions, user feedback implementation",
+      "why": "Founders document their product building journey and decision-making process"
+    },
+    {
+      "name": "userexperience",
+      "relevance": 0.75,
+      "member_type": "45% startup founders focused on product UX",
+      "data_value": "User feedback integration, product usability decisions, design choices",
+      "why": "Small team founders often handle UX decisions based on user feedback"
+    },
+    {
+      "name": "indiehackers",
+      "relevance": 0.9,
+      "member_type": "85% indie product builders and small team founders",
+      "data_value": "Product iteration strategies, user feedback loops, feature development",
+      "why": "Independent product builders share experiences developing and refining products"
+    },
+    {
+      "name": "roastmystartup",
+      "relevance": 0.87,
+      "member_type": "80% founders seeking product feedback",
+      "data_value": "Product critique integration, user experience improvements, feature priorities",
+      "why": "Founders seek external feedback on their products to guide development decisions"
+    },
+    {
+      "name": "IMadeThis",
+      "relevance": 0.84,
+      "member_type": "70% product creators and founding team members",
+      "data_value": "Product showcase feedback, feature highlight strategies, user reception",
+      "why": "Founding team members showcase their products and gather community feedback"
+    },
+    {
+      "name": "growthHacking",
+      "relevance": 0.76,
+      "member_type": "55% startup founders focused on product growth",
+      "data_value": "Product feature impact on growth, user engagement strategies",
+      "why": "Small teams focus on growth hacking techniques to validate and improve products"
+    },
+    {
+      "name": "bootstrapped",
+      "relevance": 0.81,
+      "member_type": "75% bootstrapped founding teams",
+      "data_value": "Resource-constrained product decisions, lean development approaches",
+      "why": "Self-funded founders discuss building products with limited resources and tight feedback loops"
+    },
+    {
+      "name": "InternetIsBeautiful",
+      "relevance": 0.72,
+      "member_type": "40% product creators seeking feedback and exposure",
+      "data_value": "Product reception feedback, feature appreciation, user engagement patterns",
+      "why": "Founders share their products to gather broader user feedback and validation"
+    }
+  ],
+  "demographic_profile": {
+    "core_keywords": [
+      "founding",
+      "team",
+      "product",
+      "users",
+      "feedback",
+      "internal",
+      "features",
+      "development",
+      "startup",
+      "building",
+      "decisions",
+      "iterate",
+      "validate",
+      "roadmap",
+      "early-stage"
+    ],
+    "exclusion_keywords": [
+      "enterprise",
+      "corporate",
+      "student",
+      "employee",
+      "consumer",
+      "large-scale",
+      "established",
+      "traditional"
+    ],
+    "age_range": "25-40",
+    "primary_motivations": [
+      "validating product-market fit",
+      "integrating user feedback effectively",
+      "making data-driven feature decisions",
+      "optimizing team productivity and collaboration"
+    ],
+    "summary": "Small founding team members who are actively building and using their own product while making feature and development decisions. They combine their personal experience as users with external feedback to guide product direction, often wearing multiple hats and working with limited resources. They are frustrated by tools that don't scale with their growing but still small team size, and by the challenge of balancing internal vision with user feedback."
+  }
+}

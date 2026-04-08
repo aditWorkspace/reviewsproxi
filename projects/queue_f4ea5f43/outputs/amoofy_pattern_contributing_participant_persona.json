@@ -1,0 +1,299 @@
+{
+  "id": "pattern_contributing_participant",
+  "label": "Pattern-Contributing Participant",
+  "segment": {
+    "role": "Professional researcher or data analyst managing multiple projects",
+    "tech_savviness": "medium",
+    "price_sensitivity": "high",
+    "risk_tolerance": "low",
+    "context": "Works with research tools, surveys, and data analysis software where reliability directly impacts professional outcomes. Has experienced multiple tool failures that wasted time and money, making them cautious about new purchases and highly sensitive to hidden costs or poor support."
+  },
+  "goals": [
+    {
+      "goal": "Find research tools with proven reliability and minimal setup time",
+      "priority": 5
+    },
+    {
+      "goal": "Verify total cost of ownership including ongoing fees before committing",
+      "priority": 5
+    },
+    {
+      "goal": "Access responsive customer support when tools fail",
+      "priority": 4
+    },
+    {
+      "goal": "Integrate new tools with existing analytics platforms like PowerBI",
+      "priority": 4
+    },
+    {
+      "goal": "Avoid tools that require excessive manual work or cause physical strain",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Limited budget with no tolerance for unexpected repair or replacement costs",
+    "Cannot afford downtime during critical research phases due to tool failures",
+    "Must maintain data security and avoid tools with excessive permission requests",
+    "Physical limitations prevent extensive manual typing due to previous tendonitis",
+    "Works in environments where reliable documentation and support are essential"
+  ],
+  "decision_weights": {
+    "software_compatibility_issues": 0.222,
+    "product_defect_failures": 0.111,
+    "poor_customer_support": 0.111,
+    "false_advertising_failures": 0.111,
+    "hardware_software_limitations": 0.111,
+    "unclear_product_information": 0.111,
+    "hidden_third_party_costs": 0.111,
+    "inaccurate_specifications": 0.111
+  },
+  "behavioral_rules": [
+    "Immediately searches for customer support contact information and response time guarantees before considering purchase",
+    "Abandons sites that require account creation to view pricing or technical specifications",
+    "Cross-references product reviews across multiple platforms to identify reliability patterns",
+    "Looks for explicit integration documentation with existing analytics tools before evaluation",
+    "Exits immediately if encountering vague product descriptions or missing technical details",
+    "Prioritizes vendors with clear documentation and setup guides over feature-rich alternatives",
+    "Checks for hidden subscription fees or mandatory third-party service requirements",
+    "Seeks products with proven durability track records over newer alternatives",
+    "Avoids tools requiring extensive manual data entry or repetitive tasks",
+    "Verifies data privacy policies and permission requirements before downloading or signing up"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.329,
+    "trust_starting_point": 0.495,
+    "frustration_decay": 0.4
+  },
+  "deal_breakers": [
+    "Products requiring expensive ongoing maintenance with costs equal to replacement",
+    "Software lacking clear documentation or setup instructions",
+    "Tools with poor customer support or unresponsive complaint handling",
+    "Apps that crash during critical data recording or analysis tasks",
+    "Platforms flagging legitimate transactions as fraudulent without recourse"
+  ],
+  "voice_sample": "I need tools that just work when I need them most. After dealing with backup systems failing despite proper configuration and losing critical data, I can't afford to trust products without proven reliability records. The last survey platform I tried had great marketing but when their app crashed during a client presentation, their support team took three days to respond with generic troubleshooting steps. Now I spend extra time researching customer support quality and looking for tools that integrate cleanly with PowerBI through documented APIs. I'm tired of manual coding taking hours and causing wrist pain - I need automation that actually works reliably without mixing up data or requiring constant oversight.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 45,
+    "pages_before_decision": 12,
+    "tab_behavior": "Opens multiple tabs to compare customer support policies, pricing, and integration documentation simultaneously",
+    "primary_device": "Desktop computer during work hours for detailed research",
+    "time_of_day": "Mid-morning when dealing with project planning and tool evaluation"
+  },
+  "purchase_journey": {
+    "discovery": "Searches for solutions to specific reliability problems or workflow inefficiencies, often triggered by tool failures",
+    "evaluation": "Reviews customer support responsiveness, checks integration capabilities, examines total cost including hidden fees, reads negative reviews for failure patterns",
+    "decision_moment": "When finding tools with documented reliability, responsive support, and clear pricing without hidden ongoing costs",
+    "post_purchase_expectation": "Expects tools to work consistently during high-stakes scenarios with accessible support when issues arise"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Finding fast, simple setup with minimal learning curve",
+      "Seeing clean integration with existing analytics tools via APIs",
+      "Discovering reliable, crash-free recording and data handling",
+      "Locating trusted, secure platforms with no failed transactions"
+    ],
+    "abandons_when": [
+      "Encountering software that lacks clear documentation",
+      "Finding poor customer support and lack of response to complaints",
+      "Seeing backup systems failing despite proper configuration",
+      "Discovering app crashes during critical data recording moments"
+    ],
+    "trusts_when": [
+      "Seeing high completion rates and high-fidelity usable data",
+      "Finding secure, reliable, and durable tools for professional use",
+      "Locating fast, reliable processing and settlement systems",
+      "Discovering accessible, competent technical support availability"
+    ],
+    "becomes_suspicious_when": [
+      "Noticing data privacy invasion through excessive permissions",
+      "Seeing deceptive developer practices or fake reviews",
+      "Finding unjustified data collection or spyware behavior",
+      "Encountering unreliable app performance and force closing"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Fast, simple setup and intuitive use with minimal learning curve",
+      "High completion/response rates and high-fidelity, usable data",
+      "Clean integration with existing analytics tools (PowerBI) via APIs/connectors",
+      "Reliable, crash-free recording and playback",
+      "Secure platform where funds and card details are protected",
+      "Accessible, competent technical support when problems arise"
+    ],
+    "resonates_with": [
+      "Proven reliability and durability",
+      "Seamless integration capabilities",
+      "Responsive customer support",
+      "Transparent pricing with no hidden fees",
+      "Professional-grade security"
+    ],
+    "turned_off_by": [
+      "Vague documentation or setup requirements",
+      "Hidden costs or third-party fees",
+      "Unresponsive support teams",
+      "Beta or experimental features",
+      "Excessive data permission requests"
+    ]
+  },
+  "inner_monologue_samples": [
+    "They're not showing the full pricing breakdown - what are the hidden subscription fees? I learned the hard way that 'affordable' tools often have expensive ongoing costs that equal replacement price.",
+    "These testimonials look too polished. After being burned by deceptive developer practices and fake reviews, I need to see real user complaints and how the company responds to them.",
+    "This setup process looks complicated without clear documentation. I don't have time to figure out undocumented features when I'm already dealing with manual coding that causes wrist pain.",
+    "Another signup form asking for excessive permissions before I can even see the product details. This feels like the unjustified data collection issues I've seen before - I'm out.",
+    "Finally, a tool that shows actual API documentation for PowerBI integration and has responsive support chat. This might actually solve my workflow problems without creating new ones."
+  ],
+  "anti_patterns": [
+    "Assuming they want the newest features - contradicts their preference for proven, reliable tools over experimental ones",
+    "Focusing on low prices without mentioning reliability - contradicts their experience with cheap tools having high hidden costs",
+    "Hiding customer support information - contradicts their primary concern about unresponsive support teams",
+    "Using technical jargon without clear documentation - contradicts their need for simple setup with minimal learning curve",
+    "Emphasizing automation without reliability guarantees - contradicts their experience with AI tools that mix up data and create more problems"
+  ],
+  "traits": [
+    {
+      "label": "Reliability Anxiety",
+      "description": "Customers experience heightened anxiety when products fail unexpectedly or software/hardware malfunctions, compounded by poor customer support that fails to provide timely resolution. This creates a cycle of frustration and mistrust toward the brand.",
+      "key_phrases": [
+        "Software lacks clear documentation, forcing manual printing and wasted effort",
+        "Poor customer support and lack of response to complaints",
+        "Backup systems failing despite being properly configured, leading to data loss"
+      ],
+      "frequency": 0.333,
+      "tone": "frustrated",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Research Tool Pragmatism",
+      "description": "This trait describes users who are practical, outcome-driven researchers or professionals who prioritize efficiency, clarity, integration, and reliable support. They reject overly complex, alienating, or poorly supported tools that waste time or yield unusable data.",
+      "key_phrases": [
+        "Fast, simple setup and intuitive use with minimal learning curve",
+        "High completion/response rates and high-fidelity, usable data",
+        "Clean integration with existing analytics tools (PowerBI) via APIs/connectors"
+      ],
+      "frequency": 0.153,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Research Tool Reliability",
+      "description": "Users express frustration when tools (physical products, surveys, software) fail or are poorly designed, impeding research, organization, or professional tasks. They desire reliable performance, durability, and clear functionality that matches expectations.",
+      "key_phrases": [
+        "Poor product durability leads to pages separating and covers falling off quickly.",
+        "Secure reliable and durable tools for professional use.",
+        "Poor manufacturing quality"
+      ],
+      "frequency": 0.139,
+      "tone": "frustrated",
+      "cluster_id": "cluster_4"
+    },
+    {
+      "label": "Critical Reliability Concern",
+      "description": "Users experience fundamental failures in core functionality\u2014app crashes, data loss, and blocked features\u2014during high-stakes scenarios, leading to frustration and potential abandonment. They seek a dependable tool that works consistently when it matters most.",
+      "key_phrases": [
+        "App crashes/resets when trying to take and send a photo with data",
+        "Loss of recorded audio/data (critical failure)",
+        "Reliable, crash-free recording and playback"
+      ],
+      "frequency": 0.097,
+      "tone": "frustrated",
+      "cluster_id": "cluster_5"
+    },
+    {
+      "label": "Transactional Reliability & Trust Concern",
+      "description": "Users express deep concern and frustration over platform errors that cause financial loss, such as legitimate gift cards being flagged as redeemed or funds lost due to misinformation. They desire a perfectly reliable, secure, and fast service where transactions never fail and trust is never broken.",
+      "key_phrases": [
+        "Cards being flagged as 'already redeemed' despite user submission of unused cards",
+        "Loss of money due to misleading out-of-date partner information",
+        "Trusted, scam-free platform with no failed transactions",
+        "Fast, reliable processing and settlement of transactions",
+        "Secure platform where funds and card details are protected"
+      ],
+      "frequency": 0.097,
+      "tone": "frustrated",
+      "cluster_id": "cluster_7"
+    },
+    {
+      "label": "Performance Reliability and Cost Concern",
+      "description": "This cluster shows a focus on the practical, ongoing costs and functionality of office and writing supplies. Users express frustration with products that fail to perform basic tasks reliably or become unexpectedly expensive to maintain.",
+      "key_phrases": [
+        "Unexpectedly short product lifespan with repair costs equaling replacement cost",
+        "Ink/toner is expensive per page, creating ongoing financial strain",
+        "Frequent equipment failures"
+      ],
+      "frequency": 0.083,
+      "tone": "frustrated",
+      "cluster_id": "cluster_3"
+    },
+    {
+      "label": "Research Process Friction",
+      "description": "Users experience significant pain points from manual, repetitive tasks in qualitative research workflows and seek automation solutions that maintain data integrity and security.",
+      "key_phrases": [
+        "Excessive manual typing leads to wrist/arm pain and tendonitis",
+        "Time-consuming manual coding of survey open-ended responses",
+        "AI tools sometimes mixing up moderator and participant voices in analysis",
+        "Difficulty finding AI analysis tools that avoid hallucinations and provide sufficient depth",
+        "Security concerns when connecting tools to existing accounts"
+      ],
+      "frequency": 0.069,
+      "tone": "frustrated",
+      "cluster_id": "cluster_6"
+    },
+    {
+      "label": "Developer Trust Deficit",
+      "description": "Users express skepticism and frustration towards developers who prioritize profit over user experience through deceptive practices, privacy invasions, and poor app quality. They demand transparency, ethical development, and functional apps that respect their data and money.",
+      "key_phrases": [
+        "Data privacy invasion through excessive permissions",
+        "Deceptive developer practices like fake reviews",
+        "Unjustified data collection and spyware",
+        "Unreliable app performance and force closing",
+        "Intrusive ads in paid apps"
+      ],
+      "frequency": 0.028,
+      "tone": "skeptical",
+      "cluster_id": "cluster_0"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 7,
+    "total": 2135,
+    "avg_rating": 3.8,
+    "avg_length": 689,
+    "rating_distribution": {
+      "3": 372,
+      "5": 1036,
+      "4": 328,
+      "1": 290,
+      "2": 109
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 300,
+      "playstore": 635
+    },
+    "n_products": 4,
+    "top_products": {
+      "unknown": 935,
+      "Market Research Survey Incentive Gift Cards Multi-Pack": 500,
+      "Statistical Analysis Software License - SPSS/SAS Annual": 350,
+      "Professional Survey Design Templates and Question Banks": 350
+    },
+    "low_rating_pct": 0.187,
+    "high_rating_pct": 0.639,
+    "n_sources": 3,
+    "issues": [
+      "Platform bias: amazon is 56% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 72
+  },
+  "demographic_description": "An individual whose responses contribute to identifying recurring patterns across interviews. Feedback is aggregated with others rather than evaluated individually. Interaction is analyzed collectively.",
+  "generated_at": "2026-04-05T22:37:12.877347",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "20% grounded in cluster data",
+    "cluster_stability": "moderate"
+  }
+}

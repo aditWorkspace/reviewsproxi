@@ -1,0 +1,229 @@
+{
+  "id": "behavioral_data_user_(tracked_usage_patterns)",
+  "label": "Behavioral Data User (Tracked Usage Patterns)",
+  "segment": {
+    "role": "Data-driven professional managing analytics infrastructure",
+    "tech_savviness": "high",
+    "price_sensitivity": "medium",
+    "risk_tolerance": "low",
+    "context": "An experienced professional who relies heavily on data systems and has been burned by AI tools and software that promise more than they deliver. Their purchasing decisions are shaped by past experiences with unreliable systems that have caused workflow disruptions and required extensive manual oversight."
+  },
+  "goals": [
+    {
+      "goal": "Find analytics tools with accurate, reliable real-time data without errors",
+      "priority": 5
+    },
+    {
+      "goal": "Access responsive customer support when technical issues arise",
+      "priority": 5
+    },
+    {
+      "goal": "Create custom reports and dashboards that persist across updates",
+      "priority": 4
+    },
+    {
+      "goal": "Get clear evidence of product effectiveness and measurable ROI",
+      "priority": 4
+    },
+    {
+      "goal": "Find cost-effective solutions that provide good value without unnecessary expenses",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Cannot tolerate AI tools that make errors requiring manual review (from cluster_0 unreliability concern)",
+    "Must avoid products with poor or non-existent customer support (from cluster_1 support frustration)",
+    "Cannot accept software that crashes frequently or has unstable core functionality (from cluster_0)",
+    "Will not use non-deterministic AI outputs that lack traceability (from cluster_0)",
+    "Must avoid software that taxes system resources excessively (from decision_weights data)"
+  ],
+  "decision_weights": {
+    "poor_customer_support": 0.165,
+    "ai_tool_errors_requiring_manual_review": 0.119,
+    "non_deterministic_ai_outputs": 0.119,
+    "excessive_system_resource_usage": 0.119,
+    "ai_hallucinations_undermining_trust": 0.119,
+    "poor_software_interoperability": 0.119,
+    "steep_learning_curves": 0.119,
+    "difficulty_interpreting_user_requirements": 0.119
+  },
+  "behavioral_rules": [
+    "Immediately seeks out customer support contact information before evaluating features",
+    "Abandons consideration if support options are limited to email-only or FAQ",
+    "Looks for specific mentions of data accuracy and error handling in product descriptions",
+    "Avoids any AI-powered features that don't explain their decision-making process",
+    "Checks user reviews specifically for mentions of crashes, bugs, or reliability issues",
+    "Requests trial access to test system stability before committing to purchase",
+    "Verifies export capabilities and data portability before making decisions",
+    "Seeks evidence of deterministic outputs and consistent performance metrics",
+    "Prioritizes vendors who provide clear technical documentation and implementation guides",
+    "Investigates system requirements and resource usage before downloading or purchasing"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.312,
+    "trust_starting_point": 0.68,
+    "frustration_decay": 0.173
+  },
+  "deal_breakers": [
+    "Poor or non-existent customer support",
+    "AI tools that make mistakes requiring manual review",
+    "Non-deterministic AI outputs that lack traceability",
+    "Frequent crashes or instability in core functionality",
+    "Software that taxes system resources excessively during normal operation"
+  ],
+  "voice_sample": "I've been through too many software implementations that looked promising in demos but fell apart in real-world usage. The last AI-powered analytics tool I tried kept generating reports with subtle errors that took hours of manual review to catch, and when I reached out for support, I got generic responses that showed they didn't understand the technical issues. I need tools that provide accurate, reliable real-time data without forcing me to become a detective checking every output. Clear evidence of product effectiveness and measurable ROI isn't just nice to have\u2014it's essential when I'm recommending solutions that the whole team will depend on. I'm looking for cost-effective solutions that actually work as advertised, not shiny dashboards that look impressive but can't handle our actual data complexity.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 45,
+    "pages_before_decision": 12,
+    "tab_behavior": "Opens multiple tabs to compare support options, technical documentation, and user reviews simultaneously",
+    "primary_device": "Desktop workstation during business hours for thorough evaluation",
+    "time_of_day": "Mid-morning when fully focused on technical evaluation without interruptions"
+  },
+  "purchase_journey": {
+    "discovery": "Finds products through technical forums, colleague recommendations, and industry analysis rather than marketing channels",
+    "evaluation": "Examines technical documentation first, then support options, followed by user reviews filtered for technical reliability concerns",
+    "decision_moment": "Commits only after confirming support responsiveness and seeing evidence of consistent performance from actual users",
+    "post_purchase_expectation": "Expects immediate access to technical support and accurate, reliable data without need for constant manual oversight"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Sees evidence of accessible and responsive customer support",
+      "Finds accurate and reliable data reporting without errors documented",
+      "Discovers clear, actionable insights without excessive setup required",
+      "Confirms data integrity and accurate reporting capabilities"
+    ],
+    "abandons_when": [
+      "Encounters poor or non-existent customer support options",
+      "Finds evidence of AI tools making mistakes requiring manual review",
+      "Sees non-deterministic AI outputs that are unpredictable",
+      "Discovers frequent crashes or instability issues in reviews"
+    ],
+    "trusts_when": [
+      "Vendors provide clear, honest communication about product limitations",
+      "Technical documentation shows comprehensive error handling",
+      "User reviews confirm consistent, reliable performance over time",
+      "Support team demonstrates actual technical expertise in responses"
+    ],
+    "becomes_suspicious_when": [
+      "AI capabilities are promoted without transparency about accuracy",
+      "Support contact information is hidden or limited to chatbots",
+      "Marketing emphasizes features but avoids discussing reliability",
+      "Trial access is restricted or doesn't include support interaction"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Accurate and reliable data reporting without errors",
+      "Accessible and responsive customer support",
+      "Clear evidence of product effectiveness and value (measurable ROI)",
+      "Data integrity and accurate reporting/calculations",
+      "Cost-effective solutions that provide good value for money",
+      "Clear, actionable insights without excessive setup"
+    ],
+    "resonates_with": [
+      "Proven reliability and stability",
+      "Transparent technical specifications",
+      "Responsive expert support",
+      "Measurable performance metrics"
+    ],
+    "turned_off_by": [
+      "AI-powered without explaining accuracy",
+      "Limited support options",
+      "Vague performance claims",
+      "Beta or experimental features in critical workflows"
+    ]
+  },
+  "inner_monologue_samples": [
+    "The pricing looks reasonable, but I need to see what kind of support comes with this. If I'm paying for a business tool, I better not be stuck with just email support when something breaks during a critical report deadline.",
+    "These user reviews mention some concerning reliability issues. I can't afford another situation where I'm manually checking every output because the AI makes random errors that undermine trust with my stakeholders.",
+    "This navigation is already confusing me, and I'm technically savvy. If I can't easily find basic information about data accuracy and error handling, how am I supposed to trust this tool with our critical analytics?",
+    "They want my email before showing me technical specs? That's a red flag. I need to evaluate the actual capabilities and system requirements before I'm ready for a sales conversation.",
+    "Finally, a vendor that provides clear technical documentation and acknowledges the limitations of their AI features. This level of transparency about what the tool can and cannot do reliably is exactly what I need to make an informed decision."
+  ],
+  "anti_patterns": [
+    "Promoting AI features as 'magic solutions' without explaining accuracy limitations (contradicts cluster_0 unreliability concern)",
+    "Hiding support options behind multiple clicks or requiring signup (contradicts cluster_1 support frustration)",
+    "Emphasizing flashy dashboards over data reliability and accuracy (contradicts focus on reliable core functionality)",
+    "Using vague performance claims instead of specific metrics (contradicts need for clear evidence of effectiveness)",
+    "Requiring extensive onboarding before showing actual product capabilities (contradicts pragmatic evaluation approach from cluster_2)"
+  ],
+  "traits": [
+    {
+      "label": "Unreliability Concern",
+      "description": "Users express frustration with AI-powered software that makes unpredictable errors, lacks consistency, and suffers from frequent instability, undermining trust in its core functionality. They desire deterministic, traceable outputs and robust performance that doesn't require constant manual oversight.",
+      "key_phrases": [
+        "AI tools make mistakes that require manual review to catch",
+        "Non-deterministic AI outputs that are unpredictable and lack traceability",
+        "Frequent crashes or instability",
+        "Unreliable core functionality"
+      ],
+      "frequency": 0.67,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Support & Reliability Frustration",
+      "description": "Users are expressing significant frustration due to poor customer support and unreliable product performance. They are seeking tools that work consistently without crashes or major bugs, indicating a primary need for dependability and assistance when issues arise.",
+      "key_phrases": [
+        "Poor or non-existent customer support",
+        "Unreliable performance or frequent crashes",
+        "Product works reliably without crashing"
+      ],
+      "frequency": 0.309,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Considered Evaluator",
+      "description": "This cluster represents users who weigh their options carefully, tolerating some product shortcomings as long as overall value and key criteria are met, but will not accept major flaws.",
+      "key_phrases": [],
+      "frequency": 0.021,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_2"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 8,
+    "total": 2812,
+    "avg_rating": 3.27,
+    "avg_length": 596,
+    "rating_distribution": {
+      "5": 758,
+      "3": 1168,
+      "4": 297,
+      "1": 465,
+      "2": 124
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 1200,
+      "playstore": 412
+    },
+    "n_products": 7,
+    "top_products": {
+      "unknown": 1612,
+      "Business Intelligence Dashboard Software - Tableau Server": 200,
+      "A/B Testing Platform - Optimizely Enterprise": 200,
+      "Analytics Software License - Google Analytics 360": 200,
+      "Customer Data Platform - Segment Business Tier": 200
+    },
+    "low_rating_pct": 0.209,
+    "high_rating_pct": 0.375,
+    "n_sources": 3,
+    "issues": [
+      "Platform bias: amazon is 43% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 94
+  },
+  "demographic_description": "A user whose activity is tracked through system data such as bookings and interactions. Feedback is inferred from observed behavior rather than direct input. Interaction is passive and data-driven.",
+  "generated_at": "2026-04-05T23:24:49.080062",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "20% grounded in cluster data",
+    "cluster_stability": "low"
+  }
+}

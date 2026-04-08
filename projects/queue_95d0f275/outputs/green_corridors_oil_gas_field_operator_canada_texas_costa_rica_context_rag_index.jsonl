@@ -1,0 +1,105 @@
+{"review_id": "cluster_1_b0_pp0", "trait_label": "Safety and Operational Risk", "text": "Equipment failure in critical situations (e.g., fire suppression system malfunction)", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp1", "trait_label": "Safety and Operational Risk", "text": "Unreliable or mislabeled product capacity (e.g., cart rated for 175lbs fails under heavy use)", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp2", "trait_label": "Safety and Operational Risk", "text": "Poor product condition from resale (e.g., cigarette smoke odor on used items)", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_do0", "trait_label": "Safety and Operational Risk", "text": "Accurate and reliable measurements for safety and quality control (e.g., temperature, pH, cable testing)", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_do1", "trait_label": "Safety and Operational Risk", "text": "Equipment that performs under harsh conditions without failure", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp0", "trait_label": "Safety and Operational Risk", "text": "Tools being taken or mistaken by coworkers on job sites", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp1", "trait_label": "Safety and Operational Risk", "text": "Products arriving with defects or incorrect specifications, causing production delays", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp2", "trait_label": "Safety and Operational Risk", "text": "Difficulty reading or interpreting test results (e.g., faint positive line)", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_do0", "trait_label": "Safety and Operational Risk", "text": "Clear, unambiguous tool ownership to prevent loss or mix-ups", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_do1", "trait_label": "Safety and Operational Risk", "text": "Reliable, durable products that withstand harsh field conditions", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp0", "trait_label": "Safety and Operational Risk", "text": "Equipment failures or defects requiring immediate fixes to maintain operations.", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp1", "trait_label": "Safety and Operational Risk", "text": "Insufficient resources or materials on night shift leading to temporary or non-compliant repairs.", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp2", "trait_label": "Safety and Operational Risk", "text": "Frustration with products that malfunction or fail unexpectedly (e.g., defective relays, poor suction).", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_do0", "trait_label": "Safety and Operational Risk", "text": "Get equipment running quickly to avoid downtime, regardless of cosmetic or minor code issues.", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_do1", "trait_label": "Safety and Operational Risk", "text": "Have durable, multi-purpose tools and supplies that perform reliably in harsh outdoor conditions.", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp0", "trait_label": "Safety and Operational Risk", "text": "Safety equipment lacking arc flash study stickers or unclear safety ratings", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp1", "trait_label": "Safety and Operational Risk", "text": "Unsafe work practices like using high-amperage circuit breakers as daily switches", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp2", "trait_label": "Safety and Operational Risk", "text": "Products (like bottles) leaking due to poor design or faulty seals", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_do0", "trait_label": "Safety and Operational Risk", "text": "Safe, reliable operation of high-power electrical equipment with proper PPE and procedures", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_do1", "trait_label": "Safety and Operational Risk", "text": "Durable, leak-proof, and functional containers/bottles for storage and transport", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp0", "trait_label": "Safety and Operational Risk", "text": "Frustration with unclear or missing product instructions", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp1", "trait_label": "Safety and Operational Risk", "text": "Annoyance with products that force longer, more complicated repairs due to poor initial installation or quality", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp2", "trait_label": "Safety and Operational Risk", "text": "Concern about products or installations that don't meet code or OSHA standards, creating safety/liability issues", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_do0", "trait_label": "Safety and Operational Risk", "text": "Get clear, practical instructions with the product to ensure correct, safe use", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_do1", "trait_label": "Safety and Operational Risk", "text": "Ensure work and materials are up to code and compliant with OSHA/safety standards to avoid violations and risks", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp0", "trait_label": "Technical Reliability & Functionality Issues", "text": "High cost per authentication with perceived low value", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp1", "trait_label": "Technical Reliability & Functionality Issues", "text": "App crashes and technical instability preventing use", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp2", "trait_label": "Technical Reliability & Functionality Issues", "text": "Inaccurate authentication results (real items deemed fake, fakes deemed authentic)", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_do0", "trait_label": "Technical Reliability & Functionality Issues", "text": "Fast, reliable authentication for peace of mind in online shopping (e.g., eBay)", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_do1", "trait_label": "Technical Reliability & Functionality Issues", "text": "Accurate, consistent results verified by multiple authenticators or cross-checking", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp0", "trait_label": "Technical Reliability & Functionality Issues", "text": "App crashing with error codes (e.g., HTTP 503)", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp1", "trait_label": "Technical Reliability & Functionality Issues", "text": "Unexpected or high cost with no free option", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp2", "trait_label": "Technical Reliability & Functionality Issues", "text": "Perceived fraud or theft of money without service delivery", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_do0", "trait_label": "Technical Reliability & Functionality Issues", "text": "Reliable, fast authentication of product (e.g., sneakers) legitimacy", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_do1", "trait_label": "Technical Reliability & Functionality Issues", "text": "Peace of mind and assurance when buying/selling", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp0", "trait_label": "Technical Reliability & Functionality Issues", "text": "Unclear pricing structure, hidden costs before signing up.", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp1", "trait_label": "Technical Reliability & Functionality Issues", "text": "App crashes or force-closes during authentication process.", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp2", "trait_label": "Technical Reliability & Functionality Issues", "text": "Suspected rushed, superficial authentication based on limited photos, leading to questionable accuracy.", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_do0", "trait_label": "Technical Reliability & Functionality Issues", "text": "Quick, fast authentication results to reduce waiting time.", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_do1", "trait_label": "Technical Reliability & Functionality Issues", "text": "High accuracy and reliability to ensure trust in results.", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp0", "trait_label": "Technical Reliability & Functionality Issues", "text": "Fear of paying for counterfeit products", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp1", "trait_label": "Technical Reliability & Functionality Issues", "text": "Inconvenience of slow authentication from other services", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp2", "trait_label": "Technical Reliability & Functionality Issues", "text": "Distrust in the reliability of other authenticators (e.g., StockX)", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_do0", "trait_label": "Technical Reliability & Functionality Issues", "text": "Quick, reliable sneaker authentication before purchase", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_do1", "trait_label": "Technical Reliability & Functionality Issues", "text": "Peace of mind about product authenticity", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp0", "trait_label": "Technical Reliability & Functionality Issues", "text": "Slow or cumbersome process for uploading shoes/pictures to the app", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp1", "trait_label": "Technical Reliability & Functionality Issues", "text": "Frustration with having to pay for tokens/authentication service", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp2", "trait_label": "Technical Reliability & Functionality Issues", "text": "Technical issues or errors during use (e.g., 503 errors, account disabled warnings)", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_do0", "trait_label": "Technical Reliability & Functionality Issues", "text": "Peace of mind and confidence in product authenticity", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_do1", "trait_label": "Technical Reliability & Functionality Issues", "text": "Fast, instant, or quicker-than-advertised authentication results", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp0", "trait_label": "Discrepancy Skepticism", "text": "Inaccurate sizing or inconsistent fit compared to stated size", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp1", "trait_label": "Discrepancy Skepticism", "text": "Poor durability: products rip, fray, or wear out quickly with minimal use", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp2", "trait_label": "Discrepancy Skepticism", "text": "Uncomfortable materials causing chafing, scraping, or stiffness", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_do0", "trait_label": "Discrepancy Skepticism", "text": "Accurate sizing and comfortable fit", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_do1", "trait_label": "Discrepancy Skepticism", "text": "Durable products that withstand active use", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp0", "trait_label": "Discrepancy Skepticism", "text": "Durability issues (split seams, broken straps)", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp1", "trait_label": "Discrepancy Skepticism", "text": "Fit unpredictability (clothing sizing varies wildly)", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp2", "trait_label": "Discrepancy Skepticism", "text": "Material quality degradation after washing", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_do0", "trait_label": "Discrepancy Skepticism", "text": "Comfortable footwear for long workdays", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_do1", "trait_label": "Discrepancy Skepticism", "text": "Reliable durability in challenging conditions", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp0", "trait_label": "Discrepancy Skepticism", "text": "Sizing inconsistencies across same brand/product line", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp1", "trait_label": "Discrepancy Skepticism", "text": "Material degradation after washing (shrinkage, pilling)", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp2", "trait_label": "Discrepancy Skepticism", "text": "Poor durability under work conditions (inner soles wear out, nails protrude)", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_do0", "trait_label": "Discrepancy Skepticism", "text": "Accurate and consistent sizing for reliable purchase", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_do1", "trait_label": "Discrepancy Skepticism", "text": "Durable materials that withstand washing and wear without degradation", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp0", "trait_label": "Discrepancy Skepticism", "text": "Clothing being too short and not covering desired areas (e.g., belly, butt)", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp1", "trait_label": "Discrepancy Skepticism", "text": "Socks slipping down during activity or wear", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp2", "trait_label": "Discrepancy Skepticism", "text": "Products having a strong chemical odor upon arrival", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_do0", "trait_label": "Discrepancy Skepticism", "text": "Comfortable, non-restrictive fit that flatters the body", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_do1", "trait_label": "Discrepancy Skepticism", "text": "Products that maintain their position/stay put during use", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp0", "trait_label": "Discrepancy Skepticism", "text": "Footwear causing immense heel pain due to poor heel cup design.", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp1", "trait_label": "Discrepancy Skepticism", "text": "Inaccurate sizing or fit issues despite following size charts.", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp2", "trait_label": "Discrepancy Skepticism", "text": "Products lacking needed support (e.g., arch support).", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_do0", "trait_label": "Discrepancy Skepticism", "text": "Comfortable, well-fitting clothing/footwear for daily or work use.", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_do1", "trait_label": "Discrepancy Skepticism", "text": "Durable items that hold up to washing and regular wear.", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_pp0", "trait_label": "App Reliability Crisis", "text": "App connectivity failures causing black screen", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_pp1", "trait_label": "App Reliability Crisis", "text": "App crashes during video recording/playback", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_pp2", "trait_label": "App Reliability Crisis", "text": "Inability to save photos/videos due to permission issues", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_do0", "trait_label": "App Reliability Crisis", "text": "Reliable app-device connectivity", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_do1", "trait_label": "App Reliability Crisis", "text": "Working video/photo saving functionality", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_pp0", "trait_label": "App Reliability Crisis", "text": "App crashes immediately or within seconds of opening", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_pp1", "trait_label": "App Reliability Crisis", "text": "Black screen/no video feed despite phone recognizing the device", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_pp2", "trait_label": "App Reliability Crisis", "text": "App doesn't record video or saves in unusable formats", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_do0", "trait_label": "App Reliability Crisis", "text": "Product works immediately out of the box without troubleshooting", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_do1", "trait_label": "App Reliability Crisis", "text": "Reliable video feed that doesn't crash or show black screen", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_pp0", "trait_label": "App Reliability Crisis", "text": "App consistently fails to display video/image (blank/black screen)", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_pp1", "trait_label": "App Reliability Crisis", "text": "App crashes frequently or is unstable/unreliable", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_pp2", "trait_label": "App Reliability Crisis", "text": "App/software compatibility issues with specific phones or OS versions", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_do0", "trait_label": "App Reliability Crisis", "text": "Tool and app that work reliably 'out of the box' with clear instructions", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_do1", "trait_label": "App Reliability Crisis", "text": "Clear, high-quality video/image for inspecting tight, hard-to-see spaces", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_pp0", "trait_label": "App Reliability Crisis", "text": "App crashes or fails to launch on multiple Android devices", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_pp1", "trait_label": "App Reliability Crisis", "text": "App shows black screen/camera not recognized despite device compatibility", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_pp2", "trait_label": "App Reliability Crisis", "text": "Videos saved are corrupted/unplayable MP4 files", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_do0", "trait_label": "App Reliability Crisis", "text": "Reliable app that works consistently across devices (Android versions 8-12, tablets and phones)", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_do1", "trait_label": "App Reliability Crisis", "text": "Ability to save/view videos and photos without corruption", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_pp0", "trait_label": "App Reliability Crisis", "text": "App crashes or freezes repeatedly during use", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_pp1", "trait_label": "App Reliability Crisis", "text": "Device/app fails to connect or recognize the borescope hardware", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_pp2", "trait_label": "App Reliability Crisis", "text": "Black screen/no image display despite lights working", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_do0", "trait_label": "App Reliability Crisis", "text": "Reliable, stable app that works consistently with borescope hardware", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_do1", "trait_label": "App Reliability Crisis", "text": "Clear image/video feed for diagnostic accuracy", "tone": "frustrated"}
+{"review_id": "monologue_7ea60b", "trait_label": "Inner Monologue", "text": "This price seems reasonable, but I need to see the safety certifications first. Can't justify spending on something that isn't properly rated for hazardous environments.", "tone": "authentic_voice"}
+{"review_id": "monologue_5ba0d3", "trait_label": "Inner Monologue", "text": "Good to see reviews from other field operators mentioning reliable performance. That's more valuable than any marketing claims they could make.", "tone": "authentic_voice"}
+{"review_id": "monologue_28d2df", "trait_label": "Inner Monologue", "text": "This navigation is a headache - I don't have time to click through five pages just to find basic specs. If they can't organize their site properly, how can I trust their equipment?", "tone": "authentic_voice"}
+{"review_id": "monologue_35af92", "trait_label": "Inner Monologue", "text": "They want my full contact information just to see technical specifications? That's ridiculous. I'm looking for equipment, not signing up for sales calls.", "tone": "authentic_voice"}
+{"review_id": "monologue_031469", "trait_label": "Inner Monologue", "text": "Finally, accurate measurements that match what I need for compliance reporting. This could actually solve the problem without creating new headaches for the team.", "tone": "authentic_voice"}

@@ -1,0 +1,564 @@
+{
+  "products": [
+    {
+      "name": "Phone Repair Kit Multi-Tool Set with Screwdrivers",
+      "category": "Tools_and_Home_Improvement",
+      "accuracy": 0.95,
+      "review_keywords": [
+        "broken",
+        "screen",
+        "fix",
+        "again",
+        "third",
+        "time",
+        "cracked"
+      ],
+      "context_keywords": [
+        "always",
+        "keeps",
+        "happening",
+        "again"
+      ],
+      "exclusion_keywords": [
+        "professional",
+        "business"
+      ],
+      "why": "People who repeatedly break their phones and attempt DIY repairs buy these kits"
+    },
+    {
+      "name": "Heavy Duty Zipper Repair Kit Universal",
+      "category": "Arts_Crafts_and_Sewing",
+      "accuracy": 0.94,
+      "review_keywords": [
+        "stuck",
+        "broken",
+        "zipper",
+        "keeps",
+        "breaking",
+        "fixed"
+      ],
+      "context_keywords": [
+        "always",
+        "happens",
+        "constantly"
+      ],
+      "exclusion_keywords": [
+        "tailor",
+        "seamstress"
+      ],
+      "why": "Bought by people who consistently have zipper problems on multiple items"
+    },
+    {
+      "name": "Car Door Handle Repair Kit",
+      "category": "Automotive",
+      "accuracy": 0.93,
+      "review_keywords": [
+        "broke",
+        "again",
+        "handle",
+        "snapped",
+        "keeps",
+        "breaking"
+      ],
+      "context_keywords": [
+        "second",
+        "third",
+        "always"
+      ],
+      "exclusion_keywords": [
+        "mechanic",
+        "dealer"
+      ],
+      "why": "People who repeatedly break car door handles due to rough handling patterns"
+    },
+    {
+      "name": "Toilet Flapper Replacement Kit 3-Pack",
+      "category": "Tools_and_Home_Improvement",
+      "accuracy": 0.92,
+      "review_keywords": [
+        "running",
+        "constantly",
+        "keeps",
+        "happening",
+        "toilet",
+        "fixed"
+      ],
+      "context_keywords": [
+        "again",
+        "always",
+        "recurring"
+      ],
+      "exclusion_keywords": [
+        "plumber",
+        "contractor"
+      ],
+      "why": "Purchased by homeowners with persistent toilet running issues who need frequent replacements"
+    },
+    {
+      "name": "Eyeglass Repair Kit with Screws and Nose Pads",
+      "category": "Health_and_Household",
+      "accuracy": 0.91,
+      "review_keywords": [
+        "loose",
+        "screw",
+        "fell",
+        "broken",
+        "keeps",
+        "happening"
+      ],
+      "context_keywords": [
+        "always",
+        "constantly",
+        "again"
+      ],
+      "exclusion_keywords": [
+        "optician",
+        "professional"
+      ],
+      "why": "Bought by people whose glasses consistently break or come loose"
+    },
+    {
+      "name": "Keyboard Key Replacement Kit",
+      "category": "Electronics",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "key",
+        "stuck",
+        "broken",
+        "popped",
+        "keeps",
+        "typing"
+      ],
+      "context_keywords": [
+        "always",
+        "happens",
+        "again"
+      ],
+      "exclusion_keywords": [
+        "technician",
+        "repair"
+      ],
+      "why": "Purchased by users who consistently have keyboard key issues"
+    },
+    {
+      "name": "Headphone Jack Repair Kit",
+      "category": "Electronics",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "crackling",
+        "loose",
+        "connection",
+        "keeps",
+        "cutting",
+        "out"
+      ],
+      "context_keywords": [
+        "always",
+        "happening",
+        "constantly"
+      ],
+      "exclusion_keywords": [
+        "technician",
+        "professional"
+      ],
+      "why": "Bought by people who repeatedly damage headphone jacks through rough use"
+    },
+    {
+      "name": "Furniture Leg Floor Protector Pads 100-Pack",
+      "category": "Home_and_Kitchen",
+      "accuracy": 0.89,
+      "review_keywords": [
+        "scratching",
+        "floors",
+        "keeps",
+        "sliding",
+        "marks",
+        "damage"
+      ],
+      "context_keywords": [
+        "always",
+        "constantly",
+        "happening"
+      ],
+      "exclusion_keywords": [
+        "professional",
+        "contractor"
+      ],
+      "why": "Purchased by people who consistently scratch floors by moving furniture"
+    },
+    {
+      "name": "Clothing Stain Remover Pen 6-Pack",
+      "category": "Health_and_Household",
+      "accuracy": 0.89,
+      "review_keywords": [
+        "spilled",
+        "stained",
+        "again",
+        "messy",
+        "keeps",
+        "happening"
+      ],
+      "context_keywords": [
+        "always",
+        "clumsy",
+        "constantly"
+      ],
+      "exclusion_keywords": [
+        "professional",
+        "cleaner"
+      ],
+      "why": "Bought by people who consistently spill food or drinks on their clothing"
+    },
+    {
+      "name": "Wall Anchor Repair Kit Heavy Duty",
+      "category": "Tools_and_Home_Improvement",
+      "accuracy": 0.88,
+      "review_keywords": [
+        "fell",
+        "hole",
+        "wall",
+        "keeps",
+        "falling",
+        "anchor"
+      ],
+      "context_keywords": [
+        "again",
+        "always",
+        "happening"
+      ],
+      "exclusion_keywords": [
+        "contractor",
+        "professional"
+      ],
+      "why": "Purchased by people who repeatedly pull anchors out of walls"
+    },
+    {
+      "name": "Phone Screen Protector 10-Pack",
+      "category": "Cell_Phones_and_Accessories",
+      "accuracy": 0.87,
+      "review_keywords": [
+        "cracked",
+        "broken",
+        "screen",
+        "again",
+        "keeps",
+        "happening"
+      ],
+      "context_keywords": [
+        "always",
+        "clumsy",
+        "drop"
+      ],
+      "exclusion_keywords": [
+        "business",
+        "wholesale"
+      ],
+      "why": "Bought in bulk by people who consistently crack phone screens"
+    },
+    {
+      "name": "Dish Drying Mat Absorbent 3-Pack",
+      "category": "Home_and_Kitchen",
+      "accuracy": 0.86,
+      "review_keywords": [
+        "moldy",
+        "smelly",
+        "replacement",
+        "keeps",
+        "gross",
+        "clean"
+      ],
+      "context_keywords": [
+        "always",
+        "happening",
+        "again"
+      ],
+      "exclusion_keywords": [
+        "restaurant",
+        "commercial"
+      ],
+      "why": "Purchased by people who consistently let dish mats get moldy and need frequent replacements"
+    },
+    {
+      "name": "Shower Caddy Suction Cup Replacement Set",
+      "category": "Home_and_Kitchen",
+      "accuracy": 0.85,
+      "review_keywords": [
+        "fell",
+        "suction",
+        "keeps",
+        "falling",
+        "stuck",
+        "shower"
+      ],
+      "context_keywords": [
+        "always",
+        "happening",
+        "again"
+      ],
+      "exclusion_keywords": [
+        "hotel",
+        "commercial"
+      ],
+      "why": "Bought by people whose shower caddies consistently fall due to suction cup failure"
+    },
+    {
+      "name": "Car Air Freshener 12-Pack Vanilla",
+      "category": "Automotive",
+      "accuracy": 0.84,
+      "review_keywords": [
+        "smelly",
+        "car",
+        "odor",
+        "keeps",
+        "coming",
+        "back"
+      ],
+      "context_keywords": [
+        "always",
+        "constantly",
+        "smell"
+      ],
+      "exclusion_keywords": [
+        "taxi",
+        "fleet"
+      ],
+      "why": "Purchased by people who have persistent car odor issues requiring constant freshening"
+    },
+    {
+      "name": "Sock Organizer Drawer Dividers",
+      "category": "Home_and_Kitchen",
+      "accuracy": 0.83,
+      "review_keywords": [
+        "messy",
+        "drawer",
+        "organized",
+        "keeps",
+        "getting",
+        "mixed"
+      ],
+      "context_keywords": [
+        "always",
+        "disorganized",
+        "chaos"
+      ],
+      "exclusion_keywords": [
+        "professional",
+        "organizer"
+      ],
+      "why": "Bought by chronically disorganized people trying to solve recurring mess problems"
+    },
+    {
+      "name": "Lint Roller Refills 20-Pack",
+      "category": "Health_and_Household",
+      "accuracy": 0.82,
+      "review_keywords": [
+        "pet",
+        "hair",
+        "lint",
+        "clothes",
+        "keeps",
+        "getting"
+      ],
+      "context_keywords": [
+        "always",
+        "covered",
+        "constantly"
+      ],
+      "exclusion_keywords": [
+        "professional",
+        "cleaner"
+      ],
+      "why": "Purchased by pet owners who constantly battle pet hair on clothing"
+    },
+    {
+      "name": "Bandages Assorted Sizes 200-Count",
+      "category": "Health_and_Household",
+      "accuracy": 0.81,
+      "review_keywords": [
+        "cut",
+        "scraped",
+        "hurt",
+        "accident",
+        "clumsy",
+        "bandage"
+      ],
+      "context_keywords": [
+        "always",
+        "accident-prone",
+        "clumsy"
+      ],
+      "exclusion_keywords": [
+        "medical",
+        "professional"
+      ],
+      "why": "Bought by accident-prone people who frequently injure themselves"
+    },
+    {
+      "name": "Spot Carpet Cleaner Spray 6-Pack",
+      "category": "Health_and_Household",
+      "accuracy": 0.8,
+      "review_keywords": [
+        "spilled",
+        "stain",
+        "carpet",
+        "mess",
+        "keeps",
+        "happening"
+      ],
+      "context_keywords": [
+        "always",
+        "messy",
+        "accidents"
+      ],
+      "exclusion_keywords": [
+        "professional",
+        "cleaner"
+      ],
+      "why": "Purchased by people who consistently spill things on carpets and need frequent spot cleaning"
+    }
+  ],
+  "subreddits": [
+    {
+      "name": "mildlyinfuriating",
+      "relevance": 0.95,
+      "member_type": "80% people with recurring minor problems",
+      "data_value": "Patterns of repeated frustrations and problem types",
+      "why": "Dominated by people venting about the same issues happening repeatedly"
+    },
+    {
+      "name": "Wellthatsucks",
+      "relevance": 0.92,
+      "member_type": "75% people experiencing recurring bad luck",
+      "data_value": "Types of problems that consistently happen to certain people",
+      "why": "Frequent posters often show patterns of similar mishaps"
+    },
+    {
+      "name": "tifu",
+      "relevance": 0.88,
+      "member_type": "70% repeat mistake makers",
+      "data_value": "Behavioral patterns leading to repeated errors",
+      "why": "Many users post multiple times about similar types of mistakes"
+    },
+    {
+      "name": "techsupportgore",
+      "relevance": 0.85,
+      "member_type": "65% people who consistently break electronics",
+      "data_value": "Patterns of device abuse and misuse",
+      "why": "Regular contributors often show repeated tech destruction patterns"
+    },
+    {
+      "name": "DiWHY",
+      "relevance": 0.83,
+      "member_type": "60% people making repeated poor DIY choices",
+      "data_value": "Decision-making patterns in problem-solving attempts",
+      "why": "Features people who consistently attempt inappropriate fixes"
+    },
+    {
+      "name": "crappydesign",
+      "relevance": 0.8,
+      "member_type": "65% people frequently encountering design problems",
+      "data_value": "What consistently frustrates this demographic",
+      "why": "Regular posters often find themselves dealing with poorly designed products repeatedly"
+    },
+    {
+      "name": "CleaningTips",
+      "relevance": 0.78,
+      "member_type": "70% people with recurring cleaning challenges",
+      "data_value": "Types of messes and stains that repeatedly occur",
+      "why": "Dominated by people asking for help with the same cleaning problems over and over"
+    },
+    {
+      "name": "fixit",
+      "relevance": 0.76,
+      "member_type": "60% people who frequently break things",
+      "data_value": "What breaks most often and repair attempt patterns",
+      "why": "Regular users consistently need help fixing similar types of problems"
+    },
+    {
+      "name": "NoStupidQuestions",
+      "relevance": 0.75,
+      "member_type": "55% people repeatedly confused by common things",
+      "data_value": "Knowledge gaps and recurring confusion patterns",
+      "why": "Frequent posters often ask about similar basic life issues"
+    },
+    {
+      "name": "LifeProTips",
+      "relevance": 0.72,
+      "member_type": "60% people seeking solutions to recurring problems",
+      "data_value": "What problems people most want to solve",
+      "why": "Many subscribers are trying to fix patterns of issues in their lives"
+    },
+    {
+      "name": "relationship_advice",
+      "relevance": 0.7,
+      "member_type": "50% people with recurring relationship patterns",
+      "data_value": "Repeated behavioral patterns in relationships",
+      "why": "Frequent posters often exhibit similar relationship problem patterns"
+    },
+    {
+      "name": "personalfinance",
+      "relevance": 0.68,
+      "member_type": "45% people with recurring money management issues",
+      "data_value": "Financial mistake patterns and spending behaviors",
+      "why": "Regular posters often struggle with the same financial issues repeatedly"
+    },
+    {
+      "name": "organization",
+      "relevance": 0.65,
+      "member_type": "70% chronically disorganized people",
+      "data_value": "Organization challenges and failure patterns",
+      "why": "Primarily used by people who consistently struggle with staying organized"
+    },
+    {
+      "name": "declutter",
+      "relevance": 0.63,
+      "member_type": "65% people with recurring clutter problems",
+      "data_value": "Accumulation patterns and decluttering failures",
+      "why": "Users typically cycle through periods of cluttering and decluttering"
+    },
+    {
+      "name": "productivity",
+      "relevance": 0.6,
+      "member_type": "50% people struggling with consistent productivity issues",
+      "data_value": "Procrastination patterns and productivity barriers",
+      "why": "Many subscribers repeatedly seek solutions to the same productivity challenges"
+    }
+  ],
+  "demographic_profile": {
+    "core_keywords": [
+      "again",
+      "keeps",
+      "happening",
+      "always",
+      "constantly",
+      "recurring",
+      "pattern",
+      "repeat",
+      "frequent",
+      "consistent",
+      "perpetual",
+      "ongoing",
+      "persistent",
+      "continuous",
+      "cycle"
+    ],
+    "exclusion_keywords": [
+      "first",
+      "time",
+      "never",
+      "rarely",
+      "occasional",
+      "once",
+      "professional",
+      "business"
+    ],
+    "age_range": "25-55",
+    "primary_motivations": [
+      "Finding permanent solutions",
+      "Breaking negative cycles",
+      "Preventing repeat occurrences",
+      "Quick temporary fixes"
+    ],
+    "summary": "This demographic consists of people who experience the same problems repeatedly due to behavioral patterns, lifestyle factors, or circumstances beyond their control. They are motivated by frustration with recurring issues and desperately seek products that will either solve their problems permanently or make dealing with repeat occurrences easier. Their purchase decisions are driven by the hope that this time they've found the right solution to break their cycle of problems."
+  }
+}

@@ -1,0 +1,571 @@
+{
+  "products": [
+    {
+      "name": "Project Management Professional (PMP) Exam Prep Guide",
+      "category": "Books",
+      "accuracy": 0.95,
+      "review_keywords": [
+        "certification",
+        "exam",
+        "workplace",
+        "management",
+        "promotion",
+        "career",
+        "study"
+      ],
+      "context_keywords": [
+        "team",
+        "project",
+        "promotion",
+        "leadership"
+      ],
+      "exclusion_keywords": [
+        "college",
+        "student"
+      ],
+      "why": "Mid-career professionals seeking PMP certification for advancement in their current roles"
+    },
+    {
+      "name": "Standing Desk Converter for Dual Monitor Setup",
+      "category": "Office_Products",
+      "accuracy": 0.94,
+      "review_keywords": [
+        "home office",
+        "back pain",
+        "productivity",
+        "ergonomic",
+        "dual monitor",
+        "height"
+      ],
+      "context_keywords": [
+        "remote work",
+        "WFH",
+        "manager"
+      ],
+      "exclusion_keywords": [
+        "dorm",
+        "gaming"
+      ],
+      "why": "Working professionals upgrading home offices for health and productivity during hybrid work"
+    },
+    {
+      "name": "Executive Leadership and Strategic Thinking Books",
+      "category": "Books",
+      "accuracy": 0.93,
+      "review_keywords": [
+        "leadership",
+        "team management",
+        "strategy",
+        "executive",
+        "professional",
+        "insights"
+      ],
+      "context_keywords": [
+        "director",
+        "operations",
+        "growth"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "entry-level"
+      ],
+      "why": "Mid-career professionals in management roles seeking to develop leadership skills"
+    },
+    {
+      "name": "Professional Noise-Canceling Headphones for Open Offices",
+      "category": "Electronics",
+      "accuracy": 0.92,
+      "review_keywords": [
+        "office",
+        "calls",
+        "meetings",
+        "noise",
+        "professional",
+        "quality",
+        "comfort"
+      ],
+      "context_keywords": [
+        "conference",
+        "zoom",
+        "workplace"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "student"
+      ],
+      "why": "Office workers and managers needing quality audio for virtual meetings and focus"
+    },
+    {
+      "name": "MBA Admissions and GMAT Prep Materials",
+      "category": "Books",
+      "accuracy": 0.91,
+      "review_keywords": [
+        "MBA",
+        "GMAT",
+        "business school",
+        "career change",
+        "advancement",
+        "executive"
+      ],
+      "context_keywords": [
+        "promotion",
+        "career pivot",
+        "leadership"
+      ],
+      "exclusion_keywords": [
+        "undergraduate",
+        "high school"
+      ],
+      "why": "Working professionals with 5-10+ years experience applying for executive MBA programs"
+    },
+    {
+      "name": "Professional Wardrobe Essentials for Business Casual",
+      "category": "Clothing_Shoes_and_Jewelry",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "professional",
+        "office",
+        "meetings",
+        "quality",
+        "business",
+        "work",
+        "versatile"
+      ],
+      "context_keywords": [
+        "client meetings",
+        "presentations",
+        "workplace"
+      ],
+      "exclusion_keywords": [
+        "college",
+        "intern"
+      ],
+      "why": "Established professionals investing in quality work attire for client-facing roles"
+    },
+    {
+      "name": "Advanced Excel and Data Analysis Training Courses",
+      "category": "Software",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "Excel",
+        "analytics",
+        "reporting",
+        "dashboard",
+        "business",
+        "advanced",
+        "skills"
+      ],
+      "context_keywords": [
+        "operations",
+        "management",
+        "KPIs"
+      ],
+      "exclusion_keywords": [
+        "homework",
+        "student"
+      ],
+      "why": "Operations managers and analysts upgrading technical skills for better decision-making"
+    },
+    {
+      "name": "Premium Coffee Subscription for Office",
+      "category": "Subscription_Boxes",
+      "accuracy": 0.89,
+      "review_keywords": [
+        "office",
+        "premium",
+        "meetings",
+        "clients",
+        "quality",
+        "professional",
+        "morning"
+      ],
+      "context_keywords": [
+        "workplace",
+        "team",
+        "productivity"
+      ],
+      "exclusion_keywords": [
+        "dorm",
+        "budget"
+      ],
+      "why": "Managers and directors purchasing quality coffee for office environments and client meetings"
+    },
+    {
+      "name": "Ergonomic Office Chair for Long Hours",
+      "category": "Office_Products",
+      "accuracy": 0.89,
+      "review_keywords": [
+        "ergonomic",
+        "long hours",
+        "back support",
+        "office",
+        "comfort",
+        "productivity"
+      ],
+      "context_keywords": [
+        "meetings",
+        "desk job",
+        "manager"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "student"
+      ],
+      "why": "Working professionals investing in ergonomic solutions for desk-intensive roles"
+    },
+    {
+      "name": "Professional Presentation Remote and Laser Pointer",
+      "category": "Electronics",
+      "accuracy": 0.88,
+      "review_keywords": [
+        "presentation",
+        "meetings",
+        "professional",
+        "reliable",
+        "laser",
+        "remote"
+      ],
+      "context_keywords": [
+        "boardroom",
+        "clients",
+        "pitch"
+      ],
+      "exclusion_keywords": [
+        "classroom",
+        "student"
+      ],
+      "why": "Directors and managers who regularly present to teams, clients, and executives"
+    },
+    {
+      "name": "Industry-Specific Professional Certifications Study Materials",
+      "category": "Books",
+      "accuracy": 0.88,
+      "review_keywords": [
+        "certification",
+        "professional",
+        "industry",
+        "advancement",
+        "skills",
+        "career"
+      ],
+      "context_keywords": [
+        "promotion",
+        "expertise",
+        "specialization"
+      ],
+      "exclusion_keywords": [
+        "entry-level",
+        "internship"
+      ],
+      "why": "Mid-career professionals obtaining specialized certifications for career advancement"
+    },
+    {
+      "name": "High-Quality Leather Business Portfolio with Tablet Sleeve",
+      "category": "Office_Products",
+      "accuracy": 0.87,
+      "review_keywords": [
+        "professional",
+        "meetings",
+        "leather",
+        "quality",
+        "executive",
+        "client",
+        "presentation"
+      ],
+      "context_keywords": [
+        "boardroom",
+        "networking",
+        "business"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "backpack"
+      ],
+      "why": "Managers and directors needing professional accessories for client meetings and presentations"
+    },
+    {
+      "name": "Premium Home Office Lighting for Video Calls",
+      "category": "Electronics",
+      "accuracy": 0.87,
+      "review_keywords": [
+        "video calls",
+        "professional",
+        "lighting",
+        "home office",
+        "meetings",
+        "quality"
+      ],
+      "context_keywords": [
+        "zoom",
+        "remote",
+        "manager"
+      ],
+      "exclusion_keywords": [
+        "streaming",
+        "gaming"
+      ],
+      "why": "Remote and hybrid workers ensuring professional appearance in virtual meetings"
+    },
+    {
+      "name": "Business Strategy and Financial Management Books",
+      "category": "Books",
+      "accuracy": 0.86,
+      "review_keywords": [
+        "business",
+        "strategy",
+        "financial",
+        "management",
+        "growth",
+        "operations",
+        "leadership"
+      ],
+      "context_keywords": [
+        "revenue",
+        "ROI",
+        "director"
+      ],
+      "exclusion_keywords": [
+        "textbook",
+        "assignment"
+      ],
+      "why": "Operations and growth managers developing strategic and financial acumen"
+    },
+    {
+      "name": "Professional Document Organizer and Filing System",
+      "category": "Office_Products",
+      "accuracy": 0.85,
+      "review_keywords": [
+        "organization",
+        "documents",
+        "professional",
+        "filing",
+        "office",
+        "efficient",
+        "system"
+      ],
+      "context_keywords": [
+        "contracts",
+        "reports",
+        "compliance"
+      ],
+      "exclusion_keywords": [
+        "school",
+        "homework"
+      ],
+      "why": "Managers handling complex documentation, contracts, and compliance requirements"
+    },
+    {
+      "name": "High-End Wireless Charging Station for Multiple Devices",
+      "category": "Electronics",
+      "accuracy": 0.85,
+      "review_keywords": [
+        "wireless",
+        "charging",
+        "multiple devices",
+        "desk",
+        "professional",
+        "convenient"
+      ],
+      "context_keywords": [
+        "office",
+        "productivity",
+        "manager"
+      ],
+      "exclusion_keywords": [
+        "dorm",
+        "student"
+      ],
+      "why": "Busy professionals managing multiple devices for work efficiency"
+    },
+    {
+      "name": "Premium Scotch and Whiskey for Client Entertainment",
+      "category": "Grocery_and_Gourmet_Food",
+      "accuracy": 0.84,
+      "review_keywords": [
+        "client",
+        "entertaining",
+        "premium",
+        "business",
+        "quality",
+        "professional",
+        "meetings"
+      ],
+      "context_keywords": [
+        "networking",
+        "deals",
+        "relationships"
+      ],
+      "exclusion_keywords": [
+        "party",
+        "college"
+      ],
+      "why": "Directors and managers entertaining clients and building business relationships"
+    },
+    {
+      "name": "Professional Time Management and Productivity Planners",
+      "category": "Office_Products",
+      "accuracy": 0.83,
+      "review_keywords": [
+        "productivity",
+        "planning",
+        "time management",
+        "professional",
+        "goals",
+        "organization"
+      ],
+      "context_keywords": [
+        "meetings",
+        "deadlines",
+        "projects"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "school"
+      ],
+      "why": "Busy managers and directors optimizing time management across multiple responsibilities"
+    }
+  ],
+  "subreddits": [
+    {
+      "name": "ProjectManagement",
+      "relevance": 0.95,
+      "member_type": "85% working project managers and operations professionals",
+      "data_value": "Real workplace challenges, tool recommendations, certification discussions",
+      "why": "Active community of working PMs sharing day-to-day professional experiences"
+    },
+    {
+      "name": "managers",
+      "relevance": 0.92,
+      "member_type": "80% current people managers in mid-size companies",
+      "data_value": "Management challenges, team dynamics, leadership development insights",
+      "why": "Practicing managers discussing real workplace management situations"
+    },
+    {
+      "name": "MBA",
+      "relevance": 0.9,
+      "member_type": "70% working professionals considering or pursuing executive MBAs",
+      "data_value": "Career progression discussions, ROI analysis, program comparisons",
+      "why": "Mid-career professionals evaluating MBA programs for advancement"
+    },
+    {
+      "name": "ITManagers",
+      "relevance": 0.89,
+      "member_type": "85% working IT managers and directors",
+      "data_value": "Technology decisions, vendor management, team leadership in tech",
+      "why": "Active IT management community sharing professional experiences and challenges"
+    },
+    {
+      "name": "entrepreneur",
+      "relevance": 0.85,
+      "member_type": "60% mid-career professionals running small-medium businesses",
+      "data_value": "Growth strategies, operational challenges, scaling insights",
+      "why": "Mix includes many professionals who started their own companies"
+    },
+    {
+      "name": "sales",
+      "relevance": 0.84,
+      "member_type": "70% working sales professionals and managers",
+      "data_value": "Sales strategies, client relationships, performance optimization",
+      "why": "Active sales community with significant representation from sales directors"
+    },
+    {
+      "name": "consulting",
+      "relevance": 0.83,
+      "member_type": "75% working consultants and professional services staff",
+      "data_value": "Client management, project delivery, professional development",
+      "why": "Professional services workers sharing industry-specific insights"
+    },
+    {
+      "name": "marketing",
+      "relevance": 0.82,
+      "member_type": "65% working marketing managers and growth professionals",
+      "data_value": "Campaign strategies, growth metrics, marketing operations",
+      "why": "Active marketing professional community discussing real campaigns and results"
+    },
+    {
+      "name": "financialindependence",
+      "relevance": 0.8,
+      "member_type": "60% high-earning professionals planning early retirement",
+      "data_value": "Investment strategies, career optimization, wealth building",
+      "why": "Many members are high-income professionals in target salary range"
+    },
+    {
+      "name": "cscareerquestions",
+      "relevance": 0.78,
+      "member_type": "40% mid-career tech professionals seeking advancement",
+      "data_value": "Career progression, salary negotiations, skill development",
+      "why": "Significant portion are mid-career tech workers, not just entry-level"
+    },
+    {
+      "name": "smallbusiness",
+      "relevance": 0.77,
+      "member_type": "70% owners/managers of businesses with 50-500 employees",
+      "data_value": "Operations challenges, growth strategies, vendor relationships",
+      "why": "Business owners and managers in target company size range"
+    },
+    {
+      "name": "homeoffice",
+      "relevance": 0.75,
+      "member_type": "65% remote/hybrid working professionals",
+      "data_value": "WFH setup optimization, productivity tools, workspace design",
+      "why": "Professionals investing in quality home office setups for hybrid work"
+    },
+    {
+      "name": "digitalnomad",
+      "relevance": 0.72,
+      "member_type": "50% remote professionals with established careers",
+      "data_value": "Location independence, remote work strategies, lifestyle design",
+      "why": "Many are established professionals, not just freelancers or students"
+    },
+    {
+      "name": "careerguidance",
+      "relevance": 0.7,
+      "member_type": "45% mid-career professionals seeking advancement",
+      "data_value": "Career transitions, professional development, industry insights",
+      "why": "Mix of career stages but significant mid-career professional representation"
+    },
+    {
+      "name": "leadership",
+      "relevance": 0.68,
+      "member_type": "60% current or aspiring people managers",
+      "data_value": "Leadership philosophy, team management, executive development",
+      "why": "Community focused on leadership development attracts working managers"
+    }
+  ],
+  "demographic_profile": {
+    "core_keywords": [
+      "manager",
+      "director",
+      "operations",
+      "growth",
+      "team",
+      "professional",
+      "leadership",
+      "strategy",
+      "ROI",
+      "efficiency",
+      "advancement",
+      "certification",
+      "meetings",
+      "clients",
+      "revenue"
+    ],
+    "exclusion_keywords": [
+      "student",
+      "college",
+      "intern",
+      "entry-level",
+      "homework",
+      "dorm",
+      "graduation"
+    ],
+    "age_range": "30-50",
+    "primary_motivations": [
+      "Career advancement and professional development",
+      "Operational efficiency and productivity optimization",
+      "Team leadership and management effectiveness",
+      "Work-life balance and lifestyle enhancement"
+    ],
+    "summary": "These are established professionals in management or senior individual contributor roles, balancing team leadership responsibilities with personal career growth. They make purchasing decisions focused on professional advancement, operational efficiency, and quality-of-life improvements that support their demanding roles. Their frustrations center around time management, staying current with industry trends while managing teams, and finding solutions that deliver measurable ROI for both personal and organizational success."
+  }
+}

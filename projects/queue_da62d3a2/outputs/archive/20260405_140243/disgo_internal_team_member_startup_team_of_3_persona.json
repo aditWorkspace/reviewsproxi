@@ -1,0 +1,324 @@
+{
+  "id": "internal_team_member_(startup_team_of_~3)",
+  "label": "Internal Team Member (Startup Team of ~3)",
+  "segment": {
+    "role": "Founding team member of early-stage startup",
+    "tech_savviness": "high",
+    "price_sensitivity": "medium",
+    "risk_tolerance": "medium",
+    "context": "Part of a 3-person founding team building and using their own product while making feature decisions based on internal usage and external feedback. Experiences the dual pressure of product development velocity and validation anxiety while managing multiple technical and operational responsibilities."
+  },
+  "goals": [
+    {
+      "goal": "Achieve product validation and early user traction",
+      "priority": 5
+    },
+    {
+      "goal": "Find tools that accelerate development with minimal setup friction",
+      "priority": 4
+    },
+    {
+      "goal": "Quickly validate product ideas with real users before investing significant development time",
+      "priority": 4
+    },
+    {
+      "goal": "Access learning resources and clear onboarding for complex software",
+      "priority": 3
+    },
+    {
+      "goal": "Achieve scalable product foundation without needing full rewrite later",
+      "priority": 5
+    },
+    {
+      "goal": "Build and test product ideas with minimal friction",
+      "priority": 4
+    }
+  ],
+  "constraints": [
+    "Limited time due to managing all aspects of startup alone",
+    "Cannot tolerate tools that crash frequently or cause system instability",
+    "Frustrated by steep learning curves and lack of intuitive user experience",
+    "High cost relative to value creates budget pressure for small team"
+  ],
+  "decision_weights": {
+    "compatibility_issues": 0.125,
+    "excessive_resource_consumption": 0.125,
+    "installation_problems": 0.125,
+    "core_functionality_failure": 0.125,
+    "server_connectivity_issues": 0.125,
+    "registration_server_errors": 0.125,
+    "steep_learning_curve": 0.125,
+    "poor_cost_value_ratio": 0.125
+  },
+  "behavioral_rules": [
+    "Immediately tests core functionality after installation to verify it works as intended",
+    "Abandons tools that require more than 15 minutes of setup or configuration",
+    "Prioritizes products with clear documentation and step-by-step instructions",
+    "Exits immediately if software causes noticeable system performance degradation",
+    "Tests compatibility with existing development stack before committing to new tools",
+    "Seeks tools that enable quick iteration and feedback loops",
+    "Abandons services with frequent server errors or registration issues",
+    "Evaluates pricing against free or better alternatives before purchasing",
+    "Looks for evidence of active development and responsive support",
+    "Tests mobile functionality when desktop version works well",
+    "Checks system requirements against available hardware before installing",
+    "Prioritizes tools that integrate well with existing workflow"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.354,
+    "trust_starting_point": 0.49,
+    "frustration_decay": 0.4
+  },
+  "deal_breakers": [
+    "Software that crashes frequently or causes system instability",
+    "Installation that cannot be completed",
+    "Frequent product registration errors and unresponsive servers",
+    "Products not designed for non-tech-savvy users",
+    "Overpriced relative to free or better alternatives"
+  ],
+  "voice_sample": "We're constantly juggling the need to achieve product validation and early user traction while managing all aspects of a startup alone, which is honestly overwhelming. The biggest fear is building products for extended periods with no user feedback, then discovering we've created something that doesn't attract users, leading to discouragement and wasted effort. We need tools that help us quickly validate product ideas with real users before investing significant development time, because feeling stuck with a non-scaling MVP that requires a costly rewrite is a nightmare scenario. What's frustrating is when we find software that seems powerful but has a steep learning curve and lacks intuitive user experience - we simply don't have time to figure out poorly designed tools when we're trying to achieve a fast, tight feedback loop to iterate and improve our product based on actual user signals.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 25,
+    "pages_before_decision": 8,
+    "tab_behavior": "Opens multiple tabs to compare alternatives and check compatibility",
+    "primary_device": "MacBook Pro during evening hours after development work",
+    "time_of_day": "Late evening (8-11 PM) when development tasks are complete"
+  },
+  "purchase_journey": {
+    "discovery": "Found through developer communities, startup forums, or recommendations from other founding teams facing similar challenges",
+    "evaluation": "Tests core functionality first, checks system requirements, reviews documentation quality, compares with free alternatives, validates integration capabilities",
+    "decision_moment": "When tool demonstrates clear value for validation/development velocity without causing system issues or requiring extensive setup",
+    "post_purchase_expectation": "Immediate productivity gain with minimal learning curve, reliable performance, responsive support when issues arise"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Tool enables quick validation with real users",
+      "Clear documentation and step-by-step instructions available",
+      "Software demonstrates reliable, bug-free performance",
+      "Professional-quality results achievable with minimal effort"
+    ],
+    "abandons_when": [
+      "Installation issues or errors during setup",
+      "Software causes system performance degradation",
+      "Steep learning curve without adequate guidance",
+      "Frequent server errors or connectivity issues"
+    ],
+    "trusts_when": [
+      "Product has clean, uncluttered interface",
+      "Tool integrates well with existing development workflow",
+      "Evidence of responsive customer support",
+      "Clear pricing with good value proposition"
+    ],
+    "becomes_suspicious_when": [
+      "Hidden costs or unexpected subscription requirements",
+      "Excessive hardware requirements listed",
+      "Lack of compatibility information for Mac systems",
+      "No clear documentation or setup instructions"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Achieve product validation and early user traction",
+      "Quickly validate a product idea with real users before investing significant development time",
+      "Building products for extended periods with no user feedback",
+      "Managing all aspects of a startup alone is overwhelming",
+      "Achieve a fast, tight feedback loop to iterate and improve the product",
+      "Ability to quickly build and test product ideas with minimal friction",
+      "A product that 'just works' and delivers on its core technical promise"
+    ],
+    "resonates_with": [
+      "Rapid validation and user feedback",
+      "Streamlined development workflow",
+      "Proven startup success stories",
+      "Technical reliability and performance"
+    ],
+    "turned_off_by": [
+      "Complex enterprise-focused messaging",
+      "Long implementation timelines",
+      "Vague ROI promises without concrete metrics",
+      "Heavy-handed sales processes"
+    ]
+  },
+  "inner_monologue_samples": [
+    "The pricing looks reasonable compared to the development time it could save us, but I need to make sure this actually works with our Mac setup before committing - can't afford another compatibility disaster.",
+    "These user testimonials from other startup founders are encouraging, but I really need to see if this integrates with our existing stack without causing system issues.",
+    "This interface looks intuitive enough, but the real test is whether it actually helps us achieve product validation faster - we can't waste more time building without user feedback.",
+    "Another registration form... please don't have server errors like the last tool we tried. We need something that just works from day one.",
+    "Finally, something that promises to help us quickly validate product ideas with real users - this could be exactly what we need to avoid building products that don't attract users."
+  ],
+  "anti_patterns": [
+    "Assuming they want enterprise features - contradicts their preference for simple, intuitive interfaces",
+    "Emphasizing long-term strategic benefits - contradicts their need for immediate validation and quick iteration",
+    "Requiring lengthy onboarding processes - contradicts their low tolerance for setup friction and steep learning curves",
+    "Pushing expensive enterprise plans - contradicts their budget constraints and preference for cost-effective solutions"
+  ],
+  "traits": [
+    {
+      "label": "Functional Reliability & Usability Expectation",
+      "description": "This cluster describes users who primarily want software that installs easily, functions reliably without bugs or server issues, and offers a simple, intuitive interface. They have low tolerance for technical hurdles, excessive resource use, or poor support.",
+      "key_phrases": [
+        "Installation that cannot be completed",
+        "Software that is powerful yet simple to use, with a clean, uncluttered interface.",
+        "Frequent product registration errors and unresponsive servers"
+      ],
+      "frequency": 0.35,
+      "tone": "frustrated",
+      "cluster_id": "cluster_3"
+    },
+    {
+      "label": "Product Reliability & Support Expectation",
+      "description": "This cluster represents a user group with low tolerance for friction, who are deeply frustrated by unreliable software performance and a lack of responsive customer support, while strongly valuing stable, intuitive products backed by dependable service.",
+      "key_phrases": [
+        "Buggy, unreliable software with frequent issues",
+        "Unresponsive or non-existent customer support despite paying for priority support",
+        "Reliable, bug-free protection/software performance"
+      ],
+      "frequency": 0.138,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Pragmatic Value Seeker",
+      "description": "These users evaluate software based on its efficiency, reliability, and overall return on investment. They are frustrated by performance issues, hidden costs, and barriers to productivity, seeking tools that 'just work' without draining system resources or demanding unnecessary subscriptions. They want professional results without professional-level complexity or expense.",
+      "key_phrases": [
+        "Efficient, low-resource software that doesn't tax system hardware",
+        "Overpriced relative to free or better alternatives",
+        "Professional-looking output with minimal effort",
+        "Excessive hardware requirements that degrade performance",
+        "Desire to escape a subscription model"
+      ],
+      "frequency": 0.125,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Validation Anxiety",
+      "description": "Creators and developers experiencing paralysis and uncertainty due to difficulty validating product ideas, finding early users, and obtaining meaningful feedback before or after launch. This represents the fundamental anxiety around product-market fit in the early stages.",
+      "key_phrases": [
+        "Difficulty validating an idea or finding early users before building",
+        "Uncertainty about target audience and how to reach them",
+        "Achieve product validation and early user traction"
+      ],
+      "frequency": 0.087,
+      "tone": "cautious",
+      "cluster_id": "cluster_5"
+    },
+    {
+      "label": "Tool Complexity & Usability Friction",
+      "description": "Users express frustration with software that appears powerful but is hindered by poor interfaces, intimidating complexity, and inadequate guidance, making it difficult to achieve specific, practical outcomes despite recognizing the tool's potential.",
+      "key_phrases": [
+        "Software seems intimidating and not for average users",
+        "Lack of good training and step-by-step instructions making learning challenging",
+        "Poor touch interface on mobile"
+      ],
+      "frequency": 0.087,
+      "tone": "frustrated",
+      "cluster_id": "cluster_7"
+    },
+    {
+      "label": "Technical Reliability & Accessibility Barrier",
+      "description": "Users prioritize a stable, functional product that works as intended without causing system issues or requiring technical expertise. They are frustrated by bugs, crashes, poor performance, and complex installation or setup that blocks their core goals.",
+      "key_phrases": [
+        "Software that crashes frequently or causes system instability",
+        "Unacceptable system performance impact",
+        "Product does not install/work on system",
+        "Products not designed for non-tech-savvy users",
+        "Achieve professional-quality results without deep technical expertise"
+      ],
+      "frequency": 0.087,
+      "tone": "frustrated",
+      "cluster_id": "cluster_8"
+    },
+    {
+      "label": "Founder Growth Anxiety",
+      "description": "Founders and startup operators experiencing scaling and strategic challenges as their ventures grow, including technical debt, team efficiency, funding hurdles, and the need for sustainable competitive advantage in a crowded market.",
+      "key_phrases": [
+        "Feeling stuck with non-scaling MVP requiring a costly rewrite that took 3x longer than expected.",
+        "Experiencing painfully slow shipping after scaling the team, with tasks taking weeks instead of days.",
+        "Frustration with lacking or misleading product-market fit signals leading to wasted effort."
+      ],
+      "frequency": 0.062,
+      "tone": "frustrated",
+      "cluster_id": "cluster_4"
+    },
+    {
+      "label": "Validation Anxiety",
+      "description": "Users experience frustration and wasted effort when building products without early user feedback, leading to a strong desire for tools that enable quick validation and reduce the risk of creating unwanted products.",
+      "key_phrases": [
+        "Building products for extended periods with no user feedback",
+        "Quickly validate a product idea with real users before investing significant development time",
+        "Building products that don't attract users, leading to discouragement and wasted effort"
+      ],
+      "frequency": 0.037,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Multi-tasking Overload",
+      "description": "Users are overwhelmed by managing multiple technical and operational tasks as solo entrepreneurs or small business owners. They seek tools that can simplify complex workflows like video editing, SEO, PDF manipulation, and finance management to reduce cognitive load.",
+      "key_phrases": [
+        "Managing all aspects of a startup alone is overwhelming",
+        "Difficulty getting website to rank first in SEO despite efforts",
+        "Struggling to build a micro SaaS product without wanting to create a custom CMS"
+      ],
+      "frequency": 0.013,
+      "tone": "frustrated",
+      "cluster_id": "cluster_6"
+    },
+    {
+      "label": "Balanced Evaluator",
+      "description": "A user who carefully weighs product trade-offs with moderate tolerance for friction, neither impulsively buying nor being easily deterred by minor issues.",
+      "key_phrases": [
+        "balanced approach to purchase",
+        "weighs trade-offs carefully",
+        "moderate tolerance for friction"
+      ],
+      "frequency": 0.013,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_9"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 8,
+    "total": 2400,
+    "avg_rating": 3.54,
+    "avg_length": 600,
+    "rating_distribution": {
+      "5": 767,
+      "1": 218,
+      "4": 309,
+      "2": 99,
+      "3": 1007
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 1200
+    },
+    "n_products": 7,
+    "top_products": {
+      "unknown": 1200,
+      "Figma Pro Team Collaboration Software Annual Subscription": 200,
+      "Linear Project Management for Startups": 200,
+      "Slack Pro Team Communication Plan": 200,
+      "Mixpanel Startup Plan Analytics Software": 200
+    },
+    "low_rating_pct": 0.132,
+    "high_rating_pct": 0.448,
+    "n_sources": 2,
+    "issues": [
+      "Platform bias: amazon is 50% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 80
+  },
+  "demographic_description": "Part of a small founding team building the product and actively using it themselves. Participates in feature decisions based on internal discussions and personal usage of the app. Combines internal preferences with external user feedback to guide product development.",
+  "generated_at": "2026-04-05T05:32:47.183386",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "40% grounded in cluster data",
+    "cluster_stability": "low"
+  }
+}

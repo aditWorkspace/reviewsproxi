@@ -1,0 +1,4264 @@
+{
+  "chosen_n_clusters": 5,
+  "sweep_results": [
+    {
+      "k": 3,
+      "silhouette": 0.0904306098818779,
+      "intra_similarity": 0.5211752355098724,
+      "inter_distance": 0.24931412935256958,
+      "combined_score": 0.2514307014644146
+    },
+    {
+      "k": 4,
+      "silhouette": 0.1178511530160904,
+      "intra_similarity": 0.5736309960484505,
+      "inter_distance": 0.38856035470962524,
+      "combined_score": 0.30872694626450536
+    },
+    {
+      "k": 5,
+      "silhouette": 0.14179061353206635,
+      "intra_similarity": 0.6586695611476898,
+      "inter_distance": 0.5885703563690186,
+      "combined_score": 0.3862102463841438
+    },
+    {
+      "k": 6,
+      "silhouette": 0.10518714040517807,
+      "intra_similarity": 0.607821504275004,
+      "inter_distance": 0.4082915782928467,
+      "combined_score": 0.3165983371436596
+    },
+    {
+      "k": 7,
+      "silhouette": 0.12207124382257462,
+      "intra_similarity": 0.6950907324041639,
+      "inter_distance": 0.5435169339179993,
+      "combined_score": 0.37826622841613633
+    },
+    {
+      "k": 8,
+      "silhouette": 0.10979442298412323,
+      "intra_similarity": 0.7068075984716415,
+      "inter_distance": 0.5239607095718384,
+      "combined_score": 0.3717316329479218
+    },
+    {
+      "k": 9,
+      "silhouette": 0.11609150469303131,
+      "intra_similarity": 0.6825037333700392,
+      "inter_distance": 0.5202937126159668,
+      "combined_score": 0.36685561488072077
+    },
+    {
+      "k": 10,
+      "silhouette": 0.10017414391040802,
+      "intra_similarity": 0.6925880521535873,
+      "inter_distance": 0.4757130742073059,
+      "combined_score": 0.3530061024427414
+    }
+  ],
+  "quality_metrics": {
+    "silhouette": 0.14179061353206635,
+    "intra_similarity": 0.6586695611476898,
+    "inter_distance": 0.5885703563690186,
+    "combined_score": 0.3862102463841438,
+    "stability_ari": 0.5359,
+    "stability_label": "moderate"
+  },
+  "cluster_0": {
+    "member_count": 12,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Lack of decision-making power despite full responsibility",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Excessive meetings and bureaucratic overhead",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Engineers building features without validation or user feedback",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Difficulty transitioning due to career typecasting",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Being held accountable for outcomes without sufficient requirements",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Scrum masters not effectively supporting teams",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Constant pressure to deliver with unclear stakeholder input",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Ability to influence product direction with data-driven decisions",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Clear business requirements and stakeholder alignment",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Reduction in meeting load to focus on actual product work",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Career flexibility without being pigeonholed",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Effective collaboration between engineering, sales, and product",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Validated features that meet real user needs",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Streamlined processes that empower rather than hinder",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to upgrade due to external system requirements (e.g., Mac OS update)",
+            "context": "Technical compatibility"
+          },
+          {
+            "trigger": "Price discount on alternative platforms (e.g., Amazon vs. direct)",
+            "context": "Cost-driven purchase"
+          },
+          {
+            "trigger": "Desire for specific features (e.g., cloud sync, advanced search)",
+            "context": "Functional necessity"
+          },
+          {
+            "trigger": "Recommendation from trusted sources or community reviews",
+            "context": "Social validation"
+          },
+          {
+            "trigger": "Frustration with current tool limitations",
+            "context": "Performance issue"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Forced obsolescence and frequent paid upgrades",
+            "severity": 0.9
+          },
+          {
+            "objection": "Poor data handling and loss of user information",
+            "severity": 0.8
+          },
+          {
+            "objection": "Insufficient features for advanced or specialized needs",
+            "severity": 0.7
+          },
+          {
+            "objection": "High cost relative to value delivered",
+            "severity": 0.6
+          },
+          {
+            "objection": "Lack of intuitive interface and usability issues",
+            "severity": 0.8
+          },
+          {
+            "objection": "Unreliable customer support or abandoned apps",
+            "severity": 0.9
+          },
+          {
+            "objection": "Bugs and stability problems affecting user experience",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "QuickBooks",
+            "reason": "Planned obsolescence and upgrade costs",
+            "threshold": "Every 3-4 years"
+          },
+          {
+            "from_product": "TurboTax (via Amazon)",
+            "reason": "Data loss and incomplete forms",
+            "threshold": "Critical failure during tax season"
+          },
+          {
+            "from_product": "PhoneMyPC",
+            "reason": "App removal from store and lack of support",
+            "threshold": "Unable to download after device upgrade"
+          },
+          {
+            "from_product": "Autocad",
+            "reason": "Unintuitive interface and missing features",
+            "threshold": "Persistent inefficiency and user frustration"
+          },
+          {
+            "from_product": "Basic photo editing software",
+            "reason": "Missing features like text addition and resolution change",
+            "threshold": "Need for professional capabilities"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Cost-effectiveness",
+          "Reliability and data safety",
+          "Feature completeness",
+          "Ease of use and installation",
+          "Customer support and updates",
+          "Compatibility with existing systems",
+          "Community and expert recommendations"
+        ],
+        "deal_breakers": [
+          "Data loss or corruption",
+          "Unresponsive customer support",
+          "Forced upgrades with no added value",
+          "Critical bugs that hinder core functionality",
+          "Lack of transparency in pricing and policies"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Communication overhead and cross-team coordination becoming burdensome at scale.",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Lack of effective bridge/translation between technical and non-technical stakeholders, leading to superficial adoption of frameworks.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Top-down implementation of processes without understanding team context or real problems.",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Agile/Scrum reduced to empty ceremonies and jargon, losing original purpose and value.",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Missing role (e.g., Product Owner, onsite customer) to represent business context, causing disconnect between team and business goals.",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Scrum Masters focus on enforcing rituals rather than understanding system issues like cycle time or feedback loops.",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Work and technical quality (architecture, testing) are invisible to management, while only ceremonies are visible.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Management cannot make promises to customers when work is not visible and predictable.",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Make work visible and predictable to management and stakeholders.",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Have a dedicated role (Product Owner/onsite customer) to bring business context inside the team.",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Enable bottom-up, team-led process adoption that fits actual problems.",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Measure and improve cycle time from decision to deploy and feedback from customers.",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Focus on real impediments and blockers rather than just implementing ceremonies.",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Understand what customers and users actually need through frequent, non-sales contact.",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Have clear prioritization of customer requirements for each release.",
+            "priority": 0.65
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to manage finances with comprehensive transaction downloading and long-term projections.",
+            "context": "Daily dashboard for personal finances."
+          },
+          {
+            "trigger": "Requirement for intuitive, powerful screenwriting software after using limited alternatives.",
+            "context": "Impulsive need for immediate formatting help and deep features."
+          },
+          {
+            "trigger": "Dissatisfaction with previous product's user experience after a bad update.",
+            "context": "Switching from Weather Channel to WeatherBug due to ease of use."
+          },
+          {
+            "trigger": "Need for reliable, in-depth anti-virus with strong support and future hardware integration.",
+            "context": "Returning to McAfee after trying others, valuing team size and support."
+          },
+          {
+            "trigger": "Desire for flexible, intuitive language learning for travel.",
+            "context": "Refreshing restaurant-quality Italian skills with a program that fits intermittent study."
+          },
+          {
+            "trigger": "Forced upgrade to maintain online banking functionality.",
+            "context": "Reluctant upgrade of Quicken due to coercion from Intuit to continue core features."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Agile/Scrum has become meaningless jargon and empty ceremonies, not solving real problems.",
+            "severity": 0.8
+          },
+          {
+            "objection": "Top-down process implementation ignores team context and creates friction.",
+            "severity": 0.85
+          },
+          {
+            "objection": "Lack of a Product Owner or business representative leads to disconnection from business goals.",
+            "severity": 0.75
+          },
+          {
+            "objection": "Forced upgrades with minimal new features, seen as revenue-generating rather than value-adding.",
+            "severity": 0.7
+          },
+          {
+            "objection": "Product blames other parties for issues (e.g., Netflix vs. Amazon), leaving problems unresolved.",
+            "severity": 0.6
+          },
+          {
+            "objection": "Inability to edit scorecards after games or sync across devices efficiently.",
+            "severity": 0.5
+          },
+          {
+            "objection": "Budgeting features are rigid and require excessive manual entry, not fitting user workflows.",
+            "severity": 0.65
+          },
+          {
+            "objection": "Vendor lock-in with no viable competitor, creating feeling of being trapped.",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Weather Channel app",
+            "reason": "Last update made it very difficult to operate, losing user-friendliness.",
+            "threshold": "Bad update that degraded usability."
+          },
+          {
+            "from_product": "TurboTax",
+            "reason": "Bait and switch on system requirements (OS stated but processor not), not working on older hardware.",
+            "threshold": "Product failure due to undisclosed hardware requirements."
+          },
+          {
+            "from_product": "CELTX",
+            "reason": "Lacked reasonable support and deep features needed for serious screenwriting.",
+            "threshold": "Insufficient support and functionality."
+          },
+          {
+            "from_product": "Other anti-virus software",
+            "reason": "McAfee's depth, alert speed, and support (e.g., phone help) outstrip others.",
+            "threshold": "Superior depth and support in critical situations."
+          }
+        ],
+        "decision_factors_ranked": [
+          "Ease of use / user-friendliness",
+          "Depth of features / comprehensiveness",
+          "Quality of support and reliability",
+          "Cost-effectiveness and value",
+          "Flexibility and customization",
+          "Visibility and predictability of work",
+          "Alignment with actual business needs and customer contact"
+        ],
+        "deal_breakers": [
+          "Top-down imposition of processes without understanding context",
+          "Empty ceremonies without addressing real impediments",
+          "Lack of business representation (Product Owner) in team",
+          "Forced upgrades with no real feature improvements",
+          "Blame-shifting between companies leaving issues unresolved",
+          "Inability to make work visible and predictable to management"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Technical issues not resolved by support, leading to abandonment",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Excessive process overhead from management (e.g., Scrum ceremonies) that feels unnecessary and slows down work",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Lack of visibility/transparency into progress causing management to impose control measures",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Outdated or incomplete data in the product",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Hidden costs, unclear pricing, and unexpected charges during setup or usage",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Lack of support for existing data import or compatibility issues when switching from another product",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Content or features locked behind aggressive paywalls, making the product feel exploitative",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Lack of innovation or new content for long-term users, leading to boredom and repetitive tasks",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Poorly implemented or mismatched process (e.g., applying Scrum to a discovery-phase team)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Disconnection issues in online play due to internet problems",
+            "emotional_intensity": 0.55
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Effective and responsive technical support that resolves issues quickly",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Process that adds value and improves predictability without excessive overhead, tailored to team needs",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Clear visibility and communication between team and leadership to build trust",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Up-to-date, accurate data and regular updates to maintain product relevance",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Smooth onboarding, including data import and transparent pricing",
+            "priority": 0.85
+          },
+          {
+            "outcome": "A product that balances monetization with fair access, avoiding aggressive paywalls",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Continuous innovation and new features to keep long-term users engaged",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Customization options and flexibility in gameplay or usage to suit individual preferences",
+            "priority": 0.65
+          },
+          {
+            "outcome": "User-friendly interface and intuitive process flows that reduce learning curve",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Reliable connectivity and performance in online or multiplayer features",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to replace a limited or unsupported current product (e.g., due to lack of updates)",
+            "context": "Switching from an existing tool"
+          },
+          {
+            "trigger": "Desire for a more robust or feature-rich solution in a specific domain (e.g., budgeting, photo editing)",
+            "context": "Dissatisfaction with current options"
+          },
+          {
+            "trigger": "Positive refinements and improvements in responsiveness or interface noted in new version",
+            "context": "Upgrading an existing product"
+          },
+          {
+            "trigger": "Recommendation based on past positive experiences with the brand",
+            "context": "Brand loyalty"
+          },
+          {
+            "trigger": "Interest in a specific hobby or activity (e.g., baseball, photo editing) that the product supports",
+            "context": "Personal interest"
+          },
+          {
+            "trigger": "Need for remote collaboration tools due to external factors (e.g., Covid-19)",
+            "context": "Changing work environment"
+          },
+          {
+            "trigger": "Availability of a free trial to test the product before committing",
+            "context": "Risk mitigation"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Unclear or misleading product details about data import or compatibility",
+            "severity": 0.85
+          },
+          {
+            "objection": "Aggressive or confusing monetization (e.g., weekly subscriptions, hidden charges)",
+            "severity": 0.9
+          },
+          {
+            "objection": "Lack of post-purchase support and unresolved technical issues",
+            "severity": 0.9
+          },
+          {
+            "objection": "Outdated information or lack of updates making the product irrelevant",
+            "severity": 0.8
+          },
+          {
+            "objection": "Overly rigid or mismatched process implementation that hinders productivity",
+            "severity": 0.75
+          },
+          {
+            "objection": "Poor communication from management or support leading to frustration",
+            "severity": 0.7
+          },
+          {
+            "objection": "Limited customization or flexibility in product use (e.g., only 5 characters at a time)",
+            "severity": 0.6
+          },
+          {
+            "objection": "Complex or non-intuitive setup process causing user friction",
+            "severity": 0.65
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Quicken for Mac (QE)",
+            "reason": "Limited functionality and lack of support for Mac users, plus inability to import data",
+            "threshold": "After trying free trial and encountering download/import issues"
+          },
+          {
+            "from_product": "Existing process/Agile framework",
+            "reason": "Excessive overhead and mismatched process slowing down work without solving visibility",
+            "threshold": "When management adds 90 hours of meetings over 8 weeks"
+          },
+          {
+            "from_product": "Current game or app",
+            "reason": "Boredom due to lack of new content or innovation for long-term players",
+            "threshold": "After repetitive tasks and no meaningful updates"
+          },
+          {
+            "from_product": "Current coloring app",
+            "reason": "Aggressive paywalls locking essential features behind frequent payments",
+            "threshold": "Upon discovery that everything beyond basics requires payment"
+          },
+          {
+            "from_product": "Analog or other digital sources",
+            "reason": "Outdated data making the product useless for current needs",
+            "threshold": "When data is years old and not updated"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and effectiveness of technical support",
+          "Transparency in pricing and no hidden costs",
+          "Ease of onboarding and data migration",
+          "Product responsiveness and interface usability",
+          "Regular updates and data accuracy",
+          "Flexibility and customization options",
+          "Fair monetization model without aggressive paywalls",
+          "Process efficiency and minimal overhead",
+          "Brand reputation and past positive experiences",
+          "Community or multiplayer features enhancing engagement"
+        ],
+        "deal_breakers": [
+          "Unresolved technical issues with no support follow-up",
+          "Hidden charges or misleading product descriptions",
+          "Aggressive paywalls that make core features inaccessible without constant payment",
+          "Outdated or inaccurate data that undermines product utility",
+          "Process overhead that significantly slows progress without clear benefit",
+          "Inability to import existing data from previous tools"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Scrum master role becoming a 'ceremony police' rather than a facilitator, making processes feel like drudgery",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Ceremonies are seen as blockers to productivity, consuming too much time and preventing actual work",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Unreliable software that stops working without warning, causing data backup failures",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Outdated and inaccurate maps in navigation software, leading to navigation errors",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poor user interface design that is unintuitive, inconsistent, or antiquated",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Organizations adopting agile in name only ('framework theater') without real cultural buy-in",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Lack of proper support or tech support that is expensive and ineffective",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Role confusion between scrum master and functional manager, leading to inefficiency",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Software not being cross-platform, limiting adoption in certain environments",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Monetization tactics that feel pushy, like requiring extra payments for forms or features",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Agile processes that are truly adaptive and owned by the team, not just ceremonial",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Reliable, 'set-it-and-forget-it' software that works consistently without manual intervention",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Intuitive and user-friendly interfaces that require minimal learning curve",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Accurate and up-to-date data (e.g., maps, POIs) in software products",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Cross-platform compatibility to work across different operating systems and devices",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Effective tech support and troubleshooting resources when issues arise",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Ability to customize and adapt tools to fit specific workflow needs",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Clarity in roles (e.g., scrum master vs. manager) to avoid overlap and confusion",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Fair licensing and installation policies without restrictive activation limits",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Software that helps practice real-life skills (e.g., blackjack for casino practice)",
+            "priority": 0.4
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to practice real-life skills in a simulated environment",
+            "context": "Using a blackjack app to prepare for casino visits"
+          },
+          {
+            "trigger": "Desire for interactive, story-driven entertainment that offers control over outcomes",
+            "context": "Choosing gamebooks for adventure and escapism"
+          },
+          {
+            "trigger": "Replacement for a discontinued or disliked tool (e.g., Freehand replaced by Corel Draw)",
+            "context": "Switching due to software acquisition or feature gaps"
+          },
+          {
+            "trigger": "Impulse buy despite previous negative experiences",
+            "context": "Moment of weakness leading to repeat purchase of flawed software"
+          },
+          {
+            "trigger": "Need for a cost-effective bundle that covers multiple graphic design needs",
+            "context": "Buying a suite for value over individual applications"
+          },
+          {
+            "trigger": "Requirement for self-help legal documentation without lawyer fees",
+            "context": "Purchasing estate planning software for simple wills"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Software is unreliable and fails silently, risking data loss",
+            "severity": 0.95
+          },
+          {
+            "objection": "Product is overly monetized with hidden costs or pushy upsells",
+            "severity": 0.7
+          },
+          {
+            "objection": "Outdated or inaccurate data renders the product useless for its core purpose",
+            "severity": 0.85
+          },
+          {
+            "objection": "User interface is confusing, non-intuitive, or feels antiquated",
+            "severity": 0.8
+          },
+          {
+            "objection": "Poor tech support and lack of troubleshooting resources",
+            "severity": 0.75
+          },
+          {
+            "objection": "Restrictive licensing (e.g., activation limits) hinders legitimate use",
+            "severity": 0.65
+          },
+          {
+            "objection": "Platform limitations exclude key user segments (e.g., Mac users)",
+            "severity": 0.6
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Acronis backup software",
+            "reason": "Critical bug causing silent backup failures without warning",
+            "threshold": "Repeated failures over months despite troubleshooting"
+          },
+          {
+            "from_product": "DeLorme Street Atlas",
+            "reason": "Antiquated UI and inaccurate maps compared to modern alternatives",
+            "threshold": "Frustration with usability and data accuracy on multiple versions"
+          },
+          {
+            "from_product": "Microsoft Streets & Trips",
+            "reason": "Outdated maps and restrictive licensing policies",
+            "threshold": "Persistent inaccuracies and poor customer care experiences"
+          },
+          {
+            "from_product": "Nero Move It",
+            "reason": "Limited device support and convoluted setup for unsupported devices",
+            "threshold": "Inability to use with current hardware due to outdated compatibility lists"
+          },
+          {
+            "from_product": "Adobe Illustrator",
+            "reason": "Preference for workflow similarity to a discontinued tool (Freehand)",
+            "threshold": "Dislike of Illustrator's interface after acquisition of preferred software"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and consistency",
+          "Accuracy and data quality",
+          "Ease of use and intuitive interface",
+          "Cross-platform compatibility",
+          "Quality of support and documentation",
+          "Cost-effectiveness and value",
+          "Customization and adaptability",
+          "Licensing and activation policies",
+          "Product reviews and community feedback"
+        ],
+        "deal_breakers": [
+          "Software that fails silently without alerts",
+          "Consistently inaccurate core data (e.g., maps)",
+          "Unresponsive or expensive tech support",
+          "Overly restrictive DRM or activation limits",
+          "UI so poor it hinders basic functionality",
+          "Lack of cross-platform support when needed"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Lack of visibility and trust from management into progress and certainty",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Excessive process overhead and ceremony creating illusions of control without real improvement",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poor communication from product teams to stakeholders and leadership",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Management discomfort without formal reporting, even when underlying visibility exists",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Misalignment between team processes and executive needs for high-level, board-ready updates",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Stakeholders not knowing what\u2019s happening due to insufficient proactive updates",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Difficulty balancing visibility needs with avoiding bureaucratic process overhead",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Proactive, clear communication to build management trust and provide certainty",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Visibility into progress without unnecessary ceremony or process overhead",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Simple, high-level updates understandable by non-technical leadership (e.g., 5th-grade level)",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Ability to give management comfort and help when things go bad, not just metrics",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Better stakeholder relationships to influence processes incrementally",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Publicly viewable progress (e.g., demos, visible deliverables) as the best indicator of what\u2019s done",
+            "priority": 0.5
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to synthesize data from user feedback platforms and analytics dashboards for product decisions",
+            "context": "Core role as analytical professional"
+          },
+          {
+            "trigger": "Desire for tools that improve visibility and reporting to leadership",
+            "context": "Responding to management pressure"
+          },
+          {
+            "trigger": "Seeking ways to streamline communication without adding overhead",
+            "context": "Balancing process efficiency with stakeholder needs"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Overly complex processes that don\u2019t actually improve delivery or quality",
+            "severity": 0.8
+          },
+          {
+            "objection": "Management lacking maturity to apply appropriate processes for team size",
+            "severity": 0.7
+          },
+          {
+            "objection": "Focus on ceremony over real visibility and trust-building",
+            "severity": 0.7
+          },
+          {
+            "objection": "Inability to provide timely, clear updates that satisfy executive needs",
+            "severity": 0.6
+          },
+          {
+            "objection": "Assumptions that more reporting equals better control, leading to \"illusions of control\"",
+            "severity": 0.6
+          }
+        ],
+        "switching_triggers": [],
+        "decision_factors_ranked": [
+          "Ability to provide clear, high-level visibility to leadership",
+          "Trust and relationship-building with management",
+          "Minimal process overhead and bureaucracy",
+          "Effective communication and proactive updates",
+          "Alignment with executive needs for board/investor reporting",
+          "Practical tools for demos and publicly viewable progress"
+        ],
+        "deal_breakers": [
+          "Processes that create illusions of control without improving outcomes",
+          "Lack of management trust despite visibility efforts",
+          "Excessive ceremony that hinders team productivity",
+          "Inability to tailor updates to different stakeholder levels (e.g., technical vs. high-level)"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.5,
+      "reddit": 0.5,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Spending too much time on status updates in 1:1 meetings instead of meaningful work",
+          "count": 1,
+          "frequency": 0.0112,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0449
+        },
+        {
+          "signal": "Feeling overwhelmed with long to-do lists that lack focus",
+          "count": 1,
+          "frequency": 0.0112,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0337
+        },
+        {
+          "signal": "Wasting time on unnecessary meetings when a brief async update would suffice",
+          "count": 1,
+          "frequency": 0.0112,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0337
+        },
+        {
+          "signal": "Difficulty tracking progress against objectives and key results",
+          "count": 1,
+          "frequency": 0.0112,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0337
+        },
+        {
+          "signal": "Struggling to facilitate engaging team discussions (e.g., 'wins of the month')",
+          "count": 1,
+          "frequency": 0.0112,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0337
+        },
+        {
+          "signal": "Difficulty with execution vs visibility leading to career stagnation",
+          "count": 1,
+          "frequency": 0.0112,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0337
+        },
+        {
+          "signal": "Being eliminated for lacking key skills or visibility",
+          "count": 1,
+          "frequency": 0.0112,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0337
+        },
+        {
+          "signal": "Inability to effectively influence stakeholders or play the influence game",
+          "count": 1,
+          "frequency": 0.0112,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0337
+        },
+        {
+          "signal": "Perfectionism/procrastination hindering delivery and iteration",
+          "count": 1,
+          "frequency": 0.0112,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0337
+        },
+        {
+          "signal": "Time wasted iterating on documents vs telling the story to stakeholders",
+          "count": 1,
+          "frequency": 0.0112,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0337
+        },
+        {
+          "signal": "Receiving critical feedback despite team delivery success",
+          "count": 1,
+          "frequency": 0.0112,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0337
+        },
+        {
+          "signal": "Tool proficiency gaps causing inefficiency in early career",
+          "count": 1,
+          "frequency": 0.0112,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0337
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Make 1:1 meetings more efficient and productive for both manager and employee",
+          "count": 1,
+          "frequency": 0.0125,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0375
+        },
+        {
+          "signal": "Maintain clear, transparent tracking of work and its impact on goals",
+          "count": 1,
+          "frequency": 0.0125,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0375
+        },
+        {
+          "signal": "Enable employees to bring their 'A game' by removing blockers and providing needed support",
+          "count": 1,
+          "frequency": 0.0125,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0375
+        },
+        {
+          "signal": "Foster team morale through peer recognition and celebration of wins",
+          "count": 1,
+          "frequency": 0.0125,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0375
+        },
+        {
+          "signal": "Adapt meeting structure and frequency to individual employee needs",
+          "count": 1,
+          "frequency": 0.0125,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0375
+        },
+        {
+          "signal": "Clear, actionable advice to improve PM skills and career trajectory",
+          "count": 1,
+          "frequency": 0.0125,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0375
+        },
+        {
+          "signal": "Effective strategies to increase visibility and influence",
+          "count": 1,
+          "frequency": 0.0125,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0375
+        },
+        {
+          "signal": "Concrete ways to overcome perfectionism and improve execution",
+          "count": 1,
+          "frequency": 0.0125,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.05
+        },
+        {
+          "signal": "Improved ability to manage stakeholders and tell a compelling story",
+          "count": 1,
+          "frequency": 0.0125,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0375
+        },
+        {
+          "signal": "Guidance on navigating corporate politics and avoiding common pitfalls",
+          "count": 1,
+          "frequency": 0.0125,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.05
+        },
+        {
+          "signal": "Efficient data analysis and clean report generation",
+          "count": 1,
+          "frequency": 0.0125,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0375
+        },
+        {
+          "signal": "Ability to make informed product decisions from multiple data sources",
+          "count": 1,
+          "frequency": 0.0125,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.05
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Framework that forces a one-size-fits-all approach without flexibility",
+          "count": 1,
+          "frequency": 0.0185,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0556
+        },
+        {
+          "signal": "Advice that increases meeting time rather than making it more effective",
+          "count": 1,
+          "frequency": 0.0185,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0556
+        },
+        {
+          "signal": "Lack of actionable templates or clear examples",
+          "count": 1,
+          "frequency": 0.0185,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0556
+        },
+        {
+          "signal": "Vague or theoretical content lacking concrete steps",
+          "count": 1,
+          "frequency": 0.0185,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0556
+        },
+        {
+          "signal": "Advice that contradicts proven personal or team success",
+          "count": 1,
+          "frequency": 0.0185,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0556
+        },
+        {
+          "signal": "Overemphasis on politics over delivery",
+          "count": 1,
+          "frequency": 0.0185,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0556
+        },
+        {
+          "signal": "Inability to integrate with existing data sources",
+          "count": 1,
+          "frequency": 0.0185,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0556
+        },
+        {
+          "signal": "Excessive time required for basic reporting tasks",
+          "count": 1,
+          "frequency": 0.0185,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0556
+        },
+        {
+          "signal": "Poor performance with large datasets",
+          "count": 1,
+          "frequency": 0.0185,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0556
+        },
+        {
+          "signal": "Lack of support for collaborative workflows",
+          "count": 1,
+          "frequency": 0.0185,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0556
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Need for a structured framework to run effective 1:1 meetings",
+          "count": 1,
+          "frequency": 0.0179,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0536
+        },
+        {
+          "signal": "Desire to improve team alignment and goal tracking transparency",
+          "count": 1,
+          "frequency": 0.0179,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0536
+        },
+        {
+          "signal": "Need to reduce meeting fatigue while maintaining connection",
+          "count": 1,
+          "frequency": 0.0179,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0536
+        },
+        {
+          "signal": "Search for templates to improve team rituals (e.g., all-hands, peer recognition)",
+          "count": 1,
+          "frequency": 0.0179,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0536
+        },
+        {
+          "signal": "Receiving critical feedback or being eliminated",
+          "count": 1,
+          "frequency": 0.0179,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0714
+        },
+        {
+          "signal": "Seeking career advancement strategies",
+          "count": 1,
+          "frequency": 0.0179,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0536
+        },
+        {
+          "signal": "Identifying relatable pain points in shared content",
+          "count": 1,
+          "frequency": 0.0179,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0536
+        },
+        {
+          "signal": "New job requiring specific analytics tools",
+          "count": 1,
+          "frequency": 0.0179,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0536
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "low": 0.667,
+        "medium": 0.333
+      }
+    }
+  },
+  "cluster_1": {
+    "member_count": 2,
+    "representative_batches": [
+      {
+        "pain_points": [],
+        "desired_outcomes": [],
+        "purchase_triggers": [],
+        "objections": [],
+        "switching_triggers": [],
+        "decision_factors_ranked": [],
+        "deal_breakers": [],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [],
+        "desired_outcomes": [],
+        "purchase_triggers": [],
+        "objections": [],
+        "switching_triggers": [],
+        "decision_factors_ranked": [],
+        "deal_breakers": [],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.5,
+      "reddit": 0.5,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [],
+      "top_desired_outcomes": [],
+      "top_deal_breakers": [],
+      "top_purchase_triggers": [],
+      "dominant_friction_tolerance": "medium",
+      "friction_tolerance_distribution": {
+        "medium": 1.0
+      }
+    }
+  },
+  "cluster_2": {
+    "member_count": 8,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Unable to download certificate after completing course despite paying",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Payment issues (payment failure reported but bank shows payment, no refund)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Subscription or pro version lacking promised content (no additional courses/learning materials)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Certificate download error despite finishing course and passing test",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Course download stuck (e.g., at 20%)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "App misleadingly changes icon after installation, hard to find original",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Pro version not responding/accessible in certain regions",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Categories show no activity when expanded, features appear worthless",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "App asks for account/display unwanted info, perceived as greedy before showing value",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Too basic, not useful for serious learners/programmers",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Receive certificate upon course completion",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Access comprehensive, continuous learning materials after subscription/pro purchase",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Clear, easy-to-understand content (bite-sized, visual/audio aids)",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Ad-free learning environment with subscription",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Reliable app functionality (downloads, payments)",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Learn data science in an organized, simplified way",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Affordable certification at good price",
+            "priority": 0.5
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Desire for certification/education advancement",
+            "context": "Seeking certification or further education"
+          },
+          {
+            "trigger": "Attractive offers/pricing for certification",
+            "context": "Seeing good price for certification"
+          },
+          {
+            "trigger": "Ad-free, improved learning environment",
+            "context": "Wanting to remove ads via subscription"
+          },
+          {
+            "trigger": "Bite-sized, easy-to-understand learning format",
+            "context": "Seeking beginner-friendly, concise content"
+          },
+          {
+            "trigger": "Flexible payment options (start and pay later)",
+            "context": "Appeal of deferred payment model"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Certificate delivery failures after payment",
+            "severity": 0.9
+          },
+          {
+            "objection": "Payment processing issues leading to disputes",
+            "severity": 0.9
+          },
+          {
+            "objection": "Pro/subscription not providing advertised content (false advertisement)",
+            "severity": 0.9
+          },
+          {
+            "objection": "Technical glitches preventing course/download completion",
+            "severity": 0.8
+          },
+          {
+            "objection": "App perceived as too basic for serious learners",
+            "severity": 0.6
+          },
+          {
+            "objection": "Region-specific access problems for pro version",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [],
+        "decision_factors_ranked": [
+          "Certificate accessibility/credibility",
+          "Content quality/comprehensiveness",
+          "Payment reliability",
+          "App usability/navigation",
+          "Learning format (bite-sized, easy)"
+        ],
+        "deal_breakers": [
+          "Certificate not downloadable after payment",
+          "Pro subscription lacking advertised content",
+          "Major payment failure without refund"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Certificate issuance or access is broken (e.g., button doesn't work, can't download/share)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Pro/subscription value unclear or misleading (e.g., no additional content, certificate is 'WORTHLESS')",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poor audio quality (e.g., robot/AI voice, no teaching sound)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Lack of navigation controls (e.g., no back/forward buttons)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Content length or structure is cumbersome (e.g., 'too lengthy', 'have to go through whole content')",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "App functionality issues (e.g., 'does not work at all', 'waste of money')",
+            "emotional_intensity": 0.9
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Receive a valid, shareable certificate upon course completion",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Clear, high-quality audio (real human voice) for lessons",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Easy navigation (back/forward buttons) within lessons",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Concise, well-structured content with clear explanations",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Interactive, fun, and easy-to-understand learning experience",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Platform for questions and answers or community support",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need a certificate to prove course completion",
+            "context": "After finishing course, prompted to subscribe for certificate access"
+          },
+          {
+            "trigger": "Desire for additional or advanced content",
+            "context": "Expecting Pro upgrade to offer more courses or depth (though often unmet)"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Pro subscription is required for certificates but adds no real content value",
+            "severity": 0.85
+          },
+          {
+            "objection": "Certificate is perceived as worthless or not credible",
+            "severity": 0.8
+          },
+          {
+            "objection": "Audio quality is poor (AI/robot voice) detracting from learning",
+            "severity": 0.7
+          },
+          {
+            "objection": "App or certificate features are broken after payment",
+            "severity": 0.9
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "This app",
+            "reason": "Broken certificate issuance after payment",
+            "threshold": "Immediate upon failure"
+          },
+          {
+            "from_product": "This app",
+            "reason": "Misleading Pro subscription with no added value",
+            "threshold": "After purchase disappointment"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Certificate availability/credibility",
+          "Ease of use/navigation",
+          "Content clarity and quality",
+          "Audio/voice quality",
+          "Interactive/fun learning design",
+          "Pro subscription value"
+        ],
+        "deal_breakers": [
+          "Certificate not issued or accessible after completion",
+          "Pro subscription required for certificate but offers no content value",
+          "App completely non-functional"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Certificate only available after paying for a Pro subscription despite being told it's free after course completion.",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "App crashes frequently, especially after completing tests or during usage.",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Paid for Pro/Lifetime membership but still locked out of content or asked to pay again.",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Cannot access or download certificate after paying for Pro.",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "No response from customer support via email; no contact options in the app.",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Payment process fails or loops back to login page.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Course content is too basic, with repetitive questions that don't test real knowledge.",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Synthetic voice is tedious and requires constant clicking, causing hand pain.",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Account syncing errors with no way to report them.",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Grammar and editing issues in course material.",
+            "emotional_intensity": 0.3
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Receive a certificate upon completing a course without hidden fees.",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Stable app performance with no crashes.",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Access all paid content immediately after payment with no additional charges.",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Effective customer support with clear contact options.",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Smooth and reliable payment process.",
+            "priority": 0.75
+          },
+          {
+            "outcome": "High-quality, structured course content with challenging assessments.",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Human-like voiceovers and better pacing to reduce manual interaction.",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Easy certificate download and sharing to LinkedIn/social media.",
+            "priority": 0.65
+          },
+          {
+            "outcome": "Clear communication about pricing and features before purchase.",
+            "priority": 0.85
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Structured and simplified teaching of complex data science topics.",
+            "context": "Positive reviews highlight well-organized, easy-to-understand content that builds confidence."
+          },
+          {
+            "trigger": "No ads and an easy-to-use interface with features like text-to-speech.",
+            "context": "Users appreciate ad-free experience and usability, including voice features for learning."
+          },
+          {
+            "trigger": "Promotion of certificate or lifetime access at a perceived discount.",
+            "context": "Offers like discounted Pro membership or certification motivate purchases, though often lead to issues."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Hidden costs for certificates after course completion feels like fraud.",
+            "severity": 0.95
+          },
+          {
+            "objection": "App is buggy, with crashes and payment failures, making it unreliable.",
+            "severity": 0.85
+          },
+          {
+            "objection": "Poor customer support and no contact options for issue resolution.",
+            "severity": 0.8
+          },
+          {
+            "objection": "Certificate may not help in job hunting due to low course difficulty.",
+            "severity": 0.6
+          },
+          {
+            "objection": "Synthetic voice and interaction design cause physical discomfort.",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "This app",
+            "reason": "Certificate requires unexpected payment after completion.",
+            "threshold": "Immediate upon completion when paywall appears."
+          },
+          {
+            "from_product": "This app",
+            "reason": "Persistent app crashes and payment issues.",
+            "threshold": "After multiple failed attempts to use or pay."
+          },
+          {
+            "from_product": "This app",
+            "reason": "Considering competitors like DataCamp or Simplilearn for better quality.",
+            "threshold": "When dissatisfaction with content or reliability peaks."
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliable certificate issuance",
+          "App stability and performance",
+          "Transparent pricing and no hidden fees",
+          "Quality and depth of course content",
+          "Customer support accessibility",
+          "Payment process reliability",
+          "Ease of use and interface design",
+          "Voice and interaction quality"
+        ],
+        "deal_breakers": [
+          "Hidden fees for certificates after course completion",
+          "App crashes that prevent usage or certificate access",
+          "Paid subscriptions not granting promised access",
+          "No functional customer support contact options"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 1,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Unable to access content after paying for pro version (blank screen)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Feeling misled about certificate credibility and refund processes",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Essential features locked behind paywall, limiting learning",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "No courses showing up after payment",
+            "emotional_intensity": 0.75
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Learn data science concepts in a simplified, easy-to-understand way",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Have a structured, systematic course with step-by-step tutorials",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Gain practical knowledge through examples and quizzes for reinforcement",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Access a user-friendly, engaging app for effective learning on-the-go",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Obtain a credible certificate upon completion",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Positive experiences with free content (simplicity, ease of use)",
+            "context": "After initial use of free version"
+          },
+          {
+            "trigger": "Desire for comprehensive features and full course access",
+            "context": "When user hits limits of free version and wants deeper learning"
+          },
+          {
+            "trigger": "Recommendation from positive reviews highlighting educational value",
+            "context": "During app store discovery and evaluation"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Paywall restricts access to necessary learning features",
+            "severity": 0.8
+          },
+          {
+            "objection": "Technical issues after upgrade (blank screen, missing content)",
+            "severity": 0.9
+          },
+          {
+            "objection": "Certificate perceived as non-credible or misleading",
+            "severity": 0.7
+          },
+          {
+            "objection": "Refund process is delayed or difficult",
+            "severity": 0.65
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Other data science learning platforms",
+            "reason": "This app offers more simplified, engaging, and structured tutorials",
+            "threshold": "When prior platforms feel overly complex or less user-friendly"
+          },
+          {
+            "from_product": "Traditional online courses",
+            "reason": "Mobile-friendly design with interactive quizzes and voice-guided lessons",
+            "threshold": "Need for on-the-go, bite-sized learning with better UX"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Ease of understanding / Simplicity",
+          "Content quality and structure",
+          "User interface / UX",
+          "Cost and value for money",
+          "Accessibility and mobile-friendliness",
+          "Interactive elements (quizzes, voice)"
+        ],
+        "deal_breakers": [
+          "Paywall blocking essential learning content",
+          "Critical bugs after payment (blank screen, missing courses)",
+          "Misleading claims about certificates"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 1,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Certificate not issued after completing course",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "App inaccessible after sign-up or login",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Paid Pro subscription issues (revert, blank dashboard)",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Poor or no customer support response",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Content perceived as too basic or vague",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Certificate requires payment despite free expectations",
+            "emotional_intensity": 0.85
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Receive certificate upon completion",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Access content reliably after sign-up",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Clear explanation of free vs paid features",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Beginner-friendly education with easy understanding",
+            "priority": 0.6
+          },
+          {
+            "outcome": "No intrusive ads or pop-ups",
+            "priority": 0.5
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Wanting a completion certificate",
+            "context": "After finishing courses"
+          },
+          {
+            "trigger": "Wanting to ensure product quality before paying",
+            "context": "Testing app before purchase"
+          },
+          {
+            "trigger": "Unlocking Pro features like advanced content",
+            "context": "Seeking premium value"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Certificate requires payment unexpectedly",
+            "severity": 0.9
+          },
+          {
+            "objection": "Pro subscription does not work as promised",
+            "severity": 0.9
+          },
+          {
+            "objection": "Cannot preview content before paying",
+            "severity": 0.7
+          },
+          {
+            "objection": "Content too basic or not interactive",
+            "severity": 0.5
+          },
+          {
+            "objection": "Poor customer support",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Current learning app",
+            "reason": "Certificate not issued despite completion",
+            "threshold": "Immediate after failure"
+          },
+          {
+            "from_product": "Current learning app",
+            "reason": "Paid subscription failing repeatedly",
+            "threshold": "After first issue"
+          },
+          {
+            "from_product": "Current learning app",
+            "reason": "App inaccessible or blank on login",
+            "threshold": "Immediate"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Certificate accessibility",
+          "App reliability and access",
+          "Clear free/paid model",
+          "Ease of understanding content",
+          "Cost value",
+          "No ads"
+        ],
+        "deal_breakers": [
+          "Certificate not issued after completion",
+          "Paid subscription not working",
+          "App inaccessible after login"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.524,
+      "reddit": 0.476,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Feeling deceived by predatory subscription models that remove access upon cancellation",
+          "count": 1,
+          "frequency": 0.0161,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0484
+        },
+        {
+          "signal": "Frustration with in-app purchases being expensive and manipulative, especially for children",
+          "count": 1,
+          "frequency": 0.0161,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0484
+        },
+        {
+          "signal": "Anger at poor customer support that fails to resolve issues or honor upgrade promises",
+          "count": 1,
+          "frequency": 0.0161,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0484
+        },
+        {
+          "signal": "Discomfort with mandatory sharing of personal life details in professional 1:1 meetings",
+          "count": 1,
+          "frequency": 0.0161,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0484
+        },
+        {
+          "signal": "Annoyance at technical incompatibilities between rival platforms (e.g., Amazon Music and Android Auto)",
+          "count": 1,
+          "frequency": 0.0161,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0484
+        },
+        {
+          "signal": "Frustration with voice assistants not understanding commands or requiring multiple steps for simple tasks",
+          "count": 1,
+          "frequency": 0.0161,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0484
+        },
+        {
+          "signal": "Struggle to learn software without a basic accounting/bookkeeping background",
+          "count": 1,
+          "frequency": 0.0161,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0484
+        },
+        {
+          "signal": "Costly upgrades required annually to maintain technical support",
+          "count": 1,
+          "frequency": 0.0161,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0484
+        },
+        {
+          "signal": "Frustration with blackout/restricted areas preventing access to preferred content despite willingness to pay",
+          "count": 1,
+          "frequency": 0.0161,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0645
+        },
+        {
+          "signal": "Discomfort and distrust when asked to share personal/outside-of-work information in professional settings",
+          "count": 1,
+          "frequency": 0.0161,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0484
+        },
+        {
+          "signal": "Difficulty getting time with boss and not resolving blockers in 1:1 meetings",
+          "count": 1,
+          "frequency": 0.0161,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0484
+        },
+        {
+          "signal": "Poor customer service response when trying to upgrade a product",
+          "count": 1,
+          "frequency": 0.0161,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0484
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Transparent, fair pricing with permanent access to purchased content",
+          "count": 1,
+          "frequency": 0.0182,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0545
+        },
+        {
+          "signal": "Respect for personal boundaries and professional-only discussions at work",
+          "count": 1,
+          "frequency": 0.0182,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0545
+        },
+        {
+          "signal": "Seamless integration and compatibility between different software/hardware ecosystems",
+          "count": 1,
+          "frequency": 0.0182,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0545
+        },
+        {
+          "signal": "Intelligent, reliable voice recognition that understands diverse voices and commands",
+          "count": 1,
+          "frequency": 0.0182,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0545
+        },
+        {
+          "signal": "Easy-to-use software with good value, avoiding paying for unneeded features",
+          "count": 1,
+          "frequency": 0.0182,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0545
+        },
+        {
+          "signal": "Easily learn and use software without specialized background",
+          "count": 1,
+          "frequency": 0.0182,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0545
+        },
+        {
+          "signal": "Receive effective technical support without mandatory, costly annual upgrades",
+          "count": 1,
+          "frequency": 0.0182,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0545
+        },
+        {
+          "signal": "Access preferred content (e.g., sports teams) without geographic blackout restrictions",
+          "count": 1,
+          "frequency": 0.0182,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0545
+        },
+        {
+          "signal": "Maintain professional boundaries while having optional, safe avenues for personal sharing based on trust",
+          "count": 1,
+          "frequency": 0.0182,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0545
+        },
+        {
+          "signal": "Efficiently resolve work blockers and manage status updates without dominating 1:1 time",
+          "count": 1,
+          "frequency": 0.0182,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0545
+        },
+        {
+          "signal": "Reliable customer service for upgrades and support",
+          "count": 1,
+          "frequency": 0.0182,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0545
+        },
+        {
+          "signal": "Stable, buffer-free streaming experience",
+          "count": 1,
+          "frequency": 0.0182,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0727
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Predatory subscriptions that remove paid content",
+          "count": 1,
+          "frequency": 0.0333,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1
+        },
+        {
+          "signal": "Poor customer support that doesn't resolve issues",
+          "count": 1,
+          "frequency": 0.0333,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1
+        },
+        {
+          "signal": "Mandatory sharing of personal life at work",
+          "count": 1,
+          "frequency": 0.0333,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1
+        },
+        {
+          "signal": "Software that fails to install or function as promised",
+          "count": 1,
+          "frequency": 0.0333,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1
+        },
+        {
+          "signal": "Mandatory costly annual upgrades for support",
+          "count": 1,
+          "frequency": 0.0333,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1
+        },
+        {
+          "signal": "Geographic blackouts on paid content",
+          "count": 1,
+          "frequency": 0.0333,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1
+        },
+        {
+          "signal": "Forced personal sharing without trust in professional settings",
+          "count": 1,
+          "frequency": 0.0333,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1008
+        },
+        {
+          "signal": "Poor customer service responsiveness",
+          "count": 1,
+          "frequency": 0.0333,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1
+        },
+        {
+          "signal": "Requires specialized knowledge to use effectively",
+          "count": 1,
+          "frequency": 0.0333,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1
+        },
+        {
+          "signal": "Pro upgrade fails to unlock promised features",
+          "count": 1,
+          "frequency": 0.0333,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Seeking a specific solution (e.g., weather data directly from NWS, language learning)",
+          "count": 1,
+          "frequency": 0.0312,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0938
+        },
+        {
+          "signal": "Attractive price point compared to competitors",
+          "count": 1,
+          "frequency": 0.0312,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0938
+        },
+        {
+          "signal": "Positive long-term experience with a brand leading to renewal",
+          "count": 1,
+          "frequency": 0.0312,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0938
+        },
+        {
+          "signal": "Desire for home automation and voice-controlled convenience",
+          "count": 1,
+          "frequency": 0.0312,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0938
+        },
+        {
+          "signal": "Need to replace outdated software or system (e.g., moving from Windows 7)",
+          "count": 1,
+          "frequency": 0.0312,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0938
+        },
+        {
+          "signal": "Starting a new business or professional need for accounting/office tools",
+          "count": 1,
+          "frequency": 0.0312,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0938
+        },
+        {
+          "signal": "Desire to save money on legal fees for estate planning",
+          "count": 1,
+          "frequency": 0.0312,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0938
+        },
+        {
+          "signal": "Seeking a free or low-cost alternative to expensive professional software",
+          "count": 1,
+          "frequency": 0.0312,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0938
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "low": 0.875,
+        "medium": 0.125
+      }
+    }
+  },
+  "cluster_3": {
+    "member_count": 63,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Frustration with products requiring technical knowledge of tools like GitHub for non-technical roles",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Annoyance at products with poor user interfaces or unclear error messages (e.g., GUI elements off-screen, validation errors not specified)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Dissatisfaction with customer support being unresponsive or ineffective",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Irritation at software that consumes excessive system resources or storage space",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Concern over data loss due to unreliable backup systems",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Frustration with activation or installation issues (e.g., codes not working, download times)",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Efficiently manage tasks and data without needing to code",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Clear, intuitive user interfaces that work across devices",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Reliable product performance with minimal bugs or crashes",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Responsive and helpful customer support",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Seamless integration with existing workflows and tools",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Products that provide value without unnecessary complexity",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Positive reviews or high ratings in comparative analyses",
+            "context": "When seeking security software or other tech tools"
+          },
+          {
+            "trigger": "Availability as a free or discounted offer",
+            "context": "Trying new apps or software without initial investment"
+          },
+          {
+            "trigger": "Need for specific functionality (e.g., tax filing, antivirus protection)",
+            "context": "Seasonal or recurring requirements"
+          },
+          {
+            "trigger": "Bundle or package deals offering multi-device support",
+            "context": "When managing multiple devices under one subscription"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Products that assume technical proficiency (like GitHub use) for non-technical roles",
+            "severity": 0.6
+          },
+          {
+            "objection": "Poor user experience due to bugs, crashes, or unclear instructions",
+            "severity": 0.9
+          },
+          {
+            "objection": "High cost relative to value, especially with recurring subscriptions",
+            "severity": 0.7
+          },
+          {
+            "objection": "Lack of customer support or slow response times",
+            "severity": 0.8
+          },
+          {
+            "objection": "Compatibility issues with existing hardware or software",
+            "severity": 0.75
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "TurboTax",
+            "reason": "Activation code failures and poor tech support",
+            "threshold": "Repeated issues leading to inability to use product"
+          },
+          {
+            "from_product": "Various antivirus programs",
+            "reason": "Declining performance ratings or high resource usage",
+            "threshold": "Subscription renewal time with better alternatives available"
+          },
+          {
+            "from_product": "Budgeting apps",
+            "reason": "Data loss despite backup measures",
+            "threshold": "Critical failure causing loss of financial data"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and performance",
+          "Ease of use and intuitive design",
+          "Customer support quality",
+          "Cost and value for money",
+          "Compatibility with existing systems",
+          "Feature set and functionality",
+          "Reviews and ratings from other users"
+        ],
+        "deal_breakers": [
+          "Critical bugs that prevent basic functionality",
+          "Unresponsive or absent customer support",
+          "Excessive resource consumption affecting device performance",
+          "Data loss or security vulnerabilities"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Critical data loss or corruption during use",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Misleading or inaccurate product descriptions leading to purchase mistakes",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Poor or unresponsive customer support",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Forced or broken upgrades to other software products",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Product crashes, bugs, or instability after updates",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Clunky, non-resizable, or unusable UI dialogs",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Lack of integration between complementary software products",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Design systems failing due to lack of dedicated ownership and investment",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "High initial time investment for setup or backup",
+            "emotional_intensity": 0.4
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable, error-free data handling and conversion",
+            "priority": 1.0
+          },
+          {
+            "outcome": "Accurate and honest product descriptions",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Seamless integration between software and related services",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Efficient, consistent, and fast product performance",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Responsive and effective customer support",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Intuitive, well-designed user interfaces",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Cross-device synchronization and data sharing",
+            "priority": 0.65
+          },
+          {
+            "outcome": "A design system treated as a living product with clear governance",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Historical data import/transfer from previous versions",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Disappointment/failure with a previous competing product",
+            "context": "Review 31: After Acronis TrueImage failed to recover files twice... I decided to give Rebit a try."
+          },
+          {
+            "trigger": "Need for multi-device sync and advanced features",
+            "context": "Review 7 & 10: Pro version makes sharing/updating info between devices easier, leading to upgrade."
+          },
+          {
+            "trigger": "Specific feature promise (e.g., data import)",
+            "context": "Review 4: Purchased based on product description promising QuickBooks import compatibility."
+          },
+          {
+            "trigger": "Positive long-term experience leading to renewal",
+            "context": "Review 40: Used TurboTax for years; it works well, asks thorough questions, leading to continued use."
+          },
+          {
+            "trigger": "Free version proving value",
+            "context": "Review 13 & 14: Using free version successfully for months led to considering/upgrading to paid."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product is incomplete, buggy, or feels like a beta",
+            "severity": 0.9
+          },
+          {
+            "objection": "Product description is false or misleading",
+            "severity": 0.9
+          },
+          {
+            "objection": "Poor customer support and slow resolution",
+            "severity": 0.8
+          },
+          {
+            "objection": "Forced upgrades or lack of backward compatibility",
+            "severity": 0.75
+          },
+          {
+            "objection": "High long-term cost or subscription model",
+            "severity": 0.6
+          },
+          {
+            "objection": "Design system not being valued or funded as a product",
+            "severity": 0.5
+          },
+          {
+            "objection": "High complexity or initial time cost for setup",
+            "severity": 0.4
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Acronis TrueImage / Norton Ghost",
+            "reason": "Failure to reliably recover files",
+            "threshold": "Critical failure (files lost)"
+          },
+          {
+            "from_product": "TurboTax",
+            "reason": "Forced QuickBooks upgrade and misleading product info",
+            "threshold": "Core feature (import) broken due to false advertising"
+          },
+          {
+            "from_product": "TurboTax (2007)",
+            "reason": "Found a better alternative (H&R Block) with reliable features",
+            "threshold": "Found more confidence in competitor's interview process and value"
+          },
+          {
+            "from_product": "Other backup software",
+            "reason": "Found a smarter, more efficient solution (Rebit)",
+            "threshold": "Dissatisfaction with feature set and discovering superior incremental backup"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Data reliability and integrity",
+          "Feature accuracy vs. description",
+          "Ease of use and intuitive UI",
+          "Customer support quality",
+          "Integration capabilities",
+          "Performance and stability",
+          "Cost and upgrade policies",
+          "Cross-device functionality"
+        ],
+        "deal_breakers": [
+          "Critical data loss or corruption",
+          "False advertising in product description",
+          "Complete lack of usable customer support",
+          "Forced, costly upgrades that break existing workflows",
+          "Product instability causing crashes or lost progress"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Inability to find adequate alternatives for specific use cases (e.g., Mac users needing PC software)",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Lack of clear value in new software versions (perceived unnecessary upgrades)",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Poor technical support and troubleshooting difficulties",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Misalignment between CEO/stakeholder expectations and team understanding of product deliverables",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Software bugs and performance issues (e.g., freezing, download failures, no sound)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Outdated software with limited modern features (e.g., cloud access, mobile support)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Product activation and registration problems",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Lack of early access to necessary features (e.g., state tax programs)",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Data import errors and conversion issues",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Concerns about role dilution and lack of specialization in product management",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Seamless cross-platform software compatibility",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Clear, valuable upgrades with noticeable feature improvements",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Reliable technical support and easy troubleshooting",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Software that works out-of-the-box without setup issues",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Modern, user-friendly interfaces with cloud and mobile access",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Accurate and up-to-date data/calculations in software (e.g., tax limits)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Early access to preliminary versions for planning purposes",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Smooth data import and conversion processes",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Product managers with balanced, effective skill sets (e.g., technical and strategic)",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for specific functionality not available on current platform",
+            "context": "Mac user requiring PC-only software for trip planning and geography help"
+          },
+          {
+            "trigger": "Small business need for remote access and data mobility",
+            "context": "Running a business and requiring secure access to multiple computers/tablets"
+          },
+          {
+            "trigger": "Seasonal or experimental use (e.g., tax planning, March Madness)",
+            "context": "Using software for annual tax preparation or one-off experiments"
+          },
+          {
+            "trigger": "Recommendation from trusted sources or positive past experience",
+            "context": "Long-term user returning to a familiar product after trying alternatives"
+          },
+          {
+            "trigger": "Need for detailed financial management and tax filing support",
+            "context": "Managing personal finances and requiring integration with tax software"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Upgrades lack significant new features or value",
+            "severity": 0.7
+          },
+          {
+            "objection": "Poor technical support and customer service",
+            "severity": 0.9
+          },
+          {
+            "objection": "Software has critical bugs (e.g., no sound, download failures)",
+            "severity": 0.95
+          },
+          {
+            "objection": "Product requires problematic activation/registration",
+            "severity": 0.85
+          },
+          {
+            "objection": "Outdated software with limited modern functionality",
+            "severity": 0.6
+          },
+          {
+            "objection": "Misunderstanding of product roles and expectations (e.g., full-stack PM)",
+            "severity": 0.5
+          },
+          {
+            "objection": "Data import errors and unreliable conversions",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Previous version of same software",
+            "reason": "No perceived improvement in new version",
+            "threshold": "When upgrade offers no clear new features or value"
+          },
+          {
+            "from_product": "Competing tax software",
+            "reason": "TurboTax considered the best option despite imperfections",
+            "threshold": "After trying alternatives and deciding TurboTax is superior"
+          },
+          {
+            "from_product": "Other finance software",
+            "reason": "Quicken remains useful despite flaws due to lack of good alternatives",
+            "threshold": "If a reasonable alternative existed, would switch"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and performance",
+          "Technical support quality",
+          "Ease of use and setup",
+          "Feature set and value",
+          "Cross-platform compatibility",
+          "Data accuracy and updates",
+          "Cost-effectiveness",
+          "Modern functionality (cloud/mobile)"
+        ],
+        "deal_breakers": [
+          "Critical software bugs (e.g., no sound, download failures)",
+          "Poor or nonexistent technical support",
+          "Product activation/registration failures",
+          "Lack of clear upgrade value"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Outdated software lacking compatibility with modern systems",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Poor product updates causing performance degradation",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Confusing or insufficient onboarding documentation",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Technical glitches requiring workarounds",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Connectivity/activation failures with specific devices",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Dependency on AI agents leading to unreliable or non-deterministic outputs",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Poor customer support availability",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Manual data transfer between tools causing inefficiency",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Lack of detailed reporting features",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Slow interface or performance issues",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Incorrect or insufficient regional/content targeting",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Automate repetitive analysis tasks to save time",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Access real-time, detailed data and statistics",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Integrate multiple data sources into unified dashboards",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Accurate and reliable data processing without AI hallucinations",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Tools that are compatible with existing workflows and systems",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Clear, structured reporting for stakeholders",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Tools that match real stakeholder use cases, not just brand names",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Seamless data transfer between versions/platforms",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Tools that challenge and engage users to maintain learning progress",
+            "priority": 0.5
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Platform migration (e.g., switching from PC to Mac)",
+            "context": "Needing to transfer existing workflows to new environment"
+          },
+          {
+            "trigger": "Seeking alternatives to popular, expensive tools",
+            "context": "Researching web for suggestions before buying market leader"
+          },
+          {
+            "trigger": "Job requirements or listed skills in job description",
+            "context": "Seeking tools aligned with professional role expectations"
+          },
+          {
+            "trigger": "Annual upgrade cycle for essential software",
+            "context": "Regularly updating to newest version for continued use"
+          },
+          {
+            "trigger": "Need to watch specific content (local sports teams)",
+            "context": "Accessing regional entertainment not available elsewhere"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Outdated software no longer compatible with modern systems",
+            "severity": 0.9
+          },
+          {
+            "objection": "AI-generated outputs lack reliability and traceability",
+            "severity": 0.8
+          },
+          {
+            "objection": "Poor post-update performance degrading user experience",
+            "severity": 0.7
+          },
+          {
+            "objection": "Lack of ongoing software support and updates",
+            "severity": 0.7
+          },
+          {
+            "objection": "Subscription pricing models replacing one-time purchases",
+            "severity": 0.5
+          },
+          {
+            "objection": "Missing features present in competing products",
+            "severity": 0.6
+          },
+          {
+            "objection": "High cost for limited functionality",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Rosetta Stone",
+            "reason": "Found alternative suggestions through web research",
+            "threshold": "Positive references found online"
+          },
+          {
+            "from_product": "Power BI/Tableau",
+            "reason": "Tools didn't match real stakeholder needs in production environment",
+            "threshold": "Found better alignment with specific reporting requirements"
+          },
+          {
+            "from_product": "Manual coding",
+            "reason": "Seeking automation for repetitive analysis tasks",
+            "threshold": "Time savings outweigh debugging overhead"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and accuracy of output",
+          "Integration with existing tools/workflows",
+          "Cost-effectiveness",
+          "Ease of use and learning curve",
+          "Quality of customer support",
+          "Feature completeness",
+          "Tool compatibility with modern systems"
+        ],
+        "deal_breakers": [
+          "Software incompatible with current operating systems",
+          "AI generating unreliable/non-deterministic outputs",
+          "Critical features missing or broken",
+          "No ongoing updates/support",
+          "Performance degradation after updates"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Software is buggy, unreliable, and crashes frequently",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Customer support is unhelpful, with long wait times and ineffective solutions",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "High cost for poor performance, feeling like a waste of money",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Steep learning curve and overwhelming number of features/options",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Missing critical features available on other platforms (e.g., cloud sync, real-time updates)",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Forced upgrades due to lack of backward compatibility or support",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Corporate bureaucracy, changing priorities, and excessive meetings hinder productivity",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Import/export and data integrity issues causing reconciliation problems",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Inability to use software on previously compatible hardware",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Frequent app freezes, crashes, or failure to stream content reliably",
+            "emotional_intensity": 0.8
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Software that works reliably without crashes or hangs",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Reduce pain from typing through effective speech recognition",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Powerful, fine-grained control over tools and effects",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Real-time preview of effects to save time",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Cloud synchronization across all devices and platforms",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Automatic software updates and version notifications",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Ability to build and launch products independently or with small teams",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Clean, customizable, and intuitive interface",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Stable streaming without interruptions or crashes",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Effective customer support that resolves issues knowledgeably",
+            "priority": 0.75
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to replace an outdated or unsupported version of software",
+            "context": "Forced upgrade due to OS compatibility or end of support"
+          },
+          {
+            "trigger": "Seeking to reduce physical pain or inefficiency (e.g., typing pain)",
+            "context": "Looking for speech recognition as an alternative input method"
+          },
+          {
+            "trigger": "Desire for more powerful creative control than basic tools offer",
+            "context": "Amateur or professional artist needing advanced features"
+          },
+          {
+            "trigger": "Requirement to manage large libraries or data sets effectively",
+            "context": "Need for collections, organization, and data integrity features"
+          },
+          {
+            "trigger": "Transition to entrepreneurship or independent building",
+            "context": "Leaving corporate job to pursue own product ideas"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Software is too buggy and unreliable for the high price",
+            "severity": 0.9
+          },
+          {
+            "objection": "Lack of cross-platform sync for critical features",
+            "severity": 0.8
+          },
+          {
+            "objection": "Steep learning curve makes the software inaccessible",
+            "severity": 0.6
+          },
+          {
+            "objection": "Forced upgrades feel like a revenue grab with little added value",
+            "severity": 0.7
+          },
+          {
+            "objection": "Poor customer support fails to resolve technical issues",
+            "severity": 0.85
+          },
+          {
+            "objection": "Missing basic features compared to competitors",
+            "severity": 0.75
+          },
+          {
+            "objection": "Corporate policies prioritize profit over customer needs",
+            "severity": 0.7
+          },
+          {
+            "objection": "Software instability leads to data loss or corruption",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Quicken",
+            "reason": "Forced upgrades due to lack of support and compatibility issues",
+            "threshold": "When OS upgrade breaks functionality"
+          },
+          {
+            "from_product": "Amazon Instant Video",
+            "reason": "App crashes or fails to play content reliably",
+            "threshold": "Frequent interruptions during streaming"
+          },
+          {
+            "from_product": "PowerDirector",
+            "reason": "Software becomes unstable and fails to perform core functions",
+            "threshold": "Recurring errors in encoding/recording"
+          },
+          {
+            "from_product": "Kindle for PC",
+            "reason": "Lack of cloud sync for collections across devices",
+            "threshold": "Library grows too large to manage manually"
+          },
+          {
+            "from_product": "Corporate PM tools/processes",
+            "reason": "Bureaucracy and shifting priorities hinder productivity",
+            "threshold": "Desire for autonomy and direct impact"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and stability",
+          "Cost relative to performance",
+          "Customer support quality",
+          "Feature completeness and cross-platform sync",
+          "Ease of use and learning curve",
+          "Compatibility with existing hardware/OS",
+          "Data integrity and import/export capabilities",
+          "Frequency of updates and backward compatibility",
+          "Autonomy and impact potential",
+          "Streaming performance without interruptions"
+        ],
+        "deal_breakers": [
+          "Frequent crashes or instability",
+          "Unresponsive or ineffective customer support",
+          "Missing critical features available on other platforms",
+          "Forced upgrades with no real value added",
+          "Data loss or corruption due to software bugs",
+          "Inability to use on compatible hardware",
+          "Corporate policies that ignore customer feedback",
+          "Streaming interruptions or failure to play content"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.5,
+      "reddit": 0.5,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Frustration with products requiring technical knowledge of tools like GitHub for non-technical roles",
+          "count": 1,
+          "frequency": 0.0019,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0056
+        },
+        {
+          "signal": "Annoyance at products with poor user interfaces or unclear error messages (e.g., GUI elements off-screen, validation errors not specified)",
+          "count": 1,
+          "frequency": 0.0019,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0056
+        },
+        {
+          "signal": "Dissatisfaction with customer support being unresponsive or ineffective",
+          "count": 1,
+          "frequency": 0.0019,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0056
+        },
+        {
+          "signal": "Irritation at software that consumes excessive system resources or storage space",
+          "count": 1,
+          "frequency": 0.0019,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0056
+        },
+        {
+          "signal": "Concern over data loss due to unreliable backup systems",
+          "count": 1,
+          "frequency": 0.0019,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0056
+        },
+        {
+          "signal": "Frustration with activation or installation issues (e.g., codes not working, download times)",
+          "count": 1,
+          "frequency": 0.0019,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0056
+        },
+        {
+          "signal": "Installation and setup errors causing wasted time and frustration",
+          "count": 1,
+          "frequency": 0.0019,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0056
+        },
+        {
+          "signal": "Registration/activation failures blocking core functionality",
+          "count": 1,
+          "frequency": 0.0019,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0056
+        },
+        {
+          "signal": "Unclear pricing/hidden fees creating distrust",
+          "count": 1,
+          "frequency": 0.0019,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0056
+        },
+        {
+          "signal": "Poor or confusing user interface hindering task completion",
+          "count": 1,
+          "frequency": 0.0019,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0075
+        },
+        {
+          "signal": "Lack of adequate documentation/learning resources",
+          "count": 1,
+          "frequency": 0.0019,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0075
+        },
+        {
+          "signal": "Poor performance on moderate hardware (slow, high CPU usage)",
+          "count": 1,
+          "frequency": 0.0019,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0056
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Effective customer support that resolves issues quickly",
+          "count": 2,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0105
+        },
+        {
+          "signal": "Accessible and effective customer support",
+          "count": 2,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0105
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Unresponsive or ineffective customer support",
+          "count": 2,
+          "frequency": 0.0067,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0167
+        },
+        {
+          "signal": "Complete lack of customer support",
+          "count": 2,
+          "frequency": 0.0067,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0167
+        },
+        {
+          "signal": "Frequent crashes or data loss",
+          "count": 2,
+          "frequency": 0.0067,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0167
+        },
+        {
+          "signal": "Critical data loss or corruption",
+          "count": 2,
+          "frequency": 0.0067,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0167
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Annual tax filing requirement",
+          "count": 2,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0164
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "low": 0.698,
+        "medium": 0.302
+      }
+    }
+  },
+  "cluster_4": {
+    "member_count": 25,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Frequent login/access issues preventing use (app launches browser, login fails with 'access revoked' or 'not found')",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "App instability and bugs after updates (freezing, hanging, crashing, tickets not opening, broken features)",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Inadequate customer support (unresolved issues, slow/no responses, contradictory messages)",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Missing or broken key features compared to web/desktop (macros, signature fields, ticket viewer, round robin)",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Poor UX/UI (complex navigation, too many clicks, unreadable text, lack of dark mode)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Unreliable notifications and sync (delays, no notifications, missing sounds, not working on mobile)",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "App tracks user data excessively (78 trackers mentioned)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Regression in functionality after updates (layout changes, worse spacing, removed mobile data support)",
+            "emotional_intensity": 0.75
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable mobile access to manage tickets away from desktop",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Stable app with consistent performance across updates and devices",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Complete feature parity with web/desktop version (macros, signatures, round robin, ticket viewer visibility)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Effective and responsive customer support that resolves issues",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Clear user status/visibility indicators for supervisors",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Improved UX/UI (intuitive navigation, readable text, dark mode)",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Reliable notification system with proper sounds and timing",
+            "priority": 0.75
+          },
+          {
+            "outcome": "App functionality over mobile data, not just Wi-Fi",
+            "priority": 0.65
+          },
+          {
+            "outcome": "Ability to revert to previous versions after bad updates",
+            "priority": 0.55
+          },
+          {
+            "outcome": "Granular notification controls (e.g., disable by group)",
+            "priority": 0.5
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to manage support tickets efficiently while away from desk",
+            "context": "Mobile accessibility for on-the-go work"
+          },
+          {
+            "trigger": "Desktop/web version is effective but requires mobile companion",
+            "context": "Extension of existing workflow to mobile"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "App is unreliable with frequent crashes and login failures",
+            "severity": 0.9
+          },
+          {
+            "objection": "Customer support is ineffective and issues remain unresolved",
+            "severity": 0.95
+          },
+          {
+            "objection": "App lacks critical features available in web/desktop version",
+            "severity": 0.7
+          },
+          {
+            "objection": "App collects excessive user data through trackers",
+            "severity": 0.85
+          },
+          {
+            "objection": "Updates degrade functionality rather than improve it",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Zendesk mobile app",
+            "reason": "Persistent technical failures (login issues, crashes, bugs) that block core functionality",
+            "threshold": "When the app becomes unusable for daily ticket management"
+          },
+          {
+            "from_product": "Zendesk mobile app",
+            "reason": "Inadequate customer support that fails to resolve critical issues",
+            "threshold": "After multiple support attempts without resolution"
+          },
+          {
+            "from_product": "Zendesk mobile app",
+            "reason": "Excessive data tracking and privacy concerns",
+            "threshold": "When privacy risks outweigh utility"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability/Stability",
+          "Core Feature Functionality",
+          "Customer Support Quality",
+          "Mobile Accessibility",
+          "UX/Usability",
+          "Privacy/Security",
+          "Notification System"
+        ],
+        "deal_breakers": [
+          "Chronic login/access failures",
+          "Unresponsive customer support",
+          "Critical bugs that block ticket management",
+          "Loss of core functionality after updates"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "App freezes or crashes frequently on mobile/tablet devices.",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Login/sign-up issues (Google, Microsoft) causing inability to access the app.",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Performance issues: slow loading, lag, high RAM usage, device overheating.",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Missing or limited mobile app features compared to desktop (e.g., connectors, shape recognition, settings).",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Billing/subscription problems: unexpected charges, cancellation not recognized.",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poor zoom functionality: glitchy, unnatural, loses current grid.",
+            "emotional_intensity": 0.55
+          },
+          {
+            "signal": "Unreliability: app may fail during critical moments like presentations.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Stylus/palm rejection issues, inconsistent pen input.",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Lack of dark theme, font sizing options, or customization.",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Inefficient workflows: tasks like creating new lines require excessive clicks.",
+            "emotional_intensity": 0.45
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable, stable app that works seamlessly across devices.",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Feature parity between mobile/tablet and desktop versions.",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Intuitive, smooth zoom and navigation.",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Better touch/stylus support with palm rejection and left-handed options.",
+            "priority": 0.55
+          },
+          {
+            "outcome": "Offline functionality or caching to reduce lag and load times.",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Transparent billing and easy subscription management.",
+            "priority": 0.65
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for creating and planning moodboards or mind maps.",
+            "context": "Review 1, 23"
+          },
+          {
+            "trigger": "Desire for a collaborative whiteboard tool accessible from any browser/device.",
+            "context": "Review 2"
+          },
+          {
+            "trigger": "Need for a versatile, free tool without ads for individual use.",
+            "context": "Review 23"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "App is too buggy/unreliable for professional or critical use.",
+            "severity": 0.8
+          },
+          {
+            "objection": "Mobile app lacks essential features (connectors, shape recognition).",
+            "severity": 0.7
+          },
+          {
+            "objection": "Poor performance on Android devices (crashes, lag, overheating).",
+            "severity": 0.85
+          },
+          {
+            "objection": "Login failures block access entirely.",
+            "severity": 0.9
+          },
+          {
+            "objection": "Forced upgrades or limited free functionality.",
+            "severity": 0.6
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "draw.io",
+            "reason": "Miro offers nothing special; draw.io provides more free value.",
+            "threshold": "Limited free functionality in Miro"
+          },
+          {
+            "from_product": "conventional slide software",
+            "reason": "Miro's infinite zoom is inferior to slides for teaching.",
+            "threshold": "Preference for slide-based formats"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability/Stability (no crashes, freezes)",
+          "Cross-platform consistency (feature parity)",
+          "Ease of use / intuitive interface",
+          "Collaboration features",
+          "Performance (speed, responsiveness)",
+          "Login/accessibility",
+          "Cost/transparent billing"
+        ],
+        "deal_breakers": [
+          "App crashes or freezes frequently on mobile",
+          "Cannot log in/sign up due to authentication issues",
+          "Critical features missing on mobile (e.g., connectors)",
+          "Billing/subscription problems (unauthorized charges)"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Critical bugs making the app crash or unusable (crash on launch, infinite loading, text rendering)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Severe mobile app functionality gaps compared to desktop/web (can't edit text, missing features like stylus support, no password-protected boards)",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Unfair/unexpected billing practices (auto-charging for shared users without clear consent, no refunds after renewal)",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Poor mobile app performance and UI issues (sluggish, laggy, gesture/power button unresponsive, palm rejection failures, graphical artifacts)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Lack of support or bug reporting channels (no way to contact support or submit reports)",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Frustrating login/access flow (magic link issues with corporate email, forced browser redirects, frequent logouts)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Inability to export work without paying after effort invested (free tier limitation not clear upfront)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Annoying UI/interruptions (spam emails, intrusive hints, poor settings)",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable, bug-free mobile app that matches desktop/web functionality",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Clear, transparent pricing and billing with consent and refund options",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Better mobile app performance and stylus/tablet optimization (palm rejection, feature parity)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Improved file/board management and sharing controls (multi-file upload, board organization, copy/duplicate permissions)",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Enhanced customization and features in free tier (more fonts, graphics, templates)",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Offline functionality",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Accessible support and feedback channels",
+            "priority": 0.65
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for collaboration and visual tools for work/team projects",
+            "context": "Professional use for diagrams, brainstorming, and real-time collaboration"
+          },
+          {
+            "trigger": "Desire for customizable personal organization (calendar, to-do, mind mapping)",
+            "context": "Personal productivity and decluttering, replacing other planner apps"
+          },
+          {
+            "trigger": "Fun, social drawing and creativity with friends",
+            "context": "Recreational use as an alternative to whiteboard apps"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Mobile app is too buggy or unreliable compared to desktop/web version",
+            "severity": 0.9
+          },
+          {
+            "objection": "Unfair billing practices with hidden charges and no refunds",
+            "severity": 0.95
+          },
+          {
+            "objection": "Missing critical mobile features (stylus support, password-protected boards, export without paywall)",
+            "severity": 0.85
+          },
+          {
+            "objection": "Poor login/access experience, especially with corporate security constraints",
+            "severity": 0.7
+          },
+          {
+            "objection": "Inclusion of AI features causing user abandonment",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Miro",
+            "reason": "Persistent critical bugs and poor mobile app performance",
+            "threshold": "App becomes unusable for core tasks (editing, loading)"
+          },
+          {
+            "from_product": "Miro",
+            "reason": "Unfair billing and lack of transparency",
+            "threshold": "Unexpected charges or refusal of refunds"
+          },
+          {
+            "from_product": "Miro",
+            "reason": "Better alternatives available (Mural, Awwapp)",
+            "threshold": "Competitor offers more reliable mobile experience or features"
+          },
+          {
+            "from_product": "Other planner/organization apps",
+            "reason": "Miro offers superior customization and workflow design",
+            "threshold": "Dissatisfaction with rigid or poor UX of other apps"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and bug-free performance",
+          "Feature parity across devices (especially mobile)",
+          "Transparent pricing and fair billing",
+          "Ease of use and collaboration capabilities",
+          "Mobile app performance and optimization",
+          "Support and feedback accessibility"
+        ],
+        "deal_breakers": [
+          "Critical bugs that make the app unusable",
+          "Unfair/unexpected billing with no refunds",
+          "Mobile app missing core features available on web"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Login failures and account access issues",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "App crashes and severe performance bugs requiring phone restarts",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "No offline access to view boards",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "UI bugs: keyboard glitches, screen flashing, unresponsive menus, text editing issues",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Mobile app UI does not match advertised screenshots (desktop vs mobile mismatch)",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Inability to make/receive calls or use dialer in mobile app",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Missing features: dark mode, custom notification sounds, transparent post-its, upload file for AI diagram generation",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Unreliable connection/disconnects when using VPN",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Limited free version: only 3 templates/boards, no upgrading on some tablets",
+            "emotional_intensity": 0.55
+          },
+          {
+            "signal": "Slow loading times, especially on large boards or unstable internet",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Buggy uploads: images not adding to board, drag-and-drop issues",
+            "emotional_intensity": 0.45
+          },
+          {
+            "signal": "Features not supported on Android (e.g., TalkTracks)",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Insufficient AI assistant for issue resolution",
+            "emotional_intensity": 0.35
+          },
+          {
+            "signal": "Lack of OCR search and infinite zoom",
+            "emotional_intensity": 0.3
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable login and account access",
+            "priority": 1.0
+          },
+          {
+            "outcome": "Stable app performance without crashes or severe bugs",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Offline access to at least view boards",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Feature parity: dark mode, custom notification sounds, transparent post-its, mobile dialer",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Accurate mobile app screenshots in store listings",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Seamless text editing and UI responsiveness on mobile/tablet",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Reliable functionality with VPN",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Improved free tier limits or upgrade availability on all devices",
+            "priority": 0.65
+          },
+          {
+            "outcome": "Faster loading, better performance on low/unstable internet",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Working image uploads and drag-and-drop",
+            "priority": 0.55
+          },
+          {
+            "outcome": "AI features: upload files for automatic diagram generation",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Support for Android-specific features (e.g., TalkTracks)",
+            "priority": 0.45
+          },
+          {
+            "outcome": "Helpful AI assistant for troubleshooting",
+            "priority": 0.4
+          },
+          {
+            "outcome": "Advanced features: OCR search, infinite zoom",
+            "priority": 0.35
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Free version limitations become restrictive (e.g., >3 boards needed)",
+            "context": "User outgrows free tier for project/organization needs"
+          },
+          {
+            "trigger": "Professional need for reliability and advanced features (e.g., teaching, business development)",
+            "context": "Work demands stable, feature-rich tool"
+          },
+          {
+            "trigger": "Positive experience on desktop prompts mobile app usage",
+            "context": "Cross-device syncing and mobility needs"
+          },
+          {
+            "trigger": "App update fixes critical performance issues",
+            "context": "Previously unusable app becomes stable after update"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Mobile app is buggy and unreliable compared to desktop",
+            "severity": 0.95
+          },
+          {
+            "objection": "No offline access makes it unusable in low/no service areas",
+            "severity": 0.9
+          },
+          {
+            "objection": "Login/access issues block entry to the app entirely",
+            "severity": 0.85
+          },
+          {
+            "objection": "Misleading marketing: mobile app UI doesn't match screenshots",
+            "severity": 0.8
+          },
+          {
+            "objection": "Free version is too limited (templates, boards, features)",
+            "severity": 0.75
+          },
+          {
+            "objection": "Lacks critical mobile features (calls, dark mode, notifications)",
+            "severity": 0.7
+          },
+          {
+            "objection": "VPN incompatibility disrupts business use",
+            "severity": 0.65
+          },
+          {
+            "objection": "Upgrade/purchase not available on all devices (e.g., tablets)",
+            "severity": 0.6
+          },
+          {
+            "objection": "AI assistant is ineffective at solving problems",
+            "severity": 0.55
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Miro",
+            "reason": "Persistent crashes, bugs, or login issues making app unusable",
+            "threshold": "App requires phone restart or blocks basic access"
+          },
+          {
+            "from_product": "Miro",
+            "reason": "No offline access for viewing content",
+            "threshold": "User travels to areas without internet and cannot access boards"
+          },
+          {
+            "from_product": "Miro",
+            "reason": "VPN incompatibility disrupting work",
+            "threshold": "Continuous disconnects prevent productive use"
+          },
+          {
+            "from_product": "Miro",
+            "reason": "Misleading screenshots leading to unmet expectations",
+            "threshold": "Mobile app UI drastically differs from advertised"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and performance (no crashes, bugs, login issues)",
+          "Offline access capability",
+          "Feature parity between desktop and mobile",
+          "UI/UX and ease of use on mobile/tablet",
+          "Cross-device syncing",
+          "Free tier limitations and upgrade options",
+          "Specific feature set (e.g., infinite canvas, drawing tools, organization)",
+          "Cost and subscription availability across devices",
+          "AI and automation features",
+          "Marketing accuracy (screenshots matching app)"
+        ],
+        "deal_breakers": [
+          "Persistent login/access failures",
+          "App crashes requiring device restarts",
+          "No offline viewing capability",
+          "Mobile app UI drastically different from advertised screenshots",
+          "VPN incompatibility for business users"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "App crashes frequently or freezes when using boards",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Unable to sign in or authentication failures",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Poor mobile experience with missing features compared to desktop",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Resource-heavy app with slow performance and no caching",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Unable to export content in normal quality without paying",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Spam emails with broken unsubscribe functionality",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Critical collaboration features like board invitations not working",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "App update issues with no available update in store",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Content randomly deleted without recovery option",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Display/screen sizing problems on mobile",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Stable app that doesn't crash or freeze",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Full mobile feature parity with desktop version",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Offline functionality",
+            "priority": 0.7
+          },
+          {
+            "outcome": "High-quality free exports",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Intuitive, user-friendly interface",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Cross-platform seamless experience",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Reliable authentication and sign-in",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Efficient app performance with proper caching",
+            "priority": 0.75
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Critical tool for remote collaboration work",
+            "context": "Professional necessity for product management and team facilitation"
+          },
+          {
+            "trigger": "Superior design compared to alternatives",
+            "context": "Evaluation of competing tools like Lucid"
+          },
+          {
+            "trigger": "Visual thinking and organization needs",
+            "context": "Personal workflow enhancement beyond just work"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Free version restricts export quality to force payment",
+            "severity": 0.85
+          },
+          {
+            "objection": "Poor mobile experience makes app nearly unusable",
+            "severity": 0.9
+          },
+          {
+            "objection": "Unreliable performance with frequent crashes",
+            "severity": 0.95
+          },
+          {
+            "objection": "Aggressive email marketing with broken unsubscribe",
+            "severity": 0.6
+          },
+          {
+            "objection": "Sales tactics prioritizing payment over problem-solving",
+            "severity": 0.75
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Tableau",
+            "reason": "Critical mobile functionality failures",
+            "threshold": "Dashboard rendering stops working completely"
+          },
+          {
+            "from_product": "Miro",
+            "reason": "Export restrictions and paywalls",
+            "threshold": "Need normal quality exports for free"
+          },
+          {
+            "from_product": "Miro",
+            "reason": "Persistent technical issues",
+            "threshold": "Cannot even start using due to invitation bugs"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and stability",
+          "Mobile functionality parity",
+          "Collaboration features",
+          "Export capabilities",
+          "Performance/efficiency",
+          "User interface design",
+          "Cross-platform sync",
+          "Pricing fairness"
+        ],
+        "deal_breakers": [
+          "App crashes/freezes making work impossible",
+          "Critical features missing on mobile",
+          "Authentication/sign-in failures",
+          "Data loss without recovery",
+          "Forced paywalls for basic functionality"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.545,
+      "reddit": 0.455,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Incorrect location data rendering app useless for local weather",
+          "count": 1,
+          "frequency": 0.0038,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0115
+        },
+        {
+          "signal": "App repeatedly fails to connect to store causing crashes and data loss",
+          "count": 1,
+          "frequency": 0.0038,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0115
+        },
+        {
+          "signal": "Persistent unresolved bug preventing data backup",
+          "count": 1,
+          "frequency": 0.0038,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0115
+        },
+        {
+          "signal": "Game crashes and loses all progress and in-app purchases",
+          "count": 1,
+          "frequency": 0.0038,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0115
+        },
+        {
+          "signal": "Software lacks expected data import/transfer from previous versions or platforms",
+          "count": 1,
+          "frequency": 0.0038,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0115
+        },
+        {
+          "signal": "Product lacks critical features present in other versions (e.g., 401k setup wizards, summary screens)",
+          "count": 1,
+          "frequency": 0.0038,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0115
+        },
+        {
+          "signal": "Software has high system resource consumption, slowing down PC",
+          "count": 1,
+          "frequency": 0.0038,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0115
+        },
+        {
+          "signal": "Content not available in user's geographic area",
+          "count": 1,
+          "frequency": 0.0038,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0115
+        },
+        {
+          "signal": "Difficulty following conversations that happened more than two minutes ago",
+          "count": 1,
+          "frequency": 0.0038,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0115
+        },
+        {
+          "signal": "Accidentally joining audio rooms and not knowing how to leave",
+          "count": 1,
+          "frequency": 0.0038,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0115
+        },
+        {
+          "signal": "Not immediately seeing when posting was limited",
+          "count": 1,
+          "frequency": 0.0038,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0115
+        },
+        {
+          "signal": "Software hanging/stalling after working fine for a while",
+          "count": 1,
+          "frequency": 0.0038,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0115
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Offline functionality",
+          "count": 2,
+          "frequency": 0.0093,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0233
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Persistent login failures",
+          "count": 3,
+          "frequency": 0.0291,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.068
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Need for pre-year-end tax planning",
+          "count": 1,
+          "frequency": 0.0116,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0349
+        },
+        {
+          "signal": "Desire to simplify tax preparation, especially for complex investments",
+          "count": 1,
+          "frequency": 0.0116,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0349
+        },
+        {
+          "signal": "Need to plan extended road trips and estimate driving times",
+          "count": 1,
+          "frequency": 0.0116,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0349
+        },
+        {
+          "signal": "Requirement to access computer files remotely",
+          "count": 1,
+          "frequency": 0.0116,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0349
+        },
+        {
+          "signal": "Seeking a calming, creative activity",
+          "count": 1,
+          "frequency": 0.0116,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0349
+        },
+        {
+          "signal": "Looking for a replacement product after poor experience with a competitor",
+          "count": 1,
+          "frequency": 0.0116,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0349
+        },
+        {
+          "signal": "Offered software license for free",
+          "count": 1,
+          "frequency": 0.0116,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0349
+        },
+        {
+          "signal": "Price is cheaper than on official website",
+          "count": 1,
+          "frequency": 0.0116,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0352
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "low": 0.96,
+        "medium": 0.04
+      }
+    }
+  }
+}

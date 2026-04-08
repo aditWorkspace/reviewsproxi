@@ -33,7 +33,7 @@ RETRY_BACKOFF: float = 2.0  # seconds; doubles each retry
 SIGNAL_SCHEMA: str = """\
 {
   "pain_points": [
-    {"signal": "<string>", "frequency": <int>, "emotional_intensity": <float 0-1>}
+    {"signal": "<string>", "emotional_intensity": <float 0-1>}
   ],
   "desired_outcomes": [
     {"outcome": "<string>", "priority": <float 0-1>}
@@ -51,6 +51,11 @@ SIGNAL_SCHEMA: str = """\
   "deal_breakers": ["<string>"],
   "friction_tolerance": "<low | medium | high>"
 }"""
+# NOTE: `frequency` was intentionally removed from pain_points and all other
+# signal types.  Asking the LLM to estimate counts inside a 30-review window
+# produces fabricated numbers that corrupt downstream scoring.  Frequency is
+# now computed deterministically in aggregate.py as the number of independent
+# batches that produced a semantically similar signal.
 
 SYSTEM_PROMPT: str = (
     "You are a behavioral-signal extraction engine.  Given a batch of "
@@ -187,6 +192,7 @@ def extract_all_signals(
     category: str,
     batch_size: int = 30,
     client=None,
+    seed: int = 42,
 ) -> list[dict]:
     """Batch all reviews and run signal extraction on each batch.
 
@@ -208,13 +214,20 @@ def extract_all_signals(
     list[dict]
         One signal dict per batch.
     """
+    import random
+
     if client is None:
         from engine.llm import get_client
         client = get_client()
 
+    # Shuffle before batching so that each batch gets a random mix of rating
+    # levels rather than all high-rated or all low-rated reviews together.
+    shuffled = list(reviews)
+    random.Random(seed).shuffle(shuffled)
+
     batches: list[list[dict]] = [
-        reviews[i : i + batch_size]
-        for i in range(0, len(reviews), batch_size)
+        shuffled[i : i + batch_size]
+        for i in range(0, len(shuffled), batch_size)
     ]
 
     results: list[dict] = []

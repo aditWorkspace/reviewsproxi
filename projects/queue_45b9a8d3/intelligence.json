@@ -1,0 +1,545 @@
+{
+  "products": [
+    {
+      "name": "Market Research Methods and Analysis Textbook",
+      "category": "Books",
+      "accuracy": 0.95,
+      "review_keywords": [
+        "comprehensive",
+        "methodology",
+        "analysis",
+        "research",
+        "detailed"
+      ],
+      "context_keywords": [
+        "expansion",
+        "strategy",
+        "insights",
+        "demographics"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "homework"
+      ],
+      "why": "Market researchers and business analysts seeking to understand new customer segments buy these specialized textbooks"
+    },
+    {
+      "name": "Customer Journey Mapping Workshop Kit",
+      "category": "Office_Products",
+      "accuracy": 0.94,
+      "review_keywords": [
+        "workshop",
+        "mapping",
+        "customer",
+        "journey",
+        "personas"
+      ],
+      "context_keywords": [
+        "outreach",
+        "segments",
+        "expansion"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "hobby"
+      ],
+      "why": "Product managers and UX researchers buy these kits to understand potential new user groups"
+    },
+    {
+      "name": "Survey Design and Implementation Guide",
+      "category": "Books",
+      "accuracy": 0.93,
+      "review_keywords": [
+        "survey",
+        "design",
+        "implementation",
+        "methodology",
+        "sampling"
+      ],
+      "context_keywords": [
+        "target",
+        "demographics",
+        "research"
+      ],
+      "exclusion_keywords": [
+        "academic",
+        "thesis"
+      ],
+      "why": "Business professionals conducting market research to identify new customer segments purchase these guides"
+    },
+    {
+      "name": "Focus Group Facilitation Handbook",
+      "category": "Books",
+      "accuracy": 0.92,
+      "review_keywords": [
+        "facilitation",
+        "focus",
+        "group",
+        "moderation",
+        "insights"
+      ],
+      "context_keywords": [
+        "outreach",
+        "feedback",
+        "expansion"
+      ],
+      "exclusion_keywords": [
+        "therapy",
+        "counseling"
+      ],
+      "why": "Market researchers and product managers buy these to conduct focus groups with potential new customer segments"
+    },
+    {
+      "name": "Competitive Analysis Framework Templates",
+      "category": "Software",
+      "accuracy": 0.91,
+      "review_keywords": [
+        "competitive",
+        "analysis",
+        "framework",
+        "templates",
+        "market"
+      ],
+      "context_keywords": [
+        "expansion",
+        "strategy",
+        "segments"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "academic"
+      ],
+      "why": "Business strategists analyzing new market opportunities for expansion buy these professional templates"
+    },
+    {
+      "name": "User Persona Development Workbook",
+      "category": "Books",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "persona",
+        "development",
+        "user",
+        "profiles",
+        "segments"
+      ],
+      "context_keywords": [
+        "target",
+        "demographics",
+        "expansion"
+      ],
+      "exclusion_keywords": [
+        "creative",
+        "writing"
+      ],
+      "why": "Product managers and marketers developing personas for new customer segments purchase these workbooks"
+    },
+    {
+      "name": "Market Segmentation Analysis Software",
+      "category": "Software",
+      "accuracy": 0.89,
+      "review_keywords": [
+        "segmentation",
+        "analysis",
+        "market",
+        "data",
+        "insights"
+      ],
+      "context_keywords": [
+        "expansion",
+        "demographics",
+        "outreach"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "small"
+      ],
+      "why": "Business analysts and market researchers buy this software to identify and analyze new customer segments"
+    },
+    {
+      "name": "Voice of Customer Research Toolkit",
+      "category": "Office_Products",
+      "accuracy": 0.88,
+      "review_keywords": [
+        "voice",
+        "customer",
+        "research",
+        "toolkit",
+        "feedback"
+      ],
+      "context_keywords": [
+        "outreach",
+        "insights",
+        "expansion"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "hobby"
+      ],
+      "why": "Market researchers conducting outreach to understand new customer needs buy these professional toolkits"
+    },
+    {
+      "name": "Ethnographic Research Methods Guide",
+      "category": "Books",
+      "accuracy": 0.87,
+      "review_keywords": [
+        "ethnographic",
+        "research",
+        "methods",
+        "observation",
+        "insights"
+      ],
+      "context_keywords": [
+        "demographics",
+        "outreach",
+        "understanding"
+      ],
+      "exclusion_keywords": [
+        "anthropology",
+        "academic"
+      ],
+      "why": "UX researchers and market analysts studying new user groups in their natural environments buy these guides"
+    },
+    {
+      "name": "Customer Interview Techniques Handbook",
+      "category": "Books",
+      "accuracy": 0.86,
+      "review_keywords": [
+        "interview",
+        "techniques",
+        "customer",
+        "insights",
+        "qualitative"
+      ],
+      "context_keywords": [
+        "outreach",
+        "feedback",
+        "expansion"
+      ],
+      "exclusion_keywords": [
+        "job",
+        "career"
+      ],
+      "why": "Product managers and researchers conducting interviews with potential new customers buy these handbooks"
+    },
+    {
+      "name": "Market Expansion Strategy Framework",
+      "category": "Books",
+      "accuracy": 0.85,
+      "review_keywords": [
+        "expansion",
+        "strategy",
+        "framework",
+        "market",
+        "growth"
+      ],
+      "context_keywords": [
+        "segments",
+        "demographics",
+        "outreach"
+      ],
+      "exclusion_keywords": [
+        "startup",
+        "entrepreneur"
+      ],
+      "why": "Business strategists planning expansion into new customer segments purchase these strategic frameworks"
+    },
+    {
+      "name": "Digital Survey Platform Subscription",
+      "category": "Subscription_Boxes",
+      "accuracy": 0.84,
+      "review_keywords": [
+        "survey",
+        "platform",
+        "digital",
+        "responses",
+        "analytics"
+      ],
+      "context_keywords": [
+        "outreach",
+        "feedback",
+        "demographics"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "academic"
+      ],
+      "why": "Market researchers conducting surveys to understand new customer segments subscribe to these platforms"
+    },
+    {
+      "name": "Consumer Behavior Analysis Textbook",
+      "category": "Books",
+      "accuracy": 0.83,
+      "review_keywords": [
+        "consumer",
+        "behavior",
+        "analysis",
+        "psychology",
+        "patterns"
+      ],
+      "context_keywords": [
+        "demographics",
+        "segments",
+        "expansion"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "coursework"
+      ],
+      "why": "Business analysts studying behavior patterns of new customer segments buy these specialized textbooks"
+    },
+    {
+      "name": "Demographic Analysis Software Tools",
+      "category": "Software",
+      "accuracy": 0.82,
+      "review_keywords": [
+        "demographic",
+        "analysis",
+        "software",
+        "population",
+        "data"
+      ],
+      "context_keywords": [
+        "expansion",
+        "segments",
+        "outreach"
+      ],
+      "exclusion_keywords": [
+        "academic",
+        "research"
+      ],
+      "why": "Market researchers analyzing demographic data for expansion opportunities purchase these professional tools"
+    },
+    {
+      "name": "Customer Development Methodology Guide",
+      "category": "Books",
+      "accuracy": 0.81,
+      "review_keywords": [
+        "customer",
+        "development",
+        "methodology",
+        "validation",
+        "discovery"
+      ],
+      "context_keywords": [
+        "expansion",
+        "outreach",
+        "segments"
+      ],
+      "exclusion_keywords": [
+        "startup",
+        "entrepreneur"
+      ],
+      "why": "Product managers validating new customer segments buy these methodology guides"
+    },
+    {
+      "name": "Qualitative Research Software License",
+      "category": "Software",
+      "accuracy": 0.8,
+      "review_keywords": [
+        "qualitative",
+        "research",
+        "software",
+        "coding",
+        "analysis"
+      ],
+      "context_keywords": [
+        "outreach",
+        "insights",
+        "demographics"
+      ],
+      "exclusion_keywords": [
+        "academic",
+        "thesis"
+      ],
+      "why": "UX researchers and market analysts analyzing qualitative data from new customer segments buy these licenses"
+    },
+    {
+      "name": "Target Market Identification Workbook",
+      "category": "Books",
+      "accuracy": 0.79,
+      "review_keywords": [
+        "target",
+        "market",
+        "identification",
+        "workbook",
+        "analysis"
+      ],
+      "context_keywords": [
+        "expansion",
+        "segments",
+        "demographics"
+      ],
+      "exclusion_keywords": [
+        "startup",
+        "small"
+      ],
+      "why": "Business development professionals identifying new market opportunities for expansion purchase these workbooks"
+    },
+    {
+      "name": "User Research Planning Templates",
+      "category": "Office_Products",
+      "accuracy": 0.78,
+      "review_keywords": [
+        "user",
+        "research",
+        "planning",
+        "templates",
+        "methodology"
+      ],
+      "context_keywords": [
+        "outreach",
+        "expansion",
+        "demographics"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "academic"
+      ],
+      "why": "UX researchers planning studies with new user groups outside current customer base buy these templates"
+    }
+  ],
+  "subreddits": [
+    {
+      "name": "MarketResearch",
+      "relevance": 0.95,
+      "member_type": "85% market researchers and analysts exploring new demographics",
+      "data_value": "Methods and challenges in reaching new customer segments",
+      "why": "Primary community for professionals conducting research beyond existing customer bases"
+    },
+    {
+      "name": "CustomerSuccess",
+      "relevance": 0.88,
+      "member_type": "70% CS professionals expanding into new user segments",
+      "data_value": "Strategies for understanding and serving new customer types",
+      "why": "Customer success teams often lead expansion efforts into adjacent markets"
+    },
+    {
+      "name": "ProductManagement",
+      "relevance": 0.85,
+      "member_type": "75% PMs working on market expansion initiatives",
+      "data_value": "Product decisions for new customer segments and market validation",
+      "why": "Product managers frequently research new user groups for product expansion"
+    },
+    {
+      "name": "UXResearch",
+      "relevance": 0.82,
+      "member_type": "80% UX researchers studying non-current users",
+      "data_value": "Methods for researching and understanding new user behaviors",
+      "why": "UX researchers conduct studies with potential users outside existing customer base"
+    },
+    {
+      "name": "GrowthHacking",
+      "relevance": 0.78,
+      "member_type": "65% growth professionals targeting new segments",
+      "data_value": "Tactics for reaching and converting new customer demographics",
+      "why": "Growth teams focus on expanding beyond current user base"
+    },
+    {
+      "name": "BusinessIntelligence",
+      "relevance": 0.75,
+      "member_type": "70% BI analysts researching market expansion",
+      "data_value": "Data analysis approaches for new market opportunities",
+      "why": "BI professionals analyze data to identify expansion opportunities"
+    },
+    {
+      "name": "surveying",
+      "relevance": 0.72,
+      "member_type": "60% professionals conducting outreach surveys",
+      "data_value": "Survey methodologies for reaching new demographics",
+      "why": "Survey professionals design studies to understand new customer segments"
+    },
+    {
+      "name": "marketing",
+      "relevance": 0.7,
+      "member_type": "55% marketers exploring new audiences",
+      "data_value": "Marketing strategies for untapped customer segments",
+      "why": "Marketers research new audiences for campaign expansion"
+    },
+    {
+      "name": "BusinessAnalysis",
+      "relevance": 0.68,
+      "member_type": "65% analysts working on expansion projects",
+      "data_value": "Analytical frameworks for new market assessment",
+      "why": "Business analysts evaluate new market opportunities and customer needs"
+    },
+    {
+      "name": "CustomerDevelopment",
+      "relevance": 0.66,
+      "member_type": "70% professionals validating new customer segments",
+      "data_value": "Customer validation methods for new segments",
+      "why": "Community focused on understanding and validating new customer groups"
+    },
+    {
+      "name": "userexperience",
+      "relevance": 0.64,
+      "member_type": "50% UX professionals researching new users",
+      "data_value": "UX insights from studying non-current users",
+      "why": "UX professionals research experiences of potential new user groups"
+    },
+    {
+      "name": "digitalnomad",
+      "relevance": 0.62,
+      "member_type": "40% remote workers in market research roles",
+      "data_value": "Remote work approaches to customer outreach and research",
+      "why": "Many expansion researchers work remotely and share methodologies"
+    },
+    {
+      "name": "consulting",
+      "relevance": 0.6,
+      "member_type": "45% consultants specializing in market expansion",
+      "data_value": "Consulting approaches to new market entry and customer research",
+      "why": "Consultants often help companies understand new customer segments"
+    },
+    {
+      "name": "analytics",
+      "relevance": 0.58,
+      "member_type": "50% analysts working on expansion analytics",
+      "data_value": "Analytical methods for understanding new customer data",
+      "why": "Analytics professionals develop insights about new customer segments"
+    },
+    {
+      "name": "strategy",
+      "relevance": 0.55,
+      "member_type": "45% strategists planning market expansion",
+      "data_value": "Strategic frameworks for entering new customer segments",
+      "why": "Business strategists plan expansion into new demographic markets"
+    }
+  ],
+  "demographic_profile": {
+    "core_keywords": [
+      "expansion",
+      "outreach",
+      "segments",
+      "demographics",
+      "validation",
+      "research",
+      "insights",
+      "targeting",
+      "analysis",
+      "methodology",
+      "customer",
+      "market",
+      "feedback",
+      "understanding",
+      "opportunities"
+    ],
+    "exclusion_keywords": [
+      "existing",
+      "current",
+      "retention",
+      "loyalty",
+      "repeat",
+      "established",
+      "internal",
+      "core"
+    ],
+    "age_range": "28-45",
+    "primary_motivations": [
+      "Identifying untapped market opportunities",
+      "Understanding needs of non-current users",
+      "Validating expansion hypotheses with data",
+      "Gathering insights beyond existing customer feedback"
+    ],
+    "summary": "These are market researchers, product managers, UX researchers, and business analysts tasked with understanding potential customers outside their company's current user base. They are driven by the need to validate expansion opportunities through systematic outreach and research methodologies. They are frustrated by limited access to new demographics and the challenge of gathering authentic feedback from people who haven't yet experienced their product or service."
+  }
+}

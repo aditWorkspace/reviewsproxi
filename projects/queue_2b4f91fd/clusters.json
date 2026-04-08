@@ -1,0 +1,2331 @@
+{
+  "chosen_n_clusters": 3,
+  "sweep_results": [
+    {
+      "k": 3,
+      "silhouette": 0.15520289540290833,
+      "intra_similarity": 0.7031477888425192,
+      "inter_distance": 0.6757990121841431,
+      "combined_score": 0.42370558679103854
+    },
+    {
+      "k": 4,
+      "silhouette": 0.11437031626701355,
+      "intra_similarity": 0.6885332018136978,
+      "inter_distance": 0.5249783992767334,
+      "combined_score": 0.36874079853296277
+    },
+    {
+      "k": 5,
+      "silhouette": 0.1316685825586319,
+      "intra_similarity": 0.7091988325119019,
+      "inter_distance": 0.5247389078140259,
+      "combined_score": 0.38354172259569164
+    },
+    {
+      "k": 6,
+      "silhouette": 0.12307988852262497,
+      "intra_similarity": 0.6895213723182678,
+      "inter_distance": 0.4572497606277466,
+      "combined_score": 0.3598463080823421
+    },
+    {
+      "k": 7,
+      "silhouette": 0.1465505063533783,
+      "intra_similarity": 0.7045027443340847,
+      "inter_distance": 0.48794716596603394,
+      "combined_score": 0.3822155096701213
+    },
+    {
+      "k": 8,
+      "silhouette": 0.14684414863586426,
+      "intra_similarity": 0.7248562574386597,
+      "inter_distance": 0.47511881589889526,
+      "combined_score": 0.3859027147293091
+    },
+    {
+      "k": 9,
+      "silhouette": 0.16784211993217468,
+      "intra_similarity": 0.7370017833179898,
+      "inter_distance": 0.47698235511779785,
+      "combined_score": 0.40041806598504387
+    },
+    {
+      "k": 10,
+      "silhouette": 0.16292811930179596,
+      "intra_similarity": 0.737121856212616,
+      "inter_distance": 0.49273955821990967,
+      "combined_score": 0.40114852815866464
+    }
+  ],
+  "quality_metrics": {
+    "silhouette": 0.15520289540290833,
+    "intra_similarity": 0.7031477888425192,
+    "inter_distance": 0.6757990121841431,
+    "combined_score": 0.42370558679103854,
+    "stability_ari": 0.2839,
+    "stability_label": "low"
+  },
+  "cluster_0": {
+    "member_count": 83,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Apps/platforms removing features without explanation or consistency (like repost button disappearing from some accounts but not others)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Technical glitches in devices/apps that disrupt daily usage",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poor compatibility between new accessories and older devices (like cases blocking ports, speakers not working with specific setups)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Setup complexity and cumbersome wires/cables",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Devices not performing well during physical activity (like music players skipping songs while running)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Finding accurate information about compatibility and performance before purchase is difficult",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Seamless, reliable app/device performance without unexpected changes or glitches",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Easy setup and wireless convenience in accessories and devices",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Devices that work perfectly during active use (like jogging)",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Clear, consistent feature availability across accounts/platforms",
+            "priority": 0.75
+          },
+          {
+            "outcome": "High-quality sound/video without technical issues (like crackling, skipping, or poor picture)",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Compatibility between new accessories/tech and older devices",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to replace aging device (like older iPod or TV)",
+            "context": "When current device is failing or outdated"
+          },
+          {
+            "trigger": "Finding a product that solves a specific limitation (like longer recording time, better portability)",
+            "context": "After experiencing frustration with current device's limitations"
+          },
+          {
+            "trigger": "Seeing positive reviews and recommendations from other users",
+            "context": "During research phase before purchase"
+          },
+          {
+            "trigger": "Sale price or good value opportunity",
+            "context": "When price drops to acceptable range"
+          },
+          {
+            "trigger": "Need for specific functionality (like 3D capability, multiple HDMI ports, Bluetooth connectivity)",
+            "context": "When setting up new entertainment system or tech ecosystem"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Products being overpriced compared to alternatives with similar/better features",
+            "severity": 0.8
+          },
+          {
+            "objection": "Poor build quality or design flaws (like audible fan noise, tight headphone fit, difficult case removal)",
+            "severity": 0.7
+          },
+          {
+            "objection": "Inconsistent performance or technical issues (like skipping, crackling, unresponsive screens)",
+            "severity": 0.9
+          },
+          {
+            "objection": "Lack of wireless capability in modern devices",
+            "severity": 0.6
+          },
+          {
+            "objection": "Small screen size or poor display quality",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Apple/iPod",
+            "reason": "Seeking cheaper alternative or better accessories",
+            "threshold": "When Apple products are too expensive or have compatibility issues"
+          },
+          {
+            "from_product": "Current accessory/device",
+            "reason": "Finding better value or performance elsewhere",
+            "threshold": "When competitor offers similar features at lower price"
+          },
+          {
+            "from_product": "Current platform/device",
+            "reason": "Technical issues or poor performance",
+            "threshold": "When device becomes unreliable or frustrating to use"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Performance reliability",
+          "Price/value ratio",
+          "Ease of use/setup",
+          "Compatibility with existing devices",
+          "Sound/picture quality",
+          "Design and portability",
+          "Wireless capability",
+          "User reviews"
+        ],
+        "deal_breakers": [
+          "Persistent technical issues (skipping, crackling, freezing)",
+          "Poor compatibility with existing devices",
+          "Significant overpricing compared to alternatives",
+          "Design flaws that impede basic functionality"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Frustration with disappearing app features (like repost button) without explanation",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Anxiety about potential censorship or algorithmic control limiting expression",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Inconvenience from products not fitting devices properly (e.g., mounts, cases)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Disappointment with misleading product advertising (e.g., missing NFC)",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Annoyance with poor UI/UX decisions like forced 'most relevant' comments",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Physical discomfort from poorly designed products (e.g., non-centered desks, pressure on hands)",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Wasted money on products that fail in intended use (e.g., plane travel)",
+            "emotional_intensity": 0.8
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable and consistent app functionality with clear communication on changes",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Ability to freely share and repost content for awareness or personal expression",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Seamless integration of tech accessories with their devices (fit, compatibility)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "High-quality sound and battery life from audio products",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Comfortable, ergonomic designs for extended use (e.g., tablet stands)",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Smart home automation that works flawlessly with apps and voice commands",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Accurate product descriptions and advertised features",
+            "priority": 0.9
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to improve audio quality or device connectivity",
+            "context": "Upgrading from basic phone hookups"
+          },
+          {
+            "trigger": "Desire for organization and protection of gadgets (headphones, tablets)",
+            "context": "Daily carry and travel"
+          },
+          {
+            "trigger": "Seeking ergonomic solutions to reduce physical strain",
+            "context": "Prolonged device usage"
+          },
+          {
+            "trigger": "Expanding smart home ecosystem with reliable, customizable devices",
+            "context": "Home automation setup"
+          },
+          {
+            "trigger": "Replacing or augmenting portable audio equipment",
+            "context": "On-the-go entertainment"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product does not fit or work as advertised for specific devices",
+            "severity": 0.8
+          },
+          {
+            "objection": "Missing critical features that were key to purchase decision",
+            "severity": 0.9
+          },
+          {
+            "objection": "Poor design leading to instability or inconvenience (e.g., too short, not centered)",
+            "severity": 0.7
+          },
+          {
+            "objection": "Unreliable app updates removing essential functionality",
+            "severity": 0.85
+          },
+          {
+            "objection": "High price without justifying value or features",
+            "severity": 0.75
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Basic phone audio output",
+            "reason": "Significant sound quality improvement",
+            "threshold": "Noticeable enhancement in audio fidelity"
+          },
+          {
+            "from_product": "Manual device holding",
+            "reason": "Need for hands-free, comfortable viewing",
+            "threshold": "Physical discomfort during prolonged use"
+          },
+          {
+            "from_product": "Non-smart home devices",
+            "reason": "Desire for automation and voice control",
+            "threshold": "Availability of reliable, integrated smart options"
+          },
+          {
+            "from_product": "Inferior portable speakers/headphones",
+            "reason": "Better battery life and sound for price",
+            "threshold": "Dissatisfaction with current performance"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Functionality and reliability",
+          "Compatibility with existing devices",
+          "Price-to-value ratio",
+          "Ease of use and setup",
+          "Design and ergonomics",
+          "Brand reputation and support",
+          "Feature set vs. advertising"
+        ],
+        "deal_breakers": [
+          "Missing advertised features (e.g., NFC)",
+          "Poor compatibility leading to unusable fit",
+          "Unreliable performance in core function",
+          "Lack of communication on app changes/outages",
+          "Design flaws causing safety or stability issues"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Service termination due to opaque 'excessive use' policies with no clear recourse",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Inadequate customer support channels (no phone support, only online chat)",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Loss of paid service time and money upon termination",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Poor product durability and fragility",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Erratic volume controls with no intermediate settings",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Excessive, unwanted download options filling device memory",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Confusion and frustration with complex app/platform features (e.g., Instagram repost, reel creation)",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Algorithm-driven platform changes harming creator engagement and growth",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Loss of organic social connection, feeling of talking to oneself or posting to a void",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Inadequate documentation/instructions for product assembly or use",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Product incompatibility with protective cases (e.g., phone monacle holder)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Platform saturation with ads, political posts, and unwanted recommendations",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "AI-generated content degrading platform enjoyment",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Feeling compelled to use social media for business despite personal dislike",
+            "emotional_intensity": 0.8
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Clear, transparent terms of service and usage limits",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Accessible, multi-channel customer support",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Durable, reliable products that withstand daily use",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Intuitive, easy-to-use interfaces with good documentation",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Seamless integration with existing devices and accessories",
+            "priority": 0.7
+          },
+          {
+            "outcome": "High-quality content creation tools with minimal friction",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Authentic social connection and meaningful engagement on platforms",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Control over content feed (seeing favorite creators, reducing ads/politics)",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Product versatility and multi-functionality (e.g., camera also as music player)",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Long battery life and convenient power management",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Professional-grade tools that enhance productivity (e.g., keyboards for serious typing)",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Helpful features for safety and convenience (e.g., fall detection, find lost items)",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Human-curated content feeds rather than solely algorithm-driven",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Enjoyment and fun in using apps/platforms without business pressure",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for enhanced functionality (e.g., converting jacket headset for phone)",
+            "context": "Adapting existing gear to modern device ports"
+          },
+          {
+            "trigger": "Solving a specific technical problem (e.g., loose charging port)",
+            "context": "Protecting device from damage via magnetic attachment"
+          },
+          {
+            "trigger": "Seeking professional-grade accessories for work (e.g., iPad keyboard)",
+            "context": "Software developer needing reliable typing experience"
+          },
+          {
+            "trigger": "Desire for convenience and organization (e.g., battery storage box)",
+            "context": "Buying bulk batteries and needing tidy storage"
+          },
+          {
+            "trigger": "Gifting to family members for safety/utility (e.g., Apple Watch for fall detection)",
+            "context": "Health monitoring for loved ones"
+          },
+          {
+            "trigger": "Upgrading from inferior products (e.g., replacing flimsy keyboard)",
+            "context": "Dissatisfaction with previous product's performance"
+          },
+          {
+            "trigger": "Seeking portable, travel-friendly devices (e.g., compact camera)",
+            "context": "Lightweight gear for travel and occasional use"
+          },
+          {
+            "trigger": "Need for improved content creation tools (e.g., phone monacle for better photos)",
+            "context": "Enhancing smartphone photography quality"
+          },
+          {
+            "trigger": "Social pressure or business necessity to stay on platforms",
+            "context": "Maintaining presence for professional reasons despite personal dislike"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Unclear, punitive service terms risking permanent cutoff",
+            "severity": 0.95
+          },
+          {
+            "objection": "Poor customer support and lack of live phone assistance",
+            "severity": 0.9
+          },
+          {
+            "objection": "High cost relative to perceived value (e.g., should have bought iPad instead)",
+            "severity": 0.75
+          },
+          {
+            "objection": "Product fragility and risk of damage",
+            "severity": 0.65
+          },
+          {
+            "objection": "Incompatibility with protective cases or accessories",
+            "severity": 0.7
+          },
+          {
+            "objection": "Complex, poorly explained features causing user confusion",
+            "severity": 0.8
+          },
+          {
+            "objection": "Platform changes harming creator growth and engagement",
+            "severity": 0.85
+          },
+          {
+            "objection": "Excessive ads, recommendations, and political content",
+            "severity": 0.8
+          },
+          {
+            "objection": "Algorithm dominance over human-curated content",
+            "severity": 0.75
+          },
+          {
+            "objection": "Requiring additional purchases (e.g., memory card, spare battery)",
+            "severity": 0.7
+          },
+          {
+            "objection": "Loss of organic social connection and platform enjoyment",
+            "severity": 0.85
+          },
+          {
+            "objection": "Feeling of business necessity overriding personal preference",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Previous iPad keyboards",
+            "reason": "Poor key quality and erratic typing",
+            "threshold": "Frustration with flimsy keys and unreliable performance"
+          },
+          {
+            "from_product": "Other social media platforms (e.g., MySpace)",
+            "reason": "Platform degradation via unwanted changes and ads",
+            "threshold": "Majority of users feeling need to leave due to pure dislike"
+          },
+          {
+            "from_product": "Lower-cost children's tablets",
+            "reason": "Poor volume control and excessive download options",
+            "threshold": "Regret over purchase, wishing for higher-end alternative (iPad)"
+          },
+          {
+            "from_product": "Standard charging cables",
+            "reason": "Loose port causing damage",
+            "threshold": "Need for secure magnetic attachment to prevent further damage"
+          },
+          {
+            "from_product": "Traditional camera equipment",
+            "reason": "Desire for extreme portability and compactness",
+            "threshold": "Wanting lightweight travel-friendly option over bulky gear"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and durability",
+          "Ease of use and intuitive design",
+          "Customer support accessibility",
+          "Transparency of policies/terms",
+          "Value for money",
+          "Integration with existing ecosystem",
+          "Battery life/power management",
+          "Content creation capabilities",
+          "Social platform engagement quality",
+          "Personal safety/health features"
+        ],
+        "deal_breakers": [
+          "Unclear usage policies leading to permanent service termination",
+          "No accessible customer support channels",
+          "Incompatibility with essential accessories (e.g., protective cases)",
+          "Platform changes drastically harming creator growth",
+          "Excessive ads/political content overwhelming feed",
+          "Product fragility unsuitable for daily active use"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Platform glitches prevent content from being seen (videos stuck at 0 views, in review for hours)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Being locked out of account without ability to verify or log in",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Inability to comment or interact normally due to app issues",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Anxiety about performance stats and monetization data being inaccessible",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Cords are ugly and create visual clutter",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Existing hardware or accessory limitations (e.g., lack of storage, uncomfortable bands, outdated ports)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Expensive, underperforming previous systems that were hard to set up",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Fear of surveillance or privacy invasion from device cameras",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Content performs as expected (gets views, engagement, pushes to feed)",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Reliable, uninterrupted access to account and platform features",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Clean, organized, aesthetically pleasing environment (hidden cords, tidy tech)",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Products that are easy to install, adjust, and use without hassle",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Cost-effective solutions that avoid hidden fees or subscriptions",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Durability and long-term reliability of purchased accessories",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Privacy and security for personal devices",
+            "priority": 0.65
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to solve a specific, immediate annoyance (ugly cords, lack of storage)",
+            "context": "Daily living environment"
+          },
+          {
+            "trigger": "Upgrading tech (new phone) requires new compatible accessories",
+            "context": "Device compatibility"
+          },
+          {
+            "trigger": "Replacing a previous expensive, underperforming product",
+            "context": "Past negative experience"
+          },
+          {
+            "trigger": "Finding a product that simplifies a task for a less tech-savvy family member",
+            "context": "Gift-giving for accessibility"
+          },
+          {
+            "trigger": "Accessory enhances aesthetics or personalization of a device",
+            "context": "Style and customization"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product may not stand the test of time/durability is unproven",
+            "severity": 0.6
+          },
+          {
+            "objection": "Adhesive is too strong, risking damage to walls/paint upon removal",
+            "severity": 0.5
+          },
+          {
+            "objection": "Potential for allergies (e.g., nickel in buckles)",
+            "severity": 0.4
+          },
+          {
+            "objection": "Accessory fits poorly (too snug, too long)",
+            "severity": 0.5
+          },
+          {
+            "objection": "App/platform instability disrupts core creative/engagement workflow",
+            "severity": 0.9
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Expensive, hardwired security systems",
+            "reason": "Underperformance, complexity, high cost",
+            "threshold": "System works less than half as well as new alternative"
+          },
+          {
+            "from_product": "Default/stock accessories (e.g., Fitbit band, camera mounts)",
+            "reason": "Poor fit, discomfort, lack of adjustability",
+            "threshold": "Significant discomfort or functional limitation"
+          },
+          {
+            "from_product": "Old charging cables/ports (micro USB)",
+            "reason": "Device compatibility",
+            "threshold": "Purchase of new device renders old accessories obsolete"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Ease of use/installation",
+          "Aesthetics and tidiness",
+          "Cost-effectiveness (no hidden fees)",
+          "Compatibility with existing tech",
+          "Durability/longevity",
+          "Personalization/style options",
+          "Privacy/security features"
+        ],
+        "deal_breakers": [
+          "App/platform outages that block core creative functions",
+          "Products that risk damaging property upon removal",
+          "Products with poor fit that can't be adjusted",
+          "Monthly fees or subscription requirements"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Frustration with accidental reposting due to poor UI/button placement",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Annoyance with unnecessary features being added that clutter the experience",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Frustration with apps becoming less elegant/usable over time due to constant changes",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Anger at developers making changes that seem designed to boost engagement metrics rather than improve user experience",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Difficulty navigating UI changes that aren't intuitive",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Disappointment when previously working apps suddenly fail without explanation",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Frustration with feature bloat that drains battery and adds complexity",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Annoyance with influencers exploiting new features for excessive promotional demands",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Simple, focused apps that do one thing well without unnecessary extras",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Reliable performance across multiple devices and operating systems",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Intuitive UI that prevents accidental actions",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Privacy protection through offline functionality and no bank linking",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Cross-device synchronization for seamless experience",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Useful features that solve specific problems (like custom ringtones, printing from tablets)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Apps that maintain their core functionality without constant disruptive changes",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Switching to a new phone/device and needing core functionality restored",
+            "context": "Device migration"
+          },
+          {
+            "trigger": "Discovery through integration with another device (like Amazon Echo)",
+            "context": "Ecosystem discovery"
+          },
+          {
+            "trigger": "Specific problem that needs solving (like custom ringtones on Fire Phone)",
+            "context": "Problem resolution"
+          },
+          {
+            "trigger": "Travel or specific situation requiring specialized functionality",
+            "context": "Situational need"
+          },
+          {
+            "trigger": "Dissatisfaction with current solution (like replacing Pandora)",
+            "context": "Competitor frustration"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Inaccurate or inferior functionality compared to alternatives",
+            "severity": 0.9
+          },
+          {
+            "objection": "Constant addition of unwanted features that degrade user experience",
+            "severity": 0.7
+          },
+          {
+            "objection": "Poor UI design leading to accidental actions",
+            "severity": 0.6
+          },
+          {
+            "objection": "Lack of transparency about changes or failures",
+            "severity": 0.6
+          },
+          {
+            "objection": "Feature bloat that reduces performance and increases complexity",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Manual checkbook",
+            "reason": "Need for automated math verification and transaction organization",
+            "threshold": "When manual system becomes error-prone or cumbersome"
+          },
+          {
+            "from_product": "Other music services (Pandora)",
+            "reason": "Better integration with existing ecosystem (Echo) and ease of use",
+            "threshold": "When new integration provides significantly better experience"
+          },
+          {
+            "from_product": "Built-in/default apps",
+            "reason": "Missing specific functionality (custom ringtones)",
+            "threshold": "When default solution lacks essential customization"
+          },
+          {
+            "from_product": "Competing apps",
+            "reason": "Better cross-device compatibility and reliability",
+            "threshold": "When current app fails on new devices or lacks updates"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and consistent performance",
+          "Simplicity and focused functionality",
+          "Cross-device compatibility",
+          "Privacy and data control",
+          "Integration with existing ecosystem",
+          "Customer support responsiveness",
+          "Cost-effectiveness for value provided"
+        ],
+        "deal_breakers": [
+          "Constant disruptive changes to UI/features",
+          "Poor accuracy compared to alternatives",
+          "Battery drain from unnecessary features",
+          "Lack of cross-device compatibility",
+          "Forced bank/account linking"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.507,
+      "reddit": 0.493,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "App interface changes disrupt established usage patterns",
+          "count": 1,
+          "frequency": 0.0016,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0048
+        },
+        {
+          "signal": "Apps crash or perform poorly on specific devices (e.g., Kindle)",
+          "count": 1,
+          "frequency": 0.0016,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0048
+        },
+        {
+          "signal": "Apps have bugs or glitches that persist after updates/reinstalls",
+          "count": 1,
+          "frequency": 0.0016,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0048
+        },
+        {
+          "signal": "Needing to be connected to Wi-Fi to use an app is limiting",
+          "count": 1,
+          "frequency": 0.0016,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0048
+        },
+        {
+          "signal": "Too many intrusive ads in free apps",
+          "count": 1,
+          "frequency": 0.0016,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0048
+        },
+        {
+          "signal": "Content libraries are insufficient to justify subscription cost",
+          "count": 1,
+          "frequency": 0.0016,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0048
+        },
+        {
+          "signal": "Poor search/navigation within apps forces excessive manual scrolling",
+          "count": 1,
+          "frequency": 0.0016,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0048
+        },
+        {
+          "signal": "App crashes, freezes, or shuts down unexpectedly on multiple devices",
+          "count": 1,
+          "frequency": 0.0016,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0048
+        },
+        {
+          "signal": "Loss of purchased in-game content/tokens when a game is discontinued",
+          "count": 1,
+          "frequency": 0.0016,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0048
+        },
+        {
+          "signal": "Unresponsive developer support despite repeated contact attempts",
+          "count": 1,
+          "frequency": 0.0016,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0048
+        },
+        {
+          "signal": "UI changes that break existing functionality (e.g., button relocation causing non-working features)",
+          "count": 1,
+          "frequency": 0.0016,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0048
+        },
+        {
+          "signal": "Poor sound quality, short/obvious looping, or uncomfortably sharp tones in audio apps",
+          "count": 1,
+          "frequency": 0.0016,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0048
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Intuitive UI that prevents accidental actions",
+          "count": 2,
+          "frequency": 0.0034,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0086
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Poor customer service when issues arise",
+          "count": 2,
+          "frequency": 0.0057,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0143
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Needing a reliable, familiar security/utility solution (e.g., long-term Norton user)",
+          "count": 1,
+          "frequency": 0.0025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0074
+        },
+        {
+          "signal": "Seeking cost-effective alternative to a higher-priced option (e.g., Amazon vs. Apple)",
+          "count": 1,
+          "frequency": 0.0025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0074
+        },
+        {
+          "signal": "Desire for convenience and consolidation (e.g., accessing multiple streaming/paid accounts in one app)",
+          "count": 1,
+          "frequency": 0.0025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0074
+        },
+        {
+          "signal": "Positive word-of-mouth or specific recommendation (e.g., for a game)",
+          "count": 1,
+          "frequency": 0.0025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0074
+        },
+        {
+          "signal": "App is a required component for another device/service (e.g., Alexa)",
+          "count": 1,
+          "frequency": 0.0025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0074
+        },
+        {
+          "signal": "App offered as 'free app of the day'",
+          "count": 1,
+          "frequency": 0.0025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0074
+        },
+        {
+          "signal": "Recommendation from family/friends (e.g., husband convincing to try travel app)",
+          "count": 1,
+          "frequency": 0.0025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0074
+        },
+        {
+          "signal": "Desire for convenience over phone calls (e.g., flight changes, seat upgrades)",
+          "count": 1,
+          "frequency": 0.0025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0074
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "low": 0.831,
+        "Low": 0.012,
+        "medium": 0.157
+      }
+    }
+  },
+  "cluster_1": {
+    "member_count": 21,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Unreliable functionality (randomly stops working)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Bugs in recent updates causing feature loss (e.g., 'Fit to keyboard' removal)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Gestures interfere with other system functions (e.g., edge navigation blocking)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Poor compatibility with floating/pop-up windows (gestures lose focus)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "High battery drain and performance lag",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Swipe sensitivity issues (hard to distinguish gestures)",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "App crashes after restart on some devices",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Unwanted side effects (e.g., triggers Bixby)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Distracting visual elements (white bars) during media consumption",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Complete customization of gesture shortcuts (apps, tools, modes)",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Smooth, reliable, and consistent gesture performance",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Full-screen immersion (hide navigation bar permanently)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Enhanced productivity (reduce taps, quick access)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "One-handed phone operation (avoid repositioning hands)",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Integration with system apps (e.g., Samsung Camera) without conflict",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Advanced per-handle settings (e.g., sensitivity, app-specific actions)",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Permission-free operation (works with device restrictions)",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Modern UI aesthetics (updated quick settings menu)",
+            "priority": 0.5
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Android update breaking third-party launcher support",
+            "context": "Searching for alternative gesture navigation"
+          },
+          {
+            "trigger": "Need for better customization than native gestures",
+            "context": "Frustrated by limited default options"
+          },
+          {
+            "trigger": "Desire to reclaim screen space (remove navigation bar)",
+            "context": "Using phone for media or productivity"
+          },
+          {
+            "trigger": "Switching from iPhone or Xiaomi wanting similar features",
+            "context": "Missing previous device's gesture system"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Unreliable performance on certain devices (random crashes/freezes)",
+            "severity": 0.8
+          },
+          {
+            "objection": "Battery drain and system lag",
+            "severity": 0.8
+          },
+          {
+            "objection": "Recent updates removing user-preferred features",
+            "severity": 0.7
+          },
+          {
+            "objection": "Incompatibility with floating/pop-up app modes",
+            "severity": 0.6
+          },
+          {
+            "objection": "Interference with system gesture navigation",
+            "severity": 0.6
+          },
+          {
+            "objection": "Visual distractions during immersive activities (movies)",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Native Android gesture navigation",
+            "reason": "Better customization and functionality",
+            "threshold": "Native gestures lack desired shortcuts"
+          },
+          {
+            "from_product": "Other third-party gesture apps (e.g., Pie Controls)",
+            "reason": "More fluid, customizable, or stable experience",
+            "threshold": "Existing app fails on specific device or lacks features"
+          },
+          {
+            "from_product": "Physical navigation buttons",
+            "reason": "Want full-screen use and faster access",
+            "threshold": "Buttons feel slow or take screen space"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Customization flexibility",
+          "Reliability and stability",
+          "Screen immersion (hide nav bar)",
+          "One-handed usability",
+          "Permission/accessibility requirements",
+          "Performance (battery/lag)",
+          "Update responsiveness"
+        ],
+        "deal_breakers": [
+          "Chronic crashes or freezes",
+          "Severe battery drain",
+          "Critical feature removal in updates",
+          "Incompatibility with work profile/device restrictions"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Bluetooth connection instability requiring frequent repair/reconnection",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Keyboard functionality locked behind paywall or perceived as unfair monetization",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Cannot use on device lock screen",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Input lag, especially when first connecting Android to Android",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Difficult initial Bluetooth pairing process",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Payment/license verification issues locking out paid features",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Lack of text preview while typing in web search bars",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Missing Esc key for Windows control",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Inability to resize/drag windows with the mouse",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable, instant Bluetooth connection without frequent repair",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Control PC/media from bed/couch/another room without dedicated peripherals",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Use phone as accessibility tool for typing due to hand pain",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Multi-device control (phone controls tablet, tablet controls PC, etc.)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Custom macros/buttons for keyboard shortcuts and automation",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Low latency mouse and keyboard input",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Widget for one-press button commands without launching app",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Save recorded macros, not just record-and-play",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Freemium model with ads instead of paywalling core typing",
+            "priority": 0.65
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Appreciation for no ads, no subscription, fair one-time payment",
+            "context": "After positive initial free experience"
+          },
+          {
+            "trigger": "Critical need during hardware failure (broken laptop keyboard)",
+            "context": "Immediate problem solving"
+          },
+          {
+            "trigger": "Desire for advanced features like custom keys, macros, air mouse",
+            "context": "Discovery of utility beyond basic function"
+          },
+          {
+            "trigger": "Satisfaction with reliability and lack of intrusive ads",
+            "context": "Repeated successful use"
+          },
+          {
+            "trigger": "Need to type using swipe/Gboard on phone for PC input",
+            "context": "Specific workflow enhancement"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Perception that keyboard typing is unfairly paywalled after update",
+            "severity": 0.8
+          },
+          {
+            "objection": "Bluetooth connectivity is unreliable and frustrating",
+            "severity": 0.85
+          },
+          {
+            "objection": "App becomes useless after device/PC reboot due to pairing issues",
+            "severity": 0.75
+          },
+          {
+            "objection": "Payment verification failures lock out purchased pro features",
+            "severity": 0.9
+          },
+          {
+            "objection": "Cannot use app on device lock screen",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Win 10 voice recognition",
+            "reason": "Doesn't work well on my computer",
+            "threshold": "Functional failure"
+          },
+          {
+            "from_product": "Other Bluetooth mouse/keyboard apps",
+            "reason": "Required PC installation or had worse Bluetooth handling",
+            "threshold": "Superior simplicity and performance"
+          },
+          {
+            "from_product": "Dedicated wireless keyboard/mouse",
+            "reason": "Avoids hassle of finding/charging separate peripherals",
+            "threshold": "Convenience and always-available phone"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Connection reliability",
+          "Latency/Performance",
+          "Ease of setup/use",
+          "Feature set (keyboard, mouse, custom keys)",
+          "Monetization model (no ads/subscription)",
+          "Cross-platform compatibility"
+        ],
+        "deal_breakers": [
+          "Unreliable Bluetooth connection requiring constant repair",
+          "Core keyboard functionality paywalled after being free",
+          "Cannot connect after device reboots"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 4,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Limited number of customizable shortcuts and gestures",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Specific desired shortcuts missing (e.g., rotate screen on/off)",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Feature regression or removal after updates causing frustration (e.g., smart select, virtual trackpad behavior)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Inconsistent or buggy animations (e.g., pull-down screen jump)",
+            "emotional_intensity": 0.3
+          },
+          {
+            "signal": "Inability to access certain UI elements (e.g., hamburger menu) with gestures enabled",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Confusing or non-intuitive icons in quick tools",
+            "emotional_intensity": 0.2
+          },
+          {
+            "signal": "Conflicts with system gestures or panels (e.g., notification panel)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "App not working at all on specific phone models (e.g., S21 Ultra)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Lack of dark theme/theming options",
+            "emotional_intensity": 0.2
+          },
+          {
+            "signal": "Missing native full-screen gestures on some Samsung phones",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Inability to change specific settings (e.g., abort action on hold, vibration patterns, handle/button positioning)",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "System integration not obvious or external app required for expected functionality",
+            "emotional_intensity": 0.3
+          },
+          {
+            "signal": "Lack of certain advanced features compared to rooted/Xposed alternatives",
+            "emotional_intensity": 0.4
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "More shortcut and gesture customization options",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Smooth, consistent, and configurable animations",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Full, reliable system integration (works in all screens/panels)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Intuitive and informative UI/icon design within the app",
+            "priority": 0.4
+          },
+          {
+            "outcome": "Advanced features for power users (root-like capabilities, pop-up app opening, volume control via swipe)",
+            "priority": 0.6
+          },
+          {
+            "outcome": "High configurability (vibration patterns, swipe distances, handle positioning, animation direction)",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Visual appeal and theming (dark theme)",
+            "priority": 0.3
+          },
+          {
+            "outcome": "One-handed, thumb-only navigation for large screen phones",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Accessibility and ease of use for users with physical limitations",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Seamless replacement for other gesture systems (iOS, MIUI) or third-party apps",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Stable, regression-free updates",
+            "priority": 0.9
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Switching from other Android brands lacking full-screen gestures",
+            "context": "Migration to Samsung phone"
+          },
+          {
+            "trigger": "Frustration with default Samsung one-handed operation or gesture system",
+            "context": "Seeking more customization"
+          },
+          {
+            "trigger": "Owning a large-screen Samsung phone",
+            "context": "Need for improved one-handed use"
+          },
+          {
+            "trigger": "Desire for more intuitive and powerful gesture control than stock",
+            "context": "Power user seeking efficiency"
+          },
+          {
+            "trigger": "Accessibility needs (difficulty reaching screen corners)",
+            "context": "Physical limitation or preference"
+          },
+          {
+            "trigger": "Recommendation or discovery within Samsung Good Lock ecosystem",
+            "context": "Existing Samsung user exploring enhancements"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Critical features removed or broken after updates",
+            "severity": 0.9
+          },
+          {
+            "objection": "App completely non-functional on certain phone models",
+            "severity": 0.8
+          },
+          {
+            "objection": "Persistent bugs or conflicts with system UI (e.g., notification panel)",
+            "severity": 0.7
+          },
+          {
+            "objection": "Lack of specific, highly-desired shortcuts or features",
+            "severity": 0.5
+          },
+          {
+            "objection": "Inconsistency or lack of polish in animations/behavior",
+            "severity": 0.4
+          },
+          {
+            "objection": "Missing expected basic functionality (access to hamburger menus)",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Default Samsung gestures/One UI",
+            "reason": "Insufficient customization, missing features (e.g., swipe back, full-screen gestures)",
+            "threshold": "Immediate upon discovery of this app"
+          },
+          {
+            "from_product": "Other third-party gesture apps/launchers",
+            "reason": "This app provides better system integration, more features, or superior usability",
+            "threshold": "After trying alternatives and finding them unsatisfactory"
+          },
+          {
+            "from_product": "Other phone brands (e.g., Xiaomi, iOS)",
+            "reason": "Desire for specific gesture behaviors (e.g., iOS swipe back) on Samsung device",
+            "threshold": "Switching to Samsung phone but missing previous OS features"
+          },
+          {
+            "from_product": "Root/Xposed modules",
+            "reason": "Previous modules no longer supported on newer Android/One UI versions",
+            "threshold": "Update breaks old module, seeking non-root alternative"
+          }
+        ],
+        "decision_factors_ranked": [
+          "System integration and reliability",
+          "Customization and flexibility of gestures/shortcuts",
+          "One-handed usability for large screens",
+          "Stability and regression-free updates",
+          "Accessibility and ease of use",
+          "Visual appeal and polish",
+          "Advanced/power-user features",
+          "Cost (free/no ads)"
+        ],
+        "deal_breakers": [
+          "App completely non-functional on user's specific phone model",
+          "Critical, core features removed or broken by updates without recourse",
+          "Persistent, unresolved bugs that hinder basic navigation",
+          "Inability to perform essential one-handed operations"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 1,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Eye strain, headaches, and difficulty sleeping from phone screen use, especially at night",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Existing phone blue light filters are limited or absent",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "App unpredictably stops working, requires troubleshooting, or conflicts with system settings",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "App uses excessive storage/data (300MB-500MB) causing suspicion",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Interface issues: filter toggle inaccessible, no widget, accidental touches, no notification bar control",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Filter doesn't cover system areas (notification bar, settings, lock screen)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Unwanted features like an interfering torch or yellow screenshots",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Malware/scam pop-ups causing security fears",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Excessive advertising perceived as spam",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reduce eye strain, headaches, and improve sleep quality",
+            "priority": 1.0
+          },
+          {
+            "outcome": "Customizable, adjustable filter for brightness, color temperature, and intensity",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Filter that works consistently across all apps and system areas",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Simple, bug-free, and reliable app experience",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Quick, easy access to toggle filter (widget, notification control, shortcuts)",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Scheduled automation for turning filter on/off",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Trustworthy app with no malware or excessive data storage",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Save multiple filter presets for different times/situations",
+            "priority": 0.5
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Dissatisfaction with built-in phone night mode or lack thereof",
+            "context": "Switching from iPhone (Night Shift) to Android, or seeking more control"
+          },
+          {
+            "trigger": "Physical discomfort (eye strain, headaches) from prolonged phone use",
+            "context": "Using phone at night, doomscrolling, or sensitive eyes"
+          },
+          {
+            "trigger": "Recommendation from positive reviews or word of mouth",
+            "context": "Researching solutions after trying other apps"
+          },
+          {
+            "trigger": "Need for extreme screen dimming beyond standard settings",
+            "context": "Using phone in dark rooms, shared sleeping spaces, or cinemas"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "App stores excessive data (300MB-500MB), raising privacy concerns",
+            "severity": 0.8
+          },
+          {
+            "objection": "Filter fails on system screens (notification bar, settings) due to OS permissions",
+            "severity": 0.7
+          },
+          {
+            "objection": "Unreliable functionality: randomly stops, requires restarts, or conflicts with accessibility settings",
+            "severity": 0.6
+          },
+          {
+            "objection": "Malware/scam pop-ups appearing within the app",
+            "severity": 1.0
+          },
+          {
+            "objection": "Intrusive ads and perceived app bloat",
+            "severity": 0.6
+          },
+          {
+            "objection": "Poor UX: no widget, hard-to-toggle filter, accidental touches",
+            "severity": 0.5
+          },
+          {
+            "objection": "Unwanted extra features like a rogue torch",
+            "severity": 0.4
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Built-in phone night light",
+            "reason": "Limited customization, doesn't dim enough or cover all screen areas",
+            "threshold": "When discomfort persists despite using it"
+          },
+          {
+            "from_product": "Other blue light filter apps",
+            "reason": "Overcomplicated UI, bugs, or lack of reliability",
+            "threshold": "After trying multiple and finding them unsatisfactory"
+          },
+          {
+            "from_product": "This app",
+            "reason": "Malware pop-ups, excessive data storage, or persistent bugs",
+            "threshold": "When trust is broken or issues become intolerable"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Effectiveness at reducing eye strain/sleep disruption",
+          "Reliability and bug-free performance",
+          "Customization of filter settings (brightness, color, intensity)",
+          "Trust and security (no malware, reasonable data use)",
+          "Ease of use and accessibility (toggle access, simple UI)",
+          "Coverage across all apps and system areas",
+          "Scheduling/automation features",
+          "Storage size and app bloat"
+        ],
+        "deal_breakers": [
+          "Malware, scam pop-ups, or security risks",
+          "Excessive, unexplained data storage (hundreds of MB)",
+          "Complete failure to work on system screens or frequent crashes"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 3,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Bluetooth connection unreliable, frequently disconnects or fails to connect",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Latency and lag make mouse cursor jumpy or unresponsive",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Complex or buggy setup process requiring repeated re-pairing",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "App stops working after previously functioning well (e.g., server errors, lost HID profile)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Specific features broken or inconsistent (e.g., multimedia buttons, mouse buttons, scrolling glitches)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Incompatibility with specific devices (e.g., Chromebooks) or keyboard types",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Poor UI/UX requiring manual Bluetooth settings adjustments outside the app",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable, seamless Bluetooth connection without manual re-pairing",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Low-latency, precise mouse cursor movement (air mouse functionality)",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Control multiple devices (PC, tablet, Steam Deck, projector) remotely",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Customizable controls (buttons, layouts) for specific workflows",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Feature-rich free version with no ads, plus one-time payment upgrade",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Advanced features like gamepad controls, volume control, full-screen keyboard",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Work from bed/couch (lazy/tired use case) for comfort",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "App proves stable and useful in free version, user wants to support developers",
+            "context": "After positive initial use"
+          },
+          {
+            "trigger": "Need advanced features like Air Mouse, custom buttons, or Android Home/Back simulation",
+            "context": "When free version lacks needed functionality"
+          },
+          {
+            "trigger": "Desire to avoid subscription fees or ads, valuing one-time payment model",
+            "context": "Comparing to other apps with subscriptions or ads"
+          },
+          {
+            "trigger": "Saving money compared to buying physical keyboard/mouse hardware",
+            "context": "Cost-saving decision"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Bluetooth connectivity is too unreliable, making core functionality unusable",
+            "severity": 0.95
+          },
+          {
+            "objection": "High latency or lag ruins the user experience",
+            "severity": 0.85
+          },
+          {
+            "objection": "App degraded over time, breaking previously working features",
+            "severity": 0.8
+          },
+          {
+            "objection": "Complex setup and constant re-pairing required",
+            "severity": 0.75
+          },
+          {
+            "objection": "Paid features not working as advertised (e.g., multimedia controls)",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Other remote mouse/keyboard apps",
+            "reason": "Ads, subscriptions, or requiring extra server software",
+            "threshold": "Immediate annoyance"
+          },
+          {
+            "from_product": "Physical keyboard/mouse",
+            "reason": "Desire for convenience, portability, and cost savings",
+            "threshold": "Laziness or mobility need"
+          },
+          {
+            "from_product": "This app after it stops working",
+            "reason": "Persistent connectivity or performance failures",
+            "threshold": "Repeated failures causing frustration"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability of Bluetooth connection",
+          "Low latency / responsive cursor",
+          "Ease of setup and use",
+          "Cost (one-time payment vs subscription)",
+          "Feature set (Air Mouse, customization)",
+          "No ads",
+          "Compatibility with specific devices"
+        ],
+        "deal_breakers": [
+          "Chronic Bluetooth disconnections or inability to connect",
+          "Severe latency making control impractical",
+          "Critical features broken after paying",
+          "Requiring constant manual re-pairing"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 5,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.7,
+      "reddit": 0.3,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Bluetooth devices randomly disconnecting",
+          "count": 1,
+          "frequency": 0.0055,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0165
+        },
+        {
+          "signal": "Having to buy special adapters for compatibility with phone cases",
+          "count": 1,
+          "frequency": 0.0055,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.022
+        },
+        {
+          "signal": "Slow connection/pairing time with newer phone models",
+          "count": 1,
+          "frequency": 0.0055,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0165
+        },
+        {
+          "signal": "Products breaking or failing shortly after purchase",
+          "count": 1,
+          "frequency": 0.0055,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0165
+        },
+        {
+          "signal": "Battery life insufficient for all-day outdoor use",
+          "count": 1,
+          "frequency": 0.0055,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0165
+        },
+        {
+          "signal": "Products not meeting advertised expectations (e.g., stickers instead of headphones)",
+          "count": 1,
+          "frequency": 0.0055,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0165
+        },
+        {
+          "signal": "Included accessories having quality/performance issues",
+          "count": 1,
+          "frequency": 0.0055,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0165
+        },
+        {
+          "signal": "Product design flaw causing instability (e.g., leaning stand)",
+          "count": 1,
+          "frequency": 0.0055,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0165
+        },
+        {
+          "signal": "Inability to connect Bluetooth devices despite them appearing in settings",
+          "count": 1,
+          "frequency": 0.0055,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0165
+        },
+        {
+          "signal": "Requirement to install a separate app instead of using native iOS functionality",
+          "count": 1,
+          "frequency": 0.0055,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0166
+        },
+        {
+          "signal": "Concern over invasive data collection and privacy policies",
+          "count": 1,
+          "frequency": 0.0055,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0165
+        },
+        {
+          "signal": "Poor battery level indicators on portable speakers",
+          "count": 1,
+          "frequency": 0.0055,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0165
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Portable, multi-device audio for personal entertainment",
+          "count": 1,
+          "frequency": 0.0058,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0173
+        },
+        {
+          "signal": "Durable product that withstands rough, outdoor, or mobile use",
+          "count": 1,
+          "frequency": 0.0058,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0173
+        },
+        {
+          "signal": "Reliable, quick Bluetooth pairing and connection",
+          "count": 1,
+          "frequency": 0.0058,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0173
+        },
+        {
+          "signal": "Good sound quality and bass from compact devices",
+          "count": 1,
+          "frequency": 0.0058,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0173
+        },
+        {
+          "signal": "Seamless integration and compatibility with standard phone cases/accessories",
+          "count": 1,
+          "frequency": 0.0058,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0173
+        },
+        {
+          "signal": "Easy, intuitive setup without needing external help",
+          "count": 1,
+          "frequency": 0.0058,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0175
+        },
+        {
+          "signal": "Fitness wearables that fit properly and look good",
+          "count": 1,
+          "frequency": 0.0058,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0173
+        },
+        {
+          "signal": "Control over device notifications",
+          "count": 1,
+          "frequency": 0.0058,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0173
+        },
+        {
+          "signal": "Seamless plug-and-play connectivity without extra software",
+          "count": 1,
+          "frequency": 0.0058,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0173
+        },
+        {
+          "signal": "Fast data transfer speeds for media from drones/DSLRs",
+          "count": 1,
+          "frequency": 0.0058,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0173
+        },
+        {
+          "signal": "Long, durable charging cables that withstand heavy use, especially by children",
+          "count": 1,
+          "frequency": 0.0058,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0173
+        },
+        {
+          "signal": "Clear battery life indicators on portable devices",
+          "count": 1,
+          "frequency": 0.0058,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0173
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Product breaks or fails shortly after purchase",
+          "count": 1,
+          "frequency": 0.0122,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0366
+        },
+        {
+          "signal": "Misleading product description/functionality",
+          "count": 1,
+          "frequency": 0.0122,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0366
+        },
+        {
+          "signal": "Critical compatibility issues requiring extra purchases",
+          "count": 1,
+          "frequency": 0.0122,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0366
+        },
+        {
+          "signal": "Unreliable connectivity (e.g., constant Bluetooth drops)",
+          "count": 1,
+          "frequency": 0.0122,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0366
+        },
+        {
+          "signal": "Extremely poor battery life for intended use case",
+          "count": 1,
+          "frequency": 0.0122,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0366
+        },
+        {
+          "signal": "Irresolvable connectivity issues (e.g., Bluetooth pairing failures)",
+          "count": 1,
+          "frequency": 0.0122,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0366
+        },
+        {
+          "signal": "Opaque or invasive data collection policies",
+          "count": 1,
+          "frequency": 0.0122,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0366
+        },
+        {
+          "signal": "Mandatory installation of third-party apps for basic functionality",
+          "count": 1,
+          "frequency": 0.0122,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0366
+        },
+        {
+          "signal": "Poor durability leading to frequent product failure",
+          "count": 1,
+          "frequency": 0.0122,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0366
+        },
+        {
+          "signal": "Gestures failing in core apps",
+          "count": 1,
+          "frequency": 0.0122,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0366
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Need for a portable, versatile speaker for music, movies, and phone use",
+          "count": 1,
+          "frequency": 0.0104,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0312
+        },
+        {
+          "signal": "Seeking a better-priced alternative to a major brand (Apple)",
+          "count": 1,
+          "frequency": 0.0104,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0312
+        },
+        {
+          "signal": "Finding a fitness watch that fits correctly (especially for females)",
+          "count": 1,
+          "frequency": 0.0104,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0312
+        },
+        {
+          "signal": "Need for a reliable replacement for a faulty included accessory (e.g., data cable)",
+          "count": 1,
+          "frequency": 0.0104,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0417
+        },
+        {
+          "signal": "Desire for a portable screen for watching movies while multitasking or traveling",
+          "count": 1,
+          "frequency": 0.0104,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0312
+        },
+        {
+          "signal": "Need for a lightweight, functional computer mouse with good battery life",
+          "count": 1,
+          "frequency": 0.0104,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0312
+        },
+        {
+          "signal": "Need to transfer drone/DSLR media to iPhone/iPad quickly",
+          "count": 1,
+          "frequency": 0.0104,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0312
+        },
+        {
+          "signal": "Requirement for longer charging cables for children's devices during school/Zoom meetings",
+          "count": 1,
+          "frequency": 0.0104,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0312
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "medium": 0.476,
+        "low": 0.524
+      }
+    }
+  },
+  "cluster_2": {
+    "member_count": 4,
+    "representative_batches": [
+      {
+        "pain_points": [],
+        "desired_outcomes": [],
+        "purchase_triggers": [],
+        "objections": [],
+        "switching_triggers": [],
+        "decision_factors_ranked": [],
+        "deal_breakers": [],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [],
+        "desired_outcomes": [],
+        "purchase_triggers": [],
+        "objections": [],
+        "switching_triggers": [],
+        "decision_factors_ranked": [],
+        "deal_breakers": [],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [],
+        "desired_outcomes": [],
+        "purchase_triggers": [],
+        "objections": [],
+        "switching_triggers": [],
+        "decision_factors_ranked": [],
+        "deal_breakers": [],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 3,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "signals": [
+          {
+            "signal_name": "signal_name",
+            "evidence": [
+              "exact quote 1",
+              "exact quote 2"
+            ],
+            "prevalence": "high|medium|low"
+          }
+        ],
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 1,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.531,
+      "reddit": 0.469,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [],
+      "top_desired_outcomes": [],
+      "top_deal_breakers": [],
+      "top_purchase_triggers": [],
+      "dominant_friction_tolerance": "medium",
+      "friction_tolerance_distribution": {
+        "medium": 1.0
+      }
+    }
+  }
+}

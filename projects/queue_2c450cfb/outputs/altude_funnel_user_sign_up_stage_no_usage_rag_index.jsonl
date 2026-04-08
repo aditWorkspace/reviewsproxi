@@ -1,0 +1,105 @@
+{"review_id": "cluster_0_b0_pp0", "trait_label": "Technical Stability & Reliability Concern", "text": "Experiencing persistent and disruptive app bugs on mobile (freezing, syncing errors, display issues, crashes).", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp1", "trait_label": "Technical Stability & Reliability Concern", "text": "Feeling forced or pressured to upgrade despite not reaching plan limits.", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp2", "trait_label": "Technical Stability & Reliability Concern", "text": "Mobile app is severely feature-limited compared to the desktop/web version, forcing reliance on a computer for core tasks.", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_do0", "trait_label": "Technical Stability & Reliability Concern", "text": "A stable, reliable, and bug-free mobile app that works as expected.", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_do1", "trait_label": "Technical Stability & Reliability Concern", "text": "A mobile app with core feature parity with the desktop/web version.", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp0", "trait_label": "Technical Stability & Reliability Concern", "text": "App crashing and critical bugs after updates", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp1", "trait_label": "Technical Stability & Reliability Concern", "text": "Unable to tag or mention collaborators in mobile app", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp2", "trait_label": "Technical Stability & Reliability Concern", "text": "Poor mobile UI/UX (e.g., screen space wasted, unreadable text)", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_do0", "trait_label": "Technical Stability & Reliability Concern", "text": "Reliable, bug-free mobile app with consistent core functionality", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_do1", "trait_label": "Technical Stability & Reliability Concern", "text": "Seamless cross-platform sync and widget reliability", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp0", "trait_label": "Technical Stability & Reliability Concern", "text": "App lacks basic notification and reminder features (due date alerts, flexible timing, sound customization)", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp1", "trait_label": "Technical Stability & Reliability Concern", "text": "Mobile app is missing key features from desktop version (views like calendar, timeline, Kanban filtering, copy task)", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp2", "trait_label": "Technical Stability & Reliability Concern", "text": "Unreliable notifications (delayed, missed, or only appear when app is opened)", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_do0", "trait_label": "Technical Stability & Reliability Concern", "text": "Reliable, timely notifications with flexible scheduling and custom sounds", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_do1", "trait_label": "Technical Stability & Reliability Concern", "text": "Full feature parity between mobile and desktop (calendar view, timeline, task copying, Kanban filtering)", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp0", "trait_label": "Technical Stability & Reliability Concern", "text": "Mobile app critical bugs make core functions unreliable (swipe to complete too sensitive, tasks show incorrectly, can't move/update tasks, login failures).", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp1", "trait_label": "Technical Stability & Reliability Concern", "text": "Mobile app missing features from desktop version (bulk edits, calendar view, subtask management, creating tags, moving subtasks, duplicate task).", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp2", "trait_label": "Technical Stability & Reliability Concern", "text": "Forced to upgrade/pay to access existing work after trial, or locked out of account/data unexpectedly.", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_do0", "trait_label": "Technical Stability & Reliability Concern", "text": "A reliable, bug-free mobile app that works as consistently as the desktop version.", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_do1", "trait_label": "Technical Stability & Reliability Concern", "text": "Seamless sync across devices and offline access for core functionality.", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp0", "trait_label": "Technical Stability & Reliability Concern", "text": "Frequent app crashes and freezing, requiring force close or reinstall", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp1", "trait_label": "Technical Stability & Reliability Concern", "text": "Poor mobile interface with tiny buttons and hard-to-read text, especially on Android", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp2", "trait_label": "Technical Stability & Reliability Concern", "text": "Stripped-down features compared to web version, missing reports, charts, and key functionalities", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_do0", "trait_label": "Technical Stability & Reliability Concern", "text": "Reliable app stability with no crashes or freezing", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_do1", "trait_label": "Technical Stability & Reliability Concern", "text": "Feature parity with web version (reports, charts, filters, date views)", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_pp0", "trait_label": "Friction Avoidance", "text": "Overwhelmed by installation complexity and lack of clear instructions", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_pp1", "trait_label": "Friction Avoidance", "text": "Frustrated with products that require excessive setup time or ongoing training to work properly", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_pp2", "trait_label": "Friction Avoidance", "text": "Feeling cheated or manipulated by unfair algorithms (e.g., rigged games) or hidden costs", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_do0", "trait_label": "Friction Avoidance", "text": "A product that works immediately with minimal setup and no complex configuration", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_do1", "trait_label": "Friction Avoidance", "text": "Clear, simple, and effective solutions that deliver on core promises without hidden catches", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_pp0", "trait_label": "Friction Avoidance", "text": "Frustration with software that is easy to start but difficult to use fully (e.g., can't find documents, won't print)", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_pp1", "trait_label": "Friction Avoidance", "text": "Disappointment when initial excitement about a product fades due to technical issues (e.g., app fails to update, stops working)", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_pp2", "trait_label": "Friction Avoidance", "text": "Overwhelmed by complexity or steep learning curves when switching to new software or systems", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_do0", "trait_label": "Friction Avoidance", "text": "Achieve a quick, tangible improvement with minimal effort (e.g., PC upgrade that 'helped')", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_do1", "trait_label": "Friction Avoidance", "text": "Find tools that are easy to set up and use without extensive time investment", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_pp0", "trait_label": "Friction Avoidance", "text": "Frustration with hidden costs or features not being clearly advertised before download", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_pp1", "trait_label": "Friction Avoidance", "text": "Intense frustration with software that fails validation or setup at the final step, wasting time", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_pp2", "trait_label": "Friction Avoidance", "text": "Anxiety about saving money and managing finances after a career or lifestyle change", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_do0", "trait_label": "Friction Avoidance", "text": "Easy, quick installation and setup without technical expertise", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_do1", "trait_label": "Friction Avoidance", "text": "Software that works reliably 'set-and-forget' without ongoing maintenance", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_pp0", "trait_label": "Friction Avoidance", "text": "Struggles with follow-through on learned skills or ideas due to complexity or overwhelm", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_pp1", "trait_label": "Friction Avoidance", "text": "Feels deceived by outdated or inaccurate product information not disclosed upfront", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_pp2", "trait_label": "Friction Avoidance", "text": "Overwhelmed by excessive detail, difficulty, or time pressure in tasks or games", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_do0", "trait_label": "Friction Avoidance", "text": "Achieve simplicity and ease in completing tasks without expertise", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_do1", "trait_label": "Friction Avoidance", "text": "Find reliable, accurate information or functionality that matches expectations", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_pp0", "trait_label": "Friction Avoidance", "text": "Frustration with high costs and aggressive monetization", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_pp1", "trait_label": "Friction Avoidance", "text": "Feeling misled by free trials that are too brief or free features that become paid", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_pp2", "trait_label": "Friction Avoidance", "text": "Overwhelmed by complexity and lack of clear first steps in new skills", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_do0", "trait_label": "Friction Avoidance", "text": "Learn a new, valuable skill (like supplier verification) efficiently and with clear guidance", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_do1", "trait_label": "Friction Avoidance", "text": "Find truly free or fairly monetized entertainment (games/apps)", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp0", "trait_label": "Friction Intolerance", "text": "Frustration with complex installation processes", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp1", "trait_label": "Friction Intolerance", "text": "Anxiety about computer security and viruses", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp2", "trait_label": "Friction Intolerance", "text": "Feeling overwhelmed by software complexity or lack of user-friendliness", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_do0", "trait_label": "Friction Intolerance", "text": "Quick and easy installation and setup", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_do1", "trait_label": "Friction Intolerance", "text": "Comprehensive, 'set-and-forget' security protection", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp0", "trait_label": "Friction Intolerance", "text": "Struggle with implementation/complexity despite having ideas", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp1", "trait_label": "Friction Intolerance", "text": "Feeling overwhelmed by lack of clear instructions/tutorials", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp2", "trait_label": "Friction Intolerance", "text": "Fear of wasting time or money on ineffective tools", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_do0", "trait_label": "Friction Intolerance", "text": "Simplify a process to make it enjoyable and easy to use daily", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_do1", "trait_label": "Friction Intolerance", "text": "Gain actionable, principle-based knowledge to improve business", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp0", "trait_label": "Friction Intolerance", "text": "Product complexity leading to confusion and inability to complete tasks.", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp1", "trait_label": "Friction Intolerance", "text": "Time-consuming setup or customer service interactions to get started.", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp2", "trait_label": "Friction Intolerance", "text": "Fear of making wrong purchase decisions due to unclear product fit or compatibility.", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_do0", "trait_label": "Friction Intolerance", "text": "Quick and effortless setup process to start using immediately.", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_do1", "trait_label": "Friction Intolerance", "text": "Intuitive, simple interface that doesn't require learning complex steps.", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp0", "trait_label": "Friction Intolerance", "text": "Analysis paralysis from too many options or complex research", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp1", "trait_label": "Friction Intolerance", "text": "Fear of hidden costs or unpredictable expenses (e.g., insurance, maintenance)", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp2", "trait_label": "Friction Intolerance", "text": "Overwhelmed by technical complexity or steep learning curves", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_do0", "trait_label": "Friction Intolerance", "text": "Passive or low-effort income generation", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_do1", "trait_label": "Friction Intolerance", "text": "Quick setup and minimal ongoing maintenance", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp0", "trait_label": "Friction Intolerance", "text": "Complexity and technical issues prevent initial setup", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp1", "trait_label": "Friction Intolerance", "text": "Unclear or missing features after high expectation", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp2", "trait_label": "Friction Intolerance", "text": "Lack of engaging content or poor user experience", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_do0", "trait_label": "Friction Intolerance", "text": "Find tools that are easy to use and require minimal setup", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_do1", "trait_label": "Friction Intolerance", "text": "Achieve quick, tangible results without overwhelming complexity", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp0", "trait_label": "Complexity Overwhelm", "text": "Experiencing installation and setup complexity, leading to frustration and wasted time.", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp1", "trait_label": "Complexity Overwhelm", "text": "Feeling overwhelmed by feature-rich interfaces as a beginner, causing slow progress.", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp2", "trait_label": "Complexity Overwhelm", "text": "Encountering software bugs, lag, crashes, or poor performance that disrupts use.", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_do0", "trait_label": "Complexity Overwhelm", "text": "Achieve a specific skill improvement (e.g., increased reading speed, digital art proficiency).", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_do1", "trait_label": "Complexity Overwhelm", "text": "Simplify a complex process or task to save time and reduce frustration.", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp0", "trait_label": "Complexity Overwhelm", "text": "Struggles with follow-through due to complexity or analysis paralysis", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp1", "trait_label": "Complexity Overwhelm", "text": "Feeling overwhelmed by lengthy or unclear instructions", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp2", "trait_label": "Complexity Overwhelm", "text": "Frustration with time constraints and perceived lack of progress", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_do0", "trait_label": "Complexity Overwhelm", "text": "Gain proficiency quickly without overwhelming complexity", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_do1", "trait_label": "Complexity Overwhelm", "text": "Achieve tangible progress (e.g., sales success, language skills) in a short timeframe", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp0", "trait_label": "Complexity Overwhelm", "text": "Experiencing technical issues (app not opening, update problems, Bluetooth disconnects) that block initial use.", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp1", "trait_label": "Complexity Overwhelm", "text": "Feeling overwhelmed by product complexity, unclear instructions, or lack of user-friendly design.", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp2", "trait_label": "Complexity Overwhelm", "text": "Frustration with time-consuming processes, difficult setup, or slow progress after initial stages.", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_do0", "trait_label": "Complexity Overwhelm", "text": "Achieve a quick, simple, and successful first use or sign-up without technical barriers.", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_do1", "trait_label": "Complexity Overwhelm", "text": "Find a tool that is easy to learn and intuitive, minimizing the need for manuals or support.", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp0", "trait_label": "Complexity Overwhelm", "text": "Struggle with complexity and time constraints leads to inaction or analysis paralysis.", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp1", "trait_label": "Complexity Overwhelm", "text": "Fear of wasting money on ineffective solutions due to guesswork.", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp2", "trait_label": "Complexity Overwhelm", "text": "Frustration with unreliable or unstable free/alternative tools.", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_do0", "trait_label": "Complexity Overwhelm", "text": "Make informed purchase/implementation decisions to avoid wasted money.", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_do1", "trait_label": "Complexity Overwhelm", "text": "Quickly solve a specific, immediate problem.", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp0", "trait_label": "Complexity Overwhelm", "text": "Struggle to learn new software without prior accounting/bookkeeping background", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp1", "trait_label": "Complexity Overwhelm", "text": "Fear of high cost, especially for small businesses or those on a tight budget", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp2", "trait_label": "Complexity Overwhelm", "text": "Frustration with complex setup or learning curve for non-techies", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_do0", "trait_label": "Complexity Overwhelm", "text": "Simplify complex tasks (taxes, accounting, legal docs) without expert help", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_do1", "trait_label": "Complexity Overwhelm", "text": "Save money by avoiding professional fees (accountants, lawyers)", "tone": "frustrated"}
+{"review_id": "monologue_dfedd4", "trait_label": "Inner Monologue", "text": "Wait, I need to pay $10+ per month? I was hoping for something closer to $5. This pricing isn't what I expected from the initial outreach.", "tone": "authentic_voice"}
+{"review_id": "monologue_7e713d", "trait_label": "Inner Monologue", "text": "Okay, some people say it works well, but I'm seeing reviews about app crashes and bugs. I don't have time to deal with technical issues.", "tone": "authentic_voice"}
+{"review_id": "monologue_ea2bf3", "trait_label": "Inner Monologue", "text": "This interface has way too many screens and options. I just want something simple that works immediately, not analysis paralysis from too many choices.", "tone": "authentic_voice"}
+{"review_id": "monologue_c7d779", "trait_label": "Inner Monologue", "text": "Another signup form asking for my phone number and permissions? I'm already anxious about privacy and this feels like too much.", "tone": "authentic_voice"}
+{"review_id": "monologue_08964c", "trait_label": "Inner Monologue", "text": "Finally, something that actually works as expected! No crashes, no complex setup, just immediate usability and convenience like they promised.", "tone": "authentic_voice"}

@@ -1,0 +1,301 @@
+{
+  "id": "pilot_customer_(early_product_testing)",
+  "label": "Pilot Customer (Early Product Testing)",
+  "segment": {
+    "role": "Technical evaluator or product manager responsible for validating software before organizational rollout",
+    "tech_savviness": "high",
+    "price_sensitivity": "medium",
+    "risk_tolerance": "low",
+    "context": "Works in environments where software failures have significant downstream costs and reputation risks. Primary responsibility is thorough validation to prevent costly production failures that could impact critical business operations."
+  },
+  "goals": [
+    {
+      "goal": "Test product functionality thoroughly before commitment",
+      "priority": 5
+    },
+    {
+      "goal": "Validate technical compatibility with existing systems",
+      "priority": 5
+    },
+    {
+      "goal": "Assess reliability under real-world conditions",
+      "priority": 4
+    },
+    {
+      "goal": "Evaluate support responsiveness during testing phase",
+      "priority": 4
+    },
+    {
+      "goal": "Confirm advertised features actually work as described",
+      "priority": 4
+    },
+    {
+      "goal": "Determine if product can handle critical validation tasks",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Limited time for evaluation due to being brought into testing process too late",
+    "Must work with products that are often buggy or have missing core functionality",
+    "Operates under poor project management with unclear requirements",
+    "Faces pressure to validate products without sufficient testing time",
+    "Must deal with misleading advertising and hidden limitations"
+  ],
+  "decision_weights": {
+    "backward_compatibility_issues": 0.125,
+    "software_download_corruption": 0.125,
+    "inadequate_load_testing_capacity": 0.125,
+    "automatic_renewal_without_clear_optout": 0.125,
+    "lack_of_clear_feature_warnings": 0.125,
+    "uncertainty_about_critical_validation_capability": 0.125,
+    "software_intimidating_for_nonexperts": 0.125,
+    "clunky_installation_setup": 0.125
+  },
+  "behavioral_rules": [
+    "Immediately tests core advertised functionality upon first login to verify claims",
+    "Abandons evaluation if software fails to load or crashes within first 10 minutes",
+    "Searches extensively for compatibility information before downloading",
+    "Tests installation process on multiple environments to check for corruption issues",
+    "Looks for clear documentation about feature limitations before proceeding",
+    "Requests trial access to validate critical functions without payment commitment",
+    "Verifies support responsiveness by submitting test tickets during evaluation",
+    "Examines permission requests carefully for signs of deceptive practices",
+    "Tests product under realistic load conditions rather than basic demo scenarios",
+    "Documents bugs and functional gaps systematically for stakeholder reporting",
+    "Seeks evidence of thorough cross-platform testing by vendor",
+    "Checks for clear opt-out mechanisms before agreeing to any subscriptions"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.294,
+    "trust_starting_point": 0.492,
+    "frustration_decay": 0.4
+  },
+  "deal_breakers": [
+    "Core advertised functionality is missing or broken",
+    "Software fails to install or crashes shortly after opening",
+    "Misleading permissions listed vs actual permissions required",
+    "Evidence of intentionally deceptive practices",
+    "AI automation tools produce flaky outputs requiring constant maintenance"
+  ],
+  "voice_sample": "I need to be absolutely certain this product can handle our critical validation tasks before we commit organizational resources. The last thing I can afford is another situation where we discover core advertised functionality is missing or broken after we've already integrated it into our workflow. I've seen too many AI tools that are just overpriced wrappers with minimal value, or worse, tools that hallucinate and produce unreliable outputs in critical scenarios. What I really need is a reliable, thoroughly tested product that performs core functions without critical bugs - something that will actually reduce our workload without introducing new errors that require constant human oversight.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 45,
+    "pages_before_decision": 12,
+    "tab_behavior": "Opens multiple tabs to cross-reference technical specifications, compatibility charts, and user reviews simultaneously",
+    "primary_device": "Desktop workstation for testing capabilities and technical evaluation",
+    "time_of_day": "During business hours when can immediately test integrations and consult with team"
+  },
+  "purchase_journey": {
+    "discovery": "Researches through technical forums, vendor comparisons, and peer recommendations in professional networks",
+    "evaluation": "Focuses on technical documentation, compatibility matrices, trial access, and validation of specific use cases critical to their environment",
+    "decision_moment": "When product demonstrates reliable performance of critical functions during hands-on testing without major bugs or compatibility issues",
+    "post_purchase_expectation": "Stable, maintainable functionality that integrates smoothly with existing systems and provides responsive technical support when issues arise"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Ability to test product functionality thoroughly before commitment",
+      "A reliable, thoroughly tested product that performs core functions without critical bugs",
+      "Access to competent technical support when issues arise",
+      "Accurate advertising and clear compatibility information"
+    ],
+    "abandons_when": [
+      "Software fails to install or crashes shortly after opening",
+      "Core advertised functionality is missing or broken",
+      "AI automation tools produce flaky tests and require constant maintenance",
+      "Being brought into the testing process too late, leading to rushed coverage"
+    ],
+    "trusts_when": [
+      "Developers performing adequate cross-platform/device testing",
+      "Product stability and reliability without bugs or crashes",
+      "Strong data privacy and security with minimal permissions",
+      "Achieve stable, reliable test automation that grows organically"
+    ],
+    "becomes_suspicious_when": [
+      "Misleading permissions listed vs actual permissions",
+      "Evidence of intentionally deceptive practices",
+      "AI tools are overpriced 'wrappers' with minimal value beyond basic prompts",
+      "Automatic renewal without clear opt-out or requiring upfront payment details"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Ability to test product functionality thoroughly before commitment",
+      "A reliable, thoroughly tested product that performs core functions without critical bugs",
+      "AI automation tools produce flaky tests and require constant maintenance under real-world conditions",
+      "Core advertised functionality is missing or broken",
+      "Being brought into the testing process too late, leading to rushed and brittle coverage",
+      "Achieve stable, reliable test automation that grows organically",
+      "Uncertainty about product's ability to handle critical validation tasks"
+    ],
+    "resonates_with": [
+      "Comprehensive validation capabilities",
+      "Proven reliability under production conditions",
+      "Transparent technical specifications",
+      "Responsive technical support during evaluation"
+    ],
+    "turned_off_by": [
+      "Overpromised features that underdeliver",
+      "Hidden limitations or compatibility issues",
+      "Rushed deployment timelines",
+      "Marketing claims without technical backing"
+    ]
+  },
+  "inner_monologue_samples": [
+    "Before I even look at pricing, I need to understand exactly what this can and cannot do - I can't afford another situation where we discover critical limitations after commitment.",
+    "These user reviews mention stability issues... I need to see evidence they've done adequate cross-platform testing before we risk our production environment.",
+    "The installation process seems clunky and time-consuming - if we can't get this running smoothly in our test environment, how will it perform at scale?",
+    "They're asking for a lot of permissions that seem unnecessary - this feels like potential evidence of deceptive practices that could compromise our security.",
+    "Finally, a tool that actually demonstrates the specific functionality we need without the typical AI hallucination problems - this might actually reduce our workload instead of creating more maintenance overhead."
+  ],
+  "anti_patterns": [
+    "Assuming high-level marketing claims without demanding technical proof contradicts their validation-focused approach from cluster 5",
+    "Rushing through evaluation process contradicts their deep caution about functional reliability from cluster 1",
+    "Ignoring user reviews about bugs and stability contradicts their skepticism about product reliability from cluster 4",
+    "Accepting vague feature descriptions contradicts their need for thorough validation from cluster 5",
+    "Overlooking support quality indicators contradicts their frustration with poor technical support from cluster 1"
+  ],
+  "traits": [
+    {
+      "label": "Validation Risk Aversion",
+      "description": "Users express deep caution about committing to software due to concerns about functional reliability, technical compatibility, and the ability to fully test the product before deployment. Their primary goal is thorough validation to avoid costly failures in production.",
+      "key_phrases": [
+        "Uncertainty about product's ability to handle critical validation tasks",
+        "Thorough validation of product functionality before full deployment",
+        "Software is intimidating and difficult for non-experts"
+      ],
+      "frequency": 0.3,
+      "tone": "cautious",
+      "cluster_id": "cluster_5"
+    },
+    {
+      "label": "Product Reliability & Value Doubt",
+      "description": "Users express deep skepticism about whether a product will perform as advertised and deliver enough value to justify its cost. This cluster highlights concerns about hidden flaws, overpromised features, and poor post-purchase support.",
+      "key_phrases": [
+        "Unreliable claims or overhyped features",
+        "Poor product quality or bugs that persist without support fixes",
+        "Concern about AI tools being unreliable or not cost-effective",
+        "Insufficient content or value to justify cost"
+      ],
+      "frequency": 0.175,
+      "tone": "skeptical",
+      "cluster_id": "cluster_4"
+    },
+    {
+      "label": "Functional Reliability Concern",
+      "description": "Users are deeply frustrated by software that fails to perform basic advertised functions, exhibits persistent bugs, and lacks reliable technical support when problems arise.",
+      "key_phrases": [
+        "Software being buggy, unstable, or failing to load",
+        "Core advertised functionality is missing or broken",
+        "Poor or non-existent customer support when problems arise"
+      ],
+      "frequency": 0.163,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Trust Deficit",
+      "description": "A behavioral pattern characterized by skepticism toward software claims and practices, driven by experiences with misleading marketing, hidden costs, and poor transparency. Users exhibit a cautious, verification-oriented approach before committing to digital products.",
+      "key_phrases": [
+        "Misleading permissions listed in app store vs. actual permissions",
+        "Downloading app only to find it requires a separate paid subscription to use",
+        "Overpromising AI/features that are just superficial API calls"
+      ],
+      "frequency": 0.125,
+      "tone": "skeptical",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Reliability & Transparency Skepticism",
+      "description": "Users express deep concern about the practical reliability of AI-powered tools and a lack of upfront transparency, fearing hidden costs, flaky outputs, and failures that waste time and increase maintenance rather than saving it.",
+      "key_phrases": [
+        "AI automation tools produce flaky tests and require constant maintenance",
+        "Misleading advertising (e.g., false 'free' claims, hidden paywalls)",
+        "Software fails to install or crashes shortly after opening"
+      ],
+      "frequency": 0.113,
+      "tone": "skeptical",
+      "cluster_id": "cluster_3"
+    },
+    {
+      "label": "Process & Quality Frustration",
+      "description": "Expresses frustration with being placed at the end of a flawed development process, receiving delayed builds and unclear requirements, which leads to rushed, inadequate testing and unreliable products.",
+      "key_phrases": [
+        "being brought into the testing process too late",
+        "products not working immediately upon payment/download",
+        "poor project management and stakeholders with no tech experience",
+        "sufficient time to thoroughly test features before release",
+        "establish a proper, planned test-driven environment with early QA involvement"
+      ],
+      "frequency": 0.087,
+      "tone": "frustrated",
+      "cluster_id": "cluster_6"
+    },
+    {
+      "label": "Trust and Reliability Concern",
+      "description": "Users are highly sensitive to software integrity issues, with deal-breakers centered on developer transparency, consistent performance, and data privacy. They demand thorough testing, accurate permissions disclosure, and stable functionality before adoption.",
+      "key_phrases": [
+        "Unclear or misleading app permissions",
+        "Developers not performing adequate cross-platform/device testing",
+        "Evidence of intentionally deceptive practices",
+        "Product stability and reliability without bugs or crashes",
+        "Strong data privacy and security with minimal permissions"
+      ],
+      "frequency": 0.025,
+      "tone": "cautious",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Friction-Averse Acceptance",
+      "description": "Users who have a moderate tolerance for product imperfections but are cautious about significant issues, typically expecting a smooth experience with minor accommodations.",
+      "key_phrases": [
+        "dominant_friction_tolerance: medium",
+        "friction_tolerance_distribution: medium: 1.0"
+      ],
+      "frequency": 0.013,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_7"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 7,
+    "total": 2400,
+    "avg_rating": 3.29,
+    "avg_length": 675,
+    "rating_distribution": {
+      "5": 610,
+      "3": 1125,
+      "1": 332,
+      "4": 233,
+      "2": 100
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 1200
+    },
+    "n_products": 4,
+    "top_products": {
+      "unknown": 1200,
+      "LoadRunner Professional Testing Software License": 400,
+      "API Testing Tool Starter Package": 400,
+      "Network Performance Monitor Pilot License": 400
+    },
+    "low_rating_pct": 0.18,
+    "high_rating_pct": 0.351,
+    "n_sources": 2,
+    "issues": [
+      "Platform bias: amazon is 50% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 80
+  },
+  "demographic_description": "A user or organization testing the product in pilot deployments. Provides feedback during early-stage usage. Interaction focuses on validating functionality.",
+  "generated_at": "2026-04-05T08:38:28.602216",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "40% grounded in cluster data",
+    "cluster_stability": "low"
+  }
+}

@@ -1,0 +1,3095 @@
+{
+  "chosen_n_clusters": 4,
+  "sweep_results": [
+    {
+      "k": 3,
+      "silhouette": 0.21453317999839783,
+      "intra_similarity": 0.6834559639294943,
+      "inter_distance": 0.7322883605957031,
+      "combined_score": 0.4587610512971878
+    },
+    {
+      "k": 4,
+      "silhouette": 0.24514813721179962,
+      "intra_similarity": 0.6689251512289047,
+      "inter_distance": 0.681654691696167,
+      "combined_score": 0.4595825523138046
+    },
+    {
+      "k": 5,
+      "silhouette": 0.23534545302391052,
+      "intra_similarity": 0.6753894567489624,
+      "inter_distance": 0.6559737920761108,
+      "combined_score": 0.45148432195186616
+    },
+    {
+      "k": 6,
+      "silhouette": 0.14581923186779022,
+      "intra_similarity": 0.6623899936676025,
+      "inter_distance": 0.6113539934158325,
+      "combined_score": 0.39389741271734235
+    },
+    {
+      "k": 7,
+      "silhouette": 0.21891529858112335,
+      "intra_similarity": 0.6954914161137172,
+      "inter_distance": 0.6154423952102661,
+      "combined_score": 0.44119355316673003
+    },
+    {
+      "k": 8,
+      "silhouette": 0.15141089260578156,
+      "intra_similarity": 0.6837166510522366,
+      "inter_distance": 0.5854601860046387,
+      "combined_score": 0.3979124788194895
+    },
+    {
+      "k": 9,
+      "silhouette": 0.1574215143918991,
+      "intra_similarity": 0.7030819323327806,
+      "inter_distance": 0.5714819431304932,
+      "combined_score": 0.40393172552188233
+    },
+    {
+      "k": 10,
+      "silhouette": 0.14493271708488464,
+      "intra_similarity": 0.6780113610956404,
+      "inter_distance": 0.6027407050132751,
+      "combined_score": 0.39641790787378944
+    }
+  ],
+  "quality_metrics": {
+    "silhouette": 0.24514813721179962,
+    "intra_similarity": 0.6689251512289047,
+    "inter_distance": 0.681654691696167,
+    "combined_score": 0.4595825523138046,
+    "stability_ari": 0.7441,
+    "stability_label": "moderate"
+  },
+  "cluster_0": {
+    "member_count": 31,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Lack of portability in work tools and storage solutions",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Difficulty staying organized with paper and supplies",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Products that appear professional but fail functionally (e.g., wobbly, poor quality)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Time wasted searching for and organizing items",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Frustration with unclear assembly or poor instructions",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Disappointment when a product doesn't meet methodological or quality expectations (e.g., printing issues, poor paper quality)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Anxiety about protecting and storing delicate work (e.g., art, documents)",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Maintain a professional appearance and organization in work tools",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Achieve reliable, precise, and accurate tool performance",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Ensure portability and ease of transport for work setups",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Protect underlying surfaces and materials from damage",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Simplify and streamline workflow with efficient organization systems",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Have durable, long-lasting products that withstand frequent use",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Quick and easy setup/assembly without complications",
+            "priority": 0.75
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to organize specific client or project information",
+            "context": "Work environment requiring structured data management"
+          },
+          {
+            "trigger": "Starting a new project or hobby requiring specialized storage",
+            "context": "Art classes, diamond painting, or recipe collections"
+          },
+          {
+            "trigger": "Transition to mobile or remote work requiring portable solutions",
+            "context": "Working from RV, camper, or different locations"
+          },
+          {
+            "trigger": "Seasonal or annual planning cycles (e.g., new year)",
+            "context": "Personal organization goals and planner purchases"
+          },
+          {
+            "trigger": "Replacing a failed or inadequate existing product",
+            "context": "Previous organizer or storage solution not meeting needs"
+          },
+          {
+            "trigger": "Desire to protect valuable items or artwork",
+            "context": "Storing pastel drawings, supplies, or important documents"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product is too expensive for perceived value",
+            "severity": 0.8
+          },
+          {
+            "objection": "Size or dimensions are not ideal (too small, too bulky)",
+            "severity": 0.6
+          },
+          {
+            "objection": "Poor build quality leading to instability or wobbliness",
+            "severity": 0.9
+          },
+          {
+            "objection": "Lack of clarity in instructions or difficult assembly",
+            "severity": 0.5
+          },
+          {
+            "objection": "Materials or prints appear cheap, muddy, or unprofessional",
+            "severity": 0.9
+          },
+          {
+            "objection": "Functionality doesn't match advertised use case (e.g., not suitable for watercolor)",
+            "severity": 1.0
+          },
+          {
+            "objection": "Compromises in portability vs. sturdiness",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Stationery store planners",
+            "reason": "Store closure or lack of availability",
+            "threshold": "Inconvenience in procurement"
+          },
+          {
+            "from_product": "High-end portable work surfaces",
+            "reason": "Cost vs. versatility",
+            "threshold": "Found more functional alternative at lower price"
+          },
+          {
+            "from_product": "Similar style single-tier storage cart",
+            "reason": "Poor performance (drawers not smooth)",
+            "threshold": "Immediate dissatisfaction upon assembly"
+          },
+          {
+            "from_product": "Generic or unbranded organizers",
+            "reason": "Need for standardized sizing and durability",
+            "threshold": "Frustration with non-fitting or flimsy items"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Methodological accuracy/performance",
+          "Durability and build quality",
+          "Portability and ease of transport",
+          "Professional appearance",
+          "Organization capability",
+          "Ease of setup/use",
+          "Price/value ratio"
+        ],
+        "deal_breakers": [
+          "Unstable or wobbly construction under light loads",
+          "Material or print quality that appears unprofessional or muddy",
+          "Failure to perform core function accurately (e.g., scanning, cutting, protecting)",
+          "Significant deviation from advertised specifications",
+          "Extremely poor assembly or unclear instructions leading to frustration"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Difficulty keeping desk and materials organized",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Frustration with unreliable technology (e.g., poor call quality, clunky apps)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Inability to separate DIY/professional-looking materials",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Difficulty managing small quantities of custom printed materials affordably",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Struggle to maintain methodological accuracy with disorganized tools",
+            "emotional_intensity": 0.75
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Achieve a professional and organized appearance in work materials",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Improve efficiency and clarity in communication (e.g., clear calls, professional labels)",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Maintain durability and reliability of tools over time",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Enable easy categorization and access to information",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Gift or provide tools that aid others in organization and professionalism",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for professional-looking materials for business or gifting",
+            "context": "When preparing for job interviews, client meetings, or sending announcements"
+          },
+          {
+            "trigger": "Desire to organize a workspace or manage multiple projects",
+            "context": "During cleanup sessions or when starting new projects/lists"
+          },
+          {
+            "trigger": "Search for affordable alternatives to professional printing services",
+            "context": "When needing small batches of custom labels, postcards, or tags"
+          },
+          {
+            "trigger": "Replacement of unreliable tools (e.g., poor-quality speakerphones, sticky notes)",
+            "context": "After experiencing frustration with existing products during critical tasks"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product may not meet professional quality standards (e.g., DIY look, mediocre materials)",
+            "severity": 0.7
+          },
+          {
+            "objection": "Technology or software is difficult to use or poorly designed",
+            "severity": 0.8
+          },
+          {
+            "objection": "Durability issues (e.g., splitting bamboo, flimsy packaging)",
+            "severity": 0.6
+          },
+          {
+            "objection": "Limited portability or size constraints",
+            "severity": 0.4
+          },
+          {
+            "objection": "High cost compared to value, especially for non-professional grade items",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Professional printing services",
+            "reason": "Cost and flexibility for small quantities",
+            "threshold": "When needing just a few custom items or frequent design changes"
+          },
+          {
+            "from_product": "Basic label makers (e.g., P-Touch)",
+            "reason": "Desire for smartphone integration and custom designs",
+            "threshold": "When seeking more customization and modern features"
+          },
+          {
+            "from_product": "Low-quality organizers or stationery",
+            "reason": "Need for durability and professional appearance",
+            "threshold": "After items fail or look unprofessional in work settings"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Professional appearance and quality",
+          "Ease of use and setup",
+          "Durability and reliability",
+          "Versatility and customization options",
+          "Cost-effectiveness compared to alternatives",
+          "Organization and efficiency benefits"
+        ],
+        "deal_breakers": [
+          "Poor software/app integration that hinders use",
+          "Materials that look DIY or unprofessional",
+          "Critical durability flaws (e.g., splitting, breakage)",
+          "Inability to meet methodological accuracy needs"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Products fail to meet durability expectations (e.g., spiral notebooks not lasting a semester, labels too easily removed)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Difficulty with product setup or use (e.g., printer template lacks guides, label outlines hard to see, scanner buttons problematic)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "High or unclear pricing causes frustration (e.g., labels perceived as expensive, notebook bundles price-hiked)",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Products lack key features for specific professional needs (e.g., no double-sided scanner feed for business, printer tray manual, limited durability for backpack use)",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Anxiety and feeling overwhelmed by disorganization or administrative tasks",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Environmental concerns (e.g., excessive plastic waste, non-refillable pens)",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Effective organization and easy retrieval of information (e.g., labeled baskets, sorted coupons, structured planners)",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Time savings and efficiency in tasks (e.g., quick coin sorting, seamless printing/scanning, easy assembly)",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Reliable, durable products that withstand regular use (e.g., long-lasting notebooks, sturdy label clips)",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Reduced anxiety and mental clutter through structured systems (e.g., planners with rule of 3, calming folder colors)",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Methodological accuracy and precision in tasks (e.g., clear label placement, accurate pen transfers, HIPAA-compliant shredding)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Cost-effective solutions with transparent pricing",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Environmentally friendly design and minimal waste",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for a specific organizational solution (e.g., managing project notes, sorting coins, labeling baskets)",
+            "context": "Starting a new project, reorganizing space, handling administrative tasks"
+          },
+          {
+            "trigger": "Upgrading from an older model for better features or compliance (e.g., upgrading printer for small business, shredder for HIPAA)",
+            "context": "Business needs, security requirements, improved functionality"
+          },
+          {
+            "trigger": "Seeking tools to manage mental health (e.g., planners for anxiety/depression)",
+            "context": "Personal well-being, stress management, life transitions"
+          },
+          {
+            "trigger": "Desire for convenience and time savings (e.g., portable scanner for family photos, easy-label maker)",
+            "context": "Efficiency in personal or professional tasks, digitizing records"
+          },
+          {
+            "trigger": "Price comparison revealing better value elsewhere (e.g., finding same labels cheaper on manufacturer site)",
+            "context": "Cost-conscious purchasing, research before buying"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product pricing is too high relative to perceived value or alternatives",
+            "severity": 0.8
+          },
+          {
+            "objection": "Products lack durability or robustness for intended use",
+            "severity": 0.7
+          },
+          {
+            "objection": "Setup or usability is more difficult than expected (e.g., unclear instructions, poor design)",
+            "severity": 0.65
+          },
+          {
+            "objection": "Missing key features needed for professional or specific use cases",
+            "severity": 0.6
+          },
+          {
+            "objection": "Environmental impact or sustainability concerns",
+            "severity": 0.4
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Generic or previous models",
+            "reason": "Need for enhanced features, better accuracy, or compliance (e.g., upgrading printer for business, shredder for security)",
+            "threshold": "When current product lacks necessary functionality or standards"
+          },
+          {
+            "from_product": "Physical or disorganized methods",
+            "reason": "Seeking digital integration, efficiency, or systematic organization (e.g., scanner for digitizing, planners for task management)",
+            "threshold": "When manual processes become too time-consuming or mentally taxing"
+          },
+          {
+            "from_product": "Brands with poor durability or value",
+            "reason": "Frustration with product failure or high cost (e.g., notebooks that don't last, expensive labels)",
+            "threshold": "When product consistently underperforms or pricing is unjustified"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Functionality and reliability for specific tasks",
+          "Ease of use and setup",
+          "Cost and value for money",
+          "Durability and build quality",
+          "Ability to reduce anxiety and improve organization",
+          "Environmental considerations",
+          "Brand reputation and familiarity"
+        ],
+        "deal_breakers": [
+          "Product fails to perform its core function reliably",
+          "Excessive complexity or difficulty in setup/use",
+          "Unjustifiably high price compared to alternatives",
+          "Lacks durability for regular professional use",
+          "Missing critical features for intended use case (e.g., no double-sided scanning for business)"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Disorganized physical space and clutter",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Inability to easily retrieve important information and records",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Reliability issues with electronic devices (e.g., needing charging, failure)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Poor quality or unsuitable tools (e.g., paper that bleeds, printers with expensive/low-quality output, rickety/unreliable carts)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Chaos and miscommunication in multi-person work environments (e.g., farm, family)",
+            "emotional_intensity": 0.75
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Achieve and maintain personal or professional organization",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Create reliable, long-term physical records for reference and accuracy",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Have portable, accessible, and easy-to-use tools for various tasks",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Present a professional appearance in work outputs (manuscripts, flyers, notes)",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Improve efficiency and reduce time spent searching or managing items",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to clear clutter and organize a specific area (bills, mail, tools)",
+            "context": "Home or office countertops, drawers, storage bins"
+          },
+          {
+            "trigger": "Requirement for a physical backup to digital systems",
+            "context": "Medical appointments, service records, tax documentation, work schedules"
+          },
+          {
+            "trigger": "Starting a new project or system requiring tracking and labeling",
+            "context": "Farming operations, storage organization, event planning, crafts"
+          },
+          {
+            "trigger": "Replacing a frustrating or broken tool with a better alternative",
+            "context": "Old paper cutter, unreliable printer, heavy shopping cart"
+          },
+          {
+            "trigger": "Desire for a specific functional feature (portability, adjustability, durability)",
+            "context": "Bed/couch desk, compact notebooks, hangable clipboards"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "High price relative to perceived value",
+            "severity": 0.6
+          },
+          {
+            "objection": "Concerns about product durability or receiving broken items",
+            "severity": 0.5
+          },
+          {
+            "objection": "Functional trade-offs (e.g., better paper but binding doesn't lie flat)",
+            "severity": 0.4
+          },
+          {
+            "objection": "Product not meeting professional-grade quality expectations",
+            "severity": 0.3
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Digital/electronic calendars and devices",
+            "reason": "Need for reliable, always-accessible physical reference",
+            "threshold": "When electronic devices fail, need charging, or lack permanence"
+          },
+          {
+            "from_product": "Inkjet printers",
+            "reason": "High cost of ink cartridges and unsatisfying print quality for professional needs",
+            "threshold": "Frequent cartridge purchases and need for sharper, more professional output"
+          },
+          {
+            "from_product": "Inferior organizational tools (e.g., old paper cutters, basic binders)",
+            "reason": "Frustration with poor performance, clumsiness, or lack of features",
+            "threshold": "Tool causes inefficiency, produces poor results, or lacks modern convenience"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Organization and categorization capability",
+          "Durability and reliability",
+          "Portability and ease of access/storage",
+          "Professional appearance/quality of output",
+          "Ease of use and setup",
+          "Value for money"
+        ],
+        "deal_breakers": [
+          "Product arrives broken or malfunctions",
+          "Fails to perform its core organizational function",
+          "Excessively poor quality materials (e.g., paper that bleeds badly, flimsy construction)"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Existing filing systems are complex and difficult to maintain.",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Traditional labeling methods are inefficient and prone to moisture damage.",
+            "emotional_intensity": 0.3
+          },
+          {
+            "signal": "Inaccurate product descriptions lead to disappointment and unmet expectations.",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Products lack durability and fail under normal use conditions.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Network connectivity issues disrupt workflow and cause printer failures.",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Poor ergonomic fit leads to discomfort and lack of support.",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "High ongoing costs, especially for ink consumption.",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Inconvenient setup processes, such as missing essential cables.",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Products that lack practicality or original value.",
+            "emotional_intensity": 0.3
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "A product that simplifies and improves organization systems.",
+            "priority": 0.9
+          },
+          {
+            "outcome": "High durability and reliability to avoid frequent failures.",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Accurate and honest product descriptions to set correct expectations.",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Superior print quality with minimal noise and fast speeds.",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Products that are easy to assemble, use, and transport.",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Efficient and economical solutions that reduce long-term costs.",
+            "priority": 0.6
+          },
+          {
+            "outcome": "A product that is enjoyable and aesthetically pleasing to use.",
+            "priority": 0.5
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Dissatisfaction with current product performance (e.g., using a book as a mouse pad).",
+            "context": "Work/Home office"
+          },
+          {
+            "trigger": "Need to expand or upgrade an existing system (e.g., filing, organizing).",
+            "context": "Home/Office organization"
+          },
+          {
+            "trigger": "Extensive research and positive reviews from other users.",
+            "context": "Pre-purchase evaluation"
+          },
+          {
+            "trigger": "Receiving a sample or promotional opportunity to test the product.",
+            "context": "Product testing/review"
+          },
+          {
+            "trigger": "Specific project requirement (e.g., converting film negatives, moving).",
+            "context": "Project-based need"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product is not as described or misrepresented.",
+            "severity": 0.9
+          },
+          {
+            "objection": "Poor quality or durability leads to early failure.",
+            "severity": 0.8
+          },
+          {
+            "objection": "High ongoing costs (e.g., ink consumption) outweigh initial savings.",
+            "severity": 0.7
+          },
+          {
+            "objection": "Lack of essential features or accessories (e.g., missing USB cable).",
+            "severity": 0.6
+          },
+          {
+            "objection": "Product offers no significant advantage over existing DIY solutions.",
+            "severity": 0.5
+          },
+          {
+            "objection": "Limited or unreliable network connectivity for printers.",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Traditional notebooks with ruled paper",
+            "reason": "Need for versatile paper for art and writing, lines are a hindrance.",
+            "threshold": "When lines on ruled paper become a limitation."
+          },
+          {
+            "from_product": "Book used as a mouse platform",
+            "reason": "Ineffective and frustrating mouse use on soft surfaces.",
+            "threshold": "When using a mouse on an armchair becomes an exercise in frustration."
+          },
+          {
+            "from_product": "Other label protection methods",
+            "reason": "No economical advantage over DIY tape solutions.",
+            "threshold": "When product offers no clear benefit over existing method."
+          },
+          {
+            "from_product": "Professional conversion services",
+            "reason": "Seeking a cheaper alternative for converting negatives.",
+            "threshold": "When cost of service is prohibitive."
+          },
+          {
+            "from_product": "Competitor printers",
+            "reason": "Need for faster, quieter, or higher quality printing.",
+            "threshold": "When current printer lacks speed, quality, or reliability."
+          }
+        ],
+        "decision_factors_ranked": [
+          "Quality/Reliability",
+          "Price/Value",
+          "Ease of Use/Setup",
+          "Features/Functionality",
+          "Durability",
+          "Accuracy of Description",
+          "Aesthetics/Design"
+        ],
+        "deal_breakers": [
+          "Misleading product description",
+          "Poor build quality/early failure",
+          "Unreliable network connectivity",
+          "Excessive ongoing costs",
+          "Lack of essential accessories"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.98,
+      "reddit": 0.02,
+      "csv": 0.0
+    },
+    "single_source_warning": true,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Frustration with products that require constant app use for basic functions instead of direct control.",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0138
+        },
+        {
+          "signal": "Irritation with aggressive subscription service promotions forced by the manufacturer.",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0138
+        },
+        {
+          "signal": "Inconvenience and inefficiency in multi-page scanning workflows due to poor software integration.",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0184
+        },
+        {
+          "signal": "Mental and emotional fatigue from constantly assessing social environments for safety regarding gender expression.",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0138
+        },
+        {
+          "signal": "Frustration with social stereotypes and boxes that limit personal expression.",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0184
+        },
+        {
+          "signal": "Time-consuming manual data counting and verification processes that are prone to human error and require restarting when counts don't match.",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0138
+        },
+        {
+          "signal": "Difficulty in analyzing large qualitative datasets, especially calculating total volume of codes across many transcripts, requiring cumbersome workarounds.",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0138
+        },
+        {
+          "signal": "Software being awkward to use and frustrating, especially for novices, requiring external resources like online manuals to figure out.",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0138
+        },
+        {
+          "signal": "Fear of unreliable tools for critical tasks like scanning negatives, leading to poor results and wasted money.",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0138
+        },
+        {
+          "signal": "Being forced to use physical gradebooks/planners due to institutional changes, then dealing with product flaws like easily tearing pages.",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0138
+        },
+        {
+          "signal": "High operational costs of tools (e.g., printers using excessive ink), making them expensive to maintain.",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0138
+        },
+        {
+          "signal": "Incompatibility or poor data exchange between tools (e.g., project imports not working perfectly, registration issues with non-US products).",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0138
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Efficient, straightforward, and direct control over product functions without mandatory app dependency.",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0144
+        },
+        {
+          "signal": "A product that works as an integrated, cohesive system without hidden or forced monetization schemes.",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0192
+        },
+        {
+          "signal": "Effective organization solutions that are flexible, adaptable, and make items easy to find and access.",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0144
+        },
+        {
+          "signal": "A simple, motivating tool (like a checklist) to help complete tasks and provide a sense of accomplishment.",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0144
+        },
+        {
+          "signal": "A desire for social environments where personal identity doesn't require constant conscious or unconscious adjustment for safety or acceptance.",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0144
+        },
+        {
+          "signal": "Accurate and fast data counting with minimal manual effort, eliminating double-counting and errors.",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0144
+        },
+        {
+          "signal": "Seamless data exchange and compatibility between different software tools (e.g., CAQDAS) for flexible workflows.",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0192
+        },
+        {
+          "signal": "Transparent and efficient coding/analysis of qualitative data with automated calculations and pattern discovery.",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0144
+        },
+        {
+          "signal": "High-quality outputs (e.g., scans, prints) that are reliable and professional, matching or exceeding external service quality.",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0145
+        },
+        {
+          "signal": "Tools that are easy to set up and use independently, without relying on external expertise.",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0144
+        },
+        {
+          "signal": "Durable and well-designed physical products (e.g., binders, planners) that withstand daily use and aid organization.",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0144
+        },
+        {
+          "signal": "Cost-effective operation with reasonable ongoing expenses (e.g., ink, maintenance).",
+          "count": 1,
+          "frequency": 0.0048,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0144
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Misleading product descriptions",
+          "count": 2,
+          "frequency": 0.0152,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0379
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Need to solve a specific organizational problem (e.g., storing stickers, work papers, nightstand items).",
+          "count": 1,
+          "frequency": 0.0063,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.019
+        },
+        {
+          "signal": "Seeking a tool to improve personal productivity or motivation.",
+          "count": 1,
+          "frequency": 0.0063,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.019
+        },
+        {
+          "signal": "Requirement for professional presentation for a business or work-related need.",
+          "count": 1,
+          "frequency": 0.0063,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.019
+        },
+        {
+          "signal": "Finding a product that serves multiple needs unexpectedly well.",
+          "count": 1,
+          "frequency": 0.0063,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.019
+        },
+        {
+          "signal": "Need for accuracy and time-saving in repetitive tasks (e.g., counting money for fundraising).",
+          "count": 1,
+          "frequency": 0.0063,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.019
+        },
+        {
+          "signal": "Institutional changes stopping provision of necessary tools (e.g., school no longer supplying gradebooks).",
+          "count": 1,
+          "frequency": 0.0063,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.019
+        },
+        {
+          "signal": "Desire to try new tools for better functionality or to replace outdated/ineffective ones.",
+          "count": 1,
+          "frequency": 0.0063,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.019
+        },
+        {
+          "signal": "Need for specific features (e.g., scanning negatives, printing photos) for personal or professional projects.",
+          "count": 1,
+          "frequency": 0.0063,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.019
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "low": 0.581,
+        "medium": 0.355,
+        "Medium": 0.032,
+        "Low": 0.032
+      }
+    }
+  },
+  "cluster_1": {
+    "member_count": 11,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Specialized jargon alienating non-subculture respondents",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Question difficulty due to non-native English or confusing negative statements",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Surveys being triggering or overwhelming for certain respondents",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Questions that feel inapplicable or misrepresentative of one's identity or experience",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Methodological ambiguity, e.g., unclear definitions (\"real\" vs. AI vs. photoshopped)",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Past methods for managing critical information (like passwords) failing",
+            "emotional_intensity": 0.8
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Methodological accuracy leading to valid, unskewed results",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Clear, unambiguous, and universally comprehensible survey questions",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Question sets that are inclusive and relevant across diverse respondent backgrounds",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Ability to confidently discern between different categories (e.g., AI, photoshop, real)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Professional and aesthetically pleasing materials for personal or business use",
+            "priority": 0.5
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for a backup or more reliable system after a previous method failed",
+            "context": "After losing passwords and needing a physical backup"
+          },
+          {
+            "trigger": "Dissatisfaction with a current product's specific functional flaw",
+            "context": "Switching from a menu planner whose grocery list wouldn't tear out"
+          },
+          {
+            "trigger": "Professional requirement for shipping or business presentation",
+            "context": "Owning a business that needs to ship supplies with a professional look"
+          },
+          {
+            "trigger": "Practical need to solve a recurring problem",
+            "context": "A child repeatedly losing masks, prompting purchase of mask lanyards"
+          },
+          {
+            "trigger": "Desire to enhance or support a specific methodological or organizational practice",
+            "context": "A student wanting specialized notebooks for a chemistry class or dot journaling"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Survey design may skew results by using inaccessible or niche language",
+            "severity": 0.8
+          },
+          {
+            "objection": "Survey questions may be confusing, poorly worded, or difficult to answer accurately",
+            "severity": 0.7
+          },
+          {
+            "objection": "Survey may be inadvertently exclusionary or misrepresentative of certain groups",
+            "severity": 0.75
+          },
+          {
+            "objection": "Key methodological definitions are absent or unclear, compromising data validity",
+            "severity": 0.85
+          },
+          {
+            "objection": "Physical product (e.g., boxes) may not be as heavy-duty as required for the use case",
+            "severity": 0.4
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Previous menu planner",
+            "reason": "Critical feature failure (non-tearable grocery list)",
+            "threshold": "Forced to use an extra piece of paper, creating inefficiency"
+          },
+          {
+            "from_product": "Previous password storage method",
+            "reason": "Catastrophic data loss (lost half of passwords)",
+            "threshold": "Significant frustration and recovery effort"
+          },
+          {
+            "from_product": "Other shipping boxes",
+            "reason": "Require packing tape for assembly",
+            "threshold": "Desire for more efficient, tape-free assembly for regular shipping"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Methodological clarity and validity",
+          "Functional reliability and durability",
+          "Ease of use and efficiency",
+          "Professional appearance/aesthetics",
+          "Specificity to task/study",
+          "Cost/value for money"
+        ],
+        "deal_breakers": [
+          "Methodological flaws that invalidate survey results",
+          "Product failure causing significant data or material loss",
+          "Design that excludes or misrepresents target respondent groups"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Difficulty verifying the accuracy and trustworthiness of data/sources",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Time-consuming nature of thorough research and data collection",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Frustration with superficial or poorly researched content",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Challenges in translating complex research into actionable insights",
+            "emotional_intensity": 0.55
+          },
+          {
+            "signal": "Fear of missing critical details or context due to insufficient investigation",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Access to well-documented, credible, and unbiased information",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Ability to validate problem relevance with high confidence",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Efficiently synthesized insights from thorough research",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Enhanced understanding of complex subjects or methodologies",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Improved decision-making based on reliable data",
+            "priority": 0.9
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Endorsement by trusted experts or credible figures",
+            "context": "Recommendations from respected journalists or professionals"
+          },
+          {
+            "trigger": "Perceived depth of research and comprehensive coverage",
+            "context": "Books noted as 'well-researched' or 'documented'"
+          },
+          {
+            "trigger": "Need to solve a specific methodological or analytical problem",
+            "context": "Seeking guidance on data interpretation or validation"
+          },
+          {
+            "trigger": "Positive reviews highlighting accuracy and thoroughness",
+            "context": "Peer validation of content quality"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Content is too basic or lacks advanced insight",
+            "severity": 0.6
+          },
+          {
+            "objection": "Suspected bias or lack of objectivity in presentation",
+            "severity": 0.75
+          },
+          {
+            "objection": "Poor organization or unclear presentation of data",
+            "severity": 0.5
+          },
+          {
+            "objection": "Insufficient detail or superficial treatment of key topics",
+            "severity": 0.65
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Low-quality reference materials",
+            "reason": "Inaccurate or untrustworthy data",
+            "threshold": "Persistent errors or lack of citations"
+          },
+          {
+            "from_product": "Overly simplistic content",
+            "reason": "Fails to meet professional depth requirements",
+            "threshold": "Content does not advance understanding"
+          },
+          {
+            "from_product": "Poorly structured research guides",
+            "reason": "Inefficient for extracting actionable insights",
+            "threshold": "Time wasted on disorganized information"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Credibility of sources/research",
+          "Depth and thoroughness of analysis",
+          "Relevance to specific professional needs",
+          "Clarity and organization of content",
+          "Endorsements from trusted authorities"
+        ],
+        "deal_breakers": [
+          "Factual inaccuracies or unreliable data",
+          "Lack of credible sourcing or documentation",
+          "Overt bias compromising objectivity",
+          "Insufficient methodological detail"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Fear of blindly following accepted truisms that lead to costly decisions",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Difficulty identifying when data or algorithms are flawed, leading to poor outcomes",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Frustration with content that is too academic or inaccessible for general audiences",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Annoyance with books that are repetitive, overly long, or lacking in substance",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Concern about hidden environmental impacts of digital products",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Gain actionable insights to improve decision-making in business and life",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Understand complex topics (e.g., algorithms, forensics, quantum theory) in an accessible way",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Receive well-researched, evidence-based information that challenges assumptions",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Find engaging, well-written content that is both informative and enjoyable",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Learn about historical or niche topics with clarity and depth",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Book offers practical frameworks for analyzing real-life situations",
+            "context": "Saw title and description emphasizing debunking myths"
+          },
+          {
+            "trigger": "Content promises to expose hidden flaws in widely used systems (e.g., algorithms, forensics)",
+            "context": "Read review highlighting critical analysis of WMD algorithms"
+          },
+          {
+            "trigger": "Book is described as highly readable despite complex subject matter",
+            "context": "Review noted 'easy-to-understand' explanations"
+          },
+          {
+            "trigger": "Recommendation based on author's expertise (e.g., mathematician, Pulitzer winner)",
+            "context": "Review emphasized author credentials"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Content is too scholarly or academic, not suited for general readers",
+            "severity": 0.8
+          },
+          {
+            "objection": "Poor execution of a promising concept (e.g., plots lacking substance)",
+            "severity": 0.7
+          },
+          {
+            "objection": "Material is repetitive or unnecessarily long",
+            "severity": 0.6
+          },
+          {
+            "objection": "Book focuses on tangential details instead of core subject",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [],
+        "decision_factors_ranked": [
+          "Methodology and accuracy (evidence-based research)",
+          "Accessibility and readability for non-experts",
+          "Actionability of insights for practical application",
+          "Engagement (entertaining, page-turning quality)",
+          "Author's expertise and credibility",
+          "Relevance to professional or research needs"
+        ],
+        "deal_breakers": [
+          "Content that is overly academic and lacks real-world applicability",
+          "Poorly executed concepts that fail to deliver on their promise",
+          "Excessive length or repetitiveness without added value"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 19,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Difficulty finding comprehensive, evidence-based literature on niche topics",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Time wasted on poorly written, wordy, or overly technical texts that fail to deliver useful insights",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Frustration with misleading or inaccurate book titles that don't match the actual content",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Concern about gaps in research quality or methodology in published works",
+            "emotional_intensity": 0.65
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Access to thoroughly researched, accurate, and comprehensive information",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Clear, readable, and well-structured content that aids understanding",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Trustworthy source material (e.g., original sources, credible research) to validate claims",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Insights that are both practically applicable and methodologically sound",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Book is described as well-researched, detailed, or footnoted with original source materials",
+            "context": "When selecting academic or nonfiction texts"
+          },
+          {
+            "trigger": "Content is praised for readability, clarity, or being accessible to non-experts",
+            "context": "When needing to quickly grasp complex topics"
+          },
+          {
+            "trigger": "Recommendation based on methodological accuracy, comprehensive coverage, or sound analytics",
+            "context": "When verifying research quality before investment"
+          },
+          {
+            "trigger": "Positive review highlighting a book's ability to explain technical subjects in lay terms",
+            "context": "When bridging knowledge gaps in specialized areas"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Book is poorly written, overly wordy, or talks down to the reader",
+            "severity": 0.8
+          },
+          {
+            "objection": "Content is misleading, inaccurate, or fails to deliver on its title/promise",
+            "severity": 0.9
+          },
+          {
+            "objection": "Research appears superficial, based on questionable sources, or lacks scholarly rigor",
+            "severity": 0.85
+          },
+          {
+            "objection": "Text is too technical without adequate explanation or too simplistic without depth",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Any poorly researched or misleading book",
+            "reason": "Dissatisfaction with accuracy, depth, or methodological soundness",
+            "threshold": "When errors or gaps become apparent during use"
+          },
+          {
+            "from_product": "Overly complex or jargon-heavy texts",
+            "reason": "Inefficiency in extracting useful information",
+            "threshold": "When readability impedes understanding and application"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Research quality and accuracy",
+          "Clarity and readability",
+          "Comprehensiveness and depth",
+          "Methodological soundness",
+          "Relevance to specific research needs",
+          "Trustworthiness of sources"
+        ],
+        "deal_breakers": [
+          "Significant factual inaccuracies or misleading claims",
+          "Poorly structured or unnecessarily verbose writing",
+          "Lack of credible sourcing or original research",
+          "Failure to deliver on the promised topic or title"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Insufficient or unclear instructions (e.g., knitting/craft patterns)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Lack of practical information (e.g., travel guides missing lodging or maps)",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Content not suitable for intended audience (e.g., too gory or sad for young children)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Political or ideological bias perceived as inappropriate",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Poor pacing, choppy narrative flow in nonfiction",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Overly complex or jargon-heavy content for non-specialists",
+            "emotional_intensity": 0.3
+          },
+          {
+            "signal": "Product lacks depth or comprehensive detail",
+            "emotional_intensity": 0.3
+          },
+          {
+            "signal": "Designs or content perceived as derivative or copied",
+            "emotional_intensity": 0.8
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Clear, complete, step-by-step instructions",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Well-researched, factual, and unbiased content",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Engaging, readable narrative even in nonfiction",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Visually appealing layout with useful images/illustrations",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Practical, actionable information (e.g., travel tips, maps)",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Content suitable for target age group or audience",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Inspiration or creative stimulation (e.g., for art, makeup)",
+            "priority": 0.5
+          },
+          {
+            "outcome": "High-quality physical product (paper, binding, print)",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Novelty or unique perspective on familiar subjects",
+            "priority": 0.5
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Recommendation from trusted source (media, friend, family)",
+            "context": "Reviewer heard about book on CBC radio show or received as gift"
+          },
+          {
+            "trigger": "Subject matter aligns with personal interest or expertise",
+            "context": "Interest in specific history, hobbies (knitting, coloring), or professional field"
+          },
+          {
+            "trigger": "Series loyalty or author familiarity",
+            "context": "Previous positive experience with author or series"
+          },
+          {
+            "trigger": "Comparison to previously enjoyed work",
+            "context": "Book compared favorably to another liked book (e.g., 'Devil in the White City')"
+          },
+          {
+            "trigger": "Need for reference or guide material",
+            "context": "Planning travel, seeking overview of topic, requiring instructional guide"
+          },
+          {
+            "trigger": "Gift-giving purpose",
+            "context": "Purchasing for child, friend, or family member with specific interests"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Instructions are incomplete or rely solely on diagrams",
+            "severity": 0.8
+          },
+          {
+            "objection": "Content contains inappropriate bias or political slant",
+            "severity": 0.6
+          },
+          {
+            "objection": "Information lacks depth or is too superficial",
+            "severity": 0.5
+          },
+          {
+            "objection": "Book is poorly paced or confusingly structured",
+            "severity": 0.5
+          },
+          {
+            "objection": "Product plagiarism or unoriginal designs",
+            "severity": 0.9
+          },
+          {
+            "objection": "Material not age-appropriate (too violent/depressing)",
+            "severity": 0.7
+          },
+          {
+            "objection": "Missing practical data (lodging, maps in guides)",
+            "severity": 0.6
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Eyewitness Travel Guide",
+            "reason": "Insufficient lodging/hostel info and city maps",
+            "threshold": "When planning budget travel requiring accommodation details"
+          },
+          {
+            "from_product": "Generic design coloring books",
+            "reason": "Confusing patterns, unclear color separation",
+            "threshold": "When seeking clearer, themed coloring pages"
+          },
+          {
+            "from_product": "Instructional craft books with poor directions",
+            "reason": "Unclear instructions, inadequate gauge guidance",
+            "threshold": "When instructions fail for complex projects"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Accuracy and completeness of information/instructions",
+          "Research depth and factual reliability",
+          "Clarity and readability of content",
+          "Practical utility and actionable guidance",
+          "Visual presentation and layout quality",
+          "Audience appropriateness",
+          "Engagement and entertainment value",
+          "Originality and uniqueness",
+          "Physical product quality"
+        ],
+        "deal_breakers": [
+          "Inaccurate or poorly researched content",
+          "Unclear or incomplete instructions",
+          "Plagiarized or unoriginal designs",
+          "Strong political/ideological bias in neutral contexts",
+          "Content unsuitable for intended audience (e.g., too violent for children)"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.812,
+      "reddit": 0.188,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Ambiguous survey questions and images causing confusion and inability to answer",
+          "count": 1,
+          "frequency": 0.0156,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0469
+        },
+        {
+          "signal": "Poor product quality or defective items (e.g., pens that skip, damaged planners)",
+          "count": 1,
+          "frequency": 0.0156,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0469
+        },
+        {
+          "signal": "Frustration with unclear survey results categorization (e.g., unsure how 'fizzy juice' was counted)",
+          "count": 1,
+          "frequency": 0.0156,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0469
+        },
+        {
+          "signal": "Difficulty with product assembly or installation due to poor instructions",
+          "count": 1,
+          "frequency": 0.0156,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0469
+        },
+        {
+          "signal": "Hassle of returning defective items, especially for disabled individuals",
+          "count": 1,
+          "frequency": 0.0156,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0469
+        },
+        {
+          "signal": "Regional terminology differences leading to misidentification in surveys (e.g., 'slushie' vs 'snow cone')",
+          "count": 1,
+          "frequency": 0.0156,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0469
+        },
+        {
+          "signal": "Disappointment when product layout or format differs from expectations (e.g., 6-month vs year-long planner)",
+          "count": 1,
+          "frequency": 0.0156,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0469
+        },
+        {
+          "signal": "Lack of clear categorization or definition of survey concepts (e.g., gender identity, masc/fem attributes)",
+          "count": 1,
+          "frequency": 0.0156,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0469
+        },
+        {
+          "signal": "Difficulty answering abstract or ambiguous questions due to personal lack of consideration or relevance",
+          "count": 1,
+          "frequency": 0.0156,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0469
+        },
+        {
+          "signal": "Frustration with survey design that doesn't include 'neutral' or 'not applicable' options",
+          "count": 1,
+          "frequency": 0.0156,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0469
+        },
+        {
+          "signal": "Annoyance with semantic debates or misidentified categories in survey questions",
+          "count": 1,
+          "frequency": 0.0156,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0469
+        },
+        {
+          "signal": "Feeling overwhelmed by constant self-monitoring of gender expression or identity",
+          "count": 1,
+          "frequency": 0.0156,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0469
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Clear, unambiguous survey questions with well-defined images and examples",
+          "count": 1,
+          "frequency": 0.0159,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0476
+        },
+        {
+          "signal": "High-quality, defect-free products that meet advertised specifications",
+          "count": 1,
+          "frequency": 0.0159,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0476
+        },
+        {
+          "signal": "Precise and transparent categorization of survey responses",
+          "count": 1,
+          "frequency": 0.0159,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0476
+        },
+        {
+          "signal": "Easy-to-follow assembly/installation instructions",
+          "count": 1,
+          "frequency": 0.0159,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0476
+        },
+        {
+          "signal": "Products designed for specific needs (e.g., larger bed trays for disabled users)",
+          "count": 1,
+          "frequency": 0.0159,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0476
+        },
+        {
+          "signal": "Products that accommodate real-world use cases (e.g., cup holders on bed trays)",
+          "count": 1,
+          "frequency": 0.0159,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0476
+        },
+        {
+          "signal": "Gain insight into diverse experiences and perspectives on gender",
+          "count": 1,
+          "frequency": 0.0159,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0476
+        },
+        {
+          "signal": "Encourage people to think about gender in new ways",
+          "count": 1,
+          "frequency": 0.0159,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0476
+        },
+        {
+          "signal": "Collect accurate data on variable gender experiences",
+          "count": 1,
+          "frequency": 0.0159,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0476
+        },
+        {
+          "signal": "Validate or challenge existing assumptions about gender categorization",
+          "count": 1,
+          "frequency": 0.0159,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0476
+        },
+        {
+          "signal": "Design surveys that are inclusive and easy for all respondents to complete",
+          "count": 1,
+          "frequency": 0.0159,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0476
+        },
+        {
+          "signal": "Methodological accuracy leading to valid, unskewed results",
+          "count": 1,
+          "frequency": 0.0159,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0476
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Defective or non-functional products",
+          "count": 1,
+          "frequency": 0.0222,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0672
+        },
+        {
+          "signal": "Unclear or misleading survey questions",
+          "count": 1,
+          "frequency": 0.0222,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0672
+        },
+        {
+          "signal": "Products damaged during shipping",
+          "count": 1,
+          "frequency": 0.0222,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0667
+        },
+        {
+          "signal": "Extremely difficult assembly without clear instructions",
+          "count": 1,
+          "frequency": 0.0222,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0667
+        },
+        {
+          "signal": "Critical missing features (e.g., no storage for needed items)",
+          "count": 1,
+          "frequency": 0.0222,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0667
+        },
+        {
+          "signal": "Exclusively binary gender options",
+          "count": 1,
+          "frequency": 0.0222,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0667
+        },
+        {
+          "signal": "Ambiguous or poorly defined questions",
+          "count": 1,
+          "frequency": 0.0222,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0667
+        },
+        {
+          "signal": "Lack of 'not applicable' or neutral response choices",
+          "count": 1,
+          "frequency": 0.0222,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0667
+        },
+        {
+          "signal": "Prescriptive language that invalidates respondent experiences",
+          "count": 1,
+          "frequency": 0.0222,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0667
+        },
+        {
+          "signal": "Methodological flaws that invalidate survey results",
+          "count": 1,
+          "frequency": 0.0222,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0667
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Need to replace a worn-out or broken item",
+          "count": 1,
+          "frequency": 0.0189,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0566
+        },
+        {
+          "signal": "Seeking a solution for a specific problem (e.g., lack of coat closet)",
+          "count": 1,
+          "frequency": 0.0189,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0566
+        },
+        {
+          "signal": "Desire for better organization or tracking (e.g., bird sightings, bills)",
+          "count": 1,
+          "frequency": 0.0189,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0566
+        },
+        {
+          "signal": "Positive reviews and thorough research",
+          "count": 1,
+          "frequency": 0.0189,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0566
+        },
+        {
+          "signal": "Recommendation for a complementary product",
+          "count": 1,
+          "frequency": 0.0189,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0566
+        },
+        {
+          "signal": "Need for portability and convenience",
+          "count": 1,
+          "frequency": 0.0189,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0566
+        },
+        {
+          "signal": "Need to conduct a study on gender identity/expression",
+          "count": 1,
+          "frequency": 0.0189,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0566
+        },
+        {
+          "signal": "Desire to validate problem relevance before product/solution development",
+          "count": 1,
+          "frequency": 0.0189,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0566
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "low": 0.727,
+        "medium": 0.273
+      }
+    }
+  },
+  "cluster_2": {
+    "member_count": 3,
+    "representative_batches": [
+      {
+        "signals": [
+          {
+            "signal_name": "Methodological Inconsistency Frustration",
+            "evidence": [
+              "Happy Planner always annoys me with their calendar start days. On the month view, the week starts on Sunday. But on the week view, they start the week on Monday. That always drives me a little batty.",
+              "They never put all of anyone\u2019s holidays on the calendar either. If you\u2019re Jewish, some of those holidays are there and others aren\u2019t. If you\u2019re Christian, some of the holidays are marked, some are not."
+            ],
+            "confidence": 0.95,
+            "prevalence": 0.33
+          },
+          {
+            "signal_name": "Customization and Flexibility Appreciation",
+            "evidence": [
+              "Don\u2019t want an 18 month planner? Just remove the months you don\u2019t want. Love the way you can customize the pages.",
+              "You could use all three trays separately or only use two stacked if you like. It is easy enough to customize what you need.",
+              "Just remove the months you don\u2019t want. Love the way you can customize the pages."
+            ],
+            "confidence": 0.9,
+            "prevalence": 0.25
+          },
+          {
+            "signal_name": "Precision and Accuracy Prioritization",
+            "evidence": [
+              "I\u2019d prefer a compass for accurate angles.",
+              "The elastic band to hold the planner shut is far too tight. It is very difficult to get it around the planner brand new.",
+              "I\u2019d prefer a compass for accurate angles."
+            ],
+            "confidence": 0.85,
+            "prevalence": 0.17
+          },
+          {
+            "signal_name": "Quality and Performance Scrutiny",
+            "evidence": [
+              "The pens were hit or miss though. Some were extremely smooth and perfect. Others were very scratchy and skipped.",
+              "Every single marker in the pack worked perfectly.",
+              "The pens were hit or miss though. Some were extremely smooth and perfect. Others were very scratchy and skipped."
+            ],
+            "confidence": 0.9,
+            "prevalence": 0.25
+          },
+          {
+            "signal_name": "Organizational Tool Value Recognition",
+            "evidence": [
+              "I love the stand. It makes it so easy to keep everything organized.",
+              "Cute little to do list to keep you organized.",
+              "I love the stand. It makes it so easy to keep everything organized."
+            ],
+            "confidence": 0.95,
+            "prevalence": 0.25
+          },
+          {
+            "signal_name": "Expectation vs. Reality Evaluation",
+            "evidence": [
+              "I don\u2019t know what magic I thought was going to happen with this.",
+              "First, the sweet peach pens are black ink. I thought it would be dark peach. It isn't. It is black.",
+              "I don\u2019t know what magic I thought was going to happen with this."
+            ],
+            "confidence": 0.8,
+            "prevalence": 0.17
+          }
+        ],
+        "_source_weights": {
+          "amazon_high_acc": 30,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "purchase_criteria": [
+          {
+            "criterion": "Clear and upfront communication of free plan limitations (especially response caps)",
+            "importance": 0.9
+          },
+          {
+            "criterion": "Ability to pay per survey or short-term subscription (not just annual)",
+            "importance": 0.85
+          },
+          {
+            "criterion": "Transparent and easy-to-manage subscription/cancellation process",
+            "importance": 0.8
+          },
+          {
+            "criterion": "Reliable core functionality (email sending, verification, response collection) without bugs",
+            "importance": 0.95
+          },
+          {
+            "criterion": "Pricing that is reasonable and proportional to usage (e.g., nonprofit, one-off event)",
+            "importance": 0.8
+          },
+          {
+            "criterion": "Feature parity between mobile app and web platform",
+            "importance": 0.7
+          },
+          {
+            "criterion": "Good customer support (responsive, problem-solving)",
+            "importance": 0.75
+          }
+        ],
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 1,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [],
+        "desired_outcomes": [],
+        "purchase_triggers": [],
+        "objections": [],
+        "switching_triggers": [],
+        "decision_factors_ranked": [],
+        "deal_breakers": [],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 5,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 1.0,
+      "reddit": 0.0,
+      "csv": 0.0
+    },
+    "single_source_warning": true,
+    "aggregate_signals": {
+      "top_pain_points": [],
+      "top_desired_outcomes": [],
+      "top_deal_breakers": [],
+      "top_purchase_triggers": [],
+      "dominant_friction_tolerance": "medium",
+      "friction_tolerance_distribution": {
+        "medium": 1.0
+      }
+    }
+  },
+  "cluster_3": {
+    "member_count": 12,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Difficulty editing questions and formatting text on mobile",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Mobile app crashes, has background playback issues, and is generally buggy",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Free tier severely restricts responses (e.g., 10-25) before requiring expensive upgrade",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Pricing is confusing and feels predatory, with high monthly costs",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Inability to contact human support, only bots",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Mobile app lacks landscape mode, reducing usability in sunlight",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "No surveys available for some respondents, app errors on login or location",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Limits on answer choices in questions (e.g., max 8 for multiple choice)",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Easy-to-use survey creation interface",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Reliable, bug-free mobile app experience",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Clear, affordable pricing with essential features in free tier",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Access to timely, legitimate surveys for respondents",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Ability to distribute surveys widely (e.g., to open market)",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Human customer support for complex issues",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Advanced analytics and presentation features",
+            "priority": 0.65
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to view more than 10-25 survey responses",
+            "context": "When free tier limits are hit during data collection"
+          },
+          {
+            "trigger": "Requirement to send survey to a broad audience",
+            "context": "When sharing only with known contacts is insufficient"
+          },
+          {
+            "trigger": "Need for notarization or verification of survey readiness",
+            "context": "When formal validation is required"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "High cost of premium plans relative to value",
+            "severity": 0.95
+          },
+          {
+            "objection": "Free tier limitations are hidden until after survey creation",
+            "severity": 0.9
+          },
+          {
+            "objection": "Mobile app is unreliable and lacks key features",
+            "severity": 0.85
+          },
+          {
+            "objection": "Lack of human support",
+            "severity": 0.8
+          },
+          {
+            "objection": "Data quality concerns due to unserious respondents",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "SurveyMonkey",
+            "reason": "Unreasonable pricing and paywalls",
+            "threshold": "When free limits block essential work"
+          },
+          {
+            "from_product": "SurveyMonkey",
+            "reason": "Poor mobile app functionality",
+            "threshold": "When mobile usability is critical"
+          },
+          {
+            "from_product": "SurveyMonkey",
+            "reason": "Better free alternatives available (e.g., Google Sheets)",
+            "threshold": "When cost and ease are prioritized"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Cost transparency and value",
+          "Ease of use for survey creation",
+          "Mobile app reliability",
+          "Response collection limits",
+          "Customer support accessibility",
+          "Data quality and analysis features"
+        ],
+        "deal_breakers": [
+          "Hidden costs or severe free-tier limitations",
+          "Unreliable mobile app experience",
+          "Inability to get human support",
+          "Excessively high pricing for basic features"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 7,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Technical issues prevent app login or crash immediately",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Poor user interface with inaccurate touch input",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Cashout failures, pending rewards, or fraudulent reward accusations",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Lack of clear communication and support from customer service",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Surveys or offers waste time by disqualifying after completion",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Geographic restrictions limiting payment or offer availability",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Inconsistent reward tracking and partial credit not reflected in account",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Fees charged on cashout",
+            "emotional_intensity": 0.65
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable and consistent reward payout with clear timelines",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Stable, crash-free app with functional login and navigation",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Access to high-paying surveys and offers with no geographic limitations",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Transparent reward tracking and immediate credit for completed tasks",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Responsive customer service with direct answers",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Multiple withdrawal options, not just PayPal",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Positive proof of payment via reviews or personal experience",
+            "context": "After cashing out successfully"
+          },
+          {
+            "trigger": "Recommendation from trusted sources or high ratings",
+            "context": "When seeking legitimate survey apps"
+          },
+          {
+            "trigger": "App functionality improves after technical fixes",
+            "context": "After an update resolves prior issues"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "App is unreliable due to crashes and login failures",
+            "severity": 0.9
+          },
+          {
+            "objection": "Rewards system is fraudulent or payments are withheld",
+            "severity": 0.85
+          },
+          {
+            "objection": "Poor customer support and lack of accountability",
+            "severity": 0.8
+          },
+          {
+            "objection": "Time wasted on surveys that disqualify after completion",
+            "severity": 0.75
+          },
+          {
+            "objection": "Geographic restrictions limit earning potential",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "SurveyPirate or similar app",
+            "reason": "Persistent login/crash issues after updates",
+            "threshold": "After multiple failed attempts and no support response"
+          },
+          {
+            "from_product": "SurveyPirate or similar app",
+            "reason": "Reward forfeiture, account block, or payment failure",
+            "threshold": "When reward is not received after significant effort"
+          },
+          {
+            "from_product": "SurveyPirate or similar app",
+            "reason": "Poor customer service and unresolved complaints",
+            "threshold": "After repeated unhelpful interactions"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Payment reliability",
+          "App stability and usability",
+          "Survey/offer availability and payout",
+          "Customer support responsiveness",
+          "Geographic accessibility",
+          "Transparent reward tracking"
+        ],
+        "deal_breakers": [
+          "Inability to login or use the app due to crashes",
+          "Non-payment or fraudulent reward accusations",
+          "Complete lack of customer support",
+          "Geographic lockout from cashouts"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Free version response limits hidden until exceeded, causing campaign disruption",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Aggressive auto-renewal billing with poor visibility and refusal of refunds",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Mobile app severely lacks features, sync issues, and login failures",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Forced upgrades post-survey creation without clear upfront pricing disclosure",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Customer support unresponsive, automated, and unhelpful",
+            "emotional_intensity": 0.9
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Clear, upfront communication on free plan limits and pricing before use",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Fair, flexible payment options for students and single-survey projects",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Full-featured mobile app matching website functionality",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Reliable survey delivery and response data access without surprise paywalls",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Transparent billing control and easy cancellation",
+            "priority": 0.85
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to access responses beyond free limit (e.g., >10, >40, >100)",
+            "context": "After survey launch, when data is locked"
+          },
+          {
+            "trigger": "Access to advanced templates or time-saving features",
+            "context": "When building new surveys to speed up creation"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "High cost relative to value, especially for one-off projects",
+            "severity": 0.85
+          },
+          {
+            "objection": "Predatory billing practices and non-refundable charges",
+            "severity": 0.9
+          },
+          {
+            "objection": "Mobile app is unreliable and missing features",
+            "severity": 0.75
+          },
+          {
+            "objection": "Lack of transparency in free plan limitations until after commitment",
+            "severity": 0.95
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "SurveyMonkey",
+            "reason": "High hidden costs after respondents exceed free limits",
+            "threshold": "Post-survey launch, when locked out of data"
+          },
+          {
+            "from_product": "SurveyMonkey",
+            "reason": "Billing disputes and poor customer service",
+            "threshold": "After being charged without consent or refund refusal"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Upfront pricing transparency",
+          "Response/data access reliability",
+          "Cost-effectiveness",
+          "Mobile functionality",
+          "Customer support quality"
+        ],
+        "deal_breakers": [
+          "Hidden costs after survey launch",
+          "Predatory auto-renewal billing",
+          "Inability to cancel or get refunds",
+          "Mobile app missing core features"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 2,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Hidden paywalls and deceptive free-tier limits",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Unintuitive UI and poor mobile app usability",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Aggressive auto-renewal and difficult cancellation",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Technical glitches (app freezing, login errors, save failures)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poor or unresponsive customer support",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Inability to reuse or save survey templates",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "High subscription cost perceived as unfair",
+            "emotional_intensity": 0.9
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Transparent pricing and clear free-tier limits",
+            "priority": 1.0
+          },
+          {
+            "outcome": "Intuitive, mobile-friendly interface for easy survey creation",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Reliable performance with minimal technical issues",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Ability to reuse and edit saved survey templates",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Robust survey analysis and consolidated response viewing",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Reaching free-tier response limits mid-project",
+            "context": "Trapped after survey deployment"
+          },
+          {
+            "trigger": "Need for advanced features like kiosk mode or detailed analysis",
+            "context": "Professional research or event planning"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "High cost relative to perceived value of basic features",
+            "severity": 0.9
+          },
+          {
+            "objection": "Deceptive marketing and hidden fees eroding trust",
+            "severity": 1.0
+          },
+          {
+            "objection": "Poor customer service and difficult cancellation process",
+            "severity": 0.95
+          },
+          {
+            "objection": "Software is buggy and unreliable for critical work",
+            "severity": 0.85
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "SurveyMonkey",
+            "reason": "Reaching free-tier limits with no warning",
+            "threshold": "Immediate upon discovery"
+          },
+          {
+            "from_product": "SurveyMonkey",
+            "reason": "High cost and better free alternatives",
+            "threshold": "Before starting a new project"
+          },
+          {
+            "from_product": "SurveyMonkey",
+            "reason": "Persistent technical or usability issues",
+            "threshold": "After multiple failed attempts"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Pricing transparency and fairness",
+          "Ease of use and intuitive design",
+          "Reliability and bug-free performance",
+          "Customer support responsiveness",
+          "Feature set for analysis and template reuse"
+        ],
+        "deal_breakers": [
+          "Deceptive free-tier limits discovered after work is done",
+          "Unresponsive or absent customer support",
+          "Aggressive auto-renewal without easy cancellation",
+          "Critical bugs preventing survey creation or access"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 6,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "App crashes or fails to open after update/installation",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Getting screened out of surveys frequently",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Long waiting times or delays in payment redemption",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Account issues (accused of using VPN, lost access with phone change)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Low or insufficient daily login bonuses",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Uncertainty about app legitimacy or fear of being scammed",
+            "emotional_intensity": 0.9
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable and timely payment receipt (e.g., PayPal, gift cards)",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Stable, bug-free app functionality",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Consistent survey availability without excessive screening",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Earning coins/points redeemable as cash",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Higher daily login bonuses or rewards",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Verification of app legitimacy before investing time",
+            "priority": 0.75
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Receiving payment successfully after initial use",
+            "context": "Positive redemption experience"
+          },
+          {
+            "trigger": "Positive referral or recommendation from trusted source",
+            "context": "Social proof before use"
+          },
+          {
+            "trigger": "App update that fixes previous issues",
+            "context": "Post-update functionality improvement"
+          },
+          {
+            "trigger": "Achieving first withdrawal threshold",
+            "context": "Proof of earning potential"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "App is fake, scam, or wastes time/data",
+            "severity": 0.95
+          },
+          {
+            "objection": "Payment delays or failure to pay",
+            "severity": 0.9
+          },
+          {
+            "objection": "App technical issues (crashes, won't open)",
+            "severity": 0.85
+          },
+          {
+            "objection": "Too few surveys or constant screen-outs",
+            "severity": 0.8
+          },
+          {
+            "objection": "Requires sign-ups on other sites to earn points",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Survey Pirate",
+            "reason": "Account blocked or accused of VPN use",
+            "threshold": "Immediate upon account restriction"
+          },
+          {
+            "from_product": "Survey Pirate",
+            "reason": "Extended payment delays (e.g., over a week)",
+            "threshold": "After unreasonably long wait without payment"
+          },
+          {
+            "from_product": "Survey Pirate",
+            "reason": "Persistent app crashes or failure to open",
+            "threshold": "After repeated attempts without fix"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Payment reliability/legitimacy",
+          "App stability/functionality",
+          "Survey availability/access",
+          "Redemption speed",
+          "Earning potential/bonus size"
+        ],
+        "deal_breakers": [
+          "Failure to pay after promised timeframe",
+          "App unusable due to technical bugs",
+          "Account blocked unfairly (e.g., VPN accusation)"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 1,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 1.0,
+      "reddit": 0.0,
+      "csv": 0.0
+    },
+    "single_source_warning": true,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Free version response limits hidden until exceeded, causing campaign disruption",
+          "count": 1,
+          "frequency": 0.0127,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.038
+        },
+        {
+          "signal": "Aggressive auto-renewal billing with poor visibility and refusal of refunds",
+          "count": 1,
+          "frequency": 0.0127,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.038
+        },
+        {
+          "signal": "Mobile app severely lacks features, sync issues, and login failures",
+          "count": 1,
+          "frequency": 0.0127,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.038
+        },
+        {
+          "signal": "Forced upgrades post-survey creation without clear upfront pricing disclosure",
+          "count": 1,
+          "frequency": 0.0127,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.038
+        },
+        {
+          "signal": "Customer support unresponsive, automated, and unhelpful",
+          "count": 1,
+          "frequency": 0.0127,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.038
+        },
+        {
+          "signal": "Unable to see full survey results without paying a premium",
+          "count": 1,
+          "frequency": 0.0127,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.038
+        },
+        {
+          "signal": "Feeling misled by hidden fees or unclear free plan limits",
+          "count": 1,
+          "frequency": 0.0127,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.038
+        },
+        {
+          "signal": "Encountering technical issues like login failures, crashes, or slow performance",
+          "count": 1,
+          "frequency": 0.0127,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.038
+        },
+        {
+          "signal": "Difficulty contacting customer service or getting refunds",
+          "count": 1,
+          "frequency": 0.0127,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0506
+        },
+        {
+          "signal": "High cost of subscriptions relative to perceived value for small or one-off projects",
+          "count": 1,
+          "frequency": 0.0127,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.038
+        },
+        {
+          "signal": "Limited export or data processing capabilities for custom analysis",
+          "count": 1,
+          "frequency": 0.0127,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.038
+        },
+        {
+          "signal": "Inability to manually input paper survey data",
+          "count": 1,
+          "frequency": 0.0127,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0506
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Clear, upfront communication on free plan limits and pricing before use",
+          "count": 1,
+          "frequency": 0.0143,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0429
+        },
+        {
+          "signal": "Fair, flexible payment options for students and single-survey projects",
+          "count": 1,
+          "frequency": 0.0143,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0429
+        },
+        {
+          "signal": "Full-featured mobile app matching website functionality",
+          "count": 1,
+          "frequency": 0.0143,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0429
+        },
+        {
+          "signal": "Reliable survey delivery and response data access without surprise paywalls",
+          "count": 1,
+          "frequency": 0.0143,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0429
+        },
+        {
+          "signal": "Transparent billing control and easy cancellation",
+          "count": 1,
+          "frequency": 0.0143,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0429
+        },
+        {
+          "signal": "Clear, upfront pricing and free plan limitations",
+          "count": 1,
+          "frequency": 0.0143,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0429
+        },
+        {
+          "signal": "Reliable, bug-free app performance and login access",
+          "count": 1,
+          "frequency": 0.0143,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0429
+        },
+        {
+          "signal": "Affordable pricing for small-scale or infrequent users (e.g., students, non-profits, one-off surveys)",
+          "count": 1,
+          "frequency": 0.0143,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0429
+        },
+        {
+          "signal": "Ability to export data to formats like Excel for further analysis",
+          "count": 1,
+          "frequency": 0.0143,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0429
+        },
+        {
+          "signal": "Access to full survey results without paywalls, or higher free-tier response limits",
+          "count": 1,
+          "frequency": 0.0143,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0432
+        },
+        {
+          "signal": "Responsive customer service for billing and technical issues",
+          "count": 1,
+          "frequency": 0.0143,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0429
+        },
+        {
+          "signal": "Easy-to-use survey creation interface",
+          "count": 1,
+          "frequency": 0.0143,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0429
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Hidden costs after survey launch",
+          "count": 1,
+          "frequency": 0.0227,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0682
+        },
+        {
+          "signal": "Predatory auto-renewal billing",
+          "count": 1,
+          "frequency": 0.0227,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0682
+        },
+        {
+          "signal": "Inability to cancel or get refunds",
+          "count": 1,
+          "frequency": 0.0227,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0682
+        },
+        {
+          "signal": "Mobile app missing core features",
+          "count": 1,
+          "frequency": 0.0227,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0909
+        },
+        {
+          "signal": "Hidden fees or unclear free plan limits",
+          "count": 1,
+          "frequency": 0.0227,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0682
+        },
+        {
+          "signal": "Unresponsive customer service for billing issues",
+          "count": 1,
+          "frequency": 0.0227,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0682
+        },
+        {
+          "signal": "Persistent technical failures (login/crashes)",
+          "count": 1,
+          "frequency": 0.0227,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0682
+        },
+        {
+          "signal": "Forced annual billing for one-time needs",
+          "count": 1,
+          "frequency": 0.0227,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0682
+        },
+        {
+          "signal": "Hidden costs or severe free-tier limitations",
+          "count": 1,
+          "frequency": 0.0227,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0682
+        },
+        {
+          "signal": "Unreliable mobile app experience",
+          "count": 1,
+          "frequency": 0.0227,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0682
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Need to access responses beyond free limit (e.g., >10, >40, >100)",
+          "count": 1,
+          "frequency": 0.027,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0811
+        },
+        {
+          "signal": "Access to advanced templates or time-saving features",
+          "count": 1,
+          "frequency": 0.027,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0811
+        },
+        {
+          "signal": "Exceeding the free plan response limit (e.g., 10 or 40 responses)",
+          "count": 1,
+          "frequency": 0.027,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0811
+        },
+        {
+          "signal": "Need for advanced features like individual response viewing or data export",
+          "count": 1,
+          "frequency": 0.027,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0811
+        },
+        {
+          "signal": "Professional or business use requiring reliable, high-volume surveying",
+          "count": 1,
+          "frequency": 0.027,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0811
+        },
+        {
+          "signal": "Need to view more than 10-25 survey responses",
+          "count": 1,
+          "frequency": 0.027,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0811
+        },
+        {
+          "signal": "Requirement to send survey to a broad audience",
+          "count": 1,
+          "frequency": 0.027,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0811
+        },
+        {
+          "signal": "Need for notarization or verification of survey readiness",
+          "count": 1,
+          "frequency": 0.027,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0811
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "low": 0.917,
+        "medium": 0.083
+      }
+    }
+  }
+}

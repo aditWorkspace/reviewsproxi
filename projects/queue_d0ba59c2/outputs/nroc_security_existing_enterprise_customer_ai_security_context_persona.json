@@ -1,0 +1,281 @@
+{
+  "id": "existing_enterprise_customer_(ai_security_context)",
+  "label": "Existing Enterprise Customer (AI Security Context)",
+  "segment": {
+    "role": "Enterprise Security Professional Managing AI Governance",
+    "tech_savviness": "high",
+    "price_sensitivity": "medium",
+    "risk_tolerance": "low",
+    "context": "A security professional at an established enterprise who has already implemented AI security tools and now evaluates improvements based on real operational experience. Their decisions are shaped by frustrating gaps between vendor promises and actual reliability, plus the difficulty of finding solutions that meet their elevated standards after experiencing quality products."
+  },
+  "goals": [
+    {
+      "goal": "Find reliable enterprise security tools that deliver on core functionality promises without breaking during updates",
+      "priority": 5
+    },
+    {
+      "goal": "Establish clear AI governance policies with actual enforcement mechanisms rather than buzzword-driven monitoring",
+      "priority": 5
+    },
+    {
+      "goal": "Reduce SIEM alert noise while maintaining comprehensive threat detection capabilities",
+      "priority": 4
+    },
+    {
+      "goal": "Achieve seamless integration between security tools without compatibility issues",
+      "priority": 4
+    },
+    {
+      "goal": "Access quality alternatives that match or exceed current high-performing solutions",
+      "priority": 3
+    },
+    {
+      "goal": "Implement modern security standards based on evidence rather than outdated compliance requirements",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Must work within organizational inertia where stakeholders fear accountability for changing established systems",
+    "Limited by legacy SIEM platforms that produce excessive noise and have inefficient query languages",
+    "Restricted by outdated security policies like mandatory password expiration that reduce actual security",
+    "Bound by complex installation processes that can take many hours and disrupt operations",
+    "Constrained by tools that lack interoperability with existing professional ecosystems"
+  ],
+  "decision_weights": {
+    "quality_alternatives_availability": 0.205,
+    "installation_disruption": 0.114,
+    "support_responsiveness": 0.114,
+    "integration_compatibility": 0.114,
+    "update_reliability": 0.114,
+    "security_configurability": 0.114,
+    "complexity_manageability": 0.114,
+    "core_functionality_delivery": 0.114
+  },
+  "behavioral_rules": [
+    "Immediately scrutinizes vendor reliability claims against specific functionality promises before proceeding",
+    "Abandons evaluation if software shows compatibility issues with existing security tool stack",
+    "Demands detailed integration documentation before considering any new security platform",
+    "Exits immediately if pricing structure appears to hide costs or requires extensive commitment for basic features",
+    "Prioritizes vendors who provide evidence-based security recommendations over compliance-driven approaches",
+    "Refuses to consider solutions that increase user friction without demonstrable security improvements",
+    "Seeks out user reviews specifically mentioning post-update stability and support responsiveness",
+    "Tests for API key exposure risks and proper handling of sensitive credentials during evaluation",
+    "Validates that AI governance features include actual policy enforcement, not just monitoring dashboards",
+    "Requires demonstration of noise reduction capabilities in SIEM-like platforms before purchase consideration",
+    "Investigates vendor's track record with enterprise customers who have similar security maturity levels",
+    "Abandons vendors who cannot provide clear migration paths from existing legacy systems"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.278,
+    "trust_starting_point": 0.496,
+    "frustration_decay": 0.327
+  },
+  "deal_breakers": [
+    "Software compatibility/integration issues with other security tools",
+    "Unreliable or buggy product updates breaking functionality",
+    "Failure to deliver on core recovery/functionality promises",
+    "Poor or inconsistent technical support response",
+    "Lack of adequate configurability/control over security features",
+    "High product complexity requiring advanced expertise to manage",
+    "Challenging installation/upgrade process causing disruption"
+  ],
+  "voice_sample": "After years of dealing with legacy SIEM platforms that produce too much noise and lack control, I've become incredibly selective about security tools. When I find something that actually works - like a platform with accurate and reliable data ingestion and querying for threat detection - the inability to find quality alternatives after using a product that sets a high bar becomes a real problem. I need clear AI governance policies with enforcement mechanisms, not just buzzword-driven monitoring dashboards. The frustration with outdated security policies like mandatory password expiration that actually reduce security while creating more user friction is something I deal with constantly. Companies implementing password policy changes without foundational security maturity just create self-inflicted wounds, and auditors and big organizations are slow to accept change, even when it's recommended by modern standards like NIST.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 45,
+    "pages_before_decision": 12,
+    "tab_behavior": "Opens multiple tabs to cross-reference vendor claims with user reviews and technical documentation",
+    "primary_device": "Enterprise laptop during business hours with multiple monitors for detailed comparison",
+    "time_of_day": "Late morning and early afternoon when focus is highest for technical evaluation"
+  },
+  "purchase_journey": {
+    "discovery": "Finds solutions through security community recommendations, vendor comparisons during renewal cycles, and colleagues sharing experiences with reliability gaps",
+    "evaluation": "First validates integration compatibility, then tests core functionality claims, reviews support responsiveness data, and examines real user feedback on update stability",
+    "decision_moment": "Commits when vendor demonstrates clear evidence of reliability improvements over current solution plus provides detailed implementation support",
+    "post_purchase_expectation": "Expects seamless integration without disruption, reliable updates that don't break functionality, and responsive technical support when issues arise"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Vendor provides clear evidence of reduced SIEM noise with maintained detection accuracy",
+      "Solution demonstrates actual AI governance enforcement beyond just monitoring",
+      "Platform shows seamless integration with existing security tool ecosystem",
+      "Documentation proves modern evidence-based security approach rather than outdated compliance"
+    ],
+    "abandons_when": [
+      "Software shows compatibility issues during initial evaluation",
+      "Vendor cannot provide specific reliability improvement metrics",
+      "Installation process appears complex without adequate support",
+      "Platform lacks proper configurability for enterprise security needs"
+    ],
+    "trusts_when": [
+      "Vendor provides detailed technical implementation guidance",
+      "Solution includes automated redaction of sensitive data with clear controls",
+      "Platform offers centralized hub for community content and best practices",
+      "Tool demonstrates clear differentiation between public identifiers and secret keys"
+    ],
+    "becomes_suspicious_when": [
+      "Pricing requires extensive commitment before showing actual costs",
+      "Vendor makes unrealistic promises about functionality without proof",
+      "Solution appears to add complexity without clear security benefits",
+      "Marketing focuses on buzzwords rather than specific technical capabilities"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Clear AI governance policies with enforcement mechanisms",
+      "Accurate and reliable data ingestion and querying for threat detection",
+      "Inability to find quality alternatives after using a product that sets a high bar",
+      "Frustration with outdated security policies like mandatory password expiration",
+      "Legacy SIEM platforms produce too much noise and lack control",
+      "Software compatibility/integration issues with other security tools",
+      "Organizational inertia where no one wants to change established systems because accountability is feared"
+    ],
+    "resonates_with": [
+      "Evidence-based security recommendations",
+      "Modern security standards compliance",
+      "Seamless enterprise integration",
+      "Reduced operational friction",
+      "Proven reliability metrics"
+    ],
+    "turned_off_by": [
+      "Buzzword-driven marketing",
+      "Compliance-only approaches",
+      "Hidden complexity",
+      "Unproven functionality claims",
+      "Integration disruption risks"
+    ]
+  },
+  "inner_monologue_samples": [
+    "Here we go again with hidden pricing that probably scales up dramatically once you're committed. After dealing with high cost and overhead of legacy SIEM platforms, I need transparent pricing that shows real value, not another vendor trying to lock us in.",
+    "These user testimonials better mention actual integration experiences, not just marketing fluff. I've been burned too many times by software compatibility issues that weren't disclosed until after implementation started.",
+    "This navigation is already giving me problems - if I can't easily find their technical documentation, how responsive is their support going to be when we have real issues? Poor technical support response is not something I can afford.",
+    "Another signup form asking for everything except my blood type. Given how many companies have API key exposure risks due to poor data handling, I'm not filling this out until I see their actual security practices documented.",
+    "Finally, a vendor that actually addresses the inability to find quality alternatives by showing specific comparisons with metrics. If they can deliver on reducing alert noise while maintaining detection accuracy, this might be worth the evaluation effort."
+  ],
+  "anti_patterns": [
+    "Assuming they want the latest trendy features - contradicts their focus on proven reliability over innovation",
+    "Leading with compliance benefits - contradicts their preference for evidence-based security over outdated compliance",
+    "Hiding technical details behind marketing speak - contradicts their need for detailed integration documentation",
+    "Promising easy implementation without support details - contradicts their experience with challenging installation processes",
+    "Focusing on individual user benefits - contradicts their enterprise-level organizational decision-making context"
+  ],
+  "traits": [
+    {
+      "label": "Enterprise Reliability Gap",
+      "description": "Users express frustration when enterprise security software fails to deliver on core reliability promises, highlighting gaps in stability, support, integration, and operational smoothness that undermine confidence in critical protection functions.",
+      "key_phrases": [
+        "Failure to deliver on core recovery/functionality promises",
+        "Software compatibility/integration issues with other security tools",
+        "Unreliable or buggy product updates breaking functionality"
+      ],
+      "frequency": 0.304,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Post-Evaluation Realization",
+      "description": "After experiencing a high-quality product or solution, users face significant difficulty finding suitable alternatives that meet the new, elevated standard. This creates a frustrating dependency where their requirements for performance, security, and value have been permanently raised.",
+      "key_phrases": [
+        "Inability to find quality alternatives after using a product that sets a high bar",
+        "Lack of ready-made templates or guidance for AI usage policies",
+        "Inadequate detection capabilities from previous solutions, missing threats that competitors found"
+      ],
+      "frequency": 0.275,
+      "tone": "frustrated",
+      "cluster_id": "cluster_4"
+    },
+    {
+      "label": "Enterprise SIEM Discontent",
+      "description": "Security professionals are frustrated with legacy SIEM platforms due to excessive alert noise, inefficient query languages, high costs, and inadequate detection capabilities. They seek a more performant, cost-effective solution with better control, advanced correlation, and mature third-party integrations.",
+      "key_phrases": [
+        "Existing SIEMs produce too much noise and lack control",
+        "Legacy SIEM query languages are inefficient and slow",
+        "High cost and overhead of legacy SIEM platforms"
+      ],
+      "frequency": 0.174,
+      "tone": "frustrated",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Technical and Security Integrity Concern",
+      "description": "Users express significant frustration and skepticism when technical issues like crashes, purchase failures, or intrusive ads disrupt core functionality, compounded by serious concerns about data security, AI governance, and policy enforcement.",
+      "key_phrases": [
+        "In-app purchase failures leading to lost money and data",
+        "Lack of AI governance, policies, or enforcement mechanisms in organizations",
+        "Software crashes and loses data"
+      ],
+      "frequency": 0.13,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Policy Pragmatism",
+      "description": "This cluster represents users who are frustrated by outdated, rigid, or misaligned organizational policies and systems that create friction and reduce actual effectiveness. They desire evidence-based, modern solutions that are interoperable, transparent, and genuinely improve security or productivity without unnecessary complexity.",
+      "key_phrases": [
+        "Frustration with outdated security policies like mandatory password expiration",
+        "Tools that are not interoperable with professional ecosystems",
+        "Security policies that increase user friction and reduce actual security",
+        "Security policies based on evidence and modern standards (like NIST), not outdated compliance",
+        "Organizational inertia where no one wants to change established systems because accountability is feared"
+      ],
+      "frequency": 0.101,
+      "tone": "frustrated",
+      "cluster_id": "cluster_5"
+    },
+    {
+      "label": "Friction Aversion",
+      "description": "This user group shows zero tolerance for any complications or barriers in the shopping experience, abandoning purchases at the first sign of difficulty.",
+      "key_phrases": [
+        "low friction tolerance",
+        "abandon purchase at complication",
+        "no patience for barriers"
+      ],
+      "frequency": 0.014,
+      "tone": "frustrated",
+      "cluster_id": "cluster_3"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 8,
+    "total": 2061,
+    "avg_rating": 3.45,
+    "avg_length": 632,
+    "rating_distribution": {
+      "5": 614,
+      "2": 117,
+      "4": 300,
+      "3": 785,
+      "1": 245
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 778,
+      "playstore": 83
+    },
+    "n_products": 7,
+    "top_products": {
+      "unknown": 861,
+      "CrowdStrike Falcon Go Enterprise Security Software": 200,
+      "Cylance CylancePROTECT AI Endpoint Security": 200,
+      "Darktrace Enterprise Immune System AI Security": 200,
+      "Rapid7 InsightIDR Security Analytics Platform": 200
+    },
+    "low_rating_pct": 0.176,
+    "high_rating_pct": 0.443,
+    "n_sources": 3,
+    "issues": [
+      "Platform bias: amazon is 58% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 69
+  },
+  "demographic_description": "A current customer using enterprise security tools related to AI usage visibility. Provides feedback based on real usage and internal workflows. Interaction occurs through direct conversations about product improvements.",
+  "generated_at": "2026-04-05T21:55:25.123789",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "0% grounded in cluster data",
+    "cluster_stability": "moderate"
+  }
+}

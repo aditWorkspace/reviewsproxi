@@ -1,0 +1,549 @@
+{
+  "products": [
+    {
+      "name": "Hex for Data Science Teams Annual Subscription",
+      "category": "Software",
+      "accuracy": 0.98,
+      "review_keywords": [
+        "analytics",
+        "dashboard",
+        "data",
+        "team",
+        "collaboration",
+        "SQL",
+        "python"
+      ],
+      "context_keywords": [
+        "stakeholders",
+        "metrics",
+        "KPIs",
+        "roadmap"
+      ],
+      "exclusion_keywords": [
+        "beginner",
+        "student"
+      ],
+      "why": "Product managers working with data teams are the primary purchasers of collaborative analytics platforms"
+    },
+    {
+      "name": "Zendesk Support Professional Plan",
+      "category": "Software",
+      "accuracy": 0.96,
+      "review_keywords": [
+        "customer",
+        "support",
+        "tickets",
+        "feedback",
+        "management",
+        "integration"
+      ],
+      "context_keywords": [
+        "user experience",
+        "satisfaction",
+        "escalation"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "hobby"
+      ],
+      "why": "PMs managing customer feedback and support processes are the primary buyers of enterprise support software"
+    },
+    {
+      "name": "Product Management Body of Knowledge (PMBOK) Guide",
+      "category": "Books",
+      "accuracy": 0.94,
+      "review_keywords": [
+        "product",
+        "management",
+        "methodology",
+        "framework",
+        "processes"
+      ],
+      "context_keywords": [
+        "stakeholder",
+        "roadmap",
+        "requirements",
+        "sprint"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "theoretical"
+      ],
+      "why": "Working product managers buy this for professional development and methodology reference"
+    },
+    {
+      "name": "Miro Annual Team Plan Subscription",
+      "category": "Software",
+      "accuracy": 0.93,
+      "review_keywords": [
+        "collaboration",
+        "whiteboard",
+        "planning",
+        "wireframes",
+        "team"
+      ],
+      "context_keywords": [
+        "stakeholders",
+        "user journey",
+        "roadmap"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "classroom"
+      ],
+      "why": "PMs use Miro for user story mapping, roadmap planning, and stakeholder collaboration sessions"
+    },
+    {
+      "name": "Tableau Desktop Professional License",
+      "category": "Software",
+      "accuracy": 0.92,
+      "review_keywords": [
+        "visualization",
+        "dashboard",
+        "analytics",
+        "data",
+        "reports"
+      ],
+      "context_keywords": [
+        "metrics",
+        "KPIs",
+        "stakeholders"
+      ],
+      "exclusion_keywords": [
+        "academic",
+        "student"
+      ],
+      "why": "Product managers analyzing user data and creating executive dashboards are primary enterprise buyers"
+    },
+    {
+      "name": "Standing Desk Converter with Monitor Arms",
+      "category": "Office_Products",
+      "accuracy": 0.91,
+      "review_keywords": [
+        "ergonomic",
+        "productivity",
+        "dual",
+        "monitor",
+        "workspace"
+      ],
+      "context_keywords": [
+        "dashboard",
+        "meetings",
+        "analysis"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "student"
+      ],
+      "why": "PMs spend long hours analyzing dashboards and need ergonomic setups for multiple data sources"
+    },
+    {
+      "name": "Slack Business+ Annual Subscription",
+      "category": "Software",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "team",
+        "communication",
+        "integration",
+        "workflow",
+        "enterprise"
+      ],
+      "context_keywords": [
+        "stakeholders",
+        "updates",
+        "channels"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "friends"
+      ],
+      "why": "Product managers coordinating cross-functional teams are key decision makers for enterprise communication tools"
+    },
+    {
+      "name": "Blue Yeti USB Microphone for Conference Calls",
+      "category": "Electronics",
+      "accuracy": 0.89,
+      "review_keywords": [
+        "meetings",
+        "conference",
+        "quality",
+        "professional",
+        "remote"
+      ],
+      "context_keywords": [
+        "stakeholders",
+        "presentations",
+        "updates"
+      ],
+      "exclusion_keywords": [
+        "streaming",
+        "gaming"
+      ],
+      "why": "PMs leading frequent stakeholder meetings and product reviews need professional audio quality"
+    },
+    {
+      "name": "Dell UltraSharp 27-Inch 4K Monitor",
+      "category": "Electronics",
+      "accuracy": 0.88,
+      "review_keywords": [
+        "dashboard",
+        "screen",
+        "real estate",
+        "productivity",
+        "data"
+      ],
+      "context_keywords": [
+        "analytics",
+        "metrics",
+        "multiple"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "entertainment"
+      ],
+      "why": "Product managers viewing multiple dashboards and data sources simultaneously need large, high-resolution displays"
+    },
+    {
+      "name": "Moleskine Professional Notebook Large Ruled",
+      "category": "Office_Products",
+      "accuracy": 0.87,
+      "review_keywords": [
+        "meetings",
+        "notes",
+        "planning",
+        "professional",
+        "quality"
+      ],
+      "context_keywords": [
+        "stakeholder",
+        "requirements",
+        "action items"
+      ],
+      "exclusion_keywords": [
+        "school",
+        "journaling"
+      ],
+      "why": "PMs take detailed notes in stakeholder meetings and planning sessions requiring professional notebooks"
+    },
+    {
+      "name": "Logitech MX Master 3 Wireless Mouse",
+      "category": "Electronics",
+      "accuracy": 0.86,
+      "review_keywords": [
+        "productivity",
+        "precision",
+        "workflow",
+        "ergonomic",
+        "professional"
+      ],
+      "context_keywords": [
+        "dashboard",
+        "navigation",
+        "analysis"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "casual"
+      ],
+      "why": "Product managers navigating complex dashboards and data interfaces need precision pointing devices"
+    },
+    {
+      "name": "Microsoft Project Professional 2021",
+      "category": "Software",
+      "accuracy": 0.85,
+      "review_keywords": [
+        "project",
+        "timeline",
+        "planning",
+        "gantt",
+        "management"
+      ],
+      "context_keywords": [
+        "roadmap",
+        "milestones",
+        "deliverables"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "personal"
+      ],
+      "why": "PMs managing product roadmaps and cross-functional projects use professional project management software"
+    },
+    {
+      "name": "Noise-Cancelling Headphones for Open Office",
+      "category": "Electronics",
+      "accuracy": 0.84,
+      "review_keywords": [
+        "focus",
+        "office",
+        "noise",
+        "productivity",
+        "calls"
+      ],
+      "context_keywords": [
+        "analysis",
+        "concentration",
+        "meetings"
+      ],
+      "exclusion_keywords": [
+        "music",
+        "entertainment"
+      ],
+      "why": "PMs analyzing data and taking calls in open office environments need noise isolation for focus"
+    },
+    {
+      "name": "Inspired: How to Create Tech Products Customers Love",
+      "category": "Books",
+      "accuracy": 0.83,
+      "review_keywords": [
+        "product",
+        "strategy",
+        "customer",
+        "insights",
+        "methodology"
+      ],
+      "context_keywords": [
+        "user feedback",
+        "metrics",
+        "validation"
+      ],
+      "exclusion_keywords": [
+        "beginner",
+        "theory"
+      ],
+      "why": "Practicing product managers buy this industry-standard book for advanced product strategy and customer insights"
+    },
+    {
+      "name": "Aeron Office Chair by Herman Miller",
+      "category": "Office_Products",
+      "accuracy": 0.82,
+      "review_keywords": [
+        "ergonomic",
+        "long hours",
+        "productivity",
+        "professional",
+        "investment"
+      ],
+      "context_keywords": [
+        "dashboard",
+        "analysis",
+        "meetings"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "gaming"
+      ],
+      "why": "PMs spending long hours analyzing dashboards and in meetings invest in high-end ergonomic seating"
+    },
+    {
+      "name": "ThinkPad X1 Carbon Business Laptop",
+      "category": "Electronics",
+      "accuracy": 0.81,
+      "review_keywords": [
+        "business",
+        "professional",
+        "performance",
+        "reliability",
+        "enterprise"
+      ],
+      "context_keywords": [
+        "dashboards",
+        "analysis",
+        "presentations"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "student"
+      ],
+      "why": "Product managers need reliable business laptops for data analysis, dashboard access, and stakeholder presentations"
+    },
+    {
+      "name": "Continuous Discovery Habits by Teresa Torres",
+      "category": "Books",
+      "accuracy": 0.8,
+      "review_keywords": [
+        "user research",
+        "discovery",
+        "customer",
+        "feedback",
+        "methodology"
+      ],
+      "context_keywords": [
+        "insights",
+        "validation",
+        "interviews"
+      ],
+      "exclusion_keywords": [
+        "academic",
+        "theoretical"
+      ],
+      "why": "Working PMs buy this for practical frameworks on incorporating user feedback into product decisions"
+    },
+    {
+      "name": "Zoom Pro Annual Subscription",
+      "category": "Software",
+      "accuracy": 0.79,
+      "review_keywords": [
+        "meetings",
+        "stakeholder",
+        "presentation",
+        "professional",
+        "recording"
+      ],
+      "context_keywords": [
+        "updates",
+        "reviews",
+        "collaboration"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "family"
+      ],
+      "why": "Product managers leading stakeholder meetings and product reviews are primary purchasers of professional video conferencing"
+    }
+  ],
+  "subreddits": [
+    {
+      "name": "ProductManagement",
+      "relevance": 0.95,
+      "member_type": "90% working PMs across tech and traditional companies",
+      "data_value": "Real challenges with stakeholder management, metric interpretation, and cross-functional coordination",
+      "why": "Primary community for practicing product managers sharing day-to-day experiences and solutions"
+    },
+    {
+      "name": "analytics",
+      "relevance": 0.85,
+      "member_type": "60% PMs and data analysts working with product metrics",
+      "data_value": "How PMs interpret user behavior data and translate insights into product decisions",
+      "why": "PMs frequently post about dashboard interpretation and data-driven decision making"
+    },
+    {
+      "name": "userexperience",
+      "relevance": 0.8,
+      "member_type": "50% PMs focused on user feedback and experience optimization",
+      "data_value": "How PMs synthesize user feedback into actionable product improvements",
+      "why": "Many PMs actively participate in discussions about user research and feedback integration"
+    },
+    {
+      "name": "agile",
+      "relevance": 0.78,
+      "member_type": "55% PMs implementing agile methodologies in product development",
+      "data_value": "PM approaches to sprint planning, stakeholder communication, and iterative development",
+      "why": "Product managers are key participants in agile methodology discussions and implementation"
+    },
+    {
+      "name": "startups",
+      "relevance": 0.75,
+      "member_type": "40% startup PMs dealing with resource constraints and rapid iteration",
+      "data_value": "How PMs balance limited resources while maximizing user feedback incorporation",
+      "why": "Startup PMs are active contributors sharing experiences with lean product management"
+    },
+    {
+      "name": "SaaS",
+      "relevance": 0.73,
+      "member_type": "45% SaaS PMs focused on user retention and feature adoption",
+      "data_value": "PM strategies for interpreting usage metrics and customer feedback in subscription models",
+      "why": "SaaS product managers frequently discuss metric interpretation and customer success strategies"
+    },
+    {
+      "name": "cscareerquestions",
+      "relevance": 0.65,
+      "member_type": "25% PMs seeking career advancement and role transitions",
+      "data_value": "Career progression paths and skill development priorities for product managers",
+      "why": "PMs participate when discussing career transitions from technical roles or advancement strategies"
+    },
+    {
+      "name": "datascience",
+      "relevance": 0.63,
+      "member_type": "20% PMs collaborating with data science teams",
+      "data_value": "How PMs communicate requirements to data teams and interpret complex analyses",
+      "why": "PMs working with data science teams contribute to discussions about translating business needs"
+    },
+    {
+      "name": "entrepreneur",
+      "relevance": 0.6,
+      "member_type": "30% PMs at early-stage companies or considering founding startups",
+      "data_value": "PM perspectives on product-market fit validation and customer development",
+      "why": "Product-minded entrepreneurs and PM-founders share experiences with customer feedback loops"
+    },
+    {
+      "name": "consulting",
+      "relevance": 0.58,
+      "member_type": "15% PMs with consulting backgrounds or considering PM consulting",
+      "data_value": "Structured problem-solving approaches and stakeholder communication strategies",
+      "why": "PMs with consulting experience contribute frameworks for data analysis and client management"
+    },
+    {
+      "name": "technology",
+      "relevance": 0.55,
+      "member_type": "35% tech PMs discussing industry trends and product strategy",
+      "data_value": "How PMs stay current with technology trends and incorporate them into product decisions",
+      "why": "Technology-focused PMs participate in broader tech industry discussions affecting product strategy"
+    },
+    {
+      "name": "business",
+      "relevance": 0.53,
+      "member_type": "20% PMs contributing business strategy and metrics perspectives",
+      "data_value": "PM approaches to translating user metrics into business impact and ROI",
+      "why": "PMs contribute business acumen when discussing strategy and performance measurement"
+    },
+    {
+      "name": "webdev",
+      "relevance": 0.5,
+      "member_type": "25% technical PMs working closely with engineering teams",
+      "data_value": "How PMs communicate requirements and prioritize technical debt vs features",
+      "why": "Technical PMs participate in discussions about product requirements and engineering collaboration"
+    },
+    {
+      "name": "marketing",
+      "relevance": 0.48,
+      "member_type": "30% PMs involved in go-to-market strategy and customer acquisition",
+      "data_value": "PM perspectives on user acquisition metrics and product positioning",
+      "why": "PMs frequently engage in marketing discussions related to product positioning and user acquisition"
+    },
+    {
+      "name": "CustomerSuccess",
+      "relevance": 0.45,
+      "member_type": "35% PMs collaborating with customer success teams on retention",
+      "data_value": "How PMs use customer health metrics and feedback for product improvement",
+      "why": "PMs working on retention and expansion participate in customer success strategy discussions"
+    }
+  ],
+  "demographic_profile": {
+    "core_keywords": [
+      "dashboard",
+      "metrics",
+      "stakeholder",
+      "user feedback",
+      "analytics",
+      "KPIs",
+      "roadmap",
+      "data-driven",
+      "synthesis",
+      "cross-functional",
+      "requirements",
+      "prioritization",
+      "iteration",
+      "validation",
+      "insights"
+    ],
+    "exclusion_keywords": [
+      "student",
+      "beginner",
+      "theoretical",
+      "academic",
+      "gaming",
+      "personal",
+      "hobby",
+      "entertainment"
+    ],
+    "age_range": "28-45",
+    "primary_motivations": [
+      "Data-driven decision making",
+      "Stakeholder alignment and communication",
+      "User satisfaction and retention",
+      "Business impact and ROI demonstration"
+    ],
+    "summary": "Product managers are analytical professionals who synthesize data from multiple sources including user feedback platforms like Zendesk and analytics dashboards to make informed product decisions. They are driven by the need to balance user needs with business objectives while maintaining alignment across cross-functional teams including engineering, design, and executive stakeholders. Their primary frustrations center around incomplete or conflicting data, stakeholder misalignment, and the challenge of prioritizing features when resources are limited and user feedback is overwhelming or contradictory."
+  }
+}

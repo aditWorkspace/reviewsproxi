@@ -1,0 +1,598 @@
+{
+  "products": [
+    {
+      "name": "MATLAB and Simulink Student Suite",
+      "category": "Software",
+      "accuracy": 0.98,
+      "review_keywords": [
+        "research",
+        "simulation",
+        "algorithm",
+        "university",
+        "license",
+        "academic",
+        "student"
+      ],
+      "context_keywords": [
+        "dissertation",
+        "thesis",
+        "advisor",
+        "publication",
+        "conference"
+      ],
+      "exclusion_keywords": [
+        "homework",
+        "beginner"
+      ],
+      "why": "Almost exclusively purchased by graduate students and researchers at academic institutions for advanced research work"
+    },
+    {
+      "name": "Wireless Presentation Remote with Laser Pointer",
+      "category": "Electronics",
+      "accuracy": 0.95,
+      "review_keywords": [
+        "conference",
+        "presentation",
+        "lecture",
+        "slides",
+        "range",
+        "battery",
+        "reliable"
+      ],
+      "context_keywords": [
+        "symposium",
+        "keynote",
+        "academic",
+        "research"
+      ],
+      "exclusion_keywords": [
+        "classroom",
+        "teacher"
+      ],
+      "why": "Primarily bought by professionals who give technical presentations at conferences and industry events"
+    },
+    {
+      "name": "IEEE Standards Collection Software",
+      "category": "Software",
+      "accuracy": 0.97,
+      "review_keywords": [
+        "standards",
+        "compliance",
+        "engineering",
+        "reference",
+        "documentation",
+        "professional"
+      ],
+      "context_keywords": [
+        "industry",
+        "certification",
+        "technical",
+        "specification"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "beginner"
+      ],
+      "why": "Only purchased by working engineers and researchers who need access to professional IEEE standards"
+    },
+    {
+      "name": "Folding Laptop Stand for Conferences",
+      "category": "Electronics",
+      "accuracy": 0.93,
+      "review_keywords": [
+        "portable",
+        "travel",
+        "ergonomic",
+        "conference",
+        "presentation",
+        "lightweight",
+        "setup"
+      ],
+      "context_keywords": [
+        "booth",
+        "exhibition",
+        "networking",
+        "demo"
+      ],
+      "exclusion_keywords": [
+        "dorm",
+        "student"
+      ],
+      "why": "Bought by professionals who frequently travel to present at conferences and industry events"
+    },
+    {
+      "name": "Professional Business Card Scanner",
+      "category": "Electronics",
+      "accuracy": 0.94,
+      "review_keywords": [
+        "networking",
+        "contacts",
+        "scan",
+        "organize",
+        "business",
+        "cards",
+        "conference"
+      ],
+      "context_keywords": [
+        "symposium",
+        "industry",
+        "connections",
+        "follow-up"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "family"
+      ],
+      "why": "Purchased by professionals who attend networking events and need to manage industry contacts"
+    },
+    {
+      "name": "Noise-Cancelling Headphones for Focus Work",
+      "category": "Electronics",
+      "accuracy": 0.89,
+      "review_keywords": [
+        "focus",
+        "concentration",
+        "coding",
+        "research",
+        "noise",
+        "productivity",
+        "isolation"
+      ],
+      "context_keywords": [
+        "deep-work",
+        "algorithm",
+        "analysis",
+        "deadline"
+      ],
+      "exclusion_keywords": [
+        "music",
+        "entertainment"
+      ],
+      "why": "Bought by knowledge workers who need uninterrupted focus for complex technical work"
+    },
+    {
+      "name": "Whiteboard Markers Fine Tip Professional Set",
+      "category": "Office_Products",
+      "accuracy": 0.92,
+      "review_keywords": [
+        "brainstorming",
+        "meetings",
+        "diagrams",
+        "fine",
+        "precision",
+        "technical",
+        "drawing"
+      ],
+      "context_keywords": [
+        "workshop",
+        "collaboration",
+        "architecture",
+        "design"
+      ],
+      "exclusion_keywords": [
+        "classroom",
+        "kids"
+      ],
+      "why": "Purchased by professionals who lead technical discussions and design sessions in workplace settings"
+    },
+    {
+      "name": "Standing Desk Converter Adjustable",
+      "category": "Office_Products",
+      "accuracy": 0.88,
+      "review_keywords": [
+        "ergonomic",
+        "health",
+        "productivity",
+        "adjustable",
+        "workspace",
+        "professional",
+        "back"
+      ],
+      "context_keywords": [
+        "remote-work",
+        "home-office",
+        "wellness",
+        "career"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "temporary"
+      ],
+      "why": "Bought by established professionals investing in long-term workspace ergonomics for career longevity"
+    },
+    {
+      "name": "Technical Drawing Mechanical Pencil Set",
+      "category": "Office_Products",
+      "accuracy": 0.91,
+      "review_keywords": [
+        "precision",
+        "technical",
+        "drafting",
+        "engineering",
+        "fine",
+        "lead",
+        "professional"
+      ],
+      "context_keywords": [
+        "blueprint",
+        "specification",
+        "design",
+        "prototype"
+      ],
+      "exclusion_keywords": [
+        "art",
+        "sketch"
+      ],
+      "why": "Purchased by engineers and technical professionals who create precise technical drawings and schematics"
+    },
+    {
+      "name": "Professional Microphone for Video Calls",
+      "category": "Electronics",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "clear",
+        "professional",
+        "meetings",
+        "quality",
+        "video",
+        "conference",
+        "audio"
+      ],
+      "context_keywords": [
+        "interview",
+        "presentation",
+        "remote",
+        "stakeholder"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "streaming"
+      ],
+      "why": "Bought by professionals who frequently participate in high-stakes video conferences and interviews"
+    },
+    {
+      "name": "Cable Management System Under Desk",
+      "category": "Office_Products",
+      "accuracy": 0.87,
+      "review_keywords": [
+        "organization",
+        "clean",
+        "professional",
+        "setup",
+        "cables",
+        "tidy",
+        "workspace"
+      ],
+      "context_keywords": [
+        "home-office",
+        "productivity",
+        "equipment",
+        "multiple"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "entertainment"
+      ],
+      "why": "Purchased by professionals with complex technical setups who value organized, professional workspaces"
+    },
+    {
+      "name": "Blue Light Blocking Computer Glasses",
+      "category": "Health_and_Household",
+      "accuracy": 0.86,
+      "review_keywords": [
+        "eye-strain",
+        "computer",
+        "screen",
+        "professional",
+        "fatigue",
+        "long",
+        "hours"
+      ],
+      "context_keywords": [
+        "productivity",
+        "wellness",
+        "career",
+        "extended"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "casual"
+      ],
+      "why": "Bought by professionals who spend extensive hours on computers and invest in long-term eye health"
+    },
+    {
+      "name": "Document Scanner Portable Professional",
+      "category": "Electronics",
+      "accuracy": 0.89,
+      "review_keywords": [
+        "documents",
+        "portable",
+        "scan",
+        "professional",
+        "quality",
+        "travel",
+        "business"
+      ],
+      "context_keywords": [
+        "contract",
+        "meeting",
+        "client",
+        "archive"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "home"
+      ],
+      "why": "Purchased by professionals who need to digitize documents during business travel and client meetings"
+    },
+    {
+      "name": "Leather Portfolio with Notepad Professional",
+      "category": "Office_Products",
+      "accuracy": 0.85,
+      "review_keywords": [
+        "professional",
+        "meetings",
+        "leather",
+        "quality",
+        "impression",
+        "notes",
+        "business"
+      ],
+      "context_keywords": [
+        "client",
+        "executive",
+        "presentation",
+        "networking"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "casual"
+      ],
+      "why": "Bought by established professionals who want to make polished impressions in business meetings"
+    },
+    {
+      "name": "Ergonomic Keyboard Mechanical Professional",
+      "category": "Electronics",
+      "accuracy": 0.84,
+      "review_keywords": [
+        "ergonomic",
+        "typing",
+        "professional",
+        "comfort",
+        "productivity",
+        "mechanical",
+        "health"
+      ],
+      "context_keywords": [
+        "coding",
+        "long-hours",
+        "career",
+        "investment"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "rgb"
+      ],
+      "why": "Purchased by professionals who type extensively and prioritize ergonomics for long-term career health"
+    },
+    {
+      "name": "Professional Badge Holder Retractable",
+      "category": "Office_Products",
+      "accuracy": 0.92,
+      "review_keywords": [
+        "badge",
+        "professional",
+        "retractable",
+        "durable",
+        "work",
+        "access",
+        "corporate"
+      ],
+      "context_keywords": [
+        "office",
+        "security",
+        "corporate",
+        "employee"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "visitor"
+      ],
+      "why": "Bought by working professionals who need daily access control at corporate facilities"
+    },
+    {
+      "name": "Time Management Planner for Professionals",
+      "category": "Office_Products",
+      "accuracy": 0.83,
+      "review_keywords": [
+        "productivity",
+        "planning",
+        "professional",
+        "goals",
+        "time",
+        "management",
+        "career"
+      ],
+      "context_keywords": [
+        "project",
+        "deadline",
+        "strategic",
+        "advancement"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "academic"
+      ],
+      "why": "Purchased by career-focused professionals who actively manage complex projects and career development"
+    },
+    {
+      "name": "External Monitor 27-inch 4K Professional",
+      "category": "Electronics",
+      "accuracy": 0.82,
+      "review_keywords": [
+        "productivity",
+        "professional",
+        "quality",
+        "work",
+        "setup",
+        "multiple",
+        "display"
+      ],
+      "context_keywords": [
+        "home-office",
+        "remote-work",
+        "investment",
+        "career"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "entertainment"
+      ],
+      "why": "Bought by professionals who invest in high-quality equipment to enhance work productivity and capability"
+    }
+  ],
+  "subreddits": [
+    {
+      "name": "academicworld",
+      "relevance": 0.92,
+      "member_type": "85% current academics and industry researchers with advanced degrees",
+      "data_value": "Career transition insights between academia and industry, networking strategies",
+      "why": "Community specifically for professionals navigating academic-industry career paths"
+    },
+    {
+      "name": "consulting",
+      "relevance": 0.89,
+      "member_type": "80% working consultants at major firms, many with elite university backgrounds",
+      "data_value": "Professional development discussions, client management strategies, industry insights",
+      "why": "Active professionals sharing real consulting experiences and career advice"
+    },
+    {
+      "name": "MachineLearning",
+      "relevance": 0.87,
+      "member_type": "75% industry ML practitioners and researchers, many from top institutions",
+      "data_value": "Technical implementation discussions, industry applications, career trajectories",
+      "why": "Professional ML practitioners discussing real-world applications and research"
+    },
+    {
+      "name": "ExperiencedDevs",
+      "relevance": 0.91,
+      "member_type": "90% senior software engineers and technical leads with 5+ years experience",
+      "data_value": "Career advancement strategies, technical leadership insights, industry trends",
+      "why": "Exclusively for experienced professionals discussing senior-level technical careers"
+    },
+    {
+      "name": "biotech",
+      "relevance": 0.85,
+      "member_type": "70% industry professionals and academics in biotechnology",
+      "data_value": "Industry networking, research commercialization, career development insights",
+      "why": "Professionals working at the intersection of research and biotech industry"
+    },
+    {
+      "name": "SecurityCareerAdvice",
+      "relevance": 0.88,
+      "member_type": "80% cybersecurity professionals seeking career advancement",
+      "data_value": "Professional certification discussions, industry networking, skill development",
+      "why": "Working security professionals sharing career development strategies"
+    },
+    {
+      "name": "ProductManagement",
+      "relevance": 0.86,
+      "member_type": "75% working product managers, many from tech companies",
+      "data_value": "Strategic decision-making processes, stakeholder management, career progression",
+      "why": "Active PMs discussing real product challenges and career development"
+    },
+    {
+      "name": "datascience",
+      "relevance": 0.84,
+      "member_type": "65% industry data scientists and analysts with advanced training",
+      "data_value": "Professional project insights, tool evaluations, career transitions",
+      "why": "Working data scientists sharing professional experiences and technical insights"
+    },
+    {
+      "name": "venture",
+      "relevance": 0.83,
+      "member_type": "70% VC professionals and entrepreneurs with elite backgrounds",
+      "data_value": "Investment decision processes, industry networking patterns, market insights",
+      "why": "Professional investors and startup founders sharing industry knowledge"
+    },
+    {
+      "name": "financialcareers",
+      "relevance": 0.87,
+      "member_type": "80% finance professionals from investment banks, funds, and corporations",
+      "data_value": "Career progression strategies, industry networking, professional development",
+      "why": "Working finance professionals discussing career advancement and industry insights"
+    },
+    {
+      "name": "engineering",
+      "relevance": 0.82,
+      "member_type": "65% working engineers across various disciplines",
+      "data_value": "Professional project discussions, technical problem-solving, career development",
+      "why": "Practicing engineers sharing real workplace challenges and solutions"
+    },
+    {
+      "name": "TechCareerShifter",
+      "relevance": 0.89,
+      "member_type": "85% professionals transitioning between tech roles or companies",
+      "data_value": "Career transition strategies, skill development, networking approaches",
+      "why": "Experienced professionals making strategic career moves within tech industry"
+    },
+    {
+      "name": "MBA",
+      "relevance": 0.81,
+      "member_type": "60% MBA graduates and candidates, many targeting elite programs",
+      "data_value": "Post-MBA career trajectories, professional networking, leadership development",
+      "why": "MBA professionals discussing career strategy and business leadership"
+    },
+    {
+      "name": "remotework",
+      "relevance": 0.8,
+      "member_type": "65% knowledge workers and professionals working remotely",
+      "data_value": "Professional productivity strategies, remote collaboration, work-life integration",
+      "why": "Working professionals sharing remote work optimization strategies"
+    },
+    {
+      "name": "StartupJobs",
+      "relevance": 0.84,
+      "member_type": "75% startup employees and founders with professional experience",
+      "data_value": "Startup career insights, equity discussions, professional risk assessment",
+      "why": "Experienced professionals navigating startup career opportunities"
+    }
+  ],
+  "demographic_profile": {
+    "core_keywords": [
+      "networking",
+      "professional",
+      "career",
+      "expertise",
+      "industry",
+      "research",
+      "collaboration",
+      "development",
+      "strategic",
+      "innovation",
+      "leadership",
+      "technical",
+      "advancement",
+      "stakeholder",
+      "methodology"
+    ],
+    "exclusion_keywords": [
+      "student",
+      "beginner",
+      "homework",
+      "class",
+      "entertainment",
+      "gaming",
+      "casual",
+      "personal"
+    ],
+    "age_range": "28-50",
+    "primary_motivations": [
+      "career advancement and professional growth",
+      "maintaining industry expertise and credibility",
+      "building and leveraging professional networks",
+      "optimizing productivity and professional effectiveness"
+    ],
+    "summary": "These are established professionals with advanced degrees who actively participate in professional networks through conferences, interviews, and industry collaborations. Their purchasing decisions are driven by long-term career investment, professional image, and productivity optimization rather than immediate utility or cost savings. They are frustrated by tools that compromise professional credibility or efficiency, and value products that enhance their expertise demonstration and stakeholder relationships."
+  }
+}

@@ -1,0 +1,598 @@
+{
+  "products": [
+    {
+      "name": "Cocktail Recipe Cards - 50 Classic Drink Recipes for Home Bar",
+      "category": "Books",
+      "accuracy": 0.95,
+      "review_keywords": [
+        "easy",
+        "bartending",
+        "recipes",
+        "home",
+        "friends",
+        "party",
+        "drinks",
+        "quality"
+      ],
+      "context_keywords": [
+        "app",
+        "compared",
+        "recommendations",
+        "favorite"
+      ],
+      "exclusion_keywords": [
+        "professional",
+        "restaurant"
+      ],
+      "why": "Food and drink enthusiasts who want to recreate bar experiences at home buy these to enhance their hosting capabilities"
+    },
+    {
+      "name": "Food & Wine Magazine Subscription",
+      "category": "Subscription_Boxes",
+      "accuracy": 0.92,
+      "review_keywords": [
+        "restaurant",
+        "reviews",
+        "recommendations",
+        "foodie",
+        "recipes",
+        "dining",
+        "discover"
+      ],
+      "context_keywords": [
+        "similar",
+        "yelp",
+        "suggestions",
+        "tried"
+      ],
+      "exclusion_keywords": [
+        "professional",
+        "chef"
+      ],
+      "why": "Active food app users subscribe to get curated restaurant and recipe recommendations beyond their apps"
+    },
+    {
+      "name": "Moleskine Food Journal - Recipe and Restaurant Diary",
+      "category": "Office_Products",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "restaurants",
+        "track",
+        "food",
+        "experiences",
+        "notes",
+        "memories",
+        "organize"
+      ],
+      "context_keywords": [
+        "check-in",
+        "visited",
+        "rating",
+        "record"
+      ],
+      "exclusion_keywords": [
+        "diet",
+        "weight"
+      ],
+      "why": "Food app users who want to document dining experiences offline buy these to complement their digital check-ins"
+    },
+    {
+      "name": "Instant Camera for Food Photography - Polaroid Now",
+      "category": "Electronics",
+      "accuracy": 0.88,
+      "review_keywords": [
+        "food",
+        "photos",
+        "instant",
+        "sharing",
+        "memories",
+        "restaurants",
+        "social"
+      ],
+      "context_keywords": [
+        "posting",
+        "capture",
+        "moment",
+        "share"
+      ],
+      "exclusion_keywords": [
+        "professional",
+        "studio"
+      ],
+      "why": "Social food enthusiasts buy these to create shareable physical memories of their dining experiences"
+    },
+    {
+      "name": "Local Restaurant Gift Card Multi-Pack",
+      "category": "Grocery_and_Gourmet_Food",
+      "accuracy": 0.87,
+      "review_keywords": [
+        "local",
+        "restaurants",
+        "explore",
+        "try",
+        "new",
+        "dining",
+        "variety"
+      ],
+      "context_keywords": [
+        "recommended",
+        "app",
+        "suggested",
+        "reviews"
+      ],
+      "exclusion_keywords": [
+        "chain",
+        "corporate"
+      ],
+      "why": "Food app users purchase these to try new local spots they've discovered through recommendations"
+    },
+    {
+      "name": "Phone Lens Kit for Food Photography",
+      "category": "Cell_Phones_and_Accessories",
+      "accuracy": 0.85,
+      "review_keywords": [
+        "food",
+        "photos",
+        "macro",
+        "close-up",
+        "instagram",
+        "social",
+        "quality"
+      ],
+      "context_keywords": [
+        "posting",
+        "reviews",
+        "sharing",
+        "app"
+      ],
+      "exclusion_keywords": [
+        "professional",
+        "business"
+      ],
+      "why": "Food app users who share photos and reviews buy these to improve their food photography for social sharing"
+    },
+    {
+      "name": "Craft Beer Tasting Journal",
+      "category": "Books",
+      "accuracy": 0.84,
+      "review_keywords": [
+        "beer",
+        "tasting",
+        "notes",
+        "breweries",
+        "track",
+        "experiences",
+        "ratings"
+      ],
+      "context_keywords": [
+        "visited",
+        "check-in",
+        "rate",
+        "review"
+      ],
+      "exclusion_keywords": [
+        "brewing",
+        "professional"
+      ],
+      "why": "Bar and brewery app users purchase these to record detailed tasting notes beyond basic app ratings"
+    },
+    {
+      "name": "Portable Phone Charger for Social Media Users",
+      "category": "Cell_Phones_and_Accessories",
+      "accuracy": 0.82,
+      "review_keywords": [
+        "phone",
+        "battery",
+        "social",
+        "apps",
+        "all-day",
+        "posting",
+        "reliable"
+      ],
+      "context_keywords": [
+        "check-ins",
+        "photos",
+        "reviews",
+        "app"
+      ],
+      "exclusion_keywords": [
+        "work",
+        "business"
+      ],
+      "why": "Heavy app users who frequently check-in and share food content need extended battery life for their activities"
+    },
+    {
+      "name": "Food & Bar Guidebook - Hidden Gems in [City]",
+      "category": "Books",
+      "accuracy": 0.81,
+      "review_keywords": [
+        "local",
+        "hidden",
+        "restaurants",
+        "bars",
+        "discover",
+        "guide",
+        "recommendations"
+      ],
+      "context_keywords": [
+        "app",
+        "similar",
+        "found",
+        "compare"
+      ],
+      "exclusion_keywords": [
+        "tourist",
+        "vacation"
+      ],
+      "why": "Local food app users buy city-specific guides to discover spots that might not be well-covered in their apps"
+    },
+    {
+      "name": "Smartphone Tripod for Food Content Creation",
+      "category": "Electronics",
+      "accuracy": 0.8,
+      "review_keywords": [
+        "phone",
+        "tripod",
+        "food",
+        "photos",
+        "videos",
+        "stable",
+        "content"
+      ],
+      "context_keywords": [
+        "reviews",
+        "posting",
+        "sharing",
+        "social"
+      ],
+      "exclusion_keywords": [
+        "professional",
+        "vlog"
+      ],
+      "why": "Food app users creating review content buy these for better photo and video quality when documenting experiences"
+    },
+    {
+      "name": "Wine Tasting Mat and Placemats Set",
+      "category": "Home_and_Kitchen",
+      "accuracy": 0.78,
+      "review_keywords": [
+        "wine",
+        "tasting",
+        "notes",
+        "home",
+        "entertaining",
+        "guide",
+        "learning"
+      ],
+      "context_keywords": [
+        "recommendations",
+        "tried",
+        "rating",
+        "experience"
+      ],
+      "exclusion_keywords": [
+        "professional",
+        "sommelier"
+      ],
+      "why": "Bar and wine app users purchase these to enhance their at-home tasting experiences with friends"
+    },
+    {
+      "name": "Food Blogger Planner and Content Calendar",
+      "category": "Office_Products",
+      "accuracy": 0.77,
+      "review_keywords": [
+        "food",
+        "content",
+        "planning",
+        "social",
+        "posts",
+        "organize",
+        "reviews"
+      ],
+      "context_keywords": [
+        "app",
+        "posting",
+        "reviews",
+        "sharing"
+      ],
+      "exclusion_keywords": [
+        "professional",
+        "business"
+      ],
+      "why": "Active food app users who share extensive content buy these to organize their posting and review activities"
+    },
+    {
+      "name": "Reusable Food Container Set for Takeout",
+      "category": "Home_and_Kitchen",
+      "accuracy": 0.76,
+      "review_keywords": [
+        "takeout",
+        "containers",
+        "restaurants",
+        "eco-friendly",
+        "reusable",
+        "food"
+      ],
+      "context_keywords": [
+        "delivery",
+        "ordering",
+        "app",
+        "frequent"
+      ],
+      "exclusion_keywords": [
+        "meal-prep",
+        "cooking"
+      ],
+      "why": "Frequent restaurant app users who order takeout regularly purchase these for environmental and practical reasons"
+    },
+    {
+      "name": "Local Food Scene Documentary Collection",
+      "category": "Movies_and_TV",
+      "accuracy": 0.75,
+      "review_keywords": [
+        "food",
+        "documentary",
+        "local",
+        "restaurants",
+        "culture",
+        "dining",
+        "scene"
+      ],
+      "context_keywords": [
+        "featured",
+        "visited",
+        "recommendations",
+        "discover"
+      ],
+      "exclusion_keywords": [
+        "cooking",
+        "chef"
+      ],
+      "why": "Food scene enthusiasts buy these to learn about dining culture and discover new places to visit"
+    },
+    {
+      "name": "Digital Food Scale for Portion Reviews",
+      "category": "Home_and_Kitchen",
+      "accuracy": 0.74,
+      "review_keywords": [
+        "portion",
+        "size",
+        "accurate",
+        "food",
+        "measuring",
+        "reviews",
+        "value"
+      ],
+      "context_keywords": [
+        "rating",
+        "review",
+        "value",
+        "portion"
+      ],
+      "exclusion_keywords": [
+        "diet",
+        "weight-loss"
+      ],
+      "why": "Detailed food reviewers purchase these to provide accurate portion assessments in their app reviews"
+    },
+    {
+      "name": "Restaurant Loyalty Card Organizer Wallet",
+      "category": "Office_Products",
+      "accuracy": 0.73,
+      "review_keywords": [
+        "loyalty",
+        "cards",
+        "restaurants",
+        "organize",
+        "rewards",
+        "dining",
+        "frequent"
+      ],
+      "context_keywords": [
+        "regular",
+        "favorite",
+        "check-in",
+        "rewards"
+      ],
+      "exclusion_keywords": [
+        "business",
+        "corporate"
+      ],
+      "why": "Frequent restaurant-goers who use dining apps also collect physical loyalty cards and need organization"
+    },
+    {
+      "name": "Food Photography Backdrop Set",
+      "category": "Arts_Crafts_and_Sewing",
+      "accuracy": 0.72,
+      "review_keywords": [
+        "food",
+        "photography",
+        "backdrop",
+        "photos",
+        "social",
+        "instagram",
+        "aesthetic"
+      ],
+      "context_keywords": [
+        "reviews",
+        "posting",
+        "photos",
+        "sharing"
+      ],
+      "exclusion_keywords": [
+        "professional",
+        "studio"
+      ],
+      "why": "Food app users who frequently share photos and reviews buy these to improve their food photography quality"
+    },
+    {
+      "name": "Bar Tools Set for Home Cocktail Making",
+      "category": "Home_and_Kitchen",
+      "accuracy": 0.71,
+      "review_keywords": [
+        "cocktails",
+        "bar",
+        "tools",
+        "home",
+        "mixing",
+        "drinks",
+        "entertaining"
+      ],
+      "context_keywords": [
+        "tried",
+        "recipe",
+        "bar",
+        "recreate"
+      ],
+      "exclusion_keywords": [
+        "professional",
+        "bartender"
+      ],
+      "why": "Bar app users who discover cocktails at venues purchase these to recreate drinks at home"
+    }
+  ],
+  "subreddits": [
+    {
+      "name": "FoodieFinds",
+      "relevance": 0.95,
+      "member_type": "90% food app users sharing discoveries",
+      "data_value": "Real-time reactions to new restaurants and menu items, comparison of app recommendations",
+      "why": "Active food discoverers who cross-reference multiple platforms for dining decisions"
+    },
+    {
+      "name": "LocalFoodScenes",
+      "relevance": 0.92,
+      "member_type": "85% city-based restaurant explorers",
+      "data_value": "Geographic preferences, local vs chain preferences, community dining trends",
+      "why": "Users seeking hyper-local recommendations beyond mainstream apps"
+    },
+    {
+      "name": "FoodPhotography",
+      "relevance": 0.88,
+      "member_type": "80% amateur food photographers who share on apps",
+      "data_value": "Visual content creation patterns, photo quality expectations, sharing motivations",
+      "why": "Food app users who prioritize visual content in their reviews and check-ins"
+    },
+    {
+      "name": "CraftBeer",
+      "relevance": 0.85,
+      "member_type": "75% brewery check-in app users",
+      "data_value": "Detailed tasting preferences, brewery discovery patterns, rating criteria",
+      "why": "Bar app users who seek detailed reviews beyond simple star ratings"
+    },
+    {
+      "name": "cocktails",
+      "relevance": 0.83,
+      "member_type": "70% bar-goers who use recommendation apps",
+      "data_value": "Drink preferences, bar atmosphere preferences, recipe sharing behavior",
+      "why": "Active bar scene participants who discover venues through apps"
+    },
+    {
+      "name": "foodhacks",
+      "relevance": 0.8,
+      "member_type": "85% restaurant-goers seeking optimization tips",
+      "data_value": "Value-seeking behavior, efficiency preferences, experience optimization",
+      "why": "App users looking to maximize their dining experiences and app usage"
+    },
+    {
+      "name": "MealPics",
+      "relevance": 0.78,
+      "member_type": "90% social food sharers",
+      "data_value": "Photo sharing motivations, aesthetic preferences, social validation patterns",
+      "why": "Food app users who actively share visual content across platforms"
+    },
+    {
+      "name": "LocalEats",
+      "relevance": 0.77,
+      "member_type": "80% neighborhood restaurant explorers",
+      "data_value": "Hyper-local discovery patterns, community dining preferences, word-of-mouth behavior",
+      "why": "Users who complement app recommendations with community insights"
+    },
+    {
+      "name": "FoodReviews",
+      "relevance": 0.75,
+      "member_type": "85% active restaurant reviewers",
+      "data_value": "Detailed review writing patterns, rating criteria, reviewer motivations",
+      "why": "Dedicated reviewers who write extensive feedback across multiple platforms"
+    },
+    {
+      "name": "HappyHour",
+      "relevance": 0.72,
+      "member_type": "70% bar app users seeking deals",
+      "data_value": "Price sensitivity, timing preferences, value-driven decision making",
+      "why": "Bar recommendation app users who prioritize timing and value in their choices"
+    },
+    {
+      "name": "restaurantcritic",
+      "relevance": 0.7,
+      "member_type": "75% amateur food critics who use apps",
+      "data_value": "Detailed evaluation criteria, comparison methodologies, critical thinking patterns",
+      "why": "Sophisticated food app users who provide detailed analytical feedback"
+    },
+    {
+      "name": "DiningDeals",
+      "relevance": 0.68,
+      "member_type": "80% deal-seeking restaurant app users",
+      "data_value": "Price sensitivity patterns, promotional effectiveness, value perception",
+      "why": "Cost-conscious food app users who layer deal-finding with recommendation apps"
+    },
+    {
+      "name": "FoodieEvents",
+      "relevance": 0.65,
+      "member_type": "70% food event attendees who check-in",
+      "data_value": "Event discovery preferences, social dining patterns, community engagement",
+      "why": "Social food app users who seek group dining and event experiences"
+    },
+    {
+      "name": "UrbanEats",
+      "relevance": 0.63,
+      "member_type": "65% city-dwelling frequent diners",
+      "data_value": "Urban dining patterns, transportation considerations, neighborhood preferences",
+      "why": "City-based food app users with high restaurant frequency and variety seeking"
+    },
+    {
+      "name": "SocialEating",
+      "relevance": 0.6,
+      "member_type": "60% group dining coordinators",
+      "data_value": "Group decision-making patterns, consensus building, social coordination",
+      "why": "Users who coordinate group dining decisions using recommendation apps"
+    }
+  ],
+  "demographic_profile": {
+    "core_keywords": [
+      "check-in",
+      "recommendations",
+      "foodie",
+      "reviews",
+      "app",
+      "rating",
+      "discovery",
+      "local",
+      "sharing",
+      "experiences",
+      "social",
+      "recommendations",
+      "compare",
+      "suggestions",
+      "feedback"
+    ],
+    "exclusion_keywords": [
+      "professional",
+      "chef",
+      "business",
+      "corporate",
+      "industry",
+      "commercial",
+      "cooking",
+      "diet"
+    ],
+    "age_range": "25-40",
+    "primary_motivations": [
+      "discovering new dining experiences",
+      "sharing food discoveries socially",
+      "comparing and optimizing choices",
+      "building personal dining identity"
+    ],
+    "summary": "Tech-savvy food and drink enthusiasts who actively use apps to discover, evaluate, and share dining experiences. They treat restaurant and bar exploration as both a personal passion and social activity, constantly comparing platforms and providing detailed feedback to improve recommendations. They are frustrated by generic suggestions and value personalized, community-driven insights that help them discover authentic local experiences and optimize their dining decisions."
+  }
+}

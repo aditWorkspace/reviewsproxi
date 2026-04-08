@@ -9,6 +9,7 @@ from collections import defaultdict
 
 import numpy as np
 from sklearn.cluster import KMeans
+from sklearn.metrics import silhouette_score
 
 # ---------------------------------------------------------------------------
 # Keyword lists for signal detection
@@ -45,6 +46,15 @@ _NEGATIVE_WORDS: set[str] = {
     "confusing", "clunky", "ugly", "painful", "nightmare", "regret",
 }
 
+# Single-token negators that flip the polarity of the immediately following
+# sentiment word.  Two-token negators ("not at all") are not handled, but
+# single-word negation covers the vast majority of cases.
+_NEGATION_WORDS: set[str] = {
+    "not", "no", "never", "barely", "hardly", "without",
+    "isn't", "wasn't", "doesn't", "don't", "won't", "can't",
+    "couldn't", "shouldn't", "didn't", "haven't", "hasn't",
+}
+
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -64,15 +74,64 @@ def _emotional_valence(text: str) -> float:
     """Return a valence score in [-1.0, 1.0].
 
     Computed as (positive_hits - negative_hits) / total_hits, or 0.0 when
-    there are no sentiment words at all.
+    there are no sentiment words at all.  Single-token negation (e.g. "not
+    great", "never happy") flips the polarity of the immediately following
+    sentiment word, fixing the previous bug where "not great" scored positive.
     """
-    words = set(re.findall(r"[a-z]+", text.lower()))
-    pos = len(words & _POSITIVE_WORDS)
-    neg = len(words & _NEGATIVE_WORDS)
+    tokens = re.findall(r"[a-z']+", text.lower())
+    pos = 0
+    neg = 0
+    for i, token in enumerate(tokens):
+        negated = i > 0 and tokens[i - 1] in _NEGATION_WORDS
+        if token in _POSITIVE_WORDS:
+            neg += 1 if negated else 0
+            pos += 0 if negated else 1
+        elif token in _NEGATIVE_WORDS:
+            pos += 1 if negated else 0
+            neg += 0 if negated else 1
     total = pos + neg
     if total == 0:
         return 0.0
     return (pos - neg) / total
+
+
+# ---------------------------------------------------------------------------
+# Helpers
+# ---------------------------------------------------------------------------
+
+
+def _select_k(X_norm: np.ndarray, k_max: int = 10) -> int:
+    """Choose the number of KMeans clusters via silhouette score.
+
+    Tries k in [2, min(k_max, n//2)] and returns the k that maximises the
+    mean silhouette coefficient.  Falls back to 2 when the dataset is too
+    small to evaluate.
+
+    The silhouette score measures how similar each point is to its own cluster
+    versus the nearest other cluster — higher is better, range [-1, 1].
+    """
+    n = len(X_norm)
+    if n < 4:
+        return min(2, n)
+
+    k_upper = min(k_max, n // 2)
+    if k_upper < 2:
+        return 2
+
+    best_k = 2
+    best_score = -1.0
+
+    for k in range(2, k_upper + 1):
+        km = KMeans(n_clusters=k, n_init=10, random_state=42)
+        labels = km.fit_predict(X_norm)
+        if len(set(labels)) < 2:
+            continue
+        score = float(silhouette_score(X_norm, labels))
+        if score > best_score:
+            best_score = score
+            best_k = k
+
+    return best_k
 
 
 # ---------------------------------------------------------------------------
@@ -150,7 +209,7 @@ def build_reviewer_profiles(
 
 def cluster_reviewers(
     profiles: list[dict],
-    n_clusters: int = 5,
+    n_clusters: int | None = None,
 ) -> dict:
     """Cluster reviewer profiles using KMeans.
 
@@ -159,7 +218,9 @@ def cluster_reviewers(
     profiles:
         Output of :func:`build_reviewer_profiles`.
     n_clusters:
-        Number of clusters to produce.
+        Number of clusters to produce.  Pass ``None`` (default) to select
+        automatically via silhouette score.  Pass an explicit integer to
+        override.
 
     Returns
     -------
@@ -169,12 +230,10 @@ def cluster_reviewers(
         ``"profiles"`` (the profiles in that cluster) and
         ``"representative_reviews"`` (a flat list of reviews from the
         cluster member closest to the centroid).
+        ``"n_clusters_selected"`` – the k that was used.
     """
     if not profiles:
-        return {"labels": [], "clusters": {}}
-
-    # Clamp n_clusters to the number of available profiles.
-    n_clusters = min(n_clusters, len(profiles))
+        return {"labels": [], "clusters": {}, "n_clusters_selected": 0}
 
     feature_keys = [
         "avg_rating",
@@ -193,6 +252,12 @@ def cluster_reviewers(
     stds = X.std(axis=0)
     stds[stds == 0] = 1.0  # avoid division by zero
     X_norm = (X - means) / stds
+
+    # Select k automatically when not specified by the caller.
+    if n_clusters is None:
+        n_clusters = _select_k(X_norm)
+    else:
+        n_clusters = min(n_clusters, len(profiles))
 
     kmeans = KMeans(n_clusters=n_clusters, n_init=10, random_state=42)
     labels = kmeans.fit_predict(X_norm).tolist()
@@ -223,4 +288,5 @@ def cluster_reviewers(
     return {
         "labels": labels,
         "clusters": dict(clusters),
+        "n_clusters_selected": n_clusters,
     }

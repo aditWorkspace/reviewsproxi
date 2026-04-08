@@ -1,0 +1,617 @@
+{
+  "products": [
+    {
+      "name": "Analytics Software License - Google Analytics 360",
+      "category": "Software",
+      "accuracy": 0.98,
+      "review_keywords": [
+        "dashboard",
+        "tracking",
+        "conversion",
+        "attribution",
+        "funnel",
+        "segments",
+        "reporting",
+        "integration"
+      ],
+      "context_keywords": [
+        "platform",
+        "users",
+        "metrics",
+        "engagement",
+        "campaigns"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "hobby"
+      ],
+      "why": "Enterprise analytics software purchased by businesses to track user behavior and system performance."
+    },
+    {
+      "name": "Heat Map Analytics Software - Hotjar Business Plan",
+      "category": "Software",
+      "accuracy": 0.97,
+      "review_keywords": [
+        "heatmaps",
+        "session",
+        "recordings",
+        "clickstream",
+        "user-behavior",
+        "conversion",
+        "insights",
+        "tracking"
+      ],
+      "context_keywords": [
+        "visitors",
+        "website",
+        "dashboard",
+        "analytics"
+      ],
+      "exclusion_keywords": [
+        "individual",
+        "personal"
+      ],
+      "why": "User behavior tracking software purchased by companies to analyze customer interactions and system usage patterns."
+    },
+    {
+      "name": "Customer Data Platform - Segment Business Tier",
+      "category": "Software",
+      "accuracy": 0.96,
+      "review_keywords": [
+        "data-pipeline",
+        "integration",
+        "customer-profile",
+        "tracking",
+        "events",
+        "API",
+        "segmentation",
+        "unified"
+      ],
+      "context_keywords": [
+        "users",
+        "behavior",
+        "platform",
+        "analytics"
+      ],
+      "exclusion_keywords": [
+        "hobby",
+        "personal"
+      ],
+      "why": "Enterprise CDP software for companies that need to unify customer data from multiple touchpoints and track user journeys."
+    },
+    {
+      "name": "A/B Testing Platform - Optimizely Enterprise",
+      "category": "Software",
+      "accuracy": 0.95,
+      "review_keywords": [
+        "experiments",
+        "variants",
+        "conversion",
+        "statistical",
+        "audience",
+        "targeting",
+        "results",
+        "testing"
+      ],
+      "context_keywords": [
+        "users",
+        "behavior",
+        "metrics",
+        "performance"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "individual"
+      ],
+      "why": "Experimentation platform purchased by businesses to test different experiences and measure user behavior changes."
+    },
+    {
+      "name": "Business Intelligence Dashboard Software - Tableau Server",
+      "category": "Software",
+      "accuracy": 0.94,
+      "review_keywords": [
+        "visualization",
+        "dashboard",
+        "data-source",
+        "reports",
+        "analytics",
+        "insights",
+        "metrics",
+        "performance"
+      ],
+      "context_keywords": [
+        "users",
+        "behavior",
+        "tracking",
+        "analytics"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "personal"
+      ],
+      "why": "Enterprise BI software for organizations tracking and analyzing user behavior data across multiple systems."
+    },
+    {
+      "name": "Customer Journey Analytics Platform - Adobe Analytics",
+      "category": "Software",
+      "accuracy": 0.93,
+      "review_keywords": [
+        "attribution",
+        "journey",
+        "touchpoints",
+        "segmentation",
+        "behavioral",
+        "conversion",
+        "tracking",
+        "insights"
+      ],
+      "context_keywords": [
+        "customers",
+        "interactions",
+        "platform",
+        "metrics"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "hobby"
+      ],
+      "why": "Enterprise analytics platform for companies tracking customer behavior across multiple channels and touchpoints."
+    },
+    {
+      "name": "Event Tracking SDK - Amplitude Analytics",
+      "category": "Software",
+      "accuracy": 0.92,
+      "review_keywords": [
+        "events",
+        "user-properties",
+        "cohorts",
+        "retention",
+        "behavioral",
+        "tracking",
+        "SDK",
+        "integration"
+      ],
+      "context_keywords": [
+        "users",
+        "behavior",
+        "analytics",
+        "platform"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "individual"
+      ],
+      "why": "Product analytics software purchased by companies to track detailed user behavior and interaction patterns."
+    },
+    {
+      "name": "Data Analytics for Business - Power BI Pro License",
+      "category": "Software",
+      "accuracy": 0.91,
+      "review_keywords": [
+        "dashboard",
+        "visualization",
+        "data-modeling",
+        "reports",
+        "insights",
+        "analytics",
+        "business",
+        "metrics"
+      ],
+      "context_keywords": [
+        "users",
+        "behavior",
+        "tracking",
+        "performance"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "personal"
+      ],
+      "why": "Business analytics software for organizations tracking user behavior and operational metrics through data visualization."
+    },
+    {
+      "name": "Customer Feedback Analytics - Qualtrics XM Platform",
+      "category": "Software",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "survey",
+        "feedback",
+        "sentiment",
+        "analytics",
+        "insights",
+        "behavioral",
+        "customer-experience",
+        "tracking"
+      ],
+      "context_keywords": [
+        "customers",
+        "responses",
+        "behavior",
+        "platform"
+      ],
+      "exclusion_keywords": [
+        "academic",
+        "personal"
+      ],
+      "why": "Experience management platform for businesses to track customer sentiment and behavior through systematic feedback collection."
+    },
+    {
+      "name": "Marketing Attribution Software - Attribution by Google",
+      "category": "Software",
+      "accuracy": 0.89,
+      "review_keywords": [
+        "attribution",
+        "conversion",
+        "touchpoint",
+        "marketing",
+        "tracking",
+        "customer-journey",
+        "analytics",
+        "ROI"
+      ],
+      "context_keywords": [
+        "campaigns",
+        "users",
+        "behavior",
+        "performance"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "hobby"
+      ],
+      "why": "Marketing analytics software for businesses tracking how customer interactions lead to conversions and behavior changes."
+    },
+    {
+      "name": "Hotel Property Management System - Oracle OPERA Cloud",
+      "category": "Software",
+      "accuracy": 0.88,
+      "review_keywords": [
+        "guest",
+        "booking",
+        "occupancy",
+        "revenue",
+        "property",
+        "management",
+        "analytics",
+        "reporting"
+      ],
+      "context_keywords": [
+        "guests",
+        "behavior",
+        "bookings",
+        "tracking"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "individual"
+      ],
+      "why": "Hospitality software for hotels tracking guest behavior, booking patterns, and property performance metrics."
+    },
+    {
+      "name": "Retail Analytics Platform - SAS Customer Intelligence 360",
+      "category": "Software",
+      "accuracy": 0.87,
+      "review_keywords": [
+        "customer",
+        "segmentation",
+        "behavioral",
+        "predictive",
+        "analytics",
+        "retail",
+        "insights",
+        "tracking"
+      ],
+      "context_keywords": [
+        "customers",
+        "behavior",
+        "interactions",
+        "platform"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "academic"
+      ],
+      "why": "Enterprise retail analytics software for tracking customer behavior patterns and predicting future interactions."
+    },
+    {
+      "name": "Web Analytics Enterprise - Adobe Analytics Premium",
+      "category": "Software",
+      "accuracy": 0.86,
+      "review_keywords": [
+        "web",
+        "analytics",
+        "visitor",
+        "behavior",
+        "conversion",
+        "tracking",
+        "segments",
+        "reporting"
+      ],
+      "context_keywords": [
+        "visitors",
+        "website",
+        "behavior",
+        "metrics"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "blog"
+      ],
+      "why": "Enterprise web analytics for organizations tracking detailed visitor behavior and interaction patterns on digital properties."
+    },
+    {
+      "name": "Customer Behavior Analytics - Mixpanel Enterprise",
+      "category": "Software",
+      "accuracy": 0.85,
+      "review_keywords": [
+        "user",
+        "events",
+        "funnel",
+        "cohort",
+        "behavioral",
+        "analytics",
+        "tracking",
+        "engagement"
+      ],
+      "context_keywords": [
+        "users",
+        "behavior",
+        "interactions",
+        "platform"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "hobby"
+      ],
+      "why": "Product analytics platform for companies tracking detailed user behavior and engagement patterns in applications."
+    },
+    {
+      "name": "Behavioral Data Analysis - Klaviyo Enterprise",
+      "category": "Software",
+      "accuracy": 0.84,
+      "review_keywords": [
+        "customer",
+        "behavioral",
+        "segmentation",
+        "email",
+        "analytics",
+        "tracking",
+        "automation",
+        "insights"
+      ],
+      "context_keywords": [
+        "customers",
+        "behavior",
+        "marketing",
+        "platform"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "individual"
+      ],
+      "why": "Marketing platform for ecommerce businesses tracking customer behavior to drive automated engagement campaigns."
+    },
+    {
+      "name": "User Session Recording Software - FullStory Business",
+      "category": "Software",
+      "accuracy": 0.83,
+      "review_keywords": [
+        "session",
+        "recording",
+        "user",
+        "behavior",
+        "clicks",
+        "tracking",
+        "replay",
+        "insights"
+      ],
+      "context_keywords": [
+        "users",
+        "behavior",
+        "website",
+        "interactions"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "hobby"
+      ],
+      "why": "Digital experience analytics for businesses recording and analyzing detailed user behavior and interaction patterns."
+    },
+    {
+      "name": "Predictive Analytics Software - IBM SPSS Statistics Premium",
+      "category": "Software",
+      "accuracy": 0.82,
+      "review_keywords": [
+        "predictive",
+        "modeling",
+        "statistical",
+        "analysis",
+        "behavioral",
+        "data",
+        "insights",
+        "forecasting"
+      ],
+      "context_keywords": [
+        "behavior",
+        "patterns",
+        "analytics",
+        "data"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "academic"
+      ],
+      "why": "Statistical software for businesses analyzing behavioral data patterns to predict future customer actions and trends."
+    },
+    {
+      "name": "Customer Data Analytics - Salesforce Analytics Cloud",
+      "category": "Software",
+      "accuracy": 0.81,
+      "review_keywords": [
+        "customer",
+        "analytics",
+        "dashboard",
+        "insights",
+        "behavioral",
+        "CRM",
+        "tracking",
+        "reporting"
+      ],
+      "context_keywords": [
+        "customers",
+        "behavior",
+        "platform",
+        "interactions"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "individual"
+      ],
+      "why": "Enterprise CRM analytics for businesses tracking comprehensive customer behavior and interaction history across touchpoints."
+    }
+  ],
+  "subreddits": [
+    {
+      "name": "analytics",
+      "relevance": 0.95,
+      "member_type": "80% data analysts and business intelligence professionals tracking behavioral metrics",
+      "data_value": "Technical discussions about tracking methodologies, tool comparisons, and implementation challenges",
+      "why": "Community focused on professionals who implement and analyze behavioral tracking systems."
+    },
+    {
+      "name": "dataengineering",
+      "relevance": 0.9,
+      "member_type": "75% engineers building data pipelines for behavioral tracking systems",
+      "data_value": "Infrastructure discussions about collecting, processing, and storing behavioral data at scale",
+      "why": "Engineers who build the technical foundation for behavioral data collection and analysis."
+    },
+    {
+      "name": "BusinessIntelligence",
+      "relevance": 0.88,
+      "member_type": "70% BI professionals creating dashboards and reports from behavioral data",
+      "data_value": "Discussions about visualizing behavioral insights and reporting to stakeholders",
+      "why": "Professionals focused on turning behavioral data into actionable business intelligence."
+    },
+    {
+      "name": "marketing",
+      "relevance": 0.85,
+      "member_type": "65% marketers using behavioral data for campaign optimization and customer insights",
+      "data_value": "Strategies for leveraging behavioral tracking for customer acquisition and retention",
+      "why": "Marketers who rely heavily on behavioral data to understand and target customers."
+    },
+    {
+      "name": "webanalytics",
+      "relevance": 0.9,
+      "member_type": "80% web analysts tracking user behavior on digital properties",
+      "data_value": "Specific discussions about web tracking implementation, attribution, and optimization",
+      "why": "Specialists focused specifically on web-based behavioral tracking and analysis."
+    },
+    {
+      "name": "ecommerce",
+      "relevance": 0.8,
+      "member_type": "60% ecommerce professionals using behavioral data for conversion optimization",
+      "data_value": "Customer journey analysis, conversion funnel optimization, and behavioral segmentation strategies",
+      "why": "Business owners and managers who depend on behavioral insights for revenue optimization."
+    },
+    {
+      "name": "CustomerSuccess",
+      "relevance": 0.82,
+      "member_type": "70% customer success professionals tracking user engagement and behavior patterns",
+      "data_value": "Usage analytics, churn prediction, and customer health scoring based on behavioral data",
+      "why": "Professionals who use behavioral data to ensure customer retention and satisfaction."
+    },
+    {
+      "name": "ProductManagement",
+      "relevance": 0.78,
+      "member_type": "60% product managers using behavioral data for feature development and user experience",
+      "data_value": "Product usage analytics, feature adoption tracking, and user behavior insights",
+      "why": "Product professionals who make decisions based on how users interact with their products."
+    },
+    {
+      "name": "digitalnomad",
+      "relevance": 0.7,
+      "member_type": "50% remote workers in analytics, marketing, and data roles tracking behavioral metrics",
+      "data_value": "Remote work strategies for data-driven professionals and location-independent analytics careers",
+      "why": "Many behavioral tracking professionals work remotely and discuss career and lifestyle strategies."
+    },
+    {
+      "name": "SaaS",
+      "relevance": 0.85,
+      "member_type": "70% SaaS professionals heavily reliant on user behavioral data for business growth",
+      "data_value": "User onboarding analytics, feature usage tracking, and subscription behavior analysis",
+      "why": "SaaS businesses are fundamentally dependent on tracking user behavior for product and business success."
+    },
+    {
+      "name": "growthmarketing",
+      "relevance": 0.87,
+      "member_type": "75% growth marketers using behavioral data for experimentation and optimization",
+      "data_value": "A/B testing strategies, conversion optimization, and data-driven growth tactics",
+      "why": "Growth professionals who base all strategies on behavioral data and experimental results."
+    },
+    {
+      "name": "userexperience",
+      "relevance": 0.75,
+      "member_type": "55% UX professionals using behavioral data to inform design decisions",
+      "data_value": "User research methodologies, behavioral design insights, and usability testing approaches",
+      "why": "UX designers and researchers who rely on behavioral data to create better user experiences."
+    },
+    {
+      "name": "datascience",
+      "relevance": 0.72,
+      "member_type": "50% data scientists working with behavioral datasets and predictive modeling",
+      "data_value": "Advanced analytical techniques for behavioral prediction and customer modeling",
+      "why": "Data scientists often work with behavioral data for predictive analytics and machine learning projects."
+    },
+    {
+      "name": "entrepreneur",
+      "relevance": 0.68,
+      "member_type": "45% entrepreneurs who rely on behavioral data to understand and grow their customer base",
+      "data_value": "Startup growth strategies, customer development, and data-driven business building",
+      "why": "Modern entrepreneurs depend heavily on behavioral insights to validate and scale their businesses."
+    },
+    {
+      "name": "MachineLearning",
+      "relevance": 0.7,
+      "member_type": "50% ML engineers and researchers working with behavioral data for predictive models",
+      "data_value": "Behavioral prediction algorithms, recommendation systems, and customer modeling techniques",
+      "why": "Machine learning professionals often build models to predict and analyze human behavior patterns."
+    }
+  ],
+  "demographic_profile": {
+    "core_keywords": [
+      "tracking",
+      "analytics",
+      "behavioral",
+      "metrics",
+      "engagement",
+      "conversion",
+      "interactions",
+      "patterns",
+      "insights",
+      "dashboard",
+      "attribution",
+      "segmentation",
+      "performance",
+      "optimization",
+      "data-driven"
+    ],
+    "exclusion_keywords": [
+      "personal",
+      "hobby",
+      "academic",
+      "student",
+      "individual",
+      "casual",
+      "entertainment",
+      "DIY"
+    ],
+    "age_range": "28-55",
+    "primary_motivations": [
+      "actionable insights from behavioral data",
+      "improved customer understanding and prediction",
+      "data-driven decision making and optimization",
+      "measurable business impact and ROI"
+    ],
+    "summary": "This demographic consists of business professionals whose work centers around tracking, analyzing, and acting on behavioral data to drive business outcomes. They make purchasing decisions based on technical capabilities, integration possibilities, data accuracy, and the platform's ability to provide actionable insights that impact revenue or operational efficiency. They are frustrated by data silos, poor integration capabilities, delayed insights, and analytics tools that don't translate data into clear business actions."
+  }
+}

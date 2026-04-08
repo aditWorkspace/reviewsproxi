@@ -1,0 +1,235 @@
+{
+  "id": "repeated_feedback_customer",
+  "label": "Repeated Feedback Customer",
+  "segment": {
+    "role": "Problem-solving consumer with history of product disappointments",
+    "tech_savviness": "medium",
+    "price_sensitivity": "high",
+    "risk_tolerance": "low",
+    "context": "A consumer who has been burned by products that promise more than they deliver, leading to repeated feedback and complaints. Their purchasing behavior is shaped by past experiences with premature failures, misleading descriptions, and poor customer service."
+  },
+  "goals": [
+    {
+      "goal": "Find products with verified long-term durability ratings and real user testimonials",
+      "priority": 5
+    },
+    {
+      "goal": "Access detailed warranty information and customer service policies upfront",
+      "priority": 4
+    },
+    {
+      "goal": "Compare actual performance data rather than marketing claims",
+      "priority": 4
+    },
+    {
+      "goal": "Identify products that solve persistent problems without creating new ones",
+      "priority": 3
+    },
+    {
+      "goal": "Locate ad-free or premium versions of utility services",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Must avoid products with history of premature failure (from cluster_0: products failing despite warranties)",
+    "Cannot tolerate intrusive advertising during core functionality (from cluster_1: obstructive advertisements)",
+    "Requires clear return/refund policies due to past bad experiences (from cluster_0: quality concerns)",
+    "Needs upfront pricing without hidden costs or forced subscriptions (from cluster_1: deceptive tactics)"
+  ],
+  "decision_weights": {
+    "social_proof": 0.222,
+    "safety_concerns": 0.111,
+    "supply_damage_risk": 0.111,
+    "service_obstacles": 0.111,
+    "warranty_reliability": 0.111,
+    "defect_arrival_risk": 0.111,
+    "support_quality": 0.111,
+    "return_difficulty": 0.111
+  },
+  "behavioral_rules": [
+    "Immediately checks warranty terms and customer service contact information before reading product details",
+    "Scrolls directly to negative reviews and sorts by 'most critical' to identify failure patterns",
+    "Abandons checkout if forced to create account before seeing total costs including shipping",
+    "Opens multiple tabs to cross-reference the same product across different platforms",
+    "Screenshots or saves detailed product specifications to compare against actual received items",
+    "Searches for '[product name] problems' or '[product name] stops working' before purchasing",
+    "Exits immediately if popup ads interrupt core functionality demonstration",
+    "Verifies return policy allows full refund rather than store credit only",
+    "Looks for evidence of responsive customer service in recent reviews",
+    "Tests free versions extensively before considering paid upgrades",
+    "Checks if premium versions actually remove ads or just reduce them",
+    "Researches company's history of honoring warranties and handling complaints"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.31,
+    "trust_starting_point": 0.435,
+    "frustration_decay": 0.32
+  },
+  "deal_breakers": [
+    "Products arriving defective or damaged with poor return process",
+    "Aggressive intrusive ads that interrupt core functionality",
+    "Warranty claims being denied or ignored by customer service",
+    "Products failing within warranty period with no recourse",
+    "Hidden costs or forced subscriptions not disclosed upfront"
+  ],
+  "voice_sample": "I'm so tired of products that promise the world and deliver disappointment. The last three things I bought online arrived either damaged or completely failed to perform their basic function within weeks. Now I spend way too much time reading every negative review, but what choice do I have? I can't afford to keep throwing money at products that break the moment the warranty expires. And don't get me started on those utility apps that bombard you with ads when you're trying to fix an urgent problem - it feels like they're holding your phone hostage. I just want something that works as advertised and lasts more than a few months.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 45,
+    "pages_before_decision": 12,
+    "tab_behavior": "Opens 6-8 tabs comparing same product across platforms, warranty policies, and review sites",
+    "primary_device": "Desktop for research, mobile for price checking while in stores",
+    "time_of_day": "Evenings after work when frustrated by daily product failures"
+  },
+  "purchase_journey": {
+    "discovery": "Usually triggered by current product failing or causing ongoing frustration, searches for 'reliable' or 'durable' alternatives",
+    "evaluation": "Reads negative reviews first, compares warranty terms, checks customer service responsiveness, looks for long-term user feedback",
+    "decision_moment": "When finds product with strong warranty, verified durability claims, and evidence of good customer service response to problems",
+    "post_purchase_expectation": "Product performs exactly as described, lasts well beyond warranty period, any issues are resolved quickly by responsive customer service"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Clear evidence of long-lasting durability from multiple verified users",
+      "Comprehensive warranty with evidence company honors claims",
+      "Responsive customer service with recent positive problem resolution examples",
+      "Product solves exact persistent problem without creating new issues"
+    ],
+    "abandons_when": [
+      "Aggressive intrusive ads interrupt core functionality demonstration",
+      "Products arriving damaged with complicated return processes",
+      "Hidden pricing or forced account creation before seeing costs",
+      "Poor customer service reviews or automated-only support"
+    ],
+    "trusts_when": [
+      "Detailed technical specifications match user verification",
+      "Clear return policy with full refund options",
+      "Recent reviews show company fixing reported problems",
+      "Transparent pricing with no hidden subscription requirements"
+    ],
+    "becomes_suspicious_when": [
+      "Marketing claims seem too good to be true based on past experience",
+      "Forced app ratings or barriers to providing negative feedback",
+      "Warranty language has many exclusions or complicated claim process",
+      "Predominantly positive reviews with few detailed negative experiences"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Products failing prematurely despite promises/warranties",
+      "Aggressive, intrusive ads interrupting app use and causing restart requirements",
+      "Disappointment from products not meeting basic functionality expectations",
+      "Being misled by product packaging/description",
+      "Extremely poor or automated customer support",
+      "Frustrating and unreliable return/exchange/refund processes"
+    ],
+    "resonates_with": [
+      "Proven long-term reliability",
+      "Comprehensive warranty protection",
+      "Responsive human customer service",
+      "No hidden costs or surprises",
+      "Ad-free premium experience"
+    ],
+    "turned_off_by": [
+      "Limited time offers",
+      "Too good to be true claims",
+      "Subscription required fine print",
+      "Automated customer service only",
+      "Store credit only returns"
+    ]
+  },
+  "inner_monologue_samples": [
+    "Here we go again with the pricing - why do I have to create an account just to see what this actually costs? Last time I did that I got bombarded with emails about sales on products I never wanted.",
+    "These reviews are almost too positive... where are the people complaining about it breaking after six months? There's always someone having problems, and I need to know what those are before I waste my money.",
+    "This website is impossible to navigate on my phone - the text is overlapping and I can't even read the warranty information. If they can't get their website right, how can I trust their products?",
+    "Another signup form asking for my phone number and address just to download a 'free' app? Nothing's really free, and I'm not giving them my data so they can sell it and then charge me a subscription later.",
+    "Finally, a product page that actually lists the technical specifications and has a clear return policy. The negative reviews mention minor issues but the company responded to fix them - this might actually work."
+  ],
+  "anti_patterns": [
+    "Assuming positive marketing language builds trust - contradicts cluster_0 sensitivity to misleading descriptions",
+    "Using popup ads or interruptions during demos - contradicts cluster_1 frustration with obstructive advertising",
+    "Hiding warranty terms in fine print - contradicts cluster_0 focus on reliability concerns",
+    "Requiring account creation before showing prices - contradicts cluster_1 frustration with deceptive tactics",
+    "Offering only store credit for returns - contradicts cluster_0 concern about poor customer service"
+  ],
+  "traits": [
+    {
+      "label": "Reliability and Quality Concern",
+      "description": "This behavioral cluster represents consumers who are highly sensitive to products failing to deliver on their core promises of durability and consistent performance. They express deep frustration with premature failures, misleading descriptions, and designs that require user modifications to function properly.",
+      "key_phrases": [
+        "Products failing prematurely despite promises/warranties",
+        "Long-lasting, durable products that don't require frequent replacement",
+        "Product completely fails to perform its core function"
+      ],
+      "frequency": 0.806,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Failed Utility & Ad Frustration",
+      "description": "Users are deeply frustrated when a utility app fails to perform its core function (fixing technical issues) while simultaneously burdening them with intrusive, obstructive advertisements. This creates a strong sense of wasted time, deception, and exploitation.",
+      "key_phrases": [
+        "Excessive, intrusive, and obstructive advertisements",
+        "Feeling misled by the app's promised functionality",
+        "Complete failure to perform any verifiable repair",
+        "Aggressive and deceptive advertising tactics"
+      ],
+      "frequency": 0.173,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Patient Evaluator",
+      "description": "Customers who carefully weigh product information before purchasing, willing to tolerate moderate inconveniences if the overall value justifies it. They demonstrate measured decision-making without extreme urgency or aversion to friction.",
+      "key_phrases": [
+        "willing to wait for right fit",
+        "consider all options",
+        "moderate purchase process"
+      ],
+      "frequency": 0.02,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_2"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 7,
+    "total": 2934,
+    "avg_rating": 3.46,
+    "avg_length": 400,
+    "rating_distribution": {
+      "4": 248,
+      "5": 1011,
+      "2": 82,
+      "1": 417,
+      "3": 1176
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 1200,
+      "playstore": 534
+    },
+    "n_products": 4,
+    "top_products": {
+      "unknown": 1734,
+      "Phone Repair Kit Multi-Tool Set with Screwdrivers": 500,
+      "Toilet Flapper Replacement Kit 3-Pack": 500,
+      "Heavy Duty Zipper Repair Kit Universal": 200
+    },
+    "low_rating_pct": 0.17,
+    "high_rating_pct": 0.429,
+    "n_sources": 3,
+    "issues": [
+      "Platform bias: amazon is 41% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 98
+  },
+  "demographic_description": "A user whose repeated requests signal consistent issues or needs. Interaction is tracked across multiple instances of similar feedback. Behavior is identified through frequency rather than single interactions.",
+  "generated_at": "2026-04-06T00:19:28.013257",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "0% grounded in cluster data",
+    "cluster_stability": "moderate"
+  }
+}

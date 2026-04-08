@@ -1,0 +1,188 @@
+{"review_id": "cluster_2_b0_pp0", "trait_label": "Reliability Anxiety", "text": "Software lacks clear documentation, forcing manual printing and wasted effort", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp1", "trait_label": "Reliability Anxiety", "text": "Software is difficult to use, requiring cumbersome steps for simple tasks like importing photos", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp2", "trait_label": "Reliability Anxiety", "text": "Refund processes are obstructive, slow, and may violate payment card rules", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_do0", "trait_label": "Reliability Anxiety", "text": "Save time by consolidating financial data from multiple accounts into one place", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_do1", "trait_label": "Reliability Anxiety", "text": "Complete complex tasks (e.g., taxes, legal documents) easily without professional help", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp0", "trait_label": "Reliability Anxiety", "text": "Frustration with software complexity and lack of intuitiveness", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp1", "trait_label": "Reliability Anxiety", "text": "Anxiety over potential errors leading to financial loss (e.g., tax errors causing overpayment)", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp2", "trait_label": "Reliability Anxiety", "text": "Disappointment with poor customer support and long wait times", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_do0", "trait_label": "Reliability Anxiety", "text": "Accurate and error-free results (especially in financial/tax software)", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_do1", "trait_label": "Reliability Anxiety", "text": "Ease of use and intuitive interface, even for complex tasks", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp0", "trait_label": "Reliability Anxiety", "text": "Frustration with software that has minimal annual improvements while requiring paid upgrades", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp1", "trait_label": "Reliability Anxiety", "text": "Difficulty with finding features and navigating UI due to poor design or hidden options", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp2", "trait_label": "Reliability Anxiety", "text": "Annoyance at being locked into a workflow or screen with no way to correct errors after payment", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_do0", "trait_label": "Reliability Anxiety", "text": "Reliable, error-free performance for core financial management and tax preparation tasks", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_do1", "trait_label": "Reliability Anxiety", "text": "Seamless data conversion and import from previous versions without loss or corruption", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp0", "trait_label": "Reliability Anxiety", "text": "Inability to import prior year tax data due to format incompatibility", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp1", "trait_label": "Reliability Anxiety", "text": "Poor customer support with long wait times and unhelpful outcomes", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp2", "trait_label": "Reliability Anxiety", "text": "Software crashes or instability during operation", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_do0", "trait_label": "Reliability Anxiety", "text": "Reliable and secure data protection from viruses and spyware", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_do1", "trait_label": "Reliability Anxiety", "text": "Accurate and efficient financial tracking across multiple accounts", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp0", "trait_label": "Reliability Anxiety", "text": "Software that is difficult to install or has complex system requirements", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp1", "trait_label": "Reliability Anxiety", "text": "Bugs and glitches that disrupt workflow and cause crashes", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp2", "trait_label": "Reliability Anxiety", "text": "Backward compatibility issues that prevent data migration from older versions", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_do0", "trait_label": "Reliability Anxiety", "text": "Smooth, reliable performance with minimal crashes or bugs", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_do1", "trait_label": "Reliability Anxiety", "text": "Easy data migration and backward compatibility between software versions", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp0", "trait_label": "Research Tool Pragmatism", "text": "Unclear free plan limits hidden until after survey deployment", "tone": "pragmatic"}
+{"review_id": "cluster_1_b0_pp1", "trait_label": "Research Tool Pragmatism", "text": "High pricing feels unfair compared to basic features", "tone": "pragmatic"}
+{"review_id": "cluster_1_b0_pp2", "trait_label": "Research Tool Pragmatism", "text": "Poor customer support with only slow email responses", "tone": "pragmatic"}
+{"review_id": "cluster_1_b0_do0", "trait_label": "Research Tool Pragmatism", "text": "Transparent pricing and plan limits before time investment", "tone": "pragmatic"}
+{"review_id": "cluster_1_b0_do1", "trait_label": "Research Tool Pragmatism", "text": "Ability to create and reuse survey templates efficiently", "tone": "pragmatic"}
+{"review_id": "cluster_1_b1_pp0", "trait_label": "Research Tool Pragmatism", "text": "High subscription costs and pricing plans perceived as greedy and unaffordable", "tone": "pragmatic"}
+{"review_id": "cluster_1_b1_pp1", "trait_label": "Research Tool Pragmatism", "text": "Technical issues: app crashes, login errors, data upload failures, map disappearing", "tone": "pragmatic"}
+{"review_id": "cluster_1_b1_pp2", "trait_label": "Research Tool Pragmatism", "text": "Inadequate features: missing export options (CSV), no street food survey category, camera integration failure", "tone": "pragmatic"}
+{"review_id": "cluster_1_b1_do0", "trait_label": "Research Tool Pragmatism", "text": "Efficient and reliable data collection without technical disruptions", "tone": "pragmatic"}
+{"review_id": "cluster_1_b1_do1", "trait_label": "Research Tool Pragmatism", "text": "Easy data export and sharing capabilities", "tone": "pragmatic"}
+{"review_id": "cluster_1_b2_pp0", "trait_label": "Research Tool Pragmatism", "text": "Unexpected and restrictive paywalls for basic features (e.g., >10 responses, viewing results)", "tone": "pragmatic"}
+{"review_id": "cluster_1_b2_pp1", "trait_label": "Research Tool Pragmatism", "text": "Mobile app is buggy and lacks core functionality (e.g., no landscape, background audio issues, poor access)", "tone": "pragmatic"}
+{"review_id": "cluster_1_b2_pp2", "trait_label": "Research Tool Pragmatism", "text": "Confusing and expensive pricing tiers, described as a forced subscription", "tone": "pragmatic"}
+{"review_id": "cluster_1_b2_do0", "trait_label": "Research Tool Pragmatism", "text": "Accurately collect and analyze survey data to inform decisions or track progress", "tone": "pragmatic"}
+{"review_id": "cluster_1_b2_do1", "trait_label": "Research Tool Pragmatism", "text": "Have a straightforward, easy-to-use tool for creating and sharing surveys", "tone": "pragmatic"}
+{"review_id": "cluster_1_b3_pp0", "trait_label": "Research Tool Pragmatism", "text": "Hidden/unclear pricing and feature limitations in free version (e.g., response caps)", "tone": "pragmatic"}
+{"review_id": "cluster_1_b3_pp1", "trait_label": "Research Tool Pragmatism", "text": "Forced upgrade prompts blocking access to own data after exceeding free limits", "tone": "pragmatic"}
+{"review_id": "cluster_1_b3_pp2", "trait_label": "Research Tool Pragmatism", "text": "Aggressive auto-renewal and billing issues without clear consent or refunds", "tone": "pragmatic"}
+{"review_id": "cluster_1_b3_do0", "trait_label": "Research Tool Pragmatism", "text": "Transparent pricing and feature limits before starting survey creation", "tone": "pragmatic"}
+{"review_id": "cluster_1_b3_do1", "trait_label": "Research Tool Pragmatism", "text": "Affordable, scalable plans for students or small projects", "tone": "pragmatic"}
+{"review_id": "cluster_1_b4_pp0", "trait_label": "Research Tool Pragmatism", "text": "Critical bugs (e.g., email invites broken, subject lines corrupted, verification loops) block core research activities for weeks with slow support", "tone": "pragmatic"}
+{"review_id": "cluster_1_b4_pp1", "trait_label": "Research Tool Pragmatism", "text": "Free version's low response limit (10-40) feels like a trap, wasting effort when results are locked after limit is reached", "tone": "pragmatic"}
+{"review_id": "cluster_1_b4_pp2", "trait_label": "Research Tool Pragmatism", "text": "Pricing is perceived as outrageously high, especially for one-off or low-frequency users; yearly subscriptions required, no affordable monthly or per-survey options", "tone": "pragmatic"}
+{"review_id": "cluster_1_b4_do0", "trait_label": "Research Tool Pragmatism", "text": "Ability to see all survey responses without prohibitive cost, especially for one-time or low-volume projects", "tone": "pragmatic"}
+{"review_id": "cluster_1_b4_do1", "trait_label": "Research Tool Pragmatism", "text": "Transparent, affordable pricing (e.g., monthly, per-survey) instead of mandatory high yearly commitments", "tone": "pragmatic"}
+{"review_id": "cluster_4_b0_pp0", "trait_label": "Research Tool Reliability", "text": "Poor product durability leads to pages separating and covers falling off quickly.", "tone": "frustrated"}
+{"review_id": "cluster_4_b0_pp1", "trait_label": "Research Tool Reliability", "text": "Frustration with inferior product quality despite low cost.", "tone": "frustrated"}
+{"review_id": "cluster_4_b0_pp2", "trait_label": "Research Tool Reliability", "text": "Annoyance with a lack of professional acknowledgment or reciprocity for participation in research.", "tone": "frustrated"}
+{"review_id": "cluster_4_b0_do0", "trait_label": "Research Tool Reliability", "text": "Efficiently manage and organize personal or professional schedules.", "tone": "frustrated"}
+{"review_id": "cluster_4_b0_do1", "trait_label": "Research Tool Reliability", "text": "Secure reliable and durable tools for professional use.", "tone": "frustrated"}
+{"review_id": "cluster_4_b1_pp0", "trait_label": "Research Tool Reliability", "text": "Unmet expectations based on online product representations (e.g., ink color, nib performance)", "tone": "frustrated"}
+{"review_id": "cluster_4_b1_pp1", "trait_label": "Research Tool Reliability", "text": "Difficulty finding reliable technical information or compatibility details before purchase", "tone": "frustrated"}
+{"review_id": "cluster_4_b1_pp2", "trait_label": "Research Tool Reliability", "text": "Poor or non-existent customer support when experiencing product defects", "tone": "frustrated"}
+{"review_id": "cluster_4_b1_do0", "trait_label": "Research Tool Reliability", "text": "Aesthetic satisfaction and pride of ownership, including product appearance and display", "tone": "frustrated"}
+{"review_id": "cluster_4_b1_do1", "trait_label": "Research Tool Reliability", "text": "Reliable, consistent, and smooth performance for specialized tasks (e.g., writing, drawing, cataloging)", "tone": "frustrated"}
+{"review_id": "cluster_4_b2_pp0", "trait_label": "Research Tool Reliability", "text": "Difficulty discerning legitimate requests for professional input from scams or spam.", "tone": "frustrated"}
+{"review_id": "cluster_4_b2_pp1", "trait_label": "Research Tool Reliability", "text": "Being asked to provide free expert labor (data, ratings) without compensation.", "tone": "frustrated"}
+{"review_id": "cluster_4_b2_pp2", "trait_label": "Research Tool Reliability", "text": "Concern about biased or unusable data collection due to unclear definitions (e.g., 'novelty') or lack of guidance.", "tone": "frustrated"}
+{"review_id": "cluster_4_b2_do0", "trait_label": "Research Tool Reliability", "text": "Gain trust and clarity in requests for professional participation (surveys, reviews).", "tone": "frustrated"}
+{"review_id": "cluster_4_b2_do1", "trait_label": "Research Tool Reliability", "text": "Efficient, smooth, and high-performing tools (pens, markers, sharpeners).", "tone": "frustrated"}
+{"review_id": "cluster_4_b3_pp0", "trait_label": "Research Tool Reliability", "text": "Poor data quality from cheap affiliate traffic and unverified samples", "tone": "frustrated"}
+{"review_id": "cluster_4_b3_pp1", "trait_label": "Research Tool Reliability", "text": "Difficulty finding comprehensive, high-quality tools/kits in professional categories", "tone": "frustrated"}
+{"review_id": "cluster_4_b3_pp2", "trait_label": "Research Tool Reliability", "text": "Products being less durable or lower quality than expected (flimsy plastic, thin paper, unreliable zippers)", "tone": "frustrated"}
+{"review_id": "cluster_4_b3_do0", "trait_label": "Research Tool Reliability", "text": "High-quality, verified participant samples for reliable research data", "tone": "frustrated"}
+{"review_id": "cluster_4_b3_do1", "trait_label": "Research Tool Reliability", "text": "Efficient organization and protection of project materials (papers, notes, tools)", "tone": "frustrated"}
+{"review_id": "cluster_4_b4_pp0", "trait_label": "Research Tool Reliability", "text": "Skepticism about product claims until proven effective through personal testing", "tone": "frustrated"}
+{"review_id": "cluster_4_b4_pp1", "trait_label": "Research Tool Reliability", "text": "Disappointment with product color not matching online sample images", "tone": "frustrated"}
+{"review_id": "cluster_4_b4_pp2", "trait_label": "Research Tool Reliability", "text": "Frustration with difficult setup or operation (e.g., feeding paper, connecting via Bluetooth/wifi)", "tone": "frustrated"}
+{"review_id": "cluster_4_b4_do0", "trait_label": "Research Tool Reliability", "text": "Reliable, smooth-writing tools that erase cleanly for journaling", "tone": "frustrated"}
+{"review_id": "cluster_4_b4_do1", "trait_label": "Research Tool Reliability", "text": "Accurate color representation matching online samples", "tone": "frustrated"}
+{"review_id": "cluster_5_b0_pp0", "trait_label": "Critical Reliability Concern", "text": "Ads interrupting workflow, especially long loading video ads that freeze the app", "tone": "frustrated"}
+{"review_id": "cluster_5_b0_pp1", "trait_label": "Critical Reliability Concern", "text": "Difficulty editing recordings to desired specifications", "tone": "frustrated"}
+{"review_id": "cluster_5_b0_pp2", "trait_label": "Critical Reliability Concern", "text": "App glitches/crashes during critical recordings (e.g., exams)", "tone": "frustrated"}
+{"review_id": "cluster_5_b0_do0", "trait_label": "Critical Reliability Concern", "text": "High-quality, clear audio recording in various environments", "tone": "frustrated"}
+{"review_id": "cluster_5_b0_do1", "trait_label": "Critical Reliability Concern", "text": "Easy, one-touch recording with minimal setup", "tone": "frustrated"}
+{"review_id": "cluster_5_b1_pp0", "trait_label": "Critical Reliability Concern", "text": "App crashes when accessing recordings list", "tone": "frustrated"}
+{"review_id": "cluster_5_b1_pp1", "trait_label": "Critical Reliability Concern", "text": "Aggressive, loud ads interrupting playback and navigation", "tone": "frustrated"}
+{"review_id": "cluster_5_b1_pp2", "trait_label": "Critical Reliability Concern", "text": "File corruption or loss, including after uninstall/reinstall", "tone": "frustrated"}
+{"review_id": "cluster_5_b1_do0", "trait_label": "Critical Reliability Concern", "text": "Reliable, crash-free recording and playback", "tone": "frustrated"}
+{"review_id": "cluster_5_b1_do1", "trait_label": "Critical Reliability Concern", "text": "Ability to record multiple tracks/layers (e.g., overdub)", "tone": "frustrated"}
+{"review_id": "cluster_5_b2_pp0", "trait_label": "Critical Reliability Concern", "text": "Ads disrupting usage (e.g., blocking calls, causing lag, popping up during menu switches)", "tone": "frustrated"}
+{"review_id": "cluster_5_b2_pp1", "trait_label": "Critical Reliability Concern", "text": "Recordings cutting out, stopping unexpectedly, or having silent gaps", "tone": "frustrated"}
+{"review_id": "cluster_5_b2_pp2", "trait_label": "Critical Reliability Concern", "text": "Audio corruption (fast-forwarded sound, skipping, glitches)", "tone": "frustrated"}
+{"review_id": "cluster_5_b2_do0", "trait_label": "Critical Reliability Concern", "text": "Reliable, uninterrupted recording for long durations (e.g., classes, conversations)", "tone": "frustrated"}
+{"review_id": "cluster_5_b2_do1", "trait_label": "Critical Reliability Concern", "text": "High audio clarity and quality to capture nuances (e.g., for review, therapy, evidence)", "tone": "frustrated"}
+{"review_id": "cluster_5_b3_pp0", "trait_label": "Critical Reliability Concern", "text": "Recordings cut off or become corrupted over time, losing data.", "tone": "frustrated"}
+{"review_id": "cluster_5_b3_pp1", "trait_label": "Critical Reliability Concern", "text": "Ads interrupt critical moments (starting/stopping recordings, organizing files).", "tone": "frustrated"}
+{"review_id": "cluster_5_b3_pp2", "trait_label": "Critical Reliability Concern", "text": "Cannot pause and resume a recording easily.", "tone": "frustrated"}
+{"review_id": "cluster_5_b3_do0", "trait_label": "Critical Reliability Concern", "text": "Reliable, lossless recording and playback with no corruption.", "tone": "frustrated"}
+{"review_id": "cluster_5_b3_do1", "trait_label": "Critical Reliability Concern", "text": "Ability to pause and resume recordings seamlessly.", "tone": "frustrated"}
+{"review_id": "cluster_5_b4_pp0", "trait_label": "Critical Reliability Concern", "text": "Editing features are buggy and underdeveloped, making trimming and cutting recordings difficult and unreliable.", "tone": "frustrated"}
+{"review_id": "cluster_5_b4_pp1", "trait_label": "Critical Reliability Concern", "text": "Playback does not resume from the previous spot when the app is exited and reopened.", "tone": "frustrated"}
+{"review_id": "cluster_5_b4_pp2", "trait_label": "Critical Reliability Concern", "text": "Ads are intrusive and annoying, sometimes playing with disruptive sound.", "tone": "frustrated"}
+{"review_id": "cluster_5_b4_do0", "trait_label": "Critical Reliability Concern", "text": "Clear, high-quality audio recordings capturing subtle sounds (like a pin drop) from a distance.", "tone": "frustrated"}
+{"review_id": "cluster_5_b4_do1", "trait_label": "Critical Reliability Concern", "text": "Intuitive and simple interface allowing quick start/stop recording with minimal learning.", "tone": "frustrated"}
+{"review_id": "cluster_7_b0_pp0", "trait_label": "Transactional Reliability & Trust Concern", "text": "Declined transactions due to card verification issues with some merchants", "tone": "frustrated"}
+{"review_id": "cluster_7_b0_pp1", "trait_label": "Transactional Reliability & Trust Concern", "text": "Cards being flagged as already used despite receipts, suggesting pattern of misuse of trust", "tone": "frustrated"}
+{"review_id": "cluster_7_b0_pp2", "trait_label": "Transactional Reliability & Trust Concern", "text": "Loss of money due to misleading out-of-date partner information (e.g., Wise not accepting card)", "tone": "frustrated"}
+{"review_id": "cluster_7_b0_do0", "trait_label": "Transactional Reliability & Trust Concern", "text": "Fast and reliable payouts/credits within minutes", "tone": "frustrated"}
+{"review_id": "cluster_7_b0_do1", "trait_label": "Transactional Reliability & Trust Concern", "text": "Secure and seamless international payments/virtual dollar card transactions", "tone": "frustrated"}
+{"review_id": "cluster_7_b1_pp0", "trait_label": "Transactional Reliability & Trust Concern", "text": "Cards being flagged as 'already redeemed' despite user submission of unused cards, leading to loss of funds and time", "tone": "frustrated"}
+{"review_id": "cluster_7_b1_pp1", "trait_label": "Transactional Reliability & Trust Concern", "text": "Occasional transaction delays or platform processing delays causing user frustration", "tone": "frustrated"}
+{"review_id": "cluster_7_b1_pp2", "trait_label": "Transactional Reliability & Trust Concern", "text": "Restrictive minimum top-up and withdrawal limits for smaller amounts, limiting flexibility", "tone": "frustrated"}
+{"review_id": "cluster_7_b1_do0", "trait_label": "Transactional Reliability & Trust Concern", "text": "Fast, reliable processing and settlement of transactions (gift card sales, withdrawals, payments)", "tone": "frustrated"}
+{"review_id": "cluster_7_b1_do1", "trait_label": "Transactional Reliability & Trust Concern", "text": "Secure platform where funds and card details are protected from loss or fraud", "tone": "frustrated"}
+{"review_id": "cluster_7_b2_pp0", "trait_label": "Transactional Reliability & Trust Concern", "text": "Account creation/login issues prevent initial use", "tone": "frustrated"}
+{"review_id": "cluster_7_b2_pp1", "trait_label": "Transactional Reliability & Trust Concern", "text": "Fees (like 1.5% wallet top-up fee) are a drawback", "tone": "frustrated"}
+{"review_id": "cluster_7_b2_pp2", "trait_label": "Transactional Reliability & Trust Concern", "text": "Feeling scammed or cheated during gift card trades", "tone": "frustrated"}
+{"review_id": "cluster_7_b2_do0", "trait_label": "Transactional Reliability & Trust Concern", "text": "Fast, near-instant transactions and payouts", "tone": "frustrated"}
+{"review_id": "cluster_7_b2_do1", "trait_label": "Transactional Reliability & Trust Concern", "text": "A reliable, stable, and legitimate platform", "tone": "frustrated"}
+{"review_id": "cluster_7_b3_pp0", "trait_label": "Transactional Reliability & Trust Concern", "text": "high fees or charges on deposits and transactions", "tone": "frustrated"}
+{"review_id": "cluster_7_b3_pp1", "trait_label": "Transactional Reliability & Trust Concern", "text": "delays in crediting accounts or trades during rate fluctuations", "tone": "frustrated"}
+{"review_id": "cluster_7_b3_pp2", "trait_label": "Transactional Reliability & Trust Concern", "text": "friction with payment for subscriptions (e.g., Twitter)", "tone": "frustrated"}
+{"review_id": "cluster_7_b3_do0", "trait_label": "Transactional Reliability & Trust Concern", "text": "seamless, fast, and reliable transactions", "tone": "frustrated"}
+{"review_id": "cluster_7_b3_do1", "trait_label": "Transactional Reliability & Trust Concern", "text": "easy navigation and user-friendly interface", "tone": "frustrated"}
+{"review_id": "cluster_7_b4_pp0", "trait_label": "Transactional Reliability & Trust Concern", "text": "Virtual card often fails with 'card denied' error during payments", "tone": "frustrated"}
+{"review_id": "cluster_7_b4_pp1", "trait_label": "Transactional Reliability & Trust Concern", "text": "Delays in processing sales and withdrawals", "tone": "frustrated"}
+{"review_id": "cluster_7_b4_pp2", "trait_label": "Transactional Reliability & Trust Concern", "text": "Promised cashback not received and support emails bounce", "tone": "frustrated"}
+{"review_id": "cluster_7_b4_do0", "trait_label": "Transactional Reliability & Trust Concern", "text": "Seamless and swift transaction processing", "tone": "frustrated"}
+{"review_id": "cluster_7_b4_do1", "trait_label": "Transactional Reliability & Trust Concern", "text": "Easy and stress-free gift card trading", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_pp0", "trait_label": "Performance Reliability and Cost Concern", "text": "Ink leakage or dripping when pen is shaken or moved vigorously", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_pp1", "trait_label": "Performance Reliability and Cost Concern", "text": "Nib scratchiness or inconsistent writing performance", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_pp2", "trait_label": "Performance Reliability and Cost Concern", "text": "Pen not fitting as expected due to sizing or compatibility issues", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_do0", "trait_label": "Performance Reliability and Cost Concern", "text": "Smooth, effortless writing experience with minimal pressure", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_do1", "trait_label": "Performance Reliability and Cost Concern", "text": "Reliable daily use for notes, signing, and professional tasks", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_pp0", "trait_label": "Performance Reliability and Cost Concern", "text": "Unexpectedly short product lifespan with repair costs equaling replacement cost", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_pp1", "trait_label": "Performance Reliability and Cost Concern", "text": "Ink/toner is expensive per page, creating ongoing financial strain", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_pp2", "trait_label": "Performance Reliability and Cost Concern", "text": "Needing to buy additional storage units due to insufficient slot size", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_do0", "trait_label": "Performance Reliability and Cost Concern", "text": "Affordable, reliable labeling for home office use", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_do1", "trait_label": "Performance Reliability and Cost Concern", "text": "Clean, smudge-free writing with a professional-looking pen", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_pp0", "trait_label": "Performance Reliability and Cost Concern", "text": "Inconsistent ink flow requiring frequent shaking", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_pp1", "trait_label": "Performance Reliability and Cost Concern", "text": "Significant ghosting/bleeding on cheap paper", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_pp2", "trait_label": "Performance Reliability and Cost Concern", "text": "Poor pen reliability and frequent connectivity issues with printer-scanner", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_do0", "trait_label": "Performance Reliability and Cost Concern", "text": "Smooth, consistent writing without skipping", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_do1", "trait_label": "Performance Reliability and Cost Concern", "text": "High-quality, durable materials that feel premium", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_pp0", "trait_label": "Performance Reliability and Cost Concern", "text": "Difficulty with scratchy or misaligned nibs that hinder smooth writing.", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_pp1", "trait_label": "Performance Reliability and Cost Concern", "text": "Ink clogging or flow issues, especially with shimmering inks or specific brands.", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_pp2", "trait_label": "Performance Reliability and Cost Concern", "text": "Disappointment in counterfeit or fake products affecting trust in purchases.", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_do0", "trait_label": "Performance Reliability and Cost Concern", "text": "Smooth, consistent writing experience without skipping or scratchiness.", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_do1", "trait_label": "Performance Reliability and Cost Concern", "text": "Reliable ink flow and compatibility with various inks (e.g., shimmer, permanent).", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_pp0", "trait_label": "Performance Reliability and Cost Concern", "text": "Wrist pain and discomfort from prolonged computer use, risking carpal tunnel.", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_pp1", "trait_label": "Performance Reliability and Cost Concern", "text": "Frustration with managing and transferring data between online and physical records for accounting/taxes.", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_pp2", "trait_label": "Performance Reliability and Cost Concern", "text": "Frustration with high ink costs and low cartridge yields from printer manufacturers.", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_do0", "trait_label": "Performance Reliability and Cost Concern", "text": "Achieve better organization and efficient tracking of finances and documents.", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_do1", "trait_label": "Performance Reliability and Cost Concern", "text": "Reduce physical discomfort and fatigue during long work sessions.", "tone": "frustrated"}
+{"review_id": "cluster_6_b0_pp0", "trait_label": "Research Process Friction", "text": "Manual survey and interview processes are time-consuming and cumbersome, requiring physical equipment like heavy fax-copiers and phone jacks.", "tone": "frustrated"}
+{"review_id": "cluster_6_b0_pp1", "trait_label": "Research Process Friction", "text": "Traditional static surveys fail to capture actionable, contextual feedback on specific parts of an experience.", "tone": "frustrated"}
+{"review_id": "cluster_6_b0_pp2", "trait_label": "Research Process Friction", "text": "Concern that AI-driven survey tools may feel like impersonal bots, reducing engagement and completion rates.", "tone": "frustrated"}
+{"review_id": "cluster_6_b0_do0", "trait_label": "Research Process Friction", "text": "Efficient, portable solutions for document handling and data collection in field settings (e.g., mobile scanning).", "tone": "frustrated"}
+{"review_id": "cluster_6_b0_do1", "trait_label": "Research Process Friction", "text": "Deeper, contextual feedback from surveys to understand precise pain points and emotional drivers.", "tone": "frustrated"}
+{"review_id": "cluster_6_b1_pp0", "trait_label": "Research Process Friction", "text": "Difficulty identifying and preventing fraud in online surveys", "tone": "frustrated"}
+{"review_id": "cluster_6_b1_pp1", "trait_label": "Research Process Friction", "text": "Struggling to stay ahead of fraudsters who compromise data quality", "tone": "frustrated"}
+{"review_id": "cluster_6_b1_pp2", "trait_label": "Research Process Friction", "text": "Lack of transparency about survey fraud costs, attackers, and legal cases", "tone": "frustrated"}
+{"review_id": "cluster_6_b1_do0", "trait_label": "Research Process Friction", "text": "Effective methods to detect and prevent survey fraud, including bot detection and KYC verification", "tone": "frustrated"}
+{"review_id": "cluster_6_b1_do1", "trait_label": "Research Process Friction", "text": "Practical, evidence-based guidance on reliable signals and survey design to resist AI responses", "tone": "frustrated"}
+{"review_id": "cluster_6_b2_pp0", "trait_label": "Research Process Friction", "text": "Frustration with low-quality survey data due to fraud and AI agents.", "tone": "frustrated"}
+{"review_id": "cluster_6_b2_pp1", "trait_label": "Research Process Friction", "text": "Concern about the difficulty of detecting sophisticated fraud, especially AI-driven bots.", "tone": "frustrated"}
+{"review_id": "cluster_6_b2_pp2", "trait_label": "Research Process Friction", "text": "Anxiety over the increasing scale and sophistication of click farms.", "tone": "frustrated"}
+{"review_id": "cluster_6_b2_do0", "trait_label": "Research Process Friction", "text": "Effective detection and prevention of survey fraud (AI agents, click farms).", "tone": "frustrated"}
+{"review_id": "cluster_6_b2_do1", "trait_label": "Research Process Friction", "text": "High-quality, trustworthy data for research.", "tone": "frustrated"}
+{"review_id": "cluster_6_b3_pp0", "trait_label": "Research Process Friction", "text": "Excessive manual typing leads to wrist/arm pain and tendonitis, affecting work.", "tone": "frustrated"}
+{"review_id": "cluster_6_b3_pp1", "trait_label": "Research Process Friction", "text": "Physical discomfort and numbness from poor ergonomics while working.", "tone": "frustrated"}
+{"review_id": "cluster_6_b3_pp2", "trait_label": "Research Process Friction", "text": "Inadequate product ergonomics, like keyboards without adjustable incline, causing strain.", "tone": "frustrated"}
+{"review_id": "cluster_6_b3_do0", "trait_label": "Research Process Friction", "text": "Reduce or eliminate physical pain/numbness from repetitive typing tasks.", "tone": "frustrated"}
+{"review_id": "cluster_6_b3_do1", "trait_label": "Research Process Friction", "text": "Achieve ergonomic comfort and prevent injury through adjustable equipment.", "tone": "frustrated"}
+{"review_id": "cluster_6_b4_pp0", "trait_label": "Research Process Friction", "text": "Respondent boredom and disengagement in surveys, leading to poor data quality.", "tone": "frustrated"}
+{"review_id": "cluster_6_b4_pp1", "trait_label": "Research Process Friction", "text": "Difficulty managing and making sense of large volumes of qualitative feedback (e.g., open-ended responses).", "tone": "frustrated"}
+{"review_id": "cluster_6_b4_pp2", "trait_label": "Research Process Friction", "text": "Lack of space or unsuitable home office setup, especially post-pandemic.", "tone": "frustrated"}
+{"review_id": "cluster_6_b4_do0", "trait_label": "Research Process Friction", "text": "Gather deeper, more nuanced insights from survey respondents through conversational, adaptive questioning.", "tone": "frustrated"}
+{"review_id": "cluster_6_b4_do1", "trait_label": "Research Process Friction", "text": "Maintain high respondent engagement to ensure reliable, measurable results.", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp0", "trait_label": "Developer Trust Deficit", "text": "Data privacy invasion through excessive permissions", "tone": "skeptical"}
+{"review_id": "cluster_0_b0_pp1", "trait_label": "Developer Trust Deficit", "text": "Unreliable app performance and force closing", "tone": "skeptical"}
+{"review_id": "cluster_0_b0_pp2", "trait_label": "Developer Trust Deficit", "text": "Deceptive developer practices like fake reviews", "tone": "skeptical"}
+{"review_id": "cluster_0_b0_do0", "trait_label": "Developer Trust Deficit", "text": "Complete privacy with minimal app permissions", "tone": "skeptical"}
+{"review_id": "cluster_0_b0_do1", "trait_label": "Developer Trust Deficit", "text": "Reliable and stable app performance", "tone": "skeptical"}
+{"review_id": "cluster_0_b1_pp0", "trait_label": "Developer Trust Deficit", "text": "Insufficient or basic information provided by the app", "tone": "skeptical"}
+{"review_id": "cluster_0_b1_do0", "trait_label": "Developer Trust Deficit", "text": "Help with research methodology for students or professionals", "tone": "skeptical"}
+{"review_id": "cluster_0_b1_do1", "trait_label": "Developer Trust Deficit", "text": "Ability to use app effectively for collaborative research", "tone": "skeptical"}
+{"review_id": "monologue_21c291", "trait_label": "Inner Monologue", "text": "They're not showing the full pricing breakdown - what are the hidden subscription fees? I learned the hard way that 'affordable' tools often have expensive ongoing costs that equal replacement price.", "tone": "authentic_voice"}
+{"review_id": "monologue_ae7e60", "trait_label": "Inner Monologue", "text": "These testimonials look too polished. After being burned by deceptive developer practices and fake reviews, I need to see real user complaints and how the company responds to them.", "tone": "authentic_voice"}
+{"review_id": "monologue_d8c858", "trait_label": "Inner Monologue", "text": "This setup process looks complicated without clear documentation. I don't have time to figure out undocumented features when I'm already dealing with manual coding that causes wrist pain.", "tone": "authentic_voice"}
+{"review_id": "monologue_1c75f9", "trait_label": "Inner Monologue", "text": "Another signup form asking for excessive permissions before I can even see the product details. This feels like the unjustified data collection issues I've seen before - I'm out.", "tone": "authentic_voice"}
+{"review_id": "monologue_69c00c", "trait_label": "Inner Monologue", "text": "Finally, a tool that shows actual API documentation for PowerBI integration and has responsive support chat. This might actually solve my workflow problems without creating new ones.", "tone": "authentic_voice"}

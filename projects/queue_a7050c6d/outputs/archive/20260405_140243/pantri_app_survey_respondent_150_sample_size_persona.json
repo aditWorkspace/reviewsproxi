@@ -1,0 +1,260 @@
+{
+  "id": "survey_respondent_(150+_sample_size)",
+  "label": "Survey Respondent (150+ Sample Size)",
+  "segment": {
+    "role": "Research-focused professional or academic",
+    "tech_savviness": "medium",
+    "price_sensitivity": "medium",
+    "risk_tolerance": "low",
+    "context": "Professional who values methodological rigor and accurate data collection in their work. Becomes frustrated with inefficient systems that waste time or compromise the quality of research outcomes."
+  },
+  "goals": [
+    {
+      "goal": "Find survey tools that deliver methodological accuracy and reliable results",
+      "priority": 5
+    },
+    {
+      "goal": "Access comprehensive, evidence-based information without superficial content",
+      "priority": 4
+    },
+    {
+      "goal": "Obtain clear, unambiguous survey questions and response options",
+      "priority": 4
+    },
+    {
+      "goal": "Validate problem relevance with high confidence through quality data",
+      "priority": 4
+    },
+    {
+      "goal": "Achieve cost-effective survey process with minimal administrative burden",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Must avoid products that require constant app use for basic functions",
+    "Cannot tolerate ambiguous survey questions that cause confusion",
+    "Needs transparent methodology and clear results categorization",
+    "Requires accurate product descriptions to set correct expectations",
+    "Must have access to well-documented, credible information sources"
+  ],
+  "decision_weights": {
+    "app_dependency_frustration": 0.125,
+    "subscription_promotion_aggression": 0.125,
+    "workflow_integration_inefficiency": 0.125,
+    "social_environment_assessment_fatigue": 0.125,
+    "expression_limiting_stereotypes": 0.125,
+    "physical_workspace_clutter": 0.125,
+    "document_management_difficulty": 0.125,
+    "time_wasting_tool_inefficiency": 0.125
+  },
+  "behavioral_rules": [
+    "Immediately abandons survey platforms with ambiguous questions or unclear instructions",
+    "Exits websites that force app downloads for basic functionality access",
+    "Seeks detailed methodology descriptions before committing to research tools",
+    "Abandons services with aggressive subscription promotions during trial periods",
+    "Requires preview of survey question quality before purchasing access",
+    "Checks for accuracy guarantees and error-correction capabilities in data tools",
+    "Avoids platforms with poor transparency in results categorization",
+    "Demands clear, step-by-step instructions before proceeding with complex tools",
+    "Exits immediately if product descriptions appear misleading or incomplete",
+    "Seeks evidence of methodological rigor in tool documentation before purchase"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.319,
+    "trust_starting_point": 0.505,
+    "frustration_decay": 0.384
+  },
+  "deal_breakers": [
+    "Products that fail to perform as advertised",
+    "Misleading product descriptions",
+    "Inaccurate data collection tools",
+    "Ambiguous survey questions causing confusion",
+    "Poor transparency in survey outcomes"
+  ],
+  "voice_sample": "I'm constantly frustrated by tools that promise methodological accuracy but deliver inconsistent results. When I'm designing surveys, I need clear, unambiguous survey questions with well-defined images and examples - not vague prompts that leave respondents confused. I've wasted too much time with inefficient tools that force manual data counting and verification processes that are prone to human error. What I really need is access to thoroughly researched, accurate, and comprehensive information that helps me achieve reliable, precise, and accurate tool performance. The last thing I want is to deal with products that require constant app use for basic functions when I'm trying to focus on collecting quality data.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 25,
+    "pages_before_decision": 8,
+    "tab_behavior": "Opens multiple tabs to compare methodology documentation and accuracy claims",
+    "primary_device": "Desktop computer during work hours for detailed review",
+    "time_of_day": "Mid-morning when mentally sharp for evaluating technical specifications"
+  },
+  "purchase_journey": {
+    "discovery": "Searches for research tools through academic databases and professional networks",
+    "evaluation": "Reviews methodology documentation, accuracy guarantees, and sample survey questions first",
+    "decision_moment": "When they find clear evidence of methodological accuracy and transparent processes",
+    "post_purchase_expectation": "Expects reliable data collection with minimal errors and clear result categorization"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Sees detailed methodology documentation",
+      "Finds clear, unambiguous survey examples",
+      "Discovers accuracy guarantees and error-correction features",
+      "Views transparent pricing without hidden costs"
+    ],
+    "abandons_when": [
+      "Encounters ambiguous survey questions",
+      "Forced to download apps for basic functions",
+      "Sees misleading product descriptions",
+      "Finds poor transparency in methodology"
+    ],
+    "trusts_when": [
+      "Methodology is well-documented and credible",
+      "Product descriptions are accurate and complete",
+      "Clear evidence of research quality and rigor",
+      "Transparent results categorization is provided"
+    ],
+    "becomes_suspicious_when": [
+      "Product claims seem too good to be true",
+      "Methodology details are vague or missing",
+      "Aggressive subscription promotions appear",
+      "No accuracy guarantees are provided"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Methodological accuracy concerns",
+      "Clear, unambiguous survey questions with well-defined images and examples",
+      "Access to thoroughly researched, accurate, and comprehensive information",
+      "Accurate and honest product descriptions to set correct expectations",
+      "Clear, reliable survey results for validation and methodological accuracy"
+    ],
+    "resonates_with": [
+      "Evidence-based methodology",
+      "Rigorous data collection",
+      "Transparent processes",
+      "Academic standards",
+      "Quality assurance"
+    ],
+    "turned_off_by": [
+      "Vague methodology",
+      "Superficial research",
+      "Hidden complexity",
+      "Aggressive marketing",
+      "Unclear specifications"
+    ]
+  },
+  "inner_monologue_samples": [
+    "The pricing looks reasonable, but I need to see the methodology documentation first - I can't afford to invest in another tool that produces inaccurate data.",
+    "These testimonials mention accuracy, but where's the evidence? I need to see sample survey questions before I trust their claims about methodological rigor.",
+    "This navigation is confusing and if their website is this disorganized, how can I trust their survey design capabilities?",
+    "They want my email before showing me anything substantive - this feels like another aggressive subscription push rather than a serious research tool.",
+    "Finally, clear documentation about their validation process and transparent results categorization - this looks like it could actually deliver the methodological accuracy I need."
+  ],
+  "anti_patterns": [
+    "Assuming they'll tolerate app-dependent workflows - contradicts their frustration with constant app use for basic functions",
+    "Using vague methodology descriptions - contradicts their need for clear, unambiguous information",
+    "Implementing aggressive marketing tactics - contradicts their preference for transparent, evidence-based communication",
+    "Hiding accuracy limitations in fine print - contradicts their demand for honest product descriptions",
+    "Focusing on flashy features over methodological rigor - contradicts their scholarly precision priorities"
+  ],
+  "traits": [
+    {
+      "label": "Frustration with Inefficient Systems",
+      "description": "This trait describes users who are frustrated by products and systems that create unnecessary complexity, waste time, or fail to deliver on their basic functional promises. They desire straightforward, reliable tools that work cohesively without hidden dependencies or aggressive monetization.",
+      "key_phrases": [
+        "constant app use for basic functions",
+        "inefficient tools that waste time",
+        "struggle to maintain organized, accessible supplies",
+        "products that fail to perform as advertised",
+        "misleading product descriptions"
+      ],
+      "frequency": 0.674,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Accuracy & Reliability Concern",
+      "description": "This cluster reflects a deep concern for methodological precision and trustworthy outcomes, especially in data collection, analysis, and validation. Users are frustrated by tools that introduce errors, inconsistencies, or opaque results, as these flaws undermine the core purpose of their work and force them into inefficient or error-prone manual processes.",
+      "key_phrases": [
+        "Methodological accuracy concerns",
+        "Inaccurate data collection tools",
+        "Manual data counting and verification processes that are prone to human error",
+        "AI-generated images contain subtle errors",
+        "Poor transparency in survey outcomes"
+      ],
+      "frequency": 0.116,
+      "tone": "frustrated",
+      "cluster_id": "cluster_4"
+    },
+    {
+      "label": "Scholarly Rigor Seeker",
+      "description": "A user who prioritizes accuracy, depth, and credibility in information, often regarding historical or factual subjects. They are frustrated by shallow research, unverified sources, and poor writing, and highly value transparent methods, reliable evidence, and clear communication.",
+      "key_phrases": [
+        "Difficulty finding comprehensive, evidence-based literature",
+        "Access to thoroughly researched, accurate, and comprehensive information",
+        "Frustration with superficial or poorly researched content"
+      ],
+      "frequency": 0.093,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Clarity & Precision Demand",
+      "description": "This cluster represents users who are highly sensitive to ambiguity and imprecision, whether in survey design or product quality. They are frustrated by unclear instructions, poorly defined terms, and defective items, and have a strong desire for methodological accuracy and explicit, functional communication.",
+      "key_phrases": [
+        "Ambiguous survey questions and images causing confusion and inability to answer",
+        "Frustration with unclear survey results categorization",
+        "Clear, unambiguous survey questions with well-defined images and examples",
+        "Methodological accuracy leading to valid, unskewed results"
+      ],
+      "frequency": 0.093,
+      "tone": "frustrated",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Value-Cautious Evaluation",
+      "description": "Consistently expresses a moderate, considered approach to evaluating products, indicating they will tolerate some inconvenience or cost if the overall value is justified, but are not easily swayed by minor benefits.",
+      "key_phrases": [
+        "dominant_friction_tolerance: medium"
+      ],
+      "frequency": 0.023,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_3"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 7,
+    "total": 1279,
+    "avg_rating": 4.39,
+    "avg_length": 940,
+    "rating_distribution": {
+      "3": 158,
+      "5": 821,
+      "4": 234,
+      "1": 34,
+      "2": 32
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 79
+    },
+    "n_products": 5,
+    "top_products": {
+      "Professional Survey Clipboard with Storage": 500,
+      "SurveyMonkey Gift Cards for Survey Incentives": 500,
+      "Market Research Survey Methodology Handbook": 100,
+      "Statistical Analysis for Survey Research Textbook": 100,
+      "unknown": 79
+    },
+    "low_rating_pct": 0.052,
+    "high_rating_pct": 0.825,
+    "n_sources": 2,
+    "issues": [
+      "Very few negative reviews \u2014 pain points may be underrepresented",
+      "Platform bias: amazon is 94% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 43
+  },
+  "demographic_description": "A user participating in surveys used to validate problem relevance. Provides structured responses during early-stage research. Interaction occurs before product development.",
+  "generated_at": "2026-04-05T10:19:43.122838",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "60% grounded in cluster data",
+    "cluster_stability": "low"
+  }
+}

@@ -1,0 +1,599 @@
+{
+  "products": [
+    {
+      "name": "Microsoft Visual Studio Professional 2022",
+      "category": "Software",
+      "accuracy": 0.95,
+      "review_keywords": [
+        "beta",
+        "testing",
+        "preview",
+        "features",
+        "development",
+        "early",
+        "access"
+      ],
+      "context_keywords": [
+        "enterprise",
+        "team",
+        "deployment",
+        "testing",
+        "validation"
+      ],
+      "exclusion_keywords": [
+        "beginner",
+        "learning"
+      ],
+      "why": "Enterprise developers and power users buy professional development tools for early feature access and testing capabilities"
+    },
+    {
+      "name": "Atlassian Jira Software Server License",
+      "category": "Software",
+      "accuracy": 0.94,
+      "review_keywords": [
+        "workflow",
+        "customization",
+        "integration",
+        "pilot",
+        "rollout",
+        "testing",
+        "features"
+      ],
+      "context_keywords": [
+        "enterprise",
+        "team",
+        "deployment",
+        "validation"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "hobby"
+      ],
+      "why": "Enterprise project managers purchase advanced project management software to test new workflows before company-wide rollout"
+    },
+    {
+      "name": "Slack Pro Annual Subscription",
+      "category": "Software",
+      "accuracy": 0.93,
+      "review_keywords": [
+        "beta",
+        "features",
+        "integration",
+        "testing",
+        "early",
+        "access",
+        "feedback"
+      ],
+      "context_keywords": [
+        "enterprise",
+        "team",
+        "pilot",
+        "rollout"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "free"
+      ],
+      "why": "Enterprise IT decision-makers buy collaboration tools to pilot new communication features with their teams"
+    },
+    {
+      "name": "Adobe Creative Cloud Enterprise License",
+      "category": "Software",
+      "accuracy": 0.92,
+      "review_keywords": [
+        "preview",
+        "beta",
+        "new",
+        "features",
+        "testing",
+        "creative",
+        "workflow"
+      ],
+      "context_keywords": [
+        "enterprise",
+        "team",
+        "feedback",
+        "pilot"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "personal"
+      ],
+      "why": "Enterprise creative teams purchase professional creative software suites to test new design features and workflows"
+    },
+    {
+      "name": "AWS Enterprise Support Plan",
+      "category": "Software",
+      "accuracy": 0.91,
+      "review_keywords": [
+        "preview",
+        "early",
+        "access",
+        "testing",
+        "enterprise",
+        "support",
+        "features"
+      ],
+      "context_keywords": [
+        "deployment",
+        "validation",
+        "feedback",
+        "team"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "startup"
+      ],
+      "why": "Enterprise cloud architects buy premium support to get early access to AWS beta features and preview services"
+    },
+    {
+      "name": "Salesforce Enterprise Edition Annual License",
+      "category": "Software",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "pilot",
+        "testing",
+        "features",
+        "rollout",
+        "customization",
+        "integration",
+        "beta"
+      ],
+      "context_keywords": [
+        "enterprise",
+        "team",
+        "deployment",
+        "feedback"
+      ],
+      "exclusion_keywords": [
+        "small",
+        "personal"
+      ],
+      "why": "Enterprise sales operations managers purchase CRM software to pilot new sales features before broader team adoption"
+    },
+    {
+      "name": "Tableau Desktop Professional License",
+      "category": "Software",
+      "accuracy": 0.89,
+      "review_keywords": [
+        "analytics",
+        "testing",
+        "new",
+        "features",
+        "beta",
+        "visualization",
+        "enterprise"
+      ],
+      "context_keywords": [
+        "team",
+        "deployment",
+        "pilot",
+        "validation"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "student"
+      ],
+      "why": "Enterprise data analysts buy advanced analytics software to test new visualization features and reporting capabilities"
+    },
+    {
+      "name": "Microsoft Office 365 E5 Enterprise License",
+      "category": "Software",
+      "accuracy": 0.88,
+      "review_keywords": [
+        "preview",
+        "early",
+        "access",
+        "testing",
+        "enterprise",
+        "features",
+        "pilot"
+      ],
+      "context_keywords": [
+        "deployment",
+        "team",
+        "rollout",
+        "feedback"
+      ],
+      "exclusion_keywords": [
+        "home",
+        "personal"
+      ],
+      "why": "Enterprise IT administrators purchase premium office suites to test new productivity features before company-wide deployment"
+    },
+    {
+      "name": "Docker Enterprise Advanced License",
+      "category": "Software",
+      "accuracy": 0.87,
+      "review_keywords": [
+        "containerization",
+        "testing",
+        "beta",
+        "enterprise",
+        "features",
+        "deployment",
+        "early"
+      ],
+      "context_keywords": [
+        "team",
+        "pilot",
+        "validation",
+        "feedback"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "hobby"
+      ],
+      "why": "Enterprise DevOps engineers buy containerization platforms to test new deployment features and orchestration capabilities"
+    },
+    {
+      "name": "Zoom Enterprise Plus Annual License",
+      "category": "Software",
+      "accuracy": 0.86,
+      "review_keywords": [
+        "enterprise",
+        "testing",
+        "new",
+        "features",
+        "beta",
+        "pilot",
+        "communication"
+      ],
+      "context_keywords": [
+        "team",
+        "deployment",
+        "rollout",
+        "feedback"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "basic"
+      ],
+      "why": "Enterprise communication managers purchase video conferencing software to pilot new meeting features and collaboration tools"
+    },
+    {
+      "name": "Kubernetes Enterprise Support Subscription",
+      "category": "Software",
+      "accuracy": 0.85,
+      "review_keywords": [
+        "orchestration",
+        "testing",
+        "beta",
+        "enterprise",
+        "features",
+        "early",
+        "access"
+      ],
+      "context_keywords": [
+        "deployment",
+        "team",
+        "pilot",
+        "validation"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "learning"
+      ],
+      "why": "Enterprise platform engineers buy container orchestration support to access preview features and testing environments"
+    },
+    {
+      "name": "Splunk Enterprise Security License",
+      "category": "Software",
+      "accuracy": 0.84,
+      "review_keywords": [
+        "security",
+        "analytics",
+        "testing",
+        "enterprise",
+        "features",
+        "beta",
+        "monitoring"
+      ],
+      "context_keywords": [
+        "team",
+        "deployment",
+        "pilot",
+        "feedback"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "free"
+      ],
+      "why": "Enterprise security analysts purchase security monitoring software to test new threat detection features and analytics capabilities"
+    },
+    {
+      "name": "JetBrains All Products Pack Enterprise License",
+      "category": "Software",
+      "accuracy": 0.83,
+      "review_keywords": [
+        "development",
+        "IDE",
+        "testing",
+        "features",
+        "beta",
+        "enterprise",
+        "early"
+      ],
+      "context_keywords": [
+        "team",
+        "pilot",
+        "deployment",
+        "feedback"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "personal"
+      ],
+      "why": "Enterprise development teams buy comprehensive IDE suites to test new development features and productivity tools"
+    },
+    {
+      "name": "MongoDB Enterprise Advanced License",
+      "category": "Software",
+      "accuracy": 0.82,
+      "review_keywords": [
+        "database",
+        "testing",
+        "enterprise",
+        "features",
+        "beta",
+        "performance",
+        "early"
+      ],
+      "context_keywords": [
+        "deployment",
+        "team",
+        "pilot",
+        "validation"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "community"
+      ],
+      "why": "Enterprise database administrators purchase NoSQL database licenses to test new database features and performance optimizations"
+    },
+    {
+      "name": "GitLab Ultimate Enterprise License",
+      "category": "Software",
+      "accuracy": 0.81,
+      "review_keywords": [
+        "DevOps",
+        "testing",
+        "enterprise",
+        "features",
+        "beta",
+        "CI/CD",
+        "early"
+      ],
+      "context_keywords": [
+        "team",
+        "deployment",
+        "pilot",
+        "feedback"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "free"
+      ],
+      "why": "Enterprise DevOps teams buy comprehensive development platforms to test new CI/CD features and collaboration tools"
+    },
+    {
+      "name": "Databricks Enterprise Runtime License",
+      "category": "Software",
+      "accuracy": 0.8,
+      "review_keywords": [
+        "analytics",
+        "machine",
+        "learning",
+        "testing",
+        "enterprise",
+        "features",
+        "beta"
+      ],
+      "context_keywords": [
+        "team",
+        "pilot",
+        "deployment",
+        "validation"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "community"
+      ],
+      "why": "Enterprise data science teams purchase analytics platforms to test new ML features and data processing capabilities"
+    },
+    {
+      "name": "Confluent Enterprise Platform License",
+      "category": "Software",
+      "accuracy": 0.79,
+      "review_keywords": [
+        "streaming",
+        "data",
+        "testing",
+        "enterprise",
+        "features",
+        "beta",
+        "Kafka"
+      ],
+      "context_keywords": [
+        "deployment",
+        "team",
+        "pilot",
+        "feedback"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "open-source"
+      ],
+      "why": "Enterprise data engineers buy streaming platforms to test new real-time data processing features and integrations"
+    },
+    {
+      "name": "New Relic Enterprise Annual License",
+      "category": "Software",
+      "accuracy": 0.78,
+      "review_keywords": [
+        "monitoring",
+        "APM",
+        "testing",
+        "enterprise",
+        "features",
+        "beta",
+        "observability"
+      ],
+      "context_keywords": [
+        "team",
+        "deployment",
+        "pilot",
+        "validation"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "free"
+      ],
+      "why": "Enterprise SRE teams purchase application monitoring software to test new observability features and performance analytics"
+    }
+  ],
+  "subreddits": [
+    {
+      "name": "devops",
+      "relevance": 0.85,
+      "member_type": "70% enterprise engineers who test infrastructure tools",
+      "data_value": "Early adoption patterns for enterprise software and infrastructure tools",
+      "why": "Enterprise DevOps engineers share experiences testing new deployment tools and automation features"
+    },
+    {
+      "name": "sysadmin",
+      "relevance": 0.82,
+      "member_type": "65% enterprise IT professionals who pilot new systems",
+      "data_value": "Feedback on enterprise software rollouts and system testing approaches",
+      "why": "Enterprise system administrators discuss piloting new enterprise software and infrastructure solutions"
+    },
+    {
+      "name": "kubernetes",
+      "relevance": 0.8,
+      "member_type": "75% enterprise platform engineers testing container solutions",
+      "data_value": "Early feedback on container orchestration features and enterprise deployment patterns",
+      "why": "Enterprise engineers share experiences with beta Kubernetes features and enterprise container strategies"
+    },
+    {
+      "name": "aws",
+      "relevance": 0.78,
+      "member_type": "70% enterprise cloud architects testing new AWS services",
+      "data_value": "Early adoption insights for cloud services and enterprise migration strategies",
+      "why": "Enterprise cloud professionals discuss testing new AWS preview services and enterprise cloud architectures"
+    },
+    {
+      "name": "docker",
+      "relevance": 0.76,
+      "member_type": "65% enterprise developers testing containerization solutions",
+      "data_value": "Container adoption patterns and enterprise deployment strategies",
+      "why": "Enterprise developers share experiences testing new Docker enterprise features and deployment approaches"
+    },
+    {
+      "name": "salesforce",
+      "relevance": 0.75,
+      "member_type": "80% enterprise Salesforce administrators testing new features",
+      "data_value": "CRM feature adoption patterns and enterprise customization strategies",
+      "why": "Enterprise Salesforce admins discuss piloting new CRM features before company-wide rollouts"
+    },
+    {
+      "name": "PowerBI",
+      "relevance": 0.73,
+      "member_type": "70% enterprise business analysts testing BI tools",
+      "data_value": "Business intelligence adoption patterns and enterprise reporting strategies",
+      "why": "Enterprise analysts share experiences testing new Power BI features and enterprise dashboard strategies"
+    },
+    {
+      "name": "tableau",
+      "relevance": 0.72,
+      "member_type": "75% enterprise data analysts testing visualization tools",
+      "data_value": "Data visualization adoption patterns and enterprise analytics strategies",
+      "why": "Enterprise data professionals discuss testing new Tableau features and enterprise visualization approaches"
+    },
+    {
+      "name": "AZURE",
+      "relevance": 0.7,
+      "member_type": "65% enterprise cloud engineers testing Microsoft cloud services",
+      "data_value": "Enterprise cloud adoption patterns and hybrid infrastructure strategies",
+      "why": "Enterprise Azure professionals share experiences with preview services and enterprise cloud migrations"
+    },
+    {
+      "name": "cybersecurity",
+      "relevance": 0.68,
+      "member_type": "60% enterprise security professionals testing security tools",
+      "data_value": "Security tool adoption patterns and enterprise threat detection strategies",
+      "why": "Enterprise security teams discuss piloting new security solutions and enterprise protection strategies"
+    },
+    {
+      "name": "datascience",
+      "relevance": 0.66,
+      "member_type": "55% enterprise data scientists testing ML platforms",
+      "data_value": "Machine learning tool adoption and enterprise AI implementation strategies",
+      "why": "Enterprise data scientists share experiences testing new ML platforms and enterprise AI solutions"
+    },
+    {
+      "name": "programming",
+      "relevance": 0.65,
+      "member_type": "50% enterprise developers testing development tools",
+      "data_value": "Development tool adoption patterns and enterprise coding practices",
+      "why": "Enterprise developers discuss testing new development tools and enterprise programming frameworks"
+    },
+    {
+      "name": "ITManagers",
+      "relevance": 0.63,
+      "member_type": "85% enterprise IT managers making software decisions",
+      "data_value": "Enterprise software evaluation criteria and technology adoption strategies",
+      "why": "Enterprise IT managers discuss evaluating and piloting new enterprise software solutions"
+    },
+    {
+      "name": "Office365",
+      "relevance": 0.62,
+      "member_type": "70% enterprise Office admins testing productivity features",
+      "data_value": "Productivity tool adoption patterns and enterprise collaboration strategies",
+      "why": "Enterprise Office administrators share experiences testing new Microsoft 365 features and enterprise deployments"
+    },
+    {
+      "name": "agile",
+      "relevance": 0.6,
+      "member_type": "60% enterprise project managers testing workflow tools",
+      "data_value": "Project management tool adoption and enterprise workflow optimization strategies",
+      "why": "Enterprise project managers discuss piloting new agile tools and enterprise project management solutions"
+    }
+  ],
+  "demographic_profile": {
+    "core_keywords": [
+      "enterprise",
+      "beta",
+      "testing",
+      "pilot",
+      "early-access",
+      "validation",
+      "rollout",
+      "feedback",
+      "deployment",
+      "evaluation",
+      "preview",
+      "feature-testing",
+      "adoption",
+      "integration",
+      "enterprise-grade"
+    ],
+    "exclusion_keywords": [
+      "personal",
+      "hobby",
+      "learning",
+      "student",
+      "beginner",
+      "free",
+      "consumer",
+      "basic"
+    ],
+    "age_range": "28-45",
+    "primary_motivations": [
+      "early access to cutting-edge features",
+      "competitive advantage through technology adoption",
+      "risk mitigation through thorough testing",
+      "influence on product development roadmaps"
+    ],
+    "summary": "Enterprise power users and technology decision-makers who actively seek early access to new software features and tools to maintain competitive advantages. They are motivated by being first-to-market with new capabilities and having input into product development cycles. They are frustrated by slow enterprise software release cycles and limited influence over vendor product roadmaps."
+  }
+}

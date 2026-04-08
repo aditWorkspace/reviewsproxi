@@ -1,0 +1,1961 @@
+{
+  "chosen_n_clusters": 3,
+  "sweep_results": [
+    {
+      "k": 3,
+      "silhouette": 0.19443516433238983,
+      "intra_similarity": 0.7437029083569845,
+      "inter_distance": 0.6714160442352295,
+      "combined_score": 0.4546116635203362
+    },
+    {
+      "k": 4,
+      "silhouette": 0.10264283418655396,
+      "intra_similarity": 0.7155714333057404,
+      "inter_distance": 0.5536706447601318,
+      "combined_score": 0.37672697603702543
+    },
+    {
+      "k": 5,
+      "silhouette": 0.10117756575345993,
+      "intra_similarity": 0.7055621147155762,
+      "inter_distance": 0.526040256023407,
+      "combined_score": 0.36746546849608425
+    },
+    {
+      "k": 6,
+      "silhouette": 0.0815855860710144,
+      "intra_similarity": 0.7133055826028188,
+      "inter_distance": 0.46597468852996826,
+      "combined_score": 0.3479794055223465
+    },
+    {
+      "k": 7,
+      "silhouette": 0.08534245938062668,
+      "intra_similarity": 0.7081987176622663,
+      "inter_distance": 0.4629308581352234,
+      "combined_score": 0.3477170166160379
+    },
+    {
+      "k": 8,
+      "silhouette": 0.09734122455120087,
+      "intra_similarity": 0.7057490646839142,
+      "inter_distance": 0.4829842448234558,
+      "combined_score": 0.35699218064546584
+    },
+    {
+      "k": 9,
+      "silhouette": 0.08212406933307648,
+      "intra_similarity": 0.7027474178208245,
+      "inter_distance": 0.4706347584724426,
+      "combined_score": 0.3460132117072741
+    },
+    {
+      "k": 10,
+      "silhouette": 0.07612267136573792,
+      "intra_similarity": 0.7103575997882419,
+      "inter_distance": 0.43144911527633667,
+      "combined_score": 0.33745843867460884
+    }
+  ],
+  "quality_metrics": {
+    "silhouette": 0.19443516433238983,
+    "intra_similarity": 0.7437029083569845,
+    "inter_distance": 0.6714160442352295,
+    "combined_score": 0.4546116635203362,
+    "stability_ari": 0.6792,
+    "stability_label": "moderate"
+  },
+  "cluster_0": {
+    "member_count": 79,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Frustration with unreliable products that fail quickly, like lights that only work for two weeks",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Frustration with hiring or maintenance situations where basic skills are misrepresented, leading to wasted time and effort",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Fear or anxiety about safety risks, especially with electrical work or unreliable products",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Annoyance with products arriving damaged, incomplete, or with defects, causing inconvenience and extra work",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Frustration with products not matching descriptions or expectations, requiring returns or workarounds",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable, durable products that work consistently over time without frequent failures",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Easy installation and hassle-free setup to minimize time and effort spent",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Safety and peace of mind, especially for products involving electrical or security functions",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Products that fit specific needs or constraints, like small faces, older homes, or travel convenience",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Good value for money, balancing cost with quality and performance",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to replace a failed or unreliable product from a previous purchase",
+            "context": "After lights failed quickly, sought a more reliable alternative"
+          },
+          {
+            "trigger": "Need for a specific solution to a recurring problem, like protecting hands while gardening or ensuring phone charging while traveling",
+            "context": "Buying gloves to avoid cuts or a charger for consistent charging on trips"
+          },
+          {
+            "trigger": "Recommendation or positive experience with a brand, leading to repeat purchases",
+            "context": "Happy with APEC water system, so bought another for a different property"
+          },
+          {
+            "trigger": "Frustration with previous attempts or purchases that didn't meet expectations",
+            "context": "After two failed clock kit orders, bought this one as a reliable option"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Concern that products are overpriced or not worth the cost compared to alternatives",
+            "severity": 0.6
+          },
+          {
+            "objection": "Fear that safety-related products (like electrical items) might be unreliable or dangerous",
+            "severity": 0.9
+          },
+          {
+            "objection": "Skepticism about being asked to work for free in hiring processes, seen as exploitative",
+            "severity": 0.7
+          },
+          {
+            "objection": "Worry that products may arrive damaged, defective, or with missing parts",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Other lighting brands/sets",
+            "reason": "Lights failed quickly or only worked partially",
+            "threshold": "Immediate failure within weeks"
+          },
+          {
+            "from_product": "Other water filtration brands",
+            "reason": "Poor performance, leaks, or bad taste compared to reliable APEC system",
+            "threshold": "System failed or didn't meet expectations over time"
+          },
+          {
+            "from_product": "Other clock kits",
+            "reason": "Arrived with missing or incorrect parts, causing frustration",
+            "threshold": "Multiple failed orders"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability/durability",
+          "Safety",
+          "Ease of use/installation",
+          "Value for money",
+          "Fit for specific need"
+        ],
+        "deal_breakers": [
+          "Safety hazards or unreliable electrical components",
+          "Products that fail shortly after purchase",
+          "Missing or incorrect parts on arrival"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Experiencing repeated product failures (e.g., bulbs that don't work)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Chronic inconvenience (e.g., 22-mile trip to purchase locally)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Security concerns (e.g., theft by roommate)",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Poor customer service and inaccessible support",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Products that don't fit/are incorrect size (e.g., filters too small)",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Products that fail to solve recurring problems (e.g., clogged drains)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Being misled by product packaging/description",
+            "emotional_intensity": 0.8
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Long-lasting, durable products that don't require frequent replacement",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Reliable, hassle-free purchasing experience",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Effective solutions for repeated or chronic issues",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Products that restore peace of mind or reduce stress",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Products that are superior to typical alternatives (e.g., grocery store lights)",
+            "priority": 0.75
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Previous positive experience with same or similar product",
+            "context": "Re-purchase after years of good performance"
+          },
+          {
+            "trigger": "Local store no longer carries desired product",
+            "context": "Need to find new source"
+          },
+          {
+            "trigger": "Need to replace a failing or inadequate product",
+            "context": "Seeking upgrade"
+          },
+          {
+            "trigger": "Urgent need for security or safety",
+            "context": "Immediate threat"
+          },
+          {
+            "trigger": "Seeking to avoid repeated inconvenience",
+            "context": "Preventing future trips"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Poor product quality or functionality",
+            "severity": 0.85
+          },
+          {
+            "objection": "Misleading product information",
+            "severity": 0.8
+          },
+          {
+            "objection": "Difficult or ineffective customer service",
+            "severity": 0.8
+          },
+          {
+            "objection": "Product not meeting specific needs (e.g., wrong size)",
+            "severity": 0.7
+          },
+          {
+            "objection": "Unclear instructions or missing information",
+            "severity": 0.75
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Other online sellers/brands",
+            "reason": "Multiple failures",
+            "threshold": "Third attempt fails"
+          },
+          {
+            "from_product": "Previous brand of filters",
+            "reason": "Cost saving",
+            "threshold": "Slight size/quality compromise"
+          },
+          {
+            "from_product": "Other suction cup brands",
+            "reason": "Poor durability",
+            "threshold": "Falls off after a week"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Durability/Longevity",
+          "Reliability",
+          "Effectiveness",
+          "Customer Service",
+          "Price"
+        ],
+        "deal_breakers": [
+          "Complete product failure",
+          "Misleading product information",
+          "Impossible customer service access"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Products failing prematurely despite normal use",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Difficulty finding durable, high-quality items that last",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Products not performing as advertised or having hidden flaws",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Inconvenience of dealing with returns, refunds, or missing parts",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Products being too sensitive or malfunctioning in everyday situations",
+            "emotional_intensity": 0.4
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Products that are durable and withstand repeated use",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Items that perform reliably without constant maintenance or adjustment",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Easy installation/use without permanent damage or hassle",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Effective solutions to recurring problems (e.g., calcification, drafts, organization)",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Good customer service and fair resolution when issues arise",
+            "priority": 0.5
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Previous product failure or disappointment with similar items",
+            "context": "After trying another version that was disappointing, they try again hoping for better quality"
+          },
+          {
+            "trigger": "Recurring problem that needs a solution (e.g., calcification, drafts, lack of organization)",
+            "context": "Noticing a persistent issue like hard water buildup or cold drafts prompts search for a fix"
+          },
+          {
+            "trigger": "Desire to protect or preserve existing items (e.g., sink, cabinets)",
+            "context": "Wanting to prevent damage to valued possessions like sinks or countertops"
+          },
+          {
+            "trigger": "Need for convenience in daily routines (e.g., night lighting, pet safety)",
+            "context": "Seeking to simplify tasks like finding the bathroom at night or tracking a pet outdoors"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Products are flimsy, thin, or break easily upon arrival or shortly after use",
+            "severity": 0.9
+          },
+          {
+            "objection": "Adhesive or mounting is either too weak or too permanent/damaging",
+            "severity": 0.7
+          },
+          {
+            "objection": "Features malfunction (e.g., auto-brightening, sensor sensitivity) and cannot be adjusted reliably",
+            "severity": 0.6
+          },
+          {
+            "objection": "Items missing parts or not as described, requiring customer service intervention",
+            "severity": 0.5
+          },
+          {
+            "objection": "Products require more effort than alternative solutions (e.g., sanding vs. chemical treatment)",
+            "severity": 0.4
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Previous version of same product type",
+            "reason": "Poor quality, insecure mounting, or design flaws",
+            "threshold": "After one disappointing experience, they seek a better-made alternative"
+          },
+          {
+            "from_product": "Any product that fails prematurely",
+            "reason": "Lack of durability or premature wear (e.g., jeans tearing quickly)",
+            "threshold": "Multiple failures or even a single early failure if severe"
+          },
+          {
+            "from_product": "Products that cause more problems than they solve",
+            "reason": "Creating new issues like mold, residue, or damage during removal",
+            "threshold": "When the fix creates a bigger problem than the original issue"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Durability/longevity",
+          "Ease of use/installation",
+          "Reliability of performance",
+          "Value for money",
+          "Customer service/support"
+        ],
+        "deal_breakers": [
+          "Arrives broken or defective",
+          "Fails immediately or prematurely under normal use",
+          "Causes damage or creates bigger problems",
+          "Missing critical components"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Frustration with repeated, unsolvable problems (like nail fungus) leading to social discomfort and shame",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Frustration with products that require constant maintenance or unplanned assembly",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Anger and disgust at others' inconsiderate public behavior (e.g., bare feet on armrests)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Disappointment when a highly anticipated product fails to solve a painful, recurring task (like leaf cleanup)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Annoyance with design flaws that create recurring minor tasks (like constantly cleaning clear glass panels)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Frustration when devices drain power unintentionally due to poor controls (e.g., touch controls activating in bag)",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "A product that finally solves a persistent, frustrating problem (e.g., cleaning leaves, providing light without wiring)",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Ease of use and installation to avoid additional hassle",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Durability and reliability to avoid repeated repairs or replacements",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Effective customer service that resolves issues quickly when problems occur",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Versatility to handle multiple uses or adapt to different situations",
+            "priority": 0.65
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Discovery of a product that promises to eliminate a painful, recurring manual task (like raking leaves)",
+            "context": "After enduring the problem repeatedly and dreaming of a solution"
+          },
+          {
+            "trigger": "Need to avoid a complex, permanent installation (like running electrical wiring)",
+            "context": "When seeking a simpler, non-invasive alternative"
+          },
+          {
+            "trigger": "Frustration with current product's recurring flaw (e.g., battery drain, poor clip design)",
+            "context": "Seeking a specific improvement to a known annoyance"
+          },
+          {
+            "trigger": "Desire to prevent a recurring nuisance (e.g., door slamming, disorganization)",
+            "context": "When minor, repeated irritations reach a tipping point"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product fails to perform its core function reliably (e.g., clogs constantly, doesn't mulch)",
+            "severity": 0.95
+          },
+          {
+            "objection": "Product design creates new, recurring problems (e.g., constant cleaning, awkward bag handling)",
+            "severity": 0.75
+          },
+          {
+            "objection": "Poor durability or early wear (e.g., coating chipping after minimal use)",
+            "severity": 0.8
+          },
+          {
+            "objection": "Requires inconvenient accessories or setup (e.g., mandatory extension cord, complex assembly)",
+            "severity": 0.7
+          },
+          {
+            "objection": "Design flaw makes product unsuitable for intended use (e.g., clip wrong size for common surfaces)",
+            "severity": 0.65
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Rake and manual labor",
+            "reason": "Product promised to eliminate blisters and effort but introduced more frustration and inefficiency",
+            "threshold": "When the new solution proves worse than the original problem"
+          },
+          {
+            "from_product": "Touch-control booklight",
+            "reason": "Device kept turning on accidentally in bag, draining battery",
+            "threshold": "Recurring battery drain due to unintentional activation"
+          },
+          {
+            "from_product": "Brand loyalty (e.g., DeWalt)",
+            "reason": "Found a competing product with better compactness or features for specific situations",
+            "threshold": "When a specific use case (cramped spaces) isn't well met by current brand"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Effectiveness at solving the core problem",
+          "Ease of use and installation",
+          "Durability and reliability",
+          "Value for price",
+          "Versatility and adaptability",
+          "Customer service responsiveness"
+        ],
+        "deal_breakers": [
+          "Product fails to perform its advertised core function",
+          "Product introduces new, significant recurring maintenance or problems",
+          "Unacceptable durability (breaks or wears too quickly)",
+          "Requires excessive or unreasonable setup/accessories"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Frustration with products failing repeatedly due to known design flaws",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Annoyance from persistent minor issues like flickering lights or squeaking noises disrupting comfort",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Safety concerns leading to anxiety, especially with electrical hazards",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Disappointment from products not meeting basic functionality expectations, like heaters not warming up",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Hassle of dealing with returns and replacements for defective items",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable product performance without repeated failures",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Ease of installation and use, especially for seniors or those with limited DIY skills",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Safety assurance, particularly with electrical or home products",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Durability and long-term functionality to avoid frequent replacements",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Effective customer support and hassle-free resolutions for issues",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to solve a recurring problem (e.g., cold rooms, broken lamp cords)",
+            "context": "Specific household or personal need"
+          },
+          {
+            "trigger": "Recommendation from trusted sources or positive past experiences with similar products",
+            "context": "Brand loyalty or word-of-mouth"
+          },
+          {
+            "trigger": "Price affordability and value for money, especially for those on fixed incomes",
+            "context": "Budget constraints"
+          },
+          {
+            "trigger": "Ease of installation and use advertised, reducing perceived effort",
+            "context": "DIY limitations or time savings"
+          },
+          {
+            "trigger": "Desire for aesthetic or decorative improvements that also serve functional purposes",
+            "context": "Home decor enhancement"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Products with known defects that fail repeatedly, even after replacements",
+            "severity": 0.9
+          },
+          {
+            "objection": "Safety risks, such as electrical hazards or poor insulation",
+            "severity": 0.95
+          },
+          {
+            "objection": "Inconvenient design flaws, like parts that fall off easily or are hard to adjust",
+            "severity": 0.6
+          },
+          {
+            "objection": "Poor customer service or difficulty in resolving issues",
+            "severity": 0.7
+          },
+          {
+            "objection": "Products not meeting advertised claims, like ineffective heating or short battery life",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Sylvania Electric Stove",
+            "reason": "Failure to heat and annoying squeaking noise",
+            "threshold": "Immediate malfunction upon first use"
+          },
+          {
+            "from_product": "Flameless candles",
+            "reason": "Batteries wear out too fast and lack desired fragrance/nightlight effect",
+            "threshold": "Disappointment after testing as an alternative to real candles"
+          },
+          {
+            "from_product": "Salt lamp cords with faulty switches",
+            "reason": "Repeated flickering and bulb burnout even after replacements",
+            "threshold": "Multiple failures within weeks"
+          },
+          {
+            "from_product": "Generic smart plugs",
+            "reason": "Inferior reliability and integration compared to trusted brands",
+            "threshold": "Frustration with setup or connectivity issues"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Safety",
+          "Reliability",
+          "Ease of use",
+          "Price/value",
+          "Customer reviews/support",
+          "Aesthetic appeal"
+        ],
+        "deal_breakers": [
+          "Significant safety hazards (e.g., electrical risks)",
+          "Persistent defects even after replacements",
+          "Complete failure to perform basic functions",
+          "Poor customer service responsiveness"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.5,
+      "reddit": 0.5,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Physical injury from product design",
+          "count": 1,
+          "frequency": 0.002,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0061
+        },
+        {
+          "signal": "Product damaging expensive supplies",
+          "count": 1,
+          "frequency": 0.002,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0061
+        },
+        {
+          "signal": "Frustration with entitled/obstructive neighbors",
+          "count": 1,
+          "frequency": 0.002,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0061
+        },
+        {
+          "signal": "Products failing prematurely despite promises/warranties",
+          "count": 1,
+          "frequency": 0.002,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0061
+        },
+        {
+          "signal": "Products arriving defective/damaged",
+          "count": 1,
+          "frequency": 0.002,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0061
+        },
+        {
+          "signal": "Poor customer service/warranty support",
+          "count": 1,
+          "frequency": 0.002,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0061
+        },
+        {
+          "signal": "Inconvenience/high cost of returns",
+          "count": 1,
+          "frequency": 0.002,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0061
+        },
+        {
+          "signal": "Design flaws that require user modification",
+          "count": 1,
+          "frequency": 0.002,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0061
+        },
+        {
+          "signal": "Products not meeting described specifications",
+          "count": 1,
+          "frequency": 0.002,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0061
+        },
+        {
+          "signal": "Components failing under normal use",
+          "count": 1,
+          "frequency": 0.002,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0061
+        },
+        {
+          "signal": "Frustration with product not matching description (e.g., wrong color)",
+          "count": 1,
+          "frequency": 0.002,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0061
+        },
+        {
+          "signal": "Frustration with poor design causing assembly difficulty or failure",
+          "count": 1,
+          "frequency": 0.002,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0061
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Cost-effective solutions that provide good value without hidden expenses",
+          "count": 2,
+          "frequency": 0.0043,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0107
+        },
+        {
+          "signal": "Convenience and time-saving features",
+          "count": 2,
+          "frequency": 0.0043,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0107
+        },
+        {
+          "signal": "Long-lasting, durable products that don't require frequent replacement",
+          "count": 2,
+          "frequency": 0.0043,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0107
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Misleading product descriptions",
+          "count": 3,
+          "frequency": 0.0096,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0224
+        },
+        {
+          "signal": "Products arriving damaged due to poor packaging",
+          "count": 2,
+          "frequency": 0.0064,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.016
+        },
+        {
+          "signal": "Product completely fails to perform its core function",
+          "count": 2,
+          "frequency": 0.0064,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.016
+        },
+        {
+          "signal": "Extremely difficult installation requiring professional help",
+          "count": 2,
+          "frequency": 0.0064,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.016
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Recommendation from others",
+          "count": 2,
+          "frequency": 0.0052,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0129
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "medium": 0.342,
+        "low": 0.658
+      }
+    }
+  },
+  "cluster_1": {
+    "member_count": 17,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Persistent technical issues (bugs, freezes, sluggish performance, app crashes)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Intrusive and excessive ads interrupting app use",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Unresolved specific errors (e.g., camera not working, security policy messages, Android process errors)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Distrust due to perceived data stealing/selling or false pretenses",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Forced app ranking or barriers to exit",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Quick, one-click repair of phone issues (freezes, bugs, performance)",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Removal of intrusive ads or a less ad-heavy experience",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Simple, easy-to-navigate app that works automatically",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Reliable and consistent system repair that maintains results",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Fixing very specific hardware/software problems (mic, fingerprint scanner, camera)",
+            "priority": 0.65
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Immediate frustration with a recurring technical problem (phone freezing, error pop-ups)",
+            "context": "Seeking instant relief after problem occurs repeatedly"
+          },
+          {
+            "trigger": "Positive initial experience or result (e.g., issue fixed, performance improved)",
+            "context": "After first use solves a pressing issue"
+          },
+          {
+            "trigger": "Recommendation based on perceived effectiveness for similar problems",
+            "context": "Word-of-mouth or review-driven trial"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Excessive, disruptive ads that hinder app functionality",
+            "severity": 0.85
+          },
+          {
+            "objection": "App fails to fix the specific problem it was downloaded for",
+            "severity": 0.8
+          },
+          {
+            "objection": "Concerns over data privacy/security and false pretenses",
+            "severity": 0.7
+          },
+          {
+            "objection": "Unclear differentiation between ads and app interface",
+            "severity": 0.6
+          },
+          {
+            "objection": "Lack of system access permissions for full repair",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Other repair/cleaner apps",
+            "reason": "Excessive ads compared to perceived benefit",
+            "threshold": "Ads become intolerable or prevent core use"
+          },
+          {
+            "from_product": "Current app",
+            "reason": "App fails to resolve the specific issue after trial",
+            "threshold": "Problem persists after immediate use"
+          },
+          {
+            "from_product": "Current app",
+            "reason": "Loss of trust due to privacy concerns or deceptive practices",
+            "threshold": "Evidence or strong suspicion of data misuse"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Effectiveness in solving the immediate problem",
+          "Ad intrusiveness/frequency",
+          "Ease of use and navigation",
+          "Speed of repair/results",
+          "Trustworthiness and privacy"
+        ],
+        "deal_breakers": [
+          "Excessive ads that block core functionality",
+          "Complete failure to fix the problem it was downloaded for",
+          "Deceptive practices (e.g., forced ranking, data mining under false pretenses)"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Phones/tablets experiencing persistent, unexplained issues (lagging, crashing, slow boot, green screen, fingerprint scanner failure)",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Frustration with recurring crashes despite attempted fixes",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Feeling forced to use repair apps due to inability to afford professional repair services",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Aggressive, intrusive ads interrupting app use and causing restart requirements",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Suspicion that 'free' apps are monetizing user data without transparency",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Fear that apps might worsen problems (WiFi strangeness, new crashes)",
+            "emotional_intensity": 0.65
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Complete and lasting resolution of device issues (lag, crash, hardware malfunction)",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Device restored to 'like new' or optimal performance state",
+            "priority": 0.9
+          },
+          {
+            "outcome": "A genuinely free, effective tool that saves money on repair shops",
+            "priority": 0.85
+          },
+          {
+            "outcome": "App that works reliably across different countries and device conditions",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Advanced features like wiping system apps or fixing specific apps (e.g., Gmail)",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Ad-free experience or paid option to remove intrusive ads",
+            "priority": 0.65
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Device experiencing severe, recurring malfunction (slow boot, crashes, hardware failure)",
+            "context": "Immediate need to fix device without professional repair cost"
+          },
+          {
+            "trigger": "Researching help for 'internal phone problems' and finding positive app reviews",
+            "context": "Searching for solutions after prolonged frustration"
+          },
+          {
+            "trigger": "Testing app after deliberately causing system damage to verify effectiveness",
+            "context": "Intentional experimentation to find a reliable repair tool"
+          },
+          {
+            "trigger": "Recommendation from other users or high ratings",
+            "context": "Seeking trusted solution based on peer experience"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "App fails to resolve specific, recurring issues despite claiming repair",
+            "severity": 0.8
+          },
+          {
+            "objection": "Intrusive ads disrupt functionality and require restarts",
+            "severity": 0.75
+          },
+          {
+            "objection": "Concern that 'free' app sells user data for revenue",
+            "severity": 0.6
+          },
+          {
+            "objection": "App may introduce new problems or worsen device state",
+            "severity": 0.7
+          },
+          {
+            "objection": "Lack of transparency about what the app actually fixes",
+            "severity": 0.55
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Other repair apps",
+            "reason": "They 'don't seem to do the job' and 'just slow down your phone'",
+            "threshold": "Repeated failure to fix core issues"
+          },
+          {
+            "from_product": "Current app",
+            "reason": "Finding another software with similar function but no ads",
+            "threshold": "Ad intrusion becomes intolerable"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Effectiveness at permanently fixing device issues",
+          "Cost (free vs. repair shop expense)",
+          "Ad intrusiveness or presence of paid ad-free option",
+          "User interface clarity and ease of use",
+          "Trust in app safety (doesn't worsen problems or sell data)"
+        ],
+        "deal_breakers": [
+          "App fails to resolve the specific, recurring problem it was downloaded for",
+          "Ads are so intrusive they break app functionality",
+          "App causes new, serious device problems"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Lack of timely and accurate order delivery",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Inconsistent or deceptive product quality/claims (e.g., ultra thin lenses not thinner, frames breaking quickly, scratches)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Extremely poor or automated customer support (e.g., unresponsive chat, no human executive)",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Fraudulent or deceptive pricing (e.g., store vs. online price differences, hidden charges)",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Frustrating and unreliable return/exchange/refund processes (e.g., refunds to wallet without consent, 'Oops' errors)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Bad app functionality (e.g., doesn't open, slow, poor UI, can't reorder, features missing)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Lack of communication (e.g., no delivery updates, order status unknown)",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Poor in-store service (e.g., rude staff, uncooperative, refusal to show features)",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "App privacy concerns (e.g., unnecessary data collection via photos)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Mismatch between store and app product availability/options",
+            "emotional_intensity": 0.65
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Accurate and on-time delivery of orders",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Reliable, responsive human customer support",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Smooth, hassle-free return/exchange/refund processes",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Transparent pricing and consistent product quality",
+            "priority": 0.85
+          },
+          {
+            "outcome": "User-friendly, functional app with full feature parity with stores",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Clear communication and order tracking",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Positive, helpful in-store service experience",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Product durability and accurate product claims (e.g., lens thinness, frame strength)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Privacy-respecting practices (e.g., no unnecessary data collection)",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Positive prior experience with specific features (e.g., VR try-on, variety, reasonable prices)",
+            "context": "Review 7 mentions 'Try in VR is amazing' and 'prices are also very reasonable' as motivators."
+          },
+          {
+            "trigger": "App convenience and user-friendly interface when functional",
+            "context": "Review 21 cites 'delivered on time', 'user friendly interface', and easy exchange as triggers despite support issues."
+          },
+          {
+            "trigger": "Loyalty or membership benefits (e.g., gold membership)",
+            "context": "Review 3 mentions having gold membership, indicating prior trust/benefits drove purchase."
+          },
+          {
+            "trigger": "Advertised schemes or offers (though sometimes perceived as fake)",
+            "context": "Review 2 references 'fake adds and schemes', suggesting initial attraction through marketing."
+          },
+          {
+            "trigger": "Need for home services (e.g., eye check-up appointments)",
+            "context": "Reviews 12 and 20 show booking home appointments triggered by convenience promise."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Frustration from repeated support failures and lack of human assistance",
+            "severity": 0.95
+          },
+          {
+            "objection": "Distrust due to deceptive practices (pricing, quality, exchange policy)",
+            "severity": 0.9
+          },
+          {
+            "objection": "Fear of losing money or time due to poor refunds/delays",
+            "severity": 0.85
+          },
+          {
+            "objection": "Annoyance from app bugs and poor user experience",
+            "severity": 0.75
+          },
+          {
+            "objection": "Privacy concerns over data collection (e.g., face photos)",
+            "severity": 0.65
+          },
+          {
+            "objection": "Preference for local shops due to better service and benefits",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Lenskart app/online store",
+            "reason": "Chronic delivery delays and no communication",
+            "threshold": "After multiple order attempts fail (e.g., Review 10: 'I again order another product but same problem')"
+          },
+          {
+            "from_product": "Lenskart customer support",
+            "reason": "Inability to resolve exchange/return issues",
+            "threshold": "When system shows errors ('Oops') repeatedly and no human helps (Review 16, 17)"
+          },
+          {
+            "from_product": "Lenskart overall",
+            "reason": "Subpar product quality (frames/lenses) and poor service",
+            "threshold": "After one bad experience with both delivery and quality (Review 30), or repeated issues (Review 2, 22)"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliable delivery and fulfillment",
+          "Quality of customer support (human availability)",
+          "Product quality and durability",
+          "Ease of returns/exchanges/refunds",
+          "App functionality and user experience",
+          "Transparent and consistent pricing",
+          "In-store service quality",
+          "Privacy and data handling"
+        ],
+        "deal_breakers": [
+          "No human customer support available",
+          "Delivery delays with zero communication",
+          "Fraudulent pricing or deceptive claims",
+          "Broken return/exchange system",
+          "Unusable app or website",
+          "Poor product quality (breaks/scratches quickly)"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Phone becomes slow, clunky, unresponsive over time, requiring frequent interventions",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Dealing with persistent technical glitches, errors, and system crashes",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Storage space issues and constant 'storage full' warnings despite clearing space",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Phone malfunctions (e.g., screen lines, network failure) threatening replacement",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Feeling helpless and frustrated with phone problems",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Aggressive, intrusive, and overwhelming ads that disrupt app use",
+            "emotional_intensity": 0.8
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Restore phone to a smooth, fast, and responsive state",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Fix specific hardware/software issues (e.g., screen lines, network loss, viruses)",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Prevent or delay the need for a costly phone replacement",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Automate cleaning/repair process easily without technical expertise",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Keep older or unsupported phones functional",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Have an app that works reliably without intrusive ads",
+            "priority": 0.65
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Phone reaches a state of being 'unusable' or experiencing a critical failure",
+            "context": "After trying other apps or solutions that didn't work"
+          },
+          {
+            "trigger": "Preventive maintenance on a newly acquired used phone",
+            "context": "Immediately after getting a second-hand device"
+          },
+          {
+            "trigger": "Regular recurrence of slowness or clunkiness",
+            "context": "Periodic frustration with performance degradation"
+          },
+          {
+            "trigger": "Recommendation or search for a 'repair system' when standard fixes fail",
+            "context": "Desperation after service provider suggests replacement"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "App is overrun with aggressive, intrusive ads that make it unusable",
+            "severity": 0.9
+          },
+          {
+            "objection": "App may not actually fix problems and is perceived as not doing anything",
+            "severity": 0.8
+          },
+          {
+            "objection": "Lack of transparency about what the app is doing/fixing",
+            "severity": 0.6
+          },
+          {
+            "objection": "Fear that a good free app will eventually become paid",
+            "severity": 0.5
+          },
+          {
+            "objection": "Concerns about the app/company's financial health due to aggressive ads",
+            "severity": 0.4
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "This Repair System app",
+            "reason": "Introduction of overwhelming, uncloseable ads",
+            "threshold": "When ads prevent basic app functionality"
+          },
+          {
+            "from_product": "This Repair System app",
+            "reason": "App stops working or crashes after ads",
+            "threshold": "Immediate failure upon attempting to use"
+          },
+          {
+            "from_product": "Manual troubleshooting or other apps",
+            "reason": "Existing methods fail to solve critical phone problems",
+            "threshold": "Frustration and need for a more automated solution"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Effectiveness at fixing the immediate problem",
+          "Ease of use and automation",
+          "Cost (free is highly valued)",
+          "Ad intrusiveness",
+          "Speed of repair",
+          "Trust in app's reputation"
+        ],
+        "deal_breakers": [
+          "App is completely non-functional due to ad overload",
+          "App does absolutely nothing to fix the problem",
+          "Ads are so intrusive they block all use"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Phone performance degradation (slowdowns, restarts)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Frustration with app unreliability/glitches over time",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Lack of transparency about what the app is actually doing",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Intrusive ads",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "App/forms not displaying properly on phone (text overlap, zoom issues)",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Losing work/app progress due to crashes or navigation issues",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Inability to use core job functions (filling/signing forms)",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Forced to pay an additional subscription for a broken mobile app",
+            "emotional_intensity": 0.85
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Fix phone performance problems quickly and reliably",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Have an app that works consistently without regressions",
+            "priority": 0.9
+          },
+          {
+            "outcome": "See what specific problems are being fixed by a repair tool",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Have forms display and function correctly on a mobile device",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Be able to complete work (sign, edit forms) from phone without issues",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Have a functional mobile experience included in existing subscription",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Phone starts malfunctioning (restarting, slowing down)",
+            "context": "Immediate need to resolve personal device issue"
+          },
+          {
+            "trigger": "Seeking a solution for a recurring, known phone problem",
+            "context": "Seeking a reliable tool for a specific, repeated issue"
+          },
+          {
+            "trigger": "Need for a mobile solution for work documents",
+            "context": "Professional necessity to access and edit forms on the go"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "App makes claims but doesn't show proof of what it fixed",
+            "severity": 0.75
+          },
+          {
+            "objection": "App is inconsistent; works sometimes then breaks again",
+            "severity": 0.9
+          },
+          {
+            "objection": "App is essentially just a mobile website with no native benefits",
+            "severity": 0.7
+          },
+          {
+            "objection": "Lack of basic functionality (login, credential options)",
+            "severity": 0.85
+          },
+          {
+            "objection": "Poor UX/design (navigation, text overlap, can't zoom)",
+            "severity": 0.8
+          },
+          {
+            "objection": "Requires a separate, additional subscription",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Working version of the same app",
+            "reason": "An update degrades performance or breaks key features",
+            "threshold": "App becomes unusable for core tasks after update"
+          },
+          {
+            "from_product": "Desktop/web version",
+            "reason": "Mobile app fails to provide comparable functionality or reliability",
+            "threshold": "Mobile app is more frustrating than just using the mobile site"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability/Consistency",
+          "Functionality for Core Tasks",
+          "Transparency of Actions",
+          "Cost/Subscription Value",
+          "User Interface/Usability"
+        ],
+        "deal_breakers": [
+          "App prevents completion of essential job functions",
+          "App breaks repeatedly after updates",
+          "Forced separate subscription for broken app"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0,
+      "reddit": 0,
+      "csv": 0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Excessive, intrusive, and obstructive advertisements that prevent app use or make it frustrating.",
+          "count": 1,
+          "frequency": 0.0085,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0256
+        },
+        {
+          "signal": "Feeling misled by the app's promised functionality, with repairs not actually performed.",
+          "count": 1,
+          "frequency": 0.0085,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0256
+        },
+        {
+          "signal": "Unclear or non-transparent results from system scans/repairs, leaving users unsure if anything was fixed.",
+          "count": 1,
+          "frequency": 0.0085,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0256
+        },
+        {
+          "signal": "Aggressive and deceptive advertising tactics, including fake virus warnings and hard-to-close pop-ups.",
+          "count": 1,
+          "frequency": 0.0085,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0256
+        },
+        {
+          "signal": "Frustration with recurring phone issues (buffering, fingerprint scanners, USB ports) that standard fixes don't resolve.",
+          "count": 1,
+          "frequency": 0.0085,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0256
+        },
+        {
+          "signal": "Feeling of being exploited for data or revenue through ads, with a sense of degraded or dishonest app purpose.",
+          "count": 1,
+          "frequency": 0.0085,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0256
+        },
+        {
+          "signal": "High, non-refundable subscription prices perceived as greedy.",
+          "count": 1,
+          "frequency": 0.0085,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0256
+        },
+        {
+          "signal": "Recurring device issues like Wi-Fi disconnections, screen glitches, and call failures",
+          "count": 1,
+          "frequency": 0.0085,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0256
+        },
+        {
+          "signal": "Annoying and frequent advertisements interfering with app usage",
+          "count": 1,
+          "frequency": 0.0085,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0256
+        },
+        {
+          "signal": "Unclear app functionality and lack of transparency about actions performed",
+          "count": 1,
+          "frequency": 0.0085,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0256
+        },
+        {
+          "signal": "Data privacy concerns related to scanning and potential data retention",
+          "count": 1,
+          "frequency": 0.0085,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0256
+        },
+        {
+          "signal": "App crashes or fails to open, preventing any use at all",
+          "count": 1,
+          "frequency": 0.0085,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0256
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Effectively and verifiably fix specific, recurring system/performance issues (fingerprint, flashlight, USB, buffering).",
+          "count": 1,
+          "frequency": 0.0092,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0275
+        },
+        {
+          "signal": "Minimize or ethically manage advertisements so they do not obstruct core app functionality.",
+          "count": 1,
+          "frequency": 0.0092,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0275
+        },
+        {
+          "signal": "Receive clear, transparent reporting on what problems were found and what repairs were performed.",
+          "count": 1,
+          "frequency": 0.0092,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0275
+        },
+        {
+          "signal": "Have a simple, reliable tool that works across device types and Android versions over time.",
+          "count": 1,
+          "frequency": 0.0092,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0275
+        },
+        {
+          "signal": "Quick, automated resolution without needing deep technical knowledge or lengthy support calls.",
+          "count": 1,
+          "frequency": 0.0092,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0275
+        },
+        {
+          "signal": "Quick and effective repair of persistent technical problems",
+          "count": 1,
+          "frequency": 0.0092,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0275
+        },
+        {
+          "signal": "Clear explanation of what the app does and fixes",
+          "count": 1,
+          "frequency": 0.0092,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0275
+        },
+        {
+          "signal": "Reliable performance improvement for devices",
+          "count": 1,
+          "frequency": 0.0092,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0275
+        },
+        {
+          "signal": "Ad-free or reduced ad experience",
+          "count": 1,
+          "frequency": 0.0092,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0275
+        },
+        {
+          "signal": "Assurance of data privacy and control over personal information",
+          "count": 1,
+          "frequency": 0.0092,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0275
+        },
+        {
+          "signal": "Restore phone to a smooth, fast, and responsive state",
+          "count": 1,
+          "frequency": 0.0092,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0275
+        },
+        {
+          "signal": "Fix specific hardware/software issues (e.g., screen lines, network loss, viruses)",
+          "count": 1,
+          "frequency": 0.0092,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0275
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Overwhelming, obstructive ads that prevent basic app function",
+          "count": 1,
+          "frequency": 0.0156,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0469
+        },
+        {
+          "signal": "Deceptive advertising practices (e.g., fake virus warnings)",
+          "count": 1,
+          "frequency": 0.0156,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0625
+        },
+        {
+          "signal": "Complete failure to perform any verifiable repair",
+          "count": 1,
+          "frequency": 0.0156,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0469
+        },
+        {
+          "signal": "Unresponsive support and refusal of refunds for erroneous charges",
+          "count": 1,
+          "frequency": 0.0156,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0469
+        },
+        {
+          "signal": "App fails to open or crashes repeatedly",
+          "count": 1,
+          "frequency": 0.0156,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0469
+        },
+        {
+          "signal": "No improvement in device issues after use",
+          "count": 1,
+          "frequency": 0.0156,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0469
+        },
+        {
+          "signal": "Excessive data collection without clear privacy controls",
+          "count": 1,
+          "frequency": 0.0156,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0469
+        },
+        {
+          "signal": "Overwhelming number of advertisements",
+          "count": 1,
+          "frequency": 0.0156,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0469
+        },
+        {
+          "signal": "App is completely non-functional due to ad overload",
+          "count": 1,
+          "frequency": 0.0156,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0469
+        },
+        {
+          "signal": "App does absolutely nothing to fix the problem",
+          "count": 1,
+          "frequency": 0.0156,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0469
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Experiencing a persistent, specific phone issue that manufacturer support or standard fixes failed to resolve.",
+          "count": 1,
+          "frequency": 0.0164,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0492
+        },
+        {
+          "signal": "Witnessing the app successfully resolve an issue during a free trial or initial scan, proving its efficacy.",
+          "count": 1,
+          "frequency": 0.0164,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0492
+        },
+        {
+          "signal": "Exhaustion with excessive ads, leading to consideration of a paid version for an ad-free experience.",
+          "count": 1,
+          "frequency": 0.0164,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0492
+        },
+        {
+          "signal": "Frustration with unresolved technical issues after trying other solutions",
+          "count": 1,
+          "frequency": 0.0164,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0492
+        },
+        {
+          "signal": "Positive word-of-mouth or high ratings for effectiveness",
+          "count": 1,
+          "frequency": 0.0164,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0492
+        },
+        {
+          "signal": "Desire for a quick and automated fix",
+          "count": 1,
+          "frequency": 0.0164,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0492
+        },
+        {
+          "signal": "Phone reaches a state of being 'unusable' or experiencing a critical failure",
+          "count": 1,
+          "frequency": 0.0164,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0492
+        },
+        {
+          "signal": "Preventive maintenance on a newly acquired used phone",
+          "count": 1,
+          "frequency": 0.0164,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0492
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "medium": 0.412,
+        "low": 0.588
+      }
+    }
+  },
+  "cluster_2": {
+    "member_count": 2,
+    "representative_batches": [
+      {
+        "behavioral_signals": [
+          {
+            "signal_name": "Frustration with recurring minor inconveniences",
+            "evidence": [
+              "Review 1: 'The biggest problem for me, is that the shield can fog up (just like my glasses).'",
+              "Review 7: 'If the flap tears off (as happened to me), then you will have to unscrew the battery case and remove the rest of the paper before the display will work.'"
+            ],
+            "description": "Customers express annoyance with small, persistent issues that disrupt their experience, such as fogging or a minor design flaw that requires extra steps."
+          },
+          {
+            "signal_name": "Seeking reliable solutions to avoid repeated problems",
+            "evidence": [
+              "Review 4: 'Cordless tools are easier to handle than corded ones, but my cordless tools always need charging when I need to use them.'",
+              "Review 7: 'I\u2019ve owned cheap levels where the bubbles shifted positions when you picked up the level and put it down again in the same spot.'"
+            ],
+            "description": "They actively choose products that promise consistency and durability to prevent the same issues from happening again."
+          },
+          {
+            "signal_name": "Valuing products that simplify or automate tasks",
+            "evidence": [
+              "Review 4: 'Cordless tools are easier to handle than corded ones, but my cordless tools always need charging when I need to use them.'",
+              "Review 7: 'This is a very giftable tool, because it comes with a strap-handled zipper case, and has so many extra features. For example, if you use the MODE button, the angle reading can show as degrees, percentage, pitch IN/FT, and mm/M. The display shows \u201cErr\u201d whenever you are holding the level in a way that will give you an incorrect reading.'"
+            ],
+            "description": "There is a preference for tools that reduce effort or eliminate steps, especially to circumvent known frustrations."
+          },
+          {
+            "signal_name": "Prioritizing ease of use and comfort",
+            "evidence": [
+              "Review 1: 'This fits many head sizes, and is comfortable to wear.'",
+              "Review 7: 'The bubbles, which I mostly use the level for, are accurate, consistent, and easy to see.'"
+            ],
+            "description": "Comfort and user-friendly design are highlighted as key benefits, indicating a desire to avoid discomfort or complexity."
+          },
+          {
+            "signal_name": "Emphasizing product versatility and multi-functionality",
+            "evidence": [
+              "Review 1: 'As germ/virus shields, they are acceptable; as workshop shields, not so much so...'",
+              "Review 4: 'Jig saws are great for cutting curved lines... They also cut straight lines and cut at angles; and they cut wood, metal, and other materials...'",
+              "Review 7: 'I\u2019m a casual handyperson, so I don\u2019t really need the protractor feature... but it\u2019s fun to go around checking things...'"
+            ],
+            "description": "Customers appreciate products that serve multiple purposes or adapt to different situations, reducing the need for multiple specialized items."
+          }
+        ],
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "signals": [
+          {
+            "signal_name": "string",
+            "evidence": [
+              "string"
+            ],
+            "behavioral_pattern": "string",
+            "frustration_driver": "string",
+            "potential_trigger": "string"
+          }
+        ],
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.5,
+      "reddit": 0.5,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [],
+      "top_desired_outcomes": [],
+      "top_deal_breakers": [],
+      "top_purchase_triggers": [],
+      "dominant_friction_tolerance": "medium",
+      "friction_tolerance_distribution": {
+        "medium": 1.0
+      }
+    }
+  }
+}

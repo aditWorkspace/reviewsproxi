@@ -128,10 +128,17 @@ def get_persona_dir(persona_id: str) -> Path:
 
 
 def _find_config_path(persona_dir: Path) -> Path | None:
-    """Return the config file inside a persona directory (config.json or persona.json)."""
+    """Return the config file inside a persona directory (config.json, persona.json, or *_persona.json)."""
     for name in ("config.json", "persona.json"):
         p = persona_dir / name
         if p.exists():
+            return p
+    # New naming convention: {pid}_{name_slug}_persona.json lives in outputs/
+    for p in persona_dir.glob("*_persona.json"):
+        return p
+    outputs = persona_dir / "outputs"
+    if outputs.is_dir():
+        for p in outputs.glob("*_persona.json"):
             return p
     return None
 
@@ -142,9 +149,9 @@ def load_persona_config(persona_id: str) -> dict:
     config_path = persona_dir / "config.json"
 
     if not config_path.exists():
-        # Try persona.json (pipeline output format)
-        alt = persona_dir / "persona.json"
-        if alt.exists():
+        # Try persona.json or *_persona.json (pipeline output format)
+        alt = _find_config_path(persona_dir)
+        if alt and alt != config_path and alt.exists():
             with open(alt) as f:
                 return json.load(f)
         # Check old-style flat files

@@ -1,0 +1,243 @@
+{
+  "id": "existing_customer_requesting_features",
+  "label": "Existing Customer Requesting Features",
+  "segment": {
+    "role": "Enterprise software user managing team productivity tools",
+    "tech_savviness": "high",
+    "price_sensitivity": "medium",
+    "risk_tolerance": "low",
+    "context": "An experienced professional who relies on enterprise software for daily operations and has accumulated specific frustrations with current tools. Their feature requests stem from real workflow pain points and they have limited tolerance for unreliable systems that disrupt their established processes."
+  },
+  "goals": [
+    {
+      "goal": "Request specific features that solve documented workflow inefficiencies",
+      "priority": 5
+    },
+    {
+      "goal": "Get reliable performance from core software functions without frequent crashes",
+      "priority": 5
+    },
+    {
+      "goal": "Access responsive customer support when technical issues arise",
+      "priority": 4
+    },
+    {
+      "goal": "Integrate new features within existing tool ecosystem without disruption",
+      "priority": 4
+    },
+    {
+      "goal": "Achieve better value from current software investments through enhanced functionality",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Cannot tolerate frequent application crashes that disrupt critical work (from cluster_0: buggy, unreliable software)",
+    "Limited ability to work around slow performance and long loading times (from cluster_2: slow performance)",
+    "Restricted by poor customer support availability when issues arise (from cluster_0: poor customer support)",
+    "Bound by existing tool ecosystem requiring seamless integration (from vocabulary: product integration)",
+    "Cannot afford data loss or corruption from unstable software (from cluster_1: frequent crashes or data loss)"
+  ],
+  "decision_weights": {
+    "trusted_recommendations": 0.194,
+    "lack_of_alternatives": 0.194,
+    "performance_issues": 0.128,
+    "software_bugs": 0.097,
+    "account_management_difficulty": 0.097,
+    "support_responsiveness": 0.097,
+    "system_resource_impact": 0.097,
+    "setup_complexity": 0.097
+  },
+  "behavioral_rules": [
+    "Immediately documents specific use cases when requesting new features to justify business need",
+    "Abandons feature request process if no clear timeline or acknowledgment is provided within 48 hours",
+    "Escalates to management if software reliability issues persist after three support interactions",
+    "Tests new features extensively in sandbox environment before implementing in production workflow",
+    "Provides detailed error logs and reproduction steps when reporting bugs or requesting fixes",
+    "Compares requested features against competitor offerings to strengthen business case",
+    "Seeks workarounds through community forums when official support is unresponsive",
+    "Prioritizes feature requests that address the most frequent workflow interruptions",
+    "Validates that new features won't conflict with existing integrations before implementation",
+    "Maintains detailed records of all feature requests and their resolution status for vendor accountability"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.304,
+    "trust_starting_point": 0.632,
+    "frustration_decay": 0.25
+  },
+  "deal_breakers": [
+    "Software that corrupts or loses critical work data",
+    "Applications that crash during peak productivity hours",
+    "Support teams that provide automated responses without human follow-up",
+    "Feature updates that break existing functionality without warning",
+    "Systems that require frequent rebooting to maintain basic performance"
+  ],
+  "voice_sample": "I've been using this platform for two years and while it generally meets our needs, there are some critical gaps in functionality that are impacting our team's efficiency. The ability to automate tasks and improve team efficiency is there, but we desperately need better mobile collaboration features - specifically the ability to effectively collaborate on mobile: comment on tickets, manage tasks, view dashboards fully. The desktop experience is solid, but when I'm traveling or working remotely, I can't access the same level of functionality. I've submitted this request multiple times through the proper channels, but the response has been frustratingly slow. We need a product that integrates well within an existing ecosystem of tools, and I'm willing to work with the development team to define requirements, but I need to see some commitment to addressing these workflow bottlenecks. Our team's productivity is being hampered by these limitations, and I'm starting to evaluate alternatives that might better serve our mobile workforce needs.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 25,
+    "pages_before_decision": 8,
+    "tab_behavior": "Opens multiple tabs to compare feature documentation, keeps support portal open in background tab",
+    "primary_device": "Desktop computer during business hours for detailed feature requests",
+    "time_of_day": "Late morning after identifying workflow issues, or end of day when documenting problems"
+  },
+  "purchase_journey": {
+    "discovery": "Identifies feature gaps through daily software usage and team feedback about workflow inefficiencies",
+    "evaluation": "Reviews existing feature roadmaps, checks competitor offerings, consults with IT team about integration requirements",
+    "decision_moment": "When accumulated workflow inefficiencies cost more than potential solution investment",
+    "post_purchase_expectation": "Reliable implementation timeline with regular progress updates and seamless integration with current tools"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Vendor provides detailed implementation timeline with milestones",
+      "Feature request aligns with published product roadmap",
+      "Support team demonstrates understanding of specific use case",
+      "Beta testing opportunity is offered for new functionality"
+    ],
+    "abandons_when": [
+      "Multiple software crashes occur during feature evaluation",
+      "Support responses are clearly automated without human review",
+      "Proposed features would disrupt existing workflow integrations",
+      "No clear pricing or timeline information is provided"
+    ],
+    "trusts_when": [
+      "Vendor provides documented case studies from similar organizations",
+      "Regular product updates demonstrate ongoing platform investment",
+      "Support team provides detailed technical responses to complex questions",
+      "Integration testing environment is made available"
+    ],
+    "becomes_suspicious_when": [
+      "Promised features consistently miss delivery dates",
+      "Support tickets are closed without resolution",
+      "New updates introduce bugs in previously stable features",
+      "Pricing changes occur without advance notice or justification"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Ability to automate tasks and improve team efficiency",
+      "A product that integrates well within an existing ecosystem of tools",
+      "Achieve reliable, bug-free system performance and data accuracy",
+      "Clear communication from vendors about changes, requirements, and pricing",
+      "Ability to effectively collaborate on mobile: comment on tickets, manage tasks, view dashboards fully"
+    ],
+    "resonates_with": [
+      "Enterprise-grade reliability and performance",
+      "Seamless integration capabilities",
+      "Dedicated customer success management",
+      "Transparent development roadmaps"
+    ],
+    "turned_off_by": [
+      "Generic feature promises without specific timelines",
+      "Automated support responses to complex technical issues",
+      "Frequent updates that break existing functionality",
+      "Vague documentation about integration requirements"
+    ]
+  },
+  "inner_monologue_samples": [
+    "They're asking for budget approval for this feature enhancement, but I need to see a detailed implementation plan. We can't afford another situation where promised functionality doesn't work with our existing setup.",
+    "This testimonial sounds good, but I need to see actual case studies from organizations similar to ours. We've been burned by vendors who overpromise on integration capabilities.",
+    "Why is it so difficult to find the specific technical requirements for this feature? I shouldn't have to schedule a sales call just to get basic implementation details.",
+    "Another required field that doesn't make sense for our use case. I'm not giving them access to data they don't need, especially when their privacy policy is buried behind three clicks.",
+    "Finally, a vendor that actually understands our workflow challenges. They've documented exactly how this feature addresses our mobile collaboration gap, and they're offering a pilot program to test integration."
+  ],
+  "anti_patterns": [
+    "Treating them like a new prospect rather than an invested customer with specific needs (contradicts their existing customer status)",
+    "Providing generic marketing content instead of technical documentation (contradicts their high tech savviness and specific use cases)",
+    "Ignoring their integration requirements and existing tool ecosystem (contradicts cluster signals about ecosystem compatibility)",
+    "Responding to feature requests with sales pitches for additional products (contradicts their focused problem-solving approach)",
+    "Promising unrealistic timelines without proper technical assessment (contradicts their low risk tolerance and past experience with vendor promises)"
+  ],
+  "traits": [
+    {
+      "label": "Reliability Friction",
+      "description": "Users express frustration with software instability, poor customer support, and complex processes that hinder basic functionality and cause data loss or system slowdowns.",
+      "key_phrases": [
+        "Frustration with buggy, unreliable software that corrupts data",
+        "Poor customer support and difficulty getting help",
+        "Frequent technical issues requiring rebooting of the system"
+      ],
+      "frequency": 0.42,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Reliability and Value Demand",
+      "description": "This cluster represents users who demand products that function reliably as advertised, provide clear value for the cost, and respect their time. They are frustrated by persistent bugs, misleading features, unfair pricing, and poor performance that disrupts their work or goals.",
+      "key_phrases": [
+        "Frequent crashes or data loss",
+        "Critical bugs that prevent core functionality",
+        "Products not working as expected",
+        "Dissatisfaction with pricing models that feel exploitative",
+        "Reliable product performance without persistent bugs"
+      ],
+      "frequency": 0.286,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Core Reliability Demand",
+      "description": "Users expect apps to perform essential functions consistently and without error, viewing crashes, slow performance, or broken features as unacceptable failures of a product's basic promise.",
+      "key_phrases": [
+        "Slow performance and long loading times",
+        "Stable application that doesn't crash or freeze",
+        "Unreliable notifications causing missed critical messages"
+      ],
+      "frequency": 0.277,
+      "tone": "frustrated",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Informed Skeptic",
+      "description": "A reviewer who evaluates products based on practical, documented evidence rather than emotional reactions or social influence, showing moderate tolerance for typical purchasing inconveniences.",
+      "key_phrases": [
+        "",
+        "",
+        ""
+      ],
+      "frequency": 0.018,
+      "tone": "skeptical",
+      "cluster_id": "cluster_3"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 8,
+    "total": 3354,
+    "avg_rating": 3.11,
+    "avg_length": 532,
+    "rating_distribution": {
+      "1": 708,
+      "4": 370,
+      "5": 816,
+      "3": 1233,
+      "2": 227
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 1200,
+      "playstore": 954
+    },
+    "n_products": 7,
+    "top_products": {
+      "unknown": 2154,
+      "Slack Enterprise Grid": 200,
+      "Microsoft 365 Business Premium": 200,
+      "Adobe Creative Cloud for Teams": 200,
+      "Tableau Desktop Professional Edition": 200
+    },
+    "low_rating_pct": 0.279,
+    "high_rating_pct": 0.354,
+    "n_sources": 3,
+    "issues": [],
+    "batches_estimate": 112
+  },
+  "demographic_description": "A user within an organization who suggests new features based on their specific operational needs. Feedback reflects their internal setup and may vary across organizations. Interaction is driven by feature requests during engagement.",
+  "generated_at": "2026-04-05T22:03:05.746604",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "0% grounded in cluster data",
+    "cluster_stability": "moderate"
+  }
+}

@@ -1,0 +1,4249 @@
+{
+  "chosen_n_clusters": 5,
+  "sweep_results": [
+    {
+      "k": 3,
+      "silhouette": 0.08948751538991928,
+      "intra_similarity": 0.5869137545426687,
+      "inter_distance": 0.3613166809082031,
+      "combined_score": 0.29308122023940086
+    },
+    {
+      "k": 4,
+      "silhouette": 0.11662416905164719,
+      "intra_similarity": 0.7141907215118408,
+      "inter_distance": 0.6413909196853638,
+      "combined_score": 0.4008474849164486
+    },
+    {
+      "k": 5,
+      "silhouette": 0.13021114468574524,
+      "intra_similarity": 0.7376683473587036,
+      "inter_distance": 0.6381611227989197,
+      "combined_score": 0.4140383011102676
+    },
+    {
+      "k": 6,
+      "silhouette": 0.11263501644134521,
+      "intra_similarity": 0.7342842022577921,
+      "inter_distance": 0.5871803760528564,
+      "combined_score": 0.3940388441085816
+    },
+    {
+      "k": 7,
+      "silhouette": 0.11142990738153458,
+      "intra_similarity": 0.7259962899344308,
+      "inter_distance": 0.5269675850868225,
+      "combined_score": 0.378907357688461
+    },
+    {
+      "k": 8,
+      "silhouette": 0.10445363819599152,
+      "intra_similarity": 0.7322090268135071,
+      "inter_distance": 0.5356836318969727,
+      "combined_score": 0.37902625352144237
+    },
+    {
+      "k": 9,
+      "silhouette": 0.09081003814935684,
+      "intra_similarity": 0.721978074974484,
+      "inter_distance": 0.5048879981040955,
+      "combined_score": 0.36297604118784266
+    },
+    {
+      "k": 10,
+      "silhouette": 0.10590900480747223,
+      "intra_similarity": 0.7164008677005768,
+      "inter_distance": 0.49246180057525635,
+      "combined_score": 0.36636712282896045
+    }
+  ],
+  "quality_metrics": {
+    "silhouette": 0.13021114468574524,
+    "intra_similarity": 0.7376683473587036,
+    "inter_distance": 0.6381611227989197,
+    "combined_score": 0.4140383011102676,
+    "stability_ari": 0.5495,
+    "stability_label": "moderate"
+  },
+  "cluster_0": {
+    "member_count": 7,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Frequent Bluetooth connection drops and pairing instability",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Difficulty reconnecting after device sleep or reboot",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Missing essential keyboard keys (e.g., Esc, arrow keys)",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "High latency or input lag, especially on Android-to-Android control",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Pro version payment verification issues or perceived greed (features locked)",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Inability to use app on lock screen or during system reboots",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Limited UI/UX (difficulty activating keyboard in full-screen, no widget for quick commands)",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Lack of advanced features like pinch-to-zoom or window dragging",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Poor developer responsiveness to refund or support requests",
+            "emotional_intensity": 0.9
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable, instant Bluetooth connection without constant re-pairing",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Full keyboard functionality including all essential keys (arrow, Esc)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Seamless control across multiple devices (PC, Android, tablet) with low latency",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Advanced features like saved macros, custom layouts, pinch-to-zoom",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Easy remote control for media (volume, playback) from a distance",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Accessibility support for users with physical limitations (voice typing, custom keys)",
+            "priority": 0.65
+          },
+          {
+            "outcome": "No ads or subscriptions; transparent one-time payment for pro features",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Quick-access widget for one-press commands without launching app",
+            "priority": 0.5
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Broken or missing physical keyboard/mouse",
+            "context": "Laptop keyboard failure, needing remote control for HTPC"
+          },
+          {
+            "trigger": "Need for portable, multi-device control without extra hardware",
+            "context": "Travel, presentations, avoiding multiple Bluetooth peripherals"
+          },
+          {
+            "trigger": "Positive experience with free version leading to upgrade",
+            "context": "Reliable performance, active development, useful pro features"
+          },
+          {
+            "trigger": "Accessibility requirements (hand pain, voice typing)",
+            "context": "Physical limitations making traditional input difficult"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Unreliable Bluetooth connection requiring constant troubleshooting",
+            "severity": 0.9
+          },
+          {
+            "objection": "Pro version not delivering promised features (e.g., pinch-to-zoom)",
+            "severity": 0.85
+          },
+          {
+            "objection": "Payment/licensing issues locking out paid features",
+            "severity": 0.8
+          },
+          {
+            "objection": "High latency or lag, especially on certain device combinations",
+            "severity": 0.75
+          },
+          {
+            "objection": "Poor customer support and lack of developer responsiveness",
+            "severity": 0.8
+          },
+          {
+            "objection": "Perceived greed (locking basic typing behind paywall)",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Physical Bluetooth keyboards",
+            "reason": "Battery management hassle, multiple devices, cost",
+            "threshold": "When app proves reliable and portable"
+          },
+          {
+            "from_product": "Other remote apps requiring server installation",
+            "reason": "Simplicity of Bluetooth-only setup, no extra software",
+            "threshold": "When competitor apps are less convenient or reliable"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Connection reliability and stability",
+          "Latency and responsiveness",
+          "Feature completeness (keyboard keys, mouse, customization)",
+          "Ease of setup and use (no server required)",
+          "Pricing model (one-time payment, no ads)",
+          "Cross-platform compatibility (Windows, Android, Linux)",
+          "Developer support and update frequency"
+        ],
+        "deal_breakers": [
+          "Chronic Bluetooth connection failures",
+          "Pro version not working as advertised",
+          "Unresponsive developer support",
+          "Basic typing locked behind paywall after free use",
+          "High latency making real-time control impossible"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Bluetooth connection instability and frequent disconnections",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Pairing requires deleting and re-establishing connection each use",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Connection latency and laggy cursor movement",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "App glitches causing mouse to disappear, skip around, or send unintended scroll messages",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Volume control malfunctioning (jumping to max)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Server initialization errors preventing use",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Difficulty connecting as HID device despite multiple profiles",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Specific key input issues (e.g., backspace delay with non-default keyboards, em dash input)",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Mouse buttons not working consistently without workarounds",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Air mouse lack of precision and jumpiness",
+            "emotional_intensity": 0.4
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable, stable Bluetooth connection without manual re-pairing",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Smooth, precise cursor movement with no lag",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Seamless integration with various devices (Android TV, Steam Deck, Chromebook, tablets)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Comprehensive remote control (mouse, keyboard, multimedia, gamepad)",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Customizable layout with flexible button placement (no snap-to-grid)",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Full-screen PC keyboard instead of stock Android keyboard",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Volume control as a free feature",
+            "priority": 0.4
+          },
+          {
+            "outcome": "No ads in free version",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Ability to control devices from bed or couch for comfort",
+            "priority": 0.65
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "One-time payment for premium features instead of subscription",
+            "context": "Seeking cost-effective, non-recurring payment"
+          },
+          {
+            "trigger": "Premium features unlocking air mouse, customization, and advanced controls",
+            "context": "Wanting enhanced functionality beyond basic remote"
+          },
+          {
+            "trigger": "Supporting developers due to app quality and usefulness",
+            "context": "Positive experience leading to voluntary payment"
+          },
+          {
+            "trigger": "Saving money compared to buying physical keyboard/trackpad",
+            "context": "Cost comparison with hardware alternatives"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Bluetooth connectivity issues causing disconnection or failure to connect",
+            "severity": 0.9
+          },
+          {
+            "objection": "High latency and lag impairing usability",
+            "severity": 0.85
+          },
+          {
+            "objection": "Requires repetitive pairing setup each use",
+            "severity": 0.8
+          },
+          {
+            "objection": "App glitches and malfunctions after previously working",
+            "severity": 0.75
+          },
+          {
+            "objection": "Incompatibility with specific devices or configurations (Chromebook, non-default keyboards)",
+            "severity": 0.7
+          },
+          {
+            "objection": "Poor air mouse precision",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "KDE app",
+            "reason": "Mouse lag",
+            "threshold": "Performance degradation"
+          },
+          {
+            "from_product": "Other remote mouse/keyboard apps",
+            "reason": "Ads, lack of functionality, or requiring extra server software",
+            "threshold": "Usability and convenience"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Bluetooth connection reliability",
+          "Latency and performance",
+          "Cost (one-time payment)",
+          "Feature set (air mouse, customization)",
+          "Device compatibility",
+          "No ads"
+        ],
+        "deal_breakers": [
+          "Persistent Bluetooth disconnection",
+          "High latency/lag",
+          "Requiring re-pairing each use",
+          "Server initialization errors preventing use"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Frustration with connection issues and setup difficulty (bluetooth pairing, dropped connections)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Annoyance with volume button hijacking when app is open (phone volume not working normally)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Frustration with buggy or unreliable premium features after purchase (keyboard lag, random characters, text input issues, reconnection problems)",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Anger over perceived nickel-and-diming and locking basic security features (password hiding) behind paywall",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Frustration with interference with other Bluetooth devices (headphone audio distortion)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Disappointment with missing functionality (lack of notification control, limited gestures, missing punctuation characters on keyboard, inability to zoom with two fingers)",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Confusion and annoyance when app fails on specific device models (e.g., Samsung A71)",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Seamless, reliable remote control of PC/tablet/TV from another room/couch (cozy gaming, HTPC control)",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Intuitive and polished user experience with minimal setup friction",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Feature completeness (customizable layouts, notification control, advanced gestures, punctuation keys, widget)",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Non-intrusive operation that coexists with other device functions (normal phone volume control, no Bluetooth interference)",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Reliable performance of paid features and good value compared to physical alternatives",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Versatile use cases (beyond PC, for tablets, TVs, Steam Deck, Mac Mini, as an 'Android workstation')",
+            "priority": 0.55
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Immediate satisfaction with core free functionality ('it just works', no ads, no host software needed)",
+            "context": "Initial trial period"
+          },
+          {
+            "trigger": "Recognition of significant utility and value ('paid for itself 100 times over', better than $20+ mini keyboards)",
+            "context": "After integration into workflow"
+          },
+          {
+            "trigger": "Desire to support developer due to app quality and non-intrusive model",
+            "context": "Ethical/ appreciative motivation"
+          },
+          {
+            "trigger": "Need for specific advanced features (gamepad, macro buttons, full control)",
+            "context": "Expanding use case"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Premium features are buggy or degrade reliability after purchase",
+            "severity": 0.9
+          },
+          {
+            "objection": "App hijacks phone's volume controls and lacks option to disable this",
+            "severity": 0.7
+          },
+          {
+            "objection": "Perceived unfair pricing - locking basic security/functionality behind paywall",
+            "severity": 0.75
+          },
+          {
+            "objection": "Connection instability and setup complexity, especially with certain devices/Bluetooth environments",
+            "severity": 0.8
+          },
+          {
+            "objection": "Interference with other Bluetooth peripherals (e.g., headphones)",
+            "severity": 0.6
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Physical mini keyboards/remotes",
+            "reason": "Better functionality, lower cost, more convenient",
+            "threshold": "When app proves more reliable and feature-rich"
+          },
+          {
+            "from_product": "Native/virtual device remotes (e.g., Samsung TV remote)",
+            "reason": "Superior reliability and functionality",
+            "threshold": "Frustration with native remote's unreliability"
+          },
+          {
+            "from_product": "Other remote apps requiring host/server software",
+            "reason": "Simpler setup and direct Bluetooth HID emulation",
+            "threshold": "Desire for plug-and-play simplicity"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and ease of connection",
+          "Core functionality (mouse/keyboard/remote control)",
+          "Value for money vs. alternatives",
+          "Polish and lack of bugs",
+          "Feature set and customizability",
+          "Non-intrusiveness and coexistence with other phone functions"
+        ],
+        "deal_breakers": [
+          "Persistent connection failures after reasonable troubleshooting",
+          "Critical paid features being buggy or broken after purchase",
+          "Aggressive paywalling of basic safety/functionality causing ethical concerns"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Connection instability and frequent disconnections",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Prompts to upgrade to Pro that block basic functionality",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Key combinations (like Ctrl+C) malfunctioning or getting stuck after paying for Pro",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "App becomes unusable after updates that break previously working features",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Autocorrect interfering with typed text, causing typos and displaying confusing messages",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Difficulty reconnecting after closing/reopening the app or turning it off",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Compatibility issues with specific Android phones or OS updates",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Poor connection persistence requiring frequent re-pairing every few minutes",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Small text input field that doesn't allow users to see their text fully before sending",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "App continues to cause Bluetooth feedback or noise even after closing it properly",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable, consistent Bluetooth connection without frequent drops",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Seamless setup that works immediately without complex configuration",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Versatility to use as a mouse, keyboard, keypad, remote, or game controller across various devices",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Intuitive and customizable layouts for different use cases",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Stable performance after updates without breaking existing functionality",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Proper functioning of all paid Pro features without restrictions or bugs",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Fast response with no noticeable delay compared to physical peripherals",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Clear visibility of text input before sending, possibly with larger text fields",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Easy reconnection without needing to restart devices or reinstall the app",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Compatibility across a wide range of devices and operating systems",
+            "priority": 0.75
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for a wireless mouse/keyboard/remote in a pinch, such as when a physical peripheral breaks",
+            "context": "Emergency replacement for damaged hardware"
+          },
+          {
+            "trigger": "Desire for a multi-functional tool that replaces multiple single-purpose apps or devices",
+            "context": "Consolidating tools for convenience and flexibility"
+          },
+          {
+            "trigger": "Positive experience with free version leading to upgrade for advanced features",
+            "context": "Upgrading after initial successful use"
+          },
+          {
+            "trigger": "Frustration with competitors that require complex setup or tweaking to work properly",
+            "context": "Switching from less reliable or user-friendly alternatives"
+          },
+          {
+            "trigger": "Specific use cases like controlling smart TVs, tablets for gaming, or presentations",
+            "context": "Tailored needs for device control"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Unreliable connection makes the app unusable for basic tasks",
+            "severity": 0.95
+          },
+          {
+            "objection": "Pro version fails to deliver promised functionality (e.g., key combos) despite payment",
+            "severity": 0.9
+          },
+          {
+            "objection": "Updates degrade performance or lock previously free features behind paywalls",
+            "severity": 0.85
+          },
+          {
+            "objection": "Compatibility issues with certain devices or OS versions limit usability",
+            "severity": 0.75
+          },
+          {
+            "objection": "Intrusive upgrade prompts that disrupt the user experience",
+            "severity": 0.8
+          },
+          {
+            "objection": "Bugs that require frequent reinstalls or restarts to resolve",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Other similar Bluetooth control apps",
+            "reason": "Faster, slimmer, and easier setup with better out-of-the-box performance",
+            "threshold": "Hours spent tweaking competitors versus immediate satisfaction"
+          },
+          {
+            "from_product": "Dedicated hardware like Rii keyboards or handheld remotes",
+            "reason": "Superior phone keyboard with autocorrect, touch functionality, and no extra hardware cost",
+            "threshold": "Disappointment with hardware quality or convenience"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Connection reliability",
+          "Ease of setup and use",
+          "Versatility across devices and use cases",
+          "Performance stability after updates",
+          "Customization options",
+          "Value for money",
+          "Speed and responsiveness",
+          "Compatibility range"
+        ],
+        "deal_breakers": [
+          "Persistent connection failures or disconnections",
+          "Pro version not working as advertised after purchase",
+          "Updates that break core functionality",
+          "Intrusive ads or upgrade prompts that block usage"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Touchpad becomes unusable/locked after connection",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Multimedia play/pause features not working",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Unable to connect to new device via app, requires manual Bluetooth pairing",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Unstable connections, frequent dropouts causing mouse/keyboard to stop working",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Bluetooth on phone or laptop stops working, requiring hard reset",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Cannot change settings without purchasing premium",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "App not supported on some devices (e.g., TCL TV, Steam Deck)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Free version lacks keyboard shortcuts (copy, paste, arrow keys)",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Cannot disconnect and reconnect without restarting full setup",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Paid version requires online license check, fails without internet",
+            "emotional_intensity": 0.75
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Seamless Bluetooth connection without manual intervention",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Full keyboard with Ctrl, Alt, Esc, arrow keys, and shortcuts",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Stable connection without dropouts or Bluetooth interference",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Cross-device compatibility (MacBook, Android TV, Steam Deck)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Easy disconnection/reconnection without resetting",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Clear information on premium purchase options (in-app vs. Play Store)",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Airmouse, editable shortcuts, multimedia buttons",
+            "priority": 0.65
+          },
+          {
+            "outcome": "Option for USB connection in addition to Bluetooth",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Pen/tap customization for stylus input",
+            "priority": 0.55
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Replaces need for physical keyboard/mouse, saving money",
+            "context": "Cost-saving alternative to buying hardware"
+          },
+          {
+            "trigger": "Enables control of devices like Android TV or tablets as a remote",
+            "context": "Convenience for media/device control"
+          },
+          {
+            "trigger": "Helps avoid repetitive strain injury (RSI) by switching input methods",
+            "context": "Ergonomics and health"
+          },
+          {
+            "trigger": "Allows coding/learning on phone with better keyboard experience",
+            "context": "Productivity on mobile"
+          },
+          {
+            "trigger": "Positive experience with free version leading to premium purchase",
+            "context": "Feature unlock after testing"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Premium features locked behind paywall, free version too limited",
+            "severity": 0.75
+          },
+          {
+            "objection": "Unreliable connectivity and device compatibility issues",
+            "severity": 0.9
+          },
+          {
+            "objection": "Confusion between in-app purchase and Play Store version licensing",
+            "severity": 0.6
+          },
+          {
+            "objection": "Requires internet for license check, offline use problematic",
+            "severity": 0.7
+          },
+          {
+            "objection": "Lack of proper keyboard shortcuts in free version",
+            "severity": 0.65
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Physical keyboard/mouse",
+            "reason": "Cost savings and portability",
+            "threshold": "App provides comparable functionality at lower cost"
+          },
+          {
+            "from_product": "Other remote control apps",
+            "reason": "Better compatibility and ease of use",
+            "threshold": "Works with any device, no server required"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Connection reliability",
+          "Ease of setup/use",
+          "Feature completeness (keyboard shortcuts, airmouse)",
+          "Device compatibility",
+          "Cost/value",
+          "Stability (no dropouts)",
+          "User interface",
+          "Offline functionality"
+        ],
+        "deal_breakers": [
+          "Persistent Bluetooth connectivity failures",
+          "Inability to reconnect without full reset",
+          "Critical features not working (keyboard shortcuts, multimedia)"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0,
+      "reddit": 0,
+      "csv": 0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Apps that pretend to be functional tools but are just information/text, wasting time",
+          "count": 1,
+          "frequency": 0.0154,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0462
+        },
+        {
+          "signal": "Misleading advertising about app capabilities (e.g., claiming to be SPSS, claiming full keyboard access)",
+          "count": 1,
+          "frequency": 0.0154,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0462
+        },
+        {
+          "signal": "App flagged as malicious or containing a trojan",
+          "count": 1,
+          "frequency": 0.0154,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0462
+        },
+        {
+          "signal": "Bluetooth pairing process is finicky, unreliable, and loses connection",
+          "count": 1,
+          "frequency": 0.0154,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0462
+        },
+        {
+          "signal": "App becomes unusable after device reboot or backgrounding, requiring manual re-pairing",
+          "count": 1,
+          "frequency": 0.0154,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0462
+        },
+        {
+          "signal": "Critical keys missing from keyboard (e.g., Scroll Lock, Alt, F-keys, Tab)",
+          "count": 1,
+          "frequency": 0.0154,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0462
+        },
+        {
+          "signal": "Mouse pointer imprecision and erratic behavior (tap interpreted as right-click, scrolls too fast)",
+          "count": 1,
+          "frequency": 0.0154,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0462
+        },
+        {
+          "signal": "Aggressive or confusing free version limitations and upgrade prompts",
+          "count": 1,
+          "frequency": 0.0154,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0462
+        },
+        {
+          "signal": "Significant input latency or choppy performance",
+          "count": 1,
+          "frequency": 0.0154,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0462
+        },
+        {
+          "signal": "Custom keyboard layout editor is not intuitive or flexible enough",
+          "count": 1,
+          "frequency": 0.0154,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0462
+        },
+        {
+          "signal": "Frequent Bluetooth connection drops and pairing instability",
+          "count": 1,
+          "frequency": 0.0154,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0615
+        },
+        {
+          "signal": "Difficulty reconnecting after device sleep or reboot",
+          "count": 1,
+          "frequency": 0.0154,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0462
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "A seamless, reliable Bluetooth connection that survives reboots and app switches",
+          "count": 1,
+          "frequency": 0.0167,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.05
+        },
+        {
+          "signal": "A complete, customizable keyboard with all standard keys (including function and navigation keys)",
+          "count": 1,
+          "frequency": 0.0167,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.05
+        },
+        {
+          "signal": "A precise, responsive, and configurable mouse/trackpad experience",
+          "count": 1,
+          "frequency": 0.0167,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.05
+        },
+        {
+          "signal": "Clear, honest communication about free vs. paid features from the start",
+          "count": 1,
+          "frequency": 0.0167,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.05
+        },
+        {
+          "signal": "No software required on the receiving (PC/tablet) device for setup",
+          "count": 1,
+          "frequency": 0.0167,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.05
+        },
+        {
+          "signal": "A one-time purchase option instead of a subscription",
+          "count": 1,
+          "frequency": 0.0167,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.05
+        },
+        {
+          "signal": "Use phone as remote for presentations/media control from a distance",
+          "count": 1,
+          "frequency": 0.0167,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.05
+        },
+        {
+          "signal": "Ability to use speech-to-text for input on the controlled device",
+          "count": 1,
+          "frequency": 0.0167,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.05
+        },
+        {
+          "signal": "An ergonomic solution to reduce physical strain (e.g., for carpal tunnel)",
+          "count": 1,
+          "frequency": 0.0167,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.05
+        },
+        {
+          "signal": "Compatibility with specific setups (e.g., Samsung DeX, Steam Deck, Chromebooks)",
+          "count": 1,
+          "frequency": 0.0167,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.05
+        },
+        {
+          "signal": "Reliable, instant Bluetooth connection without constant re-pairing",
+          "count": 1,
+          "frequency": 0.0167,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.05
+        },
+        {
+          "signal": "Full keyboard functionality including all essential keys (arrow, Esc)",
+          "count": 1,
+          "frequency": 0.0167,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.05
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "The app is fraudulent or purely informational, not a functional tool",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "Unrecoverable connection failures after normal device events (reboot, app switch)",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "Being flagged as malware or a security risk by the device",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.112
+        },
+        {
+          "signal": "Extremely aggressive or deceptive free trial limitations",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "Chronic Bluetooth connection failures",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "Pro version not working as advertised",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.112
+        },
+        {
+          "signal": "Unresponsive developer support",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "Basic typing locked behind paywall after free use",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "High latency making real-time control impossible",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        },
+        {
+          "signal": "Persistent connection failures or disconnections",
+          "count": 1,
+          "frequency": 0.037,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1111
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "App reliably delivers core mouse and basic keyboard functionality for free, proving its value",
+          "count": 1,
+          "frequency": 0.0323,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0968
+        },
+        {
+          "signal": "App works where competitors fail (e.g., no PC software needed, works on Chromebook)",
+          "count": 1,
+          "frequency": 0.0323,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0968
+        },
+        {
+          "signal": "The app solves an acute, specific need in a pinch (e.g., laptop lid closed, forgot keyboard)",
+          "count": 1,
+          "frequency": 0.0323,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0968
+        },
+        {
+          "signal": "Positive experience over time (daily use, multi-device support) builds trust in the developer",
+          "count": 1,
+          "frequency": 0.0323,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0968
+        },
+        {
+          "signal": "The need for enhanced productivity features like a number pad or custom shortcuts",
+          "count": 1,
+          "frequency": 0.0323,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0968
+        },
+        {
+          "signal": "Broken or missing physical keyboard/mouse",
+          "count": 1,
+          "frequency": 0.0323,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0968
+        },
+        {
+          "signal": "Need for portable, multi-device control without extra hardware",
+          "count": 1,
+          "frequency": 0.0323,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0968
+        },
+        {
+          "signal": "Positive experience with free version leading to upgrade",
+          "count": 1,
+          "frequency": 0.0323,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0968
+        }
+      ],
+      "dominant_friction_tolerance": "medium",
+      "friction_tolerance_distribution": {
+        "medium": 0.571,
+        "low": 0.429
+      }
+    }
+  },
+  "cluster_1": {
+    "member_count": 36,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Manual data entry and correction is time-consuming and frustrating.",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "AI lacks context and struggles with business interpretation, requiring human oversight.",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Data import and migration is flawed, causing errors and extra work.",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Unclear or missing features lead to inefficient workflows.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Poor customer support and documentation hinders problem-solving.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Software bugs and installation issues disrupt usage.",
+            "emotional_intensity": 0.8
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "AI handles routine data tasks (cleaning, querying) to free up time for analysis.",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Seamless data import and integration between tools and systems.",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Accurate and reliable automated processing with minimal manual validation.",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Clear data definitions and trusted sources for AI to use correctly.",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Tools that help compress investigation time and provide first-pass insights.",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Software that is intuitive, stable, and well-supported.",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Migrating from an outdated or unsupported tool (e.g., Quicken 2004).",
+            "context": "System upgrade or platform change."
+          },
+          {
+            "trigger": "Need to improve efficiency in data processing or analysis workflows.",
+            "context": "Seeking productivity gains in analytical tasks."
+          },
+          {
+            "trigger": "Desire for AI assistance to handle repetitive data tasks.",
+            "context": "Looking to automate grunt work like SQL queries or data cleaning."
+          },
+          {
+            "trigger": "Positive experience with trial version or specific features (e.g., W2 import).",
+            "context": "Testing before buying."
+          },
+          {
+            "trigger": "Professional requirement or industry standard tool (e.g., Quark for design).",
+            "context": "Job or project demands."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "AI cannot understand business context or make judgment calls, limiting its usefulness.",
+            "severity": 0.7
+          },
+          {
+            "objection": "Tools misrepresent capabilities (e.g., import functions) leading to wasted effort.",
+            "severity": 0.8
+          },
+          {
+            "objection": "Software is buggy, unstable, or causes system problems.",
+            "severity": 0.9
+          },
+          {
+            "objection": "Poor customer support and lack of helpful resources.",
+            "severity": 0.6
+          },
+          {
+            "objection": "AI may reduce demand for traditional analyst roles, creating career uncertainty.",
+            "severity": 0.5
+          },
+          {
+            "objection": "Complexity and learning curve outweigh benefits for casual users.",
+            "severity": 0.4
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Quicken",
+            "reason": "Lack of decent Mac version or outdated software.",
+            "threshold": "Upgrade forces migration."
+          },
+          {
+            "from_product": "Manual processes or older tools",
+            "reason": "AI can automate repetitive tasks and speed up analysis.",
+            "threshold": "Time savings and efficiency gains become compelling."
+          },
+          {
+            "from_product": "Tools with poor data import/integration",
+            "reason": "Flawed migration causes errors and excessive manual work.",
+            "threshold": "Data corruption or unsustainable corrective effort."
+          },
+          {
+            "from_product": "Buggy or unsupported software",
+            "reason": "Frequent crashes, installation failures, or lack of updates.",
+            "threshold": "Product becomes unusable or unreliable."
+          }
+        ],
+        "decision_factors_ranked": [
+          "Accuracy and reliability of data processing",
+          "Ease of data import and integration",
+          "Time savings and workflow efficiency",
+          "AI's ability to handle routine tasks",
+          "Software stability and bug-free experience",
+          "Quality of customer support and documentation",
+          "Cost and value for money",
+          "Learning curve and user intuitiveness"
+        ],
+        "deal_breakers": [
+          "Critical data import errors or corruption",
+          "Software that crashes or won't install",
+          "Complete lack of customer support",
+          "AI that cannot be trusted without excessive manual validation",
+          "Major missing features for core workflows"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Tools provide incorrect or incomplete data, requiring manual rework.",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Software crashes, freezes, or has severe bugs causing lost work.",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "AI/automation tools have unclear data security, privacy, and retention policies.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Lack of reliable customer support and technical assistance.",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Manual validation processes are time-consuming and tedious.",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Poor integration between tools leading to redundant manual data entry.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Fear of job obsolescence due to AI automation in analytics.",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Accurate, reliable data processing with minimal errors.",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Clear data security, privacy, and governance for AI tools.",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Seamless integration between tools to avoid manual rework.",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Efficient workflows that combine AI speed with human validation.",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Transparent AI processes (e.g., explainable queries, no hallucinations).",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Tools that enhance, not replace, professional analytical insight.",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to process large datasets faster than manual methods allow.",
+            "context": "When facing tight deadlines or data volume increases."
+          },
+          {
+            "trigger": "Dissatisfaction with current tool's accuracy, support, or integration.",
+            "context": "After experiencing repeated errors or poor customer service."
+          },
+          {
+            "trigger": "Desire to reduce manual, repetitive tasks to focus on higher-value analysis.",
+            "context": "When seeking efficiency gains in research or reporting workflows."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "AI tools lack critical thinking, produce hallucinations, or have limited context.",
+            "severity": 0.8
+          },
+          {
+            "objection": "Data security risks when sharing proprietary or sensitive data with AI.",
+            "severity": 0.85
+          },
+          {
+            "objection": "High learning curve or poor usability compared to familiar tools.",
+            "severity": 0.7
+          },
+          {
+            "objection": "Cost versus benefit, especially if free alternatives exist.",
+            "severity": 0.6
+          },
+          {
+            "objection": "Over-reliance on AI could devalue or replace human analytical roles.",
+            "severity": 0.65
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Legacy analytics tools (e.g., Power BI)",
+            "reason": "Outdated workflows and lack of AI integration.",
+            "threshold": "When newer tools demonstrably increase speed and reduce manual effort."
+          },
+          {
+            "from_product": "Competing AI/automation tools",
+            "reason": "Poor accuracy, reliability, or data security concerns.",
+            "threshold": "After repeated failures or security incidents."
+          },
+          {
+            "from_product": "Manual processes",
+            "reason": "Inefficiency and inability to scale with data volume.",
+            "threshold": "When manual validation becomes too time-consuming or error-prone."
+          }
+        ],
+        "decision_factors_ranked": [
+          "Accuracy and reliability",
+          "Data security and privacy",
+          "Integration and workflow compatibility",
+          "Efficiency and time savings",
+          "Cost and value",
+          "Ease of use and learning curve",
+          "Customer support quality"
+        ],
+        "deal_breakers": [
+          "Frequent data errors or inaccuracies",
+          "Unclear or risky data security policies",
+          "Lack of transparency in AI processes",
+          "Poor or non-existent customer support"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Complex codebases lack documentation, making validation difficult and time-consuming.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Difficulty finding junior roles due to market saturation and reduced hiring.",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Learning curve with new software is steep without accessible tutorials or manuals.",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Unreliable automation/AI outputs require extensive manual validation, increasing workload.",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Loss of institutional knowledge when replacing experienced staff with external resources.",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Poor communication and context loss with remote/overseas teams hampers understanding of business logic.",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Automate repetitive data processing while maintaining high accuracy through rigorous validation.",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Quickly learn and master new tools with comprehensive, accessible documentation.",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Seamlessly integrate AI tools into existing workflows without disrupting productivity.",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Gain clear insights and patterns from large datasets with minimal manual effort.",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Ensure data consistency and standardization across sources.",
+            "priority": 0.75
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to process large datasets more efficiently than current manual methods.",
+            "context": "When workload increases or data complexity surpasses existing tool capabilities."
+          },
+          {
+            "trigger": "Positive reviews highlighting accuracy and validation features.",
+            "context": "Researching alternatives to current software after encountering limitations."
+          },
+          {
+            "trigger": "Availability of detailed manuals and tutorials reducing learning time.",
+            "context": "Evaluating new tools where ease of adoption is critical."
+          },
+          {
+            "trigger": "Integration capabilities with existing platforms (e.g., Ancestry.com, cloud services).",
+            "context": "Seeking tools that enhance rather than replace current systems."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "AI tools may produce errors requiring more manual validation than they save.",
+            "severity": 0.8
+          },
+          {
+            "objection": "High learning curve and lack of immediate usability.",
+            "severity": 0.6
+          },
+          {
+            "objection": "Cost of tool not justified if it fails to integrate smoothly into existing workflows.",
+            "severity": 0.7
+          },
+          {
+            "objection": "Dependency on external tools risks data security or vendor lock-in.",
+            "severity": 0.5
+          },
+          {
+            "objection": "Tools may lack the nuanced understanding of business context needed for accurate analysis.",
+            "severity": 0.85
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Manual data processing methods",
+            "reason": "Inability to scale with increasing data volume or complexity.",
+            "threshold": "When manual validation becomes a bottleneck affecting project timelines."
+          },
+          {
+            "from_product": "Basic or outdated software",
+            "reason": "Lacks advanced features like auto-correction, standardization, or integration.",
+            "threshold": "When current tools cannot handle new data formats or analytical demands."
+          },
+          {
+            "from_product": "Competitor tools",
+            "reason": "Better accuracy, user interface, or learning resources available.",
+            "threshold": "When frustration with current tool's limitations outweighs switching costs."
+          }
+        ],
+        "decision_factors_ranked": [
+          "Accuracy and reliability of outputs",
+          "Ease of integration into existing workflows",
+          "Quality of documentation and learning resources",
+          "Cost-effectiveness relative to productivity gains",
+          "Data security and vendor trustworthiness",
+          "Customization and control over automation processes"
+        ],
+        "deal_breakers": [
+          "Inability to validate outputs manually",
+          "No access to comprehensive documentation or support",
+          "Poor integration with essential existing tools/platforms",
+          "Unacceptable risk of data errors or inconsistencies"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Manual data entry and integration requiring hours of manual work",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Tools not working reliably with specific platforms/software causing workflow interruption",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Steep learning curve for new software requiring extensive time investment",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Software instability/crashing requiring reinstallation and troubleshooting",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Need to manually intervene with repetitive tasks instead of automation",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Lack of clear instructions/documentation causing confusion and wasted time",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Tools lacking critical thinking ability and business context understanding",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Automate repetitive tasks to free up time for complex analysis",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Process and analyze large datasets quickly to identify patterns",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Maintain rigorous manual validation to ensure accuracy of results",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Have AI handle data cleaning, slicing and analyzing while analyst provides governance",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Enable stakeholders to answer simple ad-hoc questions themselves through tools",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Build domain expertise that cannot be easily automated or replaced",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to learn new skills or software for career development",
+            "context": "Professional growth"
+          },
+          {
+            "trigger": "Existing tools not meeting efficiency requirements",
+            "context": "Performance improvement"
+          },
+          {
+            "trigger": "Recommendations from reviews or industry peers",
+            "context": "Social proof"
+          },
+          {
+            "trigger": "Need to automate repetitive parts of workflow",
+            "context": "Efficiency optimization"
+          },
+          {
+            "trigger": "Desire to stay current with technological advancements",
+            "context": "Career relevance"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "AI lacks business intuition and critical thinking to challenge assumptions",
+            "severity": 0.8
+          },
+          {
+            "objection": "AI may perpetuate confirmation bias rather than provide objective analysis",
+            "severity": 0.7
+          },
+          {
+            "objection": "AI outputs require extensive verification, negating time savings",
+            "severity": 0.8
+          },
+          {
+            "objection": "AI cannot understand business context and ask 'why' questions",
+            "severity": 0.8
+          },
+          {
+            "objection": "AI may confidently produce incorrect information",
+            "severity": 0.9
+          },
+          {
+            "objection": "Good data models and BI dashboards could achieve similar automation without AI",
+            "severity": 0.6
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Manual processes",
+            "reason": "Inefficiency in handling large datasets and repetitive tasks",
+            "threshold": "When time savings justify learning curve"
+          },
+          {
+            "from_product": "Traditional BI tools",
+            "reason": "Limited automation capabilities for ad-hoc analysis",
+            "threshold": "When stakeholders demand faster answers"
+          },
+          {
+            "from_product": "Competitor AI tools",
+            "reason": "Better integration with existing workflow or more reliable outputs",
+            "threshold": "When current tool proves unreliable"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Accuracy and reliability of outputs",
+          "Integration with existing workflow/tools",
+          "Time savings and efficiency gains",
+          "Learning curve and ease of adoption",
+          "Cost relative to value provided",
+          "Ability to handle large datasets",
+          "Quality of documentation and support"
+        ],
+        "deal_breakers": [
+          "Produces inaccurate or unreliable results",
+          "Cannot integrate with existing data sources/tools",
+          "Requires more verification time than it saves",
+          "Lacks ability to incorporate business context",
+          "Too difficult to implement or maintain"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "AI tools misinterpret ambiguous user instructions, requiring manual correction",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "AI tools make mistakes or suggest overly complex/inaccurate solutions, requiring expert validation",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "AI agents can produce silent errors that compound across a multi-agent pipeline",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "AI tool outputs lack traceability, making it hard to audit and debug errors",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Difficulty setting up or getting AI/automated tools to work as advertised",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "AI tools require mature data infrastructure and semantic models to function reliably",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "AI tools lack intuitive interfaces, requiring extensive learning and manual reference",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Automate repetitive data processing and pattern identification tasks",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Enable non-technical users to generate reports and insights via plain language",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Increase productivity and output volume without replacing human expertise",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Achieve high accuracy through rigorous manual validation of automated outputs",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Create auditable, traceable workflows where AI agent errors can be isolated and corrected",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Bridge communication gaps between technical and business/clinical SMEs",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Handle complex tasks like building presentations, roadmaps, and root-cause analysis automatically",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to process large datasets and identify patterns more efficiently",
+            "context": "Professional analysis workload increase"
+          },
+          {
+            "trigger": "Desire to enable non-technical stakeholders to self-serve data queries",
+            "context": "Reducing ad-hoc reporting burden on data team"
+          },
+          {
+            "trigger": "Recognition that AI tools can augment (not replace) human analysts to get more done",
+            "context": "Seeking productivity enhancements"
+          },
+          {
+            "trigger": "Availability of newer, more capable AI models that promise improved performance",
+            "context": "Technological advancement"
+          },
+          {
+            "trigger": "Need to formalize and scale data analysis processes across the organization",
+            "context": "Company growth or maturity initiative"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "AI tools are not yet reliable enough to replace human judgment and can make critical errors",
+            "severity": 0.9
+          },
+          {
+            "objection": "Implementing AI requires mature, well-defined data infrastructure and semantic models, which most companies lack",
+            "severity": 0.85
+          },
+          {
+            "objection": "AI outputs can be misleading if the underlying data or business context is flawed",
+            "severity": 0.8
+          },
+          {
+            "objection": "Plain English instructions are often too ambiguous for precise, reliable AI interpretation",
+            "severity": 0.75
+          },
+          {
+            "objection": "Risk of clients adopting AI solutions independently, bypassing consultant expertise",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Manual analysis processes",
+            "reason": "Inability to scale with increasing data volume and complexity",
+            "threshold": "Workload exceeds manual capacity"
+          },
+          {
+            "from_product": "Legacy or less capable AI tools",
+            "reason": "Availability of newer models with significantly improved accuracy and functionality",
+            "threshold": "Performance gap becomes hindering"
+          },
+          {
+            "from_product": "Consultant-dependent analytics",
+            "reason": "Desire for internal self-service capabilities via AI agents",
+            "threshold": "Cost or delay of external dependency becomes untenable"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Accuracy and reliability of outputs",
+          "Ease of integration with existing data stack",
+          "Traceability and auditability of AI processes",
+          "Ability to augment (not replace) human expertise",
+          "Scalability and performance with large datasets",
+          "Learning curve and user interface intuitiveness",
+          "Vendor support and tool maturity"
+        ],
+        "deal_breakers": [
+          "Lack of manual validation and override capabilities",
+          "Inability to trace errors to source in multi-step AI processes",
+          "Requires complete data infrastructure overhaul to implement",
+          "Produces results that cannot be independently verified"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.5,
+      "reddit": 0.5,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Job market oversaturation leading to prolonged unemployment despite extensive experience",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0127
+        },
+        {
+          "signal": "Users often don't know what they actually need, making requirements ambiguous",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0127
+        },
+        {
+          "signal": "Installation/upgrade processes can be fragile and break systems if directions aren't followed exactly",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0127
+        },
+        {
+          "signal": "Feature removal in upgrades feels like a cash grab",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0127
+        },
+        {
+          "signal": "Software interfaces can be non-intuitive with steep learning curves",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0127
+        },
+        {
+          "signal": "Tools failing silently or producing empty outputs (e.g., OCR conversion)",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0127
+        },
+        {
+          "signal": "Needing to be a multi-skilled generalist instead of a specialist to get hired",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0128
+        },
+        {
+          "signal": "High anxiety about AI replacing data analyst roles",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0127
+        },
+        {
+          "signal": "Licensing and pricing changes that lock previously included features behind additional paywalls",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0127
+        },
+        {
+          "signal": "Software being overly promotional/ad-driven instead of focused on core functionality",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0127
+        },
+        {
+          "signal": "Data quality issues stemming from misunderstanding data sources",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0127
+        },
+        {
+          "signal": "AI tools generate code that requires debugging, sometimes slower than writing manually",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0127
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Automate analysis of large datasets to identify patterns efficiently",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0137
+        },
+        {
+          "signal": "Maintain rigorous manual validation to ensure accuracy",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0137
+        },
+        {
+          "signal": "Quickly prepare for opponents/competitors by exposing their weaknesses",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0137
+        },
+        {
+          "signal": "Get diverse skills and aggressive marketing to secure employment",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0137
+        },
+        {
+          "signal": "Turn nebulous user requests into actionable, valuable reports",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0137
+        },
+        {
+          "signal": "Integrate with existing organizational tech stacks and data maturity levels",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0137
+        },
+        {
+          "signal": "Move 'upstream' into analytics engineering or data engineering roles",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0137
+        },
+        {
+          "signal": "Learn AI/LLM concepts (RAG models, MCP) to augment data work",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0137
+        },
+        {
+          "signal": "Perform data cleaning and ETL/ELT in a more programmatic way",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0137
+        },
+        {
+          "signal": "Have a tool that is stable, reliable, and doesn't fail or turn itself off",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0137
+        },
+        {
+          "signal": "Automate repetitive analysis tasks",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0138
+        },
+        {
+          "signal": "Speed up processing of larger datasets with parallel processing",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0137
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Frequent crashes or data loss",
+          "count": 2,
+          "frequency": 0.012,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0301
+        },
+        {
+          "signal": "Poor customer support",
+          "count": 2,
+          "frequency": 0.012,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0301
+        },
+        {
+          "signal": "Inability to validate outputs manually",
+          "count": 2,
+          "frequency": 0.012,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0301
+        },
+        {
+          "signal": "Lack of manual validation capabilities",
+          "count": 2,
+          "frequency": 0.012,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0301
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Need to process large datasets and identify patterns efficiently",
+          "count": 2,
+          "frequency": 0.014,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.035
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "low": 0.667,
+        "medium": 0.333
+      }
+    }
+  },
+  "cluster_2": {
+    "member_count": 43,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Difficulty accessing product documentation (e.g., user manual)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Complicated, unintuitive software interfaces requiring extensive manual workarounds",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poor or slow customer support requiring lengthy self-research",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Incompatibility with common platforms or file formats",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Hidden costs or fees not disclosed upfront",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Software updates that break functionality or introduce bugs",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Unclear or conflicting product information (e.g., age appropriateness)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Difficulty migrating or transferring data between systems",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Software that works reliably and efficiently with minimal manual intervention",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Access to comprehensive, clear documentation and tutorials",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Easy data import/export and compatibility with standard formats",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Tools that automate or simplify complex, repetitive tasks (like data processing)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Accurate, actionable insights from data analysis",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Ability to validate and manually verify automated results",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Seamless collaboration and cross-platform functionality",
+            "priority": 0.65
+          },
+          {
+            "outcome": "Cost-effective solutions that avoid hidden fees",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to upgrade from a previous, outdated version of software",
+            "context": "Software becomes unsupported or lacks new features"
+          },
+          {
+            "trigger": "Discovery of a bundle offering significant added value (e.g., software + free subscription)",
+            "context": "Seeking a comprehensive package for a project like genealogy"
+          },
+          {
+            "trigger": "Finding software that addresses a specific, critical pain point of current tool (e.g., color accuracy in video burning)",
+            "context": "Frustration with current tool's limitations"
+          },
+          {
+            "trigger": "Positive experience with a free trial leading to purchase",
+            "context": "Successful proof of concept on personal system"
+          },
+          {
+            "trigger": "Need to learn a new skill or subject area efficiently",
+            "context": "Using AI tools for accelerated learning, as mentioned for finance"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Concerns about product being a 'dead end' or not leading to AGI",
+            "severity": 0.6
+          },
+          {
+            "objection": "Fear of hidden costs or subscription traps after purchase",
+            "severity": 0.85
+          },
+          {
+            "objection": "Skepticism about software compatibility with their specific, common setup (e.g., Bank of America)",
+            "severity": 0.9
+          },
+          {
+            "objection": "Frustration with poor customer support and lengthy resolution times",
+            "severity": 0.8
+          },
+          {
+            "objection": "Difficulty in learning or using the software due to poor UI/UX",
+            "severity": 0.75
+          },
+          {
+            "objection": "Security and privacy concerns, especially around financial data access",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Windows Movie Maker",
+            "reason": "Critical flaw in output (e.g., color shifting)",
+            "threshold": "Persistent quality issue affecting core use case"
+          },
+          {
+            "from_product": "Quicken",
+            "reason": "Degradation of features, inability to import standard file formats, ownership change",
+            "threshold": "Product no longer meets basic data import/management needs after long-term use"
+          },
+          {
+            "from_product": "QuickBooks",
+            "reason": "Incompatibility with major bank and excessive manual work required",
+            "threshold": "Encountering bank-specific fees and import limits after purchase"
+          },
+          {
+            "from_product": "Internet Explorer / older tools",
+            "reason": "Better security alerts and usability",
+            "threshold": "Recognition of superior alternative (e.g., Google Chrome)"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and accuracy of output",
+          "Cost and value for money",
+          "Ease of use and learning curve",
+          "Compatibility with existing tools/data formats",
+          "Quality and availability of support/documentation",
+          "Automation and efficiency gains",
+          "Security and data privacy"
+        ],
+        "deal_breakers": [
+          "Critical incompatibility with essential platforms (e.g., major banks)",
+          "Hidden fees or mandatory ongoing costs not disclosed",
+          "Complete lack of effective customer support",
+          "Inability to manually validate or correct automated processes",
+          "Software that degrades system performance"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Poor or unavailable documentation/manuals",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Inadequate customer support (long hold times, poor language skills, unhelpful)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Difficulty learning or navigating software due to unclear interfaces or coded systems",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Software bugs or regressions that degrade performance over time",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "High cost or perceived money-grabbing tactics (forced upgrades, hidden fees)",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Time-consuming manual processes or inefficient workflows",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Installation or compatibility issues with operating systems",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Accurate and reliable results from software (e.g., tax filing, data analysis)",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Ease of use and intuitive interface to minimize learning curve",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Comprehensive documentation and accessible support for troubleshooting",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Time savings and efficiency gains through automation",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Ability to handle large datasets or long-term data analysis without performance degradation",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Cost-effectiveness and transparent pricing without hidden charges",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Flexibility to customize or integrate with manual/custom workflows",
+            "priority": 0.65
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Long-term positive experience and reliability with the product over years",
+            "context": "Loyalty to a tool that has consistently delivered value"
+          },
+          {
+            "trigger": "Need to automate repetitive, manual tasks to save time and reduce physical strain",
+            "context": "Seeking productivity and health improvements"
+          },
+          {
+            "trigger": "Recommendation from trusted reviews or evidence of effectiveness",
+            "context": "Research-driven decision making before purchase"
+          },
+          {
+            "trigger": "Specific need for a tool that handles complex data or analysis tasks",
+            "context": "Professional or business requirement"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Lack of proper documentation or support makes the tool unusable",
+            "severity": 0.9
+          },
+          {
+            "objection": "High cost relative to value, with hidden fees or aggressive monetization",
+            "severity": 0.8
+          },
+          {
+            "objection": "Software bugs or performance issues that compromise accuracy or efficiency",
+            "severity": 0.85
+          },
+          {
+            "objection": "Over-reliance on the tool without sufficient manual validation capabilities",
+            "severity": 0.6
+          },
+          {
+            "objection": "Poor scalability with large datasets or complex use cases",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Quickbooks",
+            "reason": "Aggressive monetization, poor support, and migration to online-only with hidden costs",
+            "threshold": "Persistent negative experiences and better alternatives found through research"
+          },
+          {
+            "from_product": "iBank",
+            "reason": "Unresolved performance regression in new version that hinders long-term data analysis",
+            "threshold": "Developer acknowledgment but no fix over multiple updates, making tool unusable for core need"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Accuracy and reliability",
+          "Ease of use and learning curve",
+          "Quality of support and documentation",
+          "Cost-effectiveness",
+          "Performance with large datasets",
+          "Flexibility and customization",
+          "Automation and time savings"
+        ],
+        "deal_breakers": [
+          "Critical software bugs that compromise results",
+          "Lack of accessible documentation or support",
+          "Unethical pricing or hidden fees",
+          "Severe performance issues with large datasets"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Poor or outdated instructions and documentation causing setup failures",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Manual data entry and reconciliation is cumbersome and time-consuming",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Inability to import/export data or migrate between platforms easily",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Tools lacking specific, critical features (e.g., closed captioning, 401k setup)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Unstable, inconsistent, or buggy performance causing workflows to break",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Excessive configuration and plugins required to reach basic functionality",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Poor integration or syncing with existing accounts and data sources",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Complex or non-intuitive workflows that are easy to disrupt with small errors",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Slow performance impacting productivity and system resources",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Lack of seamless transition or parity between different product versions (web vs. desktop, PC vs. Mac)",
+            "emotional_intensity": 0.8
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Efficient, fast, and reliable processing of data or tasks",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Accurate and validated results requiring minimal manual correction",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Intuitive, easy-to-use interface with clear documentation",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Seamless integration with existing data, tools, and workflows",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Flexibility to adapt to specific analysis needs and languages",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Stable, consistent performance without crashes or bugs",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Automated data import/export and syncing to reduce manual entry",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Comprehensive feature set for specialized tasks (e.g., scientific computing, data science)",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Dissatisfaction with current tool's performance or reliability",
+            "context": "After experiencing bugs, crashes, or workflow failures"
+          },
+          {
+            "trigger": "Need for more advanced or specialized features",
+            "context": "When existing tools lack capabilities for specific tasks (e.g., data science, ML)"
+          },
+          {
+            "trigger": "Positive independent reviews and research",
+            "context": "After reading professional or user reviews confirming tool effectiveness"
+          },
+          {
+            "trigger": "Availability of free trial or low-cost entry version",
+            "context": "Allowing risk-free testing before committing to paid version"
+          },
+          {
+            "trigger": "Platform or workflow migration (e.g., switching OS)",
+            "context": "Needing a compatible tool for a new environment"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "High learning curve and setup complexity",
+            "severity": 0.6
+          },
+          {
+            "objection": "Cost of licenses, especially for advanced features",
+            "severity": 0.5
+          },
+          {
+            "objection": "Concerns about data security when enabling third-party access or installations",
+            "severity": 0.7
+          },
+          {
+            "objection": "Poor or missing documentation leading to setup failures",
+            "severity": 0.8
+          },
+          {
+            "objection": "Inability to try before buying (no trial or refund policy)",
+            "severity": 0.6
+          },
+          {
+            "objection": "Fear of instability or system crashes (e.g., Blue Screen of Death)",
+            "severity": 0.8
+          },
+          {
+            "objection": "Lack of feature parity between versions or platforms",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Jupyter Lab",
+            "reason": "Better code editing experience and integrated tooling",
+            "threshold": "Persistent pain with editing Python code directly in notebooks"
+          },
+          {
+            "from_product": "Other anti-virus software",
+            "reason": "System instability (BSOD) and slow performance",
+            "threshold": "Frequent crashes and noticeable system slowdown"
+          },
+          {
+            "from_product": "Manual bookkeeping or older software",
+            "reason": "Desire for automation and error reduction",
+            "threshold": "Frustration with manual processes and time consumption"
+          },
+          {
+            "from_product": "TurboTax desktop software",
+            "reason": "Lack of data import from web version",
+            "threshold": "Manual data entry requirement seen as a step backwards"
+          },
+          {
+            "from_product": "Beyond TV / Sage TV",
+            "reason": "Missing critical feature (closed captioning) and instability",
+            "threshold": "Inability to use product due to missing accessibility feature"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and stability",
+          "Ease of use and setup",
+          "Integration with existing tools/data",
+          "Feature completeness for specific tasks",
+          "Performance and speed",
+          "Cost and licensing",
+          "Quality of support and documentation",
+          "Security and data safety"
+        ],
+        "deal_breakers": [
+          "Crashes or causes system instability (e.g., BSOD)",
+          "Missing critical, non-negotiable features (e.g., closed captioning, data import)",
+          "Unacceptably poor or outdated instructions preventing setup",
+          "Inability to validate or manually check outputs",
+          "Excessive manual work defeating automation purpose"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Tools over-promise ease of use but require deep technical expertise to configure and troubleshoot",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Lack of intuitive, user-friendly interfaces for common tasks (e.g., export to Excel, conditional formatting in charts)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Time-consuming workarounds needed for visualizations and features that are simple in other tools (Excel, Tableau)",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Poor or inaccessible support channels, making bug reporting and issue resolution frustrating",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Automated 'smart' features (like categorization, memorization) lack precision and logic, leading to data errors",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Manual, repetitive data entry required due to lack of integration with external systems (e.g., payroll, banks)",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Performance and stability issues when tools are not meticulously tuned to hardware/resource constraints",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Missing critical features in newer/cheaper versions that existed in older/competitor products",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Forced upgrades or obsolescence due to OS changes, with high cost to stay current",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Accurate, automated data processing with rigorous validation to ensure reliability",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Intuitive, efficient user interface that minimizes clicks and learning curve for common tasks",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Seamless integration with external data sources (banks, payroll, utilities) to eliminate manual entry",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Advanced, flexible visualization capabilities without needing complex workarounds",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Robust support and accessible documentation for troubleshooting and bug reporting",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Stable performance across different hardware/configurations with minimal manual tuning",
+            "priority": 0.65
+          },
+          {
+            "outcome": "Clear, transparent feature comparisons between product versions to inform purchase decisions",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Cost-effective licensing (prefer one-time purchase over subscription) for long-term use",
+            "priority": 0.9
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to maintain compatibility with workplace software (e.g., Windows) while using preferred OS (e.g., Mac)",
+            "context": "Professional workflow requiring specific applications"
+          },
+          {
+            "trigger": "Requirement to organize and analyze large, complex datasets with automated pattern identification",
+            "context": "Data analysis and research projects"
+          },
+          {
+            "trigger": "Upgrading hardware/OS forces replacement of outdated, incompatible software",
+            "context": "System migration or upgrade"
+          },
+          {
+            "trigger": "Desire to replace manual, error-prone processes (Excel, paper) with automated, accurate tools",
+            "context": "Efficiency and accuracy improvement"
+          },
+          {
+            "trigger": "Extensive research comparing features, pricing, and user reviews to find best value",
+            "context": "Informed purchasing to avoid buyer's remorse"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "High cost relative to value, especially for subscription models or missing features",
+            "severity": 0.8
+          },
+          {
+            "objection": "Steep learning curve and need for technical expertise, contrary to marketing claims",
+            "severity": 0.75
+          },
+          {
+            "objection": "Poor support accessibility and buggy, unreliable performance",
+            "severity": 0.7
+          },
+          {
+            "objection": "Lack of critical features compared to competitors or older versions",
+            "severity": 0.85
+          },
+          {
+            "objection": "Forced upgrades or obsolescence due to external factors (OS changes)",
+            "severity": 0.6
+          },
+          {
+            "objection": "Data inaccuracy or errors introduced by automated features",
+            "severity": 0.9
+          },
+          {
+            "objection": "Free or trial versions are misleading, with essential features locked behind paywall",
+            "severity": 0.65
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "QuickBooks Online",
+            "reason": "High subscription costs and slower performance vs. desktop version",
+            "threshold": "Cost exceeds value, productivity loss"
+          },
+          {
+            "from_product": "Adobe Acrobat Pro",
+            "reason": "Overpriced for needed features; seek cheaper, capable alternative",
+            "threshold": "Cost-benefit analysis favors competitor"
+          },
+          {
+            "from_product": "Tableau or QlikView",
+            "reason": "Frustration with missing basic features or complex workarounds in current tool",
+            "threshold": "Inefficiency hampers critical tasks"
+          },
+          {
+            "from_product": "Kaspersky or other AV",
+            "reason": "Rising costs and perceived arrogance; seek better value",
+            "threshold": "Price increase without proportional value"
+          },
+          {
+            "from_product": "VMware",
+            "reason": "Prefer Parallels for Mac integration, despite quirks",
+            "threshold": "Platform-specific need outweighs issues"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Accuracy and reliability of automated features",
+          "Cost-effectiveness and licensing model",
+          "Ease of use and learning curve",
+          "Integration with external data sources",
+          "Quality of support and documentation",
+          "Performance and stability",
+          "Feature set compared to competitors",
+          "Compatibility with existing hardware/OS"
+        ],
+        "deal_breakers": [
+          "Data inaccuracies or errors that compromise analysis",
+          "Missing critical features required for core tasks",
+          "Exorbitant subscription fees with poor ROI",
+          "Complete lack of accessible support",
+          "Incompatibility with necessary OS/hardware"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Tools lack essential formatting options (conditional formatting, text formatting in visualizations)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Manual workarounds required for basic functionality",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Software is slow, clunky, or has performance issues with large datasets",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Difficulty finding specific features or information within tools",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Poor or misleading documentation/research required before purchasing",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Hidden costs or unexpected limitations after purchase",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Compatibility issues with operating systems or data sources",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Inability to manually resolve data synchronization errors",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Forced upgrades or subscription models that disable core features",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Process and analyze large datasets quickly without performance issues",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Automate repetitive data tasks to save time",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Validate data and calculations to ensure accuracy",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Create professional reports with proper formatting and visualizations",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Access data and tools from anywhere for real-time updates",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Avoid manual data entry through reliable import/export features",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Have all necessary tools in one integrated platform",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Exhaustive research comparing multiple competing products",
+            "context": "Before making security or financial software purchases"
+          },
+          {
+            "trigger": "Recommendation from trusted colleague or friend",
+            "context": "When trying new software categories"
+          },
+          {
+            "trigger": "Need to handle datasets too large for current tools",
+            "context": "When spreadsheets become too slow"
+          },
+          {
+            "trigger": "Requirement for specialized functionality (statistics, finance, music tablature)",
+            "context": "When existing tools lack specific features"
+          },
+          {
+            "trigger": "Security concerns with alternative products",
+            "context": "When evaluating financial or antivirus software"
+          },
+          {
+            "trigger": "Cost savings compared to professional services",
+            "context": "For tax preparation or financial analysis"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Tools force upgrades that disable core functionality",
+            "severity": 0.8
+          },
+          {
+            "objection": "Hidden costs emerge after purchase (VPN limits, e-file fees)",
+            "severity": 0.7
+          },
+          {
+            "objection": "Poor streaming quality or reliability issues",
+            "severity": 0.6
+          },
+          {
+            "objection": "Software feels dated or has clunky interface",
+            "severity": 0.5
+          },
+          {
+            "objection": "Lack of notification before trial periods end",
+            "severity": 0.6
+          },
+          {
+            "objection": "Required equipment purchases for full functionality",
+            "severity": 0.5
+          },
+          {
+            "objection": "Compatibility issues despite advertised support",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "TaxCut",
+            "reason": "Hidden e-file fees and poor brokerage import functionality",
+            "threshold": "Critical feature missing with unexpected cost"
+          },
+          {
+            "from_product": "Daily Burn",
+            "reason": "Streaming issues and feeling company prioritizes add-on sales",
+            "threshold": "Core service unreliable with predatory practices"
+          },
+          {
+            "from_product": "Spreadsheet programs",
+            "reason": "Datasets too large causing performance issues",
+            "threshold": "Tool cannot handle required workload"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability/Accuracy",
+          "Performance with large datasets",
+          "Cost/Value",
+          "Security",
+          "Feature completeness",
+          "Ease of use",
+          "Support quality"
+        ],
+        "deal_breakers": [
+          "Misleading advertising about compatibility",
+          "Forced upgrades that break functionality",
+          "Critical data import/export failures",
+          "Security vulnerabilities"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.5,
+      "reddit": 0.5,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Software provides unclear error messages that waste time troubleshooting",
+          "count": 1,
+          "frequency": 0.0031,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0093
+        },
+        {
+          "signal": "Manual validation required due to unreliable automated data processing",
+          "count": 1,
+          "frequency": 0.0031,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0093
+        },
+        {
+          "signal": "Software crashes during critical tasks",
+          "count": 1,
+          "frequency": 0.0031,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0093
+        },
+        {
+          "signal": "Data cleaning is time-consuming due to messy healthcare data",
+          "count": 1,
+          "frequency": 0.0031,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0093
+        },
+        {
+          "signal": "Lack of comprehensive user guides and documentation",
+          "count": 1,
+          "frequency": 0.0031,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0093
+        },
+        {
+          "signal": "Poor installation experience with component failures",
+          "count": 1,
+          "frequency": 0.0031,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0093
+        },
+        {
+          "signal": "Software fails to deliver core functionality when needed (restore)",
+          "count": 1,
+          "frequency": 0.0031,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0093
+        },
+        {
+          "signal": "Software gives a false sense of security and then fails",
+          "count": 1,
+          "frequency": 0.0031,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0093
+        },
+        {
+          "signal": "Technical software leaves experienced users exasperated due to lack of functionality and support",
+          "count": 1,
+          "frequency": 0.0031,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0093
+        },
+        {
+          "signal": "Product lacks effective customer support channels (no phone support)",
+          "count": 1,
+          "frequency": 0.0031,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0093
+        },
+        {
+          "signal": "Documentation is obtuse and adds to frustration",
+          "count": 1,
+          "frequency": 0.0031,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0124
+        },
+        {
+          "signal": "Software requires a steep learning curve due to being a bundle of complex tools",
+          "count": 1,
+          "frequency": 0.0031,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0093
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Accurate pattern identification in large datasets",
+          "count": 1,
+          "frequency": 0.0035,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0104
+        },
+        {
+          "signal": "Reliable data processing with minimal manual intervention",
+          "count": 1,
+          "frequency": 0.0035,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0104
+        },
+        {
+          "signal": "Efficient data cleaning and quality assessment",
+          "count": 1,
+          "frequency": 0.0035,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0104
+        },
+        {
+          "signal": "Clear error messages with actionable feedback",
+          "count": 1,
+          "frequency": 0.0035,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0104
+        },
+        {
+          "signal": "Easy-to-use interface with steep learning curve",
+          "count": 1,
+          "frequency": 0.0035,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0138
+        },
+        {
+          "signal": "Integration with existing healthcare data systems",
+          "count": 1,
+          "frequency": 0.0035,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0104
+        },
+        {
+          "signal": "Software that reliably performs its core function (e.g., backup/restore)",
+          "count": 1,
+          "frequency": 0.0035,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0104
+        },
+        {
+          "signal": "Ease of use and intuitive user interface",
+          "count": 1,
+          "frequency": 0.0035,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0104
+        },
+        {
+          "signal": "Quick and efficient customer support when trouble arises",
+          "count": 1,
+          "frequency": 0.0035,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0104
+        },
+        {
+          "signal": "Software that saves time and streamlines complex processes",
+          "count": 1,
+          "frequency": 0.0035,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0104
+        },
+        {
+          "signal": "Tools that support a mature, process-oriented software engineering approach",
+          "count": 1,
+          "frequency": 0.0035,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0104
+        },
+        {
+          "signal": "Learning tools that effectively reinforce skills (like sight reading)",
+          "count": 1,
+          "frequency": 0.0035,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0104
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Security vulnerabilities",
+          "count": 2,
+          "frequency": 0.0102,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0255
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Recommendation from trusted colleague or friend",
+          "count": 2,
+          "frequency": 0.0107,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0267
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "low": 0.721,
+        "medium": 0.279
+      }
+    }
+  },
+  "cluster_3": {
+    "member_count": 2,
+    "representative_batches": [
+      {
+        "signals": [
+          {
+            "signal_name": "string",
+            "evidence": [
+              "string"
+            ],
+            "prevalence": "string"
+          }
+        ],
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [],
+        "desired_outcomes": [],
+        "purchase_triggers": [],
+        "objections": [],
+        "switching_triggers": [],
+        "decision_factors_ranked": [],
+        "deal_breakers": [],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.5,
+      "reddit": 0.5,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [],
+      "top_desired_outcomes": [],
+      "top_deal_breakers": [],
+      "top_purchase_triggers": [],
+      "dominant_friction_tolerance": "medium",
+      "friction_tolerance_distribution": {
+        "medium": 1.0
+      }
+    }
+  },
+  "cluster_4": {
+    "member_count": 10,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "App has severe login/authentication issues (Google login redirects, invalid credentials)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "App is slow or unresponsive (spinning wheels, freezes, long loading times)",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Limited course availability in app compared to website",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "App crashes, hangs, or requires frequent rebooting",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Poor customer support (unresponsive, blames user, doesn't resolve issues)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Bugs in UI (options display multiple times, overlay issues)",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "App logs out when website is used",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Confusing or unwanted in-app purchases/charges",
+            "emotional_intensity": 0.8
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Learn and practice new data science/programming skills (Python, R, etc.)",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Access to all website courses within the mobile app",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Reliable, fast app performance with minimal loading times",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Clear progress tracking and dashboard in app",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Seamless cross-device sync (app vs. web) without logout issues",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Affordable or one-time payment option for full access",
+            "priority": 0.65
+          },
+          {
+            "outcome": "Better reminders/engagement features to encourage consistent practice",
+            "priority": 0.5
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Desire to invest in self-education for career growth",
+            "context": "User sees value in skill development for data science roles"
+          },
+          {
+            "trigger": "Positive experience with free lessons or trial",
+            "context": "User finds content high-quality and engaging"
+          },
+          {
+            "trigger": "Need for mobile/on-the-go learning flexibility",
+            "context": "User values practicing on smartphone or multiple devices"
+          },
+          {
+            "trigger": "Frustration with high-cost traditional education (e.g., university)",
+            "context": "User compares cost and effectiveness favorably"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Subscription price is too high or lacks lifetime option",
+            "severity": 0.7
+          },
+          {
+            "objection": "App performance issues hinder learning (slow, crashes)",
+            "severity": 0.85
+          },
+          {
+            "objection": "Limited free access (time-gated lessons, paywall)",
+            "severity": 0.6
+          },
+          {
+            "objection": "Poor customer support and unresolved technical issues",
+            "severity": 0.8
+          },
+          {
+            "objection": "App lacks full course catalog vs. website",
+            "severity": 0.75
+          },
+          {
+            "objection": "Mobile experience inferior to desktop (halting, small keyboard)",
+            "severity": 0.55
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Free version of this app",
+            "reason": "Hit paywall or time limits, but subscription cost is a barrier",
+            "threshold": "Need more than free daily lesson; price too high"
+          },
+          {
+            "from_product": "Other learning platforms (e.g., university, Khan Academy)",
+            "reason": "Better cost-effectiveness and teaching quality",
+            "threshold": "High cost of alternatives relative to value"
+          },
+          {
+            "from_product": "Desktop/web version of this service",
+            "reason": "Mobile app lacks features, courses, or reliability",
+            "threshold": "App missing key courses or too buggy for consistent use"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Content quality and teaching effectiveness",
+          "App reliability and performance",
+          "Cost and subscription model",
+          "Course availability and catalog",
+          "Cross-platform sync and usability",
+          "Customer support responsiveness"
+        ],
+        "deal_breakers": [
+          "Persistent login/authentication failures",
+          "Unresponsive customer support for paid users",
+          "Severe app slowness/freezes disrupting learning",
+          "Hidden or confusing charges"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Mobile app bugs: unresponsive buttons, freezes, login issues, sync problems with web progress",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poor mobile coding interface: editing/deletion issues, slow typing, lack of code playground",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Limited course selection on mobile app vs. web, inability to access enrolled tracks",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "High data consumption from video streaming without quality options",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Payment method issues and subscription confusion (double-charging for updates)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Content pacing issues: too fast, jumps to libraries prematurely, unclear explanations",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Practice exercises that include content not covered in lessons",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "No offline capability: app fails with connectivity issues",
+            "emotional_intensity": 0.4
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Mobile app stability: responsive, bug-free, seamless sync with web progress",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Improved mobile coding interface: reliable editing, typing, code playground",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Full course/track availability on mobile app matching web version",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Video quality selection options to reduce data consumption",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Bite-sized, accessible learning for on-the-go or short breaks",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Clear, structured lessons with logical progression and supportive practice",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Ability to type code manually in practice exercises for deeper retention",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Clear subscription models with no unexpected extra charges",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "High-quality, structured content with interactive lessons and bite-sized videos",
+            "context": "Seeking efficient upskilling in data science"
+          },
+          {
+            "trigger": "Ability to learn during short breaks or commute via mobile app",
+            "context": "Need for flexible, on-the-go learning"
+          },
+          {
+            "trigger": "Scholarships or group participation (e.g., Ingressive for Good, company groups)",
+            "context": "External motivation or reduced-cost access"
+          },
+          {
+            "trigger": "Positive reputation of web platform leading to mobile download",
+            "context": "Expecting seamless cross-platform experience"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Mobile app technical issues undermine usability",
+            "severity": 0.8
+          },
+          {
+            "objection": "Inconsistent pricing: feeling double-charged for updated content",
+            "severity": 0.7
+          },
+          {
+            "objection": "Limited mobile course selection vs. web, breaking continuity",
+            "severity": 0.6
+          },
+          {
+            "objection": "Poor mobile coding experience hampers learning",
+            "severity": 0.7
+          },
+          {
+            "objection": "Payment method failures blocking access",
+            "severity": 0.5
+          },
+          {
+            "objection": "Content pacing too fast or unclear, lacking depth",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "DataCamp mobile app",
+            "reason": "Persistent mobile bugs (freezes, unresponsive buttons)",
+            "threshold": "When mobile app becomes unusable for lessons"
+          },
+          {
+            "from_product": "DataCamp mobile app",
+            "reason": "Sync failure preventing progress continuity",
+            "threshold": "When web progress not reflected in app"
+          },
+          {
+            "from_product": "DataCamp",
+            "reason": "Subscription confusion or double-charging",
+            "threshold": "When feeling financially misled"
+          },
+          {
+            "from_product": "DataCamp mobile app",
+            "reason": "Poor mobile coding interface vs. alternatives",
+            "threshold": "When editing/typing issues impede learning"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Content quality and structure",
+          "Mobile app usability and stability",
+          "Cross-platform sync and continuity",
+          "Flexibility (bite-sized, on-the-go learning)",
+          "Coding practice interface",
+          "Subscription clarity and value",
+          "Data efficiency (video options)"
+        ],
+        "deal_breakers": [
+          "Mobile app bugs making lessons unusable",
+          "Failure to sync progress between web and mobile",
+          "Unfair subscription practices (double-charging)",
+          "Critical mobile coding interface failures"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Progress blocked unexpectedly after free trial/pause without clear warning",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "App severely lacks sync with web/desktop version, causing discontinuity",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Mobile app has significantly fewer courses than desktop, limiting on-the-go learning",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Bugs/glitches prevent progress in courses (code won't submit, cursor issues, crashes)",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Slow/poor customer support response to reported issues",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "App is unstable (crashes, lags, connection errors despite good internet)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Billing/subscription issues: unclear charges, short subscription windows, no refunds",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Lack of answer explanations in practice sections",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Poor UI/UX in app (can't track finished courses, can't download videos properly)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Exams include topics not covered in provided material",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Forced browser redirects for sign-in breaking workflow",
+            "emotional_intensity": 0.65
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Seamless sync between mobile app and web/desktop platform",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Full course catalog available on mobile app",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Stable, bug-free app experience (no crashes, lags, or submission errors)",
+            "priority": 0.9
+          },
+          {
+            "outcome": "On-the-go learning with downloadable videos & offline access",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Clear, transparent billing and subscription management",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Responsive customer support",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Explanations for wrong answers in practice/quizzes",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Progress tracking & course completion markers in app",
+            "priority": 0.65
+          },
+          {
+            "outcome": "Accessible design (captions for deaf users, clear navigation)",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Non\u2011repetitive, well\u2011sequenced content without overlaps",
+            "priority": 0.55
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Hands\u2011on, interactive exercises with immediate feedback",
+            "context": "Learning coding/data skills"
+          },
+          {
+            "trigger": "Bite\u2011sized, well\u2011structured video + quiz format",
+            "context": "Seeking engaging, digestible lessons"
+          },
+          {
+            "trigger": "Self\u2011paced flexibility with adjustable playback speed",
+            "context": "Need to learn efficiently on own schedule"
+          },
+          {
+            "trigger": "Portability / mobile access for learning anywhere",
+            "context": "Commuting or limited desktop access"
+          },
+          {
+            "trigger": "Comprehensive, industry\u2011relevant content",
+            "context": "Career advancement in data science"
+          },
+          {
+            "trigger": "Good value for subscription price",
+            "context": "Comparing against other learning platforms"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Mobile app lacks parity with web version (missing courses, no sync)",
+            "severity": 0.9
+          },
+          {
+            "objection": "Too buggy/unreliable to use regularly",
+            "severity": 0.85
+          },
+          {
+            "objection": "Poor customer service / slow issue resolution",
+            "severity": 0.75
+          },
+          {
+            "objection": "Billing practices feel deceptive or unfair",
+            "severity": 0.8
+          },
+          {
+            "objection": "Content gaps between teaching and assessment",
+            "severity": 0.7
+          },
+          {
+            "objection": "App redesign reduced usability compared to older version",
+            "severity": 0.65
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "DataCamp mobile app",
+            "reason": "Inability to continue learning after trial/payment issue",
+            "threshold": "Immediate block without warning"
+          },
+          {
+            "from_product": "DataCamp mobile app",
+            "reason": "Lack of mobile\u2011web sync and missing courses",
+            "threshold": "Discovery that app offers far fewer courses than desktop"
+          },
+          {
+            "from_product": "DataCamp mobile app",
+            "reason": "Persistent bugs preventing progress",
+            "threshold": "Multiple failed attempts to resolve technical issues"
+          },
+          {
+            "from_product": "DataCamp mobile app",
+            "reason": "Better alternatives (Coursera, Udemy) for mobile learning",
+            "threshold": "Realization that competitor offers better mobile experience"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Content quality & relevance",
+          "Platform stability & bug\u2011free experience",
+          "Mobile\u2011web synchronization",
+          "Pricing transparency & value",
+          "Customer support responsiveness",
+          "UI/UX & navigation",
+          "Portability / offline access",
+          "Interactive exercise design",
+          "Learning pace control",
+          "Accessibility features"
+        ],
+        "deal_breakers": [
+          "Mobile app does not sync with web/desktop progress",
+          "Critical bugs that block course progression",
+          "Unclear or unfair billing/subscription practices",
+          "Missing core courses available on desktop",
+          "No functional offline/download capability"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Login/sign-in failures preventing access",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "App/software is slow or unresponsive",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "App does not work on specific devices/platforms (Pixel 7, Samsung tablet)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Unclear app purpose and missing functionality (no server/admin options, just view)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Connection issues and errors disrupting workflow",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Missing features compared to web version (progress overview, editing)",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "App frequently prompts for credentials",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Fast, reliable access to data and workbooks for job tasks",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Consistent cross-platform functionality (mobile, tablet, web parity)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Clear functionality for data analysis (open files, admin options, full-screen view)",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Seamless login and authentication process",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Intuitive learning and onboarding for the app",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Stable connection to data libraries/servers",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Quick mobile access needed for job efficiency",
+            "context": "Professional need for on-the-go data review"
+          },
+          {
+            "trigger": "Requirement for encrypted, secure data handling",
+            "context": "Security-conscious data analysis work"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "App is unreliable and often broken for critical tasks",
+            "severity": 0.9
+          },
+          {
+            "objection": "Mobile website is easier to use than the dedicated app",
+            "severity": 0.7
+          },
+          {
+            "objection": "Lacks features available in the web version",
+            "severity": 0.6
+          },
+          {
+            "objection": "Poor user experience and unclear value proposition",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Mobile App",
+            "reason": "Persistent connection/login failures blocking urgent work",
+            "threshold": "When failure prevents urgent job tasks"
+          },
+          {
+            "from_product": "Mobile App",
+            "reason": "Missing core data analysis/management features",
+            "threshold": "When web version is necessary for full functionality"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and uptime (login, connection)",
+          "Speed and performance",
+          "Cross-platform consistency and compatibility",
+          "Feature parity with web/desktop tools",
+          "Ease of authentication",
+          "Security features"
+        ],
+        "deal_breakers": [
+          "Inability to log in or authenticate",
+          "App completely non-functional on required device",
+          "Critical data connection failures during work"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Login/sign-in failures, often with wrong credentials or cloud authentication errors",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "App crashes or freezes, especially on Android after updates",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Poor mobile rendering: dashboards not fully visible, wrong screen sizing, missing information",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Extremely slow performance, frequent loading/spinning wheels",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Inability to export/download reports (image, PPT, PDF) as needed",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Broken functionality after updates or platform changes (e.g., Salesforce acquisition)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Poor or unresponsive customer support",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Complex, multi-step processes for basic actions (e.g., printing)",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable, stable app access with consistent login and no crashes",
+            "priority": 1.0
+          },
+          {
+            "outcome": "Dashboards that render correctly on mobile with proper screen adaptation",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Fast, responsive performance for viewing and interacting with reports",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Ability to easily download/export reports (PDF, image, PPT) on mobile",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Intuitive mobile UI with all necessary features (like a home button) and easy navigation",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Quick resolution from support when issues arise",
+            "priority": 0.65
+          },
+          {
+            "outcome": "Cross-platform consistency (iOS/Android) and compatibility with secure browser policies",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for mobile access to Tableau reports/dashboards for on-the-go leadership",
+            "context": "MIS for senior leadership who are on the move"
+          },
+          {
+            "trigger": "Desire for convenience\u2014accessing reports \"in your pocket\" or \"in your hand\"",
+            "context": "Wanting to view data away from desktop"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "App is unreliable\u2014crashes, login fails, rendering issues make it unusable",
+            "severity": 0.95
+          },
+          {
+            "objection": "Poor mobile experience: slow, unintuitive, missing features compared to desktop",
+            "severity": 0.85
+          },
+          {
+            "objection": "Lack of support and refund issues; perceived as a sales gimmick after acquisition",
+            "severity": 0.8
+          },
+          {
+            "objection": "Not ready for prime time; needs far more development",
+            "severity": 0.75
+          },
+          {
+            "objection": "Incompatibility with Android devices or specific OS versions",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Tableau Mobile App",
+            "reason": "Persistent login failures or crashes that block access",
+            "threshold": "Immediate impact on work/mobile reporting needs"
+          },
+          {
+            "from_product": "Tableau Mobile App",
+            "reason": "Broken functionality after an update (e.g., Android crash on launch)",
+            "threshold": "App becomes completely unusable"
+          },
+          {
+            "from_product": "Tableau (trial/paid)",
+            "reason": "Inability to connect or get support, plus no-refund policy",
+            "threshold": "Failure during pilot implementation and refusal to refund"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability/stability (no crashes, consistent login)",
+          "Mobile rendering/display quality",
+          "Performance/speed",
+          "Export/download capability",
+          "Cross-platform compatibility",
+          "Ease of use/intuitive mobile UI",
+          "Customer support responsiveness"
+        ],
+        "deal_breakers": [
+          "App crashes immediately on launch",
+          "Cannot log in at all despite valid credentials",
+          "Critical rendering issues that make data unreadable",
+          "No resolution from support for blocking issues"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0,
+      "reddit": 0,
+      "csv": 0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Login/sign-in failures, often with wrong credentials or cloud authentication errors",
+          "count": 1,
+          "frequency": 0.0114,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0341
+        },
+        {
+          "signal": "App crashes or freezes, especially on Android after updates",
+          "count": 1,
+          "frequency": 0.0114,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0455
+        },
+        {
+          "signal": "Poor mobile rendering: dashboards not fully visible, wrong screen sizing, missing information",
+          "count": 1,
+          "frequency": 0.0114,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0341
+        },
+        {
+          "signal": "Extremely slow performance, frequent loading/spinning wheels",
+          "count": 1,
+          "frequency": 0.0114,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0341
+        },
+        {
+          "signal": "Inability to export/download reports (image, PPT, PDF) as needed",
+          "count": 1,
+          "frequency": 0.0114,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0455
+        },
+        {
+          "signal": "Broken functionality after updates or platform changes (e.g., Salesforce acquisition)",
+          "count": 1,
+          "frequency": 0.0114,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0341
+        },
+        {
+          "signal": "Poor or unresponsive customer support",
+          "count": 1,
+          "frequency": 0.0114,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0341
+        },
+        {
+          "signal": "Complex, multi-step processes for basic actions (e.g., printing)",
+          "count": 1,
+          "frequency": 0.0114,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0455
+        },
+        {
+          "signal": "Cannot connect to Tableau server on mobile data; only works with hotspot",
+          "count": 1,
+          "frequency": 0.0114,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0341
+        },
+        {
+          "signal": "Unable to login with correct credentials, reverts to login page or shows sign-in failed",
+          "count": 1,
+          "frequency": 0.0114,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0341
+        },
+        {
+          "signal": "App freezes or crashes during loading or when accessing dashboards",
+          "count": 1,
+          "frequency": 0.0114,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0341
+        },
+        {
+          "signal": "Auto-exits upon loading long lists or specific content",
+          "count": 1,
+          "frequency": 0.0114,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0341
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Reliable, stable app access with consistent login and no crashes",
+          "count": 1,
+          "frequency": 0.0133,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.04
+        },
+        {
+          "signal": "Dashboards that render correctly on mobile with proper screen adaptation",
+          "count": 1,
+          "frequency": 0.0133,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.04
+        },
+        {
+          "signal": "Fast, responsive performance for viewing and interacting with reports",
+          "count": 1,
+          "frequency": 0.0133,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.04
+        },
+        {
+          "signal": "Ability to easily download/export reports (PDF, image, PPT) on mobile",
+          "count": 1,
+          "frequency": 0.0133,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.04
+        },
+        {
+          "signal": "Intuitive mobile UI with all necessary features (like a home button) and easy navigation",
+          "count": 1,
+          "frequency": 0.0133,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.04
+        },
+        {
+          "signal": "Quick resolution from support when issues arise",
+          "count": 1,
+          "frequency": 0.0133,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.04
+        },
+        {
+          "signal": "Cross-platform consistency (iOS/Android) and compatibility with secure browser policies",
+          "count": 1,
+          "frequency": 0.0133,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.04
+        },
+        {
+          "signal": "Reliable login with various methods (SSO, email, phone, guest)",
+          "count": 1,
+          "frequency": 0.0133,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.04
+        },
+        {
+          "signal": "Stable app that connects to Tableau server seamlessly on mobile data",
+          "count": 1,
+          "frequency": 0.0133,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.04
+        },
+        {
+          "signal": "Offline functionality to view dashboards without internet",
+          "count": 1,
+          "frequency": 0.0133,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.04
+        },
+        {
+          "signal": "Ability to refresh data sources and build quick tables on mobile",
+          "count": 1,
+          "frequency": 0.0133,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.04
+        },
+        {
+          "signal": "Improved mobile compatibility with auto-scaling text and mobile-optimized dashboards",
+          "count": 1,
+          "frequency": 0.0133,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.04
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "App crashes immediately on launch",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0756
+        },
+        {
+          "signal": "Cannot log in at all despite valid credentials",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1
+        },
+        {
+          "signal": "Critical rendering issues that make data unreadable",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.075
+        },
+        {
+          "signal": "No resolution from support for blocking issues",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.075
+        },
+        {
+          "signal": "Cannot login at all due to SSO or credential issues",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.075
+        },
+        {
+          "signal": "App fails to connect to Tableau server on mobile networks",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.075
+        },
+        {
+          "signal": "App crashes or freezes consistently",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.075
+        },
+        {
+          "signal": "No offline access to dashboards",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.075
+        },
+        {
+          "signal": "App crashes or freezes immediately on launch",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.075
+        },
+        {
+          "signal": "Cannot log in with valid credentials",
+          "count": 1,
+          "frequency": 0.025,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.075
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Need for mobile access to Tableau reports/dashboards for on-the-go leadership",
+          "count": 1,
+          "frequency": 0.0286,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1143
+        },
+        {
+          "signal": "Desire for convenience\u2014accessing reports \"in your pocket\" or \"in your hand\"",
+          "count": 1,
+          "frequency": 0.0286,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0857
+        },
+        {
+          "signal": "Need to view reports on mobile while away from desktop",
+          "count": 1,
+          "frequency": 0.0286,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0857
+        },
+        {
+          "signal": "Fast performance and reliable offline preview of favorite dashboards",
+          "count": 1,
+          "frequency": 0.0286,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0857
+        },
+        {
+          "signal": "Positive update that fixes critical issues on a specific device (e.g., Pixel 6)",
+          "count": 1,
+          "frequency": 0.0286,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.1143
+        },
+        {
+          "signal": "Need to access and manage Tableau vizzes while mobile or away from desktop",
+          "count": 1,
+          "frequency": 0.0286,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0857
+        },
+        {
+          "signal": "Quick mobile access needed for job efficiency",
+          "count": 1,
+          "frequency": 0.0286,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0857
+        },
+        {
+          "signal": "Requirement for encrypted, secure data handling",
+          "count": 1,
+          "frequency": 0.0286,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0857
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "low": 0.7,
+        "medium": 0.3
+      }
+    }
+  }
+}

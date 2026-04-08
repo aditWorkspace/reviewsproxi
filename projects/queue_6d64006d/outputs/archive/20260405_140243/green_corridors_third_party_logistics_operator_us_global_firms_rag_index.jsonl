@@ -1,0 +1,155 @@
+{"review_id": "cluster_0_b0_pp0", "trait_label": "Operational Risk Aversion", "text": "Operational mistakes leading to significant financial loss (e.g., wrong inventory counts, shipment errors causing research damage)", "tone": "pragmatic"}
+{"review_id": "cluster_0_b0_pp1", "trait_label": "Operational Risk Aversion", "text": "High-pressure environment where errors are frequent and costly (e.g., inventory algorithm shutdowns, railcar mishaps)", "tone": "pragmatic"}
+{"review_id": "cluster_0_b0_pp2", "trait_label": "Operational Risk Aversion", "text": "Need for reliable, seamless product setup to avoid downtime (e.g., router connection issues, complex manuals)", "tone": "pragmatic"}
+{"review_id": "cluster_0_b0_do0", "trait_label": "Operational Risk Aversion", "text": "Minimize financial and operational risk from errors through reliable systems", "tone": "pragmatic"}
+{"review_id": "cluster_0_b0_do1", "trait_label": "Operational Risk Aversion", "text": "Achieve seamless, fast integration of new technology with minimal setup friction", "tone": "pragmatic"}
+{"review_id": "cluster_0_b1_pp0", "trait_label": "Operational Risk Aversion", "text": "Making costly operational errors (e.g., inventory status mishaps, shipping mistakes, cost variances)", "tone": "pragmatic"}
+{"review_id": "cluster_0_b1_pp1", "trait_label": "Operational Risk Aversion", "text": "Products failing or underperforming after limited use (e.g., battery issues, overheating, malfunction)", "tone": "pragmatic"}
+{"review_id": "cluster_0_b1_pp2", "trait_label": "Operational Risk Aversion", "text": "Complex, time-consuming setup and connectivity issues with technical equipment", "tone": "pragmatic"}
+{"review_id": "cluster_0_b1_do0", "trait_label": "Operational Risk Aversion", "text": "Reliable, durable equipment that withstands heavy daily use without failure", "tone": "pragmatic"}
+{"review_id": "cluster_0_b1_do1", "trait_label": "Operational Risk Aversion", "text": "Simple, quick setup and integration with existing systems/network", "tone": "pragmatic"}
+{"review_id": "cluster_0_b2_pp0", "trait_label": "Operational Risk Aversion", "text": "Frustration with inaccurate or unreliable tracking technology (e.g., GPS, heart rate, motion tracking)", "tone": "pragmatic"}
+{"review_id": "cluster_0_b2_pp1", "trait_label": "Operational Risk Aversion", "text": "Annoyance at poor build quality, missing components, or defective products upon delivery", "tone": "pragmatic"}
+{"review_id": "cluster_0_b2_pp2", "trait_label": "Operational Risk Aversion", "text": "Concern over safety hazards and negligence in warehouse operations (e.g., unstable racks, unsafe forklift practices)", "tone": "pragmatic"}
+{"review_id": "cluster_0_b2_do0", "trait_label": "Operational Risk Aversion", "text": "Accurate, reliable data tracking for fitness, logistics, or operational decisions", "tone": "pragmatic"}
+{"review_id": "cluster_0_b2_do1", "trait_label": "Operational Risk Aversion", "text": "Durable, rugged products that withstand harsh environments (e.g., warehouses, outdoor use)", "tone": "pragmatic"}
+{"review_id": "cluster_0_b3_pp0", "trait_label": "Operational Risk Aversion", "text": "Experiencing significant financial losses from inaccurate load bidding or market volatility", "tone": "pragmatic"}
+{"review_id": "cluster_0_b3_pp1", "trait_label": "Operational Risk Aversion", "text": "Frustration with unreliable or poorly performing technology that fails to meet operational needs", "tone": "pragmatic"}
+{"review_id": "cluster_0_b3_pp2", "trait_label": "Operational Risk Aversion", "text": "Dealing with operational inefficiencies from equipment that doesn't deliver promised results", "tone": "pragmatic"}
+{"review_id": "cluster_0_b3_do0", "trait_label": "Operational Risk Aversion", "text": "Reliable performance from equipment that withstands demanding operational environments", "tone": "pragmatic"}
+{"review_id": "cluster_0_b3_do1", "trait_label": "Operational Risk Aversion", "text": "Accurate load pricing and risk assessment to avoid financial losses", "tone": "pragmatic"}
+{"review_id": "cluster_0_b4_pp0", "trait_label": "Operational Risk Aversion", "text": "Costly operational mistakes due to human error", "tone": "pragmatic"}
+{"review_id": "cluster_0_b4_pp1", "trait_label": "Operational Risk Aversion", "text": "Mistakes causing financial loss and operational disruption", "tone": "pragmatic"}
+{"review_id": "cluster_0_b4_pp2", "trait_label": "Operational Risk Aversion", "text": "Lack of durable, reliable technology for daily operations", "tone": "pragmatic"}
+{"review_id": "cluster_0_b4_do0", "trait_label": "Operational Risk Aversion", "text": "Minimize costly errors in shipping, freight, and distribution operations", "tone": "pragmatic"}
+{"review_id": "cluster_0_b4_do1", "trait_label": "Operational Risk Aversion", "text": "Implement practical solutions that prevent recurring mistakes", "tone": "pragmatic"}
+{"review_id": "cluster_3_b0_pp0", "trait_label": "Operational Inefficiency Fatigue", "text": "Time-consuming manual data entry and uploads into fleet management systems", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_pp1", "trait_label": "Operational Inefficiency Fatigue", "text": "Difficulty standardizing service records and integrating with platforms like Geotab", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_pp2", "trait_label": "Operational Inefficiency Fatigue", "text": "Spreadsheets becoming unmanageable and inefficient at a certain fleet size (~25 vehicles)", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_do0", "trait_label": "Operational Inefficiency Fatigue", "text": "Automation of manual processes like dispatch, routing, billing, and reporting", "tone": "frustrated"}
+{"review_id": "cluster_3_b0_do1", "trait_label": "Operational Inefficiency Fatigue", "text": "Predictive maintenance to reduce downtime and major service costs", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_pp0", "trait_label": "Operational Inefficiency Fatigue", "text": "Manual and fragmented data entry from audio, documents, and systems into TMS", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_pp1", "trait_label": "Operational Inefficiency Fatigue", "text": "Over-reliance on spreadsheets causing inefficiency and drowning in manual work", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_pp2", "trait_label": "Operational Inefficiency Fatigue", "text": "High cost of custom software and overpriced solutions for small to medium operations", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_do0", "trait_label": "Operational Inefficiency Fatigue", "text": "Automated data extraction from documents/audio into structured formats for TMS", "tone": "frustrated"}
+{"review_id": "cluster_3_b1_do1", "trait_label": "Operational Inefficiency Fatigue", "text": "Access to affordable, custom-fit software without high upfront costs or bloat", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_pp0", "trait_label": "Operational Inefficiency Fatigue", "text": "Long and unexpected implementation timelines for warehouse management systems (WMS)", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_pp1", "trait_label": "Operational Inefficiency Fatigue", "text": "Inability to connect hardware (camera) to household Wi-Fi despite extensive troubleshooting", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_pp2", "trait_label": "Operational Inefficiency Fatigue", "text": "High costs from oversells, refunds, and reshipping due to poor inventory management", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_do0", "trait_label": "Operational Inefficiency Fatigue", "text": "Accurate, real-time inventory visibility and management", "tone": "frustrated"}
+{"review_id": "cluster_3_b2_do1", "trait_label": "Operational Inefficiency Fatigue", "text": "Scalable systems that can handle growth in orders and SKUs", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_pp0", "trait_label": "Operational Inefficiency Fatigue", "text": "Software not optimized for high-speed barcode scanning in warehouse workflows", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_pp1", "trait_label": "Operational Inefficiency Fatigue", "text": "Difficulty reconnecting hardware after network changes (e.g., router replacement)", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_pp2", "trait_label": "Operational Inefficiency Fatigue", "text": "Poor mobile app usability or outdated interfaces for warehouse operations", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_do0", "trait_label": "Operational Inefficiency Fatigue", "text": "High-speed, barcode-driven picking and packing workflows", "tone": "frustrated"}
+{"review_id": "cluster_3_b3_do1", "trait_label": "Operational Inefficiency Fatigue", "text": "Seamless integration with ecommerce platforms like Shopify and accounting systems", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_pp0", "trait_label": "Operational Inefficiency Fatigue", "text": "Frustration with high-volume order processing causing bottlenecks, especially during peak seasons.", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_pp1", "trait_label": "Operational Inefficiency Fatigue", "text": "Annoyance at having to manually update paper-based systems leading to inaccurate inventory records.", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_pp2", "trait_label": "Operational Inefficiency Fatigue", "text": "Discontent with systems not supporting efficient barcode scanning for fast pick/pack workflows.", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_do0", "trait_label": "Operational Inefficiency Fatigue", "text": "Implement a WMS with fast, reliable barcode scanning for pick/pack workflows.", "tone": "frustrated"}
+{"review_id": "cluster_3_b4_do1", "trait_label": "Operational Inefficiency Fatigue", "text": "Achieve real-time, accurate inventory tracking across multiple warehouses.", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp0", "trait_label": "Operational Scalability Friction", "text": "Difficulty finding a 3PL that is a good fit for specific niche, volume, and requirements", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp1", "trait_label": "Operational Scalability Friction", "text": "Poor customer support from large 3PLs for smaller brands", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp2", "trait_label": "Operational Scalability Friction", "text": "Hidden costs or misleading pricing (e.g., cheap pick/pack but high postage)", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_do0", "trait_label": "Operational Scalability Friction", "text": "Seamless integration with Shopify or other e-commerce platforms", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_do1", "trait_label": "Operational Scalability Friction", "text": "Fast and reliable order fulfillment with quick shipping", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp0", "trait_label": "Operational Scalability Friction", "text": "Manual fulfillment processes are time-consuming and inefficient.", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp1", "trait_label": "Operational Scalability Friction", "text": "Poor reliability and inventory syncing issues create operational problems.", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp2", "trait_label": "Operational Scalability Friction", "text": "Complex setup and integration with existing systems (e.g., routers, software).", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_do0", "trait_label": "Operational Scalability Friction", "text": "Automated and seamless integration with platforms like Shopify.", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_do1", "trait_label": "Operational Scalability Friction", "text": "Reliable and accurate inventory management and syncing.", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp0", "trait_label": "Operational Scalability Friction", "text": "Difficulty finding a 3PL that works with small or early-stage brands due to high volume requirements", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp1", "trait_label": "Operational Scalability Friction", "text": "Uncertainty and stress around tariff changes and compliance, requiring expert advice", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp2", "trait_label": "Operational Scalability Friction", "text": "Poor communication or unresponsiveness from logistics providers", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_do0", "trait_label": "Operational Scalability Friction", "text": "Seamless integration with e-commerce platforms like Shopify", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_do1", "trait_label": "Operational Scalability Friction", "text": "Access to expert guidance on tariffs, customs, and logistics strategies", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp0", "trait_label": "Operational Scalability Friction", "text": "Complex setup and unreliable connectivity for tech products", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp1", "trait_label": "Operational Scalability Friction", "text": "High shipping costs and hidden postage markups from 3PLs", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp2", "trait_label": "Operational Scalability Friction", "text": "Lack of responsiveness and poor customer support", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_do0", "trait_label": "Operational Scalability Friction", "text": "Seamless integration with existing platforms like Shopify", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_do1", "trait_label": "Operational Scalability Friction", "text": "Clear, transparent pricing without hidden fees", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp0", "trait_label": "Operational Scalability Friction", "text": "High costs and perceived overpricing of services", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp1", "trait_label": "Operational Scalability Friction", "text": "Poor customer support and long hold times", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp2", "trait_label": "Operational Scalability Friction", "text": "Technical integration challenges with platforms like Shopify", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_do0", "trait_label": "Operational Scalability Friction", "text": "Find a 3PL that perfectly matches specific business needs and volume", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_do1", "trait_label": "Operational Scalability Friction", "text": "Seamless technical integration with e-commerce platforms like Shopify", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp0", "trait_label": "Regulatory Uncertainty Anxiety", "text": "Confusion and misinformation about trade regulations, tariffs, and FTZ/bonded warehouse rules", "tone": "cautious"}
+{"review_id": "cluster_2_b0_pp1", "trait_label": "Regulatory Uncertainty Anxiety", "text": "Concern about liability for unexpected costs like tariffs when supply chain terms are unclear", "tone": "cautious"}
+{"review_id": "cluster_2_b0_pp2", "trait_label": "Regulatory Uncertainty Anxiety", "text": "Frustration with complex, unclear, or misleading information from vendors/partners about logistics options", "tone": "cautious"}
+{"review_id": "cluster_2_b0_do0", "trait_label": "Regulatory Uncertainty Anxiety", "text": "Clear, accurate, and actionable information on trade regulations and logistics options", "tone": "cautious"}
+{"review_id": "cluster_2_b0_do1", "trait_label": "Regulatory Uncertainty Anxiety", "text": "Definitive clarity on cost liability and payment timing (e.g., tariffs at entry vs. withdrawal)", "tone": "cautious"}
+{"review_id": "cluster_2_b1_pp0", "trait_label": "Regulatory Uncertainty Anxiety", "text": "Frustration with unexpected shipping/tariff costs and regulatory complexity impacting total cost of goods.", "tone": "cautious"}
+{"review_id": "cluster_2_b1_pp1", "trait_label": "Regulatory Uncertainty Anxiety", "text": "Feeling unfairness or being subsidized by previous postal policies, now shifting costs to the buyer.", "tone": "cautious"}
+{"review_id": "cluster_2_b1_pp2", "trait_label": "Regulatory Uncertainty Anxiety", "text": "High shipping rates from certain carriers (e.g., UPS) for international shipments.", "tone": "cautious"}
+{"review_id": "cluster_2_b1_do0", "trait_label": "Regulatory Uncertainty Anxiety", "text": "Achieve stable, predictable total cost (product + shipping + tariffs) for sourcing.", "tone": "cautious"}
+{"review_id": "cluster_2_b1_do1", "trait_label": "Regulatory Uncertainty Anxiety", "text": "Simplify and clarify customs, brokerage, and regulatory responsibilities to avoid surprises.", "tone": "cautious"}
+{"review_id": "cluster_2_b2_pp0", "trait_label": "Regulatory Uncertainty Anxiety", "text": "Confusion and uncertainty about tariff application timing and rules, especially regarding Foreign Trade Zones (FTZ) vs. bonded warehouses, and the impact of transloading.", "tone": "cautious"}
+{"review_id": "cluster_2_b2_pp1", "trait_label": "Regulatory Uncertainty Anxiety", "text": "Difficulty finding available bonded warehouse space during tariff changes.", "tone": "cautious"}
+{"review_id": "cluster_2_b2_pp2", "trait_label": "Regulatory Uncertainty Anxiety", "text": "Frustration with the complexity of customs regulations and conflicting interpretations.", "tone": "cautious"}
+{"review_id": "cluster_2_b2_do0", "trait_label": "Regulatory Uncertainty Anxiety", "text": "Clarity and definitive answers on duty liability timing (entry vs. exit, shipment date vs. transload date).", "tone": "cautious"}
+{"review_id": "cluster_2_b2_do1", "trait_label": "Regulatory Uncertainty Anxiety", "text": "Identify optimal strategies (FTZ, bonded warehouse) to defer, reduce, or avoid duties under new tariffs.", "tone": "cautious"}
+{"review_id": "cluster_2_b3_pp0", "trait_label": "Regulatory Uncertainty Anxiety", "text": "Volatile and changing tariffs and trade policies causing operational uncertainty and increased costs.", "tone": "cautious"}
+{"review_id": "cluster_2_b3_pp1", "trait_label": "Regulatory Uncertainty Anxiety", "text": "Difficulty in keeping up with complex, overlapping tariff classifications and regulations.", "tone": "cautious"}
+{"review_id": "cluster_2_b3_pp2", "trait_label": "Regulatory Uncertainty Anxiety", "text": "High costs from freight, duties, and surcharges impacting total landed cost.", "tone": "cautious"}
+{"review_id": "cluster_2_b3_do0", "trait_label": "Regulatory Uncertainty Anxiety", "text": "Stable and predictable trade policies to enable long-term planning and investment.", "tone": "cautious"}
+{"review_id": "cluster_2_b3_do1", "trait_label": "Regulatory Uncertainty Anxiety", "text": "Cost-effective total landed cost through optimized logistics and tariff management.", "tone": "cautious"}
+{"review_id": "cluster_2_b4_pp0", "trait_label": "Regulatory Uncertainty Anxiety", "text": "Unclear or missing documentation causing customs classification errors and unexpected duty assessments", "tone": "cautious"}
+{"review_id": "cluster_2_b4_pp1", "trait_label": "Regulatory Uncertainty Anxiety", "text": "Complex and volatile tariff regulations (e.g., Section 232, anti-dumping) increasing costs and compliance burden", "tone": "cautious"}
+{"review_id": "cluster_2_b4_pp2", "trait_label": "Regulatory Uncertainty Anxiety", "text": "Poor product reliability leading to operational failure (e.g., device falls, loses connection, overheats)", "tone": "cautious"}
+{"review_id": "cluster_2_b4_do0", "trait_label": "Regulatory Uncertainty Anxiety", "text": "Accurate, predictable cost calculation without surprise duties or fees", "tone": "cautious"}
+{"review_id": "cluster_2_b4_do1", "trait_label": "Regulatory Uncertainty Anxiety", "text": "Reliable, durable equipment that performs consistently in operational environments", "tone": "cautious"}
+{"review_id": "cluster_4_b0_pp0", "trait_label": "Career Transition Barrier", "text": "Entry-level supply chain roles are scarce and competitive, making career entry difficult", "tone": "frustrated"}
+{"review_id": "cluster_4_b0_pp1", "trait_label": "Career Transition Barrier", "text": "Feeling overqualified for entry-level warehouse/associate roles after obtaining certifications/degrees", "tone": "frustrated"}
+{"review_id": "cluster_4_b0_pp2", "trait_label": "Career Transition Barrier", "text": "High turnover and poor job stability in freight brokerage roles", "tone": "frustrated"}
+{"review_id": "cluster_4_b0_do0", "trait_label": "Career Transition Barrier", "text": "Obtain logistics experience to advance in supply chain career", "tone": "frustrated"}
+{"review_id": "cluster_4_b0_do1", "trait_label": "Career Transition Barrier", "text": "Find an entry point that provides relevant experience without starting at warehouse level", "tone": "frustrated"}
+{"review_id": "cluster_4_b1_pp0", "trait_label": "Career Transition Barrier", "text": "Difficulty finding a job after obtaining certification, feeling unprepared for the labor market", "tone": "frustrated"}
+{"review_id": "cluster_4_b1_pp1", "trait_label": "Career Transition Barrier", "text": "Frustration with expectations to start in warehouse or manual labor roles despite certification", "tone": "frustrated"}
+{"review_id": "cluster_4_b1_pp2", "trait_label": "Career Transition Barrier", "text": "Concern about the value of certifications without practical experience", "tone": "frustrated"}
+{"review_id": "cluster_4_b1_do0", "trait_label": "Career Transition Barrier", "text": "Secure a role that leverages certification and avoids physical manual labor", "tone": "frustrated"}
+{"review_id": "cluster_4_b1_do1", "trait_label": "Career Transition Barrier", "text": "Find a career path in supply chain with growth potential", "tone": "frustrated"}
+{"review_id": "cluster_4_b2_pp0", "trait_label": "Career Transition Barrier", "text": "Competition with over-qualified candidates (MBAs, multiple certifications, degrees) in a tough job market", "tone": "frustrated"}
+{"review_id": "cluster_4_b2_pp1", "trait_label": "Career Transition Barrier", "text": "Lack of practical, hands-on logistics/supply chain experience despite education/certifications", "tone": "frustrated"}
+{"review_id": "cluster_4_b2_pp2", "trait_label": "Career Transition Barrier", "text": "Difficulty getting a foot in the door for office/strategic roles without prior warehouse/floor experience", "tone": "frustrated"}
+{"review_id": "cluster_4_b2_do0", "trait_label": "Career Transition Barrier", "text": "Secure a strategic, data-driven role in supply chain (e.g., planner, analyst, manager)", "tone": "frustrated"}
+{"review_id": "cluster_4_b2_do1", "trait_label": "Career Transition Barrier", "text": "Gain respect and credibility by understanding ground-level operations", "tone": "frustrated"}
+{"review_id": "cluster_4_b3_pp0", "trait_label": "Career Transition Barrier", "text": "Unclear career path or entry requirements", "tone": "frustrated"}
+{"review_id": "cluster_4_b3_pp1", "trait_label": "Career Transition Barrier", "text": "Difficulty standing out to recruiters despite significant experience", "tone": "frustrated"}
+{"review_id": "cluster_4_b3_pp2", "trait_label": "Career Transition Barrier", "text": "Frustration with lack of local entry-level opportunities (beyond warehouse labor)", "tone": "frustrated"}
+{"review_id": "cluster_4_b3_do0", "trait_label": "Career Transition Barrier", "text": "Transition from military logistics to civilian supply chain roles", "tone": "frustrated"}
+{"review_id": "cluster_4_b3_do1", "trait_label": "Career Transition Barrier", "text": "Enter the field without a college degree via certifications/alternative pathways", "tone": "frustrated"}
+{"review_id": "cluster_4_b4_pp0", "trait_label": "Career Transition Barrier", "text": "Frustration with lack of job opportunities despite qualifications and willingness to learn", "tone": "frustrated"}
+{"review_id": "cluster_4_b4_pp1", "trait_label": "Career Transition Barrier", "text": "Anxiety about career relevance due to AI and automation", "tone": "frustrated"}
+{"review_id": "cluster_4_b4_pp2", "trait_label": "Career Transition Barrier", "text": "Difficulty transitioning roles or industries without relevant experience", "tone": "frustrated"}
+{"review_id": "cluster_4_b4_do0", "trait_label": "Career Transition Barrier", "text": "Secure a stable, data-driven role in supply chain/logistics (e.g., analyst, project management)", "tone": "frustrated"}
+{"review_id": "cluster_4_b4_do1", "trait_label": "Career Transition Barrier", "text": "Develop skills that remain strategically relevant amid AI/automation trends", "tone": "frustrated"}
+{"review_id": "cluster_6_b0_pp0", "trait_label": "Payment Risk Aversion", "text": "Payment disputes and delayed settlements causing operational disruption", "tone": "cautious"}
+{"review_id": "cluster_6_b0_pp1", "trait_label": "Payment Risk Aversion", "text": "Risk of non-payment from brokers with poor credit or bad history", "tone": "cautious"}
+{"review_id": "cluster_6_b0_pp2", "trait_label": "Payment Risk Aversion", "text": "Carriers submitting incomplete paperwork (BOLs) leading to factoring delays", "tone": "cautious"}
+{"review_id": "cluster_6_b0_do0", "trait_label": "Payment Risk Aversion", "text": "Secure, timely payment without disputes", "tone": "cautious"}
+{"review_id": "cluster_6_b0_do1", "trait_label": "Payment Risk Aversion", "text": "Effective due diligence on broker credit before committing", "tone": "cautious"}
+{"review_id": "cluster_6_b1_pp0", "trait_label": "Payment Risk Aversion", "text": "Fear of delayed or withheld payment from brokers", "tone": "cautious"}
+{"review_id": "cluster_6_b1_pp1", "trait_label": "Payment Risk Aversion", "text": "Risk of double-brokering and fraudulent behavior from brokers/carriers", "tone": "cautious"}
+{"review_id": "cluster_6_b1_pp2", "trait_label": "Payment Risk Aversion", "text": "Time wasted chasing payments or resolving disputes", "tone": "cautious"}
+{"review_id": "cluster_6_b1_do0", "trait_label": "Payment Risk Aversion", "text": "Ensure reliable, on-time payment with no disputes", "tone": "cautious"}
+{"review_id": "cluster_6_b1_do1", "trait_label": "Payment Risk Aversion", "text": "Work with trustworthy, established brokers/carriers", "tone": "cautious"}
+{"review_id": "cluster_6_b2_pp0", "trait_label": "Payment Risk Aversion", "text": "Dealing with brokers who don't pay on time despite promises, requiring extensive follow-up with shippers/receivers", "tone": "cautious"}
+{"review_id": "cluster_6_b2_pp1", "trait_label": "Payment Risk Aversion", "text": "Bond insurance changing on pickup day leading to payment disputes and delayed compensation", "tone": "cautious"}
+{"review_id": "cluster_6_b2_pp2", "trait_label": "Payment Risk Aversion", "text": "Factoring companies incorrectly claiming late payments while sitting on unapplied funds for weeks", "tone": "cautious"}
+{"review_id": "cluster_6_b2_do0", "trait_label": "Payment Risk Aversion", "text": "Accurate pricing for loads based on complete commodity information", "tone": "cautious"}
+{"review_id": "cluster_6_b2_do1", "trait_label": "Payment Risk Aversion", "text": "Timely payment from brokers without extensive follow-up required", "tone": "cautious"}
+{"review_id": "cluster_6_b3_pp0", "trait_label": "Payment Risk Aversion", "text": "Carrier payment security concerns when broker credit deteriorates after load booking", "tone": "cautious"}
+{"review_id": "cluster_6_b3_pp1", "trait_label": "Payment Risk Aversion", "text": "Broker credit issues causing operational disruptions and payment delays", "tone": "cautious"}
+{"review_id": "cluster_6_b3_pp2", "trait_label": "Payment Risk Aversion", "text": "Load being held hostage due to payment disputes", "tone": "cautious"}
+{"review_id": "cluster_6_b3_do0", "trait_label": "Payment Risk Aversion", "text": "Secure and guaranteed payment before or upon delivery", "tone": "cautious"}
+{"review_id": "cluster_6_b3_do1", "trait_label": "Payment Risk Aversion", "text": "Clear credit score requirements for both brokers and carriers", "tone": "cautious"}
+{"review_id": "cluster_6_b4_pp0", "trait_label": "Payment Risk Aversion", "text": "Brokers failing to pay after delivery, creating financial uncertainty and risk.", "tone": "cautious"}
+{"review_id": "cluster_6_b4_pp1", "trait_label": "Payment Risk Aversion", "text": "Carriers holding loads hostage due to payment disputes, disrupting operations.", "tone": "cautious"}
+{"review_id": "cluster_6_b4_pp2", "trait_label": "Payment Risk Aversion", "text": "Lack of reliable tools for vetting brokers/carriers (credit checks, freight guard systems).", "tone": "cautious"}
+{"review_id": "cluster_6_b4_do0", "trait_label": "Payment Risk Aversion", "text": "Secure, timely payment with clear contractual terms and reliable follow-through.", "tone": "cautious"}
+{"review_id": "cluster_6_b4_do1", "trait_label": "Payment Risk Aversion", "text": "Durable, rugged hardware that withstands frequent travel and heavy use.", "tone": "cautious"}
+{"review_id": "monologue_b47989", "trait_label": "Inner Monologue", "text": "Here we go again - they're showing me a 'simple pricing structure' but I don't see integration costs, training fees, or what happens when we need to connect this to our WMS. I need to see the real total cost.", "tone": "authentic_voice"}
+{"review_id": "monologue_ff1853", "trait_label": "Inner Monologue", "text": "These case studies look good but are they from companies our size? We can't afford another situation where the software works great for startups but falls apart when handling our volume.", "tone": "authentic_voice"}
+{"review_id": "monologue_d689c5", "trait_label": "Inner Monologue", "text": "This navigation is already confusing me - if I can't figure out their basic product flow, how complicated is their actual implementation going to be? I don't have time for another manual process nightmare.", "tone": "authentic_voice"}
+{"review_id": "monologue_052675", "trait_label": "Inner Monologue", "text": "They want my email before showing me technical specifications? Red flag. I need to see integration requirements and API documentation upfront, not get locked into a sales funnel.", "tone": "authentic_voice"}
+{"review_id": "monologue_6240fc", "trait_label": "Inner Monologue", "text": "Finally, someone who actually understands that we need automated data extraction and real-time inventory visibility. This looks like it might actually solve our fragmented operations problem.", "tone": "authentic_voice"}

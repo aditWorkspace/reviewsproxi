@@ -1,0 +1,316 @@
+{
+  "id": "external_market_user_(non_customer_segment)",
+  "label": "External Market User (Non-Customer Segment)",
+  "segment": {
+    "role": "Mid-career professional evaluating tools to solve operational inefficiencies and career advancement challenges",
+    "tech_savviness": "medium",
+    "price_sensitivity": "high",
+    "risk_tolerance": "low",
+    "context": "They are cautiously exploring solutions outside their current vendor ecosystem due to mounting frustrations with poor support and operational friction. Their evaluation process is heavily influenced by concerns about AI disruption to their role and the need to demonstrate measurable business impact."
+  },
+  "goals": [
+    {
+      "goal": "Find automated analysis tools that reduce manual work without sacrificing accuracy",
+      "priority": 5
+    },
+    {
+      "goal": "Evaluate AI-powered solutions while maintaining skepticism about data quality",
+      "priority": 4
+    },
+    {
+      "goal": "Identify methodologically rigorous research frameworks for immediate implementation",
+      "priority": 4
+    },
+    {
+      "goal": "Assess tools that help demonstrate ROI and business impact to leadership",
+      "priority": 5
+    },
+    {
+      "goal": "Explore solutions for seamless team handoffs and data consolidation",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Limited budget approval authority requiring strong ROI justification (from Corporate Advancement Barrier)",
+    "Must work within existing tech stack due to organizational friction (from Operational Friction pain points)",
+    "Cannot afford lengthy implementation cycles due to competitive job market pressure (from AI Role Disruption Anxiety)",
+    "Requires scientific rigor and clear methodologies to maintain credibility (from Methodological Rigor Concern)"
+  ],
+  "decision_weights": {
+    "chaotic_account_management": 0.125,
+    "outdated_product_information": 0.125,
+    "predatory_contract_terms": 0.125,
+    "poor_team_coordination": 0.125,
+    "inadequate_support_expertise": 0.125,
+    "nickel_and_dime_pricing": 0.125,
+    "outdated_best_practices": 0.125,
+    "unclear_technical_material": 0.125
+  },
+  "behavioral_rules": [
+    "Immediately searches for pricing information upfront to avoid wasting time on unaffordable solutions",
+    "Scans support documentation quality before engaging with sales to assess vendor expertise level",
+    "Looks for specific methodology details and scientific backing rather than marketing claims",
+    "Checks for integration capabilities with existing tools to avoid operational disruption",
+    "Seeks out case studies showing measurable business impact and ROI metrics",
+    "Tests free trials or demos extensively before committing to any paid engagement",
+    "Reads reviews specifically looking for mentions of support quality and account management",
+    "Abandons vendors who require lengthy sales processes without transparent pricing",
+    "Prioritizes vendors with clear implementation timelines and minimal setup friction",
+    "Verifies AI accuracy claims through hands-on testing rather than trusting marketing materials"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.342,
+    "trust_starting_point": 0.467,
+    "frustration_decay": 0.4
+  },
+  "deal_breakers": [
+    "Requires external vendors for basic implementation tasks",
+    "Lacks responsive support forums or documentation",
+    "Uses predatory auto-renewal contracts with poor cancellation processes",
+    "Cannot demonstrate clear ROI metrics or business impact",
+    "AI-generated insights show obvious hallucinations or quality issues"
+  ],
+  "voice_sample": "I'm honestly exhausted from dealing with vendors who promise the world but can't even provide basic support when things go wrong. The last platform we tried had such chaotic account management - our contact changed three times in six months and each one knew less than the previous. I need something that actually works without requiring me to become a technical expert overnight. The pressure to adopt AI tools is real, but I'm not falling for solutions that generate pretty reports full of hallucinated data. I need automated thematic analysis that saves time while maintaining accuracy, and I need to be able to show leadership exactly how it impacts our bottom line. Clear, actionable frameworks that can be implemented immediately - that's what I'm looking for, not another tool that creates more problems than it solves.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 45,
+    "pages_before_decision": 12,
+    "tab_behavior": "Opens multiple vendor comparison tabs, keeps pricing pages open for reference",
+    "primary_device": "Work laptop during business hours for evaluation, mobile for quick research",
+    "time_of_day": "Mid-morning and late afternoon when not in meetings"
+  },
+  "purchase_journey": {
+    "discovery": "Finds solutions through professional networks complaining about current vendor issues and industry forum recommendations",
+    "evaluation": "Starts with pricing transparency, moves to methodology documentation, then support quality assessment, finally hands-on testing",
+    "decision_moment": "When they can clearly articulate ROI to leadership and verify the solution reduces manual work without quality loss",
+    "post_purchase_expectation": "Seamless onboarding with expert support, immediate time savings, and measurable business impact within 30 days"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Pricing is transparent and fits budget constraints",
+      "Documentation shows clear methodological rigor",
+      "Support team demonstrates deep expertise in initial interactions",
+      "Free trial shows measurable time savings on actual work"
+    ],
+    "abandons_when": [
+      "Support staff lack expertise and require external vendors",
+      "Account management shows signs of chaos or frequent turnover",
+      "AI tools produce obviously inaccurate or biased results",
+      "Implementation requires significant technical skills they don't have"
+    ],
+    "trusts_when": [
+      "Vendor provides comprehensive code samples and responsive author support",
+      "Clear frameworks can be implemented immediately",
+      "Business impact metrics are measurable and verifiable",
+      "Setup process is genuinely low-friction"
+    ],
+    "becomes_suspicious_when": [
+      "Pricing involves nickel-and-diming or hidden fees",
+      "Product information seems outdated or disconnected from current practices",
+      "AI claims seem too good to be true without validation",
+      "Sales process feels predatory or high-pressure"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Manual thematic analysis and coding of open-ended survey responses is extremely time-consuming for analysts",
+      "Chaotic account management with frequent staff turnover",
+      "Support staff lack deep expertise, requiring external vendors for basic tasks",
+      "Clear, actionable frameworks that can be implemented immediately",
+      "Ability to clearly demonstrate the ROI of UXR work to secure budget and headcount",
+      "AI-generated summaries from call transcripts are unreliable or hallucinate details",
+      "Confusion between qualitative and quantitative research, leading to poor study design"
+    ],
+    "resonates_with": [
+      "Automated analysis that maintains scientific rigor",
+      "Proven ROI metrics and business impact",
+      "Expert support with deep domain knowledge",
+      "Seamless integration with existing workflows"
+    ],
+    "turned_off_by": [
+      "AI-powered magic solutions without validation",
+      "Complex setup requiring technical expertise",
+      "Vague promises without concrete implementation details",
+      "Account management instability and support gaps"
+    ]
+  },
+  "inner_monologue_samples": [
+    "Here we go again with hidden pricing - if I have to 'contact sales' just to see if this fits our budget, they're probably targeting enterprise customers with enterprise budgets.",
+    "These case studies look impressive but I need to see the actual methodology behind these ROI claims - too many vendors just throw around numbers without showing their work.",
+    "The navigation on this site is confusing and if they can't organize their own website properly, what does that say about their internal processes and support quality?",
+    "Another signup form asking for my phone number and company size before I can even see a demo - this feels like they're more interested in their sales pipeline than helping me evaluate the solution.",
+    "Finally, a vendor that shows actual code samples and has responsive documentation - this gives me confidence they understand the technical challenges I'm facing daily."
+  ],
+  "anti_patterns": [
+    "Assuming they want cutting-edge AI features over proven reliability (contradicts AI Research Skepticism cluster)",
+    "Pushing complex technical solutions when they need simple automation (contradicts Analysis Automation Seekers needs)",
+    "Focusing on enterprise features when they need practical ROI justification (contradicts Corporate Advancement Barrier challenges)",
+    "Minimizing support quality concerns when operational friction is their top pain point (contradicts Operational Friction cluster)",
+    "Treating them as early adopters when they exhibit strong risk aversion and methodological concerns (contradicts low risk tolerance from data)"
+  ],
+  "traits": [
+    {
+      "label": "Operational Friction & Poor Support",
+      "description": "Users experience significant operational issues stemming from disorganized internal processes, insufficient expertise, and poor communication across teams. This creates a frustrating experience where basic tasks become difficult and trust in the product/service erodes.",
+      "key_phrases": [
+        "Chaotic account management with frequent staff turnover",
+        "Support staff lack deep expertise, requiring external vendors for basic tasks",
+        "Disconnect and poor coordination between different internal teams",
+        "Frustration with missing sample code and unresponsive support forums",
+        "Consistently poor and unknowledgeable customer support"
+      ],
+      "frequency": 0.212,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "AI Role Disruption Anxiety",
+      "description": "Product managers are grappling with anxiety about how artificial intelligence is reshaping their role, creating tension between wanting to maintain strategic focus and feeling pressure to adopt technical skills to stay relevant.",
+      "key_phrases": [
+        "Pressure to adopt AI in ways that conflict with role identity or core responsibilities",
+        "Concern about job disruption from AI enabling others to build products with minimal technical expertise",
+        "Feeling that actual work of product management is shifting to something undesirable",
+        "Amplify core PM work (discovery, planning, strategy) with AI to free up time for higher-value activities",
+        "Stay relevant in job market by developing technical skills to complement strategic skills"
+      ],
+      "frequency": 0.175,
+      "tone": "cautious",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Corporate Advancement Barrier",
+      "description": "Frustration with navigating organizational politics, gaining visibility, and demonstrating financial impact to advance careers in competitive corporate environments. Professionals seek practical strategies to overcome dysfunction, speak the language of executives, and secure promotions despite systemic challenges.",
+      "key_phrases": [
+        "navigating a highly competitive job market",
+        "difficulty getting visibility and demonstrating impact within large organizations",
+        "difficulty tying product impact to financial metrics (P&L) to gain influence"
+      ],
+      "frequency": 0.163,
+      "tone": "frustrated",
+      "cluster_id": "cluster_8"
+    },
+    {
+      "label": "AI Research Skepticism",
+      "description": "Users are cautiously optimistic about AI-powered research tools for efficiency but express deep concerns about the accuracy, bias, and strategic value of AI-generated insights, fearing they may replace genuine human feedback with misleading data.",
+      "key_phrases": [
+        "Concerns about AI-generated data lacking genuine variation and being inherently biased.",
+        "Suspicion that providers artificially shrink variance in synthetic data to increase confidence unnaturally.",
+        "Anxiety about AI's inability to deliver strategic insights due to hallucinations and quality issues."
+      ],
+      "frequency": 0.113,
+      "tone": "cautious",
+      "cluster_id": "cluster_5"
+    },
+    {
+      "label": "Analysis Automation Seekers",
+      "description": "These users are researchers or analysts who need tools to automate the tedious, manual work of analyzing qualitative data and improving survey efficiency, while maintaining accuracy and depth.",
+      "key_phrases": [
+        "Manual thematic analysis and coding of open-ended survey responses is extremely time-consuming for analysts.",
+        "Time-consuming manual analysis of large volumes of unstructured qualitative data (e.g., 'a thousand comments - how do you make it useful?').",
+        "Automated thematic analysis from interviews and open-ended responses that is deep, accurate, and reduces manual work."
+      ],
+      "frequency": 0.075,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Inefficient Handoff Pain",
+      "description": "Users are frustrated by the manual effort and information loss during the handoff between sales and customer success teams. They seek automated, accurate tools that unify customer data across sources to enable seamless transitions.",
+      "key_phrases": [
+        "Manual aggregation of customer data from multiple sources (calls, emails, Slack, notes) is time-consuming and tedious",
+        "Sales-to-CS handoff lacks critical context; CSMs are often unprepared, leading to customer frustration and churn risk",
+        "Walking into customer calls without proper context or documentation of promises made is a high-stress 'resume-generating event'"
+      ],
+      "frequency": 0.075,
+      "tone": "frustrated",
+      "cluster_id": "cluster_7"
+    },
+    {
+      "label": "Methodological Rigor Concern",
+      "description": "Users are frustrated by research content that lacks scientific rigor, practical guidance, or ethical standards. They seek clear, actionable, and well-founded methodologies that can be reliably applied to real-world business problems.",
+      "key_phrases": [
+        "confusion between qualitative and quantitative research, leading to poor study design",
+        "frustration with unclear or incomplete information in research materials",
+        "clear, actionable frameworks that can be implemented immediately"
+      ],
+      "frequency": 0.075,
+      "tone": "frustrated",
+      "cluster_id": "cluster_9"
+    },
+    {
+      "label": "Inclusive Research Friction",
+      "description": "Frustrated advocacy for integrating inclusive, accessibility-focused user research into organizational workflows, often encountering resistance due to perceived high costs and unclear business value.",
+      "key_phrases": [
+        "Difficulty accessing or recruiting participants from non-customer segments (e.g., people with disabilities) for research",
+        "Internal resistance and lack of leadership support for accessibility or inclusive research, leading to conflict and burnout",
+        "Clear, measurable evidence linking accessibility/inclusive research to business outcomes (e.g., ROI, reduced risk)"
+      ],
+      "frequency": 0.062,
+      "tone": "frustrated",
+      "cluster_id": "cluster_3"
+    },
+    {
+      "label": "AI Support Implementation Doubt",
+      "description": "Users express concerns about AI-powered support tools failing to meet expectations due to poor handling of edge cases, high maintenance overhead, and inability to effectively triage complex issues. They desire automation that frees human agents for nuanced work but fear solutions that create more problems than they solve.",
+      "key_phrases": [
+        "AI chatbots fail at edge cases, emotional queries, or complex troubleshooting",
+        "High cost of advanced AI agents that handle edge cases and triage effectively",
+        "Seamless handoff to human support for edge cases, emotional issues, or complex problems"
+      ],
+      "frequency": 0.037,
+      "tone": "skeptical",
+      "cluster_id": "cluster_6"
+    },
+    {
+      "label": "Evaluative Consideration",
+      "description": "This group represents users who are in a deliberate consideration phase, showing neither strong aversion to friction nor immediate purchase intent. They appear to be weighing their options carefully, balancing the effort required with the perceived value of the product.",
+      "key_phrases": [],
+      "frequency": 0.013,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_4"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 7,
+    "total": 2400,
+    "avg_rating": 3.71,
+    "avg_length": 1185,
+    "rating_distribution": {
+      "1": 101,
+      "5": 827,
+      "4": 321,
+      "3": 1086,
+      "2": 65
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 1200
+    },
+    "n_products": 5,
+    "top_products": {
+      "unknown": 1200,
+      "Survey Design and Implementation Guide": 300,
+      "User Persona Development Workbook": 300,
+      "Focus Group Facilitation Handbook": 300,
+      "Market Research Methods and Analysis Textbook": 300
+    },
+    "low_rating_pct": 0.069,
+    "high_rating_pct": 0.478,
+    "n_sources": 2,
+    "issues": [
+      "Very few negative reviews \u2014 pain points may be underrepresented",
+      "Platform bias: amazon is 50% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 80
+  },
+  "demographic_description": "A user outside the existing customer base whose needs are considered for expansion. Interaction involves understanding broader market requirements beyond current users. Feedback is gathered through outreach beyond existing accounts.",
+  "generated_at": "2026-04-05T07:56:47.748977",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "0% grounded in cluster data",
+    "cluster_stability": "low"
+  }
+}

@@ -1,0 +1,598 @@
+{
+  "products": [
+    {
+      "name": "Schlumberger Drilling Engineering Technology Handbook",
+      "category": "Books",
+      "accuracy": 0.98,
+      "review_keywords": [
+        "drilling",
+        "completion",
+        "reservoir",
+        "wellbore",
+        "technical",
+        "reference",
+        "engineering"
+      ],
+      "context_keywords": [
+        "field",
+        "operations",
+        "project",
+        "wells"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "beginner"
+      ],
+      "why": "Highly specialized technical reference purchased almost exclusively by working drilling and completions engineers"
+    },
+    {
+      "name": "Halliburton Cementing Technology Manual",
+      "category": "Books",
+      "accuracy": 0.97,
+      "review_keywords": [
+        "cementing",
+        "casing",
+        "completion",
+        "wellbore",
+        "operations",
+        "technical",
+        "procedures"
+      ],
+      "context_keywords": [
+        "field",
+        "job",
+        "operations",
+        "wells"
+      ],
+      "exclusion_keywords": [
+        "academic",
+        "student"
+      ],
+      "why": "Professional cementing reference used by completions engineers in active field operations"
+    },
+    {
+      "name": "Baker Hughes Production Optimization Software License",
+      "category": "Software",
+      "accuracy": 0.96,
+      "review_keywords": [
+        "production",
+        "optimization",
+        "wells",
+        "reservoir",
+        "modeling",
+        "analysis",
+        "performance"
+      ],
+      "context_keywords": [
+        "company",
+        "field",
+        "operations",
+        "wells"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "home"
+      ],
+      "why": "Specialized production software purchased by E&P companies for their drilling and completions engineers"
+    },
+    {
+      "name": "Weatherford Completion Tools Catalog 2024",
+      "category": "Books",
+      "accuracy": 0.95,
+      "review_keywords": [
+        "completion",
+        "tools",
+        "downhole",
+        "equipment",
+        "specifications",
+        "catalog",
+        "reference"
+      ],
+      "context_keywords": [
+        "operations",
+        "field",
+        "wells",
+        "project"
+      ],
+      "exclusion_keywords": [
+        "academic",
+        "theoretical"
+      ],
+      "why": "Equipment catalog used by completions engineers for selecting downhole tools and equipment"
+    },
+    {
+      "name": "Drilling Fluids Technical Manual SPE",
+      "category": "Books",
+      "accuracy": 0.94,
+      "review_keywords": [
+        "drilling",
+        "fluids",
+        "mud",
+        "wellbore",
+        "properties",
+        "technical",
+        "formulation"
+      ],
+      "context_keywords": [
+        "field",
+        "operations",
+        "wells",
+        "drilling"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "academic"
+      ],
+      "why": "Technical manual on drilling fluids purchased by drilling engineers working on active drilling operations"
+    },
+    {
+      "name": "Petroleum Engineering Calculations Software Suite",
+      "category": "Software",
+      "accuracy": 0.93,
+      "review_keywords": [
+        "calculations",
+        "petroleum",
+        "engineering",
+        "drilling",
+        "completion",
+        "analysis",
+        "software"
+      ],
+      "context_keywords": [
+        "work",
+        "office",
+        "calculations",
+        "projects"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "educational"
+      ],
+      "why": "Professional engineering calculation software used by drilling and completions engineers for job planning"
+    },
+    {
+      "name": "Cased Hole Log Analysis Interpretation Guide",
+      "category": "Books",
+      "accuracy": 0.92,
+      "review_keywords": [
+        "cased",
+        "hole",
+        "logging",
+        "interpretation",
+        "analysis",
+        "completion",
+        "evaluation"
+      ],
+      "context_keywords": [
+        "wells",
+        "operations",
+        "field",
+        "analysis"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "basic"
+      ],
+      "why": "Specialized log analysis guide used by completions engineers for well evaluation and completion design"
+    },
+    {
+      "name": "Fracturing Design and Optimization Manual",
+      "category": "Books",
+      "accuracy": 0.91,
+      "review_keywords": [
+        "fracturing",
+        "stimulation",
+        "completion",
+        "design",
+        "optimization",
+        "production",
+        "hydraulic"
+      ],
+      "context_keywords": [
+        "field",
+        "operations",
+        "wells",
+        "completion"
+      ],
+      "exclusion_keywords": [
+        "academic",
+        "introductory"
+      ],
+      "why": "Technical manual for hydraulic fracturing used by completions engineers designing stimulation treatments"
+    },
+    {
+      "name": "Well Control Equipment Inspection Checklist Binder",
+      "category": "Office_Products",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "well",
+        "control",
+        "equipment",
+        "inspection",
+        "safety",
+        "checklist",
+        "drilling"
+      ],
+      "context_keywords": [
+        "field",
+        "operations",
+        "safety",
+        "drilling"
+      ],
+      "exclusion_keywords": [
+        "home",
+        "personal"
+      ],
+      "why": "Safety inspection documentation used by drilling engineers for well control equipment verification"
+    },
+    {
+      "name": "Downhole Tools Identification Chart Poster Set",
+      "category": "Office_Products",
+      "accuracy": 0.89,
+      "review_keywords": [
+        "downhole",
+        "tools",
+        "identification",
+        "completion",
+        "drilling",
+        "equipment",
+        "reference"
+      ],
+      "context_keywords": [
+        "office",
+        "field",
+        "operations",
+        "reference"
+      ],
+      "exclusion_keywords": [
+        "decorative",
+        "home"
+      ],
+      "why": "Technical reference charts displayed in engineering offices for equipment identification and selection"
+    },
+    {
+      "name": "Drilling Rig Component Maintenance Manual",
+      "category": "Books",
+      "accuracy": 0.88,
+      "review_keywords": [
+        "drilling",
+        "rig",
+        "maintenance",
+        "components",
+        "operations",
+        "equipment",
+        "procedures"
+      ],
+      "context_keywords": [
+        "field",
+        "operations",
+        "rig",
+        "maintenance"
+      ],
+      "exclusion_keywords": [
+        "academic",
+        "general"
+      ],
+      "why": "Equipment maintenance reference used by drilling engineers overseeing rig operations and maintenance"
+    },
+    {
+      "name": "Completion String Design Software Professional",
+      "category": "Software",
+      "accuracy": 0.87,
+      "review_keywords": [
+        "completion",
+        "string",
+        "design",
+        "tubular",
+        "engineering",
+        "software",
+        "analysis"
+      ],
+      "context_keywords": [
+        "work",
+        "design",
+        "wells",
+        "completion"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "trial"
+      ],
+      "why": "Professional completion design software used by completions engineers for tubular design and analysis"
+    },
+    {
+      "name": "Pressure Testing Equipment Certification Log Book",
+      "category": "Office_Products",
+      "accuracy": 0.86,
+      "review_keywords": [
+        "pressure",
+        "testing",
+        "equipment",
+        "certification",
+        "log",
+        "drilling",
+        "safety"
+      ],
+      "context_keywords": [
+        "field",
+        "operations",
+        "testing",
+        "certification"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "home"
+      ],
+      "why": "Compliance documentation used by drilling and completions engineers for equipment pressure testing records"
+    },
+    {
+      "name": "Reservoir Engineering Fundamentals for Operations",
+      "category": "Books",
+      "accuracy": 0.85,
+      "review_keywords": [
+        "reservoir",
+        "engineering",
+        "operations",
+        "production",
+        "analysis",
+        "fundamentals",
+        "wells"
+      ],
+      "context_keywords": [
+        "field",
+        "operations",
+        "production",
+        "wells"
+      ],
+      "exclusion_keywords": [
+        "student",
+        "textbook"
+      ],
+      "why": "Operations-focused reservoir engineering guide used by drilling and completions engineers for production optimization"
+    },
+    {
+      "name": "API Standards and Specifications Complete Set Digital",
+      "category": "Software",
+      "accuracy": 0.84,
+      "review_keywords": [
+        "API",
+        "standards",
+        "specifications",
+        "petroleum",
+        "drilling",
+        "completion",
+        "compliance"
+      ],
+      "context_keywords": [
+        "work",
+        "compliance",
+        "standards",
+        "operations"
+      ],
+      "exclusion_keywords": [
+        "academic",
+        "personal"
+      ],
+      "why": "Industry standards reference used by engineers for compliance and technical specifications in operations"
+    },
+    {
+      "name": "Well Planning and Design Worksheet Templates",
+      "category": "Office_Products",
+      "accuracy": 0.83,
+      "review_keywords": [
+        "well",
+        "planning",
+        "design",
+        "worksheet",
+        "templates",
+        "drilling",
+        "completion"
+      ],
+      "context_keywords": [
+        "planning",
+        "office",
+        "work",
+        "projects"
+      ],
+      "exclusion_keywords": [
+        "personal",
+        "home"
+      ],
+      "why": "Professional planning templates used by drilling and completions engineers for well design documentation"
+    },
+    {
+      "name": "Corrosion Control in Oil and Gas Operations Manual",
+      "category": "Books",
+      "accuracy": 0.82,
+      "review_keywords": [
+        "corrosion",
+        "control",
+        "oil",
+        "gas",
+        "operations",
+        "prevention",
+        "materials"
+      ],
+      "context_keywords": [
+        "operations",
+        "field",
+        "production",
+        "equipment"
+      ],
+      "exclusion_keywords": [
+        "academic",
+        "general"
+      ],
+      "why": "Technical manual on corrosion prevention used by engineers managing production equipment and operations"
+    },
+    {
+      "name": "Formation Evaluation and Petrophysics Analysis Software",
+      "category": "Software",
+      "accuracy": 0.81,
+      "review_keywords": [
+        "formation",
+        "evaluation",
+        "petrophysics",
+        "analysis",
+        "logging",
+        "interpretation",
+        "reservoir"
+      ],
+      "context_keywords": [
+        "analysis",
+        "work",
+        "wells",
+        "evaluation"
+      ],
+      "exclusion_keywords": [
+        "educational",
+        "demo"
+      ],
+      "why": "Professional petrophysical analysis software used by completions engineers for formation evaluation and completion design"
+    }
+  ],
+  "subreddits": [
+    {
+      "name": "oilandgasworkers",
+      "relevance": 0.95,
+      "member_type": "80% active drilling and completions engineers sharing field experiences",
+      "data_value": "Real operational challenges, equipment feedback, industry trends from working professionals",
+      "why": "Primary community for active oil and gas field operations personnel"
+    },
+    {
+      "name": "PetroleumEngineering",
+      "relevance": 0.9,
+      "member_type": "70% working petroleum engineers including drilling and completions specialists",
+      "data_value": "Technical discussions, problem-solving approaches, industry best practices",
+      "why": "Professional community focused on petroleum engineering practice and operations"
+    },
+    {
+      "name": "drilling",
+      "relevance": 0.88,
+      "member_type": "75% drilling engineers and operations personnel",
+      "data_value": "Equipment reviews, drilling techniques, operational challenges and solutions",
+      "why": "Specialized community for drilling engineering professionals and operations"
+    },
+    {
+      "name": "WellCompletion",
+      "relevance": 0.85,
+      "member_type": "80% completions engineers and field operations staff",
+      "data_value": "Completion design discussions, equipment performance, field operation insights",
+      "why": "Dedicated community for well completion engineering and operations"
+    },
+    {
+      "name": "UpstreamOilGas",
+      "relevance": 0.83,
+      "member_type": "65% exploration and production company engineers",
+      "data_value": "Industry trends, technology adoption, operational efficiency discussions",
+      "why": "Community focused on upstream oil and gas operations and engineering"
+    },
+    {
+      "name": "ReservoirEngineering",
+      "relevance": 0.8,
+      "member_type": "60% reservoir and production engineers working with drilling/completions teams",
+      "data_value": "Production optimization strategies, reservoir management, interdisciplinary collaboration",
+      "why": "Professional community for reservoir engineering with significant completions overlap"
+    },
+    {
+      "name": "HydraulicFracturing",
+      "relevance": 0.78,
+      "member_type": "70% completions engineers and stimulation specialists",
+      "data_value": "Fracturing technology discussions, treatment design, operational results",
+      "why": "Specialized community for hydraulic fracturing operations and completions engineering"
+    },
+    {
+      "name": "DrillingFluids",
+      "relevance": 0.75,
+      "member_type": "65% drilling engineers and mud engineers",
+      "data_value": "Drilling fluid formulations, wellbore stability issues, operational solutions",
+      "why": "Technical community focused on drilling fluids engineering and operations"
+    },
+    {
+      "name": "WellControl",
+      "relevance": 0.73,
+      "member_type": "70% drilling engineers and well control specialists",
+      "data_value": "Safety procedures, well control techniques, incident analysis and prevention",
+      "why": "Professional community for well control operations and drilling safety"
+    },
+    {
+      "name": "ProductionEngineering",
+      "relevance": 0.7,
+      "member_type": "55% production engineers working closely with completions teams",
+      "data_value": "Production optimization, equipment performance, operational efficiency insights",
+      "why": "Community for production engineering with strong completions engineering overlap"
+    },
+    {
+      "name": "OffshoreDrilling",
+      "relevance": 0.68,
+      "member_type": "60% offshore drilling and completions engineers",
+      "data_value": "Offshore operational challenges, specialized equipment, regulatory compliance",
+      "why": "Specialized community for offshore drilling and completions operations"
+    },
+    {
+      "name": "UnconventionalOilGas",
+      "relevance": 0.65,
+      "member_type": "55% engineers working on unconventional drilling and completions",
+      "data_value": "Unconventional techniques, technology innovations, operational strategies",
+      "why": "Community focused on unconventional oil and gas operations and engineering"
+    },
+    {
+      "name": "WellLogging",
+      "relevance": 0.63,
+      "member_type": "50% logging engineers and completions engineers using log data",
+      "data_value": "Formation evaluation techniques, logging tool performance, data interpretation",
+      "why": "Professional community for well logging with significant completions engineering usage"
+    },
+    {
+      "name": "CementingOperations",
+      "relevance": 0.6,
+      "member_type": "65% cementing engineers and completions specialists",
+      "data_value": "Cementing techniques, job design, operational challenges and solutions",
+      "why": "Specialized community for cementing operations in drilling and completions"
+    },
+    {
+      "name": "DownholeTools",
+      "relevance": 0.58,
+      "member_type": "60% engineers involved in downhole tool selection and operations",
+      "data_value": "Tool performance reviews, operational experiences, technology evaluations",
+      "why": "Community focused on downhole equipment used in drilling and completions operations"
+    }
+  ],
+  "demographic_profile": {
+    "core_keywords": [
+      "drilling",
+      "completion",
+      "wellbore",
+      "operations",
+      "field",
+      "reservoir",
+      "production",
+      "downhole",
+      "equipment",
+      "design",
+      "analysis",
+      "optimization",
+      "technical",
+      "engineering",
+      "project"
+    ],
+    "exclusion_keywords": [
+      "student",
+      "academic",
+      "beginner",
+      "home",
+      "personal",
+      "hobby",
+      "retail",
+      "consumer"
+    ],
+    "age_range": "28-55",
+    "primary_motivations": [
+      "operational efficiency and safety",
+      "technical accuracy and compliance",
+      "equipment reliability and performance",
+      "cost optimization and project success"
+    ],
+    "summary": "Professional engineers working for exploration and production companies who design, implement, and optimize drilling and well completion operations. They make purchasing decisions based on technical specifications, operational requirements, and proven field performance rather than cost alone. They are frustrated by equipment failures, regulatory compliance challenges, and technologies that don't deliver promised operational improvements in real field conditions."
+  }
+}

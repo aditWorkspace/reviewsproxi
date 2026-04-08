@@ -1,0 +1,326 @@
+{
+  "id": "external_market_user_(non_customer_segment)",
+  "label": "External Market User (Non-Customer Segment)",
+  "segment": {
+    "role": "Product management professional or aspiring PM seeking tools and resources to navigate role uncertainty and advance their career",
+    "tech_savviness": "medium",
+    "price_sensitivity": "high",
+    "risk_tolerance": "low",
+    "context": "They are experiencing significant anxiety about AI changing the nature of product management roles and feel frustrated by tools that create more problems than they solve. Their purchasing decisions are heavily influenced by the need to maintain professional identity while building practical expertise that delivers measurable business impact."
+  },
+  "goals": [
+    {
+      "goal": "Find practical frameworks and guidance to succeed in product management without compromising strategic identity",
+      "priority": 5
+    },
+    {
+      "goal": "Access reliable market research tools that provide authentic data and actionable insights",
+      "priority": 4
+    },
+    {
+      "goal": "Identify AI support solutions that enhance rather than replace human decision-making",
+      "priority": 4
+    },
+    {
+      "goal": "Gain influence within their organization by learning to communicate financial impact",
+      "priority": 3
+    },
+    {
+      "goal": "Build expertise in research methodologies that can be trusted and replicated",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Must avoid tools that shift them away from strategic product work toward technical implementation",
+    "Cannot invest in solutions with unreliable technical performance or frequent crashes",
+    "Requires transparent pricing without hidden costs or aggressive monetization tactics",
+    "Needs clear, actionable guidance rather than theoretical or overly complex information",
+    "Must have access to genuine human support for complex issues, not just chatbots"
+  ],
+  "decision_weights": {
+    "complex_research_navigation": 0.125,
+    "information_overload": 0.125,
+    "tool_problem_creation": 0.125,
+    "knowledge_retention_gaps": 0.125,
+    "unreliable_ai_features": 0.125,
+    "time_constraint_pressure": 0.125,
+    "role_identity_conflict": 0.125,
+    "undesirable_work_shift": 0.125
+  },
+  "behavioral_rules": [
+    "Immediately scrutinizes any AI feature claims for evidence of practical value over marketing hype",
+    "Abandons products that require significant technical setup without clear strategic benefit",
+    "Seeks detailed explanations of methodologies before committing to research tools",
+    "Prioritizes tools that offer human escalation paths over pure automation",
+    "Exits pricing pages that show sudden feature removals or aggressive upgrade pressure",
+    "Demands transparency in data sources and confidence scoring for any insights provided",
+    "Rejects educational content that lacks actionable frameworks or concrete examples",
+    "Investigates whether tools will enhance or threaten their strategic decision-making role",
+    "Requires evidence that solutions integrate smoothly with existing workflows",
+    "Validates that research outputs can be tied to measurable business metrics"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.321,
+    "trust_starting_point": 0.484,
+    "frustration_decay": 0.4
+  },
+  "deal_breakers": [
+    "Tools that force them into technical implementation roles rather than strategic work",
+    "Research platforms with fraudulent or bot-generated respondent data",
+    "AI solutions that cannot escalate complex issues to human agents",
+    "Products with broken core functionality like portfolio sync or account management",
+    "Educational resources that lack comprehensive explanations for advanced topics"
+  ],
+  "voice_sample": "I'm constantly feeling pressure to adopt AI in ways that conflict with my core responsibilities as a product strategist. The actual work of product management seems to be shifting to something undesirable, and I need to maintain my role identity as someone focused on what to build, not how to build it. I'm frustrated with career advancement being dependent on others' decisions rather than merit, and I struggle to tie product impact to financial metrics to gain influence. I need access to thorough, research-based information that saves time and provides actionable insights, but I'm tired of tools that create new problems rather than solving existing ones. What I really want is the ability to focus on high-value activities rather than administrative tasks, and I need reliable resources that help me learn to speak the same financial language as CEOs and CFOs.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 25,
+    "pages_before_decision": 8,
+    "tab_behavior": "Opens multiple tabs to compare methodologies and pricing models simultaneously",
+    "primary_device": "Laptop during work hours for thorough research and evaluation",
+    "time_of_day": "Late morning or early evening when they can focus without meeting interruptions"
+  },
+  "purchase_journey": {
+    "discovery": "Finds solutions through professional networks, industry forums, and searches for specific PM challenges or career advancement strategies",
+    "evaluation": "First checks for practical frameworks and actionable guidance, then investigates data quality and methodology transparency, finally validates pricing and support options",
+    "decision_moment": "When they can clearly see how the tool enhances their strategic role without forcing technical work or compromising their professional identity",
+    "post_purchase_expectation": "Expects immediate access to reliable, research-based information that accelerates career advancement and provides measurable business impact"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Tool clearly enhances strategic decision-making without requiring technical skills",
+      "Research methodologies are transparent and can be replicated",
+      "Human support is available for complex issues beyond chatbot capabilities",
+      "Pricing is transparent with no hidden aggressive monetization tactics"
+    ],
+    "abandons_when": [
+      "Product requires significant role identity shift away from product strategy",
+      "App crashes or freezes frequently during core functionality",
+      "Information lacks actionable solutions or comprehensive explanations",
+      "AI features feel unreliable or create more problems than they solve"
+    ],
+    "trusts_when": [
+      "Content provides access to first-hand, detailed, well-researched information",
+      "Tools offer transparency with confidence scores and source links",
+      "Solutions can be tied to measurable business and financial impact",
+      "Platform demonstrates stable technical performance and intuitive navigation"
+    ],
+    "becomes_suspicious_when": [
+      "AI claims seem designed to replace rather than enhance human judgment",
+      "Research data quality appears compromised by bots or fraudulent responses",
+      "Educational materials feel misleading with exaggerated claims",
+      "Products show chaotic account management or frequent staff turnover"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Maintain role identity as strategists focused on what to build, not how to build it",
+      "Ability to focus on high-value activities rather than administrative or reactive tasks",
+      "Access to authentic, high-quality respondent data for external market research",
+      "Learn to speak the same financial language as CEOs and CFOs",
+      "Ability to translate research findings into business impact",
+      "Access first-hand, detailed, and well-researched information from credible sources"
+    ],
+    "resonates_with": [
+      "Strategic influence and decision-making authority",
+      "Practical frameworks for product management success",
+      "Reliable data and research methodologies",
+      "Career advancement and professional growth"
+    ],
+    "turned_off_by": [
+      "Technical implementation requirements",
+      "Overly complex or theoretical guidance",
+      "Unreliable AI features and marketing hype",
+      "Administrative burden and reactive tasks"
+    ]
+  },
+  "inner_monologue_samples": [
+    "The pricing looks reasonable, but I need to make sure this won't force me into technical implementation work when what I really need is strategic frameworks that enhance my decision-making authority.",
+    "These testimonials are nice, but I need to see evidence that this actually provides access to authentic, high-quality respondent data rather than the fraudulent bot responses I've dealt with before.",
+    "This interface seems overly complicated - I don't have time for tools that create new problems rather than solving existing ones. I need something that helps me focus on high-value activities.",
+    "They're asking for a lot of information upfront. Given how many platforms have chaotic account management, I'm worried about getting locked into something that will require constant maintenance.",
+    "Finally, something that actually provides practical, actionable advice rather than theoretical content. If this can help me translate research findings into business impact and speak the financial language of leadership, it might be worth the investment."
+  ],
+  "anti_patterns": [
+    "Assuming they want the most advanced AI features - they're skeptical of AI hype and prefer human judgment enhancement",
+    "Marketing technical capabilities - they care about strategic outcomes and maintaining their professional identity",
+    "Hiding pricing or using aggressive monetization - they have high price sensitivity and low risk tolerance",
+    "Providing only theoretical frameworks - they need practical, actionable guidance with concrete examples",
+    "Eliminating human support options - they require escalation paths for complex issues beyond automation"
+  ],
+  "traits": [
+    {
+      "label": "Role Identity Anxiety",
+      "description": "Product managers express concern about AI tools changing the fundamental nature of their role, shifting them from strategic decision-makers to technical implementers, while creating anxiety about career relevance and professional identity.",
+      "key_phrases": [
+        "Pressure to adopt AI in ways that conflict with role identity or core responsibilities",
+        "Feeling that actual work of product management is shifting to something undesirable",
+        "Maintain role identity as strategists focused on what to build, not how to build it",
+        "Career uncertainty due to technological change, leading to exploration of new paths",
+        "Requires significant role identity shift away from product strategy"
+      ],
+      "frequency": 0.175,
+      "tone": "cautious",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Professional Efficacy Gap",
+      "description": "Users experience significant friction when their tools, materials, or organizational context hinder their ability to perform high-value professional work. They express frustration with superficial resources, misaligned goals, and administrative burdens that prevent them from delivering actionable insights and strategic impact.",
+      "key_phrases": [
+        "lack of actionable solutions or strategies",
+        "being understaffed relative to customer demand",
+        "tools that are too simplistic for the target user",
+        "ability to focus on high-value activities rather than administrative or reactive tasks",
+        "strategic influence within their company to shape product and customer strategy"
+      ],
+      "frequency": 0.144,
+      "tone": "frustrated",
+      "cluster_id": "cluster_7"
+    },
+    {
+      "label": "Operational Inefficiency Frustration",
+      "description": "Users are frustrated with a product that is technically unstable, poorly integrated internally, and creates unnecessary friction in core workflows. The experience feels disjointed and unreliable, from crashing apps to chaotic account management, preventing users from achieving their basic productivity goals.",
+      "key_phrases": [
+        "Chaotic account management with frequent staff turnover",
+        "App crashes or freezes frequently",
+        "Unintuitive interface requiring multiple steps for basic tasks"
+      ],
+      "frequency": 0.124,
+      "tone": "frustrated",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Information Quality Skepticism",
+      "description": "Users express frustration when educational, research, or professional materials lack clarity, transparency, and actionable insights. They reject content that feels misleading, overly complex, or designed to validate preconceptions rather than provide genuine understanding.",
+      "key_phrases": [
+        "Lack of comprehensive explanations for advanced topics",
+        "Difficulty extracting actionable insights from excessive detail",
+        "Feeling misled by exaggerated product claims",
+        "Get accurate, reliable market insights that inform business decisions",
+        "To quickly grasp core insights from complex information without being overwhelmed by minutiae"
+      ],
+      "frequency": 0.124,
+      "tone": "skeptical",
+      "cluster_id": "cluster_3"
+    },
+    {
+      "label": "Role Transition & Expertise Gap",
+      "description": "Product managers or aspiring PMs experiencing frustration with role ambiguity and lack of clear guidance, while actively seeking credible, practical information and frameworks to build deep expertise and advance their careers.",
+      "key_phrases": [
+        "Frustration with unclear product management role hierarchies and responsibilities",
+        "Anxiety about lacking a clear, accepted definition of product sense",
+        "Find practical, actionable advice and frameworks to understand and succeed in product management roles",
+        "Access first-hand, detailed, and well-researched information from credible sources"
+      ],
+      "frequency": 0.113,
+      "tone": "frustrated",
+      "cluster_id": "cluster_5"
+    },
+    {
+      "label": "AI Support Realism Gap",
+      "description": "Customers express frustration with the expectation that AI chatbots will fully replace human support, while desiring a pragmatic system that automates repetitive tasks but seamlessly escalates complex or emotional issues to humans. The pain stems from high-maintenance, keyword-based bots that block access to real help.",
+      "key_phrases": [
+        "Implementing AI incorrectly by expecting it to replace human support instead of filtering noise",
+        "Users hate bots when they prevent direct access to Tier 2 support for complex issues",
+        "Seamlessly escalate to human agents when AI is not confident",
+        "High setup and maintenance overhead for AI support tools requiring dedicated staff and continuous iteration"
+      ],
+      "frequency": 0.093,
+      "tone": "frustrated",
+      "cluster_id": "cluster_8"
+    },
+    {
+      "label": "Research Integrity Concern",
+      "description": "Analysts and researchers express significant skepticism about AI-generated insights and synthetic data, fearing it lacks authenticity, genuine variation, and critical honesty while threatening the core value of traditional research methodology.",
+      "key_phrases": [
+        "Concerns about AI-generated data lacking genuine variation and being inherently biased",
+        "Fear that synthetic respondents cannot provide honest, critical feedback (only helpful, not truthful)",
+        "Worries about AI being used to cut costs at the expense of accuracy, threatening traditional research value"
+      ],
+      "frequency": 0.082,
+      "tone": "skeptical",
+      "cluster_id": "cluster_6"
+    },
+    {
+      "label": "Core Reliability & Value Deficit",
+      "description": "Users experience persistent technical failures in core portfolio tracking and syncing, combined with aggressive monetization that delivers poor value. This creates a perception of a broken, untrustworthy product that fails to justify its cost, either free or premium.",
+      "key_phrases": [
+        "Broken portfolio synchronization that fails to update holdings",
+        "Chronic technical glitches without resolution",
+        "Aggressive monetization tactics: sudden removal of free features, intrusive ads, and daily research limits",
+        "Premium subscription failing to work after purchase",
+        "High subscription cost with no clear fix for persistent bugs"
+      ],
+      "frequency": 0.062,
+      "tone": "frustrated",
+      "cluster_id": "cluster_4"
+    },
+    {
+      "label": "Navigating Organizational Politics and Financial Influence",
+      "description": "Professionals feel blocked by internal politics, struggle to demonstrate financial impact, and seek frameworks to gain influence and advance their careers in complex corporate environments.",
+      "key_phrases": [
+        "Frustration with career advancement being dependent on others' decisions rather than merit",
+        "Difficulty tying product impact to financial metrics (P&L) to gain influence",
+        "Learn to speak the same financial language as CEOs and CFOs"
+      ],
+      "frequency": 0.062,
+      "tone": "frustrated",
+      "cluster_id": "cluster_9"
+    },
+    {
+      "label": "Data Authenticity Concern",
+      "description": "Frustration with unreliable, fraudulent, or low-quality respondent data from surveys and market research panels, creating a fundamental trust deficit in research findings. This reflects deep skepticism about data provenance and respondent authenticity.",
+      "key_phrases": [
+        "Fraudulent/bot responses in survey data compromising research quality",
+        "Difficulty distinguishing between hard fraud (bots) and soft fraud (lazy human responses)",
+        "Recruit genuine human participants who engage honestly and thoughtfully"
+      ],
+      "frequency": 0.021,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 8,
+    "total": 2910,
+    "avg_rating": 3.65,
+    "avg_length": 1020,
+    "rating_distribution": {
+      "1": 227,
+      "5": 1038,
+      "4": 381,
+      "3": 1145,
+      "2": 119
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 1200,
+      "playstore": 510
+    },
+    "n_products": 5,
+    "top_products": {
+      "unknown": 1710,
+      "Survey Design and Implementation Guide": 300,
+      "User Persona Development Workbook": 300,
+      "Focus Group Facilitation Handbook": 300,
+      "Market Research Methods and Analysis Textbook": 300
+    },
+    "low_rating_pct": 0.119,
+    "high_rating_pct": 0.488,
+    "n_sources": 3,
+    "issues": [
+      "Platform bias: amazon is 41% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 97
+  },
+  "demographic_description": "A user outside the existing customer base whose needs are considered for expansion. Interaction involves understanding broader market requirements beyond current users. Feedback is gathered through outreach beyond existing accounts.",
+  "generated_at": "2026-04-05T22:07:55.046104",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "0% grounded in cluster data",
+    "cluster_stability": "moderate"
+  }
+}

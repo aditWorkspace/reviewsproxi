@@ -1,0 +1,234 @@
+{
+  "id": "oil_&_gas_engineer_(exploration_&_production_offices)",
+  "label": "Oil & Gas Engineer (Exploration & Production Offices)",
+  "segment": {
+    "role": "Mid-career drilling/completions engineer in high-pressure operations",
+    "tech_savviness": "medium",
+    "price_sensitivity": "medium",
+    "risk_tolerance": "low",
+    "context": "Works in dangerous industrial environments where management demands perfection 100% of the time while dealing with toxic chemicals and extreme conditions. Constantly seeks reliable technical resources and safety solutions due to communication failures and operational scrambles that create life-threatening situations."
+  },
+  "goals": [
+    {
+      "goal": "Find comprehensive technical references for field application problems",
+      "priority": 5
+    },
+    {
+      "goal": "Access reliable engineering support for emergency situations",
+      "priority": 5
+    },
+    {
+      "goal": "Locate error-free instructions and specifications for critical operations",
+      "priority": 4
+    },
+    {
+      "goal": "Obtain well-documented, evidence-based resources for decision-making",
+      "priority": 4
+    },
+    {
+      "goal": "Secure materials that serve as reliable references for future work",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Cannot tolerate content too basic or shallow for experienced professionals",
+    "Must avoid products with confusing or overly complex technical documentation",
+    "Cannot accept solutions that lack practical, actionable technical content",
+    "Must avoid materials with errors or flaws that could lead to operational failures",
+    "Cannot use resources that are poorly organized for field application"
+  ],
+  "decision_weights": {
+    "management_pressure_perfection": 0.125,
+    "high_responsibility_safety": 0.125,
+    "communication_failures": 0.125,
+    "interdepartmental_friction": 0.125,
+    "negative_unit_culture": 0.125,
+    "emergency_fear_uncertainty": 0.125,
+    "feeling_misunderstood": 0.125,
+    "fatal_accident_potential": 0.125
+  },
+  "behavioral_rules": [
+    "Immediately checks for comprehensive coverage of both strategic concepts and technical details",
+    "Abandons products if documentation appears too basic for experienced professionals",
+    "Prioritizes vendors that demonstrate hands-on plant experience over remote support",
+    "Exits immediately if technical specifications contain obvious errors or inconsistencies",
+    "Requires visual clarity in materials before considering purchase",
+    "Seeks evidence of reliability and performance under real-world conditions",
+    "Demands clear, concise, and logically organized technical material",
+    "Refuses to proceed if content lacks practical field application examples",
+    "Verifies that materials can serve as reliable future references",
+    "Requires access to high-quality engineering support for emergencies"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.359,
+    "trust_starting_point": 0.733,
+    "frustration_decay": 0.32
+  },
+  "deal_breakers": [
+    "Technical documentation that lacks depth for experienced professionals",
+    "Content with errors or inaccuracies in critical specifications",
+    "Resources that cannot be used as reliable references",
+    "Vendors without demonstrated hands-on field experience",
+    "Materials that are poorly organized for practical application"
+  ],
+  "voice_sample": "I'm dealing with high stress from management pressure and audits, requiring perfection 100% of the time in this dangerous work environment with toxic chemicals, high pressure, and extreme heat. When communication failures cause operational scrambles or safety concerns, I need access to clear, reliable, and easy-to-follow technical information and instructions that won't let me down. I'm burning the candle at both ends due to lack of ready references for mentoring or skill-building, and I can't afford to make decisions based on information that may be outdated or inaccurate. There's potential for fatal accidents due to chemical exposure, so I need comprehensive coverage of topics with both strategic concepts and technical details that experienced professionals can actually use in the field.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 25,
+    "pages_before_decision": 8,
+    "tab_behavior": "Opens multiple tabs to compare technical specifications and cross-reference reliability",
+    "primary_device": "Desktop computer in office environment between field operations",
+    "time_of_day": "Early morning or late evening when not on active drilling operations"
+  },
+  "purchase_journey": {
+    "discovery": "Searches for specific technical solutions after encountering field problems or during preparation for critical operations",
+    "evaluation": "Examines technical depth first, then checks for practical application examples, verifies vendor field experience, and confirms error-free documentation",
+    "decision_moment": "Purchases when finds comprehensive, reliable content with demonstrated real-world application and emergency support availability",
+    "post_purchase_expectation": "Expects materials to serve as reliable references for future work and provide actionable solutions for complex field problems"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Access to clear, reliable, and easy-to-follow technical information and instructions",
+      "Access to high-quality, reliable technical expertise and engineering support",
+      "Comprehensive coverage of a topic, including both strategic concepts and technical details",
+      "Clear, concise, and logically organized technical material"
+    ],
+    "abandons_when": [
+      "Content too basic or shallow for experienced professionals",
+      "Difficulty finding technical information that is comprehensive and well-organized for field application",
+      "Frustration with confusing or overly complex technical documentation and instructions",
+      "Errors or flaws in instructions leading to poor results for non-experts"
+    ],
+    "trusts_when": [
+      "Ensuring high-quality, reliable engineering support that can handle emergencies on-site",
+      "Accessing well-documented, evidence-based resources",
+      "Accurate, error-free instructions and specifications",
+      "Concern about product reliability and performance under real-world conditions"
+    ],
+    "becomes_suspicious_when": [
+      "Concern that remote/offshored engineering support lacks hands-on plant experience",
+      "Anxiety about making decisions without credible, evidence-based data",
+      "Concern about making decisions based on information that may be outdated or inaccurate",
+      "Distrust in offshore teams' technical expertise, citing more catastrophic errors"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "High stress from management pressure and audits, requiring perfection 100% of the time",
+      "Dangerous work environment with toxic chemicals, high pressure, and extreme heat",
+      "Access to clear, reliable, and easy-to-follow technical information and instructions",
+      "Comprehensive coverage of a topic, including both strategic concepts and technical details",
+      "Difficulty finding technical information that is comprehensive and well-organized for field application"
+    ],
+    "resonates_with": [
+      "Proven field experience",
+      "Emergency support available",
+      "Comprehensive technical depth",
+      "Real-world application tested",
+      "Reliable reference material"
+    ],
+    "turned_off_by": [
+      "Basic introductory content",
+      "Theoretical only approach",
+      "Remote support without field experience",
+      "Confusing documentation",
+      "Unproven solutions"
+    ]
+  },
+  "inner_monologue_samples": [
+    "The pricing seems reasonable but I need to make sure this isn't just another basic manual that won't help when I'm dealing with complex field problems under management pressure.",
+    "These testimonials look good, but do these people actually have hands-on plant experience, or are they just remote engineers who've never dealt with real emergency situations?",
+    "This navigation is confusing and poorly organized - if they can't even organize their website properly, how can I trust their technical documentation to be clear when I need it most?",
+    "They want my contact information before showing me the technical specifications? I don't have time for sales calls when I'm dealing with potential fatal accidents due to chemical exposure.",
+    "Finally, comprehensive coverage with both strategic concepts and technical details that I can actually use as a reliable reference for future work - this is exactly what I need for field application."
+  ],
+  "anti_patterns": [
+    "Assuming they want beginner-level content (contradicts 'Content too basic or shallow for experienced professionals')",
+    "Promoting remote-only support without field experience (contradicts concern about offshore engineering lacking hands-on experience)",
+    "Using overly complex or confusing documentation structure (contradicts need for clear, reliable technical information)",
+    "Hiding technical specifications behind contact forms (contradicts low friction tolerance and time pressure)",
+    "Focusing on theoretical concepts without practical application (contradicts need for actionable technical content)"
+  ],
+  "traits": [
+    {
+      "label": "Critical Safety & Operational Stress",
+      "description": "Workers in high-risk industrial environments express deep concern about hazardous conditions, management pressure, and communication failures, while seeking tools and practices that prioritize safety and reliability.",
+      "key_phrases": [
+        "High stress from management pressure and audits, requiring perfection 100% of the time.",
+        "Dangerous work environment with toxic chemicals, high pressure, and extreme heat",
+        "Communication failures causing operational scrambles or safety concerns."
+      ],
+      "frequency": 0.49,
+      "tone": "frustrated",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Technical Reference Inadequacy",
+      "description": "Users express frustration with technical documentation and reference materials that lack depth, clarity, organization, and practical applicability for experienced professionals. They seek comprehensive, reliable content that provides both theoretical understanding and actionable solutions for complex field problems.",
+      "key_phrases": [
+        "Difficulty finding technical information that is comprehensive and well-organized for field application",
+        "Content too basic or shallow for experienced professionals",
+        "Lack of practical, actionable technical content in books"
+      ],
+      "frequency": 0.451,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Low Friction Tolerance",
+      "description": "This group of customers shows limited patience for obstacles during the shopping process and will easily abandon a purchase if they encounter minor complications, delays, or inconveniences.",
+      "key_phrases": [
+        "dominant_friction_tolerance: low",
+        "friction_tolerance_distribution: low - 0.667",
+        "medium: 0.333"
+      ],
+      "frequency": 0.059,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_0"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 7,
+    "total": 1522,
+    "avg_rating": 4.16,
+    "avg_length": 1702,
+    "rating_distribution": {
+      "1": 33,
+      "5": 752,
+      "3": 356,
+      "2": 29,
+      "4": 352
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 257,
+      "playstore": 65
+    },
+    "n_products": 5,
+    "top_products": {
+      "unknown": 322,
+      "Drilling Fluids Technical Manual SPE": 300,
+      "Schlumberger Drilling Engineering Technology Handbook": 300,
+      "Weatherford Completion Tools Catalog 2024": 300,
+      "Halliburton Cementing Technology Manual": 300
+    },
+    "low_rating_pct": 0.041,
+    "high_rating_pct": 0.725,
+    "n_sources": 3,
+    "issues": [
+      "Very few negative reviews \u2014 pain points may be underrepresented",
+      "Platform bias: amazon is 79% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 51
+  },
+  "demographic_description": "Holds roles like drilling engineer or completions engineer within exploration and production companies. Works in office environments tied to field operations and reviews product outputs after demonstrations or deployments. Provides feedback by suggesting additional use cases and improvements after seeing product capabilities.",
+  "generated_at": "2026-04-05T23:56:49.953875",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "0% grounded in cluster data",
+    "cluster_stability": "moderate"
+  }
+}

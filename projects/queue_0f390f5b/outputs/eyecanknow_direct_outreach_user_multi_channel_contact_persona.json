@@ -1,0 +1,322 @@
+{
+  "id": "direct_outreach_user_(multi_channel_contact)",
+  "label": "Direct Outreach User (Multi-Channel Contact)",
+  "segment": {
+    "role": "business professional managing operations across multiple channels",
+    "tech_savviness": "medium",
+    "price_sensitivity": "high",
+    "risk_tolerance": "low",
+    "context": "A business owner or professional who has been burned by unreliable software and poor support experiences. They actively research across multiple channels and provide feedback when products fail to meet their operational needs, but their patience for technical issues is extremely limited."
+  },
+  "goals": [
+    {
+      "goal": "Find software that installs easily and works reliably without crashes",
+      "priority": 5
+    },
+    {
+      "goal": "Access responsive, knowledgeable customer support when issues arise",
+      "priority": 5
+    },
+    {
+      "goal": "Achieve reliable, multi-device access to tools for business operations",
+      "priority": 4
+    },
+    {
+      "goal": "Avoid hidden fees and deceptive pricing structures",
+      "priority": 4
+    },
+    {
+      "goal": "Get transparent billing with clear cost breakdown before purchase",
+      "priority": 3
+    },
+    {
+      "goal": "Access professional-grade tools without unnecessary complexity",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Limited time for troubleshooting technical issues (from Technical Reliability & Support Deficiency cluster)",
+    "Cannot tolerate software that frequently crashes or has disruptive bugs (from Operational Reliability Concern cluster)",
+    "Must avoid products with hidden fees or forced upgrades after purchase (from Post-Purchase Betrayal cluster)",
+    "Requires human customer support, not just chatbots or automated responses (from Technical & Support Integrity cluster)"
+  ],
+  "decision_weights": {
+    "customer_support_quality": 0.125,
+    "software_stability": 0.125,
+    "setup_complexity": 0.125,
+    "pricing_transparency": 0.125,
+    "product_clarity": 0.125,
+    "support_accessibility": 0.125,
+    "operational_stress": 0.125,
+    "help_desk_responsiveness": 0.125
+  },
+  "behavioral_rules": [
+    "Immediately checks for customer support contact options before evaluating features (from Technical Reliability & Support Deficiency cluster)",
+    "Abandons signup if installation process appears complex or requires multiple steps (from Functional Reliability and Ease of Use cluster)",
+    "Scrolls directly to pricing section to verify no hidden fees before reading feature descriptions (from Post-Purchase Betrayal cluster)",
+    "Tests mobile compatibility within first 5 minutes of trial period (from Mobile App Deficiency cluster)",
+    "Looks for system requirements and compatibility information before downloading (from Reliability Seeking cluster)",
+    "Exits immediately if support page only shows chatbot or FAQ options (from Technical & Support Integrity cluster)",
+    "Reads negative reviews first to identify potential stability issues (from Operational Reliability Concern cluster)",
+    "Refuses to provide payment information before seeing full feature breakdown (from Post-Purchase Betrayal cluster)",
+    "Searches for 'uninstall' or 'cancellation' information before committing (from Technical & Support Integrity cluster)",
+    "Cross-references pricing across multiple pages to verify consistency (from Post-Purchase Betrayal cluster)"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.277,
+    "trust_starting_point": 0.526,
+    "frustration_decay": 0.4
+  },
+  "deal_breakers": [
+    "Software that crashes or freezes during initial evaluation",
+    "No human customer support available",
+    "Hidden fees discovered after purchase",
+    "Mobile app lacks key features compared to desktop version",
+    "Installation failures or excessive bugs during setup"
+  ],
+  "voice_sample": "I've been through this too many times before - software that looks great in demos but falls apart when you actually need it to work. The last thing I need is another platform that crashes during busy periods or leaves me hanging when I need support. I'm tired of feeling manipulated by hidden fees or forced upgrades after purchase, especially when the product doesn't even deliver on its basic promises. I need something that just works reliably across all my devices without requiring a computer science degree to set up. If I can't get a real person on the phone when things go wrong, or if I have to waste time troubleshooting instead of running my business, I'm out.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 15,
+    "pages_before_decision": 8,
+    "tab_behavior": "Opens pricing, support, and reviews in separate tabs immediately",
+    "primary_device": "Desktop during business hours for evaluation, mobile for quick checks",
+    "time_of_day": "Business hours when they can test integration with existing workflow"
+  },
+  "purchase_journey": {
+    "discovery": "Found through targeted outreach or while researching solutions to specific operational problems",
+    "evaluation": "Checks support options first, then pricing transparency, then tests basic functionality for stability",
+    "decision_moment": "When they confirm software works reliably and human support is accessible within their budget",
+    "post_purchase_expectation": "Seamless, stable performance without crashes or errors and responsive support when needed"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Clear pricing with no hidden fees visible upfront",
+      "Live chat or phone support responds within minutes",
+      "Software installs and runs without any glitches during trial",
+      "Mobile and desktop versions have feature parity"
+    ],
+    "abandons_when": [
+      "Support page only shows FAQ or chatbot options",
+      "Software crashes or bugs appear during evaluation",
+      "Pricing requires signup to view or has unclear terms",
+      "Installation process involves multiple complex steps"
+    ],
+    "trusts_when": [
+      "Support team demonstrates actual technical knowledge",
+      "Pricing breakdown is detailed and transparent",
+      "Software works seamlessly across required platforms",
+      "Negative reviews show developer responses and fixes"
+    ],
+    "becomes_suspicious_when": [
+      "Free trial requires credit card for basic features",
+      "Support responses are generic or automated",
+      "App requests excessive or undisclosed permissions",
+      "Pricing changes between different pages or sessions"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "A stable, reliable software product that works without glitches",
+      "Access to responsive, knowledgeable customer support via preferred channels",
+      "A simple, straightforward purchase and installation process",
+      "Accessible, efficient customer support that resolves issues quickly",
+      "Software bugs, crashes, and system performance issues",
+      "Feeling manipulated by hidden fees or forced upgrades after purchase"
+    ],
+    "resonates_with": [
+      "Battle-tested reliability",
+      "Enterprise-grade support",
+      "Transparent pricing",
+      "No surprises billing",
+      "Works out of the box"
+    ],
+    "turned_off_by": [
+      "Cutting-edge beta features",
+      "Contact sales for pricing",
+      "Advanced customization options",
+      "Self-service support portal",
+      "Disruptive innovation"
+    ]
+  },
+  "inner_monologue_samples": [
+    "Here we go again with 'contact sales for pricing' - just tell me what it costs upfront. If they can't be transparent about pricing, what else are they hiding?",
+    "Let me check these reviews... yep, more complaints about crashes and unresponsive support. I don't have time to beta test someone else's broken software.",
+    "This signup form wants my credit card for a 'free trial' - that's an immediate red flag. I've been burned by these forced upgrade tactics before.",
+    "Finally, a phone number for support that's not buried three pages deep. Let me see if I can actually reach a human who knows what they're talking about.",
+    "Okay, the software actually installed without issues and the interface makes sense. Now let me test if it works the same way on my phone before I commit to anything."
+  ],
+  "anti_patterns": [
+    "Assuming they want the latest features - they prioritize stability over innovation (contradicts Technical Reliability cluster)",
+    "Hiding pricing behind sales calls - they demand transparent costs upfront (contradicts Post-Purchase Betrayal cluster)",
+    "Offering only chatbot support - they require human assistance availability (contradicts Technical & Support Integrity cluster)",
+    "Promoting mobile-first design when desktop features are limited - they need full functionality across devices (contradicts Mobile App Deficiency cluster)"
+  ],
+  "traits": [
+    {
+      "label": "Technical Reliability & Support Deficiency",
+      "description": "Users express frustration with software instability, system performance issues, and unresponsive customer support that undermines product value and causes significant disruption to their work or experience.",
+      "key_phrases": [
+        "Poor customer support (unresponsive, slow, unqualified)",
+        "Software bugs, crashes, and system performance issues",
+        "Complete lack of responsive customer support"
+      ],
+      "frequency": 0.267,
+      "tone": "frustrated",
+      "cluster_id": "cluster_3"
+    },
+    {
+      "label": "Functional Reliability and Ease of Use",
+      "description": "Users prioritize software that installs easily, works reliably without bugs, and has an intuitive interface that doesn't waste their time. They strongly reject products with installation failures, excessive bugs, or poor technical support.",
+      "key_phrases": [
+        "Software that is easy to install and use intuitively",
+        "Buggy/unreliable software with installation and functional issues",
+        "Reliable functionality with minimal bugs/crashes"
+      ],
+      "frequency": 0.168,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_5"
+    },
+    {
+      "label": "Reliability Seeking",
+      "description": "Users express frustration with unreliable software and support, desiring products that work seamlessly, preserve data, and reduce time wasted on troubleshooting. They prioritize dependable performance over advanced features.",
+      "key_phrases": [
+        "Reliable, seamless multi-device and cloud synchronization",
+        "Software that works seamlessly",
+        "Wasting time troubleshooting"
+      ],
+      "frequency": 0.158,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Operational Reliability Concern",
+      "description": "Users in this cluster prioritize software stability and simplicity when managing business operations. They express frustration when technical issues, complexity, or poor integration disrupt their workflow, and they seek tools that work reliably without demanding excessive attention.",
+      "key_phrases": [
+        "Software freezes, crashes, or has stability issues",
+        "Excessive complexity requiring constant configuration",
+        "Software that frequently crashes or has disruptive bugs after updates",
+        "Seamless, stable performance without crashes or errors",
+        "Minimal interaction/background operation for simplicity"
+      ],
+      "frequency": 0.119,
+      "tone": "frustrated",
+      "cluster_id": "cluster_7"
+    },
+    {
+      "label": "Mobile App Deficiency",
+      "description": "Users express strong dissatisfaction with the mobile app's instability, limited functionality, and poor user experience compared to the desktop version. They desire a reliable, feature-complete mobile platform for on-the-go campaign management.",
+      "key_phrases": [
+        "Mobile app is unstable and buggy, especially on Android (crashes, freezes, doesn't save changes)",
+        "Mobile app lacks key features compared to desktop",
+        "Poor mobile editing experience (small text boxes, formatting issues, difficulty adding links/images)"
+      ],
+      "frequency": 0.079,
+      "tone": "frustrated",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Technical & Support Integrity",
+      "description": "Users are deeply frustrated by unreliable apps and a complete lack of human support, demanding stable performance and transparent developer practices to build trust.",
+      "key_phrases": [
+        "Complete lack of human customer support",
+        "Technical bugs and app unreliability",
+        "Apps with undisclosed or deceptive permissions"
+      ],
+      "frequency": 0.079,
+      "tone": "frustrated",
+      "cluster_id": "cluster_4"
+    },
+    {
+      "label": "Client & Customer Management Strain",
+      "description": "This cluster reflects the stress and operational chaos experienced by business owners when managing client or customer expectations, enforcing policies, and maintaining professionalism across multiple communication channels.",
+      "key_phrases": [
+        "Managing disorganized clients who make last-minute requests",
+        "Fear of losing high-value clients while setting boundaries",
+        "Multi-channel communication with customers is chaotic and error-prone"
+      ],
+      "frequency": 0.059,
+      "tone": "frustrated",
+      "cluster_id": "cluster_6"
+    },
+    {
+      "label": "Post-Purchase Betrayal",
+      "description": "This cluster reflects a profound sense of betrayal and frustration with products or services that are fundamentally deceptive. The core experience is that the product's true, restrictive, or degraded nature is revealed only after purchase, leading to anger over hidden fees, platform lock-in, performance decay, and unethical business practices.",
+      "key_phrases": [
+        "Feeling manipulated by hidden fees or forced upgrades after purchase",
+        "Anger towards platforms perceived as pay-to-play or rigged against honest businesses.",
+        "Deceptive pricing/hidden fee structure",
+        "Feeling extorted by review platforms that prioritize or won't remove fake negative reviews without payment"
+      ],
+      "frequency": 0.04,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Accessibility and Trust Gap",
+      "description": "Users seek affordable, accessible business opportunities but encounter significant barriers including high costs, limited low-cost options, and insufficient trust signals like user reviews. They feel misled by the app's focus on franchises rather than true small business startups.",
+      "key_phrases": [
+        "High cost barrier for startups or small businesses",
+        "Misleading app title or focus (franchises vs. starting own business)",
+        "Lack of reviews creating trust issues",
+        "High upfront capital requirements",
+        "Find affordable startup or franchise opportunities"
+      ],
+      "frequency": 0.02,
+      "tone": "frustrated",
+      "cluster_id": "cluster_9"
+    },
+    {
+      "label": "Balanced Evaluator",
+      "description": "Reviewers who demonstrate moderate patience and willingness to navigate minor obstacles during the product evaluation or purchase process, showing neither extreme frustration nor complete indifference to friction.",
+      "key_phrases": [
+        "dominant_friction_tolerance: medium",
+        "friction_tolerance_distribution: medium"
+      ],
+      "frequency": 0.01,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_8"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 8,
+    "total": 3015,
+    "avg_rating": 3.2,
+    "avg_length": 550,
+    "rating_distribution": {
+      "2": 186,
+      "4": 302,
+      "3": 1125,
+      "5": 822,
+      "1": 580
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 1200,
+      "playstore": 615
+    },
+    "n_products": 5,
+    "top_products": {
+      "unknown": 1815,
+      "TrustPilot Business Plan Annual Subscription": 300,
+      "Professional Email Marketing Software Annual License": 300,
+      "LinkedIn Sales Navigator Professional Subscription": 300,
+      "Customer Feedback Management CRM Software": 300
+    },
+    "low_rating_pct": 0.254,
+    "high_rating_pct": 0.373,
+    "n_sources": 3,
+    "issues": [],
+    "batches_estimate": 101
+  },
+  "demographic_description": "A user contacted via phone, email, LinkedIn, Trustpilot, or Google reviews. Provides feedback inconsistently depending on response rates. Interaction is dependent on engagement and often limited.",
+  "generated_at": "2026-04-05T21:22:11.073154",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "0% grounded in cluster data",
+    "cluster_stability": "low"
+  }
+}

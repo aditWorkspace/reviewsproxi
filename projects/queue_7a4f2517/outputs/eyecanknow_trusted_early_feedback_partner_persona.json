@@ -1,0 +1,321 @@
+{
+  "id": "trusted_early_feedback_partner",
+  "label": "Trusted Early Feedback Partner",
+  "segment": {
+    "role": "Product testing participant and early adopter who provides feedback during development cycles",
+    "tech_savviness": "high",
+    "price_sensitivity": "medium",
+    "risk_tolerance": "low",
+    "context": "Experienced beta tester who participates in iterative product development cycles across multiple platforms. Has deep frustration with technical instability and expects professional-grade reliability from tools they're asked to evaluate."
+  },
+  "goals": [
+    {
+      "goal": "Complete product testing tasks without technical failures interrupting workflow",
+      "priority": 5
+    },
+    {
+      "goal": "Access stable recording and screen capture tools that don't crash mid-session",
+      "priority": 5
+    },
+    {
+      "goal": "Get fair compensation for completed testing work without payment disputes",
+      "priority": 4
+    },
+    {
+      "goal": "Navigate mobile apps with full editing capabilities matching desktop versions",
+      "priority": 4
+    },
+    {
+      "goal": "Maintain reliable data sync across devices without losing work progress",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Cannot tolerate frequent app crashes that waste time during paid testing sessions (from Technical Frustration cluster)",
+    "Needs consistent mobile app performance for testing on-the-go (from Mobile Performance Issues cluster)",
+    "Requires reliable login systems that don't create access barriers (from Technical Reliability Concern cluster)",
+    "Must have stable recording software that doesn't fail during capture sessions (from Testing Platform Friction cluster)"
+  ],
+  "decision_weights": {
+    "bugs_and_glitches": 0.125,
+    "poor_customer_support": 0.125,
+    "frustrating_installation": 0.125,
+    "misleading_compensation": 0.125,
+    "ignored_feedback": 0.125,
+    "broken_updates": 0.125,
+    "inefficient_screening": 0.125,
+    "unreliable_testing_tools": 0.125
+  },
+  "behavioral_rules": [
+    "Immediately tests core functionality (login, recording, saving) before committing to any platform",
+    "Abandons signup process if app crashes or shows errors during account creation",
+    "Exits testing platforms that have excessive screeners with no available tests",
+    "Stops using apps that delete work in progress without recovery options",
+    "Refuses to continue with software that breaks existing functionality after updates",
+    "Demands technical support response for crashes that prevent completing paid work",
+    "Switches to desktop version when mobile app lacks editing capabilities",
+    "Seeks alternative tools when current ones show persistent 404 errors or login loops",
+    "Tests app stability on both mobile and desktop before providing feedback",
+    "Documents all technical issues encountered during testing for reporting to developers"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.278,
+    "trust_starting_point": 0.54,
+    "frustration_decay": 0.4
+  },
+  "deal_breakers": [
+    "App crashes frequently during basic operations",
+    "Login loops or technical errors preventing access",
+    "Not being paid for completed work due to platform technical errors",
+    "Mobile app lacks editing capabilities available on desktop",
+    "Persistent data loss or work disappearing without recovery"
+  ],
+  "voice_sample": "I'm so tired of these testing platforms promising reliable tools and then delivering buggy software that crashes right in the middle of a paid session. When I'm recording feedback for a client, I need a product that works reliably without crashes, freezes, or loading bugs - it's literally my job to provide quality input and these technical failures make me look unprofessional. The worst part is when the mobile app lacks editing capabilities compared to desktop, forcing me to constantly switch devices just to do basic tasks. I've lost count of how many times I've completed a test only to have the app delete my work or fail to save properly, and then customer support acts like it's somehow my fault.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 45,
+    "pages_before_decision": 8,
+    "tab_behavior": "Opens multiple tabs to compare platform reliability reviews and technical specifications",
+    "primary_device": "Laptop for main work with smartphone for mobile testing validation",
+    "time_of_day": "Evening hours when testing multiple platforms and tools"
+  },
+  "purchase_journey": {
+    "discovery": "Finds new testing platforms through professional networks and beta testing communities, often recruited for early feedback cycles",
+    "evaluation": "Tests core functionality immediately, checks mobile app capabilities, reads technical reviews focusing on stability and reliability issues",
+    "decision_moment": "Commits when platform demonstrates stable recording, reliable login, and fair compensation without technical barriers",
+    "post_purchase_expectation": "Expects consistent performance across devices, responsive technical support, and acknowledgment of feedback provided"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Platform demonstrates stable, bug-free core functionality during trial",
+      "Mobile and desktop versions have feature parity",
+      "Clear compensation structure with reliable payment processing",
+      "Responsive technical support that addresses crashes quickly"
+    ],
+    "abandons_when": [
+      "Frequent crashes during basic operations like login or recording",
+      "Mobile app crashes or fails to load after login",
+      "Excessive screeners with no available tests to complete",
+      "Software updates break existing functionality"
+    ],
+    "trusts_when": [
+      "Platform has reliable, glitch-free app performance",
+      "Seamless error-free login experience with multiple account options",
+      "Consistent experience across mobile and desktop platforms",
+      "Fair monetization without forced payments to progress"
+    ],
+    "becomes_suspicious_when": [
+      "App shows persistent 404 errors or login loops",
+      "Payment disputes arise from platform technical errors",
+      "Updates consistently break working features",
+      "Technical support is unresponsive to stability issues"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "A product that works reliably without crashes, freezes, or loading bugs",
+      "A completely reliable core functionality: recording, saving, and uploading videos without failure",
+      "A consistent, seamless experience across mobile and desktop platforms",
+      "A reliable, glitch-free app that allows consistent completion of tests and seamless login",
+      "A seamless, error-free login/signup experience with multiple account options",
+      "Ability to edit Figma files directly in the mobile app, not just view them"
+    ],
+    "resonates_with": [
+      "Professional-grade reliability and stability",
+      "Technical excellence and bug-free performance",
+      "Fair compensation for professional feedback",
+      "Seamless cross-platform functionality"
+    ],
+    "turned_off_by": [
+      "Beta software marketed as production-ready",
+      "Technical instability disguised as 'features'",
+      "Compensation delays blamed on technical issues",
+      "Mobile-first products with limited desktop capabilities"
+    ]
+  },
+  "inner_monologue_samples": [
+    "Another freemium model - I hope this isn't one of those fair monetization nightmares that forces payments just to progress through basic testing scenarios.",
+    "They're showing testimonials but I need to see if this actually delivers a seamless, error-free login experience because I can't waste time on another platform with persistent login loops.",
+    "This navigation is already confusing me and I'm technically savvy - if I can't figure out their core functionality quickly, how broken is their actual testing software going to be?",
+    "They want my email before showing pricing details, which usually means they know their compensation structure won't compete with platforms that actually pay fairly for completed work.",
+    "Finally, a tool that promises reliable core functionality for recording and saving - though I've heard that promise before from platforms that crashed constantly during actual testing sessions."
+  ],
+  "anti_patterns": [
+    "Assuming they'll tolerate 'beta bugs' - they expect production stability even in early feedback cycles (contradicts Technical Frustration cluster)",
+    "Treating them like casual users - they're professional testers who need reliable tools for paid work (contradicts Testing Platform Friction cluster)",
+    "Pushing mobile-only solutions - they need desktop feature parity for professional testing (contradicts Mobile Experience Deficits cluster)",
+    "Downplaying technical issues as 'minor glitches' - stability failures waste their professional time (contradicts Performance & Reliability Disappointment cluster)"
+  ],
+  "traits": [
+    {
+      "label": "Technical Frustration",
+      "description": "Users are expressing frustration with persistent technical issues that disrupt core functionality, compounded by poor user experience design and inefficient workflows. The signals reflect a strong dissatisfaction with bugs, glitches, and software instability that wastes time and prevents reliable use of the product.",
+      "key_phrases": [
+        "High likelihood of bugs and glitches making the product unusable",
+        "Product updates break existing functionality",
+        "Unreliable or buggy testing software/recorder that fails and wastes time",
+        "Excessive technical issues and bugs (lag, login problems, crashes)",
+        "Inefficient or frustrating user experience"
+      ],
+      "frequency": 0.261,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Performance & Reliability Disappointment",
+      "description": "Users express frustration with software instability, bugs, crashes, and poor technical support, feeling they aren't getting reliable performance for the price they paid. They desire stable, lightweight software that works as advertised with responsive support.",
+      "key_phrases": [
+        "Software instability and frequent crashes",
+        "Poor technical support experience",
+        "Stable, reliable software that doesn't crash",
+        "Unreliable software with frequent crashes, freezes, or high CPU usage",
+        "Poorly tested updates or upgrades that break existing functionality"
+      ],
+      "frequency": 0.239,
+      "tone": "frustrated",
+      "cluster_id": "cluster_4"
+    },
+    {
+      "label": "Testing Platform Friction",
+      "description": "Users experience frustration due to a buggy platform, excessive screening processes, unfair compensation, and a lack of trust, fundamentally undermining the reliability required to complete paid tasks.",
+      "key_phrases": [
+        "Buggy app with frequent crashes, disappearing tests, and broken login/account creation",
+        "Excessive screeners and frequent disqualifications with no tests earned",
+        "Not being paid for completed work due to technical errors on the platform's side"
+      ],
+      "frequency": 0.12,
+      "tone": "frustrated",
+      "cluster_id": "cluster_6"
+    },
+    {
+      "label": "Mobile Performance & Reliability Issues",
+      "description": "Users experience frequent crashes, slow performance, data loss, and basic functionality failures on the mobile app, making it unreliable for daily use. They want a stable, fast mobile experience with reliable offline capabilities and proper text editing.",
+      "key_phrases": [
+        "App crashes frequently",
+        "Slow app startup (5+ seconds) and general lagginess",
+        "Mobile app deletes written paragraphs unexpectedly without recovery"
+      ],
+      "frequency": 0.076,
+      "tone": "frustrated",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Technical Reliability Concern",
+      "description": "Users are deeply frustrated by fundamental technical failures that prevent basic functionality, particularly app crashes, login/sign-up errors, and unreliable core features like video recording and data syncing. They expect a stable, seamless experience but encounter persistent technical barriers that undermine the product's value.",
+      "key_phrases": [
+        "App crashes or freezes on launch",
+        "Login loops or technical errors preventing form creation or access",
+        "Persistent 404 errors on sign-in or login pages",
+        "Reliable, stable app that opens and records without crashes",
+        "Smooth sign-in/login process without errors"
+      ],
+      "frequency": 0.076,
+      "tone": "frustrated",
+      "cluster_id": "cluster_5"
+    },
+    {
+      "label": "Technical Instability",
+      "description": "Users are frustrated by fundamental failures in app performance, including crashes, bugs, lag, and data loss, which undermine reliability and core functionality.",
+      "key_phrases": [
+        "Critical bugs and crashes after updates, making the app unusable",
+        "App is extremely slow and laggy, causing delays in form editing and submissions",
+        "Unexpected data loss or disappearance"
+      ],
+      "frequency": 0.065,
+      "tone": "frustrated",
+      "cluster_id": "cluster_3"
+    },
+    {
+      "label": "Mobile Experience Deficits",
+      "description": "Users are experiencing foundational failures in the mobile app, such as login loops, crashes, and performance issues, which severely limit its basic functionality and reliability. Their primary desire is for a stable, full-featured mobile experience with seamless sync and editing, matching the web version's capability.",
+      "key_phrases": [
+        "Mobile app lacks editing capabilities; only viewing/commenting",
+        "Persistent login issues: login loops, unsupported browsers, automatic logout",
+        "App crashes or fails to load; shows blank screen or errors after login"
+      ],
+      "frequency": 0.065,
+      "tone": "frustrated",
+      "cluster_id": "cluster_7"
+    },
+    {
+      "label": "Functional Reliability & AI Depth Gap",
+      "description": "Users expect a robust, stable platform for personal reflection, but are frustrated by data loss risks, technical glitches, and AI interactions that lack meaningful context or depth.",
+      "key_phrases": [
+        "Irrecoverable data loss due to device lockout",
+        "AI lacks context, forcing repeated explanations",
+        "Persistent draft loss or app crashes",
+        "Clunky, laggy performance on Android and iOS",
+        "AI that feels too superficial or like an echo chamber"
+      ],
+      "frequency": 0.054,
+      "tone": "frustrated",
+      "cluster_id": "cluster_9"
+    },
+    {
+      "label": "Software Stability & Fair Monetization",
+      "description": "Users express frustration with software that is unreliable (crashes, login bugs) and feels unfair due to intrusive ads or pay-to-progress mechanics. They desire a product that is stable, intuitive, and offers fair, transparent pricing.",
+      "key_phrases": [
+        "Software crashes frequently",
+        "Fair monetization that doesn't force payments to progress",
+        "Intrusive ads with no control"
+      ],
+      "frequency": 0.033,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Balanced Evaluator",
+      "description": "Customers who weigh trade-offs methodically, accepting moderate inconveniences if the core value proposition is met, without strong emotional extremes in either pain or desire.",
+      "key_phrases": [
+        "dominant_friction_tolerance: medium",
+        "friction_tolerance_distribution: medium: 1.0"
+      ],
+      "frequency": 0.011,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_8"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 8,
+    "total": 2738,
+    "avg_rating": 3.17,
+    "avg_length": 590,
+    "rating_distribution": {
+      "1": 651,
+      "2": 253,
+      "4": 394,
+      "5": 820,
+      "3": 620
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 420,
+      "playstore": 1118
+    },
+    "n_products": 5,
+    "top_products": {
+      "unknown": 1538,
+      "Loom Pro Screen Recording Software": 300,
+      "UserTesting Platform Credits": 300,
+      "Figma Pro Subscription": 300,
+      "Notion Pro Template for Product Testing": 300
+    },
+    "low_rating_pct": 0.33,
+    "high_rating_pct": 0.443,
+    "n_sources": 3,
+    "issues": [
+      "Platform bias: amazon is 44% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 92
+  },
+  "demographic_description": "A user or partner selected for early-stage validation who provides feedback during testing. Participates in iterative product development cycles. Interaction is more consistent than general outreach users.",
+  "generated_at": "2026-04-05T21:30:18.864693",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "0% grounded in cluster data",
+    "cluster_stability": "low"
+  }
+}

@@ -1,0 +1,515 @@
+{
+  "products": [
+    {
+      "name": "Ledger Nano S Plus Hardware Wallet",
+      "category": "Electronics",
+      "accuracy": 0.95,
+      "review_keywords": [
+        "secure",
+        "private key",
+        "cold storage",
+        "DeFi",
+        "tokens"
+      ],
+      "context_keywords": [
+        "wallet integration",
+        "gasless",
+        "embedded"
+      ],
+      "exclusion_keywords": [
+        "beginner",
+        "first crypto"
+      ],
+      "why": "Hardware wallets are primarily purchased by developers building crypto infrastructure who need secure key management for testing and development"
+    },
+    {
+      "name": "Programming Solana Smart Contracts Book",
+      "category": "Books",
+      "accuracy": 0.94,
+      "review_keywords": [
+        "Rust",
+        "anchor",
+        "smart contracts",
+        "blockchain development"
+      ],
+      "context_keywords": [
+        "Solana",
+        "embedded wallet",
+        "gasless"
+      ],
+      "exclusion_keywords": [
+        "investing",
+        "trading"
+      ],
+      "why": "Solana-specific development books are bought exclusively by developers actively building on the Solana blockchain"
+    },
+    {
+      "name": "Rust Programming Language Official Book",
+      "category": "Books",
+      "accuracy": 0.92,
+      "review_keywords": [
+        "systems programming",
+        "memory safety",
+        "blockchain",
+        "Solana"
+      ],
+      "context_keywords": [
+        "anchor framework",
+        "smart contracts"
+      ],
+      "exclusion_keywords": [
+        "beginner programming",
+        "web development"
+      ],
+      "why": "Rust books with blockchain context are purchased by Solana developers since Solana smart contracts are written in Rust"
+    },
+    {
+      "name": "YubiKey 5 NFC Hardware Security Key",
+      "category": "Electronics",
+      "accuracy": 0.91,
+      "review_keywords": [
+        "2FA",
+        "security",
+        "authentication",
+        "developer",
+        "GitHub"
+      ],
+      "context_keywords": [
+        "wallet security",
+        "key management"
+      ],
+      "exclusion_keywords": [
+        "personal use",
+        "gaming"
+      ],
+      "why": "Hardware security keys are predominantly bought by developers who need secure authentication for development environments and crypto applications"
+    },
+    {
+      "name": "Anchor Book: Building Secure Solana Programs",
+      "category": "Books",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "anchor",
+        "Solana",
+        "security",
+        "smart contracts",
+        "framework"
+      ],
+      "context_keywords": [
+        "embedded wallet",
+        "gasless transactions"
+      ],
+      "exclusion_keywords": [
+        "trading",
+        "investment"
+      ],
+      "why": "Anchor framework books are exclusively for Solana developers using the most popular Solana development framework"
+    },
+    {
+      "name": "USB-C Hub with Multiple Ports for MacBook",
+      "category": "Electronics",
+      "accuracy": 0.88,
+      "review_keywords": [
+        "development",
+        "multiple monitors",
+        "productivity",
+        "coding"
+      ],
+      "context_keywords": [
+        "remote work",
+        "blockchain dev"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "casual use"
+      ],
+      "why": "Multi-port hubs are essential for blockchain developers who need multiple connections for hardware wallets, monitors, and development devices"
+    },
+    {
+      "name": "Mechanical Keyboard for Programming",
+      "category": "Electronics",
+      "accuracy": 0.87,
+      "review_keywords": [
+        "coding",
+        "tactile",
+        "programming",
+        "developer",
+        "productivity"
+      ],
+      "context_keywords": [
+        "long coding sessions",
+        "Rust development"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "casual typing"
+      ],
+      "why": "High-end mechanical keyboards marketed for programming are bought by serious developers who code extensively"
+    },
+    {
+      "name": "Web3 Development with Solana Book",
+      "category": "Books",
+      "accuracy": 0.86,
+      "review_keywords": [
+        "Web3",
+        "DeFi",
+        "dApps",
+        "Solana",
+        "blockchain"
+      ],
+      "context_keywords": [
+        "embedded wallets",
+        "user experience"
+      ],
+      "exclusion_keywords": [
+        "cryptocurrency trading",
+        "investing"
+      ],
+      "why": "Web3 Solana development books target developers building decentralized applications on Solana"
+    },
+    {
+      "name": "32GB DDR4 RAM Kit for Development",
+      "category": "Electronics",
+      "accuracy": 0.85,
+      "review_keywords": [
+        "compilation",
+        "virtual machines",
+        "development",
+        "performance"
+      ],
+      "context_keywords": [
+        "blockchain development",
+        "testing"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "casual use"
+      ],
+      "why": "High-capacity RAM is needed by blockchain developers for running local validators, multiple test environments, and heavy compilation tasks"
+    },
+    {
+      "name": "Portable Monitor for Coding Setup",
+      "category": "Electronics",
+      "accuracy": 0.84,
+      "review_keywords": [
+        "dual monitor",
+        "productivity",
+        "development",
+        "portable"
+      ],
+      "context_keywords": [
+        "remote development",
+        "code review"
+      ],
+      "exclusion_keywords": [
+        "entertainment",
+        "gaming"
+      ],
+      "why": "Portable monitors are bought by developers who need extended screen real estate for code, documentation, and testing interfaces"
+    },
+    {
+      "name": "Blue Light Blocking Glasses for Screen Time",
+      "category": "Health_and_Household",
+      "accuracy": 0.83,
+      "review_keywords": [
+        "eye strain",
+        "long hours",
+        "coding",
+        "computer work"
+      ],
+      "context_keywords": [
+        "late night coding",
+        "productivity"
+      ],
+      "exclusion_keywords": [
+        "general use",
+        "fashion"
+      ],
+      "why": "Blue light glasses are purchased by developers who spend 10+ hours daily coding and reviewing code"
+    },
+    {
+      "name": "Standing Desk Converter for Home Office",
+      "category": "Office_Products",
+      "accuracy": 0.82,
+      "review_keywords": [
+        "ergonomic",
+        "productivity",
+        "long hours",
+        "health"
+      ],
+      "context_keywords": [
+        "remote work",
+        "coding sessions"
+      ],
+      "exclusion_keywords": [
+        "occasional use",
+        "gaming"
+      ],
+      "why": "Standing desk converters are bought by remote developers who spend long hours coding at home"
+    },
+    {
+      "name": "Noise Cancelling Headphones for Focus",
+      "category": "Electronics",
+      "accuracy": 0.81,
+      "review_keywords": [
+        "concentration",
+        "coding",
+        "noise isolation",
+        "productivity"
+      ],
+      "context_keywords": [
+        "deep work",
+        "development"
+      ],
+      "exclusion_keywords": [
+        "music",
+        "travel"
+      ],
+      "why": "Premium noise-cancelling headphones are essential for developers who need deep focus for complex blockchain development work"
+    },
+    {
+      "name": "Webcam with Good Low Light Performance",
+      "category": "Electronics",
+      "accuracy": 0.8,
+      "review_keywords": [
+        "video calls",
+        "meetings",
+        "clear image",
+        "remote work"
+      ],
+      "context_keywords": [
+        "client demos",
+        "team standup"
+      ],
+      "exclusion_keywords": [
+        "streaming",
+        "content creation"
+      ],
+      "why": "High-quality webcams are bought by remote blockchain developers for client demos and technical team meetings"
+    },
+    {
+      "name": "Ergonomic Wrist Rest for Keyboard",
+      "category": "Office_Products",
+      "accuracy": 0.79,
+      "review_keywords": [
+        "wrist support",
+        "long typing",
+        "ergonomic",
+        "comfort"
+      ],
+      "context_keywords": [
+        "coding",
+        "repetitive strain"
+      ],
+      "exclusion_keywords": [
+        "casual use",
+        "gaming"
+      ],
+      "why": "Wrist rests are purchased by developers who type code for many hours daily and need ergonomic support"
+    },
+    {
+      "name": "High-Speed NVMe SSD 2TB",
+      "category": "Electronics",
+      "accuracy": 0.78,
+      "review_keywords": [
+        "fast compilation",
+        "development",
+        "large projects",
+        "performance"
+      ],
+      "context_keywords": [
+        "blockchain data",
+        "node storage"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "media storage"
+      ],
+      "why": "High-capacity fast SSDs are needed by blockchain developers for storing blockchain data, multiple development environments, and fast compilation"
+    },
+    {
+      "name": "Blackout Curtains for Home Office",
+      "category": "Home_and_Kitchen",
+      "accuracy": 0.77,
+      "review_keywords": [
+        "screen glare",
+        "focus",
+        "home office",
+        "productivity"
+      ],
+      "context_keywords": [
+        "remote work",
+        "coding environment"
+      ],
+      "exclusion_keywords": [
+        "bedroom",
+        "decoration"
+      ],
+      "why": "Blackout curtains for home offices are bought by remote developers who need to control lighting for optimal screen visibility during long coding sessions"
+    },
+    {
+      "name": "Cable Management Tray for Desk Setup",
+      "category": "Office_Products",
+      "accuracy": 0.76,
+      "review_keywords": [
+        "organized",
+        "clean setup",
+        "multiple devices",
+        "productivity"
+      ],
+      "context_keywords": [
+        "development setup",
+        "hardware wallets"
+      ],
+      "exclusion_keywords": [
+        "casual use",
+        "gaming"
+      ],
+      "why": "Cable management solutions are purchased by developers with complex setups involving multiple monitors, hardware wallets, and development devices"
+    }
+  ],
+  "subreddits": [
+    {
+      "name": "solana",
+      "relevance": 0.95,
+      "member_type": "80% active Solana developers and builders",
+      "data_value": "Technical discussions about embedded wallet implementations and gasless transaction patterns",
+      "why": "Primary community for Solana ecosystem developers sharing implementation challenges and solutions"
+    },
+    {
+      "name": "solanaDev",
+      "relevance": 0.94,
+      "member_type": "90% Solana developers and technical contributors",
+      "data_value": "Code reviews, technical debugging, and development best practices for Solana applications",
+      "why": "Developer-focused Solana subreddit with technical implementation discussions"
+    },
+    {
+      "name": "rust",
+      "relevance": 0.85,
+      "member_type": "60% systems developers, many working on blockchain projects",
+      "data_value": "Rust programming patterns and performance optimizations relevant to Solana development",
+      "why": "Solana smart contracts are written in Rust, making this essential for Solana developers"
+    },
+    {
+      "name": "cryptodevs",
+      "relevance": 0.82,
+      "member_type": "75% blockchain developers across ecosystems",
+      "data_value": "Cross-chain development insights and wallet integration patterns",
+      "why": "Blockchain developers discuss technical implementation challenges across different ecosystems"
+    },
+    {
+      "name": "webdev",
+      "relevance": 0.7,
+      "member_type": "40% full-stack developers, subset building Web3 applications",
+      "data_value": "Frontend integration patterns for embedded wallets and user experience design",
+      "why": "Many Solana developers come from web development backgrounds and build web-based dApps"
+    },
+    {
+      "name": "javascript",
+      "relevance": 0.68,
+      "member_type": "35% web developers, subset working on Web3 frontends",
+      "data_value": "Frontend SDK usage patterns and client-side wallet integration techniques",
+      "why": "Solana web3.js and related SDKs are commonly used for building embedded wallet interfaces"
+    },
+    {
+      "name": "node",
+      "relevance": 0.65,
+      "member_type": "40% backend developers, subset building blockchain APIs",
+      "data_value": "Backend service patterns for gasless transaction relay services",
+      "why": "Node.js is popular for building backend services that enable gasless transactions"
+    },
+    {
+      "name": "typescript",
+      "relevance": 0.63,
+      "member_type": "45% TypeScript developers, growing Web3 segment",
+      "data_value": "Type-safe patterns for blockchain SDK integration and wallet interfaces",
+      "why": "TypeScript is increasingly used for Solana frontend development and SDK integration"
+    },
+    {
+      "name": "reactjs",
+      "relevance": 0.62,
+      "member_type": "30% React developers, subset building dApp frontends",
+      "data_value": "React patterns for wallet connection and transaction state management",
+      "why": "React is the dominant framework for building Solana dApp user interfaces"
+    },
+    {
+      "name": "programming",
+      "relevance": 0.55,
+      "member_type": "20% general programmers, small blockchain subset",
+      "data_value": "General programming principles and career discussions relevant to blockchain developers",
+      "why": "Broader programming community where blockchain developers discuss career and technical topics"
+    },
+    {
+      "name": "remotework",
+      "relevance": 0.52,
+      "member_type": "25% remote developers, growing blockchain sector",
+      "data_value": "Remote work patterns and productivity insights for distributed blockchain teams",
+      "why": "Many blockchain developers work remotely for global teams and face similar challenges"
+    },
+    {
+      "name": "startups",
+      "relevance": 0.5,
+      "member_type": "30% startup employees and founders, growing Web3 segment",
+      "data_value": "Product development insights and user adoption challenges for blockchain applications",
+      "why": "Many Solana developers work at Web3 startups building embedded wallet products"
+    },
+    {
+      "name": "cscareerquestions",
+      "relevance": 0.48,
+      "member_type": "15% developers, small but growing blockchain career segment",
+      "data_value": "Career progression patterns and skill development for blockchain developers",
+      "why": "Blockchain developers seek career advice and discuss technical skill development"
+    },
+    {
+      "name": "MachineLearning",
+      "relevance": 0.45,
+      "member_type": "20% ML developers, subset working on blockchain analytics",
+      "data_value": "Technical approaches to user behavior analysis for wallet and transaction optimization",
+      "why": "Some Solana developers use ML for user behavior analysis and transaction pattern optimization"
+    },
+    {
+      "name": "entrepreneur",
+      "relevance": 0.43,
+      "member_type": "25% technical entrepreneurs, growing Web3 segment",
+      "data_value": "Product strategy insights for embedded wallet and gasless transaction products",
+      "why": "Many blockchain developers are building or considering launching their own Web3 products"
+    }
+  ],
+  "demographic_profile": {
+    "core_keywords": [
+      "Solana",
+      "embedded wallet",
+      "gasless",
+      "Web3",
+      "Rust",
+      "anchor",
+      "smart contracts",
+      "dApp",
+      "blockchain",
+      "SDK",
+      "transaction relay",
+      "user experience",
+      "onboarding",
+      "wallet integration",
+      "DeFi"
+    ],
+    "exclusion_keywords": [
+      "trading",
+      "investing",
+      "NFT collecting",
+      "beginner crypto",
+      "price speculation",
+      "mining",
+      "gaming",
+      "casual user"
+    ],
+    "age_range": "25-40",
+    "primary_motivations": [
+      "seamless user experience",
+      "technical performance",
+      "security and reliability",
+      "developer productivity"
+    ],
+    "summary": "Technical professionals building user-facing blockchain applications on Solana with focus on reducing friction through embedded wallets and gasless transactions. They prioritize user experience over technical complexity and measure success through product adoption rather than token performance. Communication tends to be indirect and product-focused, with feedback expressed through usage patterns and technical implementation choices rather than direct user interviews."
+  }
+}

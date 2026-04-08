@@ -9,6 +9,7 @@ Source: McAuley-Lab/Amazon-Reviews-2023
 from __future__ import annotations
 
 import json
+import random
 from pathlib import Path
 from typing import Any
 
@@ -42,11 +43,23 @@ REVIEW_FIELDS: list[str] = [
     "title",
     "asin",
     "parent_asin",
+    "user_id",           # needed for reviewer deduplication
     "verified_purchase",
     "timestamp",
     "helpful_vote",
     "images",
 ]
+
+# ---------------------------------------------------------------------------
+# Rating buckets for stratified sampling.
+# Boundaries: low=[1,2], mid=(2,3], high=(3,5].
+# ---------------------------------------------------------------------------
+
+_BUCKET_BOUNDS: dict[str, tuple[float, float]] = {
+    "low":  (0.5, 2.5),
+    "mid":  (2.5, 3.5),
+    "high": (3.5, 5.5),
+}
 
 
 def _output_path(category: str) -> Path:
@@ -83,12 +96,100 @@ def _extract_fields(review: dict[str, Any]) -> dict[str, Any]:
     return extracted
 
 
-def _sort_key(review: dict[str, Any]) -> tuple[int, float]:
-    """Sort reviews so those with helpful votes come first, then by rating."""
-    helpful = review.get("helpful_vote") or 0
-    rating = review.get("rating") or 0.0
-    # Negate helpful so higher values sort first.
-    return (-helpful, -rating)
+def _dedup_by_reviewer(reviews: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Keep at most one review per reviewer_id.
+
+    When a reviewer has multiple reviews, we retain the one with the most
+    helpful votes (falling back to highest rating) so deduplication still
+    surfaces useful signal while removing the amplification bias caused by
+    prolific reviewers.
+    """
+    by_reviewer: dict[str, dict[str, Any]] = {}
+    anonymous: list[dict[str, Any]] = []
+
+    for review in reviews:
+        uid = review.get("user_id")
+        if not uid:
+            anonymous.append(review)
+            continue
+        existing = by_reviewer.get(uid)
+        if existing is None:
+            by_reviewer[uid] = review
+        else:
+            # Keep whichever has more helpful votes; break ties by rating.
+            curr_h = review.get("helpful_vote") or 0
+            best_h = existing.get("helpful_vote") or 0
+            curr_r = review.get("rating") or 0.0
+            best_r = existing.get("rating") or 0.0
+            if (curr_h, curr_r) > (best_h, best_r):
+                by_reviewer[uid] = review
+
+    return list(by_reviewer.values()) + anonymous
+
+
+def _stratified_sample(
+    reviews: list[dict[str, Any]],
+    n: int,
+    bucket_weights: dict[str, float] | None = None,
+    seed: int = 42,
+) -> list[dict[str, Any]]:
+    """Return a stratified random sample of *n* reviews across rating buckets.
+
+    Parameters
+    ----------
+    reviews:
+        Full filtered review list (already deduplicated by reviewer).
+    n:
+        Target sample size.
+    bucket_weights:
+        Fraction of *n* to draw from each bucket — keys are ``"low"``,
+        ``"mid"``, ``"high"``.  Must sum to ≤ 1.0.  Defaults are set below;
+        change them to shift how much weight negative vs. positive reviews get.
+    seed:
+        Random seed for reproducibility.
+    """
+    if bucket_weights is None:
+        # TODO: tune these weights for your use case.
+        #
+        # Trade-offs to consider:
+        #   "low"  (1–2 ★) — richest in pain points and switching triggers,
+        #                     but over-representing them distorts frequency counts
+        #   "mid"  (3 ★)   — nuanced, mixed signal; rare on Amazon (~5–8%)
+        #   "high" (4–5 ★) — dominant on Amazon; carries desired outcomes and
+        #                     purchase triggers but few pain points
+        #
+        # Example alternatives:
+        #   Equal thirds:              {"low": 0.33, "mid": 0.34, "high": 0.33}
+        #   Proportional (Amazon avg): {"low": 0.15, "mid": 0.08, "high": 0.77}
+        #   Boost negatives:           {"low": 0.40, "mid": 0.20, "high": 0.40}
+        bucket_weights = {"low": 0.15, "mid": 0.08, "high": 0.77}
+
+    rng = random.Random(seed)
+
+    buckets: dict[str, list[dict[str, Any]]] = {"low": [], "mid": [], "high": []}
+    for review in reviews:
+        rating = float(review.get("rating") or 0)
+        for name, (lo, hi) in _BUCKET_BOUNDS.items():
+            if lo <= rating < hi:
+                buckets[name].append(review)
+                break
+
+    for pool in buckets.values():
+        rng.shuffle(pool)
+
+    result: list[dict[str, Any]] = []
+    for name, weight in bucket_weights.items():
+        target = min(round(n * weight), len(buckets[name]))
+        result.extend(buckets[name][:target])
+
+    # Fill shortfall from whichever bucket has unused reviews.
+    used_ids = {id(r) for r in result}
+    overflow = [r for pool in buckets.values() for r in pool if id(r) not in used_ids]
+    rng.shuffle(overflow)
+    result.extend(overflow[: n - len(result)])
+
+    rng.shuffle(result)
+    return result[:n]
 
 
 def download_reviews(
@@ -166,9 +267,9 @@ def download_reviews(
                     if len(filtered) >= max_per_category * 3:
                         break
 
-        # Prefer reviews that received helpful votes.
-        filtered.sort(key=_sort_key)
-        filtered = filtered[:max_per_category]
+        # Deduplicate reviewers, then stratify across rating buckets.
+        filtered = _dedup_by_reviewer(filtered)
+        filtered = _stratified_sample(filtered, max_per_category)
 
         # Write to JSONL.
         with open(out_path, "w", encoding="utf-8") as fh:

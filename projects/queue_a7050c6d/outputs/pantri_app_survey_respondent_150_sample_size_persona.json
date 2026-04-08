@@ -1,0 +1,260 @@
+{
+  "id": "survey_respondent_(150+_sample_size)",
+  "label": "Survey Respondent (150+ Sample Size)",
+  "segment": {
+    "role": "Professional survey participant and organizational tool user",
+    "tech_savviness": "medium",
+    "price_sensitivity": "very_high",
+    "risk_tolerance": "low",
+    "context": "Someone who regularly participates in surveys for validation research and uses various organizational tools in their work. Their buying decisions are heavily influenced by transparency in pricing and their frustration with inefficient tools that waste time."
+  },
+  "goals": [
+    {
+      "goal": "Access to timely, legitimate surveys for respondents",
+      "priority": 5
+    },
+    {
+      "goal": "Achieve reliable, precise, and accurate tool performance",
+      "priority": 5
+    },
+    {
+      "goal": "Clear, upfront communication on free plan limits and pricing before use",
+      "priority": 4
+    },
+    {
+      "goal": "Ability to validate problem relevance with high confidence",
+      "priority": 4
+    },
+    {
+      "goal": "Clear, affordable pricing with essential features in free tier",
+      "priority": 3
+    },
+    {
+      "goal": "Clear, unambiguous, and universally comprehensible survey questions",
+      "priority": 3
+    },
+    {
+      "goal": "Cost-effective solutions with transparent pricing",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Limited budget requiring transparent pricing without hidden fees",
+    "Time constraints making inefficient tools unacceptable",
+    "Need for reliable tools due to professional requirements",
+    "Difficulty with ambiguous or confusing interfaces"
+  ],
+  "decision_weights": {
+    "app_dependency_frustration": 0.125,
+    "aggressive_subscription_promotions": 0.125,
+    "inefficient_scanning_workflows": 0.125,
+    "social_safety_assessment_fatigue": 0.125,
+    "stereotype_limitation_frustration": 0.125,
+    "manual_counting_time_waste": 0.125,
+    "qualitative_data_analysis_difficulty": 0.125,
+    "awkward_software_usability": 0.125
+  },
+  "behavioral_rules": [
+    "Immediately abandons if pricing information requires signup before being displayed",
+    "Exits within 30 seconds if tool interface appears confusing or ambiguous",
+    "Refuses to proceed if free plan limits are not clearly stated upfront",
+    "Abandons checkout if unexpected fees or subscription prompts appear",
+    "Searches for alternative tools immediately when current one shows reliability issues",
+    "Skips products that require constant app use for basic functions",
+    "Closes browser tab if customer support appears to be automated or unresponsive",
+    "Refuses to continue if survey questions are ambiguous or contain unclear images",
+    "Abandons registration if aggressive auto-renewal policies are detected",
+    "Exits if software requires external resources like online manuals for basic use",
+    "Stops using tool if it creates workflow inefficiency or requires manual workarounds",
+    "Abandons if billing practices appear deceptive or non-transparent"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.305,
+    "trust_starting_point": 0.52,
+    "frustration_decay": 0.36
+  },
+  "deal_breakers": [
+    "Hidden costs after survey launch",
+    "Aggressive auto-renewal billing with poor visibility and refusal of refunds",
+    "Software being awkward to use and frustrating",
+    "Ambiguous survey questions and images causing confusion and inability to answer",
+    "Customer support unresponsive, automated, and unhelpful",
+    "App crashes or fails to open after update/installation",
+    "Time-consuming manual data counting and verification processes",
+    "Difficulty editing questions and formatting text on mobile"
+  ],
+  "voice_sample": "I'm so tired of tools that promise to make my life easier but end up being more frustrating than helpful. When I'm trying to validate problem relevance with high confidence, the last thing I need is software being awkward to use and frustrating, especially when I'm already dealing with time-consuming manual data counting and verification processes. I just want clear, affordable pricing with essential features in free tier - is that too much to ask? These companies keep hitting me with aggressive auto-renewal billing with poor visibility and refusal of refunds, and then when something goes wrong, their customer support is unresponsive, automated, and unhelpful. I need access to timely, legitimate surveys for respondents without all the hidden gotchas and billing tricks.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 15,
+    "pages_before_decision": 8,
+    "tab_behavior": "Opens multiple tabs to compare options and pricing transparency",
+    "primary_device": "Desktop computer during work hours",
+    "time_of_day": "Weekday mornings and lunch breaks"
+  },
+  "purchase_journey": {
+    "discovery": "Finds tools through professional networks and survey platforms when current tools show inefficiency",
+    "evaluation": "Immediately checks pricing page for transparency, then tests free tier limitations, followed by reading reviews about reliability",
+    "decision_moment": "Purchases only when pricing is completely transparent and free tier adequately demonstrates tool reliability",
+    "post_purchase_expectation": "Expects reliable, precise, and accurate tool performance with no billing surprises or hidden limitations"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Clear, upfront communication on free plan limits and pricing before use",
+      "Ability to validate problem relevance with high confidence",
+      "Access to timely, legitimate surveys for respondents",
+      "Cost-effective solutions with transparent pricing"
+    ],
+    "abandons_when": [
+      "Hidden costs after survey launch",
+      "Aggressive auto-renewal billing with poor visibility",
+      "Software being awkward to use and frustrating",
+      "Time-consuming manual data counting and verification processes"
+    ],
+    "trusts_when": [
+      "Clear, affordable pricing with essential features in free tier",
+      "Achieve reliable, precise, and accurate tool performance",
+      "Clear, unambiguous, and universally comprehensible survey questions",
+      "Accurate and honest product descriptions to set correct expectations"
+    ],
+    "becomes_suspicious_when": [
+      "Pricing requires signup before being shown",
+      "Customer support appears automated or unresponsive",
+      "App crashes or fails to open after update",
+      "Ambiguous survey questions and images causing confusion"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Time-consuming manual data counting and verification processes",
+      "Software being awkward to use and frustrating",
+      "Clear, upfront communication on free plan limits and pricing before use",
+      "Aggressive auto-renewal billing with poor visibility and refusal of refunds",
+      "Access to timely, legitimate surveys for respondents",
+      "Customer support unresponsive, automated, and unhelpful",
+      "Ability to validate problem relevance with high confidence"
+    ],
+    "resonates_with": [
+      "Transparent pricing",
+      "Professional tools",
+      "Reliable performance",
+      "Clear instructions",
+      "Honest descriptions"
+    ],
+    "turned_off_by": [
+      "Hidden fees",
+      "Confusing interfaces",
+      "Auto-renewal tricks",
+      "Ambiguous language",
+      "Aggressive promotions"
+    ]
+  },
+  "inner_monologue_samples": [
+    "Here we go again - they want my email before I can even see the pricing. This screams hidden costs after survey launch. I'm not signing up for anything until I know exactly what I'm paying for.",
+    "The reviews mention reliable performance, which is good, but I need to see if they actually deliver on accurate and honest product descriptions to set correct expectations before I trust this.",
+    "This interface looks confusing already and I haven't even started using it. If software is awkward to use and frustrating from the beginning, it's only going to get worse once I'm trying to get actual work done.",
+    "They're asking for payment details for a 'free trial' - classic aggressive auto-renewal billing setup. I've been burned by this before with poor visibility and refusal of refunds.",
+    "Finally, a tool that actually shows clear, affordable pricing with essential features in free tier upfront. This is exactly what I need for validating problem relevance with high confidence."
+  ],
+  "anti_patterns": [
+    "Assuming they'll tolerate minor pricing ambiguity - contradicts their very high price sensitivity from hidden costs frustration",
+    "Designing complex onboarding flows - contradicts their low patience baseline and frustration with awkward software",
+    "Using auto-renewal as default - contradicts their strong negative reaction to aggressive billing practices",
+    "Hiding customer support contact information - contradicts their deal breaker around unresponsive support",
+    "Making basic features require app downloads - contradicts their frustration with app dependency for basic functions"
+  ],
+  "traits": [
+    {
+      "label": "Frustration with Tool Inefficiency",
+      "description": "Users express deep frustration when tools\u2014whether physical, digital, or organizational\u2014are inefficient, unreliable, or create unnecessary workflow friction. The pain is compounded by tools that promise professional or simple results but fail in everyday use, leading to wasted time and mental fatigue.",
+      "key_phrases": [
+        "Frustration with unreliable technology",
+        "Time-consuming manual data counting and verification processes",
+        "Software being awkward to use and frustrating",
+        "Incompatibility or poor data exchange between tools"
+      ],
+      "frequency": 0.544,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Hidden Costs & Billing Skepticism",
+      "description": "Users feel misled by opaque pricing and hidden fees, particularly concerning free plan limits and aggressive auto-renewal practices. This creates a strong sentiment of distrust, as users encounter unexpected paywalls after starting surveys and face difficulty canceling or obtaining refunds.",
+      "key_phrases": [
+        "hidden costs after survey launch",
+        "feeling misled by hidden fees or unclear free plan limits",
+        "aggressive auto-renewal billing with poor visibility and refusal of refunds"
+      ],
+      "frequency": 0.211,
+      "tone": "skeptical",
+      "cluster_id": "cluster_3"
+    },
+    {
+      "label": "Trait 2",
+      "description": "Behavioral cluster around: Ambiguous survey questions and images causing confusion and inability to answer",
+      "key_phrases": [
+        "Ambiguous survey questions and images causing confusion and inability to answer",
+        "Poor product quality or defective items (e.g., pens that skip, damaged planners)",
+        "Frustration with unclear survey results categorization (e.g., unsure how 'fizzy juice' was counted)"
+      ],
+      "frequency": 0.193,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Practical Consideration",
+      "description": "Users exhibit a balanced approach, willing to tolerate some inconvenience but not major flaws. They carefully weigh factors before making a decision, prioritizing overall practicality over perfection.",
+      "key_phrases": [
+        "medium",
+        "dominant_friction_tolerance",
+        "medium distribution"
+      ],
+      "frequency": 0.053,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_2"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 8,
+    "total": 1693,
+    "avg_rating": 4.02,
+    "avg_length": 759,
+    "rating_distribution": {
+      "3": 186,
+      "5": 969,
+      "4": 264,
+      "1": 206,
+      "2": 68
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 79,
+      "playstore": 414
+    },
+    "n_products": 5,
+    "top_products": {
+      "Professional Survey Clipboard with Storage": 500,
+      "SurveyMonkey Gift Cards for Survey Incentives": 500,
+      "unknown": 493,
+      "Market Research Survey Methodology Handbook": 100,
+      "Statistical Analysis for Survey Research Textbook": 100
+    },
+    "low_rating_pct": 0.162,
+    "high_rating_pct": 0.728,
+    "n_sources": 3,
+    "issues": [
+      "Platform bias: amazon is 71% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 57
+  },
+  "demographic_description": "A user participating in surveys used to validate problem relevance. Provides structured responses during early-stage research. Interaction occurs before product development.",
+  "generated_at": "2026-04-05T23:13:55.043368",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "12% grounded in cluster data",
+    "cluster_stability": "moderate"
+  }
+}

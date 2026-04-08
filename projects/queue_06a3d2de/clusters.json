@@ -1,0 +1,4140 @@
+{
+  "chosen_n_clusters": 5,
+  "sweep_results": [
+    {
+      "k": 3,
+      "silhouette": 0.10137952864170074,
+      "intra_similarity": 0.6094894607861837,
+      "inter_distance": 0.2501049041748047,
+      "combined_score": 0.2835575833916664
+    },
+    {
+      "k": 4,
+      "silhouette": 0.09241429716348648,
+      "intra_similarity": 0.6326950192451477,
+      "inter_distance": 0.27230364084243774,
+      "combined_score": 0.2904763825237751
+    },
+    {
+      "k": 5,
+      "silhouette": 0.11811292916536331,
+      "intra_similarity": 0.7282619833946228,
+      "inter_distance": 0.5271939039230347,
+      "combined_score": 0.38297384038567545
+    },
+    {
+      "k": 6,
+      "silhouette": 0.122432179749012,
+      "intra_similarity": 0.736809233824412,
+      "inter_distance": 0.49353915452957153,
+      "combined_score": 0.38096669092774393
+    },
+    {
+      "k": 7,
+      "silhouette": 0.11567927896976471,
+      "intra_similarity": 0.7276739733559745,
+      "inter_distance": 0.46220916509628296,
+      "combined_score": 0.3685836645109313
+    },
+    {
+      "k": 8,
+      "silhouette": 0.12343143671751022,
+      "intra_similarity": 0.737969346344471,
+      "inter_distance": 0.4507337212562561,
+      "combined_score": 0.37325326651334767
+    },
+    {
+      "k": 9,
+      "silhouette": 0.1238415315747261,
+      "intra_similarity": 0.7327272825770907,
+      "inter_distance": 0.43466585874557495,
+      "combined_score": 0.3686721223096052
+    },
+    {
+      "k": 10,
+      "silhouette": 0.12025535106658936,
+      "intra_similarity": 0.7495618045330048,
+      "inter_distance": 0.4384447932243347,
+      "combined_score": 0.372685175538063
+    }
+  ],
+  "quality_metrics": {
+    "silhouette": 0.11811292916536331,
+    "intra_similarity": 0.7282619833946228,
+    "inter_distance": 0.5271939039230347,
+    "combined_score": 0.38297384038567545,
+    "stability_ari": 0.5432,
+    "stability_label": "moderate"
+  },
+  "cluster_0": {
+    "member_count": 13,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Difficulty and time spent on meal planning and creating grocery lists",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "High cost of meal kit services and dining out",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Feeling overwhelmed by cooking videos/cookbooks and recipe search",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Food waste from buying incorrect ingredient quantities",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Frustration with subscription cancellation process and lack of support response",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "App UI/UX bugs (e.g., buttons blocked, layout cumbersome) affecting usability",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Limited recipe variety, especially for free users or specific meals (breakfast, lunch, snacks)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Anxiety over monthly subscription commitments and pricing",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Difficulty adding custom recipes due to tedious process and lack of image upload",
+            "emotional_intensity": 0.55
+          },
+          {
+            "signal": "Integration issues with grocery delivery services (e.g., Instacart not working)",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Save time on meal planning and grocery list creation",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Eat healthier meals and improve cooking habits",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Reduce food waste and save money on groceries and dining out",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Simplify cooking with easy-to-follow recipes and built-in timers",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Personalize meals based on dietary needs (allergies, vegetarian, vegan, etc.)",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Integrate seamlessly with grocery delivery/pickup services for convenience",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Access a wide variety of recipes, including breakfast, lunch, and snacks",
+            "priority": 0.65
+          },
+          {
+            "outcome": "Ability to add and manage custom recipes easily",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Minimal cognitive load with organized shopping lists (e.g., by aisle)",
+            "priority": 0.55
+          },
+          {
+            "outcome": "Enjoy cooking and reduce meal-related stress",
+            "priority": 0.5
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Desire to eliminate meal planning stress and time commitment",
+            "context": "Daily/weekly routine"
+          },
+          {
+            "trigger": "Dissatisfaction with cost and inconvenience of meal kits (e.g., HelloFresh, Sunbasket)",
+            "context": "Comparing service value"
+          },
+          {
+            "trigger": "Need for dietary personalization (allergies, vegan, low-carb, etc.)",
+            "context": "Health/lifestyle change"
+          },
+          {
+            "trigger": "Availability of grocery list integration with delivery/pickup services",
+            "context": "Seeking integrated convenience"
+          },
+          {
+            "trigger": "Positive experience with free version leading to upgrade for more recipes/features",
+            "context": "Feature exploration"
+          },
+          {
+            "trigger": "Recommendation from friends/family or high ratings",
+            "context": "Social proof"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Subscription pricing perceived as expensive or not worth Pro features",
+            "severity": 0.75
+          },
+          {
+            "objection": "Difficulty canceling subscription and poor customer support",
+            "severity": 0.9
+          },
+          {
+            "objection": "Limited recipe variety, especially for free users and specific meals",
+            "severity": 0.7
+          },
+          {
+            "objection": "App bugs or poor UI/UX hindering functionality",
+            "severity": 0.65
+          },
+          {
+            "objection": "Lack of basic staple recipes (e.g., spaghetti, chili)",
+            "severity": 0.5
+          },
+          {
+            "objection": "Recipe inaccuracies (incorrect ingredient quantities, typos)",
+            "severity": 0.45
+          },
+          {
+            "objection": "Resistance to subscription model preference for one-time purchase",
+            "severity": 0.6
+          },
+          {
+            "objection": "Tedious process for adding custom recipes",
+            "severity": 0.55
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "HelloFresh/Sunbasket",
+            "reason": "Higher cost and lack of time savings (still need grocery store trips)",
+            "threshold": "Price and convenience comparison"
+          },
+          {
+            "from_product": "Pinterest/manual recipe search",
+            "reason": "Too time-consuming and disorganized for meal planning",
+            "threshold": "Time burden exceeding convenience gain"
+          },
+          {
+            "from_product": "Other meal planning apps",
+            "reason": "Better recipe quality, usability, or integration features",
+            "threshold": "Superior features or user experience"
+          },
+          {
+            "from_product": "Frozen foods/eating out",
+            "reason": "Desire for healthier, home-cooked meals with less effort",
+            "threshold": "Health and cost concerns"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Time savings on meal planning and grocery lists",
+          "Recipe quality, variety, and dietary personalization",
+          "Integration with grocery delivery/pickup services",
+          "Cost-effectiveness (vs. meal kits/dining out)",
+          "Ease of use and app design",
+          "Ability to reduce food waste",
+          "Subscription model and pricing",
+          "Customer support and cancellation process",
+          "Recipe accuracy and features (e.g., custom recipes)",
+          "Frequency of recipe updates"
+        ],
+        "deal_breakers": [
+          "Inability to cancel subscription or poor customer support",
+          "Critical app bugs that make core features unusable",
+          "Extremely limited recipe variety, especially in free version",
+          "Lack of essential dietary filters (e.g., vegan, allergies)",
+          "No grocery list organization or integration"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 2,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Decision fatigue and stress from daily meal planning ('ugh, whats for dinner?')",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Food waste from buying ingredients not fully used or in wrong quantities",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "High cost and lack of flexibility/customization in meal kit delivery services",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Inefficient cooking process: scrolling back and forth between recipe steps and ingredient list",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Cooking recipes that take much longer than advertised time",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "App interface issues: text cut off, unintuitive navigation, or difficult formatting for custom recipes",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Limited recipe selection, especially in free version, or recipes not respecting dietary preferences",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Difficulty finding nutritional information easily",
+            "emotional_intensity": 0.3
+          },
+          {
+            "signal": "Cannot save or schedule meal plans for specific days of the week",
+            "emotional_intensity": 0.3
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Save money on groceries and reduce food waste by buying exact needed quantities",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Simplify and speed up grocery shopping (in-store or pickup) with integrated, accurate lists",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Cook healthy, delicious, varied meals at home with easy-to-follow recipes",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Reduce mental load and stress of daily meal planning and decision-making",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Accommodate dietary preferences, restrictions, and allergies reliably",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Have clear, integrated cooking instructions with ingredients listed per step",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Flexibility to customize recipes, serving sizes, and import own recipes",
+            "priority": 0.65
+          },
+          {
+            "outcome": "Access nutritional information (macros) to support health goals",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Enjoy cooking and make it feel less like a chore",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Positive experience with free version (good recipes, useful features) leading to upgrade",
+            "context": "After trial period (e.g., a week or two)"
+          },
+          {
+            "trigger": "Desire for more recipes, nutritional info, or advanced features (like custom recipe import)",
+            "context": "When free version feels limiting"
+          },
+          {
+            "trigger": "Recognition of significant time/money savings compared to previous meal kits or unplanned grocery trips",
+            "context": "After calculating cost/benefit"
+          },
+          {
+            "trigger": "Family enjoyment of meals leading to commitment to continue",
+            "context": "After family members express approval"
+          },
+          {
+            "trigger": "App's non-intrusive monetization (no ads, respectful free tier) builds trust",
+            "context": "When evaluating subscription value"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Pro/paid version perceived as too expensive or preferring one-time payment over subscription",
+            "severity": 0.5
+          },
+          {
+            "objection": "App interface bugs or text display issues making it hard to use",
+            "severity": 0.4
+          },
+          {
+            "objection": "Recipe selection limited or not always matching set dietary preferences",
+            "severity": 0.4
+          },
+          {
+            "objection": "Learning curve or unintuitive design for some users",
+            "severity": 0.3
+          },
+          {
+            "objection": "Cooking times inaccurate (takes longer than stated)",
+            "severity": 0.3
+          },
+          {
+            "objection": "Missing features: cannot schedule meals to specific days, save weekly plans, or add recipe notes easily",
+            "severity": 0.3
+          },
+          {
+            "objection": "Nutritional info hard to find or locked behind paywall",
+            "severity": 0.2
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Meal kit delivery services (e.g., HelloFresh, Blue Apron)",
+            "reason": "High cost and lack of flexibility/healthy options",
+            "threshold": "Saving ~$50/week, with more customization"
+          },
+          {
+            "from_product": "Other meal planning apps",
+            "reason": "Better integrated grocery lists, more user-friendly, less waste",
+            "threshold": "Apps that create illogical lists (e.g., 8 tubs of yogurt) or are ad-heavy"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Automated, accurate grocery list generation and store integration",
+          "Recipe quality, variety, and dietary filtering",
+          "Ease of use and time savings in planning/cooking",
+          "Cost savings vs. alternatives (meal kits, eating out)",
+          "Ability to reduce food waste",
+          "Cooking instructions clarity (ingredients per step)",
+          "Flexibility (serving sizes, custom recipes, preferences)"
+        ],
+        "deal_breakers": [
+          "App is buggy/unusable (text cut off, navigation broken)",
+          "Grocery list integration fails consistently",
+          "Recipes consistently poor quality or inaccurate",
+          "Free version is too restricted with excessive ads/prompts"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 1,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Cannot edit product names or add sufficient details like pricing, notes, coupons",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Lack of a search function for saved recipes or user-added items",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Sync issues between users/devices (phone, watch) causing list mismatches",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Inflexible item input: forced to use catalog, awkward for unsupported languages/custom items",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poor recipe integration: broken links, incorrect ingredients, lack of dietary filters",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Inconsistent language/regional support (e.g., UK to US English, missing Ireland)",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Poor categorization in shopping list (no store aisle mapping, fixed categories like alcohol/tobacco)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "No widget or tile for quick access without opening app (watch, home screen)",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Clunky item management: no undo for checked items, no quantity buttons, unclear list behavior",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Unhelpful autofill/suggestions (e.g., onions -> apple juice)",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Real-time, reliable multi-user synchronization for shared lists",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Advanced meal planning with integrated calendar and recipe management",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Shopping list with pricing totals, budgeting, and cost tracking",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Flexible item entry: free text, multi-language support, easy custom item addition",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Enhanced item details: notes, multiple pictures, brand specifics, locations",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Better organization: customizable categories, store aisle mapping, sorting options",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Quick-access features: home screen widget, watch tile, Alexa integration",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Expanded non-food item support (kitchenware, stationary, clothing)",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Improved recipe features: search, filtering by dietary restrictions, reliable links",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Loyalty card management with sorting and easy access",
+            "priority": 0.4
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to coordinate shopping with family/partner to avoid duplicates and save time",
+            "context": "Household management"
+          },
+          {
+            "trigger": "Desire to replace paper lists and scattered digital notes with a centralized system",
+            "context": "Efficiency seeking"
+          },
+          {
+            "trigger": "Frustration with overcomplicated or ad-heavy alternative apps",
+            "context": "Competitor dissatisfaction"
+          },
+          {
+            "trigger": "Attraction to clean design, large icons, and intuitive interface",
+            "context": "User experience"
+          },
+          {
+            "trigger": "Requirement for neurodivergent-friendly tools with visual cues (pictures)",
+            "context": "Accessibility needs"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "App lacks critical features like price tracking or item editing despite user demand",
+            "severity": 0.9
+          },
+          {
+            "objection": "Poor cross-device sync makes the app unreliable for coordinated shopping",
+            "severity": 0.8
+          },
+          {
+            "objection": "Language/regional support issues force workarounds or prevent use",
+            "severity": 0.7
+          },
+          {
+            "objection": "No search function for user-added content defeats the purpose of saving recipes/items",
+            "severity": 0.8
+          },
+          {
+            "objection": "Forced catalog input and bad autofill make adding items frustrating",
+            "severity": 0.7
+          },
+          {
+            "objection": "Lack of responsive customer support when issues arise",
+            "severity": 0.6
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Out of Milk",
+            "reason": "Inflexible item entry and lack of Hebrew support",
+            "threshold": "Immediate frustration"
+          },
+          {
+            "from_product": "Various meal planning apps",
+            "reason": "Poor grocery list integration and organization",
+            "threshold": "Repeated disappointment"
+          },
+          {
+            "from_product": "Manual/paper lists",
+            "reason": "Need for real-time sync and sharing with household",
+            "threshold": "Coordination breakdown"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Real-time multi-user sync",
+          "Ease of use / intuitive design",
+          "Sharing capabilities",
+          "Free / no ads",
+          "Visual design (icons, pictures)",
+          "Recipe integration",
+          "Cross-device support (watch)",
+          "Language flexibility"
+        ],
+        "deal_breakers": [
+          "Broken multi-user synchronization",
+          "Complete lack of language support for user's language",
+          "Forced catalog-only item entry with no free text option",
+          "No ability to edit product names or add basic details"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 1,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Difficulty coordinating ingredients while cooking due to flipping between pages",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Managing meal planning and grocery lists is mentally draining",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Finding recipes within specific dietary/cost constraints is time-consuming",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Over-buying or under-buying ingredients leads to food waste and budget stress",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Feeling unconfident at the grocery store or while cooking",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "High upfront cost and ongoing subscription fees for meal kit services",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Aggressive upsells and limitations in the free version feel restrictive",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Lack of shared meal planning between household members",
+            "emotional_intensity": 0.3
+          },
+          {
+            "signal": "Recipe time estimates are inaccurate, disrupting schedule",
+            "emotional_intensity": 0.3
+          },
+          {
+            "signal": "Instructions lack prep steps, leading to mid-cooking scrambling",
+            "emotional_intensity": 0.3
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Simplify and automate meal planning and grocery shopping",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Achieve cost savings and stick to a tight food budget",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Reduce food waste by buying exact ingredient amounts",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Eat healthier and meet specific dietary needs (low-carb, vegetarian, etc.)",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Build cooking confidence and skills, especially for beginners",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Seamlessly integrate grocery lists with online shopping/pickup services",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Have flexibility to adapt meal plans and recipes without rigid schedules",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Access detailed nutritional information and recipe reviews",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Evidence of cost savings vs. meal kits or eating out",
+            "context": "Budget-conscious user discovering low cost per serving"
+          },
+          {
+            "trigger": "Seeing significant improvement in personal health/weight goals",
+            "context": "User tracking macros or weight loss"
+          },
+          {
+            "trigger": "Reaching limits of free version (recipe count, features)",
+            "context": "Active user wanting more recipes or advanced features"
+          },
+          {
+            "trigger": "Desire for household coordination (shared plans, accounts)",
+            "context": "Couple or family wanting to plan together"
+          },
+          {
+            "trigger": "Proven time savings and reduction in mental load",
+            "context": "Busy individual appreciating automated list and planning"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Recurring subscription cost perceived as too high vs. one-time fee",
+            "severity": 0.7
+          },
+          {
+            "objection": "Limited search/filter functionality (can't combine multiple criteria)",
+            "severity": 0.5
+          },
+          {
+            "objection": "Lack of recipe variety or healthy options for specific diets in free/current catalog",
+            "severity": 0.6
+          },
+          {
+            "objection": "Missing key features: recipe reviews, print option, shared accounts, pantry tracker",
+            "severity": 0.5
+          },
+          {
+            "objection": "Aggressive promotion of paid version within free app",
+            "severity": 0.6
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Meal kit subscriptions (e.g., HelloFresh)",
+            "reason": "Cost savings and flexibility without subscriptions",
+            "threshold": "When cost per serving is significantly higher or schedule is too rigid"
+          },
+          {
+            "from_product": "Web-based recipe services",
+            "reason": "Superior integration (grocery list, online shopping) and mobile convenience",
+            "threshold": "When manual list-making and planning becomes too burdensome"
+          },
+          {
+            "from_product": "Other meal planning apps",
+            "reason": "Better free tier value, recipe quality, or dietary filtering",
+            "threshold": "When competitor lacks key integration or has higher cost"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Seamless grocery list generation and integration with store apps",
+          "Cost-effectiveness (low cost per serving, value of free tier)",
+          "Quality, variety, and dietary filtering of recipes",
+          "Ease of use and time savings in planning/cooking",
+          "Health/nutritional focus and information",
+          "Flexibility (no rigid schedule, adapt recipes)",
+          "Affordable and transparent pricing for premium"
+        ],
+        "deal_breakers": [
+          "Lack of integration with major grocery pickup/delivery services",
+          "Inability to filter for core dietary needs in free version",
+          "Excessively aggressive paywalls blocking basic planning functionality",
+          "Recurring subscription cost perceived as exorbitant for the value"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Stress and mental burden of meal planning/grocery shopping ('what's for dinner tonight' blues)",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Food waste from buying ingredients for single recipes",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Difficulty cooking for dietary restrictions/allergies",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Recipe boredom and lack of variety",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Time-consuming coordination of meal planning, recipes, and shopping lists",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Inability to find recipes fitting calorie/nutrition goals",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Frustration with clunky recipe uploads and lack of nutritional info for added recipes",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Integration issues with grocery delivery services (e.g., Instacart account/login, quantity transfer problems)",
+            "emotional_intensity": 0.7
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Save time on meal planning and grocery shopping",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Reduce food waste and overspending on groceries",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Easily cook meals that fit dietary restrictions/allergies",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Discover new, tasty recipes to break out of cooking ruts",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Achieve calorie/nutrition goals with guided meal planning",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Seamless integration with grocery delivery/pickup services",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Simplify cooking with clear, step-by-step instructions",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Minimize mental load and decision fatigue around meals",
+            "priority": 0.85
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Positive experience with free version (recipes, grocery list)",
+            "context": "After using free version for weeks/months, users upgrade for more features"
+          },
+          {
+            "trigger": "Desire for advanced features (nutrition facts, calorie filtering, all recipes)",
+            "context": "When users hit limits of free version and want deeper control"
+          },
+          {
+            "trigger": "Need to add personal recipes to the app's ecosystem",
+            "context": "Wanting to integrate own recipes with meal planning/grocery list features"
+          },
+          {
+            "trigger": "Time savings and reduced stress from successful free trial",
+            "context": "After app proves value in simplifying meal routines, users invest in pro"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Monthly subscription model disliked; prefer one-time payment",
+            "severity": 0.75
+          },
+          {
+            "objection": "Pro version doesn't add enough value (recipes/features) over free",
+            "severity": 0.6
+          },
+          {
+            "objection": "Limited recipe variety over time leads to boredom",
+            "severity": 0.65
+          },
+          {
+            "objection": "Inconsistent measurements in recipes (e.g., fractions vs. weights)",
+            "severity": 0.5
+          },
+          {
+            "objection": "Grocery service integrations are buggy or incomplete",
+            "severity": 0.7
+          },
+          {
+            "objection": "Missing key features (e.g., auto-generate full-day meal plans, serving size flexibility)",
+            "severity": 0.65
+          },
+          {
+            "objection": "Recipes can be high-calorie or bland",
+            "severity": 0.55
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "eMeals",
+            "reason": "Buggy app experience",
+            "threshold": "When core app functionality fails"
+          },
+          {
+            "from_product": "Meal kit services (Blue Apron, Purple Carrot)",
+            "reason": "Cost savings and more control",
+            "threshold": "When wanting cheaper, self-directed cooking"
+          },
+          {
+            "from_product": "Pinterest/My Fitness Pal combo",
+            "reason": "Desire for integrated meal planning and grocery lists",
+            "threshold": "When manual coordination becomes too burdensome"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Time savings/reduced mental load",
+          "Grocery list automation and integration",
+          "Recipe quality and variety",
+          "Dietary restriction filtering",
+          "Ease of use/app simplicity",
+          "Cost (free tier value)",
+          "Calorie/nutrition features"
+        ],
+        "deal_breakers": [
+          "Buggy grocery service integrations (e.g., Instacart)",
+          "Insufficient recipe variety leading to boredom",
+          "Pro subscription not worth the cost",
+          "Recipes consistently disliked (bland, high-calorie)"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 3,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 1.0,
+      "reddit": 0.0,
+      "csv": 0.0
+    },
+    "single_source_warning": true,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Meal planning is time-consuming, mentally draining, and creates decision fatigue, especially for busy families or individuals with ADHD.",
+          "count": 1,
+          "frequency": 0.0073,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0292
+        },
+        {
+          "signal": "Creating and managing grocery lists is a tedious, error-prone process that leads to inefficient shopping and food waste.",
+          "count": 1,
+          "frequency": 0.0073,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0219
+        },
+        {
+          "signal": "Finding recipes that are both simple and flavorful, while also meeting specific dietary preferences (low-carb, protein-dense) or restrictions, is frustrating.",
+          "count": 1,
+          "frequency": 0.0073,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0219
+        },
+        {
+          "signal": "Online grocery shopping is fragmented; transferring a list manually or dealing with item mismatches/availability errors in app integrations is a major hassle.",
+          "count": 1,
+          "frequency": 0.0073,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0219
+        },
+        {
+          "signal": "Existing recipe apps or meal planners have poor UI, confusing navigation, or lack critical features like proper meal plan views, saving non-plan recipes, or sharing functionality.",
+          "count": 1,
+          "frequency": 0.0073,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0219
+        },
+        {
+          "signal": "Recipe instructions are often poorly written, with steps out of order, missing ingredient amounts (e.g., 'half a small bunch'), or overly basic descriptions.",
+          "count": 1,
+          "frequency": 0.0073,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0219
+        },
+        {
+          "signal": "The app itself has technical bugs: UI doesn't fit screens, crashes when modifying ingredients, fails to load new recipes, has a broken share function on Android.",
+          "count": 1,
+          "frequency": 0.0073,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0219
+        },
+        {
+          "signal": "Difficulty in customizing or importing personal recipes is time-consuming and frustrating, limiting flexibility.",
+          "count": 1,
+          "frequency": 0.0073,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0292
+        },
+        {
+          "signal": "Recipe variety is limited or new recipes are not updated quickly on the app compared to the website.",
+          "count": 1,
+          "frequency": 0.0073,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0219
+        },
+        {
+          "signal": "Hates wading through blog post recipes and cookbooks to find recipes",
+          "count": 1,
+          "frequency": 0.0073,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0219
+        },
+        {
+          "signal": "Frustrated with recipes never formatted the way they think",
+          "count": 1,
+          "frequency": 0.0073,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0219
+        },
+        {
+          "signal": "Dislikes the process of transferring recipes to a shopping list manually",
+          "count": 1,
+          "frequency": 0.0073,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0219
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Save time on meal planning and grocery shopping",
+          "count": 2,
+          "frequency": 0.0164,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.041
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Core functionality (grocery list transfer, recipe access) is broken by persistent, unfixed bugs",
+          "count": 1,
+          "frequency": 0.0175,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0526
+        },
+        {
+          "signal": "Recipe quality is consistently poor or bland, making meals unenjoyable",
+          "count": 1,
+          "frequency": 0.0175,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0526
+        },
+        {
+          "signal": "The app cannot adapt to core dietary needs or household serving sizes",
+          "count": 1,
+          "frequency": 0.0175,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0526
+        },
+        {
+          "signal": "Grocery integration fails completely with the user's preferred retailer",
+          "count": 1,
+          "frequency": 0.0175,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0526
+        },
+        {
+          "signal": "Cannot accommodate specific dietary restrictions/allergies",
+          "count": 1,
+          "frequency": 0.0175,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0526
+        },
+        {
+          "signal": "No integration with preferred grocery services",
+          "count": 1,
+          "frequency": 0.0175,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0526
+        },
+        {
+          "signal": "Recipes are consistently bland or unappealing to family",
+          "count": 1,
+          "frequency": 0.0175,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0526
+        },
+        {
+          "signal": "Subscription cost outweighs savings from reduced food waste/takeout",
+          "count": 1,
+          "frequency": 0.0175,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0526
+        },
+        {
+          "signal": "App is buggy/unusable (text cut off, navigation broken)",
+          "count": 1,
+          "frequency": 0.0175,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0526
+        },
+        {
+          "signal": "Grocery list integration fails consistently",
+          "count": 1,
+          "frequency": 0.0175,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0531
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Discovery of the app's core integration: automatic grocery list generation combined with direct transfer to an online shopping cart.",
+          "count": 1,
+          "frequency": 0.0159,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0476
+        },
+        {
+          "signal": "Positive experience with the free version (especially recipe quality and ease of use) leading to a desire for more recipes, features, or to support the developers.",
+          "count": 1,
+          "frequency": 0.0159,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0476
+        },
+        {
+          "signal": "Frustration with previous meal planning apps that lacked specific features (good UI, recipe import, serving adjustments) this one promises.",
+          "count": 1,
+          "frequency": 0.0159,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0476
+        },
+        {
+          "signal": "The subscription price point is perceived as very reasonable (e.g., $2.99/month) for the value offered, making it a 'no-brainer' to try.",
+          "count": 1,
+          "frequency": 0.0159,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0476
+        },
+        {
+          "signal": "Need to solve a specific pain point like reducing food waste, cooking for dietary needs, or helping a large, busy family organize meals.",
+          "count": 1,
+          "frequency": 0.0159,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0476
+        },
+        {
+          "signal": "Realizing it can replace expensive meal kit services for less money",
+          "count": 1,
+          "frequency": 0.0159,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0476
+        },
+        {
+          "signal": "Finding the free version useful but wanting more features like nutrition info or adding own recipes",
+          "count": 1,
+          "frequency": 0.0159,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0476
+        },
+        {
+          "signal": "Seeing significant time savings in meal planning and grocery shopping",
+          "count": 1,
+          "frequency": 0.0159,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0476
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "low": 0.846,
+        "medium": 0.154
+      }
+    }
+  },
+  "cluster_1": {
+    "member_count": 38,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Frustration with platforms requiring chat entry before job acceptance",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Perceived lack of useful support from platform",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Disappointment with product underperformance (e.g., slow cooker barely heats)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Annoyance with misleading product labeling (e.g., 'heavy duty' pans not sturdy)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Irritation with receiving incomplete/opened orders (e.g., recipe covers)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Distress over platform job cancellation complexities (e.g., feeling need to lie about emergency)",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Frustration with poor design (e.g., blue LED light obscuring seasoning, messy charger base)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Stress from poor product integration (e.g., difficult food prep without bag fillers)",
+            "emotional_intensity": 0.4
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Maintain household freshness and organization efficiently",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Use simple, easy-to-operate products without complexity",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Maximize efficiency and earnings on service platforms with strategic practices",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Ensure safe, effective food preparation with minimal risk",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Obtain reliable, durable tools that match advertised claims",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Have clear, functional storage/organization solutions",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Streamline kitchen tasks with time-saving tools",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Replenishing refills for existing organizing systems",
+            "context": "Needed refill product for current containers"
+          },
+          {
+            "trigger": "Replacing overly complicated products with simpler alternatives",
+            "context": "Sought easy-to-use alarm clock after previous frustrating models"
+          },
+          {
+            "trigger": "Learning from past poor purchases to find improved versions",
+            "context": "Sought white-light salt/pepper shakers after bad blue-light experience"
+          },
+          {
+            "trigger": "Upgrading capacity when current storage is full",
+            "context": "Bought new recipe box when old holder was full"
+          },
+          {
+            "trigger": "Seeking tools to solve specific frustrations (e.g., bag filling stress)",
+            "context": "Purchased bag fillers to ease food prep process"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Ineffective product performance (e.g., slow cooker doesn't heat properly)",
+            "severity": 0.9
+          },
+          {
+            "objection": "Misleading product descriptions (e.g., 'heavy duty' pans not durable)",
+            "severity": 0.7
+          },
+          {
+            "objection": "Poor customer service or support from platforms",
+            "severity": 0.8
+          },
+          {
+            "objection": "Design flaws that create inconvenience (e.g., noisy fan, messy charger base)",
+            "severity": 0.6
+          },
+          {
+            "objection": "Incomplete or tampered shipments",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Other brands of salt/pepper shakers",
+            "reason": "Poor design (blue light, small reservoirs, messy charger)",
+            "threshold": "After disappointing experience with first purchase"
+          },
+          {
+            "from_product": "Complex alarm clocks",
+            "reason": "Frustration with inconvenient controls",
+            "threshold": "After enduring multiple difficult-to-use models"
+          },
+          {
+            "from_product": "Manual bag filling",
+            "reason": "Stress and inefficiency in food prep",
+            "threshold": "After years of struggling without tool"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Ease of use / Simplicity",
+          "Product performance matching claims",
+          "Functionality addressing specific need",
+          "Quality / Durability",
+          "Design intelligence (practical features)",
+          "Efficiency / Time-saving",
+          "Price value",
+          "Sustainability"
+        ],
+        "deal_breakers": [
+          "Product does not perform core function (e.g., doesn't heat)",
+          "Misleading advertising (e.g., 'heavy duty' untrue)",
+          "Safety hazards (e.g., blades causing injury, TV mounting failure)",
+          "Persistent poor customer support",
+          "Significant design flaws hindering use (e.g., blue light obscuring task)"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Frustration with item replacement policies and communication gaps between app, driver, and customer",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Annoyance with missing or incorrect items in delivery orders (e.g., forgotten drinks, wrong substitutions)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Difficulty assembling or using products due to unclear instructions or design flaws",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Concerns about driver behavior (political, ethical, or competence issues) affecting service reliability",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "High cost of convenience (e.g., coffee chain purchases) prompting desire for savings",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Seamless, accurate deliveries without substitutions or missing items",
+            "priority": 0.9
+          },
+          {
+            "outcome": "High-quality, durable kitchen tools that integrate into an efficient lifestyle",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Time and effort savings through multi-functional appliances (e.g., rice cookers, blenders)",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Cost savings by replacing frequent outsourced services (e.g., coffee, meal delivery) with in-home solutions",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Aesthetic and space-efficient home products that complement decor and organization",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Life changes (downsizing, moving, upgrading living space)",
+            "context": "Need for space-saving solutions like storage bags or compact appliances"
+          },
+          {
+            "trigger": "Replacing worn-out or underperforming products (e.g., old kitchen gadgets, appliances)",
+            "context": "Desire for reliability, modern features, or better performance"
+          },
+          {
+            "trigger": "Desire to replicate restaurant or caf\u00e9-quality experiences at home",
+            "context": "Investing in specialty equipment like espresso machines or rice cookers"
+          },
+          {
+            "trigger": "Need for convenience to reduce daily friction (e.g., meal prep, organization)",
+            "context": "Prioritizing time-saving tools that fit into integrated routines"
+          },
+          {
+            "trigger": "Recommendations from trusted sources (friends, reviews, brands)",
+            "context": "Seeking validated quality and functionality in purchases"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "App-driven substitutions without customer approval, leading to unsatisfactory items",
+            "severity": 0.8
+          },
+          {
+            "objection": "Poor product instructions or design causing assembly or usage difficulties",
+            "severity": 0.6
+          },
+          {
+            "objection": "Ethical or political conflicts with service providers affecting trust",
+            "severity": 0.7
+          },
+          {
+            "objection": "High upfront cost for premium appliances or tools, despite long-term value",
+            "severity": 0.5
+          },
+          {
+            "objection": "Inconvenience of in-person shopping vs. delivery, but distrust in delivery accuracy",
+            "severity": 0.6
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Manual or basic kitchen tools",
+            "reason": "Seeking multi-functionality, efficiency, and reliability",
+            "threshold": "When daily use becomes time-consuming or ineffective"
+          },
+          {
+            "from_product": "Outsourced services (e.g., caf\u00e9 coffee, delivery meals)",
+            "reason": "Cost savings and desire for control over quality and timing",
+            "threshold": "When expenses add up or service consistency fails"
+          },
+          {
+            "from_product": "Lower-quality or outdated appliances",
+            "reason": "Need for advanced features, durability, or performance",
+            "threshold": "When product fails or no longer meets lifestyle demands"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and durability",
+          "Time and effort savings",
+          "Cost-effectiveness",
+          "Ease of use and setup",
+          "Aesthetic and space efficiency",
+          "Brand reputation and reviews"
+        ],
+        "deal_breakers": [
+          "Persistent delivery errors or missing items",
+          "Unethical or unprofessional service provider behavior",
+          "Products with safety or major design flaws",
+          "Extremely poor customer support or refund policies"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Frustration with products that fail immediately or have safety hazards.",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Irritation when products do not work with existing equipment or systems.",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Annoyance at lack of compatibility with modern appliances (e.g., glass-top stoves).",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Disappointment when product quality or design does not match expectations.",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Frustration when storage solutions require purchasing additional, specific items to function.",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Discomfort with product designs that are not user-friendly or cause inconvenience.",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Concern about long-term durability and potential future product failure.",
+            "emotional_intensity": 0.55
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Seamless integration with existing kitchen appliances and systems.",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Efficient and reliable performance that saves time and effort.",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Products that are easy to clean and maintain.",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Space-saving and organized storage solutions.",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Health and wellness benefits from products (e.g., aiding sleep, dietary needs).",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Cost savings through product utility (e.g., grinding own meat).",
+            "priority": 0.65
+          },
+          {
+            "outcome": "Aesthetic appeal that complements home decor.",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Quick delivery and convenience in receiving products.",
+            "priority": 0.55
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for specialized cooking equipment (e.g., for gluten-free diets, pressure canning).",
+            "context": "Cooking and meal preparation"
+          },
+          {
+            "trigger": "Desire for space optimization and storage solutions in the kitchen.",
+            "context": "Home organization"
+          },
+          {
+            "trigger": "Seeking health or comfort aids (e.g., heated mattress pads for medical conditions).",
+            "context": "Wellness and home comfort"
+          },
+          {
+            "trigger": "Replacement or upgrade of existing items that are obsolete or incompatible.",
+            "context": "Product lifecycle and technology changes"
+          },
+          {
+            "trigger": "Gift-giving occasions, with attention to brand and perceived quality.",
+            "context": "Social and family events"
+          },
+          {
+            "trigger": "Engagement in hobbies or crafts requiring specific tools.",
+            "context": "Creative projects and personal interests"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product design flaws that cause instability or safety risks.",
+            "severity": 0.95
+          },
+          {
+            "objection": "Incompatibility with modern home appliances (e.g., induction/glass-top stoves).",
+            "severity": 0.9
+          },
+          {
+            "objection": "Requires purchasing additional items to function as intended.",
+            "severity": 0.8
+          },
+          {
+            "objection": "Poor build quality or materials that affect durability.",
+            "severity": 0.75
+          },
+          {
+            "objection": "High price relative to perceived value.",
+            "severity": 0.7
+          },
+          {
+            "objection": "Products that are difficult to use or have awkward features.",
+            "severity": 0.65
+          },
+          {
+            "objection": "Inaccurate product descriptions or color mismatches.",
+            "severity": 0.6
+          },
+          {
+            "objection": "Inadequate packaging leading to potential damage.",
+            "severity": 0.55
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "T-fal pressure canner",
+            "reason": "Non-flat bottom causes jar instability and incompatibility with glass-top stoves.",
+            "threshold": "After direct comparison with a competing product (Presto) that works correctly."
+          },
+          {
+            "from_product": "Generic storage solutions",
+            "reason": "Lack of compatibility with existing containers, requiring purchase of new sets.",
+            "threshold": "When the product breaks during attempted use with current items."
+          },
+          {
+            "from_product": "Basic toaster",
+            "reason": "Safety hazard (burning smell) upon first use.",
+            "threshold": "Immediate failure and potential danger."
+          }
+        ],
+        "decision_factors_ranked": [
+          "Safety and reliability",
+          "Compatibility with existing systems/appliances",
+          "Ease of use and cleaning",
+          "Durability and build quality",
+          "Cost-effectiveness and value",
+          "Space efficiency and organization",
+          "Aesthetic appeal",
+          "Delivery speed and convenience"
+        ],
+        "deal_breakers": [
+          "Safety hazards (e.g., electrical burning smell)",
+          "Complete incompatibility with essential home appliances",
+          "Design flaws that prevent core functionality",
+          "Requiring additional purchases to achieve basic use",
+          "Extremely poor build quality or immediate breakage"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Products not matching online descriptions (color, design, quality)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Poor product quality or durability (chips, breakage, short shelf life)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Lack of instructions or assembly difficulty",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Design flaws causing functional issues (e.g., bowls sticking, lids breaking)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Difficulty cleaning or maintaining products",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Space constraints in small homes requiring compact, foldable storage",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Noise sensitivity from appliances",
+            "emotional_intensity": 0.3
+          },
+          {
+            "signal": "High maintenance or confusing care instructions",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Inefficient or wasteful product use (e.g., excessive soap dispensing)",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Products failing after minimal use (e.g., heater malfunctioning)",
+            "emotional_intensity": 0.9
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Simplify cooking processes and reduce prep time (e.g., meal prep jars, cooking tools)",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Maintain tidiness and organization in kitchen and living spaces",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Achieve efficient, waste-free usage (e.g., controlled soap dispensing, oil conservation)",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Ensure product durability and reusability for cost-effectiveness",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Easy cleaning and maintenance of products",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Compact, space-saving storage solutions",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Enjoyable, fun cooking experiences for family (e.g., kid-friendly appliances)",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Accurate product representation and reliable performance",
+            "priority": 0.9
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for specific tool to simplify a task (e.g., grease splatter guard, meal prep jars)",
+            "context": "Cooking and kitchen organization"
+          },
+          {
+            "trigger": "Replacement or upgrade of existing items for better functionality",
+            "context": "Household maintenance and efficiency"
+          },
+          {
+            "trigger": "Desire for space-saving or foldable designs due to limited space",
+            "context": "Small living environments"
+          },
+          {
+            "trigger": "Seeking products for family enjoyment or grandchildren's activities",
+            "context": "Family and entertainment"
+          },
+          {
+            "trigger": "Need for airtight storage to preserve food freshness",
+            "context": "Food preservation and organization"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Products that do not perform as advertised or have quality defects",
+            "severity": 0.9
+          },
+          {
+            "objection": "Items with short lifespans or poor durability",
+            "severity": 0.8
+          },
+          {
+            "objection": "Products that are difficult to assemble or lack instructions",
+            "severity": 0.7
+          },
+          {
+            "objection": "Design flaws that hinder functionality (e.g., sticking bowls, breaking lids)",
+            "severity": 0.7
+          },
+          {
+            "objection": "High price for unreliable or malfunctioning products",
+            "severity": 0.8
+          },
+          {
+            "objection": "Products requiring excessive maintenance or confusing care",
+            "severity": 0.6
+          },
+          {
+            "objection": "Items that do not fit in small spaces or lack storage convenience",
+            "severity": 0.5
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Generic food storage containers",
+            "reason": "Prefer wide-mouth jars with reusable lids for easier use and cleaning",
+            "threshold": "Frustration with current containers' inconvenience"
+          },
+          {
+            "from_product": "Traditional frying methods or pans",
+            "reason": "Seeking dedicated, easy-to-use fryer for occasional treats",
+            "threshold": "Desire for simplicity and controlled frying"
+          },
+          {
+            "from_product": "Standard soap dispensers or bottles",
+            "reason": "Want economical, controlled dispensing to reduce waste",
+            "threshold": "Dissatisfaction with waste or mess"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Functionality and ease of use",
+          "Product quality and durability",
+          "Accuracy of product description",
+          "Ease of cleaning and maintenance",
+          "Space efficiency and storage",
+          "Value for price",
+          "Family-friendly or enjoyment factor"
+        ],
+        "deal_breakers": [
+          "Product failure or malfunction after minimal use",
+          "Significant mismatch between advertised and actual product",
+          "Critical design flaws affecting safety or usability",
+          "Poor durability or short product lifespan",
+          "Lack of instructions leading to assembly failure"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Frequent appliance replacement (e.g., toaster annually)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Mess and inefficiency in daily routines (e.g., toothpaste tube mess)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Wasting time on cumbersome kitchen tasks (e.g., slow strawberry de-stemmer)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Temptation to order out/use fast food due to convenience",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Products that don't perform as advertised (e.g., lid doesn't fit, color mismatch)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Poor packaging/shipping damaging products",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Food waste from produce wilting quickly",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Lack of storage space or bulky items",
+            "emotional_intensity": 0.4
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Time savings and efficiency in meal prep and daily tasks",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Multi-functionality from products (e.g., steamer/colander combo, toaster oven versatility)",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Easy, healthy meal solutions that reduce reliance on delivery",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Space-saving and compact storage solutions",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Durability and long product life to avoid frequent replacements",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Cleanliness and reduced mess in living spaces",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Convenient organization and visibility of stored items",
+            "priority": 0.65
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Frustration with frequent replacement of single-function appliances",
+            "context": "Replacing toaster yearly"
+          },
+          {
+            "trigger": "Seeking healthier, quicker alternatives to fast food/delivery",
+            "context": "Lunch or dinner prep"
+          },
+          {
+            "trigger": "Need to solve a specific mess or inefficiency (e.g., toothpaste tube mess)",
+            "context": "Daily routine frustration"
+          },
+          {
+            "trigger": "Desire for space-saving and storable kitchen tools",
+            "context": "Small kitchen or limited counter space"
+          },
+          {
+            "trigger": "Finding a versatile tool that replaces multiple items",
+            "context": "Kitchen gadget consolidation"
+          },
+          {
+            "trigger": "Need for better organization and storage solutions",
+            "context": "Cluttered pantry or supplies"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Product does not work as advertised or is poorly designed",
+            "severity": 0.95
+          },
+          {
+            "objection": "Packaging/shipping damages the product, making it unusable",
+            "severity": 0.9
+          },
+          {
+            "objection": "Product is not space-efficient or lacks collapsibility for storage",
+            "severity": 0.6
+          },
+          {
+            "objection": "Single-use gadgets that are slower than traditional methods (e.g., knife)",
+            "severity": 0.7
+          },
+          {
+            "objection": "Inaccurate product representation (color, size, appearance)",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Regular toaster",
+            "reason": "Frequent annual replacement and limited functionality",
+            "threshold": "After multiple failures"
+          },
+          {
+            "from_product": "Traditional meal preparation",
+            "reason": "Time-consuming and leads to temptation of ordering out",
+            "threshold": "When seeking healthier, faster options"
+          },
+          {
+            "from_product": "Basic storage containers/bags",
+            "reason": "Inefficient organization and lack of visibility",
+            "threshold": "When clutter becomes unmanageable"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Multi-functionality / Versatility",
+          "Time-saving efficiency",
+          "Durability / Longevity",
+          "Space-saving design",
+          "Ease of use / Convenience",
+          "Price / Value",
+          "Quality / Sturdiness",
+          "Cleanliness / Mess reduction"
+        ],
+        "deal_breakers": [
+          "Product does not perform its core function (e.g., lids not fitting)",
+          "Severe damage from poor packaging/shipping",
+          "Misrepresented product features/appearance",
+          "Single-use gadget that is slower than manual method"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.5,
+      "reddit": 0.5,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Products failing in critical situations (e.g., cooling fan needed during chemo) causing distress.",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0127
+        },
+        {
+          "signal": "Frustration with improper installation/mounting causing damage or safety risks (e.g., TV falling, liability).",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0127
+        },
+        {
+          "signal": "Anxiety about product safety, especially when lacking proper support (e.g., studs, liability waivers).",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0127
+        },
+        {
+          "signal": "Products not matching aesthetic preferences (e.g., color unavailability).",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0127
+        },
+        {
+          "signal": "Dissatisfaction with product size or design flaws (e.g., tool too small for intended use).",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0127
+        },
+        {
+          "signal": "Experiencing poor craftsmanship and quality control from service providers (e.g., Taskers) leading to financial loss and unresolved issues.",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0127
+        },
+        {
+          "signal": "Frustration with service provider negligence (e.g., mounting TVs incorrectly against code, using improper materials) leading to potential damage and safety risks.",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0127
+        },
+        {
+          "signal": "Avoiding hassle of returns/exchanges due to product defects, opting for self-repair despite dissatisfaction.",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0127
+        },
+        {
+          "signal": "Dissatisfaction with inefficient or insufficient product design (e.g., cleaning liquid container too small, glare on scale display).",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0127
+        },
+        {
+          "signal": "Time-consuming and difficult cleanup for cooking equipment",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0127
+        },
+        {
+          "signal": "Unrealistic client demands and time pressure on service platforms",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0127
+        },
+        {
+          "signal": "Products taking up counter space without sufficient functionality",
+          "count": 1,
+          "frequency": 0.0042,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0127
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Reliable and durable products that perform consistently under pressure.",
+          "count": 1,
+          "frequency": 0.0045,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0134
+        },
+        {
+          "signal": "Easy and safe installation/use with clear instructions.",
+          "count": 1,
+          "frequency": 0.0045,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0134
+        },
+        {
+          "signal": "Versatile and multifunctional products that solve multiple problems.",
+          "count": 1,
+          "frequency": 0.0045,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0134
+        },
+        {
+          "signal": "Aesthetically pleasing and customizable items that fit home decor.",
+          "count": 1,
+          "frequency": 0.0045,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0134
+        },
+        {
+          "signal": "Affordable products with good value and long-term use.",
+          "count": 1,
+          "frequency": 0.0045,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0134
+        },
+        {
+          "signal": "Efficient space-saving and organizational solutions.",
+          "count": 1,
+          "frequency": 0.0045,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0134
+        },
+        {
+          "signal": "Achieve efficient, integrated household management with tools that save time and reduce effort.",
+          "count": 1,
+          "frequency": 0.0045,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0179
+        },
+        {
+          "signal": "Maintain a clean, organized, and aesthetically pleasing home environment.",
+          "count": 1,
+          "frequency": 0.0045,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0134
+        },
+        {
+          "signal": "Gain reliable, professional results from service providers without needing supervision or rework.",
+          "count": 1,
+          "frequency": 0.0045,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0134
+        },
+        {
+          "signal": "Have products that are durable, easy to clean, and long-lasting.",
+          "count": 1,
+          "frequency": 0.0045,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0134
+        },
+        {
+          "signal": "Quick and easy cleanup after cooking",
+          "count": 1,
+          "frequency": 0.0045,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0134
+        },
+        {
+          "signal": "Efficient use of time and space in the kitchen",
+          "count": 1,
+          "frequency": 0.0045,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0134
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Safety risks (e.g., falling TVs, injury potential)",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0199
+        },
+        {
+          "signal": "Product failure in critical moments",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0199
+        },
+        {
+          "signal": "Unreliable service providers with liability issues",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.02
+        },
+        {
+          "signal": "Poor fit for intended use (e.g., too small or weak)",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0199
+        },
+        {
+          "signal": "Safety hazards or code violations",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0199
+        },
+        {
+          "signal": "Poor craftsmanship leading to immediate failure",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0199
+        },
+        {
+          "signal": "Unreliable or unaccountable service providers",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0199
+        },
+        {
+          "signal": "Products that are inefficient or create more work",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0199
+        },
+        {
+          "signal": "Products that create more work than they save",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0199
+        },
+        {
+          "signal": "Unreasonable client demands on service platforms",
+          "count": 1,
+          "frequency": 0.0066,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0199
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Recommendation from others or positive reviews",
+          "count": 2,
+          "frequency": 0.0103,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0258
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "low": 0.658,
+        "medium": 0.342
+      }
+    }
+  },
+  "cluster_2": {
+    "member_count": 14,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Unreliable service providers with frequent last-minute cancellations",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Poor customer support with slow or no response",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "App is buggy, crashes, or has login/password issues",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Hidden or surprise fees (e.g., service fees, cancellation fees)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Difficulty communicating with taskers before booking",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Scams or unethical behavior by taskers (e.g., demanding extra payments)",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Lack of accountability for tasker performance or cancellations",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Inability to see prices or filter taskers effectively before booking",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "High platform fees or commission for taskers",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Poor user interface and navigation in the app",
+            "emotional_intensity": 0.8
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable and punctual service providers",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Transparent pricing with no hidden fees",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Effective and responsive customer support",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Ability to communicate with taskers before booking",
+            "priority": 0.8
+          },
+          {
+            "outcome": "User-friendly and stable app functionality",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Fair cancellation policies for both customers and taskers",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Clear visibility into tasker ratings and cancellation history",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Affordable and competitive pricing",
+            "priority": 0.65
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for convenient household services (e.g., cleaning, moving)",
+            "context": "Time-constrained lifestyle requiring outsourcing tasks"
+          },
+          {
+            "trigger": "Desire to avoid traditional methods like Craigslist",
+            "context": "Seeking more reliable and vetted service providers"
+          },
+          {
+            "trigger": "Attracted by initial coupon codes or promotional offers",
+            "context": "First-time user looking for a deal"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "High risk of last-minute cancellations by taskers",
+            "severity": 0.9
+          },
+          {
+            "objection": "Poor customer support and lack of accountability",
+            "severity": 0.85
+          },
+          {
+            "objection": "Hidden fees and unclear pricing structure",
+            "severity": 0.8
+          },
+          {
+            "objection": "App is buggy and unreliable",
+            "severity": 0.75
+          },
+          {
+            "objection": "Taskers may engage in scams or unethical practices",
+            "severity": 0.9
+          },
+          {
+            "objection": "Difficulty in finding and communicating with taskers",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "TaskRabbit",
+            "reason": "Frequent last-minute cancellations by taskers",
+            "threshold": "After 1-2 bad experiences"
+          },
+          {
+            "from_product": "TaskRabbit",
+            "reason": "Poor customer support response",
+            "threshold": "After unresolved issue with support"
+          },
+          {
+            "from_product": "TaskRabbit",
+            "reason": "High or hidden fees",
+            "threshold": "Discovery of unexpected charges"
+          },
+          {
+            "from_product": "TaskRabbit",
+            "reason": "App functionality issues",
+            "threshold": "Persistent bugs or crashes"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability of service providers",
+          "Transparency in pricing",
+          "Quality of customer support",
+          "Ease of use of app/platform",
+          "Communication with taskers",
+          "Fairness of policies",
+          "Cost/value ratio"
+        ],
+        "deal_breakers": [
+          "Last-minute cancellations without penalty",
+          "Scams or unethical behavior by taskers",
+          "Complete lack of customer support response",
+          "Persistent app failures preventing use"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Frustration with account creation/login issues (password reset loops, location defaults, postal code format errors)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Anger at high, hidden, or unclear fees (Trust Fee, booking fees, VAT, 35-38% platform fee)",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Extreme annoyance at frequent last-minute Tasker cancellations with no penalty or recourse",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Frustration with poor or non-existent customer service (rude reps, automated replies, inaccessible support)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Irritation with clunky, laggy, or confusing app UX (navigation issues, address duplication, miscategorization, login loops)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Wasted time due to no available Taskers or Taskers declining/redirecting without a saved task",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Feeling cheated when charged for unrendered services (cancellation charges, Tasker no-shows)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Distrust in Tasker quality, pricing fairness, and potential scams (requests for cash, absurd prices, unqualified workers)",
+            "emotional_intensity": 0.8
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable, on-time task completion by qualified providers",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Clear, upfront, and reasonable total pricing with no hidden fees",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Seamless, intuitive app UX for booking and managing tasks",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Effective consequences for Tasker cancellations/no-shows (penalties, client compensation)",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Accessible, helpful human customer support",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Ability to contact Taskers directly (e.g., phone/text) before/after booking",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Transparent Tasker vetting (reviews, background checks) to ensure quality and safety",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Accurate, location-based Tasker matching and availability",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Recommendation/integration with a primary service provider (e.g., IKEA delivery)",
+            "context": "Post-purchase of furniture needing assembly/delivery"
+          },
+          {
+            "trigger": "Need for a specific, time-consuming task (moving, furniture assembly, cleaning, handyman work)",
+            "context": "Seeking convenience over finding providers manually via Google/search"
+          },
+          {
+            "trigger": "Advertisement for on-demand service marketplace",
+            "context": "Seeing ads promoting task outsourcing"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Exorbitant and hidden platform fees make the service too expensive vs. traditional providers",
+            "severity": 0.9
+          },
+          {
+            "objection": "Unreliable Taskers frequently cancel last-minute without penalty, leaving clients stranded",
+            "severity": 0.85
+          },
+          {
+            "objection": "The app is buggy, with persistent login/account creation failures",
+            "severity": 0.8
+          },
+          {
+            "objection": "Poor customer service is unresponsive and fails to resolve issues",
+            "severity": 0.75
+          },
+          {
+            "objection": "Lack of transparency in pricing, cancellation policies, and Tasker vetting",
+            "severity": 0.8
+          },
+          {
+            "objection": "Low availability of Taskers for needed services in certain areas/categories",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "TaskRabbit",
+            "reason": "Unacceptable frequency of last-minute Tasker cancellations",
+            "threshold": "Multiple cancellations across bookings"
+          },
+          {
+            "from_product": "TaskRabbit",
+            "reason": "Discovery of high, hidden fees after booking/use",
+            "threshold": "First or second booking where total cost is significantly higher than quoted rate"
+          },
+          {
+            "from_product": "TaskRabbit",
+            "reason": "Persistent technical issues preventing account access or task booking",
+            "threshold": "Multiple failed login/booking attempts"
+          },
+          {
+            "from_product": "TaskRabbit",
+            "reason": "Poor customer service response to a problem (e.g., charge for unrendered service)",
+            "threshold": "Single negative support interaction that fails to resolve issue"
+          },
+          {
+            "from_product": "TaskRabbit",
+            "reason": "Finding more reliable and professional alternatives (e.g., cleaning companies, bonded handymen)",
+            "threshold": "After comparing cost and reliability"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Total Cost Transparency",
+          "Tasker Reliability & Quality",
+          "Ease of Booking/UX",
+          "Customer Support Access",
+          "Tasker Availability"
+        ],
+        "deal_breakers": [
+          "Hidden or exorbitant fees (>30% platform fee)",
+          "Last-minute Tasker cancellations with no client recourse",
+          "Chronic account/login failures blocking service access",
+          "Being charged for services not rendered"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "App is buggy and unreliable with basic UI/UX issues (overlapping text, invisible input, broken dropdowns, infinite loops).",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Ineffective or non-existent customer service (long wait times, unhelpful bots, agents disconnecting).",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Lack of communication with taskers before booking (cannot confirm skills, discuss scope, or ask questions upfront).",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Unreliable tasker availability and last-minute cancellations without recourse.",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Hidden or unexpected fees (high hourly service fees, overcharges, cancellation charges).",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Taskers can charge cards arbitrarily after job completion without customer approval.",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Broken onboarding and login flows for both customers and taskers (password resets fail, infinite registration loops).",
+            "emotional_intensity": 0.9
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable and professional tasker who shows up as scheduled and completes the job competently.",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Streamlined, transparent, and fair payment process with no surprise fees.",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Ability to communicate with taskers beforehand to confirm skills, scope, and expectations.",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Functional, intuitive app with reliable booking, scheduling, and chat features.",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Responsive and helpful customer support to resolve issues quickly.",
+            "priority": 0.9
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for a specific, urgent task (e.g., IKEA assembly, plumbing, moving items).",
+            "context": "Emergency or time-sensitive household need."
+          },
+          {
+            "trigger": "Perceived niche service with few alternatives.",
+            "context": "When other platforms or local providers are unavailable or less convenient."
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Platform is a scam; it overcharges, lacks accountability, and customer service is unresponsive.",
+            "severity": 0.95
+          },
+          {
+            "objection": "App is fundamentally broken, making basic tasks like booking or logging in impossible.",
+            "severity": 0.9
+          },
+          {
+            "objection": "No way to vet taskers' reliability or skills before committing payment.",
+            "severity": 0.85
+          },
+          {
+            "objection": "Unfair cancellation policies and fees, even when taskers cancel last minute.",
+            "severity": 0.8
+          },
+          {
+            "objection": "High and opaque fees (e.g., 33% hourly service charge) make it financially unreasonable.",
+            "severity": 0.75
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "TaskRabbit",
+            "reason": "Repeated app failures, unreliable taskers, or poor customer service.",
+            "threshold": "After 1-2 bad experiences or encountering a critical bug."
+          },
+          {
+            "from_product": "TaskRabbit",
+            "reason": "Finding a better alternative (e.g., local handyman via Google, other service platforms).",
+            "threshold": "When a comparable or more reliable service is identified."
+          }
+        ],
+        "decision_factors_ranked": [
+          "Tasker reliability and professionalism",
+          "Transparency and fairness of pricing/fees",
+          "App usability and reliability",
+          "Quality of customer support",
+          "Ability to communicate with taskers before booking"
+        ],
+        "deal_breakers": [
+          "App is fundamentally broken or unusable",
+          "Complete lack of responsive customer support",
+          "Tasker scams or arbitrary overcharging without recourse",
+          "Unfair cancellation policies that penalize the customer"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Frustration with unreliable and unresponsive customer service/support (chat-only, slow, unhelpful)",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "Perceived unfair and opaque shopper rating/penalty system (single bad review can tank rating, false 'missing item' claims)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "App glitches and technical failures (crashes, GPS errors, scanning issues, lockouts)",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Low and unfair pay relative to work (time, miles, item count, order batching)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Lack of transparency and control over orders (unclear distances, forced batches, no dispute process for claims)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Arbitrary account issues (long/unfair waitlists, unexplained deactivations, card/payment system problems)",
+            "emotional_intensity": 0.85
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable, timely, and competent human customer support accessible via phone",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Transparent, fair, and appealable shopper rating/penalty system with clear evidence review",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Stable, glitch-free app with accurate GPS, navigation, and scanning",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Higher and fairer pay that accounts for time, distance, effort, and order size",
+            "priority": 0.85
+          },
+          {
+            "outcome": "More control and transparency over order selection (see full details, distance, accept singles)",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Clear communication and fair processes for account access, waitlists, and deactivations",
+            "priority": 0.8
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for flexible, supplemental income or 'quick pocket money'",
+            "context": "Shopper seeking side income"
+          },
+          {
+            "trigger": "Desire to earn extra cash on one's own schedule",
+            "context": "Shopper valuing flexibility and autonomy"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "The pay is too low for the time, mileage, and effort required",
+            "severity": 0.9
+          },
+          {
+            "objection": "Customer support is ineffective and leaves shoppers stranded with problems",
+            "severity": 0.9
+          },
+          {
+            "objection": "The app is buggy, unreliable, and hinders ability to work",
+            "severity": 0.85
+          },
+          {
+            "objection": "The rating system is punitive, unfair, and lacks shopper recourse",
+            "severity": 0.85
+          },
+          {
+            "objection": "The company seems to exploit shoppers and lacks transparency",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Instacart Shopper",
+            "reason": "Persistent app glitches and technical failures preventing work",
+            "threshold": "After repeated attempts with no fix from support"
+          },
+          {
+            "from_product": "Instacart Shopper",
+            "reason": "Unfair deactivation or permanent lockout of account",
+            "threshold": "Immediate upon deactivation without clear justification"
+          },
+          {
+            "from_product": "Instacart Shopper",
+            "reason": "Extremely low pay and high mileage making work unprofitable",
+            "threshold": "Consistent pattern of unprofitable orders"
+          },
+          {
+            "from_product": "Instacart Shopper",
+            "reason": "Recommendation to use competitor apps (Uber Eats, DoorDash)",
+            "threshold": "After hearing others' negative experiences or direct comparison"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliable and fair pay",
+          "Stable and functional app",
+          "Effective customer support",
+          "Transparent and fair rating system",
+          "Flexibility and control over work"
+        ],
+        "deal_breakers": [
+          "App glitches that completely block ability to work",
+          "Unfair account deactivation with no appeal",
+          "Consistently unprofitable pay after expenses",
+          "Complete lack of helpful human customer support"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Tasker cancellations/no-shows, especially last-minute or with no notification",
+            "emotional_intensity": 0.95
+          },
+          {
+            "signal": "App/platform technical failures (glitches, crashes, loading issues, payment errors, notification failures)",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Poor or unresponsive customer support (long waits, unresolved issues, abrupt disconnections)",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "High, hidden, or unfair fees (e.g., 30-50% service fees)",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Poor user interface and design (slow, laggy, confusing, missing features like status updates)",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Account and sign-up issues (verification problems, login failures, update difficulties)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Inability to communicate with taskers before booking or after cancellations",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Platform discourages/reduces reliability of preferred taskers (can't rebook favorites, rate increases for repeats)",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable, predictable scheduling with dependable taskers who show up",
+            "priority": 0.95
+          },
+          {
+            "outcome": "Clear, transparent pricing and fee structure upfront",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Functional, stable app with responsive notifications and smooth UI",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Ability to easily rebook and maintain relationships with good taskers",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Effective customer support that resolves issues quickly",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Fair cancellation policies that apply equally to taskers and customers",
+            "priority": 0.65
+          },
+          {
+            "outcome": "Ability to contact and vet taskers before booking",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for quick, convenient access to service providers (taskers)",
+            "context": "Immediate household or moving needs"
+          },
+          {
+            "trigger": "Positive initial experience with a specific tasker",
+            "context": "Desire to reuse a reliable provider"
+          },
+          {
+            "trigger": "Comparison with other apps (Thumbtack) but returning after trying others",
+            "context": "Preference for seeing tasker rates upfront"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Unreliable tasker performance (high no-show/cancellation rate)",
+            "severity": 0.95
+          },
+          {
+            "objection": "Excessive and opaque platform fees",
+            "severity": 0.9
+          },
+          {
+            "objection": "App is technically broken and unusable",
+            "severity": 0.85
+          },
+          {
+            "objection": "Poor customer service and support",
+            "severity": 0.8
+          },
+          {
+            "objection": "Lack of accountability for tasker cancellations",
+            "severity": 0.75
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "TaskRabbit",
+            "reason": "Multiple tasker cancellations/no-shows",
+            "threshold": "After repeated incidents (e.g., 3-5 times)"
+          },
+          {
+            "from_product": "TaskRabbit",
+            "reason": "High, hidden fees",
+            "threshold": "Upon seeing final bill"
+          },
+          {
+            "from_product": "TaskRabbit",
+            "reason": "App/platform technical failures",
+            "threshold": "When app becomes unusable"
+          },
+          {
+            "from_product": "TaskRabbit",
+            "reason": "Better alternatives available (Thumbtack, direct hiring)",
+            "threshold": "After comparing features/reliability"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Tasker reliability (low no-show rate)",
+          "App/platform functionality and usability",
+          "Transparent and reasonable pricing/fees",
+          "Ability to rebook preferred taskers",
+          "Customer support responsiveness"
+        ],
+        "deal_breakers": [
+          "Chronic last-minute tasker cancellations with no penalty",
+          "App is technically broken (cannot book, pay, or communicate)",
+          "Fees are excessive (e.g., >30%) and not disclosed upfront",
+          "Customer support is ineffective or absent"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.545,
+      "reddit": 0.455,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Getting tasks assigned far outside of work area",
+          "count": 1,
+          "frequency": 0.0081,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0323
+        },
+        {
+          "signal": "Cancellation policies negatively affecting account standing regardless of who initiates",
+          "count": 1,
+          "frequency": 0.0081,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0242
+        },
+        {
+          "signal": "Platform algorithms/AI management feels opaque and uncontrollable",
+          "count": 1,
+          "frequency": 0.0081,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0242
+        },
+        {
+          "signal": "Wasting time with ineffective customer support",
+          "count": 1,
+          "frequency": 0.0081,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0242
+        },
+        {
+          "signal": "Confusing or inconsistent platform policies (e.g., forfeit vs. cancellation impact)",
+          "count": 1,
+          "frequency": 0.0081,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0242
+        },
+        {
+          "signal": "Account suspensions/pauses after high earnings periods",
+          "count": 1,
+          "frequency": 0.0081,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0242
+        },
+        {
+          "signal": "Feeling the platform is no longer a 'good partner' for sustainable work",
+          "count": 1,
+          "frequency": 0.0081,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0242
+        },
+        {
+          "signal": "Product clutter and single-use gadgets that lack multi-functionality",
+          "count": 1,
+          "frequency": 0.0081,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0242
+        },
+        {
+          "signal": "Frustration with unreliable and unresponsive customer service/support (chat-only, slow, unhelpful)",
+          "count": 1,
+          "frequency": 0.0081,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0242
+        },
+        {
+          "signal": "Perceived unfair and opaque shopper rating/penalty system (single bad review can tank rating, false 'missing item' claims)",
+          "count": 1,
+          "frequency": 0.0081,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0242
+        },
+        {
+          "signal": "App glitches and technical failures (crashes, GPS errors, scanning issues, lockouts)",
+          "count": 1,
+          "frequency": 0.0081,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0242
+        },
+        {
+          "signal": "Low and unfair pay relative to work (time, miles, item count, order batching)",
+          "count": 1,
+          "frequency": 0.0081,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0323
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Efficient and neat organization of household items (food, remotes, supplies)",
+          "count": 1,
+          "frequency": 0.0094,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0283
+        },
+        {
+          "signal": "Preservation of food freshness to prevent waste",
+          "count": 1,
+          "frequency": 0.0094,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0283
+        },
+        {
+          "signal": "Aesthetically pleasing tools that fit decor and reduce visual clutter",
+          "count": 1,
+          "frequency": 0.0094,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0283
+        },
+        {
+          "signal": "Ergonomic solutions to reduce physical strain (e.g., back pain from meal prep)",
+          "count": 1,
+          "frequency": 0.0094,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0283
+        },
+        {
+          "signal": "Quick and easy task completion (e.g., ironing)",
+          "count": 1,
+          "frequency": 0.0094,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0283
+        },
+        {
+          "signal": "Reliable, predictable platform policies for gig work income",
+          "count": 1,
+          "frequency": 0.0094,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0283
+        },
+        {
+          "signal": "Clear communication and fair account management from service platforms",
+          "count": 1,
+          "frequency": 0.0094,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0283
+        },
+        {
+          "signal": "Multi-functional tools to minimize kitchen gadget clutter",
+          "count": 1,
+          "frequency": 0.0094,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0283
+        },
+        {
+          "signal": "Reliable, timely, and competent human customer support accessible via phone",
+          "count": 1,
+          "frequency": 0.0094,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0283
+        },
+        {
+          "signal": "Transparent, fair, and appealable shopper rating/penalty system with clear evidence review",
+          "count": 1,
+          "frequency": 0.0094,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0283
+        },
+        {
+          "signal": "Stable, glitch-free app with accurate GPS, navigation, and scanning",
+          "count": 1,
+          "frequency": 0.0094,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0283
+        },
+        {
+          "signal": "Higher and fairer pay that accounts for time, distance, effort, and order size",
+          "count": 1,
+          "frequency": 0.0094,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0283
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Complete lack of responsive customer support",
+          "count": 2,
+          "frequency": 0.0351,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0877
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Problem of food going stale before use",
+          "count": 1,
+          "frequency": 0.0227,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0682
+        },
+        {
+          "signal": "Need for countertop organization and hidden composting",
+          "count": 1,
+          "frequency": 0.0227,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0682
+        },
+        {
+          "signal": "Desire to replace ugly or conventional organizers",
+          "count": 1,
+          "frequency": 0.0227,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0682
+        },
+        {
+          "signal": "Experiencing physical discomfort during tasks",
+          "count": 1,
+          "frequency": 0.0227,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0682
+        },
+        {
+          "signal": "Inefficient current methods (e.g., ironing on bed)",
+          "count": 1,
+          "frequency": 0.0227,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0682
+        },
+        {
+          "signal": "Having specialized existing collections but wanting a 'go-to' item",
+          "count": 1,
+          "frequency": 0.0227,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0682
+        },
+        {
+          "signal": "Need for flexible, supplemental income or 'quick pocket money'",
+          "count": 1,
+          "frequency": 0.0227,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0682
+        },
+        {
+          "signal": "Desire to earn extra cash on one's own schedule",
+          "count": 1,
+          "frequency": 0.0227,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0682
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "low": 1.0
+      }
+    }
+  },
+  "cluster_3": {
+    "member_count": 2,
+    "representative_batches": [
+      {
+        "signals": [
+          {
+            "signal_name": "string",
+            "evidence": [
+              "string"
+            ],
+            "strength": "string"
+          }
+        ],
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [],
+        "desired_outcomes": [],
+        "purchase_triggers": [],
+        "objections": [],
+        "switching_triggers": [],
+        "decision_factors_ranked": [],
+        "deal_breakers": [],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 0,
+          "amazon_med_acc": 0,
+          "reddit": 0,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.5,
+      "reddit": 0.5,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [],
+      "top_desired_outcomes": [],
+      "top_deal_breakers": [],
+      "top_purchase_triggers": [],
+      "dominant_friction_tolerance": "medium",
+      "friction_tolerance_distribution": {
+        "medium": 1.0
+      }
+    }
+  },
+  "cluster_4": {
+    "member_count": 40,
+    "representative_batches": [
+      {
+        "pain_points": [
+          {
+            "signal": "Reliability issues with service platform apps (e.g., frequent errors, crashes, or downtime)",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Poor or inaccessible customer support (chat/call not working, unhelpful)",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Inconsistent order processing (e.g., difficulty marking orders delivered, wrong address errors)",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Low-quality earnings or undesirable orders (e.g., high mileage, low tips)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Product performance not meeting basic functional expectations (e.g., doesn't work, breaks quickly)",
+            "emotional_intensity": 0.65
+          },
+          {
+            "signal": "Wasted money due to product failure or platform issues",
+            "emotional_intensity": 0.6
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable and efficient service with minimal app errors or downtime",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Products that work perfectly for specific needs (e.g., for class, for elderly users)",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Accessible and effective customer support when issues arise",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Sturdy, well-made products that perform consistently",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Good value for money (affordable and functional)",
+            "priority": 0.7
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Specific functional need for a task (e.g., stats class, organizing, replacing a failing product)",
+            "context": "Academic, household organization, or replacing inadequate items"
+          },
+          {
+            "trigger": "Recommendation based on product features meeting specialized needs (e.g., elderly-friendly design)",
+            "context": "Caring for elderly family members or users with specific accessibility needs"
+          },
+          {
+            "trigger": "Need for reliable tools for work or side gigs (e.g., pens for classroom, app for delivery work)",
+            "context": "Professional or gig economy work requiring dependable tools"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Platform/app is unreliable with frequent errors or downtime",
+            "severity": 0.9
+          },
+          {
+            "objection": "Customer support is unresponsive or unhelpful",
+            "severity": 0.85
+          },
+          {
+            "objection": "Product fails to perform its basic function (e.g., doesn't print, pen doesn't write)",
+            "severity": 0.8
+          },
+          {
+            "objection": "Poor value (product breaks quickly, replacement parts unavailable, high cost for low quality)",
+            "severity": 0.75
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Unreliable service platform/app",
+            "reason": "Frequent technical issues disrupting work and earnings",
+            "threshold": "Occurs multiple times a week, causing significant frustration and financial impact"
+          },
+          {
+            "from_product": "Poorly performing physical product (e.g., printer, pens)",
+            "reason": "Product failure shortly after purchase or inability to fulfill basic function",
+            "threshold": "Product stops working within a short period (e.g., one month) or is fundamentally defective"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability and consistent performance",
+          "Functionality for specific needs",
+          "Value for money",
+          "Ease of use/accessibility",
+          "Customer support quality",
+          "Sturdiness/durability"
+        ],
+        "deal_breakers": [
+          "Chronic app/platform unreliability (daily/weekly errors)",
+          "Complete lack of functional customer support",
+          "Product failure immediately or shortly after purchase",
+          "Unavailable replacement parts or unsustainable costs"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "App/platform being down or unreliable, preventing work/orders",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Unexpected or unreliable delivery scheduling",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Inconsistent or insufficient income from platform",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Poor communication/notifications from service",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Product damage or leakage during shipping",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Difficulty hearing timer alarm from another room",
+            "emotional_intensity": 0.4
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable, stable app/platform performance",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Predictable, dependable income from service work",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Accurate and reliable delivery scheduling",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Efficient, time-saving kitchen/cooking tools",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Products that simplify tasks and reduce mess",
+            "priority": 0.7
+          },
+          {
+            "outcome": "High-quality, durable products that last",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Replacing a worn-out or broken item",
+            "context": "clipboard, timer"
+          },
+          {
+            "trigger": "Need for specific functionality (e.g., loud timer, pasta cooker)",
+            "context": "kitchen tools"
+          },
+          {
+            "trigger": "Seeking efficiency in cooking/cleaning (save time, reduce mess)",
+            "context": "kitchen tools"
+          },
+          {
+            "trigger": "Desire for better quality/durability than cheaper alternatives",
+            "context": "kitchenware"
+          },
+          {
+            "trigger": "Gift-giving occasion or party preparation",
+            "context": "bags"
+          },
+          {
+            "trigger": "Professional tool for work (badge holder, clipboard)",
+            "context": "work accessories"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "App/platform instability disrupting work",
+            "severity": 0.9
+          },
+          {
+            "objection": "Unreliable delivery scheduling requiring last-minute changes",
+            "severity": 0.8
+          },
+          {
+            "objection": "Poor product packaging leading to damage/leakage",
+            "severity": 0.6
+          },
+          {
+            "objection": "Product smaller than expected",
+            "severity": 0.4
+          },
+          {
+            "objection": "Timer alarm inconsistent/loudness unreliable",
+            "severity": 0.4
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Other cooking tools (hammer tenderizer, stove pasta cooking)",
+            "reason": "Better performance/less mess",
+            "threshold": "Found a more efficient tool"
+          },
+          {
+            "from_product": "Cheaper nonstick pans",
+            "reason": "Poor durability",
+            "threshold": "Cheaper pans didn't last"
+          },
+          {
+            "from_product": "Other income sources/summer jobs",
+            "reason": "Inconsistent pay from platform",
+            "threshold": "Income became unreliable"
+          },
+          {
+            "from_product": "Other platforms/services",
+            "reason": "App failures and poor experience",
+            "threshold": "Platform became unusable"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability/performance",
+          "Time efficiency",
+          "Durability/quality",
+          "Price/value",
+          "Specific functionality",
+          "Ease of use/cleaning"
+        ],
+        "deal_breakers": [
+          "App/platform being completely unusable",
+          "Unreliable delivery scheduling",
+          "Severe product damage from shipping",
+          "Income becoming unreliable"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Service platform outages cause inability to view or accept offers/orders",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Poor communication from platform during outages leads to frustration",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Technical glitches disrupt ability to claim available offers",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Product assembly or setup requires unexpected extra effort (e.g., buying anchors)",
+            "emotional_intensity": 0.3
+          },
+          {
+            "signal": "Design flaws or durability concerns in products (e.g., angled welding)",
+            "emotional_intensity": 0.4
+          },
+          {
+            "signal": "Unreliable product performance (e.g., ink cartridges that fail)",
+            "emotional_intensity": 0.5
+          },
+          {
+            "signal": "Complexity or fragility in product setup/attachment",
+            "emotional_intensity": 0.3
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Efficient, reliable operation of service apps with real-time, stable offers",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Clear, transparent communication from platforms during technical issues",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Value for money - products working well for half the price",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Easy, intuitive product setup without technical expertise",
+            "priority": 0.6
+          },
+          {
+            "outcome": "Products that integrate seamlessly into lifestyle (e.g., compact, stashable)",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Aesthetic appeal matching modern tastes, not 'granny' style",
+            "priority": 0.4
+          },
+          {
+            "outcome": "Durable, sturdy construction with no hidden flaws",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need for cost-effective alternative (e.g., cheaper ink cartridges)",
+            "context": "Printing"
+          },
+          {
+            "trigger": "Need to organize/access items easily (e.g., wall rack, alphabet segmented phone book)",
+            "context": "Home organization"
+          },
+          {
+            "trigger": "Requirement for portable, convenient tool (e.g., stashable item)",
+            "context": "On-the-go use"
+          },
+          {
+            "trigger": "Search for inexpensive, functional appliance for specific tasks (e.g., label printer)",
+            "context": "Occasional use"
+          },
+          {
+            "trigger": "Desire for unique, conversation-starting gift item",
+            "context": "Gifting"
+          },
+          {
+            "trigger": "Need for ergonomic solution for long work hours",
+            "context": "Work-from-home setup"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Technical outages disrupt income-earning ability on service platforms",
+            "severity": 0.8
+          },
+          {
+            "objection": "Hidden costs or extra supplies needed for product installation",
+            "severity": 0.4
+          },
+          {
+            "objection": "Inconsistent product quality - some items work, some don't",
+            "severity": 0.6
+          },
+          {
+            "objection": "Flimsy design elements compromising long-term durability",
+            "severity": 0.5
+          },
+          {
+            "objection": "Inability to view/accept offers despite availability",
+            "severity": 0.7
+          },
+          {
+            "objection": "Platform pay cuts or compensation issues following outages",
+            "severity": 0.7
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Original ink cartridges",
+            "reason": "High cost compared to cheaper alternatives that work just as well",
+            "threshold": "Price difference perceived as substantial"
+          },
+          {
+            "from_product": "Wooden wall racks",
+            "reason": "Aesthetic mismatch ('too granny')",
+            "threshold": "Style preference"
+          },
+          {
+            "from_product": "Other printer brands/models",
+            "reason": "Need for easy, non-technical setup",
+            "threshold": "Simplicity"
+          },
+          {
+            "from_product": "Current service platform",
+            "reason": "Poor communication and prolonged outages affecting income",
+            "threshold": "Significant reliability issues"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Price/value",
+          "Reliability/functionality",
+          "Ease of use/setup",
+          "Aesthetic/style",
+          "Durability",
+          "Compactness/portability",
+          "Communication/transparency"
+        ],
+        "deal_breakers": [
+          "Persistent technical outages preventing income",
+          "Complete lack of communication during crises",
+          "Products failing to perform basic function"
+        ],
+        "friction_tolerance": "medium",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "Technical failures (apps/systems down, errors, login issues) preventing service use",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Product not working as advertised/defective (e.g., no ink, charger design flaw)",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Poor customer support (unhelpful, unreachable, dismissive)",
+            "emotional_intensity": 0.6
+          },
+          {
+            "signal": "Misleading product descriptions/photos leading to wrong expectations",
+            "emotional_intensity": 0.4
+          },
+          {
+            "\u00fftignal": "Inconsistent/poor product quality (size variations, low durability)",
+            "emotional_intensity": 0.5
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable, always-available service/platform functionality",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Products that work exactly as advertised with no defects",
+            "priority": 0.8
+          },
+          {
+            "outcome": "Efficiency and time savings in daily tasks/coordination",
+            "priority": 0.7
+          },
+          {
+            "outcome": "Aesthetic/personalized fit for their lifestyle (e.g., desk setup, gifts)",
+            "priority": 0.5
+          },
+          {
+            "outcome": "Durability and product longevity",
+            "priority": 0.6
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Need to replace/rebuy a previously satisfactory product/system",
+            "context": "Replacement purchasing"
+          },
+          {
+            "trigger": "Item is unavailable locally, requiring online order",
+            "context": "Accessibility/convenience"
+          },
+          {
+            "trigger": "Need for a specific functional solution (e.g., organizing keys/cords, gift-giving)",
+            "context": "Problem-solving"
+          },
+          {
+            "trigger": "Gift-giving for a specific person/occasion",
+            "context": "Social/obligation"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "System/App is down or malfunctioning, blocking core service use",
+            "severity": 0.9
+          },
+          {
+            "objection": "Product is defective or completely fails to perform its primary function",
+            "severity": 0.8
+          },
+          {
+            "objection": "Poor value (e.g., size misrepresentation, high cost for low quality)",
+            "severity": 0.7
+          },
+          {
+            "objection": "Design flaws that impact usability or durability",
+            "severity": 0.5
+          },
+          {
+            "objection": "Ineffective or frustrating customer support",
+            "severity": 0.6
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Service platform (e.g., Shipt)",
+            "reason": "Persistent technical outages and unreliable service",
+            "threshold": "Service is down for extended periods with poor communication"
+          },
+          {
+            "from_product": "Physical product (e.g., ink, phone)",
+            "reason": "Product failure and wasted time/money",
+            "threshold": "Product is defective on arrival, forcing a search for a working alternative"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Functional Reliability",
+          "Ease of Use/Convenience",
+          "Value for Money",
+          "Aesthetic/Personal Fit",
+          "Durability/Longevity"
+        ],
+        "deal_breakers": [
+          "Complete product/service failure on arrival/use",
+          "Persistent system outages that block service access",
+          "Misleading advertising resulting in a functionally wrong product"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      },
+      {
+        "pain_points": [
+          {
+            "signal": "App or system outages causing inability to accept or process orders",
+            "emotional_intensity": 0.9
+          },
+          {
+            "signal": "Unreliable platform performance leading to lost income opportunities",
+            "emotional_intensity": 0.85
+          },
+          {
+            "signal": "Poor communication about issues and fixes from the service",
+            "emotional_intensity": 0.8
+          },
+          {
+            "signal": "Anxiety about receiving unfair ratings due to system failures",
+            "emotional_intensity": 0.75
+          },
+          {
+            "signal": "Wasting valuable time (e.g., a day off) due to platform instability",
+            "emotional_intensity": 0.7
+          },
+          {
+            "signal": "Confusion and self-doubt when the platform behaves unexpectedly (e.g., no orders)",
+            "emotional_intensity": 0.65
+          }
+        ],
+        "desired_outcomes": [
+          {
+            "outcome": "Reliable and consistent platform uptime with no crashes",
+            "priority": 1.0
+          },
+          {
+            "outcome": "Clear, timely, and honest communication from the service about issues",
+            "priority": 0.9
+          },
+          {
+            "outcome": "Simplification and efficiency in routine tasks (e.g., back-to-school shopping)",
+            "priority": 0.85
+          },
+          {
+            "outcome": "Seamless integration of tools into a productive home/work system",
+            "priority": 0.8
+          },
+          {
+            "outcome": "High-quality, functional products that perform as expected",
+            "priority": 0.75
+          },
+          {
+            "outcome": "Ability to plan and rely on income from gig work",
+            "priority": 0.9
+          }
+        ],
+        "purchase_triggers": [
+          {
+            "trigger": "Replacing depleted or low-quality supplies (e.g., markers, packing material)",
+            "context": "Maintaining an organized household/office system"
+          },
+          {
+            "trigger": "Seeking efficiency and time-saving solutions for recurring tasks",
+            "context": "Preparing for events like back-to-school or shipping for a business"
+          },
+          {
+            "trigger": "Desire to upgrade the aesthetics or functionality of a workspace/system",
+            "context": "Personalizing planners, desks, or shipping materials"
+          },
+          {
+            "trigger": "Need for specific, reliable tools for organization (e.g., planners, whiteboards)",
+            "context": "Coordinating family schedules, meals, and shopping"
+          }
+        ],
+        "objections": [
+          {
+            "objection": "Platform unreliability leading to lost wages and frustration",
+            "severity": 0.95
+          },
+          {
+            "objection": "Lack of transparency and effective communication from the service provider",
+            "severity": 0.85
+          },
+          {
+            "objection": "Products that do not meet quality or functionality expectations",
+            "severity": 0.7
+          },
+          {
+            "objection": "System design flaws causing user confusion and workflow interruption",
+            "severity": 0.8
+          }
+        ],
+        "switching_triggers": [
+          {
+            "from_product": "Matte vinyl sticker paper",
+            "reason": "Superior print quality and vibrancy",
+            "threshold": "When the current product results in washed-out, unsatisfactory results"
+          },
+          {
+            "from_product": "Regular printer paper for photos",
+            "reason": "Better color vibrancy and photo quality",
+            "threshold": "When wanting to send higher-quality prints, especially for sentimental reasons"
+          },
+          {
+            "from_product": "Other packing materials (e.g., kraft paper)",
+            "reason": "More effective cushioning and customizable size",
+            "threshold": "When current material is insufficient or less optimal for business shipping needs"
+          }
+        ],
+        "decision_factors_ranked": [
+          "Reliability / Uptime",
+          "Time-saving / Efficiency",
+          "Product Quality / Functionality",
+          "Communication & Transparency",
+          "Cost / Value",
+          "Aesthetics / Personalization"
+        ],
+        "deal_breakers": [
+          "Chronic system outages causing income loss",
+          "Complete lack of communication during failures",
+          "Products that fundamentally fail to perform their core function"
+        ],
+        "friction_tolerance": "low",
+        "_source_weights": {
+          "amazon_high_acc": 15,
+          "amazon_med_acc": 0,
+          "reddit": 15,
+          "csv": 0
+        }
+      }
+    ],
+    "source_mix": {
+      "amazon": 0.5,
+      "reddit": 0.5,
+      "csv": 0.0
+    },
+    "single_source_warning": false,
+    "aggregate_signals": {
+      "top_pain_points": [
+        {
+          "signal": "Frustration with platform pricing changes impacting earnings (flat rate vs. hourly)",
+          "count": 1,
+          "frequency": 0.0044,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0133
+        },
+        {
+          "signal": "Anxiety about property damage due to inadequate platform pricing models and tasker inexperience",
+          "count": 1,
+          "frequency": 0.0044,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0133
+        },
+        {
+          "signal": "Difficulty contacting customer service for product support",
+          "count": 1,
+          "frequency": 0.0044,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0133
+        },
+        {
+          "signal": "Disappointment with product quality upon arrival (warped, stuck together, broken)",
+          "count": 1,
+          "frequency": 0.0044,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0133
+        },
+        {
+          "signal": "Inconvenience of awkward product design (e.g., difficult-to-pour carafe)",
+          "count": 1,
+          "frequency": 0.0044,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0133
+        },
+        {
+          "signal": "Frustration with moving and storing bulky items",
+          "count": 1,
+          "frequency": 0.0044,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0178
+        },
+        {
+          "signal": "Concern over time wasted on manual household tasks (e.g., watching eggs boil)",
+          "count": 1,
+          "frequency": 0.0044,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0133
+        },
+        {
+          "signal": "Irritation with price premiums for preferred colors/options",
+          "count": 1,
+          "frequency": 0.0044,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0133
+        },
+        {
+          "signal": "Poor quality or inappropriate service leading to damage or potential safety hazards (e.g., TV mounting failures)",
+          "count": 1,
+          "frequency": 0.0044,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0133
+        },
+        {
+          "signal": "Feeling overcharged or receiving low value for a flat fee service",
+          "count": 1,
+          "frequency": 0.0044,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0134
+        },
+        {
+          "signal": "Frustration with cumbersome customer support or claims processes",
+          "count": 1,
+          "frequency": 0.0044,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0133
+        },
+        {
+          "signal": "Anxiety about service reliability and tasker suitability",
+          "count": 1,
+          "frequency": 0.0044,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0133
+        }
+      ],
+      "top_desired_outcomes": [
+        {
+          "signal": "Seamless integration of services to save time and reduce mental load",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0138
+        },
+        {
+          "signal": "Reliable, durable products that perform consistently",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0137
+        },
+        {
+          "signal": "Efficient storage solutions that maximize space in small homes/apartments",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0137
+        },
+        {
+          "signal": "Convenient automation for routine tasks (cooking, cleaning, organization)",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0137
+        },
+        {
+          "signal": "Access to expert taskers who follow proper safety/installation standards",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0137
+        },
+        {
+          "signal": "Clear communication and responsive support from platforms/vendors",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0183
+        },
+        {
+          "signal": "Aesthetic appeal and design that fits a modern lifestyle",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0137
+        },
+        {
+          "signal": "Cost-effective solutions that provide good value",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0137
+        },
+        {
+          "signal": "Efficient, reliable, and correct completion of household tasks (e.g., TV mounting, assembly)",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0137
+        },
+        {
+          "signal": "Products that enhance organization and storage, saving time and space",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0137
+        },
+        {
+          "signal": "Durable, high-quality items that withstand use and accidents",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0137
+        },
+        {
+          "signal": "Convenient gifting experiences with appreciated results",
+          "count": 1,
+          "frequency": 0.0046,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0137
+        }
+      ],
+      "top_deal_breakers": [
+        {
+          "signal": "Poor communication during service failures",
+          "count": 2,
+          "frequency": 0.0137,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0342
+        }
+      ],
+      "top_purchase_triggers": [
+        {
+          "signal": "Life event (moving, replacement of broken item)",
+          "count": 1,
+          "frequency": 0.0053,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.016
+        },
+        {
+          "signal": "Seeking efficiency/time-saving for daily routines",
+          "count": 1,
+          "frequency": 0.0053,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.016
+        },
+        {
+          "signal": "Need for specialized storage/organization",
+          "count": 1,
+          "frequency": 0.0053,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.016
+        },
+        {
+          "signal": "Recommendation from others (family, media)",
+          "count": 1,
+          "frequency": 0.0053,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.016
+        },
+        {
+          "signal": "Desire to upgrade or match existing items",
+          "count": 1,
+          "frequency": 0.0053,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.016
+        },
+        {
+          "signal": "Need for specific features (pulse option, automatic shutoff) unavailable in older models",
+          "count": 1,
+          "frequency": 0.0053,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0214
+        },
+        {
+          "signal": "Positive social proof and compliments leading to repeat/gift purchases",
+          "count": 1,
+          "frequency": 0.0053,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.016
+        },
+        {
+          "signal": "Requirement for space-efficient storage solutions",
+          "count": 1,
+          "frequency": 0.0053,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.016
+        }
+      ],
+      "dominant_friction_tolerance": "low",
+      "friction_tolerance_distribution": {
+        "medium": 0.2,
+        "low": 0.8
+      }
+    }
+  }
+}

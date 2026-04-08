@@ -1,0 +1,259 @@
+{
+  "id": "interview_participant_(global_sample,_~1200_interviews)",
+  "label": "Interview Participant (Global Sample, ~1200 Interviews)",
+  "segment": {
+    "role": "Health-conscious consumer managing chronic post-COVID symptoms",
+    "tech_savviness": "medium",
+    "price_sensitivity": "high",
+    "risk_tolerance": "low",
+    "context": "Person dealing with ongoing health issues like fatigue, immune system weakness, and sleep disruption who seeks cost-effective solutions but is highly cautious about wasting money on ineffective products. Lives with persistent anxiety about health protection while being frustrated by others' lack of precautions."
+  },
+  "goals": [
+    {
+      "goal": "Find evidence-based health solutions for chronic fatigue and immune support",
+      "priority": 5
+    },
+    {
+      "goal": "Verify product efficacy through reviews before purchasing expensive supplements",
+      "priority": 5
+    },
+    {
+      "goal": "Access pricing information without intrusive signup requirements or ads",
+      "priority": 4
+    },
+    {
+      "goal": "Research blue light filtering solutions for better sleep quality",
+      "priority": 3
+    },
+    {
+      "goal": "Find reliable protective equipment like masks and testing kits",
+      "priority": 4
+    },
+    {
+      "goal": "Compare cost-effectiveness across multiple health product options",
+      "priority": 5
+    }
+  ],
+  "constraints": [
+    "Limited budget for health solutions despite chronic needs (from Health-Concerned Pragmatism cluster)",
+    "Cannot tolerate products with significant side effects or dependency risks (from Health Anxiety & Protection cluster)",
+    "Requires ad-free or minimally disruptive browsing experience (from Intrusive Ad Experience cluster)",
+    "Needs customizable solutions due to varying symptom severity (from Blue Light Mitigation cluster)"
+  ],
+  "decision_weights": {
+    "fatigue_and_low_energy": 0.209,
+    "travel_portability": 0.165,
+    "trusted_recommendations": 0.104,
+    "specific_health_needs": 0.104,
+    "current_product_failures": 0.104,
+    "safety_precautions": 0.104,
+    "protective_products": 0.104,
+    "community_validated_solutions": 0.104
+  },
+  "behavioral_rules": [
+    "Immediately scrolls to negative reviews first to identify potential side effects or efficacy failures",
+    "Abandons pages with full-screen popup ads that block core content access",
+    "Cross-references multiple review sources before considering any health supplement purchase",
+    "Seeks detailed ingredient lists and dosage information before adding items to cart",
+    "Compares price per serving across competing products using calculator or notes",
+    "Prioritizes products with return policies or money-back guarantees for health items",
+    "Filters search results by 'most critical' or 'most helpful' reviews first",
+    "Checks for customizable settings or dosage options in product descriptions",
+    "Verifies shipping costs and delivery timeframes before committing to purchase",
+    "Looks for 'tested by' or certification badges on health and safety products",
+    "Exits sites that require email signup before showing basic product information",
+    "Takes screenshots or saves tabs of products for later price comparison"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.396,
+    "trust_starting_point": 0.483,
+    "frustration_decay": 0.296
+  },
+  "deal_breakers": [
+    "Products with no clear return policy or money-back guarantee",
+    "Health supplements without ingredient transparency or dosage information",
+    "Websites that block content access with intrusive advertising",
+    "Products with numerous reviews citing 'complete lack of efficacy'",
+    "Excessive shipping costs that make total price unreasonable"
+  ],
+  "voice_sample": "I'm so tired of dealing with chronic health issues following COVID-19 infection and the constant anxiety about catching something else despite all my precautions. Every time I think I've found a solution, I worry about the excessive cost without clear benefits, especially when I'm already struggling with body inflammation, aches and pains that seem to fluctuate daily. I need affordable, reliable wellness solutions without side effects or dependency risks, but I'm frustrated by how many products promise the world and deliver nothing. The fear of infection despite precautions is always there, especially when others around me seem careless about masking or testing. I just want to achieve focus and concentration throughout the day and get some restful, uninterrupted sleep without breaking the bank on supplements that might not even work.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 25,
+    "pages_before_decision": 8,
+    "tab_behavior": "Opens multiple tabs to compare prices and reviews across different sites",
+    "primary_device": "Smartphone during evening hours with blue light concerns",
+    "time_of_day": "Evening after work when symptoms are most noticeable"
+  },
+  "purchase_journey": {
+    "discovery": "Finds products through online community recommendations or while researching specific health symptoms",
+    "evaluation": "Reads negative reviews first, compares prices per serving, checks ingredient lists, verifies return policies",
+    "decision_moment": "When product has strong community validation, reasonable price point, and clear money-back guarantee",
+    "post_purchase_expectation": "Expects gradual symptom improvement within stated timeframe and responsive customer service if issues arise"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Multiple trusted community members recommend the same product for their specific symptoms",
+      "Product offers customizable dosing or settings to accommodate fluctuating symptoms",
+      "Clear ingredient transparency with third-party testing certificates",
+      "Strong return policy reduces financial risk of trying new health solutions"
+    ],
+    "abandons_when": [
+      "Intrusive ads block access to product information or reviews",
+      "Pricing requires email signup or account creation to view",
+      "Reviews consistently mention complete lack of efficacy or side effects",
+      "No clear dosage information or ingredient list available"
+    ],
+    "trusts_when": [
+      "Product pages include detailed scientific backing or study references",
+      "Reviews mention specific symptom improvements rather than vague claims",
+      "Site provides easy access to customer service and return process",
+      "Other users with similar post-COVID symptoms share positive experiences"
+    ],
+    "becomes_suspicious_when": [
+      "Health claims seem too broad or promise unrealistic quick fixes",
+      "Product has only 5-star reviews with no critical feedback",
+      "Pushy upselling during checkout process",
+      "No clear contact information or customer service options visible"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Chronic health issues following COVID-19 infection",
+      "Affordable, reliable wellness solutions without side effects or dependency risks",
+      "Achieving restful, uninterrupted sleep",
+      "Chronic, fluctuating symptoms like fatigue, pain, and brain fog",
+      "Concern about catching COVID-19 or other illnesses despite precautions",
+      "Body inflammation, aches and pains",
+      "Achieve focus and concentration throughout the day"
+    ],
+    "resonates_with": [
+      "Clinically tested for safety and efficacy",
+      "30-day money-back guarantee",
+      "Recommended by health professionals",
+      "Gentle formula for sensitive systems"
+    ],
+    "turned_off_by": [
+      "Miracle cure claims",
+      "Limited time only pressure tactics",
+      "Requires subscription commitment",
+      "No questions asked advertising"
+    ]
+  },
+  "inner_monologue_samples": [
+    "Another supplement that costs $60 for a month's supply - I need to see exactly what's in this and whether people with my specific symptoms actually got results, not just generic energy boost claims.",
+    "These reviews look too good to be true, where are the people mentioning side effects or that it didn't work? I need to find the critical reviews to see what I'm really getting into.",
+    "Why do I need to create an account just to see the price? This is exactly the kind of friction that makes me suspicious - if the product was good they wouldn't need to hide basic information.",
+    "Finally, someone in the reviews mentions having the same post-COVID fatigue issues I'm dealing with, and they say it helped after 2 weeks. That's the kind of specific feedback I need to see.",
+    "The ingredient list is completely transparent and they show third-party testing results - this is what I want to see when I'm spending my limited health budget on something that might actually help."
+  ],
+  "anti_patterns": [
+    "Assuming they want premium/luxury options - they prioritize cost-effectiveness over brand prestige (contradicts Health-Concerned Pragmatism)",
+    "Using aggressive popup ads or signup walls - they abandon sites with intrusive advertising (contradicts Intrusive Ad Experience)",
+    "Making broad health claims without specifics - they need targeted solutions for specific symptoms (contradicts Health Anxiety & Protection)",
+    "Rushing them through checkout - they need time to verify ingredients and policies (contradicts low risk tolerance)"
+  ],
+  "traits": [
+    {
+      "label": "Health-Concerned Pragmatism",
+      "description": "Users are seeking effective solutions for chronic health issues like fatigue, pain, and immune support, but are highly cautious about cost and side effects, making value a central purchase criterion.",
+      "key_phrases": [
+        "Cost-effective health solutions",
+        "Complete lack of efficacy",
+        "Excessive cost without clear benefits"
+      ],
+      "frequency": 0.453,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Health Anxiety & Protection",
+      "description": "Users express persistent fear of illness and frustration with others' perceived laxity in health precautions. They seek products to shield themselves from infection and manage underlying health conditions, often feeling vulnerable despite taking personal measures.",
+      "key_phrases": [
+        "Fear of infection despite precautions",
+        "Frustration with others' lack of testing/masking",
+        "Weak immune system and recurrent illness",
+        "Effective protection from illness",
+        "Managing health conditions with reliable products"
+      ],
+      "frequency": 0.358,
+      "tone": "frustrated",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Intrusive Ad Experience",
+      "description": "Users report that disruptive and invasive ads prevent them from effectively using the app's core tracking and journaling functions, making it feel like useless adware rather than a health tool.",
+      "key_phrases": [
+        "Excessive intrusive ads interrupting core functionality",
+        "Annoying or intrusive pop-up ads, including full-screen ads that block app access",
+        "Goal achievement pop-ups asking to share feel intrusive and invasive of privacy"
+      ],
+      "frequency": 0.084,
+      "tone": "frustrated",
+      "cluster_id": "cluster_4"
+    },
+    {
+      "label": "Blue Light Mitigation",
+      "description": "Users seek to actively manage the negative physiological effects of screen exposure, specifically eye strain and sleep disruption caused by blue light. They desire customizable, reliable tools to reduce these impacts and protect their long-term eye health.",
+      "key_phrases": [
+        "Screen brightness causes eye strain, headaches, or disrupts sleep",
+        "Difficulty falling asleep when using phone before bed due to blue light",
+        "Fear of long-term eye damage from blue light"
+      ],
+      "frequency": 0.074,
+      "tone": "cautious",
+      "cluster_id": "cluster_3"
+    },
+    {
+      "label": "Accepting Friction",
+      "description": "This cluster represents users who acknowledge and accept a moderate level of product friction without strong negative emotions or specific objections, treating it as a normal part of the user experience.",
+      "key_phrases": [],
+      "frequency": 0.032,
+      "tone": "pragmatic",
+      "cluster_id": "cluster_2"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 8,
+    "total": 2836,
+    "avg_rating": 3.82,
+    "avg_length": 388,
+    "rating_distribution": {
+      "4": 277,
+      "1": 196,
+      "5": 1243,
+      "3": 1071,
+      "2": 49
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 1200,
+      "playstore": 436
+    },
+    "n_products": 5,
+    "top_products": {
+      "unknown": 1636,
+      "COVID-19 Rapid Antigen Test Kit 5-Pack": 300,
+      "Immune System Support Vitamin D3 + K2": 300,
+      "Blue Light Blocking Glasses for Computer Use": 300,
+      "KN95 Face Masks 50-Pack Black": 300
+    },
+    "low_rating_pct": 0.086,
+    "high_rating_pct": 0.536,
+    "n_sources": 3,
+    "issues": [
+      "Platform bias: amazon is 42% of data (cap is 40%) \u2014 signals may reflect platform culture, not demographic behavior. Add other sources."
+    ],
+    "batches_estimate": 95
+  },
+  "demographic_description": "A participant in a large-scale global interview set conducted post-COVID. Provides qualitative responses during conversations. Interaction is part of broad data collection efforts.",
+  "generated_at": "2026-04-05T22:19:11.469712",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "20% grounded in cluster data",
+    "cluster_stability": "high"
+  }
+}

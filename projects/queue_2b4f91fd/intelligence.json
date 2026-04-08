@@ -1,0 +1,582 @@
+{
+  "products": [
+    {
+      "name": "Social Media Management Dashboard Software License",
+      "category": "Software",
+      "accuracy": 0.95,
+      "review_keywords": [
+        "feedback",
+        "bug",
+        "update",
+        "posting",
+        "integration",
+        "analytics",
+        "scheduling"
+      ],
+      "context_keywords": [
+        "while posting",
+        "during dinner",
+        "real-time",
+        "mobile app"
+      ],
+      "exclusion_keywords": [
+        "setup",
+        "admin"
+      ],
+      "why": "Active social media managers and content creators who need real-time posting capabilities buy this software"
+    },
+    {
+      "name": "Portable Phone Ring Light for Live Streaming",
+      "category": "Electronics",
+      "accuracy": 0.94,
+      "review_keywords": [
+        "posting",
+        "content",
+        "lighting",
+        "streaming",
+        "phone",
+        "portable",
+        "dining"
+      ],
+      "context_keywords": [
+        "while eating",
+        "restaurant",
+        "check-in",
+        "stories"
+      ],
+      "exclusion_keywords": [
+        "studio",
+        "professional"
+      ],
+      "why": "Content creators who post frequently in various locations, including while dining out"
+    },
+    {
+      "name": "Phone Grip Stand for One-Handed Use",
+      "category": "Cell_Phones_and_Accessories",
+      "accuracy": 0.93,
+      "review_keywords": [
+        "posting",
+        "grip",
+        "one-hand",
+        "content",
+        "stories",
+        "typing"
+      ],
+      "context_keywords": [
+        "while dining",
+        "messaging",
+        "feedback",
+        "quick post"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "watching"
+      ],
+      "why": "Heavy phone users who frequently post content and send messages while multitasking"
+    },
+    {
+      "name": "Wireless Portable Keyboard for Mobile Devices",
+      "category": "Electronics",
+      "accuracy": 0.92,
+      "review_keywords": [
+        "typing",
+        "feedback",
+        "messages",
+        "portable",
+        "mobile",
+        "reviews"
+      ],
+      "context_keywords": [
+        "detailed feedback",
+        "long messages",
+        "restaurant",
+        "on-the-go"
+      ],
+      "exclusion_keywords": [
+        "office",
+        "desktop"
+      ],
+      "why": "Active users who provide detailed feedback and messages through mobile devices"
+    },
+    {
+      "name": "Portable Phone Charger Power Bank 10000mAh",
+      "category": "Electronics",
+      "accuracy": 0.91,
+      "review_keywords": [
+        "posting",
+        "battery",
+        "all-day",
+        "charging",
+        "phone",
+        "portable"
+      ],
+      "context_keywords": [
+        "heavy usage",
+        "constant posting",
+        "check-ins",
+        "stories"
+      ],
+      "exclusion_keywords": [
+        "travel",
+        "emergency"
+      ],
+      "why": "Heavy social media users who drain battery from constant posting and app usage"
+    },
+    {
+      "name": "Blue Light Blocking Glasses for Screen Time",
+      "category": "Health_and_Household",
+      "accuracy": 0.9,
+      "review_keywords": [
+        "screen-time",
+        "eyes",
+        "posting",
+        "comfort",
+        "digital",
+        "strain"
+      ],
+      "context_keywords": [
+        "all-day posting",
+        "app usage",
+        "messaging",
+        "content creation"
+      ],
+      "exclusion_keywords": [
+        "work",
+        "gaming"
+      ],
+      "why": "Heavy app users who spend extensive time creating content and messaging"
+    },
+    {
+      "name": "Smartphone Camera Lens Attachment Kit",
+      "category": "Electronics",
+      "accuracy": 0.89,
+      "review_keywords": [
+        "photos",
+        "content",
+        "posting",
+        "quality",
+        "lens",
+        "mobile"
+      ],
+      "context_keywords": [
+        "food photos",
+        "dining",
+        "stories",
+        "check-ins"
+      ],
+      "exclusion_keywords": [
+        "professional",
+        "DSLR"
+      ],
+      "why": "Content creators who focus on mobile photography for social posts, especially food content"
+    },
+    {
+      "name": "Adjustable Phone Tripod for Content Creation",
+      "category": "Electronics",
+      "accuracy": 0.88,
+      "review_keywords": [
+        "content",
+        "posting",
+        "tripod",
+        "phone",
+        "videos",
+        "stable"
+      ],
+      "context_keywords": [
+        "dining videos",
+        "stories",
+        "hands-free",
+        "restaurant"
+      ],
+      "exclusion_keywords": [
+        "photography",
+        "professional"
+      ],
+      "why": "Content creators who film themselves and need hands-free posting, especially during meals"
+    },
+    {
+      "name": "Voice-to-Text Bluetooth Microphone for Mobile",
+      "category": "Electronics",
+      "accuracy": 0.87,
+      "review_keywords": [
+        "voice",
+        "messages",
+        "feedback",
+        "hands-free",
+        "typing",
+        "microphone"
+      ],
+      "context_keywords": [
+        "while eating",
+        "quick feedback",
+        "messaging",
+        "dining"
+      ],
+      "exclusion_keywords": [
+        "calls",
+        "meetings"
+      ],
+      "why": "Active messengers who provide feedback and communicate while multitasking"
+    },
+    {
+      "name": "Finger Sleeve Gaming Gloves for Touch Screens",
+      "category": "Electronics",
+      "accuracy": 0.86,
+      "review_keywords": [
+        "touch",
+        "posting",
+        "smooth",
+        "fingers",
+        "screen",
+        "grip"
+      ],
+      "context_keywords": [
+        "frequent posting",
+        "app usage",
+        "messaging",
+        "content"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "PUBG"
+      ],
+      "why": "Heavy touch screen users who post frequently and want smoother interaction"
+    },
+    {
+      "name": "Ergonomic Phone Case with Wrist Strap",
+      "category": "Cell_Phones_and_Accessories",
+      "accuracy": 0.85,
+      "review_keywords": [
+        "wrist",
+        "comfort",
+        "posting",
+        "grip",
+        "long-use",
+        "strain"
+      ],
+      "context_keywords": [
+        "heavy usage",
+        "constant messaging",
+        "feedback",
+        "all-day"
+      ],
+      "exclusion_keywords": [
+        "protection",
+        "drops"
+      ],
+      "why": "Heavy phone users who experience wrist strain from constant posting and messaging"
+    },
+    {
+      "name": "Clip-On Phone Fan for Overheating Prevention",
+      "category": "Electronics",
+      "accuracy": 0.84,
+      "review_keywords": [
+        "overheating",
+        "fan",
+        "posting",
+        "hot",
+        "phone",
+        "cooling"
+      ],
+      "context_keywords": [
+        "heavy usage",
+        "constant posting",
+        "app strain",
+        "battery heat"
+      ],
+      "exclusion_keywords": [
+        "gaming",
+        "charging"
+      ],
+      "why": "Heavy app users whose phones overheat from constant posting and content creation"
+    },
+    {
+      "name": "Anti-Fatigue Thumb Sleeves for Phone Use",
+      "category": "Health_and_Household",
+      "accuracy": 0.83,
+      "review_keywords": [
+        "thumb",
+        "fatigue",
+        "typing",
+        "posting",
+        "pain",
+        "relief"
+      ],
+      "context_keywords": [
+        "constant messaging",
+        "heavy posting",
+        "feedback",
+        "texting"
+      ],
+      "exclusion_keywords": [
+        "injury",
+        "medical"
+      ],
+      "why": "Heavy messagers and posters who develop thumb fatigue from constant mobile interaction"
+    },
+    {
+      "name": "Swivel Car Phone Mount for Content Creation",
+      "category": "Automotive",
+      "accuracy": 0.82,
+      "review_keywords": [
+        "car",
+        "mount",
+        "posting",
+        "content",
+        "swivel",
+        "phone"
+      ],
+      "context_keywords": [
+        "drive-through",
+        "car dining",
+        "check-ins",
+        "stories"
+      ],
+      "exclusion_keywords": [
+        "navigation",
+        "GPS"
+      ],
+      "why": "Content creators who post from various locations including cars and drive-through dining"
+    },
+    {
+      "name": "Reflective Phone Screen Protector for Outdoor Use",
+      "category": "Cell_Phones_and_Accessories",
+      "accuracy": 0.81,
+      "review_keywords": [
+        "outdoor",
+        "screen",
+        "sunlight",
+        "posting",
+        "visibility",
+        "glare"
+      ],
+      "context_keywords": [
+        "outdoor dining",
+        "patio posts",
+        "bright light",
+        "restaurant"
+      ],
+      "exclusion_keywords": [
+        "hiking",
+        "sports"
+      ],
+      "why": "Active posters who create content in various lighting conditions, especially outdoor dining"
+    },
+    {
+      "name": "Waterproof Phone Pouch for Dining Protection",
+      "category": "Cell_Phones_and_Accessories",
+      "accuracy": 0.8,
+      "review_keywords": [
+        "waterproof",
+        "protection",
+        "dining",
+        "spills",
+        "food",
+        "touch"
+      ],
+      "context_keywords": [
+        "while eating",
+        "restaurant",
+        "messy food",
+        "posting"
+      ],
+      "exclusion_keywords": [
+        "swimming",
+        "beach"
+      ],
+      "why": "Active posters who use phones while eating and need protection from food spills"
+    },
+    {
+      "name": "Flexible Phone Holder Neck Mount for Hands-Free Use",
+      "category": "Electronics",
+      "accuracy": 0.79,
+      "review_keywords": [
+        "hands-free",
+        "neck",
+        "posting",
+        "flexible",
+        "mount",
+        "content"
+      ],
+      "context_keywords": [
+        "while eating",
+        "dining",
+        "hands-free posting",
+        "multitask"
+      ],
+      "exclusion_keywords": [
+        "reading",
+        "movies"
+      ],
+      "why": "Content creators who want to post and message hands-free while dining or multitasking"
+    },
+    {
+      "name": "Phone Camera Remote Shutter for Self-Content",
+      "category": "Electronics",
+      "accuracy": 0.78,
+      "review_keywords": [
+        "remote",
+        "shutter",
+        "selfie",
+        "content",
+        "posts",
+        "photos"
+      ],
+      "context_keywords": [
+        "dining selfies",
+        "restaurant posts",
+        "food content",
+        "stories"
+      ],
+      "exclusion_keywords": [
+        "group photos",
+        "family"
+      ],
+      "why": "Solo content creators who frequently post self-content, especially dining and lifestyle posts"
+    }
+  ],
+  "subreddits": [
+    {
+      "name": "Instagram",
+      "relevance": 0.95,
+      "member_type": "85% active content creators and heavy app users",
+      "data_value": "Real-time feedback on posting issues, app bugs, and usage patterns",
+      "why": "Primary community for people who live on social apps and provide constant feedback"
+    },
+    {
+      "name": "socialmedia",
+      "relevance": 0.93,
+      "member_type": "80% content creators and social media managers",
+      "data_value": "Insights into posting behaviors, platform issues, and user experience feedback",
+      "why": "Hub for people whose primary activity is creating and managing social content"
+    },
+    {
+      "name": "TikTok",
+      "relevance": 0.92,
+      "member_type": "90% active creators and heavy users",
+      "data_value": "Real usage experiences, posting challenges, and informal feedback patterns",
+      "why": "Community of people who constantly create and interact with short-form content"
+    },
+    {
+      "name": "InstagramMarketing",
+      "relevance": 0.9,
+      "member_type": "75% content creators and influencers",
+      "data_value": "Practical posting experiences and real-world app usage issues",
+      "why": "Users focused on content performance and constant platform interaction"
+    },
+    {
+      "name": "ContentCreators",
+      "relevance": 0.89,
+      "member_type": "85% active creators across platforms",
+      "data_value": "Multi-platform usage experiences and informal feedback on tools",
+      "why": "People whose main activity is creating and posting content across various apps"
+    },
+    {
+      "name": "foodporn",
+      "relevance": 0.87,
+      "member_type": "70% people who post food content regularly",
+      "data_value": "Insights into mobile posting behavior, especially while dining",
+      "why": "Community of people who frequently post food content in real-time dining situations"
+    },
+    {
+      "name": "WeWantPlates",
+      "relevance": 0.85,
+      "member_type": "80% people who post dining experiences",
+      "data_value": "Real-time posting behavior from restaurants and dining experiences",
+      "why": "Users who actively document and share their dining experiences through posts"
+    },
+    {
+      "name": "mildlyinfuriating",
+      "relevance": 0.83,
+      "member_type": "60% heavy app users who encounter daily tech issues",
+      "data_value": "Informal complaints about app functionality and user experience issues",
+      "why": "Platform where heavy users vent about app problems and usage frustrations"
+    },
+    {
+      "name": "YoutubeCreators",
+      "relevance": 0.82,
+      "member_type": "85% active video content creators",
+      "data_value": "Content creation workflows and platform interaction experiences",
+      "why": "Community of creators who provide informal feedback through regular platform use"
+    },
+    {
+      "name": "mobilephotography",
+      "relevance": 0.8,
+      "member_type": "75% people who primarily create content via mobile",
+      "data_value": "Mobile-first content creation experiences and app usage patterns",
+      "why": "Users focused on creating content through mobile apps and sharing experiences"
+    },
+    {
+      "name": "InfluencerMarketing",
+      "relevance": 0.78,
+      "member_type": "70% active influencers and content creators",
+      "data_value": "Professional content creation experiences and platform feedback",
+      "why": "Community of people whose livelihood depends on constant platform interaction"
+    },
+    {
+      "name": "digitalmarketing",
+      "relevance": 0.76,
+      "member_type": "65% social media managers and creators",
+      "data_value": "Professional insights into social platform usage and effectiveness",
+      "why": "Users who manage multiple accounts and provide detailed platform feedback"
+    },
+    {
+      "name": "Android",
+      "relevance": 0.74,
+      "member_type": "60% heavy mobile app users",
+      "data_value": "Mobile app usage experiences and informal feedback on functionality",
+      "why": "Community where heavy mobile users discuss app performance and issues"
+    },
+    {
+      "name": "iphone",
+      "relevance": 0.72,
+      "member_type": "60% heavy mobile users and content creators",
+      "data_value": "iOS app experiences and mobile content creation feedback",
+      "why": "Users who push mobile devices to limits through constant content creation"
+    },
+    {
+      "name": "SmallYTChannel",
+      "relevance": 0.7,
+      "member_type": "80% emerging content creators",
+      "data_value": "Grassroots creator experiences and informal platform feedback",
+      "why": "New creators who are learning platforms and actively sharing their experiences"
+    }
+  ],
+  "demographic_profile": {
+    "core_keywords": [
+      "posting",
+      "content",
+      "check-in",
+      "stories",
+      "messaging",
+      "feedback",
+      "app",
+      "while dining",
+      "real-time",
+      "mobile",
+      "streaming",
+      "engagement",
+      "followers",
+      "platform",
+      "update"
+    ],
+    "exclusion_keywords": [
+      "professional",
+      "corporate",
+      "enterprise",
+      "admin",
+      "setup",
+      "technical",
+      "developer",
+      "business"
+    ],
+    "age_range": "18-35",
+    "primary_motivations": [
+      "real-time content sharing",
+      "seamless app experience",
+      "mobile-first functionality",
+      "authentic engagement"
+    ],
+    "summary": "This demographic consists of active content creators and heavy social media users who live on their phones and constantly interact with apps throughout their daily activities, including while dining and socializing. They prioritize seamless, mobile-first experiences and provide feedback through natural usage rather than formal channels, often sharing issues as they encounter them in real-time. They are frustrated by app crashes during peak posting times, poor mobile optimization, and any barriers to quick, spontaneous content creation and sharing."
+  }
+}

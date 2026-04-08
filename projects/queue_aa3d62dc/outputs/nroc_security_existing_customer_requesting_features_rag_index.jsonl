@@ -1,0 +1,80 @@
+{"review_id": "cluster_0_b0_pp0", "trait_label": "Reliability Friction", "text": "Frustration with buggy, unreliable software that corrupts data", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp1", "trait_label": "Reliability Friction", "text": "Annoyance at forced, unnecessary upgrades with no real value", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_pp2", "trait_label": "Reliability Friction", "text": "Poor customer support and difficulty getting help", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_do0", "trait_label": "Reliability Friction", "text": "Reliable, stable software that doesn't corrupt data or crash", "tone": "frustrated"}
+{"review_id": "cluster_0_b0_do1", "trait_label": "Reliability Friction", "text": "Simple, automated reports that land in the inbox and are actually used", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp0", "trait_label": "Reliability Friction", "text": "Frequent technical issues requiring rebooting of the system (e.g., Outlook integration problems)", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp1", "trait_label": "Reliability Friction", "text": "Features that do not work as advertised or are buggy (e.g., antivirus add-ons causing problems)", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_pp2", "trait_label": "Reliability Friction", "text": "Poor customer support and unhelpful service interactions", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_do0", "trait_label": "Reliability Friction", "text": "Seamless integration with existing tools (e.g., email clients, other software)", "tone": "frustrated"}
+{"review_id": "cluster_0_b1_do1", "trait_label": "Reliability Friction", "text": "Reliable performance without frequent crashes or bugs", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp0", "trait_label": "Reliability Friction", "text": "Software instability and frequent crashes", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp1", "trait_label": "Reliability Friction", "text": "Ineffective customer support with long hold times and unresolved issues", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_pp2", "trait_label": "Reliability Friction", "text": "Software updates breaking existing databases and workflows", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_do0", "trait_label": "Reliability Friction", "text": "Stable, predictable, and crash-free software performance", "tone": "frustrated"}
+{"review_id": "cluster_0_b2_do1", "trait_label": "Reliability Friction", "text": "Software that is responsive and works well with specific hardware (e.g., Wacom tablets)", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp0", "trait_label": "Reliability Friction", "text": "Frustration with outdated software lacking promised new features", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp1", "trait_label": "Reliability Friction", "text": "Anger over intrusive app permissions and data privacy concerns", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_pp2", "trait_label": "Reliability Friction", "text": "Irritation with unclear pricing and hidden costs (ads in paid apps)", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_do0", "trait_label": "Reliability Friction", "text": "Simple, intuitive tools with minimal learning curve", "tone": "frustrated"}
+{"review_id": "cluster_0_b3_do1", "trait_label": "Reliability Friction", "text": "Clean, efficient data integration and transformation without extra tools", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp0", "trait_label": "Reliability Friction", "text": "Frequent software crashes and instability", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp1", "trait_label": "Reliability Friction", "text": "Poor user interface causing eyestrain and headaches", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_pp2", "trait_label": "Reliability Friction", "text": "Limited customization and personalization options", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_do0", "trait_label": "Reliability Friction", "text": "Stable, crash-free software experience", "tone": "frustrated"}
+{"review_id": "cluster_0_b4_do1", "trait_label": "Reliability Friction", "text": "Easy-to-use, intuitive interface", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp0", "trait_label": "Reliability and Value Demand", "text": "Lack of visibility into operational data to diagnose and solve problems", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp1", "trait_label": "Reliability and Value Demand", "text": "Difficulty visualizing complex scheduling or planting timelines", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_pp2", "trait_label": "Reliability and Value Demand", "text": "Poor system performance, bugs, and technical failures causing data loss or crashes", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_do0", "trait_label": "Reliability and Value Demand", "text": "Improve team efficiency and performance by providing clear, actionable data", "tone": "frustrated"}
+{"review_id": "cluster_1_b0_do1", "trait_label": "Reliability and Value Demand", "text": "Automate manual reporting tasks to save time and reduce labor", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp0", "trait_label": "Reliability and Value Demand", "text": "Wasted time and effort building dashboards that are never used", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp1", "trait_label": "Reliability and Value Demand", "text": "Difficulty justifying the value of dashboard work to stakeholders", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_pp2", "trait_label": "Reliability and Value Demand", "text": "Miscommunication about real needs vs. requested solutions", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_do0", "trait_label": "Reliability and Value Demand", "text": "Automate repetitive manual reporting to save time", "tone": "frustrated"}
+{"review_id": "cluster_1_b1_do1", "trait_label": "Reliability and Value Demand", "text": "Gain financial clarity and control over business operations", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp0", "trait_label": "Reliability and Value Demand", "text": "Gaps in current systems causing operational headaches (e.g., data integration issues between HubSpot, Stripe, QuickBooks)", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp1", "trait_label": "Reliability and Value Demand", "text": "Time-consuming manual processes (e.g., driving to fix tech issues, building custom pipelines, navigating data mismatches)", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_pp2", "trait_label": "Reliability and Value Demand", "text": "Tools that lack essential features for team improvement (e.g., missing reports, poor mobile integration)", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_do0", "trait_label": "Reliability and Value Demand", "text": "Streamline operations by integrating multiple data sources into a single, reliable system", "tone": "frustrated"}
+{"review_id": "cluster_1_b2_do1", "trait_label": "Reliability and Value Demand", "text": "Improve team communication and project coordination with easy-to-use tools", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp0", "trait_label": "Reliability and Value Demand", "text": "Difficult or cumbersome workflow that breaks with small variations", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp1", "trait_label": "Reliability and Value Demand", "text": "Inability to modify billing after invoice receipt (e.g., adding shipping charges)", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_pp2", "trait_label": "Reliability and Value Demand", "text": "Poor integration or compatibility issues with existing software/drivers", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_do0", "trait_label": "Reliability and Value Demand", "text": "Ability to access files remotely with minimal lag", "tone": "frustrated"}
+{"review_id": "cluster_1_b3_do1", "trait_label": "Reliability and Value Demand", "text": "Improve team operations and data-driven decision-making", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp0", "trait_label": "Reliability and Value Demand", "text": "Frustration with software being incomplete or buggy, requiring external verification and sanity checks.", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp1", "trait_label": "Reliability and Value Demand", "text": "Annoyance at poor customer support and automated systems blocking access to human help.", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_pp2", "trait_label": "Reliability and Value Demand", "text": "Irritation with cumbersome or unintuitive workflows (e.g., duplicate form entry, lack of deletion options).", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_do0", "trait_label": "Reliability and Value Demand", "text": "Accurate, reliable tax calculations and forms without manual external checks.", "tone": "frustrated"}
+{"review_id": "cluster_1_b4_do1", "trait_label": "Reliability and Value Demand", "text": "Easy, intuitive user interfaces that simplify complex tasks (e.g., tax-exempt income handling).", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp0", "trait_label": "Core Reliability Demand", "text": "App is buggy and glitchy, requiring frequent restarts to function", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp1", "trait_label": "Core Reliability Demand", "text": "Slow performance and long loading times even with good internet", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_pp2", "trait_label": "Core Reliability Demand", "text": "Critical tools/features fail after updates (e.g., saving, color/font tools)", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_do0", "trait_label": "Core Reliability Demand", "text": "Stable, reliable app performance without crashes or glitches", "tone": "frustrated"}
+{"review_id": "cluster_2_b0_do1", "trait_label": "Core Reliability Demand", "text": "Fast loading and smooth operation across all devices", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp0", "trait_label": "Core Reliability Demand", "text": "Persistent technical issues: messages fail to send, app hangs, lags, calls not disconnecting, connection instability.", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp1", "trait_label": "Core Reliability Demand", "text": "Notifications not working consistently on mobile, especially Android, causing missed messages.", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_pp2", "trait_label": "Core Reliability Demand", "text": "App updates introduce new bugs, break existing features, and make the app unstable or unusable.", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_do0", "trait_label": "Core Reliability Demand", "text": "Reliable, stable app performance with consistent notifications and message delivery.", "tone": "frustrated"}
+{"review_id": "cluster_2_b1_do1", "trait_label": "Core Reliability Demand", "text": "Seamless functionality parity between mobile and desktop/web versions.", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp0", "trait_label": "Core Reliability Demand", "text": "Unreliable message delivery and sending", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp1", "trait_label": "Core Reliability Demand", "text": "Notification failures (missed, delayed, or blank)", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_pp2", "trait_label": "Core Reliability Demand", "text": "App crashes and instability", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_do0", "trait_label": "Core Reliability Demand", "text": "Reliable, real-time messaging with no send/delivery failures", "tone": "frustrated"}
+{"review_id": "cluster_2_b2_do1", "trait_label": "Core Reliability Demand", "text": "Consistent and dependable notifications across devices", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp0", "trait_label": "Core Reliability Demand", "text": "App is slow to load data and perform actions", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp1", "trait_label": "Core Reliability Demand", "text": "App frequently crashes or becomes unresponsive after updates", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_pp2", "trait_label": "Core Reliability Demand", "text": "Missing critical features available in the browser/desktop version (e.g., security tab, group customization, domain info)", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_do0", "trait_label": "Core Reliability Demand", "text": "Perform quick admin tasks on the go (e.g., password resets, user blocks)", "tone": "frustrated"}
+{"review_id": "cluster_2_b3_do1", "trait_label": "Core Reliability Demand", "text": "Have full feature parity with the web admin portal", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp0", "trait_label": "Core Reliability Demand", "text": "App is buggy and crashes frequently", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp1", "trait_label": "Core Reliability Demand", "text": "Features are unreliable or don't work as expected (e.g., outline tool blank, erase tool malfunctioning)", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_pp2", "trait_label": "Core Reliability Demand", "text": "Slow performance and long loading times", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_do0", "trait_label": "Core Reliability Demand", "text": "Stable, bug-free app experience", "tone": "frustrated"}
+{"review_id": "cluster_2_b4_do1", "trait_label": "Core Reliability Demand", "text": "Reliable feature execution (tools work as intended)", "tone": "frustrated"}
+{"review_id": "monologue_3a048d", "trait_label": "Inner Monologue", "text": "They're asking for budget approval for this feature enhancement, but I need to see a detailed implementation plan. We can't afford another situation where promised functionality doesn't work with our existing setup.", "tone": "authentic_voice"}
+{"review_id": "monologue_9a3f7d", "trait_label": "Inner Monologue", "text": "This testimonial sounds good, but I need to see actual case studies from organizations similar to ours. We've been burned by vendors who overpromise on integration capabilities.", "tone": "authentic_voice"}
+{"review_id": "monologue_7f045b", "trait_label": "Inner Monologue", "text": "Why is it so difficult to find the specific technical requirements for this feature? I shouldn't have to schedule a sales call just to get basic implementation details.", "tone": "authentic_voice"}
+{"review_id": "monologue_6e90a6", "trait_label": "Inner Monologue", "text": "Another required field that doesn't make sense for our use case. I'm not giving them access to data they don't need, especially when their privacy policy is buried behind three clicks.", "tone": "authentic_voice"}
+{"review_id": "monologue_0487ac", "trait_label": "Inner Monologue", "text": "Finally, a vendor that actually understands our workflow challenges. They've documented exactly how this feature addresses our mobile collaboration gap, and they're offering a pilot program to test integration.", "tone": "authentic_voice"}

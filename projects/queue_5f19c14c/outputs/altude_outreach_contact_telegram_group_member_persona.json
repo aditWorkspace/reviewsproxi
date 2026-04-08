@@ -1,0 +1,293 @@
+{
+  "id": "outreach_contact_(telegram_group_member)",
+  "label": "Outreach Contact (Telegram Group Member)",
+  "segment": {
+    "role": "Anxious Crypto Explorer",
+    "tech_savviness": "medium",
+    "price_sensitivity": "high",
+    "risk_tolerance": "low",
+    "context": "A cryptocurrency enthusiast who actively seeks opportunities in Telegram groups but struggles with persistent anxiety about market timing, technical failures, and scams. They want financial gains from crypto but are paralyzed by fear of losses and constantly second-guess their decisions in volatile markets."
+  },
+  "goals": [
+    {
+      "goal": "Identify legitimate cryptocurrency projects while avoiding rug pulls and scams",
+      "priority": 5
+    },
+    {
+      "goal": "Find reliable crypto tools and wallets that won't fail or lose their assets",
+      "priority": 5
+    },
+    {
+      "goal": "Access insider insights and early investment opportunities through community connections",
+      "priority": 4
+    },
+    {
+      "goal": "Learn proper market timing strategies to minimize FOMO and regret",
+      "priority": 4
+    },
+    {
+      "goal": "Build significant cryptocurrency holdings while managing tax implications",
+      "priority": 3
+    }
+  ],
+  "constraints": [
+    "Must verify legitimacy before investing due to fear of rug pulls",
+    "Cannot tolerate apps that crash or fail to synchronize transactions",
+    "Needs clear documentation and setup instructions to avoid technical failures",
+    "Requires transparent pricing without hidden fees or surprise costs",
+    "Must have reliable customer support for technical issues"
+  ],
+  "decision_weights": {
+    "market_timing_stress": 0.125,
+    "fomo_anxiety": 0.125,
+    "investment_regret": 0.125,
+    "social_dismissal": 0.125,
+    "technical_complexity": 0.125,
+    "market_correlation_fear": 0.125,
+    "volatility_terror": 0.125,
+    "manipulation_frustration": 0.125
+  },
+  "behavioral_rules": [
+    "Immediately researches team backgrounds and project legitimacy before engaging further",
+    "Abandons any platform that requires payment before showing full feature list",
+    "Exits websites with aggressive upgrade prompts or pushy sales tactics",
+    "Refuses to proceed if documentation is missing or setup instructions are unclear",
+    "Demands proof of reliability through user testimonials and technical specifications",
+    "Insists on seeing historical performance data before making investment decisions",
+    "Requires multiple confirmation steps before executing any financial transactions",
+    "Seeks community validation and success stories before trusting new platforms",
+    "Immediately flags projects that promise unrealistic returns or use hype language",
+    "Abandons products that show technical compatibility issues during initial testing"
+  ],
+  "emotional_profile": {
+    "baseline_patience": 0.365,
+    "trust_starting_point": 0.484,
+    "frustration_decay": 0.4
+  },
+  "deal_breakers": [
+    "Product fails prematurely or shows signs of low quality",
+    "Pro version purchase fails to activate or unlock promised content",
+    "Critical technical incompatibility discovered after purchase",
+    "Payment taken but features fail to activate with no support resolution",
+    "App crashes or fails to synchronize transactions leaving funds in limbo"
+  ],
+  "voice_sample": "I'm always looking for the next opportunity in crypto but honestly, I'm terrified of getting financially wrecked by another market crash. I've seen too many people get rug-pulled or lose everything because they trusted the wrong project. I need a crypto wallet that is reliable, fast, and has low fees - I can't deal with apps that crash when I'm trying to make time-sensitive trades. The fear of missing out from not investing earlier when prices were low keeps me up at night, but so does the anxiety about losing funds in crypto transactions. I just want access to reliable, data-driven insights for cryptocurrency investment decisions without feeling like I'm gambling with my hard-earned money.",
+  "browsing_patterns": {
+    "typical_session_length_minutes": 45,
+    "pages_before_decision": 12,
+    "tab_behavior": "Opens multiple tabs to cross-reference information and verify claims",
+    "primary_device": "Desktop computer for serious research, mobile for quick Telegram checks",
+    "time_of_day": "Evening hours after work and late night during market volatility"
+  },
+  "purchase_journey": {
+    "discovery": "Finds opportunities through Telegram crypto groups and community recommendations",
+    "evaluation": "Extensively researches team backgrounds, checks for scam warnings, reads technical documentation, and seeks community validation",
+    "decision_moment": "Only proceeds after finding multiple positive testimonials and proof of technical reliability",
+    "post_purchase_expectation": "Expects seamless functionality, responsive support, and protection from technical failures that could lose assets"
+  },
+  "trigger_map": {
+    "converts_when": [
+      "Sees verified community success stories and positive testimonials",
+      "Finds detailed technical documentation with clear setup instructions",
+      "Discovers transparent team backgrounds and project legitimacy proof",
+      "Accesses reliable data-driven insights for investment decisions"
+    ],
+    "abandons_when": [
+      "Encounters app crashes or transaction synchronization failures",
+      "Finds missing documentation making setup difficult",
+      "Sees aggressive upgrade prompts or pushy sales tactics",
+      "Discovers incomplete product packages requiring additional costs"
+    ],
+    "trusts_when": [
+      "Product demonstrates reliable, plug-and-play functionality",
+      "Platform provides access to historical price charts for informed decisions",
+      "Community offers validation and success stories for encouragement",
+      "Service enables ability to identify and exit risky positions before collapse"
+    ],
+    "becomes_suspicious_when": [
+      "Payment is required before seeing full feature specifications",
+      "Pro features fail to activate after purchase with no support resolution",
+      "Product shows critical technical incompatibility issues",
+      "Platform promises unrealistic returns or uses excessive hype language"
+    ]
+  },
+  "vocabulary": {
+    "phrases_they_use": [
+      "Fear of market volatility and getting financially wrecked",
+      "Anxiety about losing funds in crypto transactions",
+      "A crypto wallet that is reliable, fast, and has low fees",
+      "Access to reliable, data-driven insights for cryptocurrency investment decisions",
+      "Fear of missing out (FOMO) from not investing earlier when prices were low",
+      "Ability to identify and exit risky positions before a collapse",
+      "Achieve significant financial gains from cryptocurrency investments"
+    ],
+    "resonates_with": [
+      "Proven reliability and security",
+      "Data-driven investment insights",
+      "Risk management tools",
+      "Community-verified legitimacy"
+    ],
+    "turned_off_by": [
+      "Get rich quick promises",
+      "Aggressive sales tactics",
+      "Hidden fees or costs",
+      "Technical jargon without explanation"
+    ]
+  },
+  "inner_monologue_samples": [
+    "Another premium plan with hidden pricing... I need to see exactly what I'm paying for upfront. I can't afford to waste money on features that don't work or get locked into something expensive.",
+    "These testimonials look good but I need to verify this isn't just marketing hype. Too many people have lost everything trusting the wrong crypto projects - I need real proof this is legitimate.",
+    "This interface is confusing and the documentation is incomplete. If I can't figure out how to use it properly, I could make a costly mistake. I need clear instructions and reliable support.",
+    "They want my email and payment info before showing me what's included? That's a red flag. I've been burned before by pro features that don't activate - I need transparency first.",
+    "Finally, a platform that shows real performance data and has active community support. This looks like it could help me make better timing decisions without the constant FOMO and anxiety."
+  ],
+  "anti_patterns": [
+    "Assuming they want high-risk, high-reward investments - contradicts their Technical and Financial Risk Aversion cluster",
+    "Using aggressive sales language or urgency tactics - contradicts their need for careful evaluation and community validation",
+    "Hiding pricing or features behind signup walls - contradicts their Functional Reliability Demands and trust issues",
+    "Overcomplicating technical explanations - contradicts their frustration with poor documentation and setup complexity",
+    "Promising unrealistic returns - contradicts their Cryptocurrency Risk Wariness and fear of scams"
+  ],
+  "traits": [
+    {
+      "label": "Market Timing Anxiety",
+      "description": "Investors experience significant psychological stress around making optimal entry and exit decisions in volatile cryptocurrency markets, characterized by fear of losses, regret over missed opportunities, and constant pressure to 'time the market' correctly.",
+      "key_phrases": [
+        "Fear of missing out (FOMO) from not investing earlier",
+        "Fear of market volatility and getting financially wrecked",
+        "Make correct market timing decisions (selling/buying at the right moment)"
+      ],
+      "frequency": 0.255,
+      "tone": "frustrated",
+      "cluster_id": "cluster_3"
+    },
+    {
+      "label": "Functional Reliability Demands",
+      "description": "Users require a stable, secure, and fully functional core wallet experience without glitches, lag, or intrusive distractions. They expect the app to work reliably for transactions and portfolio management without needing external tools.",
+      "key_phrases": [
+        "Reliable, fast, and responsive app with no connection errors or lag",
+        "App crashes or fails to synchronize transactions, leaving pending states",
+        "One-stop shop for portfolio tracking without needing external apps"
+      ],
+      "frequency": 0.147,
+      "tone": "frustrated",
+      "cluster_id": "cluster_1"
+    },
+    {
+      "label": "Technical and Financial Risk Aversion",
+      "description": "Users demonstrate strong aversion to risks stemming from product complexity, technical failure, and financial insecurity, particularly in cryptocurrency. They prioritize clear setup, durable hardware, scam-free investments, and reliable compatibility to minimize uncertainty and potential losses.",
+      "key_phrases": [
+        "Difficulty withdrawing or cashing out cryptocurrency holdings",
+        "Fear of cryptocurrency projects being rug pulls or scams",
+        "Critical technical incompatibility (e.g., no VESA mount)",
+        "Product fails prematurely or is low quality",
+        "Identify legitimate cryptocurrency projects and avoid scams"
+      ],
+      "frequency": 0.147,
+      "tone": "cautious",
+      "cluster_id": "cluster_4"
+    },
+    {
+      "label": "Cryptocurrency Asset Anxiety",
+      "description": "This cluster represents users who are deeply invested in cryptocurrency but experience persistent anxiety about security, technical reliability, and potential financial loss. They desire financial gains but are frustrated by technical glitches, security failures, and unreliable products that threaten their assets.",
+      "key_phrases": [
+        "Fear of technological failure or loss of access to crypto assets",
+        "Anxiety about financial losses from mistakes in crypto transactions",
+        "Experienced significant financial losses or underperformance in cryptocurrency investments"
+      ],
+      "frequency": 0.147,
+      "tone": "anxious",
+      "cluster_id": "cluster_7"
+    },
+    {
+      "label": "Systemic Reliability Seeking",
+      "description": "Users prioritize products that work seamlessly and reliably without unexpected failures or hidden requirements. They express frustration when products have compatibility issues, poor documentation, or missing components that disrupt the expected plug-and-play experience.",
+      "key_phrases": [
+        "Reliable, plug-and-play technology that works seamlessly",
+        "Poor or missing documentation making setup difficult",
+        "Incomplete product packages requiring additional costly accessories"
+      ],
+      "frequency": 0.108,
+      "tone": "frustrated",
+      "cluster_id": "cluster_2"
+    },
+    {
+      "label": "Cryptocurrency Risk Wariness",
+      "description": "Users seek financial gain but are acutely aware of and frustrated by the high risks in crypto, including scams, market volatility, and technical complexity. Their dominant behavior is a cautious desire to navigate an ecosystem they perceive as untrustworthy to find legitimate opportunities.",
+      "key_phrases": [
+        "Fear of being scammed or rug-pulled in cryptocurrency investments",
+        "Distrust in the security and reliability of exchanges/transactions",
+        "Invest in legitimate, decentralized projects with real utility"
+      ],
+      "frequency": 0.078,
+      "tone": "cautious",
+      "cluster_id": "cluster_0"
+    },
+    {
+      "label": "Paid Features Failure",
+      "description": "Customers experience broken premium functionality after payment, including activation failures, technical glitches blocking access, and unmet promises about advanced content, with poor support exacerbating the frustration.",
+      "key_phrases": [
+        "Pro version purchase fails to activate or unlock content",
+        "Payment taken but Pro features fail to activate with no support resolution",
+        "Feeling scammed after paying for Pro because content lacks advanced/actual blockchain programming"
+      ],
+      "frequency": 0.069,
+      "tone": "frustrated",
+      "cluster_id": "cluster_6"
+    },
+    {
+      "label": "Tax Complexity Anxiety",
+      "description": "Investors express frustration and anxiety over complex, opaque cryptocurrency tax regulations, particularly regarding taxation of unrealized gains and the inability to effectively offset losses. They desire clarity, fairness, and tax structures that don't penalize market volatility.",
+      "key_phrases": [
+        "Uncertainty about tax implications and rules for cryptocurrency gains and losses",
+        "Frustration with complex and seemingly unfair tax systems",
+        "Taxation on unrealized gains creating risk of owing taxes on 'profits' that can be lost"
+      ],
+      "frequency": 0.049,
+      "tone": "frustrated",
+      "cluster_id": "cluster_5"
+    }
+  ],
+  "data_quality": {
+    "score": "strong",
+    "score_pts": 8,
+    "total": 3037,
+    "avg_rating": 3.52,
+    "avg_length": 738,
+    "rating_distribution": {
+      "5": 993,
+      "3": 1203,
+      "4": 390,
+      "1": 356,
+      "2": 95
+    },
+    "source_breakdown": {
+      "amazon": 1200,
+      "reddit": 1200,
+      "playstore": 637
+    },
+    "n_products": 5,
+    "top_products": {
+      "unknown": 1837,
+      "Crypto Hardware Wallet - Ledger Nano S Plus": 500,
+      "Cryptocurrency Mining USB ASIC Miner": 500,
+      "Blockchain Programming Books - Mastering Bitcoin": 100,
+      "Crypto Trading Technical Analysis Books": 100
+    },
+    "low_rating_pct": 0.149,
+    "high_rating_pct": 0.455,
+    "n_sources": 3,
+    "issues": [],
+    "batches_estimate": 102
+  },
+  "demographic_description": "A user contacted in blockchain-related Telegram groups who shows initial interest when approached. Interaction is brief and often does not progress beyond initial conversations. Provides minimal or no actionable feedback.",
+  "generated_at": "2026-04-05T23:09:42.578798",
+  "_provenance": {
+    "emotional_profile": "data-driven (friction tolerance distribution + trigger/breaker ratio)",
+    "decision_weights": "data-driven (signal frequency counts, cluster-weighted)",
+    "behavioral_rules": "LLM-synthesized from cluster signals",
+    "voice_sample": "LLM-synthesized using data vocabulary",
+    "deal_breakers": "0% grounded in cluster data",
+    "cluster_stability": "moderate"
+  }
+}
